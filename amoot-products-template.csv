@@ -1,2 +1,2 @@
-sku,name,brand,category,machine_model,description,price,stock
-CAT-EXAMPLE-01,نام قطعه,Caterpillar,قطعات موتور,320D,توضیحات,0,0
+sku,name,brand,category,machine_model,description,price,stock,image_url
+CAT-EXAMPLE-01,نام قطعه,Caterpillar,قطعات موتور,320D,توضیحات,0,0,./assets/product-pump.jpg
