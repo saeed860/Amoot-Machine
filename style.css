@@ -2,3 +2,33 @@
 @media(max-width:1100px){.header-main{gap:14px}.main-nav{gap:14px}.brand-name{font-size:18px}.admin-entry{display:none}.categories{grid-template-columns:repeat(3,1fr)}.product-grid{grid-template-columns:repeat(3,1fr)}.trust-grid{grid-template-columns:repeat(3,1fr)}.trust-grid .btn{grid-column:1/-1;justify-self:start}}
 @media(max-width:720px){.wrap{width:calc(100% - 28px)}.top-inner{height:32px}.top-left{gap:10px;font-size:9px}.top-left span+span{padding-right:9px}.top-right{display:none}.header-main{height:65px}.main-nav{display:none;position:absolute;top:65px;right:0;left:0;background:#fff;padding:12px 20px;box-shadow:0 8px 14px #0002;flex-direction:column;gap:4px}.main-nav.show{display:flex}.main-nav a{padding:9px}.header-search{display:none}.hamb{display:block;margin-right:auto}.brand-name{font-size:17px}.brand-mark{transform:scale(.85)}.yellow-nav{height:32px}.yellow-nav span{font-size:9px}.hero{height:300px}.hero-photo{inset:0 0 0 12%;opacity:.7}.hero-shade{background:linear-gradient(270deg,#202326 0%,#202326e8 45%,#2023266b 100%)}.hero-copy{width:100%;padding:15px 0}.hero-copy h1{font-size:29px}.hero-copy p{font-size:10px;max-width:95%}.hero-points{font-size:8px;gap:10px;flex-wrap:wrap}.hero-search{height:39px}.hero-search input{font-size:9px}.categories{grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}.cat{height:82px;padding:5px}.cat img{height:70px}.cat b{font-size:10px}.cat small{font-size:7px}.cat i{width:21px;height:21px}.section-head h2{font-size:18px}.product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.product-img{height:115px}.product-body{padding:5px 8px 9px}.product h3{font-size:10px}.product-meta{font-size:8px}.price{font-size:9px}.ask{padding:6px 8px;font-size:8px}.trust-grid{grid-template-columns:repeat(2,1fr);gap:6px}.trust-grid div{padding:5px 8px}.trust-grid b{font-size:9px}.trust-grid small{font-size:8px}.about-photo{inset:0 0 0 20%;opacity:.22}.about-section:after{background:#f6f7f8d9}.about-copy>div{width:100%}.about-copy p{font-size:10px}.admin-layout{grid-template-columns:1fr}.side{display:flex;overflow:auto;gap:4px}.side button{white-space:nowrap;width:auto}.stats{grid-template-columns:repeat(2,1fr)}.modal-card{padding:23px 16px}.form-grid{grid-template-columns:1fr}}
 @media(max-width:390px){.product-foot{align-items:flex-start;flex-direction:column}.ask{width:100%}.cat small{white-space:normal}}
+
+/* Layout correction: keep photographic panels on the LEFT and Persian copy on the RIGHT. */
+.hero{height:clamp(300px,30vw,420px);min-height:300px;background:#202326}
+.hero-photo{inset:0 40% 0 0;background-position:center center;background-size:cover;opacity:1}
+.hero-shade{inset:0;background:linear-gradient(90deg,rgba(32,35,38,0) 0%,rgba(32,35,38,.22) 35%,rgba(32,35,38,.88) 58%,#202326 100%)}
+.hero-content{justify-content:flex-start}
+.hero-copy{width:52%;max-width:680px;margin:0 0 0 auto;padding:28px 0;text-align:right}
+.hero-copy h1{font-size:clamp(27px,3vw,43px);line-height:1.45}
+.hero-copy p{max-width:610px;line-height:2}
+.hero-search{width:100%}
+.hero-stripe{left:18px;right:auto}
+.about-section{min-height:230px;background:#f6f7f8}
+.about-photo{inset:0 48% 0 0;background-position:center;background-size:cover;opacity:1}
+.about-section:after{inset:0;background:linear-gradient(90deg,rgba(246,247,248,0) 0%,rgba(246,247,248,.18) 34%,rgba(246,247,248,.92) 55%,#f6f7f8 100%)}
+.about-copy{min-height:230px;justify-content:flex-start}
+.about-copy>div{width:50%;max-width:650px;margin-right:auto;padding:26px 0}
+@media(max-width:720px){
+ .hero{height:auto;min-height:360px}
+ .hero-photo{inset:0 0 0 0;background-position:35% center;opacity:.48}
+ .hero-shade{background:linear-gradient(90deg,rgba(32,35,38,.30),rgba(32,35,38,.88) 60%,#202326 100%)}
+ .hero-content{min-height:360px}
+ .hero-copy{width:100%;max-width:none;margin:0;padding:24px 0}
+ .hero-copy h1{font-size:clamp(25px,7vw,32px)}
+ .hero-stripe{left:5px;width:24px}
+ .about-section{min-height:220px}
+ .about-photo{inset:0;background-position:center;opacity:.22}
+ .about-section:after{background:linear-gradient(90deg,rgba(246,247,248,.45),rgba(246,247,248,.94) 70%)}
+ .about-copy{min-height:220px}
+ .about-copy>div{width:100%;max-width:none;margin:0;padding:22px 0}
+}
