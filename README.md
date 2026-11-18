@@ -40,3 +40,16 @@ GitHub Pages فقط فایل‌های استاتیک HTML/CSS/JS را میزبا
 - [Caterpillar media image](https://s7d2.scene7.com/is/image/Caterpillar/C10337996)
 
 تصاویر نمونه صرفاً برای نمایش ظاهر سایت هستند و لزوماً عکس همان شماره فنی یا کالای قابل فروش نیستند. برای راه‌اندازی فروش واقعی، عکس دقیق هر کالا باید توسط مدیر فروشگاه جایگزین شود.
+
+## Image loading and photo credits
+
+The demo uses direct `upload.wikimedia.org` image URLs instead of Wikimedia `Special:FilePath` redirect URLs. This avoids redirect-related image failures on some static hosting/browser combinations. The page also replaces the old demo image URLs stored in this browser's localStorage for the included sample SKUs.
+
+Sample photo sources and licenses:
+- Caterpillar 320 excavator photo: https://commons.wikimedia.org/wiki/File:CAT_320.excavator.jpg (CC BY-SA 3.0; author Justin Smith / J.smith).
+- Diesel engine photo: https://commons.wikimedia.org/wiki/File:Diesel_engine.jpg (CC0; author Gyurmet).
+- Rexroth hydraulic pump photo: https://commons.wikimedia.org/wiki/File:Pompe_hydraulique_rexroth_A4VSO250.jpg (public domain; source hydro-tg.fr / Thielleux).
+- Fuel filter photo: https://commons.wikimedia.org/wiki/File:Fuel_filter.jpg (CC BY 3.0; author Ken T1381 / Phasmatisnox).
+- Alternator photo: https://commons.wikimedia.org/wiki/File:Alternator.jpg (CC BY-SA 3.0; author Angelsharum).
+
+These are illustrative sample photos, not guaranteed photos of the exact product/SKU being sold. Replace them with supplier/product-specific photos before using the catalog commercially.
