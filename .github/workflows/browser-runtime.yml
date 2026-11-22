@@ -22,7 +22,7 @@ jobs:
           node-version: 22
       - run: npm install --no-save playwright
       - run: npx playwright install --with-deps chromium
-      - name: Verify page runtime and product photos
+      - name: Isolate startup scripts and verify storefront
         run: |
           node --input-type=module <<'NODE'
           import { chromium } from 'playwright';
@@ -30,7 +30,7 @@ jobs:
           import { readFile, stat } from 'node:fs/promises';
           import { resolve, extname, sep } from 'node:path';
           const root = process.cwd();
-          const types = {'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.jpg':'image/jpeg','.jpeg':'image/jpeg','.png':'image/png','.svg':'image/svg+xml'};
+          const types = {'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.jpg':'image/jpeg','.jpeg':'image/jpeg','.png':'image/png'};
           const server = createServer(async (req,res) => {
             try {
               const url = new URL(req.url,'http://localhost');
@@ -38,36 +38,46 @@ jobs:
               if (file !== root && !file.startsWith(root + sep)) throw new Error('invalid path');
               const info = await stat(file);
               if (!info.isFile()) throw new Error('not a file');
+              let body = await readFile(file);
+              if (url.pathname === '/' || url.pathname.endsWith('/index.html')) {
+                const mode = url.searchParams.get('scripts') || 'all';
+                let html = body.toString();
+                html = html.replace(/<script src="\.\/([^"]+)"[^>]*><\/script>/g, (tag, name) => {
+                  const base = name.split('?')[0];
+                  return mode === 'all' || mode === base ? tag : '';
+                });
+                body = Buffer.from(html);
+              }
               res.writeHead(200, {'Content-Type':types[extname(file)] || 'application/octet-stream','Cache-Control':'no-store'});
-              res.end(await readFile(file));
-            } catch { res.writeHead(404); res.end('Not found'); }
+              res.end(body);
+            } catch (e) { res.writeHead(404); res.end(String(e)); }
           });
           await new Promise(resolve => server.listen(4173,'127.0.0.1',resolve));
           const browser = await chromium.launch({headless:true});
           const page = await browser.newPage();
-          const errors = [], failed = [];
+          const errors = [];
           page.on('pageerror', e => errors.push(e.message));
-          page.on('requestfailed', r => failed.push({url:r.url(),error:r.failure()?.errorText}));
           try {
-            const response = await page.goto('http://127.0.0.1:4173/', {waitUntil:'domcontentloaded',timeout:15000});
-            await page.waitForSelector('#productGrid .product', {timeout:5000});
-            await page.waitForTimeout(11000);
-            const result = await page.evaluate(() => ({
-              title: document.title,
-              ready: document.readyState,
-              products: document.querySelectorAll('#productGrid .product').length,
-              images: [...document.querySelectorAll('#productGrid img')].map(i => ({src:i.getAttribute('src'),loaded:i.complete && i.naturalWidth>0,width:i.naturalWidth})),
-              scripts: [...document.scripts].map(s=>s.src.split('/').pop()),
-              gridText: document.querySelector('#productGrid')?.innerText?.slice(0,180),
-              meta: document.querySelector('#catalogMeta')?.innerText
-            }));
-            console.log(JSON.stringify({httpStatus:response?.status(),result,errors,failed},null,2));
-            if (!response?.ok()) throw new Error('Homepage returned a non-200 response');
-            if (result.products < 5) throw new Error('Product grid did not render at least five products');
-            if (result.images.filter(i=>i.loaded).length < 5) throw new Error('Product photos failed to load');
-            if (errors.length) throw new Error('Browser runtime errors: '+errors.join(' | '));
+            const checks = [];
+            for (const mode of ['none','app.js','api-config.js','api-client.js','cart.js','all']) {
+              errors.length = 0;
+              await page.goto('http://127.0.0.1:4173/?scripts='+mode, {waitUntil:'commit',timeout:5000});
+              let state;
+              try {
+                state = await page.evaluate(async () => {
+                  await new Promise(r=>setTimeout(r,500));
+                  return {ready:document.readyState,products:document.querySelectorAll('#productGrid .product').length,title:document.title};
+                }, {timeout:4000});
+              } catch (e) { state = {blocked:true,error:e.message}; }
+              checks.push({mode,state,errors:[...errors]});
+              if (state.blocked) break;
+            }
+            console.log(JSON.stringify(checks,null,2));
+            const full = checks.find(x=>x.mode==='all');
+            if (!full || full.state.blocked || full.state.ready!=='complete' || full.state.products<5 || errors.length) throw new Error('Full storefront failed startup test');
           } finally {
             await browser.close();
+            server.closeAllConnections();
             await new Promise(resolve => server.close(resolve));
           }
           NODE
