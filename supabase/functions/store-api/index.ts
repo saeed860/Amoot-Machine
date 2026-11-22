@@ -28,7 +28,8 @@ Deno.serve(async (req) => {
         return fail(400, "VALIDATION_ERROR", "اطلاعات ثبت‌نام معتبر نیست.");
       const isEmail = identifier.includes("@");
       const credentials = isEmail ? { email: identifier, password } : { phone: identifier, password };
-      const { data, error } = await adminDb.auth.signUp({ ...credentials, options: { data: { display_name: displayName, identifier } } });
+      const publicAuth = createClient(url, anonKey, { auth: { persistSession: false } });
+      const { data, error } = await publicAuth.auth.signUp({ ...credentials, options: { data: { display_name: displayName, identifier } } });
       if (error) return fail(400, "REGISTER_FAILED", error.message);
       if (!data.session) return fail(403, "CONFIRMATION_REQUIRED", "حساب ساخته شد؛ ابتدا تأیید حساب را از پیام ارسال‌شده انجام دهید و سپس وارد شوید.");
       const { data: profile } = await adminDb.from("profiles").select("*").eq("id", data.user.id).single();
@@ -40,11 +41,39 @@ Deno.serve(async (req) => {
       const identifier = clean(body.identifier, 190).toLowerCase();
       const password = String(body.password ?? "");
       const credentials = identifier.includes("@") ? { email: identifier, password } : { phone: identifier, password };
-      const { data, error } = await adminDb.auth.signInWithPassword(credentials);
+      const publicAuth = createClient(url, anonKey, { auth: { persistSession: false } });
+      const { data, error } = await publicAuth.auth.signInWithPassword(credentials);
       if (error || !data.user || !data.session) return fail(401, "INVALID_CREDENTIALS", "شماره/ایمیل یا رمز عبور صحیح نیست.");
       const { data: profile } = await adminDb.from("profiles").select("*").eq("id", data.user.id).single();
       if (!profile?.is_active) return fail(403, "ACCOUNT_DISABLED", "این حساب غیرفعال است.");
       return json({ token: data.session.access_token, user: userDto(profile) });
+    }
+
+    if (req.method === "GET" && path === "/api/products") {
+      const u = new URL(req.url), q = clean(u.searchParams.get("q"), 100), category = clean(u.searchParams.get("category"), 100), brand = clean(u.searchParams.get("brand"), 100), model = clean(u.searchParams.get("model"), 120);
+      let query = adminDb.from("products").select("*").eq("status", "ACTIVE").order("created_at", { ascending: false }).limit(100);
+      if (category) query = query.eq("category", category);
+      if (brand) query = query.eq("brand", brand);
+      if (model) query = query.eq("machine_model", model);
+      if (q) query = query.or(`name.ilike.%${q}%,sku.ilike.%${q}%,brand.ilike.%${q}%,machine_model.ilike.%${q}%`);
+      const { data, error } = await query;
+      if (error) return fail(500, "PRODUCTS_FAILED", "دریافت محصولات ناموفق بود.");
+      return json({ items: (data ?? []).map(p => ({ id: p.id, sku: p.sku, name: p.name, brand: p.brand, category: p.category, machineModel: p.machine_model, description: p.description, imageUrl: p.image_url, priceIrr: p.price_irr == null ? null : String(p.price_irr), stock: p.stock })) });
+    }
+
+    if (req.method === "POST" && path === "/api/quotes") {
+      const body = await req.json(), name = clean(body.name,100), phone = clean(body.phone,20), message = clean(body.message,2000);
+      if (name.length < 2 || phone.length < 8 || message.length < 5) return fail(400, "VALIDATION_ERROR", "اطلاعات استعلام معتبر نیست.");
+      const authHeader = req.headers.get("Authorization") ?? "";
+      let quoteUserId = null;
+      if (authHeader.startsWith("Bearer ")) {
+        const userClient = createClient(url, anonKey, { global: { headers: { Authorization: authHeader } }, auth: { persistSession: false } });
+        const { data } = await userClient.auth.getUser();
+        quoteUserId = data.user?.id ?? null;
+      }
+      const { data, error } = await adminDb.from("quotes").insert({ quote_number: "AQ-" + crypto.randomUUID().replaceAll("-","").slice(0,10).toUpperCase(), user_id: quoteUserId, name, phone, message, product_sku: clean(body.productSku,80) || null }).select("quote_number,status,created_at").single();
+      if (error) return fail(500, "QUOTE_FAILED", "ثبت استعلام ناموفق بود.");
+      return json({ quote: { quoteNumber: data.quote_number, status: data.status, createdAt: data.created_at } }, 201);
     }
 
     const authHeader = req.headers.get("Authorization") ?? "";
@@ -58,18 +87,6 @@ Deno.serve(async (req) => {
 
     if (req.method === "GET" && path === "/api/me")
       return json(userDto(profile));
-
-    if (req.method === "GET" && path === "/api/products") {
-      const u = new URL(req.url), q = clean(u.searchParams.get("q"), 100), category = clean(u.searchParams.get("category"), 100), brand = clean(u.searchParams.get("brand"), 100), model = clean(u.searchParams.get("model"), 120);
-      let query = adminDb.from("products").select("*").eq("status", "ACTIVE").order("created_at", { ascending: false }).limit(100);
-      if (category) query = query.eq("category", category);
-      if (brand) query = query.eq("brand", brand);
-      if (model) query = query.eq("machine_model", model);
-      if (q) query = query.or(`name.ilike.%${q}%,sku.ilike.%${q}%,brand.ilike.%${q}%,machine_model.ilike.%${q}%`);
-      const { data, error } = await query;
-      if (error) return fail(500, "PRODUCTS_FAILED", "دریافت محصولات ناموفق بود.");
-      return json({ items: (data ?? []).map(p => ({ id: p.id, sku: p.sku, name: p.name, brand: p.brand, category: p.category, machineModel: p.machine_model, description: p.description, imageUrl: p.image_url, priceIrr: p.price_irr == null ? null : String(p.price_irr), stock: p.stock })) });
-    }
 
     if (req.method === "GET" && path === "/api/orders") {
       const { data, error } = await adminDb.from("orders").select("*, order_items(*)").eq("user_id", profile.id).order("created_at", { ascending: false }).limit(100);
@@ -100,19 +117,11 @@ Deno.serve(async (req) => {
       return json({ order: { orderNumber: data.order_number, totalIrr: String(data.total_irr), status: data.status, createdAt: data.created_at } }, 201);
     }
 
-    if (req.method === "POST" && path === "/api/quotes") {
-      const body = await req.json(), name = clean(body.name,100), phone = clean(body.phone,20), message = clean(body.message,2000);
-      if (name.length < 2 || phone.length < 8 || message.length < 5) return fail(400, "VALIDATION_ERROR", "اطلاعات استعلام معتبر نیست.");
-      const { data, error } = await adminDb.from("quotes").insert({ quote_number: "AQ-" + crypto.randomUUID().replaceAll("-","").slice(0,10).toUpperCase(), user_id: authData.user.id, name, phone, message, product_sku: clean(body.productSku,80) || null }).select("quote_number,status,created_at").single();
-      if (error) return fail(500, "QUOTE_FAILED", "ثبت استعلام ناموفق بود.");
-      return json({ quote: { quoteNumber: data.quote_number, status: data.status, createdAt: data.created_at } }, 201);
-    }
-
     if (req.method === "GET" && path === "/api/admin/orders") {
       if (!isAdmin) return fail(403, "FORBIDDEN", "دسترسی مدیریت مجاز نیست.");
       const { data, error } = await adminDb.from("orders").select("*, profiles(display_name,identifier), order_items(*)").order("created_at", { ascending: false }).limit(200);
       if (error) return fail(500, "ADMIN_ORDERS_FAILED", "دریافت سفارش‌ها ناموفق بود.");
-      return json({ items: (data ?? []).map(o => ({ orderNumber:o.order_number, totalIrr:String(o.total_irr), status:o.status, createdAt:o.created_at, user:{displayName:o.profiles?.display_name,identifier:o.profiles?.identifier} })) });
+      return json({ items: (data ?? []).map(o => ({ orderNumber:o.order_number, totalIrr:String(o.total_irr), status:o.status, createdAt:o.created_at, user:{displayName:o.profiles?.display_name,identifier:o.profiles?.identifier}, items:o.order_items.map((i:any)=>({nameSnapshot:i.name_snapshot,quantity:i.quantity,unitPriceIrr:String(i.unit_price_irr),lineTotalIrr:String(i.line_total_irr)})) })) });
     }
 
     const statusMatch = path.match(/^\/api\/admin\/orders\/([^/]+)\/status$/);
