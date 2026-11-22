@@ -3,7 +3,7 @@
  const base=String(window.AMOOT_API_BASE_URL||'').replace(/\/$/,'');
  const TOKEN_KEY='amoot_api_token_v1', USER_KEY='amoot_api_user_v1';
  const publicKey=String(window.AMOOT_SUPABASE_ANON_KEY||'');
- const escHtml=v=>String(v??'').replace(/[&<>\"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;',\"'\":'&#39;'}[ch]));
+ const escHtml=v=>String(v??'').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
  const token=()=>localStorage.getItem(TOKEN_KEY)||'';
  async function api(path,{method='GET',body,auth=true,headers={}}={}){
   if(!base)throw new Error('API_NOT_CONFIGURED');
