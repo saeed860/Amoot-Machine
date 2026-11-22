@@ -16,6 +16,43 @@
  window.amootApi=api;
  window.amootApiConfigured=()=>Boolean(base);
  if(!base)return;
+ const legacyAccountDashboard=window.accountDashboard;
+ window.accountDashboard=(tab='overview')=>{
+  legacyAccountDashboard?.(tab);
+  if(!base||!token()||!['profile','addresses'].includes(tab))return;
+  const host=document.querySelector('#customerContent');if(!host)return;
+  if(tab==='profile')renderServerProfile(host);
+  if(tab==='addresses')renderServerAddresses(host);
+ };
+ async function renderServerProfile(host){
+  host.innerHTML='<h3>اطلاعات شخصی</h3><div class="empty-state">در حال دریافت اطلاعات...</div>';
+  try{
+   const u=await api('/api/me'),p=u.profile||{};
+   host.innerHTML='<h3>اطلاعات شخصی</h3><form id="serverProfileForm"><div class="form-grid">'+
+    '<div class="field"><label>نام و نام خانوادگی</label><input name="displayName" value="'+escHtml(u.displayName)+'" required maxlength="100"></div>'+
+    '<div class="field"><label>شناسه ورود</label><input value="'+escHtml(u.identifier)+'" disabled></div>'+
+    '<div class="field"><label>نام شرکت</label><input name="company" value="'+escHtml(p.company)+'" maxlength="160"></div>'+
+    '<div class="field"><label>کد ملی / شناسه ملی</label><input name="nationalId" value="'+escHtml(p.nationalId)+'" maxlength="20"></div>'+
+    '<div class="field"><label>تلفن تماس</label><input name="phone" value="'+escHtml(p.phone)+'" maxlength="20"></div>'+
+    '<div class="field"><label>تاریخ تولد</label><input name="birth" value="'+escHtml(p.birth)+'" placeholder="مثلاً ۱۳۷۰/۰۱/۰۱" maxlength="20"></div>'+
+    '</div><button class="btn yellow" type="submit">ذخیره اطلاعات</button><p class="auth-foot" id="serverProfileMessage"></p></form>';
+   host.querySelector('#serverProfileForm').onsubmit=async ev=>{ev.preventDefault();const b=ev.target.querySelector('button'),m=host.querySelector('#serverProfileMessage'),d=Object.fromEntries(new FormData(ev.target));b.disabled=true;m.textContent='در حال ذخیره...';try{const saved=await api('/api/me',{method:'PATCH',body:d});const local=JSON.parse(localStorage.getItem(USER_KEY)||'{}');local.displayName=saved.displayName;local.profile=saved.profile;localStorage.setItem(USER_KEY,JSON.stringify(local));m.textContent='اطلاعات با موفقیت در حساب شما ذخیره شد.';window.toast('پروفایل به‌روزرسانی شد.')}catch(err){m.textContent=err.message}finally{b.disabled=false}};
+  }catch(err){host.innerHTML='<h3>اطلاعات شخصی</h3><div class="notice">'+escHtml(err.message)+'</div>'}
+ }
+ async function renderServerAddresses(host){
+  host.innerHTML='<h3>نشانی‌های من</h3><div class="empty-state">در حال دریافت نشانی‌ها...</div>';
+  try{
+   const data=await api('/api/addresses'),rows=data.items||[];
+   host.innerHTML='<h3>نشانی‌های من ('+rows.length+')</h3><form id="serverAddressForm"><div class="field"><label>عنوان نشانی</label><input name="title" placeholder="مثلاً دفتر مرکزی" required maxlength="80"></div>'+
+    '<div class="form-grid"><div class="field"><label>نام تحویل‌گیرنده</label><input name="recipient" required maxlength="100"></div><div class="field"><label>شماره تماس</label><input name="phone" required maxlength="20"></div>'+
+    '<div class="field"><label>استان</label><input name="province" required maxlength="80"></div><div class="field"><label>شهر</label><input name="city" required maxlength="80"></div><div class="field"><label>کد پستی</label><input name="postalCode" maxlength="20"></div></div>'+
+    '<div class="field"><label>نشانی کامل</label><textarea name="addressLine" required maxlength="1000"></textarea></div><button class="btn yellow" type="submit">افزودن نشانی</button><p class="auth-foot" id="serverAddressMessage"></p></form>'+
+    '<div class="customer-list">'+rows.map(a=>'<article><b>'+escHtml(a.title)+(a.isDefault?' · پیش‌فرض':'')+'</b><small>'+escHtml(a.province)+'، '+escHtml(a.city)+'، '+escHtml(a.addressLine)+'</small><small>'+escHtml(a.recipient)+' · '+escHtml(a.phone)+' · '+escHtml(a.postalCode||'')+'</small><button class="mini red" data-address-delete="'+escHtml(a.id)+'">حذف نشانی</button> '+(a.isDefault?'':'<button class="mini" data-address-default="'+escHtml(a.id)+'">انتخاب پیش‌فرض</button>')+'</article>').join('')+'</div>';
+   host.querySelector('#serverAddressForm').onsubmit=async ev=>{ev.preventDefault();const b=ev.target.querySelector('button'),m=host.querySelector('#serverAddressMessage'),d=Object.fromEntries(new FormData(ev.target));b.disabled=true;m.textContent='در حال ذخیره...';try{await api('/api/addresses',{method:'POST',body:d});window.toast('نشانی در حساب شما ذخیره شد.');await renderServerAddresses(host)}catch(err){m.textContent=err.message;b.disabled=false}};
+   host.querySelectorAll('[data-address-delete]').forEach(b=>b.onclick=async()=>{if(!confirm('این نشانی حذف شود؟'))return;b.disabled=true;try{await api('/api/addresses/'+encodeURIComponent(b.dataset.addressDelete),{method:'DELETE'});await renderServerAddresses(host)}catch(err){window.toast(err.message);b.disabled=false}});
+   host.querySelectorAll('[data-address-default]').forEach(b=>b.onclick=async()=>{b.disabled=true;try{await api('/api/addresses/'+encodeURIComponent(b.dataset.addressDefault)+'/default',{method:'PATCH',body:{}});await renderServerAddresses(host)}catch(err){window.toast(err.message);b.disabled=false}});
+  }catch(err){host.innerHTML='<h3>نشانی‌های من</h3><div class="notice">'+escHtml(err.message)+'</div>'}
+ }
  const legacyOpenAuth=window.openAuth;
  window.openAuth=mode=>{
   if(mode==='forgot'){legacyOpenAuth(mode);return}
@@ -27,7 +64,7 @@
   form.onsubmit=async e=>{e.preventDefault();submit.disabled=true;message.textContent='در حال ارتباط با سرور...';const d=Object.fromEntries(new FormData(form));try{
    const result=await api(register?'/api/auth/register':'/api/auth/login',{method:'POST',auth:false,body:register?d:{identifier:d.identifier,password:d.password}});
    localStorage.setItem(TOKEN_KEY,result.token);localStorage.setItem(USER_KEY,JSON.stringify(result.user));
-   const u={id:result.user.id,name:result.user.displayName,contact:result.user.identifier,profile:{phone:/^\+?[0-9۰-۹]{8,}$/.test(result.user.identifier)?result.user.identifier:''},addresses:[],favorites:[],orders:[]};
+   const u={id:result.user.id,name:result.user.displayName,contact:result.user.identifier,profile:result.user.profile||{phone:/^\+?[0-9۰-۹]{8,}$/.test(result.user.identifier)?result.user.identifier:''},addresses:[],favorites:[],orders:[]};
    if(typeof window.persistUser==='function')window.persistUser(u);
    window.closeModal();window.refreshAccountButton?.();window.toast(register?'حساب با موفقیت ساخته شد.':'با موفقیت وارد شدید.');window.accountDashboard?.();
   }catch(err){message.textContent=err.message==='API_NOT_CONFIGURED'?'نشانی API تنظیم نشده است.':err.message;submit.disabled=false}
