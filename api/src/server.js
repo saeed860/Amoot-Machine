@@ -133,9 +133,44 @@ app.get('/api/admin/orders', auth, admin, async (_req, res) => {
 app.patch('/api/admin/orders/:orderNumber/status', auth, admin, async (req, res) => {
   const parsed = z.object({ status: z.enum(['PENDING','CONFIRMED','PROCESSING','SHIPPED','DELIVERED','CANCELLED']) }).safeParse(req.body);
   if (!parsed.success) return fail(res, 400, 'VALIDATION_ERROR', 'وضعیت سفارش معتبر نیست.');
-  const order = await prisma.order.update({ where: { orderNumber: req.params.orderNumber }, data: { status: parsed.data.status }, include: { items: true } }).catch(() => null);
-  if (!order) return fail(res, 404, 'NOT_FOUND', 'سفارش پیدا نشد.');
-  res.json({ order: orderDto(order) });
+  try {
+    const order = await prisma.$transaction(async (tx) => {
+      // Serialize status changes so concurrent cancellation requests cannot restore stock twice.
+      const locked = await tx.$queryRaw`SELECT id FROM "Order" WHERE "orderNumber" = ${req.params.orderNumber} FOR UPDATE`;
+      if (!locked.length) return null;
+      const current = await tx.order.findUnique({ where: { orderNumber: req.params.orderNumber }, include: { items: true } });
+      if (!current) return null;
+      const next = parsed.data.status;
+      if (current.status === next) return current;
+      const allowed = {
+        PENDING: ['CONFIRMED', 'CANCELLED'],
+        CONFIRMED: ['PROCESSING', 'CANCELLED'],
+        PROCESSING: ['SHIPPED', 'CANCELLED'],
+        SHIPPED: ['DELIVERED'],
+        DELIVERED: [],
+        CANCELLED: []
+      };
+      if (!allowed[current.status]?.includes(next)) {
+        const error = new Error('INVALID_ORDER_TRANSITION');
+        error.code = 'INVALID_ORDER_TRANSITION';
+        throw error;
+      }
+      if (next === 'CANCELLED') {
+        const quantities = new Map();
+        for (const item of current.items) quantities.set(item.productId, (quantities.get(item.productId) || 0) + item.quantity);
+        for (const [productId, quantity] of quantities) {
+          await tx.product.update({ where: { id: productId }, data: { stock: { increment: quantity } } });
+        }
+      }
+      return tx.order.update({ where: { id: current.id }, data: { status: next }, include: { items: true } });
+    }, { isolationLevel: 'Serializable' });
+    if (!order) return fail(res, 404, 'NOT_FOUND', 'سفارش پیدا نشد.');
+    return res.json({ order: orderDto(order) });
+  } catch (error) {
+    if (error.code === 'INVALID_ORDER_TRANSITION') return fail(res, 409, 'INVALID_ORDER_TRANSITION', 'این تغییر وضعیت سفارش مجاز نیست.');
+    if (error.code === 'P2034') return fail(res, 409, 'RETRY_ORDER', 'تداخل هم‌زمانی رخ داد؛ درخواست را دوباره ارسال کنید.');
+    throw error;
+  }
 });
 app.use((err, _req, res, _next) => { console.error(err); res.status(500).json({ error: { code: 'INTERNAL_ERROR', message: 'خطای داخلی سرور رخ داد.' } }); });
 const port = Number(process.env.PORT || 4000), host = process.env.HOST || '0.0.0.0';
