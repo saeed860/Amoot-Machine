@@ -19,8 +19,9 @@
  const legacyAccountDashboard=window.accountDashboard;
  window.accountDashboard=(tab='overview')=>{
   legacyAccountDashboard?.(tab);
-  if(!base||!token()||!['profile','addresses','quotes','security'].includes(tab))return;
+  if(!base||!token()||!['overview','profile','addresses','quotes','security'].includes(tab))return;
   const host=document.querySelector('#customerContent');if(!host)return;
+  if(tab==='overview')renderServerOverview(host);
   if(tab==='profile')renderServerProfile(host);
   if(tab==='addresses')renderServerAddresses(host);
   if(tab==='quotes')renderServerQuotes(host);
@@ -40,6 +41,14 @@
     '</div><button class="btn yellow" type="submit">ذخیره اطلاعات</button><p class="auth-foot" id="serverProfileMessage"></p></form>';
    host.querySelector('#serverProfileForm').onsubmit=async ev=>{ev.preventDefault();const b=ev.target.querySelector('button'),m=host.querySelector('#serverProfileMessage'),d=Object.fromEntries(new FormData(ev.target));b.disabled=true;m.textContent='در حال ذخیره...';try{const saved=await api('/api/me',{method:'PATCH',body:d});const local=window.currentUser?.();if(local){local.name=saved.displayName;local.profile=saved.profile;window.persistUser?.(local)}const apiUser=JSON.parse(localStorage.getItem(USER_KEY)||'{}');apiUser.displayName=saved.displayName;apiUser.profile=saved.profile;localStorage.setItem(USER_KEY,JSON.stringify(apiUser));m.textContent='اطلاعات با موفقیت در حساب شما ذخیره شد.';window.toast('پروفایل به‌روزرسانی شد.')}catch(err){m.textContent=err.message}finally{b.disabled=false}};
   }catch(err){host.innerHTML='<h3>اطلاعات شخصی</h3><div class="notice">'+escHtml(err.message)+'</div>'}
+ }
+ async function renderServerOverview(host){
+  host.innerHTML='<h3>نمای کلی حساب</h3><div class="empty-state">در حال دریافت اطلاعات حساب...</div>';
+  try{
+   const [orders,quotes,addresses]=await Promise.all([api('/api/orders'),api('/api/quotes'),api('/api/addresses')]);
+   const orderRows=orders.items||[],quoteRows=quotes.items||[],addressRows=addresses.items||[];
+   host.innerHTML='<h3>نمای کلی حساب</h3><div class="customer-stats"><div><b>'+orderRows.length+'</b><small>سفارش ثبت‌شده</small></div><div><b>'+quoteRows.length+'</b><small>درخواست استعلام</small></div><div><b>'+addressRows.length+'</b><small>نشانی ذخیره‌شده</small></div></div><h4>دسترسی سریع</h4><div class="quick-links"><button onclick="accountDashboard(\'orders\')">پیگیری سفارش‌ها ←</button><button onclick="accountDashboard(\'quotes\')">پیگیری استعلام‌ها ←</button><button onclick="accountDashboard(\'profile\')">ویرایش اطلاعات شخصی ←</button><button onclick="accountDashboard(\'addresses\')">مدیریت نشانی‌ها ←</button><button onclick="accountDashboard(\'security\')">امنیت و تغییر رمز ←</button></div>';
+  }catch(err){host.innerHTML='<h3>نمای کلی حساب</h3><div class="notice">'+escHtml(err.message)+'</div>'}
  }
  async function renderServerSecurity(host){
   host.innerHTML='<h3>امنیت حساب</h3><div class="notice">برای تغییر رمز، رمز فعلی دوباره بررسی می‌شود و رمز جدید در حساب سروری شما ثبت خواهد شد.</div><form id="serverPasswordForm"><div class="field"><label>رمز عبور فعلی</label><input name="currentPassword" type="password" autocomplete="current-password" required></div><div class="field"><label>رمز عبور جدید</label><input name="newPassword" type="password" minlength="10" maxlength="128" autocomplete="new-password" required></div><div class="field"><label>تکرار رمز جدید</label><input name="confirmPassword" type="password" minlength="10" maxlength="128" autocomplete="new-password" required></div><button class="btn yellow" type="submit">تغییر رمز عبور</button><p class="auth-foot" id="serverPasswordMessage"></p></form>';
