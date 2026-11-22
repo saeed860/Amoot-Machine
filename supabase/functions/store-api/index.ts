@@ -181,7 +181,7 @@ Deno.serve(async (req) => {
       return json({items:(data??[]).map(u=>({id:u.id,identifier:u.identifier,displayName:u.display_name,role:u.role,isActive:u.is_active,createdAt:u.created_at}))});
     }
 
-    const customerMatch = path.match(/^\\/api\\/admin\\/customers\\/([^/]+)\\/active$/);
+    const customerMatch = path.match(/^\/api\/admin\/customers\/([^/]+)\/active$/);
     if (req.method === "PATCH" && customerMatch) {
       if (!isAdmin) return fail(403,"FORBIDDEN","دسترسی مدیریت مجاز نیست.");
       const active=(await req.json()).isActive;
@@ -198,7 +198,7 @@ Deno.serve(async (req) => {
       return json({items:(data??[]).map(q=>({quoteNumber:q.quote_number,name:q.name,phone:q.phone,productSku:q.product_sku,machineModel:q.machine_model,message:q.message,status:q.status,createdAt:q.created_at}))});
     }
 
-    const quoteMatch = path.match(/^\\/api\\/admin\\/quotes\\/([^/]+)\\/status$/);
+    const quoteMatch = path.match(/^\/api\/admin\/quotes\/([^/]+)\/status$/);
     if (req.method === "PATCH" && quoteMatch) {
       if (!isAdmin) return fail(403,"FORBIDDEN","دسترسی مدیریت مجاز نیست.");
       const status=clean((await req.json()).status,20).toUpperCase();
