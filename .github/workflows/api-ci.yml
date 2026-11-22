@@ -56,7 +56,16 @@ jobs:
           node-version: 22
       - name: Install dependencies
         run: npm install --no-audit --no-fund
-      - name: Validate JavaScript syntax\n        run: |\n          node --check ../app.js\n          node --check ../cart.js\n          node --check ../api-client.js\n          node --check ../api-config.js\n          node --check scripts/smoke-test.js\n          node --check src/server.js\n          node --check prisma/seed.js\n      - name: Validate Prisma schema
+      - name: Validate JavaScript syntax
+        run: |
+          node --check ../app.js
+          node --check ../cart.js
+          node --check ../api-client.js
+          node --check ../api-config.js
+          node --check scripts/smoke-test.js
+          node --check src/server.js
+          node --check prisma/seed.js
+      - name: Validate Prisma schema
         run: npx prisma validate
       - name: Generate Prisma client
         run: npx prisma generate
