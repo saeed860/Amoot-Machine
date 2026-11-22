@@ -162,7 +162,7 @@
   if(q)params.set('q',q);if(category)params.set('category',category);if(brand)params.set('brand',brand);if(model)params.set('model',model);
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
-  const mapped=rows.map(p=>({id:(()=>{let h=2166136261;for(const ch of String(p.sku||p.id)){h=Math.imul(h^ch.charCodeAt(0),16777619)}return h>>>0})(),serverId:p.id,sku:p.sku,name:p.name,brand:p.brand||'',category:p.category,machine_model:p.machineModel||'',description:p.description||'',price:p.priceIrr===null?0:Number(p.priceIrr)/10,price_irr:p.priceIrr,stock:p.stock,image:(typeof p.imageUrl==='string'&&(/^(https?:|data:image\\/|\\.\\/assets\\/|\\/assets\\/)/i.test(p.imageUrl)))?(p.imageUrl.startsWith('/assets/')?'.'+p.imageUrl:p.imageUrl):''}));
+  const mapped=rows.map(p=>({id:(()=>{let h=2166136261;for(const ch of String(p.sku||p.id)){h=Math.imul(h^ch.charCodeAt(0),16777619)}return h>>>0})(),serverId:p.id,sku:p.sku,name:p.name,brand:p.brand||'',category:p.category,machine_model:p.machineModel||'',description:p.description||'',price:p.priceIrr===null?0:Number(p.priceIrr)/10,price_irr:p.priceIrr,stock:p.stock,image:(typeof p.imageUrl==='string'&&(p.imageUrl.startsWith('https://')||p.imageUrl.startsWith('http://')||p.imageUrl.startsWith('data:image/')||p.imageUrl.startsWith('./assets/')||p.imageUrl.startsWith('/assets/')))?(p.imageUrl.startsWith('/assets/')?'.'+p.imageUrl:p.imageUrl):''}));
   if(typeof window.setApiProducts==='function'){window.setApiProducts(mapped);oldLoadProducts?.();}
   else oldLoadProducts?.();
  }catch(e){
