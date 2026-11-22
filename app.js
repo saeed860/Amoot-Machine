@@ -80,4 +80,4 @@ populateModelFilter();
 loadProducts();
 refreshAccountButton();
 
-window.setApiProducts = rows => { db.products = rows; products = rows; renderProducts(); };
+window.setApiProducts = rows => { db.products = rows; products = rows; save(); renderProducts(); };
