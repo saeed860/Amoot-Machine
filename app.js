@@ -79,3 +79,5 @@ function resetData(){if(!confirm('تمام تغییرات این مرورگر ح
 populateModelFilter();
 loadProducts();
 refreshAccountButton();
+
+window.setApiProducts = rows => { db.products = rows; products = rows; renderProducts(); };
