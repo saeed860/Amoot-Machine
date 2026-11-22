@@ -257,6 +257,44 @@ Deno.serve(async (req) => {
       return json({ order:{orderNumber:updated.order_number,status:updated.status,totalIrr:String(updated.total_irr)} });
     }
 
+    if (path === "/api/admin/inventory/receipts" && req.method === "POST") {
+      if (!isAdmin) return fail(403, "FORBIDDEN", "ثبت رسید انبار فقط برای مدیر اصلی مجاز است.");
+      const body = await req.json();
+      if (!Array.isArray(body.items) || body.items.length < 1 || body.items.length > 100)
+        return fail(400, "VALIDATION_ERROR", "رسید باید حداقل یک و حداکثر ۱۰۰ ردیف کالا داشته باشد.");
+      const seen = new Set();
+      const items = [];
+      for (const raw of body.items) {
+        const sku = clean(raw.sku, 80), quantity = Number(raw.quantity);
+        if (!sku || seen.has(sku) || !Number.isInteger(quantity) || quantity < 1 || quantity > 1000000)
+          return fail(400, "INVALID_RECEIPT_ITEMS", "کد کالا باید یکتا و تعداد هر ردیف عدد صحیح مثبت باشد.");
+        seen.add(sku); items.push({ sku, quantity });
+      }
+      const receiptNumber = "WR-" + new Date().toISOString().replace(/[-:TZ.]/g, "").slice(0,14) + "-" + crypto.randomUUID().slice(0,6).toUpperCase();
+      const { data, error } = await adminDb.rpc("amoot_receive_inventory", {
+        p_receipt_number: receiptNumber, p_supplier: clean(body.supplier,160),
+        p_document_number: clean(body.documentNumber,100), p_note: clean(body.note,1000),
+        p_actor: profile.id, p_items: items
+      });
+      if (error) {
+        const msg = error.message ?? "";
+        if (msg.includes("PRODUCT_NOT_FOUND")) return fail(404,"PRODUCT_NOT_FOUND","یکی از کدهای کالا در انبار تعریف نشده است.");
+        if (msg.includes("STOCK_LIMIT_EXCEEDED")) return fail(409,"STOCK_LIMIT_EXCEEDED","موجودی پس از ورود از سقف مجاز بیشتر می‌شود.");
+        if (msg.includes("DUPLICATE_RECEIPT_SKU")) return fail(400,"INVALID_RECEIPT_ITEMS","کد کالای تکراری در رسید مجاز نیست.");
+        return fail(400,"RECEIPT_FAILED","ثبت رسید انبار انجام نشد؛ اطلاعات رسید را بررسی کنید.");
+      }
+      return json({ receiptNumber, lineCount: items.length, success: true }, 201);
+    }
+
+    if (req.method === "GET" && path === "/api/admin/inventory/receipts") {
+      if (!isAdmin) return fail(403, "FORBIDDEN", "مشاهده رسیدهای انبار فقط برای مدیر اصلی مجاز است.");
+      const { data, error } = await adminDb.from("inventory_receipts")
+        .select("id,receipt_number,supplier,document_number,note,created_at,inventory_receipt_items(sku,product_name,quantity)")
+        .order("created_at", { ascending: false }).limit(100);
+      if (error) return fail(500,"RECEIPTS_FAILED","دریافت رسیدهای انبار ناموفق بود.");
+      return json({ items:(data??[]).map(r=>({id:r.id,receiptNumber:r.receipt_number,supplier:r.supplier,documentNumber:r.document_number,note:r.note,createdAt:r.created_at,items:r.inventory_receipt_items??[]})) });
+    }
+
     if (req.method === "GET" && path === "/api/admin/inventory/movements") {
       if (!isAdmin) return fail(403, "FORBIDDEN", "دفتر گردش انبار فقط برای مدیر اصلی مجاز است.");
       const params = new URL(req.url).searchParams;
