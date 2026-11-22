@@ -1,0 +1,55 @@
+name: Supabase Order Lifecycle Integration
+on:
+  push:
+    paths:
+      - 'supabase/migrations/**'
+      - 'supabase/tests/**'
+      - '.github/workflows/supabase-order-tests.yml'
+  pull_request:
+    paths:
+      - 'supabase/migrations/**'
+      - 'supabase/tests/**'
+      - '.github/workflows/supabase-order-tests.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  order-lifecycle:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: ci_password
+          POSTGRES_DB: amoot_ci
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U postgres -d amoot_ci"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Create minimal Supabase auth roles
+        env:
+          PGPASSWORD: ci_password
+        run: psql -h 127.0.0.1 -U postgres -d amoot_ci -v ON_ERROR_STOP=1 -f supabase/tests/bootstrap.sql
+      - name: Apply all migrations
+        env:
+          PGPASSWORD: ci_password
+        run: |
+          for migration in supabase/migrations/*.sql; do
+            echo "Applying $migration"
+            psql -h 127.0.0.1 -U postgres -d amoot_ci -v ON_ERROR_STOP=1 -f "$migration"
+          done
+      - name: Verify cancellation, idempotency, legal transitions and stock restoration
+        env:
+          PGPASSWORD: ci_password
+        run: psql -h 127.0.0.1 -U postgres -d amoot_ci -v ON_ERROR_STOP=1 -f supabase/tests/order-lifecycle.sql
