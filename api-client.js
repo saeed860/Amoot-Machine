@@ -48,7 +48,7 @@
   const params=new URLSearchParams(),q=document.querySelector('#search')?.value||'',category=document.querySelector('#quickCategory')?.value||'',brand=document.querySelector('#brandFilter')?.value||'',model=document.querySelector('#modelFilter')?.value||'';
   if(q)params.set('q',q);if(category)params.set('category',category);if(brand)params.set('brand',brand);if(model)params.set('model',model);
   const data=await api('/api/products?'+params.toString(),{auth:false});
-  const mapped=data.items.map(p=>({id:p.id,sku:p.sku,name:p.name,brand:p.brand||'',category:p.category,machine_model:p.machineModel||'',description:p.description||'',price:p.priceIrr===null?0:Number(p.priceIrr),stock:p.stock,image:p.imageUrl||'./assets/product-pump.jpg'}));
+  const mapped=data.items.map(p=>({id:p.id,sku:p.sku,name:p.name,brand:p.brand||'',category:p.category,machine_model:p.machineModel||'',description:p.description||'',price:p.priceIrr===null?0:Number(p.priceIrr)/10,stock:p.stock,image:p.imageUrl||'./assets/product-pump.jpg'}));
   if(typeof window.setApiProducts==='function')window.setApiProducts(mapped);else oldLoadProducts?.();
  }catch(e){window.toast('دریافت محصولات از سرور ناموفق بود: '+e.message)}};
  if(base)window.loadProducts?.();
