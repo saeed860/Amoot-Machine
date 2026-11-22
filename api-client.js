@@ -19,11 +19,12 @@
  const legacyAccountDashboard=window.accountDashboard;
  window.accountDashboard=(tab='overview')=>{
   legacyAccountDashboard?.(tab);
-  if(!base||!token()||!['profile','addresses','quotes'].includes(tab))return;
+  if(!base||!token()||!['profile','addresses','quotes','security'].includes(tab))return;
   const host=document.querySelector('#customerContent');if(!host)return;
   if(tab==='profile')renderServerProfile(host);
   if(tab==='addresses')renderServerAddresses(host);
   if(tab==='quotes')renderServerQuotes(host);
+  if(tab==='security')renderServerSecurity(host);
  };
  async function renderServerProfile(host){
   host.innerHTML='<h3>اطلاعات شخصی</h3><div class="empty-state">در حال دریافت اطلاعات...</div>';
@@ -39,6 +40,17 @@
     '</div><button class="btn yellow" type="submit">ذخیره اطلاعات</button><p class="auth-foot" id="serverProfileMessage"></p></form>';
    host.querySelector('#serverProfileForm').onsubmit=async ev=>{ev.preventDefault();const b=ev.target.querySelector('button'),m=host.querySelector('#serverProfileMessage'),d=Object.fromEntries(new FormData(ev.target));b.disabled=true;m.textContent='در حال ذخیره...';try{const saved=await api('/api/me',{method:'PATCH',body:d});const local=window.currentUser?.();if(local){local.name=saved.displayName;local.profile=saved.profile;window.persistUser?.(local)}const apiUser=JSON.parse(localStorage.getItem(USER_KEY)||'{}');apiUser.displayName=saved.displayName;apiUser.profile=saved.profile;localStorage.setItem(USER_KEY,JSON.stringify(apiUser));m.textContent='اطلاعات با موفقیت در حساب شما ذخیره شد.';window.toast('پروفایل به‌روزرسانی شد.')}catch(err){m.textContent=err.message}finally{b.disabled=false}};
   }catch(err){host.innerHTML='<h3>اطلاعات شخصی</h3><div class="notice">'+escHtml(err.message)+'</div>'}
+ }
+ async function renderServerSecurity(host){
+  host.innerHTML='<h3>امنیت حساب</h3><div class="notice">برای تغییر رمز، رمز فعلی دوباره بررسی می‌شود و رمز جدید در حساب سروری شما ثبت خواهد شد.</div><form id="serverPasswordForm"><div class="field"><label>رمز عبور فعلی</label><input name="currentPassword" type="password" autocomplete="current-password" required></div><div class="field"><label>رمز عبور جدید</label><input name="newPassword" type="password" minlength="10" maxlength="128" autocomplete="new-password" required></div><div class="field"><label>تکرار رمز جدید</label><input name="confirmPassword" type="password" minlength="10" maxlength="128" autocomplete="new-password" required></div><button class="btn yellow" type="submit">تغییر رمز عبور</button><p class="auth-foot" id="serverPasswordMessage"></p></form>';
+  host.querySelector('#serverPasswordForm').onsubmit=async ev=>{
+   ev.preventDefault();const form=ev.target,d=Object.fromEntries(new FormData(form)),button=form.querySelector('button'),message=host.querySelector('#serverPasswordMessage');
+   if(d.newPassword!==d.confirmPassword){message.textContent='تکرار رمز جدید مطابقت ندارد.';return}
+   button.disabled=true;message.textContent='در حال بررسی و تغییر رمز...';
+   try{await api('/api/me/password',{method:'PATCH',body:{currentPassword:d.currentPassword,newPassword:d.newPassword}});form.reset();message.textContent='رمز عبور حساب شما با موفقیت تغییر کرد.';window.toast('رمز عبور تغییر کرد.')}
+   catch(err){message.textContent=err.message}
+   finally{button.disabled=false}
+  };
  }
  async function renderServerQuotes(host){
   host.innerHTML='<h3>استعلام‌های من</h3><div class="empty-state">در حال دریافت درخواست‌ها...</div>';
