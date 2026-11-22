@@ -197,7 +197,7 @@ Deno.serve(async (req) => {
 
     const statusMatch = path.match(/^\/api\/admin\/orders\/([^/]+)\/status$/);
     if (req.method === "PATCH" && statusMatch) {
-      if (!isAdmin) return fail(403, "FORBIDDEN", "دسترسی مدیریت مجاز نیست.");
+      if (!canOperate) return fail(403, "FORBIDDEN", "دسترسی مدیریت مجاز نیست.");
       const status = clean((await req.json()).status,30);
       if (!["PENDING","CONFIRMED","PROCESSING","SHIPPED","DELIVERED","CANCELLED"].includes(status)) return fail(400,"VALIDATION_ERROR","وضعیت سفارش معتبر نیست.");
       const { data, error } = await adminDb.rpc("amoot_update_order_status", {
@@ -278,7 +278,7 @@ Deno.serve(async (req) => {
 
     const quoteMatch = path.match(/^\/api\/admin\/quotes\/([^/]+)\/status$/);
     if (req.method === "PATCH" && quoteMatch) {
-      if (!isAdmin) return fail(403,"FORBIDDEN","دسترسی مدیریت مجاز نیست.");
+      if (!canOperate) return fail(403,"FORBIDDEN","دسترسی مدیریت مجاز نیست.");
       const status=clean((await req.json()).status,20).toUpperCase();
       if(!["NEW","CONTACTED","CLOSED"].includes(status)) return fail(400,"VALIDATION_ERROR","وضعیت استعلام معتبر نیست.");
       const {data,error}=await adminDb.from("quotes").update({status}).eq("quote_number",decodeURIComponent(quoteMatch[1])).select("quote_number,status").single();
