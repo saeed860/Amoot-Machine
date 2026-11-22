@@ -45,6 +45,11 @@ jobs:
           grep -q "category=document.querySelector('.cat.active')" api-client.js
           grep -q "String(z.id)===String(x.productId)" cart.js
           grep -q "price:p.priceIrr===null?0:Number(p.priceIrr)/10" api-client.js
+          grep -q 'const productMatch = path.match' supabase/functions/store-api/index.ts
+          grep -q 'api('/api/admin/products/'+encodeURIComponent(p.sku)' api-client.js
+          grep -q 'function openProductEditor(p)' api-client.js
+          grep -q 'INVALID_ORDER_TRANSITION' api/src/server.js
+          grep -q 'Cancellation restores inventory exactly once' api/scripts/smoke-test.js
       - name: Verify local page assets
         run: |
           node --input-type=module <<'NODE'
