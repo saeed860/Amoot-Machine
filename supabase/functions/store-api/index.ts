@@ -181,7 +181,7 @@ Deno.serve(async (req) => {
     if (req.method === "GET" && path === "/api/orders") {
       const { data, error } = await adminDb.from("orders").select("*, order_items(*)").eq("user_id", profile.id).order("created_at", { ascending: false }).limit(100);
       if (error) return fail(500, "ORDERS_FAILED", "دریافت سفارش‌ها ناموفق بود.");
-      return json({ items: (data ?? []).map(o => ({ orderNumber: o.order_number, status: o.status, totalIrr: String(o.total_irr), createdAt: o.created_at, items: o.order_items.map((i: any) => ({ nameSnapshot: i.name_snapshot, quantity: i.quantity, unitPriceIrr: String(i.unit_price_irr), lineTotalIrr: String(i.line_total_irr) })) })) });
+      return json({ items: (data ?? []).map(o => ({ orderNumber: o.order_number, status: o.status, totalIrr: String(o.total_irr), createdAt: o.created_at, shippingCarrier:o.shipping_carrier, trackingNumber:o.tracking_number, shippedAt:o.shipped_at, items: o.order_items.map((i: any) => ({ nameSnapshot: i.name_snapshot, quantity: i.quantity, unitPriceIrr: String(i.unit_price_irr), lineTotalIrr: String(i.line_total_irr) })) })) });
     }
 
     if (req.method === "POST" && path === "/api/orders") {
@@ -212,7 +212,31 @@ Deno.serve(async (req) => {
       if (!canOperate) return fail(403, "FORBIDDEN", "دسترسی مدیریت مجاز نیست.");
       const { data, error } = await adminDb.from("orders").select("*, profiles(display_name,identifier), order_items(*)").order("created_at", { ascending: false }).limit(200);
       if (error) return fail(500, "ADMIN_ORDERS_FAILED", "دریافت سفارش‌ها ناموفق بود.");
-      return json({ items: (data ?? []).map(o => ({ orderNumber:o.order_number, totalIrr:String(o.total_irr), status:o.status, createdAt:o.created_at, user:{displayName:o.profiles?.display_name,identifier:o.profiles?.identifier}, items:o.order_items.map((i:any)=>({nameSnapshot:i.name_snapshot,quantity:i.quantity,unitPriceIrr:String(i.unit_price_irr),lineTotalIrr:String(i.line_total_irr)})) })) });
+      return json({ items: (data ?? []).map(o => ({ orderNumber:o.order_number, totalIrr:String(o.total_irr), status:o.status, createdAt:o.created_at, shippingCarrier:o.shipping_carrier, trackingNumber:o.tracking_number, shippedAt:o.shipped_at, user:{displayName:o.profiles?.display_name,identifier:o.profiles?.identifier}, items:o.order_items.map((i:any)=>({nameSnapshot:i.name_snapshot,quantity:i.quantity,unitPriceIrr:String(i.unit_price_irr),lineTotalIrr:String(i.line_total_irr)})) })) });
+    }
+
+    const shippingMatch = path.match(/^\/api\/admin\/orders\/([^/]+)\/shipping$/);
+    if (req.method === "PATCH" && shippingMatch) {
+      if (!canOperate) return fail(403,"FORBIDDEN","دسترسی مدیریت سفارش مجاز نیست.");
+      const body = await req.json();
+      const carrier = clean(body.carrier,100);
+      const tracking = clean(body.trackingNumber,100);
+      if ((carrier && carrier.length < 2) || (tracking && tracking.length < 3))
+        return fail(400,"VALIDATION_ERROR","نام شرکت حمل یا شماره رهگیری معتبر نیست.");
+      if (!!carrier !== !!tracking)
+        return fail(400,"VALIDATION_ERROR","برای ثبت رهگیری، نام شرکت حمل و شماره رهگیری را هر دو وارد کنید.");
+      const orderNumber = decodeURIComponent(shippingMatch[1]);
+      const { data: current, error: readError } = await adminDb.from("orders")
+        .select("id,status").eq("order_number",orderNumber).maybeSingle();
+      if (readError) return fail(500,"SHIPPING_READ_FAILED","خواندن سفارش ناموفق بود.");
+      if (!current) return fail(404,"NOT_FOUND","سفارش پیدا نشد.");
+      if (!["PROCESSING","SHIPPED"].includes(current.status))
+        return fail(409,"INVALID_ORDER_STATE","اطلاعات حمل فقط برای سفارش در حال پردازش یا ارسال‌شده قابل ثبت است.");
+      const { data, error } = await adminDb.from("orders").update({
+        shipping_carrier: carrier || null, tracking_number: tracking || null
+      }).eq("id",current.id).select("order_number,shipping_carrier,tracking_number,shipped_at").single();
+      if (error) return fail(500,"SHIPPING_UPDATE_FAILED","ذخیره اطلاعات حمل ناموفق بود.");
+      return json({order:{orderNumber:data.order_number,shippingCarrier:data.shipping_carrier,trackingNumber:data.tracking_number,shippedAt:data.shipped_at}});
     }
 
     const statusMatch = path.match(/^\/api\/admin\/orders\/([^/]+)\/status$/);
