@@ -7,7 +7,7 @@ const get=()=>{try{return JSON.parse(localStorage.getItem(key)||'[]')}catch{retu
 const put=a=>{localStorage.setItem(key,JSON.stringify(a));count()};
 const db=()=>{try{return JSON.parse(localStorage.getItem('amoot_github_pages_v1')||'{}')}catch{return {}}};
 const user=()=>{try{const s=JSON.parse(localStorage.getItem('amoot_demo_session_v1')||'null'),u=JSON.parse(localStorage.getItem('amoot_demo_accounts_v1')||'[]');return s&&u.find(x=>x.id===s.id)}catch{return null}};
-function count(){const e=$('#cartCount');if(e)e.textContent=get().reduce((n,x)=>n+(+x.qty||0),0).toLocaleString('fa-IR')}
+function count(){const e=$('#cartCount');if(!e)return;const value=get().reduce((n,x)=>n+(+x.qty||0),0).toLocaleString('fa-IR');if(e.textContent!==value)e.textContent=value}
 function rows(){const d=db();return get().map(x=>{const p=(d.products||[]).find(z=>+z.id===+x.productId);return p?{p,qty:+x.qty||1,total:(+p.price||0)*(+x.qty||1)}:null}).filter(Boolean)}
 function add(id){const d=db(),p=(d.products||[]).find(x=>+x.id===+id);if(!p)return;if(!(+p.stock>0)){if(window.quoteProduct)quoteProduct(id);return}const a=get(),r=a.find(x=>+x.productId===+id);if(r)r.qty=Math.min(+p.stock,+r.qty+1);else a.push({productId:+id,qty:1});put(a);if(window.toast)toast('به سبد خرید اضافه شد.')}
 function qty(id,n){const a=get(),p=(db().products||[]).find(x=>+x.id===+id);if(n<=0)put(a.filter(x=>+x.productId!==+id));else{const r=a.find(x=>+x.productId===+id);if(r)r.qty=Math.min(+p?.stock||1,Math.max(1,+n||1));put(a)}cart()}
