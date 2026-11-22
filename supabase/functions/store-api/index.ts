@@ -107,6 +107,22 @@ Deno.serve(async (req) => {
       return json(userDto(data));
     }
 
+    if (req.method === "PATCH" && path === "/api/me/password") {
+      const body = await req.json();
+      const currentPassword = String(body.currentPassword ?? "");
+      const newPassword = String(body.newPassword ?? "");
+      if (currentPassword.length < 1 || newPassword.length < 10 || newPassword.length > 128 || currentPassword === newPassword)
+        return fail(400, "VALIDATION_ERROR", "رمز جدید باید حداقل ۱۰ کاراکتر باشد و با رمز فعلی تفاوت داشته باشد.");
+      const identifier = clean(profile.identifier, 190).toLowerCase();
+      const credentials = identifier.includes("@") ? { email: identifier, password: currentPassword } : { phone: identifier, password: currentPassword };
+      const reauth = createClient(url, anonKey, { auth: { persistSession: false } });
+      const { error: reauthError } = await reauth.auth.signInWithPassword(credentials);
+      if (reauthError) return fail(401, "CURRENT_PASSWORD_INVALID", "رمز عبور فعلی صحیح نیست.");
+      const { error: updateError } = await adminDb.auth.admin.updateUserById(authData.user.id, { password: newPassword });
+      if (updateError) return fail(400, "PASSWORD_UPDATE_FAILED", "تغییر رمز عبور انجام نشد.");
+      return json({ success: true });
+    }
+
     if (req.method === "GET" && path === "/api/addresses") {
       const { data, error } = await adminDb.from("addresses").select("id,title,recipient,phone,province,city,postal_code,address_line,is_default,created_at")
         .eq("user_id", profile.id).order("is_default", { ascending: false }).order("created_at", { ascending: false });
