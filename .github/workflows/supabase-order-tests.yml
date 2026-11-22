@@ -1,3 +1,4 @@
+# Includes warehouse receipt transaction and stock-ledger integration coverage.
 name: Supabase Order Lifecycle Integration
 on:
   push:
