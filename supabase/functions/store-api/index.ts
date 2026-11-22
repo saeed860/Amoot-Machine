@@ -163,7 +163,7 @@ Deno.serve(async (req) => {
       return json({ imported: data?.length ?? rows.length });
     }
 
-    const productStatusMatch = path.match(/^\\/api\\/admin\\/products\\/([^/]+)\\/status$/);
+    const productStatusMatch = path.match(/^\/api\/admin\/products\/([^/]+)\/status$/);
     if (req.method === "PATCH" && productStatusMatch) {
       if (!isAdmin) return fail(403, "FORBIDDEN", "دسترسی مدیریت مجاز نیست.");
       const status = clean((await req.json()).status,20).toUpperCase();
