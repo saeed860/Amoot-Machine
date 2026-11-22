@@ -23,6 +23,7 @@ jobs:
       - run: npm install --no-save playwright
       - run: npx playwright install --with-deps chromium
       - name: Isolate startup scripts and verify storefront
+        timeout-minutes: 4
         run: |
           node --input-type=module <<'NODE'
           import { chromium } from 'playwright';
@@ -54,29 +55,28 @@ jobs:
           });
           await new Promise(resolve => server.listen(4173,'127.0.0.1',resolve));
           const browser = await chromium.launch({headless:true});
-          const page = await browser.newPage();
-          const errors = [];
-          page.on('pageerror', e => errors.push(e.message));
+          const checks = [];
           try {
-            const checks = [];
             for (const mode of ['none','app.js','api-config.js','api-client.js','cart.js','all']) {
-              errors.length = 0;
-              await page.goto('http://127.0.0.1:4173/?scripts='+mode, {waitUntil:'commit',timeout:5000});
-              let state;
+              const page = await browser.newPage();
+              const errors = [];
+              page.on('pageerror', e => errors.push(e.message));
               try {
-                state = await page.evaluate(async () => {
-                  await new Promise(r=>setTimeout(r,500));
-                  return {ready:document.readyState,products:document.querySelectorAll('#productGrid .product').length,title:document.title};
-                }, {timeout:4000});
-              } catch (e) { state = {blocked:true,error:e.message}; }
-              checks.push({mode,state,errors:[...errors]});
-              if (state.blocked) break;
+                const response = await page.goto('http://127.0.0.1:4173/?scripts='+mode, {waitUntil:'commit',timeout:5000});
+                const state = await Promise.race([
+                  page.evaluate(() => ({ready:document.readyState,products:document.querySelectorAll('#productGrid .product').length,title:document.title})),
+                  new Promise(resolve => setTimeout(()=>resolve({blocked:true}),2500))
+                ]);
+                checks.push({mode,http:response?.status(),state,errors});
+                if (state.blocked) { await page.close({runBeforeUnload:false}); break; }
+                await page.close();
+              } catch (e) { checks.push({mode,error:e.message,errors}); await page.close({runBeforeUnload:false}).catch(()=>{}); break; }
             }
             console.log(JSON.stringify(checks,null,2));
             const full = checks.find(x=>x.mode==='all');
-            if (!full || full.state.blocked || full.state.ready!=='complete' || full.state.products<5 || errors.length) throw new Error('Full storefront failed startup test');
+            if (!full || full.state?.blocked || full.state?.ready!=='complete' || full.state?.products<5 || full.errors?.length) throw new Error('Full storefront failed startup test');
           } finally {
-            await browser.close();
+            await browser.close().catch(()=>{});
             server.closeAllConnections();
             await new Promise(resolve => server.close(resolve));
           }
