@@ -288,3 +288,17 @@
 .spec-table small{font-size:9px;color:#7a8084}.spec-table b{font-size:11px;overflow-wrap:anywhere}
 .detail-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.detail-note{display:block;color:#7b8084;font-size:9px;line-height:1.9;margin-top:13px}
 @media(max-width:720px){.header-search select{max-width:88px;min-width:78px}.filters select{min-width:calc(50% - 8px);max-width:calc(50% - 8px)}.filters .mini{width:100%}.product-detail{grid-template-columns:1fr;gap:14px}.detail-image{min-height:180px}.detail-image img{height:190px}.detail-info h2{font-size:18px}.detail-price{font-size:15px}}
+
+/* Amoot Machine cart, checkout and order tracking */
+.cart-entry{border:0;background:transparent;color:#f4f4f4;font:inherit;font-size:11px;cursor:pointer;white-space:nowrap}
+.cart-entry b{display:inline-grid;place-items:center;min-width:20px;height:20px;padding:0 4px;border-radius:20px;background:var(--yellow);color:#17191b;font-size:10px}
+.cart-lines{display:grid;gap:9px;margin:16px 0}.cart-lines article{display:flex;align-items:center;gap:12px;padding:10px;border:1px solid #e8eaec;border-radius:8px}
+.cart-lines img{width:74px;height:68px;object-fit:contain;background:#f5f6f7;border-radius:6px}
+.cart-line-info{display:grid;gap:6px;flex:1;min-width:0}.cart-line-info b{font-size:12px}.cart-line-info small{font-size:9px;color:#777}
+.cart-lines article>strong{font-size:10px;white-space:nowrap}.qty-control{display:flex;align-items:center;gap:8px}
+.qty-control button{border:1px solid #ddd;background:#fff;border-radius:5px;min-width:27px;height:26px;cursor:pointer}
+.qty-control .remove-line{border:0;color:#b33;background:transparent;font-size:10px}
+.cart-total{display:flex;justify-content:space-between;align-items:center;padding:14px 0;border-top:1px solid #e5e7e8;font-size:12px}
+.checkout-btn{width:100%;margin-top:12px;padding:13px}.order-success{text-align:center;padding:16px 0}.order-success>strong{display:block;font-size:24px;letter-spacing:1px;color:#8a6500;margin:12px}
+.add-cart-btn{display:block;width:calc(100% - 24px);margin:0 12px 12px;padding:9px}
+@media(max-width:720px){.cart-entry{font-size:9px}.cart-lines article{gap:7px;align-items:flex-start;flex-wrap:wrap}.cart-lines img{width:56px;height:54px}.cart-lines article>strong{margin-right:auto}.cart-line-info b{font-size:10px}.add-cart-btn{width:calc(100% - 16px);margin:0 8px 8px;font-size:9px}.qty-control{gap:5px}}
