@@ -116,7 +116,7 @@ begin
   if v_receipt.receipt_number <> 'CI-WR-0001' or v_receipt.line_count <> 1 then
     raise exception 'Warehouse receipt RPC returned an unexpected result';
   end if;
-end $;
+end $$;
 
 do $check$
 begin
