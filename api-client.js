@@ -163,6 +163,25 @@
   };
  }
 
+ window.renderAdminReceipts=async()=>{
+  try{
+   const data=await api('/api/admin/inventory/receipts');
+   window.showModal('<div class="admin-head"><div><div class="eyebrow">AMOOT MACHINE · WAREHOUSE</div><h3>رسید ورود کالا به انبار</h3><small>ثبت رسید به‌صورت تراکنشی موجودی و دفتر گردش را هم‌زمان به‌روزرسانی می‌کند.</small></div><button class="mini" onclick="window.renderAdminProducts()">بازگشت</button></div>'+
+    '<form id="amootReceiptForm"><div class="form-grid"><div class="field"><label>تأمین‌کننده</label><input name="supplier" maxlength="160" placeholder="نام فروشنده / تأمین‌کننده"></div><div class="field"><label>شماره فاکتور یا سند</label><input name="documentNumber" maxlength="100"></div></div>'+
+    '<div class="field"><label>اقلام رسید (هر خط: کد کالا, تعداد)</label><textarea name="lines" rows="6" required placeholder="CAT-FILTER-001, 12&#10;KOM-ROLLER-02, 4"></textarea></div>'+
+    '<div class="field"><label>توضیحات</label><input name="note" maxlength="1000"></div><button class="btn yellow" type="submit">ثبت رسید و افزایش موجودی</button><p id="amootReceiptMessage" class="auth-foot"></p></form>'+
+    '<h4>۱۰۰ رسید اخیر</h4>'+(data.items.length?'<div class="customer-list">'+data.items.map(r=>'<article><b>'+escHtml(r.receiptNumber)+' · '+escHtml(r.supplier||'بدون نام تأمین‌کننده')+'</b><small>'+new Date(r.createdAt).toLocaleString('fa-IR')+' · سند: '+escHtml(r.documentNumber||'—')+'</small><small>'+r.items.map(i=>escHtml(i.sku)+' × '+Number(i.quantity).toLocaleString('fa-IR')).join('، ')+'</small></article>').join('')+'</div>':'<div class="empty-state">هنوز رسیدی ثبت نشده است.</div>'));
+   document.querySelector('#amootReceiptForm').onsubmit=async e=>{
+    e.preventDefault();const form=e.currentTarget,button=form.querySelector('button[type=submit]'),msg=document.querySelector('#amootReceiptMessage'),d=Object.fromEntries(new FormData(form));
+    const items=d.lines.split(/\\r?\\n/).map(line=>line.trim()).filter(Boolean).map(line=>{const parts=line.split(/[;,\\t]/).map(x=>x.trim());return {sku:parts[0],quantity:Number(parts[1])}});
+    if(!items.length||items.some(x=>!x.sku||!Number.isInteger(x.quantity)||x.quantity<1)){msg.textContent='فرمت اقلام معتبر نیست؛ هر خط باید به شکل SKU, تعداد باشد.';return}
+    button.disabled=true;msg.textContent='در حال ثبت رسید و به‌روزرسانی موجودی...';
+    try{const result=await api('/api/admin/inventory/receipts',{method:'POST',body:{supplier:d.supplier,documentNumber:d.documentNumber,note:d.note,items}});window.toast('رسید '+result.receiptNumber+' ثبت شد؛ موجودی و دفتر گردش به‌روزرسانی شدند.');await window.renderAdminReceipts()}
+    catch(err){msg.textContent=err.message;button.disabled=false}
+   };
+  }catch(err){window.toast(err.message)}
+ };
+
  window.renderAdminLowStock=async()=>{
   try{
    const thresholdRaw=prompt('حد هشدار موجودی را به تعداد عددی وارد کنید:','5');
@@ -179,7 +198,7 @@
  window.renderAdminProducts=async()=>{
   try{
    const data=await api('/api/admin/products');
-   window.showModal('<div class="admin-head"><div><div class="eyebrow">AMOOT MACHINE · CATALOG</div><h3>مدیریت کالاها ('+data.items.length+')</h3></div><button class="mini" onclick="window.renderAdminOrders()">بازگشت به سفارش‌ها</button></div><div class="notice">فایل Excel با ستون‌های SKU، Name، Category، PriceIrr، Stock، Brand، MachineModel، Description، ImageUrl و Status قابل ورود است. کالاهای دارای SKU تکراری به‌روزرسانی می‌شوند.</div><div class="field"><label>انتخاب فایل Excel یا CSV</label><input id="amootProductFile" type="file" accept=".xlsx,.xls,.csv"></div><button class="btn yellow" id="amootImportProducts">ورود گروهی کالاها</button><button class="btn dark" type="button" onclick="window.renderAdminLowStock()">گزارش کمبود موجودی</button><p id="amootImportMessage" class="auth-foot">حداکثر ۵۰۰ ردیف در هر بار.</p><div class="table-wrap" style="margin-top:16px"><table><thead><tr><th>کد کالا</th><th>نام</th><th>دسته</th><th>قیمت (ریال)</th><th>موجودی</th><th>وضعیت</th></tr></thead><tbody>'+data.items.map(p=>'<tr><td dir="ltr">'+escHtml(p.sku)+'</td><td>'+escHtml(p.name)+'</td><td>'+escHtml(p.category)+'</td><td>'+ (p.priceIrr?Number(p.priceIrr).toLocaleString('fa-IR'):'استعلام')+'</td><td>'+Number(p.stock).toLocaleString('fa-IR')+'</td><td><select data-product-status="'+escHtml(p.sku)+'"><option value="ACTIVE">فعال</option><option value="INACTIVE">غیرفعال</option><option value="ARCHIVED">بایگانی</option></select><button class="mini" data-product-edit="'+escHtml(p.sku)+'" type="button">ویرایش</button></td></tr>').join('')+'</tbody></table></div>');
+   window.showModal('<div class="admin-head"><div><div class="eyebrow">AMOOT MACHINE · CATALOG</div><h3>مدیریت کالاها ('+data.items.length+')</h3></div><button class="mini" onclick="window.renderAdminOrders()">بازگشت به سفارش‌ها</button></div><div class="notice">فایل Excel با ستون‌های SKU، Name، Category، PriceIrr، Stock، Brand، MachineModel، Description، ImageUrl و Status قابل ورود است. کالاهای دارای SKU تکراری به‌روزرسانی می‌شوند.</div><div class="field"><label>انتخاب فایل Excel یا CSV</label><input id="amootProductFile" type="file" accept=".xlsx,.xls,.csv"></div><button class="btn yellow" id="amootImportProducts">ورود گروهی کالاها</button><button class="btn dark" type="button" onclick="window.renderAdminLowStock()">گزارش کمبود موجودی</button><button class="btn dark" type="button" onclick="window.renderAdminReceipts()">ثبت رسید ورود کالا</button><p id="amootImportMessage" class="auth-foot">حداکثر ۵۰۰ ردیف در هر بار.</p><div class="table-wrap" style="margin-top:16px"><table><thead><tr><th>کد کالا</th><th>نام</th><th>دسته</th><th>قیمت (ریال)</th><th>موجودی</th><th>وضعیت</th></tr></thead><tbody>'+data.items.map(p=>'<tr><td dir="ltr">'+escHtml(p.sku)+'</td><td>'+escHtml(p.name)+'</td><td>'+escHtml(p.category)+'</td><td>'+ (p.priceIrr?Number(p.priceIrr).toLocaleString('fa-IR'):'استعلام')+'</td><td>'+Number(p.stock).toLocaleString('fa-IR')+'</td><td><select data-product-status="'+escHtml(p.sku)+'"><option value="ACTIVE">فعال</option><option value="INACTIVE">غیرفعال</option><option value="ARCHIVED">بایگانی</option></select><button class="mini" data-product-edit="'+escHtml(p.sku)+'" type="button">ویرایش</button></td></tr>').join('')+'</tbody></table></div>');
    document.querySelectorAll('[data-product-status]').forEach(x=>{const p=data.items.find(v=>v.sku===x.dataset.productStatus);x.value=p?.status||'ACTIVE';x.onchange=async()=>{try{await api('/api/admin/products/'+encodeURIComponent(x.dataset.productStatus)+'/status',{method:'PATCH',body:{status:x.value}});window.toast('وضعیت کالا ذخیره شد.')}catch(err){window.toast(err.message)}}});
    document.querySelectorAll('[data-product-edit]').forEach(b=>b.onclick=()=>openProductEditor(data.items.find(p=>p.sku===b.dataset.productEdit)));
 
