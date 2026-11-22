@@ -19,10 +19,11 @@
  const legacyAccountDashboard=window.accountDashboard;
  window.accountDashboard=(tab='overview')=>{
   legacyAccountDashboard?.(tab);
-  if(!base||!token()||!['profile','addresses'].includes(tab))return;
+  if(!base||!token()||!['profile','addresses','quotes'].includes(tab))return;
   const host=document.querySelector('#customerContent');if(!host)return;
   if(tab==='profile')renderServerProfile(host);
   if(tab==='addresses')renderServerAddresses(host);
+  if(tab==='quotes')renderServerQuotes(host);
  };
  async function renderServerProfile(host){
   host.innerHTML='<h3>اطلاعات شخصی</h3><div class="empty-state">در حال دریافت اطلاعات...</div>';
@@ -38,6 +39,13 @@
     '</div><button class="btn yellow" type="submit">ذخیره اطلاعات</button><p class="auth-foot" id="serverProfileMessage"></p></form>';
    host.querySelector('#serverProfileForm').onsubmit=async ev=>{ev.preventDefault();const b=ev.target.querySelector('button'),m=host.querySelector('#serverProfileMessage'),d=Object.fromEntries(new FormData(ev.target));b.disabled=true;m.textContent='در حال ذخیره...';try{const saved=await api('/api/me',{method:'PATCH',body:d});const local=window.currentUser?.();if(local){local.name=saved.displayName;local.profile=saved.profile;window.persistUser?.(local)}const apiUser=JSON.parse(localStorage.getItem(USER_KEY)||'{}');apiUser.displayName=saved.displayName;apiUser.profile=saved.profile;localStorage.setItem(USER_KEY,JSON.stringify(apiUser));m.textContent='اطلاعات با موفقیت در حساب شما ذخیره شد.';window.toast('پروفایل به‌روزرسانی شد.')}catch(err){m.textContent=err.message}finally{b.disabled=false}};
   }catch(err){host.innerHTML='<h3>اطلاعات شخصی</h3><div class="notice">'+escHtml(err.message)+'</div>'}
+ }
+ async function renderServerQuotes(host){
+  host.innerHTML='<h3>استعلام‌های من</h3><div class="empty-state">در حال دریافت درخواست‌ها...</div>';
+  try{
+   const data=await api('/api/quotes'),rows=data.items||[];
+   host.innerHTML='<h3>استعلام‌های من ('+rows.length+')</h3>'+(rows.length?'<div class="customer-list">'+rows.map(q=>'<article><b>'+escHtml(q.quoteNumber)+' · '+escHtml(q.status)+'</b><small>'+new Date(q.createdAt).toLocaleString('fa-IR')+' · '+escHtml(q.phone)+'</small><small>'+escHtml(q.productSku||'بدون کد کالا')+' · '+escHtml(q.message)+'</small></article>').join('')+'</div>':'<div class="empty-state">هنوز درخواست استعلامی ثبت نکرده‌اید.</div>');
+  }catch(err){host.innerHTML='<h3>استعلام‌های من</h3><div class="notice">'+escHtml(err.message)+'</div>'}
  }
  async function renderServerAddresses(host){
   host.innerHTML='<h3>نشانی‌های من</h3><div class="empty-state">در حال دریافت نشانی‌ها...</div>';
