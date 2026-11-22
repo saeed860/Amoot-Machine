@@ -233,6 +233,21 @@ Deno.serve(async (req) => {
       return json({ order:{orderNumber:updated.order_number,status:updated.status,totalIrr:String(updated.total_irr)} });
     }
 
+    if (req.method === "GET" && path === "/api/admin/inventory/low-stock") {
+      if (!isAdmin) return fail(403, "FORBIDDEN", "دسترسی گزارش انبار فقط برای مدیر اصلی مجاز است.");
+      const requested = Number(new URL(req.url).searchParams.get("threshold") ?? 5);
+      if (!Number.isInteger(requested) || requested < 0 || requested > 1000000)
+        return fail(400, "VALIDATION_ERROR", "حد هشدار موجودی معتبر نیست.");
+      const { data, error } = await adminDb.from("products")
+        .select("sku,name,brand,category,stock,status")
+        .eq("status", "ACTIVE").lte("stock", requested)
+        .order("stock", { ascending: true }).order("name", { ascending: true }).limit(500);
+      if (error) return fail(500, "LOW_STOCK_FAILED", "گزارش کمبود موجودی دریافت نشد.");
+      return json({ threshold: requested, items: (data ?? []).map(p => ({
+        sku:p.sku, name:p.name, brand:p.brand, category:p.category, stock:p.stock, status:p.status
+      })) });
+    }
+
     if (req.method === "GET" && path === "/api/admin/products") {
       if (!isAdmin) return fail(403, "FORBIDDEN", "دسترسی مدیریت مجاز نیست.");
       const { data, error } = await adminDb.from("products").select("*").order("updated_at", { ascending: false }).limit(500);
