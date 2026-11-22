@@ -20,6 +20,7 @@ declare
   order_id uuid;
   order_no text := 'AM-' || upper(substr(replace(gen_random_uuid()::text,'-',''),1,10));
 begin
+  perform pg_advisory_xact_lock(hashtextextended(p_idempotency_key, 0));
   if length(coalesce(p_idempotency_key,'')) < 8 or length(p_idempotency_key) > 120 then
     raise exception 'INVALID_IDEMPOTENCY_KEY';
   end if;
