@@ -19,6 +19,8 @@ try {
   const me = await request('/api/me', { token:registered.token });
   check(me.identifier === identifier, 'Authenticated customer profile');
   const sku = '1R-0716';
+  const stockBefore = Number(products.items.find(x => x.sku === sku)?.stock);
+  check(Number.isInteger(stockBefore) && stockBefore > 0, 'Initial inventory available for lifecycle test');
   const orderBody = { items:[{sku,quantity:1}], shipping:{recipient:'CI Customer',phone:'09120000000',province:'تهران',city:'تهران',postalCode:'1111111111',addressLine:'خیابان آزمایشی، پلاک ۱'} };
   const idem = `ci-order-${stamp}`;
   const created = await request('/api/orders', {method:'POST',token:registered.token,headers:{'Idempotency-Key':idem},body:orderBody});
@@ -34,5 +36,16 @@ try {
   check(adminOrders.items.some(x=>x.orderNumber===created.order.orderNumber),'Admin order visibility');
   const updated = await request(`/api/admin/orders/${created.order.orderNumber}/status`,{method:'PATCH',token:admin.token,body:{status:'CONFIRMED'}});
   check(updated.order.status==='CONFIRMED','Admin order status update');
+  const cancelled = await request(`/api/admin/orders/${created.order.orderNumber}/status`,{method:'PATCH',token:admin.token,body:{status:'CANCELLED'}});
+  check(cancelled.order.status==='CANCELLED','Order cancellation transition');
+  const stockAfterCancel = await request('/api/products');
+  check(Number(stockAfterCancel.items.find(x => x.sku === sku)?.stock) === stockBefore,'Cancellation restores inventory exactly once');
+  const cancelledAgain = await request(`/api/admin/orders/${created.order.orderNumber}/status`,{method:'PATCH',token:admin.token,body:{status:'CANCELLED'}});
+  check(cancelledAgain.order.status==='CANCELLED','Repeated cancellation is idempotent');
+  const stockAfterRetry = await request('/api/products');
+  check(Number(stockAfterRetry.items.find(x => x.sku === sku)?.stock) === stockBefore,'Repeated cancellation does not double-restock');
+  const invalidTransition = await fetch(base+`/api/admin/orders/${created.order.orderNumber}/status`,{method:'PATCH',headers:{'content-type':'application/json',authorization:`Bearer ${admin.token}`},body:JSON.stringify({status:'CONFIRMED'})});
+  const invalidBody = await invalidTransition.json().catch(()=>({}));
+  check(invalidTransition.status===409 && invalidBody.error?.code==='INVALID_ORDER_TRANSITION','Cancelled order cannot be reopened');
   console.log('ALL API SMOKE TESTS PASSED');
 } catch (error) { console.error('API SMOKE TEST FAILED:', error); process.exitCode=1; }
