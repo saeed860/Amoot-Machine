@@ -47,5 +47,13 @@ try {
   const invalidTransition = await fetch(base+`/api/admin/orders/${created.order.orderNumber}/status`,{method:'PATCH',headers:{'content-type':'application/json',authorization:`Bearer ${admin.token}`},body:JSON.stringify({status:'CONFIRMED'})});
   const invalidBody = await invalidTransition.json().catch(()=>({}));
   check(invalidTransition.status===409 && invalidBody.error?.code==='INVALID_ORDER_TRANSITION','Cancelled order cannot be reopened');
+  const deliveryOrder = await request('/api/orders',{method:'POST',token:registered.token,headers:{'Idempotency-Key':`ci-delivery-${stamp}`},body:orderBody});
+  check(Boolean(deliveryOrder.order?.orderNumber),'Second order created for delivery lifecycle');
+  for (const status of ['CONFIRMED','PROCESSING','SHIPPED','DELIVERED']) {
+    const result = await request(`/api/admin/orders/${deliveryOrder.order.orderNumber}/status`,{method:'PATCH',token:admin.token,body:{status}});
+    check(result.order.status===status,`Order lifecycle transition to ${status}`);
+  }
+  const deliveredCannotCancel = await fetch(base+`/api/admin/orders/${deliveryOrder.order.orderNumber}/status`,{method:'PATCH',headers:{'content-type':'application/json',authorization:`Bearer ${admin.token}`},body:JSON.stringify({status:'CANCELLED'})});
+  check(deliveredCannotCancel.status===409,'Delivered order cannot be cancelled');
   console.log('ALL API SMOKE TESTS PASSED');
 } catch (error) { console.error('API SMOKE TEST FAILED:', error); process.exitCode=1; }
