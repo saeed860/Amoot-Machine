@@ -1,0 +1,48 @@
+name: Amoot Site Integrity
+on:
+  push:
+    branches: [main]
+    paths:
+      - "index.html"
+      - "app.js"
+      - "cart.js"
+      - "api-client.js"
+      - "api-config.js"
+      - "style.css"
+      - "assets/**"
+      - ".github/workflows/site-integrity.yml"
+  pull_request:
+    paths:
+      - "index.html"
+      - "app.js"
+      - "cart.js"
+      - "api-client.js"
+      - "api-config.js"
+      - "style.css"
+      - "assets/**"
+      - ".github/workflows/site-integrity.yml"
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Validate browser JavaScript
+        run: |
+          node --check app.js
+          node --check cart.js
+          node --check api-client.js
+          node --check api-config.js
+      - name: Verify local page assets
+        run: |
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          const files = ['index.html','app.js','cart.js','api-client.js','api-config.js','style.css'];
+          const text = files.map(f => fs.readFileSync(f,'utf8')).join('\n');
+          const refs = new Set([...text.matchAll(/(?:\.\/assets\/[A-Za-z0-9._/-]+|\.\/style\.css|\.\/app\.js|\.\/cart\.js|\.\/api-client\.js|\.\/api-config\.js)/g)].map(m=>m[0]));
+          const missing = [...refs].filter(p => !fs.existsSync(p.slice(2)));
+          if (missing.length) { console.error('Missing local assets:', missing); process.exit(1); }
+          console.log('Verified', refs.size, 'local asset references.');
+          NODE
