@@ -168,3 +168,114 @@ insert into public.products(sku,name,brand,category,machine_model,description,pr
 ('FRL-01','واحد مراقبت پنوماتیک FRL','Norgren','قطعات پنوماتیک','سیستم هوای فشرده','سایز اتصال باید بررسی شود.',null,6,'/assets/product-filter.jpg'),
 ('SV-24V','شیر برقی پنوماتیک','SMC','قطعات پنوماتیک','مدارهای کنترل پنوماتیک','ولتاژ بوبین، تعداد راه و سایز پورت باید با سیستم هماهنگ شود.',null,10,'/assets/product-pump.jpg')
 on conflict (sku) do nothing;
+
+
+-- Atomic order creation: lock inventory, enforce prices/stock, and make retries safe.
+alter table public.orders add column if not exists request_hash text;
+
+create or replace function public.amoot_create_order(
+  p_user_id uuid,
+  p_idempotency_key text,
+  p_items jsonb,
+  p_shipping jsonb
+)
+returns table(order_number text, total_irr bigint, status public.order_status, created_at timestamptz)
+language plpgsql
+security definer
+set search_path = ''
+as $$
+declare
+  v_hash text;
+  v_existing public.orders%rowtype;
+  v_order_id uuid;
+  v_order_number text;
+  v_total bigint := 0;
+  v_item record;
+  v_product public.products%rowtype;
+  v_qty integer;
+  v_line bigint;
+begin
+  if p_user_id is null or length(coalesce(p_idempotency_key,'')) < 8 then
+    raise exception 'VALIDATION_ERROR';
+  end if;
+  if jsonb_typeof(p_items) <> 'array' or jsonb_array_length(p_items) < 1 or jsonb_array_length(p_items) > 40 then
+    raise exception 'VALIDATION_ERROR';
+  end if;
+
+  v_hash := encode(extensions.digest(
+    convert_to(jsonb_build_object(
+      'items', (select jsonb_agg(jsonb_build_object('sku', x.sku, 'quantity', x.qty) order by x.sku)
+               from (select btrim(value->>'sku') sku, sum((value->>'quantity')::integer)::integer qty
+                     from jsonb_array_elements(p_items) group by btrim(value->>'sku')) x),
+      'shipping', p_shipping
+    )::text, 'UTF8'), 'sha256'), 'hex');
+
+  select * into v_existing from public.orders where idempotency_key = p_idempotency_key;
+  if found then
+    if v_existing.user_id <> p_user_id or v_existing.request_hash <> v_hash then
+      raise exception 'IDEMPOTENCY_CONFLICT';
+    end if;
+    return query select v_existing.order_number, v_existing.total_irr, v_existing.status, v_existing.created_at;
+    return;
+  end if;
+
+  -- Lock product rows in deterministic SKU order to prevent overselling/deadlocks.
+  for v_item in
+    select btrim(value->>'sku') sku, sum((value->>'quantity')::integer)::integer qty
+    from jsonb_array_elements(p_items)
+    group by btrim(value->>'sku')
+    order by btrim(value->>'sku')
+  loop
+    select * into v_product from public.products p
+      where p.sku = v_item.sku and p.status = 'ACTIVE'
+      for update;
+    if not found then raise exception 'PRODUCT_NOT_FOUND'; end if;
+    if v_product.price_irr is null or v_product.price_irr <= 0 then raise exception 'QUOTE_REQUIRED'; end if;
+    if v_product.stock < v_item.qty then raise exception 'OUT_OF_STOCK'; end if;
+    v_total := v_total + (v_product.price_irr * v_item.qty);
+  end loop;
+
+  v_order_number := 'AM-' || upper(substr(replace(gen_random_uuid()::text,'-',''),1,12));
+  insert into public.orders(
+    order_number,user_id,status,total_irr,recipient,phone,province,city,postal_code,address_line,notes,idempotency_key,request_hash
+  ) values (
+    v_order_number,p_user_id,'PENDING',v_total,
+    left(coalesce(p_shipping->>'recipient',''),100),
+    left(coalesce(p_shipping->>'phone',''),20),
+    left(coalesce(p_shipping->>'province',''),80),
+    left(coalesce(p_shipping->>'city',''),80),
+    nullif(left(coalesce(p_shipping->>'postalCode',''),20),''),
+    left(coalesce(p_shipping->>'addressLine',''),1000),
+    nullif(left(coalesce(p_shipping->>'notes',''),1000),''),
+    p_idempotency_key,v_hash
+  )
+  on conflict (idempotency_key) do nothing
+  returning id into v_order_id;
+
+  if v_order_id is null then
+    select * into v_existing from public.orders where idempotency_key = p_idempotency_key;
+    if v_existing.user_id <> p_user_id or v_existing.request_hash <> v_hash then raise exception 'IDEMPOTENCY_CONFLICT'; end if;
+    return query select v_existing.order_number, v_existing.total_irr, v_existing.status, v_existing.created_at;
+    return;
+  end if;
+
+  for v_item in
+    select btrim(value->>'sku') sku, sum((value->>'quantity')::integer)::integer qty
+    from jsonb_array_elements(p_items)
+    group by btrim(value->>'sku')
+    order by btrim(value->>'sku')
+  loop
+    select * into v_product from public.products p where p.sku = v_item.sku for update;
+    v_qty := v_item.qty;
+    v_line := v_product.price_irr * v_qty;
+    update public.products set stock = stock - v_qty where id = v_product.id;
+    insert into public.order_items(order_id,product_id,sku_snapshot,name_snapshot,quantity,unit_price_irr,line_total_irr)
+    values(v_order_id,v_product.id,v_product.sku,v_product.name,v_qty,v_product.price_irr,v_line);
+  end loop;
+
+  return query select o.order_number,o.total_irr,o.status,o.created_at from public.orders o where o.id = v_order_id;
+end;
+$$;
+
+revoke all on function public.amoot_create_order(uuid,text,jsonb,jsonb) from public, anon, authenticated;
+grant execute on function public.amoot_create_order(uuid,text,jsonb,jsonb) to service_role;
