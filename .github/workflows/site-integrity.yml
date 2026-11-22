@@ -35,6 +35,12 @@ jobs:
           node --check cart.js
           node --check api-client.js
           node --check api-config.js
+      - name: Verify secure account password flow
+        run: |
+          grep -q 'path === "/api/me/password"' supabase/functions/store-api/index.ts
+          grep -q 'admin.updateUserById' supabase/functions/store-api/index.ts
+          grep -q "renderServerSecurity(host)" api-client.js
+          grep -q "api('/api/me/password'" api-client.js
       - name: Verify local page assets
         run: |
           node --input-type=module <<'NODE'
