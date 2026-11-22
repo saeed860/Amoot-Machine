@@ -261,6 +261,29 @@ Deno.serve(async (req) => {
       return json({ imported: data?.length ?? rows.length });
     }
 
+    const productMatch = path.match(/^\/api\/admin\/products\/([^/]+)$/);
+    if (req.method === "PATCH" && productMatch) {
+      if (!isAdmin) return fail(403, "FORBIDDEN", "دسترسی مدیریت مجاز نیست.");
+      const body = await req.json();
+      const name = clean(body.name,180), category = clean(body.category,100);
+      const stock = Number(body.stock ?? 0);
+      const price = body.priceIrr === "" || body.priceIrr == null ? null : Number(body.priceIrr);
+      const imageUrl = clean(body.imageUrl,1000);
+      if (name.length < 2 || !category || !Number.isInteger(stock) || stock < 0 || stock > 10000000 ||
+          (price !== null && (!Number.isSafeInteger(price) || price < 0)) ||
+          (imageUrl && !(/^(https:\/\/|http:\/\/|\.\.\/|\.\/|\/)/i.test(imageUrl)))) {
+        return fail(400, "VALIDATION_ERROR", "نام، دسته‌بندی، قیمت، موجودی یا نشانی تصویر معتبر نیست.");
+      }
+      const { data, error } = await adminDb.from("products").update({
+        name, brand:clean(body.brand,100)||null, category,
+        machine_model:clean(body.machineModel,120)||null,
+        description:clean(body.description,2000)||null,
+        image_url:imageUrl||null, price_irr:price, stock
+      }).eq("sku",decodeURIComponent(productMatch[1])).select("sku,name,stock,status").single();
+      if (error || !data) return fail(404, "NOT_FOUND", "کالا پیدا نشد یا ذخیره آن ناموفق بود.");
+      return json({ product:{sku:data.sku,name:data.name,stock:data.stock,status:data.status} });
+    }
+
     const productStatusMatch = path.match(/^\/api\/admin\/products\/([^/]+)\/status$/);
     if (req.method === "PATCH" && productStatusMatch) {
       if (!isAdmin) return fail(403, "FORBIDDEN", "دسترسی مدیریت مجاز نیست.");
