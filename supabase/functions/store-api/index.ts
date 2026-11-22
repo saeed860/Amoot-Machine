@@ -257,6 +257,27 @@ Deno.serve(async (req) => {
       return json({ order:{orderNumber:updated.order_number,status:updated.status,totalIrr:String(updated.total_irr)} });
     }
 
+    if (req.method === "GET" && path === "/api/admin/inventory/movements") {
+      if (!isAdmin) return fail(403, "FORBIDDEN", "دفتر گردش انبار فقط برای مدیر اصلی مجاز است.");
+      const params = new URL(req.url).searchParams;
+      const sku = clean(params.get("sku"), 80);
+      const type = clean(params.get("type"), 20).toUpperCase();
+      if (type && !["IN","OUT","ADJUSTMENT","ORDER","CANCELLATION"].includes(type))
+        return fail(400, "VALIDATION_ERROR", "نوع گردش موجودی معتبر نیست.");
+      let query = adminDb.from("inventory_movements")
+        .select("id,sku,product_name,movement_type,quantity_delta,stock_before,stock_after,reference,note,created_at")
+        .order("created_at", { ascending: false }).limit(300);
+      if (sku) query = query.eq("sku", sku);
+      if (type) query = query.eq("movement_type", type);
+      const { data, error } = await query;
+      if (error) return fail(500, "INVENTORY_LEDGER_FAILED", "دریافت دفتر گردش موجودی ناموفق بود.");
+      return json({ items: (data ?? []).map(m => ({
+        id:m.id, sku:m.sku, productName:m.product_name, movementType:m.movement_type,
+        quantityDelta:m.quantity_delta, stockBefore:m.stock_before, stockAfter:m.stock_after,
+        reference:m.reference, note:m.note, createdAt:m.created_at
+      })) });
+    }
+
     if (req.method === "GET" && path === "/api/admin/inventory/low-stock") {
       if (!isAdmin) return fail(403, "FORBIDDEN", "دسترسی گزارش انبار فقط برای مدیر اصلی مجاز است.");
       const requested = Number(new URL(req.url).searchParams.get("threshold") ?? 5);
