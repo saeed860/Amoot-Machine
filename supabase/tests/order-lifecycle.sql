@@ -12,6 +12,7 @@ declare
   v_order record;
   v_stock integer;
   v_cancelled record;
+  v_replay record;
   v_delivery record;
 begin
   select * into v_order from public.amoot_create_order(
@@ -22,6 +23,32 @@ begin
   );
   select stock into v_stock from public.products where sku='CI-LIFECYCLE';
   if v_stock <> 8 then raise exception 'Expected stock 8 after order, got %',v_stock; end if;
+
+  -- A retry with the exact same key and payload returns the original order without charging stock twice.
+  select * into v_replay from public.amoot_create_order(
+    '11111111-1111-4111-8111-111111111111',
+    'ci-cancel-key-0001',
+    '[{"sku":"CI-LIFECYCLE","quantity":2}]'::jsonb,
+    '{"recipient":"CI","phone":"123456789","province":"CI","city":"CI","addressLine":"CI test address"}'::jsonb
+  );
+  if v_replay.order_number <> v_order.order_number then
+    raise exception 'Idempotent retry returned a different order';
+  end if;
+  select stock into v_stock from public.products where sku='CI-LIFECYCLE';
+  if v_stock <> 8 then raise exception 'Idempotent retry reduced stock twice: %',v_stock; end if;
+
+  -- Reusing the same key with a changed payload must be rejected.
+  begin
+    perform * from public.amoot_create_order(
+      '11111111-1111-4111-8111-111111111111',
+      'ci-cancel-key-0001',
+      '[{"sku":"CI-LIFECYCLE","quantity":1}]'::jsonb,
+      '{"recipient":"CI","phone":"123456789","province":"CI","city":"CI","addressLine":"CI test address"}'::jsonb
+    );
+    raise exception 'Expected changed idempotency payload to be rejected';
+  exception when others then
+    if sqlerrm not like '%IDEMPOTENCY_CONFLICT%' then raise; end if;
+  end;
 
   select * into v_cancelled from public.amoot_update_order_status(v_order.order_number,'CANCELLED');
   select stock into v_stock from public.products where sku='CI-LIFECYCLE';
@@ -83,4 +110,4 @@ begin
   end if;
 end $check$;
 
-select 'PASS: cancellation restores stock once; illegal transitions rejected; delivery keeps stock consumed' as result;
+select 'PASS: idempotent retry; conflicting key rejected; cancellation restores stock once; illegal transitions rejected; delivery keeps stock consumed' as result;
