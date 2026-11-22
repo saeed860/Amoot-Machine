@@ -1,0 +1,81 @@
+name: Amoot API CI
+on:
+  push:
+    paths:
+      - 'api/**'
+      - '.github/workflows/api-ci.yml'
+  pull_request:
+    paths:
+      - 'api/**'
+      - '.github/workflows/api-ci.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  api-postgres-smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: amoot_user
+          POSTGRES_PASSWORD: ci_password
+          POSTGRES_DB: amoot_machine
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U amoot_user -d amoot_machine"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 10
+    defaults:
+      run:
+        working-directory: api
+    env:
+      NODE_ENV: test
+      HOST: 127.0.0.1
+      PORT: 4000
+      DATABASE_URL: postgresql://amoot_user:ci_password@127.0.0.1:5432/amoot_machine?schema=public
+      JWT_SECRET: ci-only-secret-not-for-production-0123456789
+      CORS_ORIGINS: http://127.0.0.1:5500,https://saeed860.github.io
+      ADMIN_IDENTIFIER: ci-admin@example.test
+      ADMIN_PASSWORD: CI-Only-Admin-Password-2026!
+      ADMIN_NAME: CI Admin
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: api/package.json
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+      - name: Validate Prisma schema
+        run: npx prisma validate
+      - name: Generate Prisma client
+        run: npx prisma generate
+      - name: Create CI database schema
+        run: npx prisma db push
+      - name: Seed products and temporary CI administrator
+        run: npm run db:seed
+      - name: Start API
+        run: |
+          node src/server.js > /tmp/amoot-api.log 2>&1 &
+          echo $! > /tmp/amoot-api.pid
+          for attempt in $(seq 1 30); do
+            if curl --fail --silent http://127.0.0.1:4000/api/health; then
+              echo
+              exit 0
+            fi
+            sleep 2
+          done
+          cat /tmp/amoot-api.log
+          exit 1
+      - name: Run end-to-end API smoke tests
+        run: node scripts/smoke-test.js
+      - name: Show API log on failure
+        if: failure()
+        run: cat /tmp/amoot-api.log || true
