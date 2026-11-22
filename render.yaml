@@ -1,0 +1,37 @@
+services:
+  - type: web
+    name: amoot-machine-api
+    runtime: node
+    plan: free
+    region: frankfurt
+    rootDir: api
+    buildCommand: npm install --no-audit --no-fund && npx prisma generate
+    startCommand: npx prisma db push && npm run db:seed && npm start
+    healthCheckPath: /api/health
+    autoDeployTrigger: checksPass
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: HOST
+        value: 0.0.0.0
+      - key: DATABASE_URL
+        fromDatabase:
+          name: amoot-machine-db
+          property: connectionString
+      - key: JWT_SECRET
+        generateValue: true
+      - key: CORS_ORIGINS
+        value: https://saeed860.github.io
+      - key: ADMIN_IDENTIFIER
+        value: admin@amootmachine.local
+      - key: ADMIN_PASSWORD
+        generateValue: true
+      - key: ADMIN_NAME
+        value: مدیر آموت ماشین
+
+databases:
+  - name: amoot-machine-db
+    databaseName: amoot_machine
+    user: amoot_user
+    plan: free
+    region: frankfurt
