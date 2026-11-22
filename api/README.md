@@ -48,3 +48,9 @@ The GitHub Pages frontend is static and cannot host this API or PostgreSQL. Depl
 Every push or pull request that changes `api/**` runs the GitHub Actions workflow at `.github/workflows/api-ci.yml`. It starts a temporary PostgreSQL 16 service, validates and generates the Prisma client, creates a disposable schema, seeds sample products and a temporary CI-only administrator, starts the API, and runs end-to-end checks for health, registration/login, product listing, order creation/retry, customer order history, quote submission, and administrator order status updates.
 
 The CI database and credentials are temporary and are not production credentials. This workflow verifies the API in GitHub's runner; it does not install PostgreSQL on your device or deploy the API publicly. To see the result, open the repository's **Actions** tab and select **Amoot API CI**.
+
+## Storefront connection
+
+The static storefront now includes `api-config.js` and `api-client.js`. After deploying the API to a public HTTPS Node.js host, set `window.AMOOT_API_BASE_URL` in `api-config.js` to that exact API origin (without a trailing slash), then set the API's `CORS_ORIGINS` to `https://saeed860.github.io`.
+
+When the endpoint is configured, customer registration/login, product catalog loading, quote requests, order submission, and customer order history use the API. If the endpoint is blank, the existing browser-only demo remains active. Do not enter production customer data while the API endpoint is blank. Online payment is not included; orders are recorded as unpaid.
