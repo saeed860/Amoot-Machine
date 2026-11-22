@@ -2,10 +2,11 @@
 (()=>{
  const base=String(window.AMOOT_API_BASE_URL||'').replace(/\/$/,'');
  const TOKEN_KEY='amoot_api_token_v1', USER_KEY='amoot_api_user_v1';
+ const publicKey=String(window.AMOOT_SUPABASE_ANON_KEY||'');
  const token=()=>localStorage.getItem(TOKEN_KEY)||'';
  async function api(path,{method='GET',body,auth=true,headers={}}={}){
   if(!base)throw new Error('API_NOT_CONFIGURED');
-  const r=await fetch(base+path,{method,headers:{...(body?{'Content-Type':'application/json'}:{}),...(auth&&token()?{Authorization:'Bearer '+token()}:{}),...headers},body:body?JSON.stringify(body):undefined});
+  const r=await fetch(base+path,{method,headers:{...(body?{'Content-Type':'application/json'}:{}),...(publicKey?{apikey:publicKey}:{}),...(auth&&token()?{Authorization:'Bearer '+token()}:{}),...headers},body:body?JSON.stringify(body):undefined});
   const data=await r.json().catch(()=>({}));
   if(!r.ok)throw new Error(data.error?.message||'خطا در ارتباط با سرور');
   return data;
