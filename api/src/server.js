@@ -138,7 +138,7 @@ app.patch('/api/admin/orders/:orderNumber/status', auth, admin, async (req, res)
   res.json({ order: orderDto(order) });
 });
 app.use((err, _req, res, _next) => { console.error(err); res.status(500).json({ error: { code: 'INTERNAL_ERROR', message: 'خطای داخلی سرور رخ داد.' } }); });
-const port = Number(process.env.PORT || 4000), host = process.env.HOST || '127.0.0.1';
+const port = Number(process.env.PORT || 4000), host = process.env.HOST || '0.0.0.0';
 const server = app.listen(port, host, () => console.log(`Amoot API listening on http://${host}:${port}`));
 async function shutdown() { server.close(async () => { await prisma.$disconnect(); process.exit(0); }); }
 process.on('SIGINT', shutdown); process.on('SIGTERM', shutdown);
