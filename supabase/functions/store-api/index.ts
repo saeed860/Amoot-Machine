@@ -50,7 +50,7 @@ Deno.serve(async (req) => {
     }
 
     if (req.method === "GET" && path === "/api/products") {
-      const u = new URL(req.url), q = clean(u.searchParams.get("q"), 100), category = clean(u.searchParams.get("category"), 100), brand = clean(u.searchParams.get("brand"), 100), model = clean(u.searchParams.get("model"), 120);
+      const u = new URL(req.url), q = clean(u.searchParams.get("q"), 100).replace(/[,%()_*\\]/g, " ").replace(/\s+/g, " ").trim(), category = clean(u.searchParams.get("category"), 100), brand = clean(u.searchParams.get("brand"), 100), model = clean(u.searchParams.get("model"), 120);
       let query = adminDb.from("products").select("*").eq("status", "ACTIVE").order("created_at", { ascending: false }).limit(100);
       if (category) query = query.eq("category", category);
       if (brand) query = query.eq("brand", brand);
