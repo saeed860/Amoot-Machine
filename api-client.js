@@ -30,6 +30,10 @@
   }catch(err){message.textContent=err.message==='API_NOT_CONFIGURED'?'نشانی API تنظیم نشده است.':err.message;submit.disabled=false}
   };
  };
+
+ const legacyOpenQuote=window.openQuote;
+ window.openQuote=(name='')=>{legacyOpenQuote(name);const form=document.querySelector('#quoteForm');if(!form)return;form.onsubmit=async e=>{e.preventDefault();const d=Object.fromEntries(new FormData(form));const button=form.querySelector('button[type=submit],button:not([type])');if(button)button.disabled=true;try{const result=await api('/api/quotes',{method:'POST',auth:false,body:{name:d.name,phone:d.phone,message:d.details,productSku:(d.details.match(/کد کالا:\s*([^|]+)/)||[])[1]?.trim()}});window.closeModal();window.toast('درخواست استعلام با شماره '+result.quote.quoteNumber+' در سرور ثبت شد.')}catch(err){window.toast(err.message);if(button)button.disabled=false}}};
+
  const oldLogout=window.logoutAccount;
  window.logoutAccount=()=>{localStorage.removeItem(TOKEN_KEY);localStorage.removeItem(USER_KEY);oldLogout?.()};
  const oldLoadProducts=window.loadProducts;
@@ -38,8 +42,7 @@
   if(q)params.set('q',q);if(category)params.set('category',category);if(brand)params.set('brand',brand);if(model)params.set('model',model);
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const mapped=data.items.map(p=>({id:p.id,sku:p.sku,name:p.name,brand:p.brand||'',category:p.category,machine_model:p.machineModel||'',description:p.description||'',price:p.priceIrr===null?0:Number(p.priceIrr),stock:p.stock,image:p.imageUrl||'./assets/product-pump.jpg'}));
-  if(window.db&&Array.isArray(window.db.products)){window.db.products=mapped;window.products=mapped;window.renderProducts?.()}
-  else oldLoadProducts?.();
+  if(typeof window.setApiProducts==='function')window.setApiProducts(mapped);else oldLoadProducts?.();
  }catch(e){window.toast('دریافت محصولات از سرور ناموفق بود: '+e.message)}};
  window.customerOrders=async u=>{
   const el=document.querySelector('#customerContent');if(!el)return;el.innerHTML='<h3>سفارش‌های من</h3><div class="empty-state">در حال دریافت سفارش‌ها از سرور...</div>';
