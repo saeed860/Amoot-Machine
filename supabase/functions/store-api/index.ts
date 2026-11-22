@@ -83,7 +83,8 @@ Deno.serve(async (req) => {
     if (authError || !authData.user) return fail(401, "UNAUTHORIZED", "نشست معتبر نیست.");
     const { data: profile } = await adminDb.from("profiles").select("*").eq("id", authData.user.id).single();
     if (!profile?.is_active) return fail(403, "ACCOUNT_DISABLED", "این حساب غیرفعال است.");
-    const isAdmin = ["ADMIN", "OPERATOR"].includes(profile.role);
+    const isAdmin = profile.role === "ADMIN";
+    const canOperate = ["ADMIN", "OPERATOR"].includes(profile.role);
 
     if (req.method === "GET" && path === "/api/me")
       return json(userDto(profile));
@@ -188,7 +189,7 @@ Deno.serve(async (req) => {
     }
 
     if (req.method === "GET" && path === "/api/admin/orders") {
-      if (!isAdmin) return fail(403, "FORBIDDEN", "دسترسی مدیریت مجاز نیست.");
+      if (!canOperate) return fail(403, "FORBIDDEN", "دسترسی مدیریت مجاز نیست.");
       const { data, error } = await adminDb.from("orders").select("*, profiles(display_name,identifier), order_items(*)").order("created_at", { ascending: false }).limit(200);
       if (error) return fail(500, "ADMIN_ORDERS_FAILED", "دریافت سفارش‌ها ناموفق بود.");
       return json({ items: (data ?? []).map(o => ({ orderNumber:o.order_number, totalIrr:String(o.total_irr), status:o.status, createdAt:o.created_at, user:{displayName:o.profiles?.display_name,identifier:o.profiles?.identifier}, items:o.order_items.map((i:any)=>({nameSnapshot:i.name_snapshot,quantity:i.quantity,unitPriceIrr:String(i.unit_price_irr),lineTotalIrr:String(i.line_total_irr)})) })) });
@@ -269,7 +270,7 @@ Deno.serve(async (req) => {
     }
 
     if (req.method === "GET" && path === "/api/admin/quotes") {
-      if (!isAdmin) return fail(403,"FORBIDDEN","دسترسی مدیریت مجاز نیست.");
+      if (!canOperate) return fail(403,"FORBIDDEN","دسترسی مدیریت مجاز نیست.");
       const {data,error}=await adminDb.from("quotes").select("quote_number,name,phone,product_sku,machine_model,message,status,created_at").order("created_at",{ascending:false}).limit(300);
       if(error) return fail(500,"QUOTES_FAILED","دریافت استعلام‌ها ناموفق بود.");
       return json({items:(data??[]).map(q=>({quoteNumber:q.quote_number,name:q.name,phone:q.phone,productSku:q.product_sku,machineModel:q.machine_model,message:q.message,status:q.status,createdAt:q.created_at}))});
