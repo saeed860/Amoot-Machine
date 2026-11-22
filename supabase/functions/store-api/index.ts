@@ -114,7 +114,8 @@ Deno.serve(async (req) => {
         if (msg.includes("OUT_OF_STOCK")) return fail(409, "OUT_OF_STOCK", "موجودی یکی از کالاها کافی نیست.");
         return fail(500, "ORDER_FAILED", "ثبت سفارش ناموفق بود.");
       }
-      return json({ order: { orderNumber: data.order_number, totalIrr: String(data.total_irr), status: data.status, createdAt: data.created_at } }, 201);
+      const createdOrder = Array.isArray(data) ? data[0] : data;
+      return json({ order: { orderNumber: createdOrder.order_number, totalIrr: String(createdOrder.total_irr), status: createdOrder.status, createdAt: createdOrder.created_at } }, 201);
     }
 
     if (req.method === "GET" && path === "/api/admin/orders") {
