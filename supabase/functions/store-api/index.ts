@@ -7,13 +7,13 @@ const adminDb = createClient(url, serviceKey, { auth: { persistSession: false } 
 const cors = {
   "Access-Control-Allow-Origin": "https://saeed860.github.io",
   "Access-Control-Allow-Headers": "authorization, x-client-info, apikey, content-type, idempotency-key",
-  "Access-Control-Allow-Methods": "GET, POST, PATCH, OPTIONS",
+  "Access-Control-Allow-Methods": "GET, POST, PATCH, DELETE, OPTIONS",
   "Content-Type": "application/json; charset=utf-8",
 };
 const json = (data: unknown, status = 200) => new Response(JSON.stringify(data), { status, headers: cors });
 const fail = (status: number, code: string, message: string) => json({ error: { code, message } }, status);
 const clean = (v: unknown, max = 200) => String(v ?? "").trim().slice(0, max);
-const userDto = (u: any) => ({ id: u.id, identifier: u.identifier, displayName: u.display_name, role: u.role });
+const userDto = (u: any) => ({ id: u.id, identifier: u.identifier, displayName: u.display_name, role: u.role, profile: { company: u.company ?? "", nationalId: u.national_id ?? "", phone: u.phone ?? "", birth: u.birth_date ?? "" } });
 
 Deno.serve(async (req) => {
   if (req.method === "OPTIONS") return new Response("ok", { headers: cors });
@@ -87,6 +87,68 @@ Deno.serve(async (req) => {
 
     if (req.method === "GET" && path === "/api/me")
       return json(userDto(profile));
+
+    if (req.method === "PATCH" && path === "/api/me") {
+      const body = await req.json();
+      const displayName = clean(body.displayName, 100), company = clean(body.company, 160);
+      const nationalId = clean(body.nationalId, 20), phone = clean(body.phone, 20), birth = clean(body.birth, 20);
+      if (displayName.length < 2 || (nationalId && !/^[0-9۰-۹]{8,12}$/.test(nationalId)) || (phone && phone.replace(/\D/g, "").length < 8))
+        return fail(400, "VALIDATION_ERROR", "اطلاعات پروفایل معتبر نیست.");
+      const { data, error } = await adminDb.from("profiles").update({
+        display_name: displayName, company: company || null, national_id: nationalId || null,
+        phone: phone || null, birth_date: birth || null
+      }).eq("id", profile.id).select("*").single();
+      if (error || !data) return fail(500, "PROFILE_UPDATE_FAILED", "ذخیره اطلاعات شخصی ناموفق بود.");
+      return json(userDto(data));
+    }
+
+    if (req.method === "GET" && path === "/api/addresses") {
+      const { data, error } = await adminDb.from("addresses").select("id,title,recipient,phone,province,city,postal_code,address_line,is_default,created_at")
+        .eq("user_id", profile.id).order("is_default", { ascending: false }).order("created_at", { ascending: false });
+      if (error) return fail(500, "ADDRESSES_FAILED", "دریافت نشانی‌ها ناموفق بود.");
+      return json({ items: (data ?? []).map(a => ({ id:a.id,title:a.title,recipient:a.recipient,phone:a.phone,province:a.province,city:a.city,postalCode:a.postal_code,addressLine:a.address_line,isDefault:a.is_default,createdAt:a.created_at })) });
+    }
+
+    if (req.method === "POST" && path === "/api/addresses") {
+      const body = await req.json();
+      const address = { user_id:profile.id, title:clean(body.title,80)||"نشانی", recipient:clean(body.recipient,100),
+        phone:clean(body.phone,20), province:clean(body.province,80), city:clean(body.city,80),
+        postal_code:clean(body.postalCode,20)||null, address_line:clean(body.addressLine,1000) };
+      if (address.recipient.length < 2 || address.phone.replace(/\D/g,"").length < 8 || address.province.length < 2 || address.city.length < 2 || address.address_line.length < 8)
+        return fail(400,"VALIDATION_ERROR","اطلاعات نشانی کامل یا معتبر نیست.");
+      const { count, error: countError } = await adminDb.from("addresses").select("id",{count:"exact",head:true}).eq("user_id",profile.id);
+      if (countError) return fail(500,"ADDRESSES_FAILED","ذخیره نشانی ناموفق بود.");
+      const { data, error } = await adminDb.from("addresses").insert({...address,is_default:(count??0)===0})
+        .select("id,title,recipient,phone,province,city,postal_code,address_line,is_default,created_at").single();
+      if (error) return fail(500,"ADDRESS_CREATE_FAILED","ذخیره نشانی ناموفق بود.");
+      return json({address:{id:data.id,title:data.title,recipient:data.recipient,phone:data.phone,province:data.province,city:data.city,postalCode:data.postal_code,addressLine:data.address_line,isDefault:data.is_default,createdAt:data.created_at}},201);
+    }
+
+    const addressDefaultMatch = path.match(/^\/api\/addresses\/([^/]+)\/default$/);
+    if (req.method === "PATCH" && addressDefaultMatch) {
+      const addressId=decodeURIComponent(addressDefaultMatch[1]);
+      const {data:target,error:targetError}=await adminDb.from("addresses").select("id").eq("id",addressId).eq("user_id",profile.id).maybeSingle();
+      if(targetError||!target)return fail(404,"ADDRESS_NOT_FOUND","نشانی پیدا نشد.");
+      const {error:clearError}=await adminDb.from("addresses").update({is_default:false}).eq("user_id",profile.id);
+      if(clearError)return fail(500,"ADDRESS_UPDATE_FAILED","تغییر نشانی پیش‌فرض ناموفق بود.");
+      const {error}=await adminDb.from("addresses").update({is_default:true}).eq("id",addressId).eq("user_id",profile.id);
+      if(error)return fail(500,"ADDRESS_UPDATE_FAILED","تغییر نشانی پیش‌فرض ناموفق بود.");
+      return json({success:true});
+    }
+
+    const addressMatch=path.match(/^\/api\/addresses\/([^/]+)$/);
+    if(req.method==="DELETE"&&addressMatch){
+      const addressId=decodeURIComponent(addressMatch[1]);
+      const {data:oldAddress,error:readError}=await adminDb.from("addresses").select("id,is_default").eq("id",addressId).eq("user_id",profile.id).maybeSingle();
+      if(readError||!oldAddress)return fail(404,"ADDRESS_NOT_FOUND","نشانی پیدا نشد.");
+      const {error}=await adminDb.from("addresses").delete().eq("id",addressId).eq("user_id",profile.id);
+      if(error)return fail(500,"ADDRESS_DELETE_FAILED","حذف نشانی ناموفق بود.");
+      if(oldAddress.is_default){
+        const {data:next}=await adminDb.from("addresses").select("id").eq("user_id",profile.id).order("created_at",{ascending:false}).limit(1).maybeSingle();
+        if(next)await adminDb.from("addresses").update({is_default:true}).eq("id",next.id).eq("user_id",profile.id);
+      }
+      return json({success:true});
+    }
 
     if (req.method === "GET" && path === "/api/orders") {
       const { data, error } = await adminDb.from("orders").select("*, order_items(*)").eq("user_id", profile.id).order("created_at", { ascending: false }).limit(100);
