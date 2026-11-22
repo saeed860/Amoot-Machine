@@ -15,6 +15,7 @@ declare
   v_replay record;
   v_delivery record;
   v_movement_count integer;
+  v_receipt record;
 begin
   select * into v_order from public.amoot_create_order(
     '11111111-1111-4111-8111-111111111111',
@@ -100,7 +101,22 @@ begin
     where sku='CI-LIFECYCLE' and movement_type='ADJUSTMENT' and quantity_delta=3
       and stock_before=9 and stock_after=12;
   if v_movement_count <> 1 then raise exception 'Manual stock adjustment was not recorded'; end if;
-end $$;
+
+  select * into v_receipt from public.amoot_receive_inventory(
+    'CI-WR-0001','CI Supplier','CI-INVOICE-1','Automated receipt integration test',
+    '11111111-1111-4111-8111-111111111111',
+    '[{"sku":"CI-LIFECYCLE","quantity":5}]'::jsonb
+  );
+  select stock into v_stock from public.products where sku='CI-LIFECYCLE';
+  if v_stock <> 17 then raise exception 'Expected stock 17 after warehouse receipt, got %',v_stock; end if;
+  select count(*) into v_movement_count from public.inventory_movements
+    where sku='CI-LIFECYCLE' and movement_type='IN' and reference='CI-WR-0001'
+      and quantity_delta=5 and stock_before=12 and stock_after=17;
+  if v_movement_count <> 1 then raise exception 'Warehouse receipt movement was not recorded exactly once'; end if;
+  if v_receipt.receipt_number <> 'CI-WR-0001' or v_receipt.line_count <> 1 then
+    raise exception 'Warehouse receipt RPC returned an unexpected result';
+  end if;
+end $;
 
 do $check$
 begin
@@ -113,7 +129,7 @@ begin
   if not has_function_privilege('service_role','public.amoot_create_order(uuid,text,jsonb,jsonb)','EXECUTE') then
     raise exception 'service_role must execute order creation RPC';
   end if;
-  if has_function_privilege('anon','public.amoot_update_order_status(text,public.order_status)','EXECUTE') then
+  if has_function_privilege('anon','public.amoot_receive_inventory(text,text,text,text,uuid,jsonb)','EXECUTE') then\n    raise exception 'anon must not execute warehouse receiving RPC';\n  end if;\n  if has_function_privilege('authenticated','public.amoot_receive_inventory(text,text,text,text,uuid,jsonb)','EXECUTE') then\n    raise exception 'authenticated must not execute warehouse receiving RPC';\n  end if;\n  if not has_function_privilege('service_role','public.amoot_receive_inventory(text,text,text,text,uuid,jsonb)','EXECUTE') then\n    raise exception 'service_role must execute warehouse receiving RPC';\n  end if;\n  if has_function_privilege('anon','public.amoot_update_order_status(text,public.order_status)','EXECUTE') then
     raise exception 'anon must not execute order status RPC';
   end if;
   if has_function_privilege('authenticated','public.amoot_update_order_status(text,public.order_status)','EXECUTE') then
@@ -134,4 +150,4 @@ begin
   end if;
 end $check$;
 
-select 'PASS: inventory ledger order/cancellation/adjustment entries; idempotent retry; conflicting key rejected; restricted RPC privileges; cancellation restores stock once; legal transitions enforced' as result;
+select 'PASS: inventory ledger order/cancellation/adjustment/warehouse receipt entries; idempotent retry; conflicting key rejected; restricted RPC privileges; cancellation restores stock once; legal transitions enforced' as result;
