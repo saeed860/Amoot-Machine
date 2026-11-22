@@ -24,32 +24,50 @@ jobs:
       - run: npx playwright install --with-deps chromium
       - name: Verify page runtime and product photos
         run: |
-          python3 -m http.server 4173 --bind 127.0.0.1 >/tmp/amoot-http.log 2>&1 &
-          SERVER_PID=$!
-          trap 'kill $SERVER_PID 2>/dev/null || true' EXIT
-          for i in $(seq 1 30); do
-            if curl -fsS http://127.0.0.1:4173/ >/dev/null; then break; fi
-            sleep 1
-          done
           node --input-type=module <<'NODE'
           import { chromium } from 'playwright';
+          import { createServer } from 'node:http';
+          import { readFile, stat } from 'node:fs/promises';
+          import { resolve, extname, sep } from 'node:path';
+          const root = process.cwd();
+          const types = {'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.jpg':'image/jpeg','.jpeg':'image/jpeg','.png':'image/png','.svg':'image/svg+xml'};
+          const server = createServer(async (req,res) => {
+            try {
+              const url = new URL(req.url,'http://localhost');
+              const file = resolve(root, '.' + decodeURIComponent(url.pathname === '/' ? '/index.html' : url.pathname));
+              if (file !== root && !file.startsWith(root + sep)) throw new Error('invalid path');
+              const info = await stat(file);
+              if (!info.isFile()) throw new Error('not a file');
+              res.writeHead(200, {'Content-Type':types[extname(file)] || 'application/octet-stream','Cache-Control':'no-store'});
+              res.end(await readFile(file));
+            } catch { res.writeHead(404); res.end('Not found'); }
+          });
+          await new Promise(resolve => server.listen(4173,'127.0.0.1',resolve));
           const browser = await chromium.launch({headless:true});
           const page = await browser.newPage();
-          const errors = [];
+          const errors = [], failed = [];
           page.on('pageerror', e => errors.push(e.message));
-          await page.goto('http://127.0.0.1:4173/', {waitUntil:'domcontentloaded',timeout:15000});
-          await page.waitForSelector('#productGrid .product', {timeout:5000});
-          await page.waitForTimeout(10000);
-          const result = await page.evaluate(() => ({
-            title: document.title,
-            products: document.querySelectorAll('#productGrid .product').length,
-            images: [...document.querySelectorAll('#productGrid img')].map(i => ({src:i.getAttribute('src'),loaded:i.complete && i.naturalWidth>0,width:i.naturalWidth})),
-            scripts: [...document.scripts].map(s=>s.src.split('/').pop()),
-            gridText: document.querySelector('#productGrid')?.innerText?.slice(0,180)
-          }));
-          await browser.close();
-          console.log(JSON.stringify({result,errors},null,2));
-          if (result.products < 5) throw new Error('Product grid did not render at least five products');
-          if (result.images.filter(i=>i.loaded).length < 5) throw new Error('Product photos failed to load');
-          if (errors.length) throw new Error('Browser runtime errors: '+errors.join(' | '));
+          page.on('requestfailed', r => failed.push({url:r.url(),error:r.failure()?.errorText}));
+          try {
+            const response = await page.goto('http://127.0.0.1:4173/', {waitUntil:'domcontentloaded',timeout:15000});
+            await page.waitForSelector('#productGrid .product', {timeout:5000});
+            await page.waitForTimeout(11000);
+            const result = await page.evaluate(() => ({
+              title: document.title,
+              ready: document.readyState,
+              products: document.querySelectorAll('#productGrid .product').length,
+              images: [...document.querySelectorAll('#productGrid img')].map(i => ({src:i.getAttribute('src'),loaded:i.complete && i.naturalWidth>0,width:i.naturalWidth})),
+              scripts: [...document.scripts].map(s=>s.src.split('/').pop()),
+              gridText: document.querySelector('#productGrid')?.innerText?.slice(0,180),
+              meta: document.querySelector('#catalogMeta')?.innerText
+            }));
+            console.log(JSON.stringify({httpStatus:response?.status(),result,errors,failed},null,2));
+            if (!response?.ok()) throw new Error('Homepage returned a non-200 response');
+            if (result.products < 5) throw new Error('Product grid did not render at least five products');
+            if (result.images.filter(i=>i.loaded).length < 5) throw new Error('Product photos failed to load');
+            if (errors.length) throw new Error('Browser runtime errors: '+errors.join(' | '));
+          } finally {
+            await browser.close();
+            await new Promise(resolve => server.close(resolve));
+          }
           NODE
