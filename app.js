@@ -82,4 +82,4 @@ populateModelFilter();
 loadProducts();
 refreshAccountButton();
 
-window.setApiProducts = rows => { db.products = rows; products = rows; save(); renderProducts(); };
+window.setApiProducts = rows => { db.products = rows; db.catalog_source='server'; products = rows; save(); renderProducts(); };
