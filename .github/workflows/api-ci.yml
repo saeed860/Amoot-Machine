@@ -3,6 +3,11 @@ on:
   push:
     paths:
       - 'api/**'
+      - 'index.html'
+      - 'app.js'
+      - 'cart.js'
+      - 'api-client.js'
+      - 'api-config.js'
       - '.github/workflows/api-ci.yml'
   pull_request:
     paths:
@@ -51,7 +56,7 @@ jobs:
           node-version: 22
       - name: Install dependencies
         run: npm install --no-audit --no-fund
-      - name: Validate Prisma schema
+      - name: Validate JavaScript syntax\n        run: |\n          node --check ../app.js\n          node --check ../cart.js\n          node --check ../api-client.js\n          node --check ../api-config.js\n          node --check scripts/smoke-test.js\n          node --check src/server.js\n          node --check prisma/seed.js\n      - name: Validate Prisma schema
         run: npx prisma validate
       - name: Generate Prisma client
         run: npx prisma generate
