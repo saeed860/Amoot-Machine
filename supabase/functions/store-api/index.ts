@@ -134,6 +134,45 @@ Deno.serve(async (req) => {
       if (error || !data) return fail(404,"NOT_FOUND","سفارش پیدا نشد.");
       return json({ order:{orderNumber:data.order_number,status:data.status,totalIrr:String(data.total_irr)} });
     }
+
+    if (req.method === "GET" && path === "/api/admin/products") {
+      if (!isAdmin) return fail(403, "FORBIDDEN", "دسترسی مدیریت مجاز نیست.");
+      const { data, error } = await adminDb.from("products").select("*").order("updated_at", { ascending: false }).limit(500);
+      if (error) return fail(500, "ADMIN_PRODUCTS_FAILED", "دریافت فهرست کالاها ناموفق بود.");
+      return json({ items: (data ?? []).map(p => ({ sku:p.sku, name:p.name, brand:p.brand, category:p.category, machineModel:p.machine_model, description:p.description, imageUrl:p.image_url, priceIrr:p.price_irr == null ? "" : String(p.price_irr), stock:p.stock, status:p.status })) });
+    }
+
+    if (req.method === "POST" && path === "/api/admin/products/import") {
+      if (!isAdmin) return fail(403, "FORBIDDEN", "دسترسی مدیریت مجاز نیست.");
+      const body = await req.json();
+      if (!Array.isArray(body.items) || body.items.length < 1 || body.items.length > 500)
+        return fail(400, "VALIDATION_ERROR", "فایل باید بین ۱ تا ۵۰۰ ردیف کالا داشته باشد.");
+      const rows = [];
+      const seen = new Set();
+      for (const raw of body.items) {
+        const sku = clean(raw.sku,80), name = clean(raw.name,180), category = clean(raw.category,100);
+        const stock = Number(raw.stock ?? 0), price = raw.priceIrr === "" || raw.priceIrr == null ? null : Number(raw.priceIrr);
+        if (!sku || !name || !category || seen.has(sku) || !Number.isInteger(stock) || stock < 0 || stock > 10000000 || (price !== null && (!Number.isSafeInteger(price) || price < 0)))
+          return fail(400, "INVALID_IMPORT_ROW", "کد کالا، نام، دسته‌بندی، قیمت یا موجودی در فایل معتبر نیست.");
+        seen.add(sku);
+        const status = ["ACTIVE","INACTIVE","ARCHIVED"].includes(clean(raw.status,20).toUpperCase()) ? clean(raw.status,20).toUpperCase() : "ACTIVE";
+        rows.push({ sku, name, brand:clean(raw.brand,100)||null, category, machine_model:clean(raw.machineModel,120)||null, description:clean(raw.description,2000)||null, image_url:clean(raw.imageUrl,1000)||null, price_irr:price, stock, status });
+      }
+      const { data, error } = await adminDb.from("products").upsert(rows, { onConflict:"sku" }).select("sku");
+      if (error) return fail(500, "IMPORT_FAILED", "ذخیره گروهی کالاها ناموفق بود.");
+      return json({ imported: data?.length ?? rows.length });
+    }
+
+    const productStatusMatch = path.match(/^\\/api\\/admin\\/products\\/([^/]+)\\/status$/);
+    if (req.method === "PATCH" && productStatusMatch) {
+      if (!isAdmin) return fail(403, "FORBIDDEN", "دسترسی مدیریت مجاز نیست.");
+      const status = clean((await req.json()).status,20).toUpperCase();
+      if (!["ACTIVE","INACTIVE","ARCHIVED"].includes(status)) return fail(400,"VALIDATION_ERROR","وضعیت کالا معتبر نیست.");
+      const { data, error } = await adminDb.from("products").update({status}).eq("sku",decodeURIComponent(productStatusMatch[1])).select("sku,status").single();
+      if (error || !data) return fail(404,"NOT_FOUND","کالا پیدا نشد.");
+      return json({ product:data });
+    }
+
     return fail(404, "NOT_FOUND", "مسیر درخواست پیدا نشد.");
   } catch (e) {
     console.error("store-api error", e);
