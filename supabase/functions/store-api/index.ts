@@ -150,6 +150,13 @@ Deno.serve(async (req) => {
       return json({success:true});
     }
 
+    if (req.method === "GET" && path === "/api/quotes") {
+      const { data, error } = await adminDb.from("quotes").select("quote_number,name,phone,product_sku,machine_model,message,status,created_at")
+        .eq("user_id", profile.id).order("created_at", { ascending:false }).limit(100);
+      if (error) return fail(500,"QUOTES_FAILED","دریافت استعلام‌های شما ناموفق بود.");
+      return json({ items:(data??[]).map(q=>({quoteNumber:q.quote_number,name:q.name,phone:q.phone,productSku:q.product_sku,machineModel:q.machine_model,message:q.message,status:q.status,createdAt:q.created_at})) });
+    }
+
     if (req.method === "GET" && path === "/api/orders") {
       const { data, error } = await adminDb.from("orders").select("*, order_items(*)").eq("user_id", profile.id).order("created_at", { ascending: false }).limit(100);
       if (error) return fail(500, "ORDERS_FAILED", "دریافت سفارش‌ها ناموفق بود.");
