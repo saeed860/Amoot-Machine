@@ -42,3 +42,9 @@ Prices are integer IRR values serialized as strings to avoid JavaScript precisio
 
 ## Important deployment boundary
 The GitHub Pages frontend is static and cannot host this API or PostgreSQL. Deploy this `api/` directory to a Node.js host and PostgreSQL service, configure `CORS_ORIGINS` with the exact storefront origin, then connect the frontend to the resulting HTTPS API URL. Until that integration and deployment are completed, the live storefront continues to use browser-local demo data. OTP, payment gateway, SMS, email delivery, refunds, and production operational monitoring are not implemented yet.
+
+## Automated API verification
+
+Every push or pull request that changes `api/**` runs the GitHub Actions workflow at `.github/workflows/api-ci.yml`. It starts a temporary PostgreSQL 16 service, validates and generates the Prisma client, creates a disposable schema, seeds sample products and a temporary CI-only administrator, starts the API, and runs end-to-end checks for health, registration/login, product listing, order creation/retry, customer order history, quote submission, and administrator order status updates.
+
+The CI database and credentials are temporary and are not production credentials. This workflow verifies the API in GitHub's runner; it does not install PostgreSQL on your device or deploy the API publicly. To see the result, open the repository's **Actions** tab and select **Amoot API CI**.
