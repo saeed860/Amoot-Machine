@@ -173,6 +173,41 @@ Deno.serve(async (req) => {
       return json({ product:data });
     }
 
+
+    if (req.method === "GET" && path === "/api/admin/customers") {
+      if (!isAdmin) return fail(403, "FORBIDDEN", "دسترسی مدیریت مجاز نیست.");
+      const { data, error } = await adminDb.from("profiles").select("id,identifier,display_name,role,is_active,created_at").eq("role","CUSTOMER").order("created_at",{ascending:false}).limit(500);
+      if (error) return fail(500,"CUSTOMERS_FAILED","دریافت کاربران ناموفق بود.");
+      return json({items:(data??[]).map(u=>({id:u.id,identifier:u.identifier,displayName:u.display_name,role:u.role,isActive:u.is_active,createdAt:u.created_at}))});
+    }
+
+    const customerMatch = path.match(/^\\/api\\/admin\\/customers\\/([^/]+)\\/active$/);
+    if (req.method === "PATCH" && customerMatch) {
+      if (!isAdmin) return fail(403,"FORBIDDEN","دسترسی مدیریت مجاز نیست.");
+      const active=(await req.json()).isActive;
+      if (typeof active !== "boolean") return fail(400,"VALIDATION_ERROR","وضعیت حساب معتبر نیست.");
+      const {data,error}=await adminDb.from("profiles").update({is_active:active}).eq("id",decodeURIComponent(customerMatch[1])).eq("role","CUSTOMER").select("id,is_active").single();
+      if(error||!data) return fail(404,"NOT_FOUND","کاربر پیدا نشد.");
+      return json({customer:{id:data.id,isActive:data.is_active}});
+    }
+
+    if (req.method === "GET" && path === "/api/admin/quotes") {
+      if (!isAdmin) return fail(403,"FORBIDDEN","دسترسی مدیریت مجاز نیست.");
+      const {data,error}=await adminDb.from("quotes").select("quote_number,name,phone,product_sku,machine_model,message,status,created_at").order("created_at",{ascending:false}).limit(300);
+      if(error) return fail(500,"QUOTES_FAILED","دریافت استعلام‌ها ناموفق بود.");
+      return json({items:(data??[]).map(q=>({quoteNumber:q.quote_number,name:q.name,phone:q.phone,productSku:q.product_sku,machineModel:q.machine_model,message:q.message,status:q.status,createdAt:q.created_at}))});
+    }
+
+    const quoteMatch = path.match(/^\\/api\\/admin\\/quotes\\/([^/]+)\\/status$/);
+    if (req.method === "PATCH" && quoteMatch) {
+      if (!isAdmin) return fail(403,"FORBIDDEN","دسترسی مدیریت مجاز نیست.");
+      const status=clean((await req.json()).status,20).toUpperCase();
+      if(!["NEW","CONTACTED","CLOSED"].includes(status)) return fail(400,"VALIDATION_ERROR","وضعیت استعلام معتبر نیست.");
+      const {data,error}=await adminDb.from("quotes").update({status}).eq("quote_number",decodeURIComponent(quoteMatch[1])).select("quote_number,status").single();
+      if(error||!data) return fail(404,"NOT_FOUND","استعلام پیدا نشد.");
+      return json({quote:{quoteNumber:data.quote_number,status:data.status}});
+    }
+
     return fail(404, "NOT_FOUND", "مسیر درخواست پیدا نشد.");
   } catch (e) {
     console.error("store-api error", e);
