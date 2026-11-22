@@ -202,14 +202,14 @@ begin
     raise exception 'VALIDATION_ERROR';
   end if;
 
-  v_hash := encode(extensions.digest(
-    convert_to(jsonb_build_object(
+  v_hash := md5(jsonb_build_object(
       'items', (select jsonb_agg(jsonb_build_object('sku', x.sku, 'quantity', x.qty) order by x.sku)
                from (select btrim(value->>'sku') sku, sum((value->>'quantity')::integer)::integer qty
                      from jsonb_array_elements(p_items) group by btrim(value->>'sku')) x),
       'shipping', p_shipping
-    )::text, 'UTF8'), 'sha256'), 'hex');
+    )::text);
 
+  perform pg_advisory_xact_lock(hashtextextended(p_idempotency_key, 0));
   select * into v_existing from public.orders where idempotency_key = p_idempotency_key;
   if found then
     if v_existing.user_id <> p_user_id or v_existing.request_hash <> v_hash then
