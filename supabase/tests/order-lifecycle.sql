@@ -108,6 +108,16 @@ begin
   if not has_function_privilege('service_role','public.amoot_update_order_status(text,public.order_status)','EXECUTE') then
     raise exception 'service_role must execute order status RPC';
   end if;
+  if has_table_privilege('anon','public.profiles','INSERT') or
+     has_table_privilege('anon','public.profiles','UPDATE') or
+     has_table_privilege('anon','public.profiles','DELETE') then
+    raise exception 'anon must not mutate profiles directly';
+  end if;
+  if has_table_privilege('authenticated','public.profiles','INSERT') or
+     has_table_privilege('authenticated','public.profiles','UPDATE') or
+     has_table_privilege('authenticated','public.profiles','DELETE') then
+    raise exception 'authenticated users must not mutate profiles directly';
+  end if;
 end $check$;
 
-select 'PASS: idempotent retry; conflicting key rejected; cancellation restores stock once; illegal transitions rejected; delivery keeps stock consumed' as result;
+select 'PASS: idempotent retry; conflicting key rejected; profile writes restricted; cancellation restores stock once; illegal transitions rejected; delivery keeps stock consumed' as result;
