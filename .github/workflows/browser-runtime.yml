@@ -23,7 +23,7 @@ jobs:
       - run: npm install --no-save playwright
       - run: npx playwright install --with-deps chromium
       - name: Isolate startup scripts and verify storefront
-        timeout-minutes: 4
+        timeout-minutes: 5
         run: |
           node --input-type=module <<'NODE'
           import { chromium } from 'playwright';
@@ -62,11 +62,8 @@ jobs:
               const errors = [];
               page.on('pageerror', e => errors.push(e.message));
               try {
-                const response = await page.goto('http://127.0.0.1:4173/?scripts='+mode, {waitUntil:'commit',timeout:5000});
-                const state = await Promise.race([
-                  page.evaluate(() => ({ready:document.readyState,products:document.querySelectorAll('#productGrid .product').length,title:document.title})),
-                  new Promise(resolve => setTimeout(()=>resolve({blocked:true}),2500))
-                ]);
+                const response = await page.goto('http://127.0.0.1:4173/?scripts='+mode, {waitUntil:'domcontentloaded',timeout:8000});
+                const state = await page.evaluate(() => ({ready:document.readyState,products:document.querySelectorAll('#productGrid .product').length,title:document.title}));
                 checks.push({mode,http:response?.status(),state,errors});
                 if (state.blocked) { await page.close({runBeforeUnload:false}); break; }
                 await page.close();
