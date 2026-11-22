@@ -1,0 +1,52 @@
+name: Amoot Browser Runtime Test
+on:
+  push:
+    branches: [main]
+    paths:
+      - "index.html"
+      - "app.js"
+      - "cart.js"
+      - "api-client.js"
+      - "api-config.js"
+      - "style.css"
+      - "assets/**"
+      - ".github/workflows/browser-runtime.yml"
+  workflow_dispatch:
+jobs:
+  browser:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm install --no-save playwright
+      - run: npx playwright install --with-deps chromium
+      - name: Start static server
+        run: |
+          python3 -m http.server 4173 --bind 127.0.0.1 >/tmp/amoot-http.log 2>&1 &
+          echo $! > /tmp/amoot-http.pid
+      - name: Verify page runtime and product photos
+        run: |
+          node --input-type=module <<'NODE'
+          import { chromium } from 'playwright';
+          const browser = await chromium.launch({headless:true});
+          const page = await browser.newPage();
+          const errors = [];
+          page.on('pageerror', e => errors.push(e.message));
+          await page.goto('http://127.0.0.1:4173/', {waitUntil:'domcontentloaded'});
+          await page.waitForSelector('#productGrid .product', {timeout:5000});
+          await page.waitForTimeout(10000);
+          const result = await page.evaluate(() => ({
+            title: document.title,
+            products: document.querySelectorAll('#productGrid .product').length,
+            images: [...document.querySelectorAll('#productGrid img')].map(i => ({src:i.getAttribute('src'),loaded:i.complete && i.naturalWidth>0,width:i.naturalWidth})),
+            scripts: [...document.scripts].map(s=>s.src.split('/').pop()),
+            gridText: document.querySelector('#productGrid')?.innerText?.slice(0,180)
+          }));
+          await browser.close();
+          console.log(JSON.stringify({result,errors},null,2));
+          if (result.products < 5) throw new Error('Product grid did not render at least five products');
+          if (result.images.filter(i=>i.loaded).length < 5) throw new Error('Product photos failed to load');
+          if (errors.length) throw new Error('Browser runtime errors: '+errors.join(' | '));
+          NODE
