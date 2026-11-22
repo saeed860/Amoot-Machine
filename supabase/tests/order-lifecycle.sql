@@ -61,4 +61,26 @@ begin
   if v_stock <> 9 then raise exception 'Delivered order stock must remain consumed, got %',v_stock; end if;
 end $$;
 
+do $
+begin
+  if has_function_privilege('anon','public.amoot_create_order(uuid,text,jsonb,jsonb)','EXECUTE') then
+    raise exception 'anon must not execute order creation RPC';
+  end if;
+  if has_function_privilege('authenticated','public.amoot_create_order(uuid,text,jsonb,jsonb)','EXECUTE') then
+    raise exception 'authenticated must not execute order creation RPC directly';
+  end if;
+  if not has_function_privilege('service_role','public.amoot_create_order(uuid,text,jsonb,jsonb)','EXECUTE') then
+    raise exception 'service_role must execute order creation RPC';
+  end if;
+  if has_function_privilege('anon','public.amoot_update_order_status(text,public.order_status)','EXECUTE') then
+    raise exception 'anon must not execute order status RPC';
+  end if;
+  if has_function_privilege('authenticated','public.amoot_update_order_status(text,public.order_status)','EXECUTE') then
+    raise exception 'authenticated must not execute order status RPC';
+  end if;
+  if not has_function_privilege('service_role','public.amoot_update_order_status(text,public.order_status)','EXECUTE') then
+    raise exception 'service_role must execute order status RPC';
+  end if;
+end $;
+
 select 'PASS: cancellation restores stock once; illegal transitions rejected; delivery keeps stock consumed' as result;
