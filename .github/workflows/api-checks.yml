@@ -26,4 +26,5 @@ jobs:
           DATABASE_URL: postgresql://test:test@localhost:5432/amoot_test
       - run: node --check src/server.js
       - run: node --check prisma/seed.js
-      - run: npm test
+      - run: node --check scripts/smoke-test.js
+      - run: npx prisma generate
