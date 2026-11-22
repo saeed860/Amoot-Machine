@@ -199,9 +199,17 @@ Deno.serve(async (req) => {
       if (!isAdmin) return fail(403, "FORBIDDEN", "دسترسی مدیریت مجاز نیست.");
       const status = clean((await req.json()).status,30);
       if (!["PENDING","CONFIRMED","PROCESSING","SHIPPED","DELIVERED","CANCELLED"].includes(status)) return fail(400,"VALIDATION_ERROR","وضعیت سفارش معتبر نیست.");
-      const { data, error } = await adminDb.from("orders").update({status}).eq("order_number",decodeURIComponent(statusMatch[1])).select("order_number,status,total_irr").single();
-      if (error || !data) return fail(404,"NOT_FOUND","سفارش پیدا نشد.");
-      return json({ order:{orderNumber:data.order_number,status:data.status,totalIrr:String(data.total_irr)} });
+      const { data, error } = await adminDb.rpc("amoot_update_order_status", {
+        p_order_number: decodeURIComponent(statusMatch[1]), p_status: status
+      });
+      if (error) {
+        const msg = error.message ?? "";
+        if (msg.includes("ORDER_NOT_FOUND")) return fail(404,"NOT_FOUND","سفارش پیدا نشد.");
+        if (msg.includes("INVALID_ORDER_TRANSITION")) return fail(409,"INVALID_ORDER_TRANSITION","این تغییر وضعیت سفارش مجاز نیست.");
+        return fail(500,"ORDER_STATUS_FAILED","به‌روزرسانی وضعیت سفارش ناموفق بود.");
+      }
+      const updated = Array.isArray(data) ? data[0] : data;
+      return json({ order:{orderNumber:updated.order_number,status:updated.status,totalIrr:String(updated.total_irr)} });
     }
 
     if (req.method === "GET" && path === "/api/admin/products") {
