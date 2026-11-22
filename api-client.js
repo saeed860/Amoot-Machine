@@ -149,18 +149,17 @@
  window.logoutAccount=()=>{localStorage.removeItem(TOKEN_KEY);localStorage.removeItem(USER_KEY);oldLogout?.()};
  const oldLoadProducts=window.loadProducts;
  window.loadProducts=async()=>{try{
-  const params=new URLSearchParams(),q=document.querySelector('#search')?.value||'',category=document.querySelector('#quickCategory')?.value||'',brand=document.querySelector('#brandFilter')?.value||'',model=document.querySelector('#modelFilter')?.value||'';
+  const params=new URLSearchParams(),q=document.querySelector('#search')?.value||'',category=document.querySelector('.cat.active')?.dataset.cat||document.querySelector('#quickCategory')?.value||'',brand=document.querySelector('#brandFilter')?.value||'',model=document.querySelector('#modelFilter')?.value||'';
   if(q)params.set('q',q);if(category)params.set('category',category);if(brand)params.set('brand',brand);if(model)params.set('model',model);
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
-  // An empty/invalid server catalogue must never blank the storefront.
-  if(!rows.length){oldLoadProducts?.();return}
-  const mapped=rows.map(p=>({id:(()=>{let h=2166136261;for(const ch of String(p.sku||p.id)){h=Math.imul(h^ch.charCodeAt(0),16777619)}return h>>>0})(),serverId:p.id,sku:p.sku,name:p.name,brand:p.brand||'',category:p.category,machine_model:p.machineModel||'',description:p.description||'',price:p.priceIrr===null?0:Number(p.priceIrr)/10,stock:p.stock,image:(typeof p.imageUrl==='string'&&(/^(https?:|data:image\/|\.\/assets\/|\/assets\/)/i.test(p.imageUrl)))?(p.imageUrl.startsWith('/assets/')?'.'+p.imageUrl:p.imageUrl):'./assets/product-pump.jpg'}));
-  if(typeof window.setApiProducts==='function')window.setApiProducts(mapped);else oldLoadProducts?.();
+  const mapped=rows.map(p=>({id:(()=>{let h=2166136261;for(const ch of String(p.sku||p.id)){h=Math.imul(h^ch.charCodeAt(0),16777619)}return h>>>0})(),serverId:p.id,sku:p.sku,name:p.name,brand:p.brand||'',category:p.category,machine_model:p.machineModel||'',description:p.description||'',price:p.priceIrr===null?0:Number(p.priceIrr)/10,price_irr:p.priceIrr,stock:p.stock,image:(typeof p.imageUrl==='string'&&(/^(https?:|data:image\\/|\\.\\/assets\\/|\\/assets\\/)/i.test(p.imageUrl)))?(p.imageUrl.startsWith('/assets/')?'.'+p.imageUrl:p.imageUrl):''}));
+  if(typeof window.setApiProducts==='function'){window.setApiProducts(mapped);oldLoadProducts?.();}
+  else oldLoadProducts?.();
  }catch(e){
-  // Keep the locally bundled catalogue visible if the API is slow, offline, or unavailable.
-  oldLoadProducts?.();
-  const meta=document.querySelector('#catalogMeta');if(meta)meta.textContent='نمایش محصولات ذخیره‌شده؛ ارتباط با سرور در دسترس نیست.';
+  const cached=(()=>{try{return JSON.parse(localStorage.getItem('amoot_github_pages_v1')||'{}')}catch{return {}}})();
+  if(cached.catalog_source==='server')oldLoadProducts?.();
+  else{if(typeof window.setApiProducts==='function')window.setApiProducts([]);const meta=document.querySelector('#catalogMeta');if(meta)meta.textContent='دریافت محصولات از سرور ناموفق بود؛ لطفاً اتصال را بررسی کنید.';}
  }};
  if(base)window.loadProducts?.();
  window.customerOrders=async u=>{
