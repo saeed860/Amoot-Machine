@@ -1,0 +1,4 @@
+project_id = "amoot-machine"
+
+[functions.store-api]
+verify_jwt = false
