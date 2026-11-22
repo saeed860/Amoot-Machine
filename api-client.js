@@ -7,7 +7,8 @@
  const token=()=>localStorage.getItem(TOKEN_KEY)||'';
  async function api(path,{method='GET',body,auth=true,headers={}}={}){
   if(!base)throw new Error('API_NOT_CONFIGURED');
-  const r=await fetch(base+path,{method,headers:{...(body?{'Content-Type':'application/json'}:{}),...(publicKey?{apikey:publicKey}:{}),...(auth&&token()?{Authorization:'Bearer '+token()}:{}),...headers},body:body?JSON.stringify(body):undefined});
+  const controller=new AbortController();const timeout=setTimeout(()=>controller.abort(),9000);
+  let r;try{r=await fetch(base+path,{method,headers:{...(body?{'Content-Type':'application/json'}:{}),...(publicKey?{apikey:publicKey}:{}),...(auth&&token()?{Authorization:'Bearer '+token()}:{}),...headers},body:body?JSON.stringify(body):undefined,signal:controller.signal})}finally{clearTimeout(timeout)}
   const data=await r.json().catch(()=>({}));
   if(!r.ok)throw new Error(data.error?.message||'خطا در ارتباط با سرور');
   return data;
@@ -91,9 +92,16 @@
   const params=new URLSearchParams(),q=document.querySelector('#search')?.value||'',category=document.querySelector('#quickCategory')?.value||'',brand=document.querySelector('#brandFilter')?.value||'',model=document.querySelector('#modelFilter')?.value||'';
   if(q)params.set('q',q);if(category)params.set('category',category);if(brand)params.set('brand',brand);if(model)params.set('model',model);
   const data=await api('/api/products?'+params.toString(),{auth:false});
-  const mapped=data.items.map(p=>({id:(()=>{let h=2166136261;for(const ch of String(p.sku)){h=Math.imul(h^ch.charCodeAt(0),16777619)}return h>>>0})(),serverId:p.id,sku:p.sku,name:p.name,brand:p.brand||'',category:p.category,machine_model:p.machineModel||'',description:p.description||'',price:p.priceIrr===null?0:Number(p.priceIrr)/10,stock:p.stock,image:p.imageUrl?(p.imageUrl.startsWith('/')?'.'+p.imageUrl:p.imageUrl):'./assets/product-pump.jpg'}));
+  const rows=Array.isArray(data.items)?data.items:[];
+  // An empty/invalid server catalogue must never blank the storefront.
+  if(!rows.length){oldLoadProducts?.();return}
+  const mapped=rows.map(p=>({id:(()=>{let h=2166136261;for(const ch of String(p.sku||p.id)){h=Math.imul(h^ch.charCodeAt(0),16777619)}return h>>>0})(),serverId:p.id,sku:p.sku,name:p.name,brand:p.brand||'',category:p.category,machine_model:p.machineModel||'',description:p.description||'',price:p.priceIrr===null?0:Number(p.priceIrr)/10,stock:p.stock,image:(typeof p.imageUrl==='string'&&(/^(https?:|data:image\/|\.\/assets\/|\/assets\/)/i.test(p.imageUrl)))?(p.imageUrl.startsWith('/assets/')?'.'+p.imageUrl:p.imageUrl):'./assets/product-pump.jpg'}));
   if(typeof window.setApiProducts==='function')window.setApiProducts(mapped);else oldLoadProducts?.();
- }catch(e){window.toast('دریافت محصولات از سرور ناموفق بود: '+e.message)}};
+ }catch(e){
+  // Keep the locally bundled catalogue visible if the API is slow, offline, or unavailable.
+  oldLoadProducts?.();
+  const meta=document.querySelector('#catalogMeta');if(meta)meta.textContent='نمایش محصولات ذخیره‌شده؛ ارتباط با سرور در دسترس نیست.';
+ }};
  if(base)window.loadProducts?.();
  window.customerOrders=async u=>{
   const el=document.querySelector('#customerContent');if(!el)return;el.innerHTML='<h3>سفارش‌های من</h3><div class="empty-state">در حال دریافت سفارش‌ها از سرور...</div>';
