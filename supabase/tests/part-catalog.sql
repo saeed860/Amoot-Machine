@@ -69,6 +69,15 @@ begin
 
   if not exists (
     select 1 from public.part_catalog
+    where part_number = '422-7587'
+      and engine_models @> array['3512','3516']::text[]
+      and verification_status = 'REFERENCE'
+  ) then
+    raise exception 'New 3500 family directory reference is missing';
+  end if;
+
+  if not exists (
+    select 1 from public.part_catalog
     where part_number = '392-0217'
       and engine_models @> array['3512CB']::text[]
       and verification_status = 'REFERENCE'
