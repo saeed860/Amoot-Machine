@@ -81,7 +81,7 @@ Deno.serve(async (req) => {
       const productItems = productData.map(p => ({ id:p.id, kind:"PRODUCT", sku:p.sku, name:p.name, brand:p.brand, category:p.category, machineModel:p.machine_model, description:p.description, imageUrl:p.image_url, priceIrr:p.price_irr == null ? null : String(p.price_irr), stock:p.stock }));
       let partItems:any[] = [];
       if (q || model) {
-        const fields = "id,part_number,part_number_normalized,name,description,engine_models,technical_group,source_name,source_url,source_note,verification_status";
+        const fields = "id,part_number,part_number_normalized,name,description,engine_models,technical_group,source_name,source_url,source_note,verification_status,image_url,specifications,compatible_models";
         const basePartsQuery = () => adminDb.from("part_catalog").select(fields).eq("is_active",true).limit(100);
         const normalizeEngineFamily=(value:string)=>value.toUpperCase().replace(/\s+/g,"").replace(/CB$/,"");
         const familyModelCandidates=(value:string)=>value==="3512"?["3512","3512A","3512B","3512C","3512E","3512CB"]:value==="3516"?["3516","3516A","3516B","3516C","3516E","3516CB"]:[value];
@@ -106,9 +106,35 @@ Deno.serve(async (req) => {
         if(failed)return fail(500,"PART_CATALOG_FAILED","جستجوی کاتالوگ پارت‌نامبر ناموفق بود.");
         const byId=new Map<string,any>();
         for(const result of results)for(const part of result.data??[])byId.set(String(part.id),part);
-        partItems=[...byId.values()].map(p=>{
-          const displayModels=(p.engine_models??[]).map((m:string)=>m.toUpperCase().replace(/CB$/,""));
-          const supplierReference=String(p.source_name??"").toLowerCase().includes("hamkar"); const partPageUrl=supplierReference?"https://htshco.ir/brands/caterpillar/parts/"+encodeURIComponent(p.part_number):p.source_url; const partImageUrl=supplierReference?"https://htshco.ir/images/cat-parts/"+encodeURIComponent(p.part_number)+".webp":null; return {id:p.id,kind:"PART_REFERENCE",sku:p.part_number,name:p.name,brand:"Caterpillar",category:"قطعات موتور",machineModel:[...new Set(displayModels)].join(" / "),description:[p.description,p.technical_group?"گروه فنی: "+p.technical_group:"","مرجع: "+p.source_name,"وضعیت: "+p.verification_status,p.source_note,"مدل‌های CB در جستجو و نمایش ذیل خانواده پایه 3512 و 3516 قرار می‌گیرند؛ تأیید سازگاری نهایی با شماره سریال و Arrangement انجام شود."].filter(Boolean).join(" · "),imageUrl:partImageUrl,priceIrr:null,stock:0,sourceUrl:partPageUrl};
+        const partRecords=[...byId.values()];
+        // Resolve and cache the real OEM product image from the official Cat Parts Store.
+        // Only a bounded number of missing images are fetched per request to protect latency.
+        const imageResolved=await Promise.all(partRecords.slice(0,24).map(async (part:any)=>{
+          let imageUrl=part.image_url??null;
+          if(!imageUrl && /^https:\/\/parts\.cat\.com\//i.test(String(part.source_url??""))){
+            try{
+              const response=await fetch(String(part.source_url),{headers:{"user-agent":"Mozilla/5.0 AmootMachinePartsFinder/1.0","accept":"text/html"},signal:AbortSignal.timeout(5000)});
+              if(response.ok){
+                const html=await response.text();
+                const match=html.match(/https?:\/\/caterpillar\.scene7\.com\/is\/image\/Caterpillar\/[^"'\\s<>]+/i);
+                if(match?.[0]){
+                  imageUrl=match[0].replace(/&amp;/g,"&");
+                  await adminDb.from("part_catalog").update({image_url:imageUrl}).eq("id",part.id);
+                }
+              }
+            }catch(_){}
+          }
+          return {...part,image_url:imageUrl};
+        }));
+        const imageById=new Map(imageResolved.map((part:any)=>[String(part.id),part]));
+        partItems=partRecords.map((raw:any)=>{
+          const p=imageById.get(String(raw.id))??raw;
+          const models=[...new Set((p.engine_models??[]).map((m:string)=>String(m).toUpperCase()))];
+          const compatibleModels=[...new Set((p.compatible_models?.length?p.compatible_models:p.engine_models??[]).map((m:string)=>String(m).toUpperCase()))];
+          const supplierReference=String(p.source_name??"").toLowerCase().includes("hamkar");
+          const partPageUrl=supplierReference?"https://htshco.ir/brands/caterpillar/parts/"+encodeURIComponent(p.part_number):p.source_url;
+          const partImageUrl=p.image_url||(supplierReference?"https://htshco.ir/images/cat-parts/"+encodeURIComponent(p.part_number)+".webp":null);
+          return {id:p.id,kind:"PART_REFERENCE",sku:p.part_number,name:p.name,brand:p.brand??"Caterpillar",category:p.technical_group??"قطعات موتور",machineModel:models.join(" / "),compatibleModels,technicalGroup:p.technical_group??null,specifications:p.specifications??{},description:[p.description,"مدل‌های ثبت‌شده: "+(compatibleModels.join("، ")||"نیازمند بررسی"),p.source_note,"مرجع: "+p.source_name,"وضعیت مرجع: "+p.verification_status].filter(Boolean).join(" · "),imageUrl:partImageUrl,priceIrr:null,stock:0,sourceUrl:partPageUrl};
         });
       }
       const merged=[...productItems,...partItems].filter((item,index,all)=>all.findIndex(x=>String(x.sku).toUpperCase().replace(/[^A-Z0-9]/g,"")===String(item.sku).toUpperCase().replace(/[^A-Z0-9]/g,""))===index);
