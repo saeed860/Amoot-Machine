@@ -104,6 +104,26 @@ jobs:
             if(quotePayload?.productSku!=='392-0217'||!quotePayload?.message?.includes('392-0217')) throw new Error('Supplier inquiry payload failed');
             checks.push({mode:'supplier-inquiry',submitted:true,productSku:quotePayload.productSku});
             await searchPage.close();
+
+            // Verify the actual GitHub Pages site against the deployed Supabase API.
+            // This deliberately has no route mocks: browser origin, CORS, scripts and live data are exercised.
+            const livePage = await browser.newPage();
+            const liveErrors = [];
+            livePage.on('pageerror', e => liveErrors.push(e.message));
+            const liveResponse = await livePage.goto('https://saeed860.github.io/Amoot-Machine/search.html?q=392-0217', {waitUntil:'domcontentloaded',timeout:25000});
+            await livePage.waitForSelector('.part-detail-card .part-number', {timeout:25000});
+            const liveState = await livePage.evaluate(() => ({
+              title: document.title,
+              cards: document.querySelectorAll('.part-detail-card').length,
+              partNumbers: [...document.querySelectorAll('.part-detail-card .part-number')].map(x => x.textContent.trim()),
+              sourceLinks: document.querySelectorAll('.part-detail-card .part-source a').length,
+              inquiryButtons: document.querySelectorAll('.part-detail-card [data-open-quote]').length
+            }));
+            checks.push({mode:'live-production-search',http:liveResponse?.status(),state:liveState,errors:liveErrors});
+            if (liveResponse?.status()!==200 || liveState.cards<1 || !liveState.partNumbers.some(x=>x.includes('392-0217')) || liveErrors.length) {
+              throw new Error('Live production search did not render the 392-0217 part card');
+            }
+            await livePage.close();
           } finally {
             await browser.close().catch(()=>{});
             server.closeAllConnections();
