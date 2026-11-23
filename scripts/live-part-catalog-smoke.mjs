@@ -25,15 +25,15 @@ const tests = [
   { q: "CAT-20R-2510", sku: "CAT-20R-2510", kind: "PRODUCT", imageRequired: true, sourceRequired: true, category: "قطعات موتور" },
   { q: "CAT-20R-5367", sku: "CAT-20R-5367", kind: "PRODUCT", imageRequired: true, sourceRequired: true, category: "قطعات موتور" },
   { q: "CAT-30R-0084", sku: "CAT-30R-0084", kind: "PRODUCT", imageRequired: true, sourceRequired: true, category: "قطعات موتور" },
-  { q: "CAT-10R-9954", sku: "CAT-10R-9954", kind: "PRODUCT", imageRequired: true, sourceRequired: true, category: "قطعات موتور" },
-  { q: "CAT-5N-4504", sku: "CAT-5N-4504", kind: "PRODUCT", imageRequired: true, sourceRequired: true, category: "قطعات موتور" },
+  { q: "CAT-10R-9954", sku: "CAT-10R-9954", kind: "PRODUCT", imageRequired: true, sourceRequired: true, category: "موتورهای دریایی - قطعات پیشران" },
+  { q: "CAT-5N-4504", sku: "CAT-5N-4504", kind: "PRODUCT", imageRequired: true, sourceRequired: true, category: "موتورهای دریایی - خنک‌کاری و آب دریا" },
   { q: "CAT-7W-0009", sku: "CAT-7W-0009", kind: "PRODUCT", imageRequired: true, sourceRequired: true, category: "قطعات موتور" },
   { q: "CAT-9X-3406", sku: "CAT-9X-3406", kind: "PRODUCT", imageRequired: true, sourceRequired: true, category: "قطعات برقی" },
   { q: "CAT-260-3406", sku: "CAT-260-3406", kind: "PRODUCT", imageRequired: true, sourceRequired: true, category: "قطعات موتور" },
   ...["3512","3516","C15","C18","C9","3406","3408"].map(q => ({ q, kind: "PRODUCT", any: true, modelQuery: true })),
   { q: "CAT-20R-4278", sku: "CAT-20R-4278", kind: "PRODUCT", imageRequired: true, sourceRequired: true, category: "قطعات موتور" },
   { q: "CAT-10R-9063", sku: "CAT-10R-9063", kind: "PRODUCT", imageRequired: true, sourceRequired: true, category: "قطعات موتور" },
-  { q: "CAT-20R-0043", sku: "CAT-20R-0043", kind: "PRODUCT", imageRequired: true, sourceRequired: true, category: "قطعات موتور" },
+  { q: "CAT-20R-0043", sku: "CAT-20R-0043", kind: "PRODUCT", imageRequired: true, sourceRequired: true, category: "موتورهای دریایی - قطعات پیشران" },
   { q: "CAT-20R-3958", sku: "CAT-20R-3958", kind: "PRODUCT", imageRequired: true, sourceRequired: true, category: "قطعات موتور" },
   { q: "CAT-0R-8200", sku: "CAT-0R-8200", kind: "PRODUCT", imageRequired: true, sourceRequired: true, category: "قطعات موتور" },
   { q: "CAT-593-5344", sku: "CAT-593-5344", kind: "PRODUCT", imageRequired: true, sourceRequired: true, category: "قطعات موتور" },
@@ -777,4 +777,26 @@ const rootCount = categoryItems.filter(item => !item.parent_key).length;
 const categoryPass = categoryResponse.ok && rootCount === 15 && categoryItems.length >= 130;
 process.stdout.write(JSON.stringify({ query: "/api/part-categories", http: categoryResponse.status, roots: rootCount, total: categoryItems.length, pass: categoryPass }) + "\n");
 if (!categoryPass) failed = true;
-if (failed) process.exit(1);
+
+const marineResponse = await fetch(base + "/api/marine-engines", { headers: { apikey: key } });
+const marineBody = await marineResponse.json().catch(() => ({}));
+const marineRows = Array.isArray(marineBody.items) ? marineBody.items : [];
+const marineGroups = ["PROPULSION","HIGH_PERFORMANCE","GENERATOR_SET","AUXILIARY"];
+const expectedCounts = { PROPULSION:16, HIGH_PERFORMANCE:7, GENERATOR_SET:14, AUXILIARY:9 };
+const marineCounts = Object.fromEntries(marineGroups.map(group => [group, marineRows.filter(x => x.applicationGroup === group).length]));
+const marinePass = marineResponse.ok && marineRows.length === 46 && marineRows.every(x => x.applicationType === "MARINE") && marineGroups.every(group => marineCounts[group] === expectedCounts[group]);
+process.stdout.write(JSON.stringify({ query: "/api/marine-engines", http: marineResponse.status, totalGroupEntries: marineRows.length, groups: marineCounts, pass: marinePass }) + "\n");
+if (!marinePass) failed = true;
+
+for (const [sku, expected] of [["CAT-10R-9954","MARINE"],["CAT-20R-0043","MARINE"],["CAT-5N-4504","BOTH"],["CAT-7W-0009","BOTH"],["CAT-20R-5367","LAND"]]) {
+  const url = new URL(base + "/api/products");
+  url.searchParams.set("q", sku);
+  url.searchParams.set("includeImages", "false");
+  const response = await fetch(url, { headers: { apikey: key }, signal: AbortSignal.timeout(15000) });
+  const body = await response.json().catch(() => ({}));
+  const item = (body.items || []).find(x => x.sku === sku && x.kind === "PRODUCT");
+  const ok = response.ok && item?.applicationType === expected;
+  process.stdout.write(JSON.stringify({ query: sku, expectedApplication: expected, actualApplication: item?.applicationType || null, pass: ok }) + "\n");
+  if (!ok) failed = true;
+}
+\nif (failed) process.exit(1);
