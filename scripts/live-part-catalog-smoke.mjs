@@ -581,7 +581,16 @@ const tests = [
   { q: "130-5789", sku: "130-5789", kind: "PART_REFERENCE", skuSuffix: true, sourceRequired: true },
   { q: "10R-4374", sku: "10R-4374", kind: "PART_REFERENCE", skuSuffix: true, sourceRequired: true },
   { q: "10R-9224", sku: "10R-9224", kind: "PART_REFERENCE", skuSuffix: true, sourceRequired: true },
-  { q: "20R-5152", sku: "20R-5152", kind: "PART_REFERENCE", skuSuffix: true, sourceRequired: true },
+  { q: "20R-5152", sku: "20R-5152", kind: "PART_REFERENCE", skuSuffix: true, sourceRequired: true },,
+  {"q":"10R-8415","sku":"10R-8415","kind":"PART_REFERENCE","sourceRequired":true},
+  {"q":"10R-8417","sku":"10R-8417","kind":"PART_REFERENCE","sourceRequired":true},
+  {"q":"11R-1405","sku":"11R-1405","kind":"PART_REFERENCE","sourceRequired":true},
+  {"q":"11R-1406","sku":"11R-1406","kind":"PART_REFERENCE","sourceRequired":true},
+  {"q":"20R-3440","sku":"20R-3440","kind":"PART_REFERENCE","sourceRequired":true},
+  {"q":"20R-3441","sku":"20R-3441","kind":"PART_REFERENCE","sourceRequired":true},
+  {"q":"20R-3442","sku":"20R-3442","kind":"PART_REFERENCE","sourceRequired":true},
+  {"q":"20R-5199","sku":"20R-5199","kind":"PART_REFERENCE","sourceRequired":true},
+  {"q":"528-1699","sku":"528-1699","kind":"PART_REFERENCE","sourceRequired":true}
 ];
 let failed = false;
 let cursor = 0;
