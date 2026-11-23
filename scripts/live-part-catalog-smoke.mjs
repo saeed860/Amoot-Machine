@@ -245,6 +245,12 @@ const tests = [
   { q: "000-5683", sku: "000-5683", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Hardware, Seals & Consumables" },
   { q: "000-5710", sku: "000-5710", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Hardware, Seals & Consumables" },
   { q: "000-5732", sku: "000-5732", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Hardware, Seals & Consumables" },
+  { q: "422-7690", sku: "422-7690", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
+  { q: "422-7692", sku: "422-7692", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
+  { q: "422-7693", sku: "422-7693", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
+  { q: "523-3387", sku: "523-3387", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
+  { q: "572-2683", sku: "572-2683", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
+  { q: "572-2684", sku: "572-2684", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
 ];
 let failed = false;
 let cursor = 0;
