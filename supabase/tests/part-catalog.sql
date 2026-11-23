@@ -240,6 +240,10 @@ begin
     raise exception '343-5527 must not be tagged as a C15 directory fitment';
   end if;
 
+  if not exists (select 1 from pg_constraint where conname = 'part_catalog_oem_verified_evidence_check') then
+    raise exception 'Cat SIS evidence constraint is missing';
+  end if;
+
   if exists (
     select part_number from public.part_catalog
     group by part_number having count(*) > 1
