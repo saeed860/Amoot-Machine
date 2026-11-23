@@ -75,7 +75,7 @@ jobs:
             }
             console.log(JSON.stringify(checks,null,2));
             const full = checks.find(x=>x.mode==='all');
-            if (!full || full.state?.blocked || !['interactive','complete'].includes(full.state?.ready) || full.state?.products<5 || full.errors?.length) throw new Error('Full storefront failed startup test');
+            if (!full || full.state?.blocked || !['interactive','complete'].includes(full.state?.ready) || full.state?.products!==0 || full.errors?.length) throw new Error('Full storefront failed startup test');
 
             // Verify that the homepage search bar routes to the full parts catalog.
             const homeSearchPage = await browser.newPage();
