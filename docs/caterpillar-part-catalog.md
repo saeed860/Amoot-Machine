@@ -868,3 +868,24 @@ Migration `202611232560_expand_marine_fuel_lube_cooling_parts.sql` adds 15 offic
 Application flags are derived from the Cat Compatible Models section: `MARINE` is used only when the displayed list contains a marine engine class and no non-marine engine class; `BOTH` when Cat lists both. The category labels group components by function, not by a claim of serial-number-level fitment.
 
 Official sources: https://parts.cat.com/en/catcorp/product/9Y-5068, https://parts.cat.com/en/catcorp/product/10R-9598, https://parts.cat.com/en/catcorp/product/520-2924, https://parts.cat.com/en/catcorp/product/557-7650, https://parts.cat.com/en/catcorp/product/20R-1516, https://parts.cat.com/en/catcorp/product/0R-7724, https://parts.cat.com/en/catcorp/product/5N-9021, https://parts.cat.com/en/catcorp/product/318-2579, https://parts.cat.com/en/catcorp/product/416-0613, https://parts.cat.com/en/catcorp/product/0R-8210, https://parts.cat.com/en/catcorp/product/20R-0675, https://parts.cat.com/en/catcorp/product/572-5881, https://parts.cat.com/en/catcorp/product/292-8125, https://parts.cat.com/en/catcorp/product/140-9545; 313-2650: https://parts.cat.com/en/catcorp/313-2650.
+
+## Further C32 fuel and 3500-series marine service parts (2026-11-23)
+
+Migration `202611232570_add_verified_c32_fuel_and_3500_cooling_parts.sql` adds 10 more verified reference records:
+
+| Part number | Description | Group | Application |
+|---|---|---|---|
+| 298-2020 | Fuel Lines Tube | C32 fuel | Marine |
+| 272-1272 | 7.04mm Fuel Lines Tube | C32 fuel | Marine |
+| 472-4908 | Fuel Lines Tube Assembly | C32 fuel | Marine + land |
+| 364-8678 | Fuel Supply Tube | C32 fuel | Marine + land |
+| 364-8677 | Fuel Lines Hose | C32 fuel | Marine |
+| 364-9372 | Fuel Filter Lines Hose Assembly | C32 fuel | Marine + land |
+| 364-5893 | Fuel Hose Assembly | C32 fuel | Marine + land |
+| 5N-9022 | Auxiliary Sea Water Pump Port Plate | 3500 cooling | Marine + land |
+| 5N-2618 | Auxiliary Sea Water Pump Impeller | 3500 cooling | Marine + land |
+| 0R-4345 | Reman Engine Oil Pump | 3500 lubrication | Marine + land |
+
+Application tags follow the compatible-model classes shown on each official Cat page. For example, 298-2020 and 272-1272 list only Marine Engine/Marine Auxiliary C32, while 472-4908 lists both Marine Engine and Generator Set models.
+
+Official sources: https://parts.cat.com/en/catcorp/product/298-2020, https://parts.cat.com/en/catcorp/product/272-1272, https://parts.cat.com/en/catcorp/product/472-4908, https://parts.cat.com/en/catcorp/product/364-8678, https://parts.cat.com/en/catcorp/product/364-8677, https://parts.cat.com/en/catcorp/product/364-9372, https://parts.cat.com/en/catcorp/product/364-5893, https://parts.cat.com/en/catcorp/product/5N-9022, https://parts.cat.com/en/catcorp/product/5N-2618, https://parts.cat.com/en/catcorp/product/0R-4345.
