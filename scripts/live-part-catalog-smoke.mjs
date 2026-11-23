@@ -603,8 +603,14 @@ const tests = [
   {"q":"0R-3026","sku":"0R-3026","kind":"PART_REFERENCE","sourceRequired":true},
   {"q":"20R-7547","sku":"20R-7547","kind":"PART_REFERENCE","sourceRequired":true},
   {"q":"20R-7555","sku":"20R-7555","kind":"PART_REFERENCE","sourceRequired":true},
-  {"q":"20R-7560","sku":"20R-7560","kind":"PART_REFERENCE","sourceRequired":true}
-
+  {"q":"20R-7560","sku":"20R-7560","kind":"PART_REFERENCE","sourceRequired":true},
+  { q: "0R-0916", sku: "0R-0916", kind: "PART_REFERENCE", sourceRequired: true },
+  { q: "10R-6211", sku: "10R-6211", kind: "PART_REFERENCE", sourceRequired: true },
+  { q: "10R-2788", sku: "10R-2788", kind: "PART_REFERENCE", sourceRequired: true },
+  { q: "20R-0925", sku: "20R-0925", kind: "PART_REFERENCE", sourceRequired: true },
+  { q: "0R-0921", sku: "0R-0921", kind: "PART_REFERENCE", sourceRequired: true },
+  { q: "30R-1275", sku: "30R-1275", kind: "PART_REFERENCE", sourceRequired: true },
+  { q: "30R-1818", sku: "30R-1818", kind: "PART_REFERENCE", sourceRequired: true }
 ];
 let failed = false;
 let cursor = 0;
