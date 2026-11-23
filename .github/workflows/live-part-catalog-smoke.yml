@@ -1,0 +1,22 @@
+name: Live Part Catalog Smoke Test
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/live-part-catalog-smoke.mjs"
+      - "api-config.js"
+      - "supabase/functions/store-api/index.ts"
+      - "supabase/migrations/**"
+      - ".github/workflows/live-part-catalog-smoke.yml"
+  workflow_dispatch:
+jobs:
+  live-api:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Query deployed Supabase catalog (real API, no mocks)
+        run: node scripts/live-part-catalog-smoke.mjs
