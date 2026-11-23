@@ -1,20 +1,19 @@
 name: Live Part Catalog Smoke Test
 on:
-  push:
+  workflow_run:
+    workflows: ["Deploy Amoot Machine to Supabase"]
+    types: [completed]
     branches: [main]
-    paths:
-      - "scripts/live-part-catalog-smoke.mjs"
-      - "api-config.js"
-      - "supabase/functions/store-api/index.ts"
-      - "supabase/migrations/**"
-      - ".github/workflows/live-part-catalog-smoke.yml"
   workflow_dispatch:
 jobs:
   live-api:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/setup-node@v4
         with:
           node-version: 22
