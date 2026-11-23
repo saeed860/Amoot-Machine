@@ -665,6 +665,12 @@ const categoryItems = Array.isArray(categoryBody.items) ? categoryBody.items : [
   { q: "632-5510", sku: "632-5510", kind: "PART_REFERENCE", sourceRequired: true, imageRequired: true },
   { q: "30R-0133", sku: "30R-0133", kind: "PART_REFERENCE", sourceRequired: true, imageRequired: true },
   { q: "30R-0132", sku: "30R-0132", kind: "PART_REFERENCE", sourceRequired: true, imageRequired: true }
+  { q: "0R-6756", sku: "0R-6756", kind: "PART_REFERENCE", sourceRequired: true },
+  { q: "0R-5739", sku: "0R-5739", kind: "PART_REFERENCE", sourceRequired: true, imageRequired: true },
+  { q: "0R-2897", sku: "0R-2897", kind: "PART_REFERENCE", sourceRequired: true, imageRequired: true },
+  { q: "20R-7307", sku: "20R-7307", kind: "PART_REFERENCE", sourceRequired: true, imageRequired: true },
+  { q: "20R-7306", sku: "20R-7306", kind: "PART_REFERENCE", sourceRequired: true, imageRequired: true },
+  { q: "20R-5677", sku: "20R-5677", kind: "PART_REFERENCE", sourceRequired: true, imageRequired: true },
 ];
 const rootCount = categoryItems.filter(item => !item.parent_key).length;
 const categoryPass = categoryResponse.ok && rootCount === 15 && categoryItems.length >= 130;
