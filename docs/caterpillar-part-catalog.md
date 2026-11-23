@@ -614,3 +614,24 @@ Official category sources:
 - [Exhaust Bypass Valves](https://parts.cat.com/en/catcorp/category/reman-products-exhaust-bypass-valves) — 2 records
 
 Official product sources: [20R-1626](https://parts.cat.com/en/catcorp/product/20R-1626), [0R-9668](https://parts.cat.com/en/catcorp/product/0R-9668), [10R-3139](https://parts.cat.com/en/catcorp/product/10R-3139), [10R-3138](https://parts.cat.com/en/catcorp/product/10R-3138), [20R-9654](https://parts.cat.com/en/catcorp/product/20R-9654), [20R-1828](https://parts.cat.com/en/catcorp/product/20R-1828), [30R-1590](https://parts.cat.com/en/catcorp/product/30R-1590), [11R-2387](https://parts.cat.com/en/catcorp/product/11R-2387), [11R-2388](https://parts.cat.com/en/catcorp/product/11R-2388), [0R-9667](https://parts.cat.com/en/catcorp/product/0R-9667), [20R-2447](https://parts.cat.com/en/catcorp/product/20R-2447), [11R-2389](https://parts.cat.com/en/catcorp/product/11R-2389), [20R-8981](https://parts.cat.com/en/catcorp/product/20R-8981), [0R-3270](https://parts.cat.com/en/catcorp/product/0R-3270), [0R-3271](https://parts.cat.com/en/catcorp/product/0R-3271), [0R-4657](https://parts.cat.com/en/catcorp/product/0R-4657), [632-5510](https://parts.cat.com/en/catcorp/product/632-5510), [30R-0133](https://parts.cat.com/en/catcorp/product/30R-0133), [30R-0132](https://parts.cat.com/en/catcorp/product/30R-0132).
+
+
+
+## Completed public Cat Reman categories (2026-11-23): Air Conditioner Compressors, Worklights, Telematics
+
+Migration `202611232340_import_complete_cat_air_conditioner_worklights_telematics.sql` imports three complete official Cat Reman categories:
+
+- **Air Conditioner Compressors — 3 of 3:** `0R-6756`, `0R-5739`, `0R-2897`.
+- **Worklights — 2 of 2:** `20R-7307`, `20R-7306`.
+- **Telematics — 1 of 1:** `20R-5677`.
+
+All six are search-only `REFERENCE` records. Cat marks `0R-6756` and `20R-7306` discontinued; that status is retained and they are not represented as available for sale. No price or inventory is invented. Fitment and engine family values are taken only from explicit Cat Compatible Models/application headings. For `20R-7307`, Cat's page has a View More control, so only visible model entries are stored.
+
+Verified official Scene7 images from the corresponding product pages are attached to `0R-5739`, `0R-2897`, `20R-7307`, `20R-7306`, and `20R-5677`. `0R-6756` remains image-null because the official page only exposed a low-resolution thumbnail.
+
+Official category sources:
+- [Air Conditioner Compressors](https://parts.cat.com/en/catcorp/category/reman-products-air-conditioner-compressors) — 3 records
+- [Worklights](https://parts.cat.com/en/catcorp/category/reman-products-worklights) — 2 records
+- [Telematics](https://parts.cat.com/en/catcorp/category/reman-products-telematics) — 1 record
+
+Official product pages: [0R-6756](https://parts.cat.com/en/catcorp/product/0R-6756), [0R-5739](https://parts.cat.com/en/catcorp/product/0R-5739), [0R-2897](https://parts.cat.com/en/catcorp/product/0R-2897), [20R-7307](https://parts.cat.com/en/catcorp/product/20R-7307), [20R-7306](https://parts.cat.com/en/catcorp/product/20R-7306), [20R-5677](https://parts.cat.com/en/catcorp/product/20R-5677).
