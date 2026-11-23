@@ -54,20 +54,35 @@ Deno.serve(async (req) => {
     }
 
     if (req.method === "GET" && path === "/api/products") {
-      const u = new URL(req.url), q = clean(u.searchParams.get("q"), 100).replace(/[,%()_*\\\\]/g, " ").replace(/\s+/g, " ").trim(), category = clean(u.searchParams.get("category"), 100), brand = clean(u.searchParams.get("brand"), 100), model = clean(u.searchParams.get("model"), 120);
-      let query = adminDb.from("products").select("*").eq("status", "ACTIVE").order("created_at", { ascending: false }).limit(100);
-      if (category) query = query.eq("category", category);
-      if (brand) query = query.eq("brand", brand);
-      if (model) query = query.eq("machine_model", model);
-      if (q) query = query.or(`name.ilike.%${q}%,sku.ilike.%${q}%,brand.ilike.%${q}%,machine_model.ilike.%${q}%`);
-      const { data, error } = await query;
-      if (error) return fail(500, "PRODUCTS_FAILED", "دریافت محصولات ناموفق بود.");
-      const productItems = (data ?? []).map(p => ({ id:p.id, kind:"PRODUCT", sku:p.sku, name:p.name, brand:p.brand, category:p.category, machineModel:p.machine_model, description:p.description, imageUrl:p.image_url, priceIrr:p.price_irr == null ? null : String(p.price_irr), stock:p.stock }));
+      const u = new URL(req.url), q = clean(u.searchParams.get("q"), 100).replace(/[,%()_*\\\\]/g, " ").replace(/\\s+/g, " ").trim(), category = clean(u.searchParams.get("category"), 100), brand = clean(u.searchParams.get("brand"), 100), model = clean(u.searchParams.get("model"), 120);
+      const baseProductQuery = () => {
+        let productQuery = adminDb.from("products").select("*").eq("status", "ACTIVE").order("created_at", { ascending: false }).limit(100);
+        if (category) productQuery = productQuery.eq("category", category);
+        if (brand) productQuery = productQuery.eq("brand", brand);
+        if (model) productQuery = productQuery.eq("machine_model", model);
+        return productQuery;
+      };
+      let productData:any[] = [];
+      if (q) {
+        // Search product fields independently; a PostgREST OR expression must never
+        // prevent the separate part-reference catalog search from running.
+        const productResults = await Promise.all(["name","sku","brand","machine_model"].map(field => baseProductQuery().ilike(field, "%" + q + "%")));
+        const productFailure = productResults.find(result => result.error);
+        if (productFailure) { console.error("[store-api/products] product search failed", productFailure.error?.code, productFailure.error?.message); return fail(500, "PRODUCTS_FAILED", "دریافت محصولات ناموفق بود."); }
+        const productMap = new Map<string,any>();
+        for (const result of productResults) for (const product of result.data ?? []) productMap.set(String(product.id), product);
+        productData = [...productMap.values()];
+      } else {
+        const result = await baseProductQuery();
+        if (result.error) { console.error("[store-api/products] product listing failed", result.error.code, result.error.message); return fail(500, "PRODUCTS_FAILED", "دریافت محصولات ناموفق بود."); }
+        productData = result.data ?? [];
+      }
+      const productItems = productData.map(p => ({ id:p.id, kind:"PRODUCT", sku:p.sku, name:p.name, brand:p.brand, category:p.category, machineModel:p.machine_model, description:p.description, imageUrl:p.image_url, priceIrr:p.price_irr == null ? null : String(p.price_irr), stock:p.stock }));
       let partItems:any[] = [];
       if (q || model) {
         const fields = "id,part_number,part_number_normalized,name,description,engine_models,technical_group,source_name,source_url,source_note,verification_status";
         const basePartsQuery = () => adminDb.from("part_catalog").select(fields).eq("is_active",true).limit(100);
-        const normalizeEngineFamily=(value:string)=>value.toUpperCase().replace(/\\s+/g,"").replace(/CB$/,"");
+        const normalizeEngineFamily=(value:string)=>value.toUpperCase().replace(/\s+/g,"").replace(/CB$/,"");
         const familyModelCandidates=(value:string)=>value==="3512"?["3512","3512A","3512B","3512C","3512E","3512CB"]:value==="3516"?["3516","3516A","3516B","3516C","3516E","3516CB"]:[value];
         const requestedModel=normalizeEngineFamily(model);
         const searches:Promise<any>[] = [];
