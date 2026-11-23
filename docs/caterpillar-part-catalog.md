@@ -825,7 +825,7 @@ Marine classification does not replace serial-number/arrangement validation for 
 
 ## Additional marine-compatible Cat part references (2026-11-23)
 
-Migration `202611232530_add_more_verified_marine_parts.sql` adds 9 additional official Cat Parts Store references. These records remain search-only `REFERENCE` rows, with NULL pricing, zero stock, and no guessed image or serial-specific fitment.
+Migration `202611232530_add_more_verified_marine_parts.sql` adds 10 additional official Cat Parts Store references. These records remain search-only `REFERENCE` rows, with NULL pricing, zero stock, and no guessed image or serial-specific fitment.
 
 | Part number | Cat description | Marine model evidence | Group |
 |---|---|---|---|
@@ -840,4 +840,4 @@ Migration `202611232530_add_more_verified_marine_parts.sql` adds 9 additional of
 | 5L-6954 | ELBOW | 3512/3516/3508 families | Fluid lines |
 | 160-8765 | FITTING AS | 3516, 3508 | Adapters & fittings |
 
-Note: the migration currently contains 9 records; the table above should list exactly those records. Every one of these pages lists at least one marine compatible model and at least one non-marine engine/application, so the current application tag is `BOTH`. Sources: https://parts.cat.com/en/catcorp/product/4P-0710, https://parts.cat.com/en/catcorp/product/068-0005, https://parts.cat.com/en/catcorp/product/7W-3737, https://parts.cat.com/en/catcorp/product/109-5738, https://parts.cat.com/en/catcorp/product/161-0801, https://parts.cat.com/en/catcorp/product/190-0330, https://parts.cat.com/en/catcorp/product/301-3043, https://parts.cat.com/en/catcorp/product/110-3754, https://parts.cat.com/en/catcorp/product/5L-6954, https://parts.cat.com/en/catcorp/product/160-8765.
+Note: the migration contains exactly 10 records, matching the table above. Every one of these pages lists at least one marine compatible model and at least one non-marine engine/application, so the current application tag is `BOTH`. Sources: https://parts.cat.com/en/catcorp/product/4P-0710, https://parts.cat.com/en/catcorp/product/068-0005, https://parts.cat.com/en/catcorp/product/7W-3737, https://parts.cat.com/en/catcorp/product/109-5738, https://parts.cat.com/en/catcorp/product/161-0801, https://parts.cat.com/en/catcorp/product/190-0330, https://parts.cat.com/en/catcorp/product/301-3043, https://parts.cat.com/en/catcorp/product/110-3754, https://parts.cat.com/en/catcorp/product/5L-6954, https://parts.cat.com/en/catcorp/product/160-8765.
