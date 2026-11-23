@@ -292,6 +292,21 @@ const tests = [
   { q: "607-4800", sku: "607-4800", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
   { q: "420-9877", sku: "420-9877", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
   { q: "566-2975", sku: "566-2975", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
+  { q: "1M-9011", sku: "1M-9011", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Seals" },
+  { q: "3N-0759", sku: "3N-0759", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Seals" },
+  { q: "251-8364", sku: "251-8364", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Seals" },
+  { q: "6Y-0472", sku: "6Y-0472", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Seals" },
+  { q: "162-7864", sku: "162-7864", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Seals" },
+  { q: "6Y-0469", sku: "6Y-0469", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Seals" },
+  { q: "1M-8747", sku: "1M-8747", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Seals" },
+  { q: "6Y-0471", sku: "6Y-0471", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Seals" },
+  { q: "6Y-1082", sku: "6Y-1082", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Seals" },
+  { q: "155-9879", sku: "155-9879", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Seals" },
+  { q: "367-8137", sku: "367-8137", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Seals" },
+  { q: "9W-4264", sku: "9W-4264", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Seals" },
+  { q: "297-9545", sku: "297-9545", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Seals" },
+  { q: "162-7863", sku: "162-7863", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Seals" },
+  { q: "314-4118", sku: "314-4118", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Seals" },
 ];
 let failed = false;
 let cursor = 0;
