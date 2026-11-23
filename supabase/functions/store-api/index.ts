@@ -53,6 +53,18 @@ Deno.serve(async (req) => {
       return json({ token: data.session.access_token, user: userDto(profile) });
     }
 
+    if (req.method === "GET" && path === "/api/part-categories") {
+      const { data, error } = await adminDb.from("cat_part_categories")
+        .select("category_key,name,parent_key,source_url,source_count")
+        .eq("is_active", true)
+        .order("name", { ascending: true });
+      if (error) {
+        console.error("[store-api/part-categories] category listing failed", error.code, error.message);
+        return fail(500, "PART_CATEGORIES_FAILED", "دریافت دسته‌بندی‌های کاتالوگ ناموفق بود.");
+      }
+      return json({ items: data ?? [] });
+    }
+
     if (req.method === "GET" && path === "/api/products") {
       const u = new URL(req.url), q = clean(u.searchParams.get("q"), 100).replace(/[,%()_*\\\\]/g, " ").replace(/\\s+/g, " ").trim(), category = clean(u.searchParams.get("category"), 100), brand = clean(u.searchParams.get("brand"), 100), model = clean(u.searchParams.get("model"), 120);
       const baseProductQuery = () => {
