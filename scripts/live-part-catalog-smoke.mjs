@@ -451,6 +451,6 @@ const categoryBody = await categoryResponse.json().catch(() => ({}));
 const categoryItems = Array.isArray(categoryBody.items) ? categoryBody.items : [];
 const rootCount = categoryItems.filter(item => !item.parent_key).length;
 const categoryPass = categoryResponse.ok && rootCount === 15 && categoryItems.length >= 130;
-process.stdout.write(JSON.stringify({ query: "/api/part-categories", http: categoryResponse.status, roots: rootCount, total: categoryItems.length, pass: categoryPass }) + "\\n");
+process.stdout.write(JSON.stringify({ query: "/api/part-categories", http: categoryResponse.status, roots: rootCount, total: categoryItems.length, pass: categoryPass }) + "\n");
 if (!categoryPass) failed = true;
 if (failed) process.exit(1);
