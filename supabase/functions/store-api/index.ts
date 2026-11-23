@@ -69,7 +69,7 @@ Deno.serve(async (req) => {
         // prevent the separate part-reference catalog search from running.
         const productResults = await Promise.all(["name","sku","brand","machine_model"].map(field => baseProductQuery().ilike(field, "%" + q + "%")));
         const productFailure = productResults.find(result => result.error);
-        if (productFailure) { console.error("[store-api/products] product search failed", productFailure.error?.code, productFailure.error?.message); return fail(500, "PRODUCTS_FAILED", "دریافت محصولات ناموفق بود."); }
+        if (productFailure) { console.error("[store-api/products] product search failed", productFailure.error?.code, productFailure.error?.message); return json({ error: { code: "PRODUCTS_FAILED", message: "دریافت محصولات ناموفق بود.", debug: { code: productFailure.error?.code, message: productFailure.error?.message, details: productFailure.error?.details, hint: productFailure.error?.hint } } }, 500); }
         const productMap = new Map<string,any>();
         for (const result of productResults) for (const product of result.data ?? []) productMap.set(String(product.id), product);
         productData = [...productMap.values()];
