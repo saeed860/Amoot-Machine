@@ -799,4 +799,5 @@ for (const [sku, expected] of [["CAT-10R-9954","MARINE"],["CAT-20R-0043","MARINE
   process.stdout.write(JSON.stringify({ query: sku, expectedApplication: expected, actualApplication: item?.applicationType || null, pass: ok }) + "\n");
   if (!ok) failed = true;
 }
-\nif (failed) process.exit(1);
+
+if (failed) process.exit(1);
