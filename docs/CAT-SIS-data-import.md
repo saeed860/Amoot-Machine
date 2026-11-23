@@ -31,6 +31,19 @@ Do not assume Cat provides a freely downloadable global dump/API of every part n
 
 A public Cat part page can support the existence/description of a part reference; it does not automatically prove fitment to every engine in a family.
 
+## Newly indexed official public references
+
+The public Cat Parts Store has been checked for additional injector-family references and the following official pages are now seeded as searchable catalog records (still not inventory and not serial-specific SIS verification):
+
+- [392-0222 — Injector Group](https://parts.cat.com/en/catcorp/product/392-0222)
+- [392-0221 — Fuel Injector Group](https://parts.cat.com/en/catcorp/product/392-0221)
+- [392-0216 — Injector Group](https://parts.cat.com/en/catcorp/product/392-0216)
+- [392-0220 — Fuel Pump Injector](https://parts.cat.com/en/catcorp/product/392-0220)
+- [7C-0877 — Injector Assembly](https://parts.cat.com/en/catcorp/product/7C-0877)
+- [100-3878 — Fuel Injector Spring](https://parts.cat.com/en/catcorp/product/100-3878)
+
+Only model names explicitly listed on each public Cat product page are associated with each record. A family-level association is a discovery aid, not a substitute for checking the exact engine configuration before sale.
+
 ## Optional serial-specific fitment verification
 
 Serial number and Arrangement are **optional for catalog discovery**, but may be needed to confirm exact fitment for a particular engine/equipment.
