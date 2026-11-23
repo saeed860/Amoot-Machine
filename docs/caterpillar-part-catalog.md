@@ -550,3 +550,22 @@ Important catalog-quality note: Cat's own Sleeve Pins listing includes products 
 Verified direct Cat Scene7 image assets were captured for all six listed records. No prices or stock are fabricated; every row remains `REFERENCE` rather than a sellable product.
 
 Official product pages: [598-0498](https://parts.cat.com/en/catcorp/product/598-0498), [387-9865](https://parts.cat.com/en/catcorp/product/387-9865), [7T-9309](https://parts.cat.com/en/catcorp/product/7T-9309), [655-7611](https://parts.cat.com/en/catcorp/product/655-7611), [6E-4351](https://parts.cat.com/en/catcorp/product/6E-4351), [7T-9307](https://parts.cat.com/en/catcorp/product/7T-9307).
+
+
+## Completed public Cat category: Camshaft Kits
+
+Source: https://parts.cat.com/en/catcorp/category/engine-components-camshaft-kits
+
+The official Cat Parts Store category lists exactly **7 of 7** records on one page. Migration `202611232300_import_complete_cat_camshaft_kits_category.sql` imports all seven as search-only `REFERENCE` records:
+
+- `20R-7549` — Cat Reman camshaft kit, 3406C
+- `0R-3021` — Cat Reman camshaft kit, recommended application 3208 NA
+- `0R-3025` — Cat Reman camshaft kit, 3204
+- `0R-3026` — Cat Reman camshaft kit, 3204
+- `20R-7547` — Cat Reman camshaft kit, 3406B
+- `20R-7555` — Cat Reman camshaft kit, 3408
+- `20R-7560` — Cat Reman camshaft kit, 3412
+
+Compatibility arrays are limited to the official Cat product-page Compatible Models sections. For `20R-7555` and `20R-7560`, the retrieved official category listing confirms the engine application, but no compatible-model detail was available; those arrays remain empty. No price, stock, or unverified image URLs were added.
+
+Official category: [Camshaft Kits](https://parts.cat.com/en/catcorp/category/engine-components-camshaft-kits). Official product pages: [20R-7549](https://parts.cat.com/en/catcorp/product/20R-7549), [0R-3021](https://parts.cat.com/en/catcorp/product/0R-3021), [0R-3025](https://parts.cat.com/en/catcorp/product/0R-3025), [0R-3026](https://parts.cat.com/en/catcorp/product/0R-3026), [20R-7547](https://parts.cat.com/en/catcorp/product/20R-7547), [20R-7555](https://parts.cat.com/en/catcorp/product/20R-7555), [20R-7560](https://parts.cat.com/en/catcorp/product/20R-7560).
