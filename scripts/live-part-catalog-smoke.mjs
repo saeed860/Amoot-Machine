@@ -36,7 +36,7 @@ for (const test of tests) {
   const items = Array.isArray(body.items) ? body.items : [];
   const normSku = v => String(v || "").replace(/[^A-Z0-9]/gi, "").toUpperCase();
   const found = items.find(x => normSku(x.sku) === normSku(test.sku) && x.kind === test.kind && (!test.filterCategory || x.category === test.filterCategory));
-  const exists = items.some(x => normSku(x.sku) === normSku(test.q));
+  const exists = items.some(x => normSku(x.sku) === normSku(test.q) && x.kind === "PRODUCT");
   const ok = response.ok && (test.absent ? !exists : (test.any ? items.some(x => x.kind === test.kind) : Boolean(found))) && (!test.category || found?.category === test.category);
   failed ||= !ok;
   process.stdout.write(JSON.stringify({
