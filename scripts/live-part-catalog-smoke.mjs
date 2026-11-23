@@ -243,7 +243,8 @@ const tests = [
   { q: "1U-5516", sku: "1U-5516", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Workshop Supplies" },
 ];
 let failed = false;
-for (const test of tests) {
+let cursor = 0;
+async function runTest(test) {
   const url = new URL(base + "/api/products");
   url.searchParams.set("q", test.q);
   if (test.filterCategory) url.searchParams.set("category", test.filterCategory);
@@ -255,7 +256,6 @@ for (const test of tests) {
   const exists = items.some(x => normSku(x.sku) === normSku(test.q) && x.kind === "PRODUCT");
   const modelMatched = !test.modelQuery || items.some(x => x.kind === "PRODUCT" && (normSku(x.machineModel).includes(normSku(test.q)) || normSku(x.description).includes(normSku(test.q))));
   const ok = response.ok && (test.absent ? !exists : (test.any ? items.some(x => x.kind === test.kind) : Boolean(found))) && modelMatched && (!test.category || found?.category === test.category) && (!test.imageRequired || Boolean(found?.imageUrl)) && (!test.sourceRequired || String(found?.description || "").includes("parts.cat.com"));
-  failed ||= !ok;
   process.stdout.write(JSON.stringify({
     query: test.q, http: response.status, kind: test.kind || "ABSENT",
     found: Boolean(found) || Boolean(test.any && items.some(x => x.kind === test.kind)), absent: test.absent ? !exists : undefined,
@@ -263,6 +263,15 @@ for (const test of tests) {
     image: found?.imageUrl ? "present" : "missing",
     priceIrr: found?.priceIrr ?? null, stock: found?.stock ?? null,
     pass: ok, apiError: body.error?.code || null
-  }) + "\n");
+  }) + "\\n");
+  return ok;
 }
+const workers = Array.from({ length: 8 }, async () => {
+  while (cursor < tests.length) {
+    const index = cursor++;
+    const ok = await runTest(tests[index]);
+    if (!ok) failed = true;
+  }
+});
+await Promise.all(workers);
 if (failed) process.exit(1);
