@@ -105,6 +105,12 @@ const tests = [
   { q: "593-2027", sku: "593-2027", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Engine" },
   { q: "20R-6518", sku: "20R-6518", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Engine" },
   { q: "299-5204", sku: "299-5204", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Engine" },
+  { q: "10R-7231", sku: "10R-7231", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Engine" },
+  { q: "10R-8763", sku: "10R-8763", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Engine" },
+  { q: "10R-7302", sku: "10R-7302", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Engine" },
+  { q: "10R-5647", sku: "10R-5647", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Engine" },
+  { q: "10R-0484", sku: "10R-0484", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Engine" },
+  { q: "10R-7172", sku: "10R-7172", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Engine" },
 ];
 let failed = false;
 for (const test of tests) {
