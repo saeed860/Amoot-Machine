@@ -760,3 +760,12 @@ The official [Engine Overhaul Kits](https://parts.cat.com/en/catcorp/category/en
 - `435-1295` — Cat Complete Engine Arrangement (C7); Cat marks it discontinued. Compatible Models lists Excavator 329D and 329D L.
 
 All three are search-only `REFERENCE` records with no price, stock, or unverified image. Fitment is limited to Cat's product title, description, or Compatible Models section. Official product pages: [20R-0651](https://parts.cat.com/en/catcorp/product/20R-0651), [356-1448](https://parts.cat.com/en/catcorp/product/356-1448), [435-1295](https://parts.cat.com/en/catcorp/product/435-1295).
+
+
+## Cat Fuel Rails — first-page partial import (2026-11-23)
+
+The official [Cat Fuel Rails category](https://parts.cat.com/en/catcorp/category/fuel-system-fuel-rails?page=1&sortBy=0) reports **34 results** and shows records 1–16 on its first page. Migration `202611232440_import_cat_fuel_rails_page1_partial.sql` imports those 16 visible records. The category is **not complete**: 18 remaining records require verification from the other pages before it can be marked complete. The current web retrieval could not access those page URLs, so no missing part numbers were guessed.
+
+Imported: `20R-4264`, `20R-4263`, `20R-4267`, `20R-4266`, `436-1092`, `390-2615`, `614-6273`, `477-7728`, `376-2724`, `601-8313`, `258-9955`, `258-9959`, `322-0364`, `385-5991`, `393-9936`, `399-8470`.
+
+All records are `REFERENCE`, with no price, stock or guessed image. Engine model is recorded only where explicitly stated in Cat's listing. The 4 C175 fuel rails also have individual official product pages: [20R-4264](https://parts.cat.com/en/catcorp/product/20R-4264), [20R-4263](https://parts.cat.com/en/catcorp/product/20R-4263), [20R-4267](https://parts.cat.com/en/catcorp/product/20R-4267), [20R-4266](https://parts.cat.com/en/catcorp/product/20R-4266).
