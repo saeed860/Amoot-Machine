@@ -96,3 +96,18 @@ Additional search-only references were added/upserted from the public Cat Parts 
 All these rows remain `REFERENCE`, with no price or stock. Fitment is recorded only where Cat's product page explicitly lists the model; category membership alone is not treated as machine compatibility.
 
 **Coverage limitation:** many Cat category pages display only 1–16 of 1,200 results (75 pages), and their subcategories contain additional inventories. This batch captures visible first-page samples for major categories, selected official product pages, and six selected references from page 2 of Cat Undercarriage Kits plus first-page samples from Bogies, Guards, Rubber Tracks, Seals, Rolling Components and Track Components; it is not a complete export of all Cat part numbers or a substitute for Cat SIS. Continue crawling remaining pages/categories or obtain an authorized complete catalog feed before claiming full coverage.
+
+## Further official Cat undercarriage references (2026-11-23)
+
+The public Cat Parts Store undercarriage catalog was expanded in migrations `202611231830`–`202611231870` and `202611231880`. This includes selected official references from Bogies, Guards, Rubber Track components, Seals, Rolling Components, Track Roller Groups and Carrier Roller Groups. The rolling-component batch includes track segments, track rollers, idler groups and Cat-listed fitment for selected models. The carrier-roller batch adds:
+
+| Cat part number | Part | Cat-listed model examples |
+|---|---|---|
+| 603-8538 | Carrier Roller Group, 120 mm tread | 320, 326 GC, 321, 320D3 GC, 320 GX, 323 GX, 333 GC, 324, 320D3, 322, 319, 320 GC |
+| 235-5974 | Carrier Roller Group, 199.5 mm tread | D6 family, PL72, 963D, 973D, 963C, 963K |
+| 300-4545 | Carrier Roller Group, 160 mm tread | 3512B Generator Set (also multiple excavator and MHPU configurations) |
+| 542-8380 | Carrier Roller Group, 190 mm tread | MD6380, MD6640, MD6540, 390F, 390F L, 395, MH3295, 374, 374F, 374F L, 3101 |
+
+Each row remains a search-only `REFERENCE` with no price or stock. Product pages and Cat Scene7 product images are stored as source references. Compatible-model arrays are populated only from the individual Cat product pages; Cat itself advises confirming the machine serial number and configuration before ordering.
+
+The official Cat pages expose multiple rolling-component subcategories with dozens to hundreds of results. These imports are selected page/category samples, not a complete export of Cat's undercarriage catalog or a replacement for Cat SIS.
