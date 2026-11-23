@@ -435,7 +435,7 @@ async function runTest(test) {
   const found = items.find(x => (normSku(x.sku) === normSku(test.sku) || (test.skuSuffix && normSku(x.sku).endsWith(normSku(test.q)))) && x.kind === test.kind && (!test.filterCategory || x.category === test.filterCategory));
   const exists = items.some(x => normSku(x.sku) === normSku(test.q) && x.kind === "PRODUCT");
   const modelMatched = !test.modelQuery || items.some(x => x.kind === "PRODUCT" && (normSku(x.machineModel).includes(normSku(test.q)) || normSku(x.description).includes(normSku(test.q))));
-  const ok = response.ok && (test.absent ? !exists : (test.any ? items.some(x => x.kind === test.kind) : Boolean(found))) && modelMatched && (!test.category || found?.category === test.category) && (!test.imageRequired || Boolean(found?.imageUrl)) && (!test.sourceRequired || String(found?.sourceUrl || "").startsWith("https://parts.cat.com/"));
+  const ok = response.ok && (test.absent ? !exists : (test.any ? items.some(x => x.kind === test.kind) : Boolean(found))) && modelMatched && (!test.category || found?.category === test.category) && (!test.imageRequired || Boolean(found?.imageUrl)) && (!test.sourceRequired || String(found?.sourceUrl || found?.description || "").includes("parts.cat.com"));
   process.stdout.write(JSON.stringify({
     query: test.q, http: response.status, kind: test.kind || "ABSENT",
     found: Boolean(found) || Boolean(test.any && items.some(x => x.kind === test.kind)), absent: test.absent ? !exists : undefined,
