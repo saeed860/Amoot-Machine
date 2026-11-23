@@ -327,3 +327,27 @@ Migration `202611232140_expand_cat_c15_c18_c9_fuel_pump_turbo_references.sql` ad
 All are reference-only; exact Cat source URLs and compatibility provenance are stored. No sale price or stock was fabricated. For turbo pages whose image is marked representative, no product image is assigned.
 
 Sources: [10R-0956](https://parts.cat.com/en/catcorp/product/10R-0956), [10R-9787](https://parts.cat.com/en/catcorp/product/10R-9787), [232-1811](https://parts.cat.com/en/catcorp/product/232-1811), [10R-8499](https://parts.cat.com/en/catcorp/product/10R-8499), [241-9595](https://parts.cat.com/en/catcorp/product/241-9595), [350-2537](https://parts.cat.com/en/catcorp/product/350-2537), [10R-8501](https://parts.cat.com/en/catcorp/product/10R-8501), [10R-8500](https://parts.cat.com/en/catcorp/product/10R-8500), [211-3022](https://parts.cat.com/en/catcorp/product/211-3022), [211-3026](https://parts.cat.com/en/catcorp/product/211-3026), [20R-8060](https://parts.cat.com/en/catcorp/product/20R-8060), [20R-8812](https://parts.cat.com/en/catcorp/product/20R-8812), [284-2712](https://parts.cat.com/en/catcorp/product/284-2712), [293-4068](https://parts.cat.com/en/catcorp/product/293-4068).
+
+
+## Additional 3400/3500 family injector and turbo batch (2026-11-23)
+
+Migration `202611232160_expand_cat_3512_3516_3406_3408_fuel_turbo_references.sql` adds/upserts **12 official Cat references**:
+
+| Part number | Component | Cat-listed applications |
+|---|---|---|
+| 467-5333 | Cylinder head installation kit | C-18, C18, C15 |
+| 0R-9943 | 3406 Reman injector nozzle | 3412, 3412C, 3408C in visible compatibility list |
+| 102-0297 | Basic engine turbocharger | 3512, 3516 |
+| 102-0290 | Basic turbocharger | 3412, 3412C, 3512 |
+| 0R-3536 | 3408 Reman injector nozzle | 3408/3408B/C, 3412/3412C |
+| 0R-8787 | Reman injector nozzle | 3412/3412C, 3408B/C in visible fitment list |
+| 0R-3422 | 3406 Reman injector nozzle | 3406B/C, 3408/3408B/C, 3412/3412C |
+| 118-2989 | Turbocharger group | 3512, 3516, 3508 |
+| 102-0294 | Turbocharger group | 3512, 3516, 3512B |
+| 0R-7164 | Reman turbocharger | 3512, 3516 |
+| 100-4095 | Turbocharger cartridge | 3512/3516, 3508 and listed 3500 variants |
+| 0R-3425 | 3406 Reman injector nozzle | 3406B/C, 3412/3412C |
+
+All entries are reference-only and sourced to official Cat product pages. Compatibility is restricted to the models explicitly listed by Cat; where the product title and visible fitment list differ, the source note records that distinction. No pricing or stock is fabricated.
+
+Sources: [467-5333](https://parts.cat.com/en/catcorp/product/467-5333), [0R-9943](https://parts.cat.com/en/catcorp/product/0R-9943), [102-0297](https://parts.cat.com/en/catcorp/product/102-0297), [102-0290](https://parts.cat.com/en/catcorp/product/102-0290), [0R-3536](https://parts.cat.com/en/catcorp/product/0R-3536), [0R-8787](https://parts.cat.com/en/catcorp/product/0R-8787), [0R-3422](https://parts.cat.com/en/catcorp/product/0R-3422), [118-2989](https://parts.cat.com/en/catcorp/product/118-2989), [102-0294](https://parts.cat.com/en/catcorp/product/102-0294), [0R-7164](https://parts.cat.com/en/catcorp/product/0R-7164), [100-4095](https://parts.cat.com/en/catcorp/product/100-4095), [0R-3425](https://parts.cat.com/en/catcorp/product/0R-3425).
