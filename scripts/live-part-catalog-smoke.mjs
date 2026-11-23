@@ -646,7 +646,26 @@ const workers = Array.from({ length: 8 }, async () => {
 await Promise.all(workers);
 const categoryResponse = await fetch(base + "/api/part-categories", { headers: { apikey: key } });
 const categoryBody = await categoryResponse.json().catch(() => ({}));
-const categoryItems = Array.isArray(categoryBody.items) ? categoryBody.items : [];
+const categoryItems = Array.isArray(categoryBody.items) ? categoryBody.items : [  { q: "20R-1626", sku: "20R-1626", kind: "PART_REFERENCE", sourceRequired: true, imageRequired: true },
+  { q: "0R-9668", sku: "0R-9668", kind: "PART_REFERENCE", sourceRequired: true, imageRequired: true },
+  { q: "10R-3139", sku: "10R-3139", kind: "PART_REFERENCE", sourceRequired: true, imageRequired: true },
+  { q: "10R-3138", sku: "10R-3138", kind: "PART_REFERENCE", sourceRequired: true, imageRequired: true },
+  { q: "20R-9654", sku: "20R-9654", kind: "PART_REFERENCE", sourceRequired: true, imageRequired: true },
+  { q: "11R-2387", sku: "11R-2387", kind: "PART_REFERENCE", sourceRequired: true },
+  { q: "20R-1828", sku: "20R-1828", kind: "PART_REFERENCE", sourceRequired: true, imageRequired: true },
+  { q: "30R-1590", sku: "30R-1590", kind: "PART_REFERENCE", sourceRequired: true },
+  { q: "11R-2388", sku: "11R-2388", kind: "PART_REFERENCE", sourceRequired: true },
+  { q: "0R-9667", sku: "0R-9667", kind: "PART_REFERENCE", sourceRequired: true, imageRequired: true },
+  { q: "20R-2447", sku: "20R-2447", kind: "PART_REFERENCE", sourceRequired: true },
+  { q: "11R-2389", sku: "11R-2389", kind: "PART_REFERENCE", sourceRequired: true },
+  { q: "20R-8981", sku: "20R-8981", kind: "PART_REFERENCE", sourceRequired: true },
+  { q: "0R-3270", sku: "0R-3270", kind: "PART_REFERENCE", sourceRequired: true },
+  { q: "0R-3271", sku: "0R-3271", kind: "PART_REFERENCE", sourceRequired: true },
+  { q: "0R-4657", sku: "0R-4657", kind: "PART_REFERENCE", sourceRequired: true },
+  { q: "632-5510", sku: "632-5510", kind: "PART_REFERENCE", sourceRequired: true, imageRequired: true },
+  { q: "30R-0133", sku: "30R-0133", kind: "PART_REFERENCE", sourceRequired: true, imageRequired: true },
+  { q: "30R-0132", sku: "30R-0132", kind: "PART_REFERENCE", sourceRequired: true, imageRequired: true }
+];
 const rootCount = categoryItems.filter(item => !item.parent_key).length;
 const categoryPass = categoryResponse.ok && rootCount === 15 && categoryItems.length >= 130;
 process.stdout.write(JSON.stringify({ query: "/api/part-categories", http: categoryResponse.status, roots: rootCount, total: categoryItems.length, pass: categoryPass }) + "\n");
