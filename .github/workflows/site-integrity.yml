@@ -9,6 +9,9 @@ on:
       - "api-client.js"
       - "api-config.js"
       - "style.css"
+      - "search.html"
+      - "search.js"
+      - "search.css"
       - "assets/**"
       - ".github/workflows/site-integrity.yml"
   pull_request:
@@ -35,6 +38,7 @@ jobs:
           node --check cart.js
           node --check api-client.js
           node --check api-config.js
+          node --check search.js
       - name: Verify secure account password flow
         run: |
           grep -q 'path === "/api/me/password"' supabase/functions/store-api/index.ts
@@ -54,9 +58,9 @@ jobs:
         run: |
           node --input-type=module <<'NODE'
           import fs from 'node:fs';
-          const files = ['index.html','app.js','cart.js','api-client.js','api-config.js','style.css'];
+          const files = ['index.html','app.js','cart.js','api-client.js','api-config.js','style.css','search.html','search.js','search.css'];
           const text = files.map(f => fs.readFileSync(f,'utf8')).join('\n');
-          const refs = new Set([...text.matchAll(/(?:\.\/assets\/[A-Za-z0-9._/-]+|\.\/style\.css|\.\/app\.js|\.\/cart\.js|\.\/api-client\.js|\.\/api-config\.js)/g)].map(m=>m[0]));
+          const refs = new Set([...text.matchAll(/(?:\.\/assets\/[A-Za-z0-9._/-]+|\.\/style\.css|\.\/app\.js|\.\/cart\.js|\.\/api-client\.js|\.\/api-config\.js|\.\/search\.js|\.\/search\.css)/g)].map(m=>m[0]));
           const missing = [...refs].filter(p => !fs.existsSync(p.slice(2)));
           if (missing.length) { console.error('Missing local assets:', missing); process.exit(1); }
           console.log('Verified', refs.size, 'local asset references.');
