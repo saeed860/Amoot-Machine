@@ -65,6 +65,34 @@ Deno.serve(async (req) => {
       return json({ items: (data ?? []).map(p => ({ id: p.id, sku: p.sku, name: p.name, brand: p.brand, category: p.category, machineModel: p.machine_model, description: p.description, imageUrl: p.image_url, priceIrr: p.price_irr == null ? null : String(p.price_irr), stock: p.stock })) });
     }
 
+    if (req.method === "GET" && path === "/api/products") {
+      const u = new URL(req.url), q = clean(u.searchParams.get("q"), 100).replace(/[,%()_*\\\\]/g, " ").replace(/\\s+/g, " ").trim(), category = clean(u.searchParams.get("category"), 100), brand = clean(u.searchParams.get("brand"), 100), model = clean(u.searchParams.get("model"), 120);
+      let query = adminDb.from("products").select("*").eq("status", "ACTIVE").order("created_at", { ascending: false }).limit(100);
+      if (category) query = query.eq("category", category);
+      if (brand) query = query.eq("brand", brand);
+      if (model) query = query.eq("machine_model", model);
+      if (q) query = query.or(`name.ilike.%${q}%,sku.ilike.%${q}%,brand.ilike.%${q}%,machine_model.ilike.%${q}%`);
+      const { data, error } = await query;
+      if (error) return fail(500, "PRODUCTS_FAILED", "دریافت محصولات ناموفق بود.");
+      const productItems = (data ?? []).map(p => ({ id:p.id, kind:"PRODUCT", sku:p.sku, name:p.name, brand:p.brand, category:p.category, machineModel:p.machine_model, description:p.description, imageUrl:p.image_url, priceIrr:p.price_irr == null ? null : String(p.price_irr), stock:p.stock }));
+      let partItems:any[] = [];
+      if (q || model) {
+        let partsQuery = adminDb.from("part_catalog").select("id,part_number,part_number_normalized,name,description,engine_models,technical_group,source_name,source_url,verification_status").eq("is_active",true).eq("brand","Caterpillar").limit(100);
+        if (model) partsQuery = partsQuery.contains("engine_models",[model.toUpperCase()]);
+        if (q) {
+          const normalized=q.toUpperCase().replace(/[^A-Z0-9]/g,"");
+          const filters=[`part_number.ilike.%${q}%`,`part_number_normalized.ilike.%${normalized}%`,`name.ilike.%${q}%`,`description.ilike.%${q}%`];
+          if (/^[A-Z0-9-]{2,20}$/i.test(q)) filters.push(`engine_models.cs.{${q.toUpperCase()}}`);
+          partsQuery=partsQuery.or(filters.join(","));
+        }
+        const {data:parts,error:partsError}=await partsQuery;
+        if(partsError && partsError.code!=="42P01")return fail(500,"PART_CATALOG_FAILED","جستجوی کاتالوگ پارت‌نامبر ناموفق بود.");
+        partItems=(parts??[]).map(p=>({id:p.id,kind:"PART_REFERENCE",sku:p.part_number,name:p.name,brand:"Caterpillar",category:"قطعات موتور",machineModel:(p.engine_models??[]).join(" / "),description:[p.description,p.technical_group?"گروه فنی: "+p.technical_group:"","مرجع: "+p.source_name,"وضعیت: "+p.verification_status,"سازگاری نهایی با شماره سریال موتور بررسی شود."].filter(Boolean).join(" · "),imageUrl:null,priceIrr:null,stock:0,sourceUrl:p.source_url}));
+      }
+      const merged=[...productItems,...partItems].filter((item,index,all)=>all.findIndex(x=>String(x.sku).toUpperCase().replace(/[^A-Z0-9]/g,"")===String(item.sku).toUpperCase().replace(/[^A-Z0-9]/g,""))===index);
+      return json({items:merged.slice(0,150),partReferenceCount:partItems.length});
+    }
+
     if (req.method === "POST" && path === "/api/quotes") {
       const body = await req.json(), name = clean(body.name,100), phone = clean(body.phone,20), message = clean(body.message,2000);
       if (name.length < 2 || phone.length < 8 || message.length < 5) return fail(400, "VALIDATION_ERROR", "اطلاعات استعلام معتبر نیست.");
@@ -357,6 +385,26 @@ Deno.serve(async (req) => {
       const { data, error } = await adminDb.from("products").upsert(rows, { onConflict:"sku" }).select("sku");
       if (error) return fail(500, "IMPORT_FAILED", "ذخیره گروهی کالاها ناموفق بود.");
       return json({ imported: data?.length ?? rows.length });
+    }
+
+    if (req.method === "POST" && path === "/api/admin/parts/import") {
+      if (!isAdmin) return fail(403,"FORBIDDEN","دسترسی مدیریت مجاز نیست.");
+      const body=await req.json();
+      if(!Array.isArray(body.items)||body.items.length<1||body.items.length>500)return fail(400,"VALIDATION_ERROR","فایل باید بین ۱ تا ۵۰۰ ردیف پارت‌نامبر داشته باشد.");
+      const rows:any[]=[],seen=new Set<string>();
+      for(const raw of body.items){
+        const partNumber=clean(raw.partNumber??raw.part_number??raw.sku,80),name=clean(raw.name,180);
+        const engineModels=Array.isArray(raw.engineModels)?raw.engineModels.map((x:any)=>clean(x,40).toUpperCase()).filter(Boolean):clean(raw.engineModels??raw.engine_models,300).split(/[;,|]/).map(x=>clean(x,40).toUpperCase()).filter(Boolean);
+        const sourceName=clean(raw.sourceName??raw.source_name,120),sourceUrl=clean(raw.sourceUrl??raw.source_url,1000);
+        if(!partNumber||!name||!engineModels.length||!sourceName||!/^https:\\/\\//i.test(sourceUrl)||seen.has(partNumber.toUpperCase()))return fail(400,"INVALID_IMPORT_ROW","شماره قطعه، نام، مدل موتور و منبع معتبر برای هر ردیف الزامی است.");
+        seen.add(partNumber.toUpperCase());
+        const rawStatus=clean(raw.verificationStatus??raw.verification_status,40).toUpperCase();
+        const status=["REFERENCE","OEM_VERIFIED","NEEDS_SERIAL_CHECK"].includes(rawStatus)?rawStatus:"REFERENCE";
+        rows.push({brand:"Caterpillar",part_number:partNumber,name,description:clean(raw.description,1000)||null,engine_models:[...new Set(engineModels)],technical_group:clean(raw.technicalGroup??raw.technical_group,100)||null,source_name:sourceName,source_url:sourceUrl,source_note:clean(raw.sourceNote??raw.source_note,500)||null,verification_status:status});
+      }
+      const {data,error}=await adminDb.from("part_catalog").upsert(rows,{onConflict:"part_number"}).select("part_number");
+      if(error)return fail(500,"PART_IMPORT_FAILED","ذخیره پارت‌نامبرها ناموفق بود؛ ابتدا migration کاتالوگ قطعات را اجرا کنید.");
+      return json({imported:data?.length??rows.length});
     }
 
     const productMatch = path.match(/^\/api\/admin\/products\/([^/]+)$/);
