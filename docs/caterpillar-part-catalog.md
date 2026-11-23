@@ -419,3 +419,18 @@ Migration `202611232190_expand_cat_c9_3400_3500_cylinder_and_crankshaft_referenc
 All entries are reference-only and quote-only. Compatible models are based on the official Cat product page's explicit compatible-model section; the 20R-4306 entry stores C9.3 only because that is what Cat explicitly lists, despite the product title identifying the C9 family. No prices, stock, or unverified image URLs are fabricated.
 
 Official sources: [0R-9736](https://parts.cat.com/en/catcorp/product/0R-9736), [20R-4195](https://parts.cat.com/en/catcorp/product/20R-4195), [0R-8502](https://parts.cat.com/en/catcorp/product/0R-8502), [0R-2657](https://parts.cat.com/en/catcorp/product/0R-2657), [0R-2235](https://parts.cat.com/en/catcorp/product/0R-2235), [10R-6213](https://parts.cat.com/en/catcorp/product/10R-6213), [20R-0615](https://parts.cat.com/en/catcorp/product/20R-0615), [10R-8157](https://parts.cat.com/en/catcorp/product/10R-8157), [20R-4306](https://parts.cat.com/en/catcorp/product/20R-4306), [0R-1572](https://parts.cat.com/en/catcorp/product/0R-1572), [20R-0582](https://parts.cat.com/en/catcorp/product/20R-0582), [20R-5616](https://parts.cat.com/en/catcorp/product/20R-5616).
+
+
+## Additional official Cat pump and engine-component references (2026-11-23)
+
+Migration `202611232200_expand_cat_oil_pump_turbo_water_and_fuel_pump_references.sql` adds 12 search-only records sourced from individual Cat Parts Store product pages:
+
+- Lubrication: `4N-0733`, `0R-9448`, `0R-9449`, `0R-9697`.
+- Turbochargers: `232-1811`, `261-6857`, `110-8463`.
+- Cooling: `600-3535`.
+- Fuel pumps and pump components: `416-4686`, `264-6416`, `170-4007`.
+- Cylinder head: `7W-2225`.
+
+Each row links to its official Cat product page. Compatible-model values are limited to models shown in the Cat page's Compatible Models section; for `7W-2225`, the title identifies 3408 but the compatible-model array is deliberately empty because no explicit fitment list was captured. Images remain NULL where a verified direct Cat Scene7 asset URL was not captured; the API may resolve official product imagery when available. All rows remain `REFERENCE`, with NULL price and zero stock semantics; they are not sellable inventory and must not be treated as serial-number-verified fitment.
+
+Official source pages: https://parts.cat.com/en/catcorp/product/4N-0733, https://parts.cat.com/en/catcorp/product/0R-9448, https://parts.cat.com/en/catcorp/product/0R-9449, https://parts.cat.com/en/catcorp/product/232-1811, https://parts.cat.com/en/catcorp/product/261-6857, https://parts.cat.com/en/catcorp/product/600-3535, https://parts.cat.com/en/catcorp/product/110-8463, https://parts.cat.com/en/catcorp/product/0R-9697, https://parts.cat.com/en/catcorp/product/7W-2225, https://parts.cat.com/en/catcorp/product/416-4686, https://parts.cat.com/en/catcorp/product/264-6416 and https://parts.cat.com/en/catcorp/product/170-4007.
