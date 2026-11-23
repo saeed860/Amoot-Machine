@@ -1,8 +1,9 @@
 import { readFile } from "node:fs/promises";
 
 const config = await readFile(new URL("../api-config.js", import.meta.url), "utf8");
-const base = config.match(/AMOOT_API_BASE_URL\\s*=\\s*['"]([^'"]+)['"]/i)?.[1];
-const key = config.match(/AMOOT_SUPABASE_ANON_KEY\\s*=\\s*['"]([^'"]+)['"]/i)?.[1];
+const extract = (name) => config.split(name)[1]?.match(/['"]([^'"]+)['"]/)?.[1];
+const base = extract("AMOOT_API_BASE_URL");
+const key = extract("AMOOT_SUPABASE_ANON_KEY");
 if (!base || !key) throw new Error("Public API configuration is missing");
 
 const tests = [
