@@ -786,3 +786,6 @@ The official Cat Parts Store Sea Water Pumps category reports 33 results. Migrat
 The official [Cat Reman Water Pumps category](https://parts.cat.com/en/catcorp/category/reman-products-water-pumps) reports **110 results** and displays 16 items per page. Migration `202611232470_import_cat_reman_water_pumps_page1_partial.sql` adds the 16 visible page-one references. Engine-family tags are copied only from explicit model text in the Cat listing; generic titles remain untagged. These are search-only `REFERENCE` records, with no price, stock, image or inferred compatibility. **94 results remain unverified; this category is partial.**
 
 Imported: `20R-9122`, `10R-1669`, `20R-9124`, `10R-0484`, `0R-4680`, `10R-1670`, `10R-0482`, `0R-0999`, `20R-0505`, `20R-9976`, `20R-9847`, `20R-1859`, `10R-9598`, `10R-6400`, `10R-5407`, `0R-1003`.
+
+
+The current official category listing also exposes two additional references, `0R-7722` and `0R-7867`, added by migration `202611232480_add_cat_sea_water_pump_visible_references.sql`. These are reference-only and have no inferred engine fitment. The category still reports 33 results and remains partial; page 2 and page 3 could not be retrieved in this pass.
