@@ -243,7 +243,7 @@
   if(q)params.set('q',q);if(category)params.set('category',category);if(brand)params.set('brand',brand);if(model)params.set('model',model);
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
-  const mapped=rows.map(p=>({id:(()=>{let h=2166136261;for(const ch of String(p.sku||p.id)){h=Math.imul(h^ch.charCodeAt(0),16777619)}return h>>>0})(),serverId:p.id,kind:p.kind||'PRODUCT',sourceUrl:p.sourceUrl||'',sku:p.sku,name:p.name,brand:p.brand||'',category:p.category,machine_model:p.machineModel||'',description:p.description||'',price:p.priceIrr===null?0:Number(p.priceIrr)/10,price_irr:p.priceIrr,stock:p.stock,image:(typeof p.imageUrl==='string'&&(p.imageUrl.startsWith('https://')||p.imageUrl.startsWith('http://')||p.imageUrl.startsWith('data:image/')||p.imageUrl.startsWith('./assets/')||p.imageUrl.startsWith('/assets/')))?(p.imageUrl.startsWith('/assets/')?'.'+p.imageUrl:p.imageUrl):''}));
+  const mapped=rows.map(p=>({id:(()=>{let h=2166136261;for(const ch of String(p.sku||p.id)){h=Math.imul(h^ch.charCodeAt(0),16777619)}return h>>>0})(),serverId:p.id,kind:p.kind||'PRODUCT',sourceUrl:p.sourceUrl||'',sku:p.sku,name:p.name,brand:p.brand||'',category:p.category,machine_model:p.machineModel||'',description:p.description||'',applicationType:p.applicationType||'UNVERIFIED',applicationEvidence:p.applicationEvidence||'',applicationSourceUrl:p.applicationSourceUrl||'',price:p.priceIrr===null?0:Number(p.priceIrr)/10,price_irr:p.priceIrr,stock:p.stock,image:(typeof p.imageUrl==='string'&&(p.imageUrl.startsWith('https://')||p.imageUrl.startsWith('http://')||p.imageUrl.startsWith('data:image/')||p.imageUrl.startsWith('./assets/')||p.imageUrl.startsWith('/assets/')))?(p.imageUrl.startsWith('/assets/')?'.'+p.imageUrl:p.imageUrl):''}));
   if(typeof window.setApiProducts==='function'){window.setApiProducts(mapped);oldLoadProducts?.();}
   else oldLoadProducts?.();
  }catch(e){
@@ -251,7 +251,25 @@
   if(cached.catalog_source==='server')oldLoadProducts?.();
   else{if(typeof window.setApiProducts==='function')window.setApiProducts([]);const meta=document.querySelector('#catalogMeta');if(meta)meta.textContent='دریافت محصولات از سرور ناموفق بود؛ لطفاً اتصال را بررسی کنید.';}
  }};
- if(base)window.loadProducts?.();
+ if(base)window.loadProducts?.();\n
+ async function renderMarineEngineDirectory(){
+  const host=document.querySelector('#marineEngineGrid');if(!host)return;
+  try{
+   const data=await api('/api/marine-engines',{auth:false}),rows=data.items||[];
+   const groups=[
+    ['PROPULSION','موتورهای پیشران دریایی'],
+    ['HIGH_PERFORMANCE','پیشران دریایی پرقدرت'],
+    ['GENERATOR_SET','موتورهای ژنراتور دریایی'],
+    ['AUXILIARY','موتورهای کمکی دریایی']
+   ];
+   host.innerHTML=groups.map(([key,label])=>{
+    const models=rows.filter(x=>x.applicationGroup===key);
+    return '<section class="marine-engine-group"><h3>'+label+' <small>· '+models.length+' مدل</small></h3><div class="marine-model-chips">'+models.map(x=>'<a class="marine-model-chip" href="'+escHtml(x.sourceUrl)+'" target="_blank" rel="noopener"><b>'+escHtml(x.modelName)+'</b><span>کاربری دریایی</span></a>').join('')+'</div></section>';
+   }).join('');
+  }catch(e){host.innerHTML='<div class="notice">فهرست موتورهای دریایی از سرور دریافت نشد: '+escHtml(e.message)+'</div>'}
+ }
+ renderMarineEngineDirectory();
+
  window.customerOrders=async u=>{
   const el=document.querySelector('#customerContent');if(!el)return;el.innerHTML='<h3>سفارش‌های من</h3><div class="empty-state">در حال دریافت سفارش‌ها از سرور...</div>';
   try{const data=await api('/api/orders');el.innerHTML='<h3>سفارش‌های من ('+data.items.length+')</h3>'+(data.items.length?'<div class="customer-list">'+data.items.map(o=>'<article><b>'+escHtml(o.orderNumber)+' · '+Number(o.totalIrr).toLocaleString('fa-IR')+' ریال</b><small>'+new Date(o.createdAt).toLocaleString('fa-IR')+' · '+escHtml(o.status)+'</small><small>'+o.items.map(i=>escHtml(i.nameSnapshot)+' × '+Number(i.quantity)).join('، ')+'</small></article>').join('')+'</div>':'<div class="empty-state">هنوز سفارشی ثبت نکرده‌اید.</div>')}
