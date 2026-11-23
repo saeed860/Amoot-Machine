@@ -20,7 +20,9 @@ for (const test of tests) {
   const items = Array.isArray(body.items) ? body.items : [];
   const refs = items.filter(x => x.kind === "PART_REFERENCE");
   const found = test.expected ? refs.some(x => String(x.sku).replace(/[^A-Z0-9]/gi, "").toUpperCase() === test.expected.replace(/[^A-Z0-9]/gi, "").toUpperCase()) : refs.length > 0;
-  const ok = response.ok && found;
+  const hasOemImage = test.q !== "392-0217" || refs.some(x => String(x.sku).replace(/[^A-Z0-9]/gi, "").toUpperCase() === "3920217" && String(x.imageUrl || "").includes("caterpillar.scene7.com"));
+  const hasSpecs = test.q !== "392-0217" || refs.some(x => String(x.sku).replace(/[^A-Z0-9]/gi, "").toUpperCase() === "3920217" && Number(x.specifications?.length?.value) === 14.8 && Number(x.specifications?.height?.value) === 3);
+  const ok = response.ok && found && hasOemImage && hasSpecs;
   failed ||= !ok;
   process.stdout.write(JSON.stringify({
     query: test.q,
@@ -29,7 +31,7 @@ for (const test of tests) {
     partReferences: refs.length,
     samplePartNumbers: refs.slice(0, 5).map(x => x.sku),
     expected: test.expected || "at least one family reference",
-    pass: ok,
+    oemImage: hasOemImage,\n    specifications: hasSpecs,\n    pass: ok,
     apiError: body.error?.code || null, debug: body.error?.debug || null
   }) + "\n");
 }
