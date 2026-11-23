@@ -807,7 +807,7 @@ Product application labels use four database values:
 - `BOTH`: Cat's compatible-model page explicitly lists marine and land/power applications.
 - `UNVERIFIED`: evidence is insufficient; the UI must not guess.
 
-The Persian storefront labels these as «دریایی»، «خشکی»، «هر دو» and «نیازمند بررسی». Evidence and source URL are stored with each classification and are available in product details.
+The Persian storefront labels these as «دریایی»، «خشکی» و «هر دو»؛ رکوردهای فاقد شواهد کافی در رابط کاربری بدون برچسب نمایش داده می‌شوند.. Evidence and source URL are stored with each classification and are available in product details.
 
 Verified examples from Cat Parts Store:
 - `6J-2680` O-ring: Cat's compatible-model page includes Marine Engine and Marine Auxiliary as well as many land-machine and generator applications; classified BOTH.
@@ -909,3 +909,7 @@ Migration `202611232580_add_verified_c18_and_3500_marine_parts.sql` adds nine of
 Application labels follow the engine classes displayed by Cat: marine-only compatible lists are marked Marine; lists containing marine and non-marine classes are marked Marine + land. These are model-family references, not serial-number-level fitment guarantees.
 
 Official sources: https://parts.cat.com/en/catcorp/product/338-1664, https://parts.cat.com/en/catcorp/product/20R-2734, https://parts.cat.com/en/catcorp/product/20R-3623, https://parts.cat.com/en/catcorp/product/553-3686, https://parts.cat.com/en/catcorp/product/7E-0688, https://parts.cat.com/en/catcorp/product/150-3141, https://parts.cat.com/en/catcorp/product/223-8225, https://parts.cat.com/en/catcorp/product/243-0762, https://parts.cat.com/en/catcorp/product/255-6451.
+
+## Application-label evidence correction (2026-11-23)
+
+Migration `202611232590_remove_unproven_land_application_tags.sql` changes eight product labels from `LAND` to internal `UNVERIFIED`: `CAT-20R-2510`, `CAT-20R-5367`, `CAT-30R-0084`, `CAT-593-5344`, `CAT-0R-8200`, `CAT-9X-3406`, `CAT-260-3406` and `CAT-20R-3958`. The checked public pages did not prove land-only exclusivity; absence of a marine listing is not sufficient evidence for a definitive land label. The storefront suppresses unknown application labels, so users see only supported «دریایی»، «خشکی» or «هر دو» labels.
