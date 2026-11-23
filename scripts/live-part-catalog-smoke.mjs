@@ -660,7 +660,24 @@ const tests = [
   { q: "10R-0718", sku: "10R-0718", kind: "PART_REFERENCE", sourceRequired: true },
   { q: "20R-4700", sku: "20R-4700", kind: "PART_REFERENCE", sourceRequired: true },
   { q: "20R-5393", sku: "20R-5393", kind: "PART_REFERENCE", sourceRequired: true },
-  { q: "20R-5420", sku: "20R-5420", kind: "PART_REFERENCE", sourceRequired: true }
+  { q: "20R-5420", sku: "20R-5420", kind: "PART_REFERENCE", sourceRequired: true },
+  { q: "20R-8517", sku: "20R-8517", kind: "PART_REFERENCE", sourceRequired: true, imageRequired: true },
+  { q: "20R-3319", sku: "20R-3319", kind: "PART_REFERENCE", sourceRequired: true, imageRequired: true },
+  { q: "20R-3318", sku: "20R-3318", kind: "PART_REFERENCE", sourceRequired: true },
+  { q: "20R-3322", sku: "20R-3322", kind: "PART_REFERENCE", sourceRequired: true },
+  { q: "20R-3317", sku: "20R-3317", kind: "PART_REFERENCE", sourceRequired: true },
+  { q: "20R-3323", sku: "20R-3323", kind: "PART_REFERENCE", sourceRequired: true },
+  { q: "20R-6263", sku: "20R-6263", kind: "PART_REFERENCE", sourceRequired: true },
+  { q: "11R-2442", sku: "11R-2442", kind: "PART_REFERENCE", sourceRequired: true },
+  { q: "20R-5681", sku: "20R-5681", kind: "PART_REFERENCE", sourceRequired: true },
+  { q: "10R-3479", sku: "10R-3479", kind: "PART_REFERENCE", sourceRequired: true },
+  { q: "10R-3480", sku: "10R-3480", kind: "PART_REFERENCE", sourceRequired: true },
+  { q: "20R-3320", sku: "20R-3320", kind: "PART_REFERENCE", sourceRequired: true, imageRequired: true },
+  { q: "20R-3321", sku: "20R-3321", kind: "PART_REFERENCE", sourceRequired: true, imageRequired: true },
+  { q: "20R-4505", sku: "20R-4505", kind: "PART_REFERENCE", sourceRequired: true },
+  { q: "20R-1136", sku: "20R-1136", kind: "PART_REFERENCE", sourceRequired: true },
+  { q: "0R-9952", sku: "0R-9952", kind: "PART_REFERENCE", sourceRequired: true },
+  { q: "20R-3324", sku: "20R-3324", kind: "PART_REFERENCE", sourceRequired: true, imageRequired: true }
 ];
 let failed = false;
 let cursor = 0;
