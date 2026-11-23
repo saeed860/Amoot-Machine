@@ -933,3 +933,40 @@ Migration `202611232600_add_verified_c32_3500_cooling_and_fuel_parts.sql` adds n
 Each application label follows Cat's published Compatible Models classes. These entries remain reference-only, without fabricated pricing, stock, or image links. Family-level compatibility does not replace serial-number-specific parts validation.
 
 Official Cat source pages: https://parts.cat.com/en/catcorp/product/167-1751, https://parts.cat.com/en/catcorp/product/8N-0419, https://parts.cat.com/en/catcorp/product/097-7404, https://parts.cat.com/en/catcorp/product/487-0039, https://parts.cat.com/en/catcorp/product/525-7148, https://parts.cat.com/en/catcorp/product/309-4499, https://parts.cat.com/en/catcorp/product/368-9037, https://parts.cat.com/en/catcorp/product/1W-2447, https://parts.cat.com/en/catcorp/product/339-5148.
+
+
+## Additional C18, C32, 3500 and C280 marine references (2026-11-24)
+
+Migration `202611240010_expand_verified_marine_engine_parts.sql` adds 24 Cat Parts Store references with explicit Marine Engine or Marine Auxiliary compatible-model evidence. All remain `REFERENCE`; prices and stock are not populated, and no product images are guessed.
+
+| Part number | Engine family | Technical group | Application |
+|---|---|---|---|
+| 455-1186 | C18 | Major overhaul | Marine |
+| 455-7246 | C18 | Major overhaul | Marine |
+| 455-7248 | C18 | Top-end overhaul | Marine |
+| 488-1675 | C18 | General engine | Marine + land |
+| 493-9456 | C18 | Housing / body | Marine + land |
+| 30R-0925 | C18 | Cylinder pack | Marine |
+| 384-7486 | C18 / C32 | Engine mount | Marine |
+| 174-5517 | C18 / C30 / C32 / 3412E | Flexible mount | Marine |
+| 324-6140 | C32 | Cylinder block | Marine |
+| 634-6936 | C32 | Overhaul kit | Marine |
+| 233-8685 | C32 | Wiring harness | Marine |
+| 415-4994 | C32 | Cylinder-head install kit | Marine |
+| 384-7484 | C32 | Engine mount | Marine |
+| 502-3895 | C32 | Converter | Marine |
+| 30R-0624 | C32 | Cylinder pack | Marine |
+| 519-7628 | C32 / C32B | Hose adapter | Marine |
+| 641-7871 | C32 / C32B | Oil lubrication | Marine |
+| 578-1572 | C32 / 3516E | Separator | Marine + land |
+| 161-0801 | 3516 | Mechanical bar | Marine |
+| 068-0005 | 3516 | Tube / connection | Marine + land |
+| 114-3378 | 3512 / 3516 | Cover | Marine + land |
+| 8T-5361 | C15 / 3406E / 3500 / C280 / C30 / C32 | Multi-family engine component | Marine + land |
+| 4P-0710 | 3500 air system | Air filter | Marine + land |
+| 441-4878 | 3500 / C280 / C175-16 | Damper | Marine + land |
+| 110-3754 | C280 / 3608 | Adapter | Marine + land |
+
+"Marine" means the Cat page explicitly lists a marine engine/auxiliary application; it does not claim the part is exclusive to marine use. "Marine + land" is used when the same Cat page also lists explicit industrial, off-highway, or other non-marine equipment applications. Verify exact engine serial number and Arrangement before accepting an order.
+
+Official Cat source pages are linked in the migration for each row.
