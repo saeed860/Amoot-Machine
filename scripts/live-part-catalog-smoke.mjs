@@ -241,6 +241,10 @@ const tests = [
   { q: "458-9582", sku: "458-9582", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Workshop Supplies" },
   { q: "169-7373", sku: "169-7373", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Workshop Supplies" },
   { q: "1U-5516", sku: "1U-5516", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Workshop Supplies" },
+  { q: "000-5678", sku: "000-5678", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Hardware, Seals & Consumables" },
+  { q: "000-5683", sku: "000-5683", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Hardware, Seals & Consumables" },
+  { q: "000-5710", sku: "000-5710", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Hardware, Seals & Consumables" },
+  { q: "000-5732", sku: "000-5732", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Hardware, Seals & Consumables" },
 ];
 let failed = false;
 let cursor = 0;
