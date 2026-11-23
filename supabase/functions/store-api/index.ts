@@ -101,7 +101,7 @@ Deno.serve(async (req) => {
         const { data } = await userClient.auth.getUser();
         quoteUserId = data.user?.id ?? null;
       }
-      const { data, error } = await adminDb.from("quotes").insert({ quote_number: "AQ-" + crypto.randomUUID().replaceAll("-","").slice(0,10).toUpperCase(), user_id: quoteUserId, name, phone, message, product_sku: clean(body.productSku,80) || null }).select("quote_number,status,created_at").single();
+      const { data, error } = await adminDb.from("quotes").insert({ quote_number: "AQ-" + crypto.randomUUID().replaceAll("-","").slice(0,10).toUpperCase(), user_id: quoteUserId, name, phone, message, product_sku: clean(body.productSku,80) || null, machine_model: clean(body.machineModel,120) || null }).select("quote_number,status,created_at").single();
       if (error) return fail(500, "QUOTE_FAILED", "ثبت استعلام ناموفق بود.");
       return json({ quote: { quoteNumber: data.quote_number, status: data.status, createdAt: data.created_at } }, 201);
     }
