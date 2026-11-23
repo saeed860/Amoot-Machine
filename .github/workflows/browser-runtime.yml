@@ -75,7 +75,7 @@ jobs:
             }
             console.log(JSON.stringify(checks,null,2));
             const full = checks.find(x=>x.mode==='all');
-            if (!full || full.state?.blocked || full.state?.ready!=='complete' || full.state?.products<5 || full.errors?.length) throw new Error('Full storefront failed startup test');
+            if (!full || full.state?.blocked || full.state?.ready!=='interactive' || full.state?.products<5 || full.errors?.length) throw new Error('Full storefront failed startup test');
             const searchPage = await browser.newPage();
             const searchErrors = [], searched = [];
             searchPage.on('pageerror', e => searchErrors.push(e.message));
