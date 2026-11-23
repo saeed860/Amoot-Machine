@@ -970,3 +970,29 @@ Migration `202611240010_expand_verified_marine_engine_parts.sql` adds 24 Cat Par
 "Marine" means the Cat page explicitly lists a marine engine/auxiliary application; it does not claim the part is exclusive to marine use. "Marine + land" is used when the same Cat page also lists explicit industrial, off-highway, or other non-marine equipment applications. Verify exact engine serial number and Arrangement before accepting an order.
 
 Official Cat source pages are linked in the migration for each row.
+
+
+## C32B and C280 marine support, cooling, electrical and fluid references (2026-11-24)
+
+Migration `202611240020_expand_c32b_c280_marine_parts.sql` adds 16 further Cat Parts Store references. All are reference-only and retain null price / zero stock semantics; Cat's listed engine family is not a substitute for serial and Arrangement validation.
+
+| Part number | Engine family | Technical group | Application |
+|---|---|---|---|
+| 578-5820 | C32B | Cylinder block | Marine |
+| 583-7208 | C32B / C32 | Support and mount | Marine |
+| 281-8173 | C280 / 3500 | Fittings | Marine + land |
+| 7C-4416 | 3500 / C280 / 3600 | Body and housing | Marine + land |
+| 242-8912 | C32 | Oil lubrication | Marine + land |
+| 644-4976 | C32B | Cooling | Marine |
+| 644-4975 | C32B | Cooling | Marine |
+| 7T-0094 | C7.1 / C9.3 / C18 / C32 / 3500 | Multi-family engine part | Marine + land |
+| 141-4318 | C280 / 3600 | Adapter | Marine + land |
+| 334-2667 | C280 / C32 / 3512E / 3516E | Electrical control | Marine + land |
+| 457-9158 | C32 / C32B | Fluid tube | Marine |
+| 6V-7485 | C280 / 3600 | Pipe fitting | Marine + land |
+| 603-6493 | C32 / C32B | Tube assembly | Marine + land |
+| 393-3404 | C280 / 3500 / C175-16 | Control label | Marine |
+| 107-4385 | C280 / 3600 | Tube assembly | Marine + land |
+| 142-2930 | C280 / 3600 | Plate | Marine |
+
+The application tag is based on the official Cat Compatible Models class: `MARINE` where the page lists a marine class and no explicit non-marine machine/industrial fitment; `BOTH` where the same page also lists industrial, off-highway, locomotive or other non-marine equipment classes.
