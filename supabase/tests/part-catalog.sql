@@ -4,8 +4,8 @@ declare
   v_count integer;
 begin
   select count(*) into v_count from public.part_catalog;
-  if v_count < 221 then
-    raise exception 'Expected at least 221 Caterpillar reference rows, found %', v_count;
+  if v_count < 237 then
+    raise exception 'Expected at least 237 Caterpillar reference rows, found %', v_count;
   end if;
 
   if not exists (
@@ -39,6 +39,14 @@ begin
       and engine_models @> array['C15']::text[]
   ) then
     raise exception 'Expanded C15 reference set is missing';
+  end if;
+
+  if not exists (
+    select 1 from public.part_catalog
+    where part_number = '515-9373'
+      and engine_models @> array['3512','3516']::text[]
+  ) then
+    raise exception 'Expanded 3500 family reference set is missing';
   end if;
 
   if not exists (
