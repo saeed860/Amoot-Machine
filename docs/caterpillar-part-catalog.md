@@ -889,3 +889,23 @@ Migration `202611232570_add_verified_c32_fuel_and_3500_cooling_parts.sql` adds 1
 Application tags follow the compatible-model classes shown on each official Cat page. For example, 298-2020 and 272-1272 list only Marine Engine/Marine Auxiliary C32, while 472-4908 lists both Marine Engine and Generator Set models.
 
 Official sources: https://parts.cat.com/en/catcorp/product/298-2020, https://parts.cat.com/en/catcorp/product/272-1272, https://parts.cat.com/en/catcorp/product/472-4908, https://parts.cat.com/en/catcorp/product/364-8678, https://parts.cat.com/en/catcorp/product/364-8677, https://parts.cat.com/en/catcorp/product/364-9372, https://parts.cat.com/en/catcorp/product/364-5893, https://parts.cat.com/en/catcorp/product/5N-9022, https://parts.cat.com/en/catcorp/product/5N-2618, https://parts.cat.com/en/catcorp/product/0R-4345.
+
+## C18 and 3500-series marine turbo, cooling, electrical and mechanical references (2026-11-23)
+
+Migration `202611232580_add_verified_c18_and_3500_marine_parts.sql` adds nine official Cat Parts Store references. They remain reference-only, with no fabricated price, stock or image URL.
+
+| Part number | Description | Group | Application |
+|---|---|---|---|
+| 338-1664 | Turbocharger | C18 air / turbo | Marine |
+| 20R-2734 | Cat Reman Turbocharger | C18 air / turbo | Marine |
+| 20R-3623 | Cat Reman Turbocharger | 3500 air / turbo | Marine + land |
+| 553-3686 | Hose Assembly Water | 3500 cooling / hose | Marine + land |
+| 7E-0688 | Turbocharger Cartridge Seal Ring | 3516 air / turbo | Marine + land |
+| 150-3141 | Cover Group-Mechanical | C18 mechanical | Marine + land |
+| 223-8225 | Control-Dual | C18 controls | Marine + land |
+| 243-0762 | Harness Assembly | C18 electrical | Marine + land |
+| 255-6451 | Harness Assembly | C18 electrical | Marine + land |
+
+Application labels follow the engine classes displayed by Cat: marine-only compatible lists are marked Marine; lists containing marine and non-marine classes are marked Marine + land. These are model-family references, not serial-number-level fitment guarantees.
+
+Official sources: https://parts.cat.com/en/catcorp/product/338-1664, https://parts.cat.com/en/catcorp/product/20R-2734, https://parts.cat.com/en/catcorp/product/20R-3623, https://parts.cat.com/en/catcorp/product/553-3686, https://parts.cat.com/en/catcorp/product/7E-0688, https://parts.cat.com/en/catcorp/product/150-3141, https://parts.cat.com/en/catcorp/product/223-8225, https://parts.cat.com/en/catcorp/product/243-0762, https://parts.cat.com/en/catcorp/product/255-6451.
