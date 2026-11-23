@@ -685,3 +685,19 @@ Official category source:
 - [Crankshaft Dampers](https://parts.cat.com/en/catcorp/category/reman-products-crankshaft-dampers?page=1) — 13 records
 
 Official product pages: [0R-7853](https://parts.cat.com/en/catcorp/product/0R-7853), [0R-7847](https://parts.cat.com/en/catcorp/product/0R-7847), [20R-4602](https://parts.cat.com/en/catcorp/product/20R-4602), [10R-3833](https://parts.cat.com/en/catcorp/product/10R-3833), [10R-0711](https://parts.cat.com/en/catcorp/product/10R-0711), [10R-0707](https://parts.cat.com/en/catcorp/product/10R-0707), [10R-0716](https://parts.cat.com/en/catcorp/product/10R-0716), [10R-0717](https://parts.cat.com/en/catcorp/product/10R-0717), [10R-0715](https://parts.cat.com/en/catcorp/product/10R-0715), [10R-0718](https://parts.cat.com/en/catcorp/product/10R-0718), [20R-4700](https://parts.cat.com/en/catcorp/product/20R-4700), [20R-5393](https://parts.cat.com/en/catcorp/product/20R-5393), [20R-5420](https://parts.cat.com/en/catcorp/product/20R-5420).
+
+
+## Completed public Cat Reman category (2026-11-23): Rocker Arms
+
+Migration `202611232380_import_complete_cat_rocker_arms_category.sql` imports the complete official Rocker Arms category (17 of 17):
+
+`20R-8517`, `20R-3319`, `20R-3318`, `20R-3322`, `20R-3317`, `20R-3323`, `20R-6263`, `11R-2442`, `20R-5681`, `10R-3479`, `10R-3480`, `20R-3320`, `20R-3321`, `20R-4505`, `20R-1136`, `0R-9952`, `20R-3324`.
+
+All 17 are search-only `REFERENCE` records with no price or stock. The 17th record, `20R-3324`, was verified through its official product-page breadcrumb (Engine Components → Rocker Arms). Engine fitment is populated only from explicit Cat Compatible Models engine headings; the `compatible_models` array deliberately stores only those engine models, not unverified or incomplete equipment lists.
+
+Five official Scene7 product images were verified and attached: `20R-8517`, `20R-3319`, `20R-3320`, `20R-3321`, and `20R-3324`.
+
+Official category source:
+- [Rocker Arms](https://parts.cat.com/en/catcorp/category/reman-products-rocker-arms) — 17 records
+
+Official product pages: [20R-8517](https://parts.cat.com/en/catcorp/product/20R-8517), [20R-3319](https://parts.cat.com/en/catcorp/product/20R-3319), [20R-3318](https://parts.cat.com/en/catcorp/product/20R-3318), [20R-3322](https://parts.cat.com/en/catcorp/product/20R-3322), [20R-3317](https://parts.cat.com/en/catcorp/product/20R-3317), [20R-3323](https://parts.cat.com/en/catcorp/product/20R-3323), [20R-6263](https://parts.cat.com/en/catcorp/product/20R-6263), [11R-2442](https://parts.cat.com/en/catcorp/product/11R-2442), [20R-5681](https://parts.cat.com/en/catcorp/product/20R-5681), [10R-3479](https://parts.cat.com/en/catcorp/product/10R-3479), [10R-3480](https://parts.cat.com/en/catcorp/product/10R-3480), [20R-3320](https://parts.cat.com/en/catcorp/product/20R-3320), [20R-3321](https://parts.cat.com/en/catcorp/product/20R-3321), [20R-4505](https://parts.cat.com/en/catcorp/product/20R-4505), [20R-1136](https://parts.cat.com/en/catcorp/product/20R-1136), [0R-9952](https://parts.cat.com/en/catcorp/product/0R-9952), [20R-3324](https://parts.cat.com/en/catcorp/product/20R-3324).
