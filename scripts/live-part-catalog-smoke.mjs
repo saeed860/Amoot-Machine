@@ -329,6 +329,21 @@ const tests = [
   { q: "384-2960", sku: "384-2960", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
   { q: "561-1061", sku: "561-1061", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
   { q: "571-1452", sku: "571-1452", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
+  { q: "542-0222", sku: "542-0222", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage Hardware" },
+  { q: "6V-0937", sku: "6V-0937", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage Hardware" },
+  { q: "301-2299", sku: "301-2299", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage Hardware" },
+  { q: "311-8150", sku: "311-8150", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage Hardware" },
+  { q: "5P-7665", sku: "5P-7665", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage Hardware" },
+  { q: "318-2558", sku: "318-2558", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage Hardware" },
+  { q: "7T-1243", sku: "7T-1243", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage Hardware" },
+  { q: "516-2634", sku: "516-2634", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage Hardware" },
+  { q: "5P-5422", sku: "5P-5422", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage Hardware" },
+  { q: "6T-1140", sku: "6T-1140", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage Hardware" },
+  { q: "238-0472", sku: "238-0472", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage Hardware" },
+  { q: "238-0473", sku: "238-0473", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage Hardware" },
+  { q: "254-0224", sku: "254-0224", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage Hardware" },
+  { q: "608-7785", sku: "608-7785", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage Hardware" },
+  { q: "4K-7038", sku: "4K-7038", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage Hardware" },
 ];
 let failed = false;
 let cursor = 0;
