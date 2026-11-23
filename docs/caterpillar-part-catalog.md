@@ -202,3 +202,22 @@ Migration `202611232050_expand_cat_engine_overhaul_references.sql` adds/upserts 
 | 442-8972 | Engine Overhaul (Silver) Kit | Truck Engine C15 |
 
 Follow-up migration `202611232060_set_additional_cat_scene7_images.sql` stores direct official Scene7 images for 0R-1571, 618-8046, 440-0216, 20R-7411, 10R-4471 and 442-8972. Cat's pages show fallback images for 350-2178 and 494-1279, so no generic placeholder is saved. All records remain `REFERENCE`; no price or stock is invented.
+
+
+## C15/C18 Reman overhaul and cylinder-pack references (2026-11-23)
+
+Migration `202611232070_expand_cat_c15_c18_reman_overhaul_references.sql` adds/upserts nine Cat product references:
+
+| Part number | Cat listing | Cat-listed application |
+|---|---|---|
+| 20R-0632 | C18 Reman Cylinder Pack, 14.5:1 | C18 |
+| 10R-8760 | C18 Reman Cylinder Pack, 18.0:1 High HP | C18 (title/application) |
+| 10R-9025 | C18 Reman Cylinder Pack, 16.5:1 | C18 |
+| 30R-0927 | C18 Marine Reman Cylinder Pack, 16.5:1 | Generator Set C18 |
+| 30R-0925 | C18 Marine Reman Cylinder Pack, 16.5:1 | Marine Engine C18 |
+| 10R-9345 | C15 Reman Gold Overhaul Kit, 16.6:1 | Truck Engine C-15 |
+| 10R-9343 | C15 Reman Gold Overhaul Kit, 16.6:1 | Truck Engine C-15; Reman Engine C-12 |
+| 20R-0744 | C15 Reman Gold Overhaul Kit, 18.0:1 | Truck Engine C15 |
+| 10R-9923 | C15 Reman Gold Overhaul Kit | Truck Engine C15 |
+
+Follow-up migration `202611232080_set_c15_c18_cat_scene7_images.sql` stores exact official Scene7 image assets for eight of the nine references. Cat's 30R-0925 page did not expose a direct Scene7 asset in this pass, so no guessed image was saved. All entries remain quote-only `REFERENCE` records; no price or stock is invented.
