@@ -1,5 +1,8 @@
 name: Live Part Catalog Smoke Test
 on:
+  push:
+    branches: [main]
+    paths: ["scripts/live-part-catalog-smoke.mjs"]
   workflow_run:
     workflows: ["Deploy Amoot Machine to Supabase"]
     types: [completed]
