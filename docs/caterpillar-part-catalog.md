@@ -996,3 +996,23 @@ Migration `202611240020_expand_c32b_c280_marine_parts.sql` adds 16 further Cat P
 | 142-2930 | C280 / 3600 | Plate | Marine |
 
 The application tag is based on the official Cat Compatible Models class: `MARINE` where the page lists a marine class and no explicit non-marine machine/industrial fitment; `BOTH` where the same page also lists industrial, off-highway, locomotive or other non-marine equipment classes.
+
+
+## C18 turbocharger and C280/C32 additional marine references (2026-11-24)
+
+Migration `202611240030_expand_verified_c280_c32_turbo_parts.sql` adds 10 additional Cat Parts Store reference records. These remain non-sale reference records; no price, stock, or image URL is invented.
+
+| Part number | Engine family | Technical group | Application |
+|---|---|---|---|
+| 338-1664 | C18 | Turbocharger / air system | Marine |
+| 190-0330 | C280 / 3600 | Module / control | Marine + land |
+| 4W-7490 | C280 / 3600 | Adapter / fitting | Marine + land |
+| 165-4292 | C280 / 3600 | Tube assembly | Marine + land |
+| 192-1406 | C280 / 3500 | Ferrule / fitting | Marine + land |
+| 7E-7154 | C280 / 3600 | Mechanical / journal | Marine + land |
+| 174-9012 | C280 / 3600 | Mounting / support | Marine + land |
+| 516-5982 | C32 / C32B | Hose / fluid routing | Marine + land |
+| 574-0279 | C32 / C32B | Cylinder block | Marine + land |
+| 552-8508 | C32 / C32B | Tube / fluid routing | Marine + land |
+
+The `MARINE` / `BOTH` distinction follows the classes explicitly listed by Cat on each linked Compatible Models page. In particular, Generator Set, Petroleum Engine, Gas Engine, Locomotive and Industrial Engine are treated as non-marine applications for this catalog label. Model-family matches do not replace serial-number and Arrangement verification.
