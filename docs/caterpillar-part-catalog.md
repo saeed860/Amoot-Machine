@@ -146,3 +146,17 @@ Source URLs point to the individual official Cat product pages. Images are inten
 Migration `202611232010_expand_cat_engine_fuel_cooling_references.sql` adds 14 further Cat Parts Store references: `600-3535`, `392-0205`, `7E-6408`, `2W-9726`, `392-0220`, `202-1062`, `350-2168`, `350-2167`, `350-2155`, `457-5312`, `486-8525`, `392-0214`, `392-0221`, `121-2630`.
 
 These cover water pumps, fuel injectors, an oil cooler, 3512 Tier 1/Tier 2 engine upgrade kits and a single-cylinder-head repair kit. Only compatible model names explicitly shown on the Cat product pages are recorded; for `350-2168`, the Cat page does not provide compatible-model data, so none is asserted. All records remain `REFERENCE`, not saleable stock. Product imagery is resolved through the existing official Cat image lookup path when queried; this migration does not invent image URLs.
+
+
+## Consolidated official Cat engine-family pass (2026-11-23)
+
+Migration `202611232020_consolidated_cat_engine_family_batch.sql` adds/upserts two further official Cat Parts Store references found while consolidating the engine-family extraction:
+
+| Cat part number | Description | Cat-listed engine applications |
+|---|---|---|
+| 574-0991 | High Pressure Control Fuel Pump / fuel transfer pump | 3512E (Engine and Petroleum Engine 3512E 2016) |
+| 115-5674 | Unit Injector Boot | C9, C9.3, C18, C15, 3406E, 3408B, 3408E, 3412E, 3512B/C/E, 3516B/C/E |
+
+The migration stores Cat's published specifications for 574-0991 and the official compatible-model list for 115-5674. Both records remain `REFERENCE`; image URLs are left NULL for the existing official Cat image resolver, and no price or stock is invented. Cat's public pages do not provide a complete universal fitment guarantee: confirm the exact arrangement and serial number before accepting an order.
+
+**Extraction scope:** this is a consolidated verified batch, not a complete export of all Cat catalog SKUs. Cat's public categories expose large paginated inventories (up to 1,200 items in the visible category result window and additional subcategory inventories). Full-catalog extraction requires crawling every category page and product detail page; serial-specific SIS fitment remains a separate authorized-catalog task.
