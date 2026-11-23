@@ -126,3 +126,16 @@ Migration `202611231910_import_cat_category_tree_and_products.sql` adds a separa
 The 15 top-level groups are Attachments, Cabs, Drivetrain, Electrical & Electronics, Engine, Equipment Upgrades, Filters & Fluids, Ground Engaging Tools, Hardware/Seals/Consumables, Hoses & Tubes, Hydraulics, Structures & Other Systems Components, Undercarriage, Upgrade & Repair Kits, and Workshop Supplies.
 
 **Important scope:** this is a complete snapshot of Cat's 15 top-level navigation groups plus the 118 first-level subcategory links captured in this pass, not a complete export of every Cat SKU. Cat's public category pages commonly paginate up to 1,200 visible results (75 pages), while individual subcategories can contain tens of thousands of entries. Full SKU extraction still requires a systematic paginated crawl of every subcategory and may require Cat-authorized catalog/SIS access for fitment details. Category membership is never treated as compatibility.
+
+
+## Further engine-family Cat references (2026-11-23)
+
+Migration `202611232000_expand_cat_engine_family_official_references.sql` adds 19 search-only part references transcribed from official Cat Parts Store category listings:
+
+- C15/C9/C18/3406C/3408 long blocks: `20R-1369`, `20R-5379`, `20R-1367`, `20R-4277`, `10R-7021`.
+- 3512B/3508B/C18/3412 crankshafts: `0R-9736`, `0R-8502`, `20R-4195`, `0R-9751`.
+- 3406B/3406E/C9 short blocks: `0R-4812`, `0R-8385`, `20R-2861`.
+- 3408/3412 and 3500-family cylinder packs: `0R-1572`, `10R-9224`, `20R-0583`.
+- 3516 oil pump/turbocharger and 3406/3408/3412 and C15/C16 water pumps: `0R-4345`, `612-6820`, `0R-4680`, `10R-0484`.
+
+Source URLs point to the individual official Cat product pages. Images are intentionally left NULL in this import; the storefront API resolves and caches the official Cat Scene7 image from the product page on demand. These remain `REFERENCE` records, not saleable inventory. Family-level descriptions are not blanket fitment: confirm exact serial number, Arrangement and suffix with Cat before order acceptance.
