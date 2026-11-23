@@ -769,3 +769,8 @@ The official [Cat Fuel Rails category](https://parts.cat.com/en/catcorp/category
 Imported: `20R-4264`, `20R-4263`, `20R-4267`, `20R-4266`, `436-1092`, `390-2615`, `614-6273`, `477-7728`, `376-2724`, `601-8313`, `258-9955`, `258-9959`, `322-0364`, `385-5991`, `393-9936`, `399-8470`.
 
 All records are `REFERENCE`, with no price, stock or guessed image. Engine model is recorded only where explicitly stated in Cat's listing. The 4 C175 fuel rails also have individual official product pages: [20R-4264](https://parts.cat.com/en/catcorp/product/20R-4264), [20R-4263](https://parts.cat.com/en/catcorp/product/20R-4263), [20R-4267](https://parts.cat.com/en/catcorp/product/20R-4267), [20R-4266](https://parts.cat.com/en/catcorp/product/20R-4266).
+
+
+## Fuel Rails category reconciliation (2026-11-23)
+
+The official Cat Parts Store currently reports 34 Fuel Rails results. The visible first-page listing (1–16) contains 16 exact part numbers; two missed references, `518-5338` and `562-0434`, are now imported by migration `202611232450_reconcile_cat_fuel_rails_page1.sql`. `518-5338` has an official product page that explicitly reports no compatibility information; `562-0434` remains reference-only because its detail page could not be independently retrieved in this pass. Two earlier rows (`393-9936`, `399-8470`) were not in the visible official category listing and have been reclassified as unclassified references rather than Fuel Rails. The category remains **incomplete**: the remaining 18 results have not yet been independently captured and verified. No price, stock or unverified image is populated.
