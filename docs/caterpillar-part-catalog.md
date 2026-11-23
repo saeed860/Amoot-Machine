@@ -14,7 +14,7 @@ As of 2026-11-23, the repository seed contains 237 unique part-number references
 | C18 | 114 | 144 |
 | 3508 / 3512 / 3516 family | 65 for 3512 and 65 for 3516 | 144 combined |
 
-The public directory is a third-party reference, not Cat SIS. All imported rows are marked `REFERENCE`, not `OEM_VERIFIED`. A third-party supplier listing for part `392-0217` is the only direct `3512CB` reference in this seed. Searches for `3512CB` and `3516CB` also return candidates from the base 3512 / 3516 family, clearly labeled as family-level results; that is not confirmation of CB-specific fitment.
+The public directory is a third-party reference, not Cat SIS. All imported rows remain `REFERENCE`, not `OEM_VERIFIED`. The official Cat Parts Store listing for `392-0217` identifies 3512B, 3516B and 3508B as compatible models. It does not list 3512CB or 3516CB. The generic 3512 tag is retained only as a search-family candidate; neither CB model is confirmed. See migration `202611230013_correct_392_0217_official_fitment_reference.sql`.
 
 ## Search and import
 
