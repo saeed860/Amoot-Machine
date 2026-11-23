@@ -845,7 +845,7 @@ Note: the migration contains exactly 10 records, matching the table above. Every
 
 ## Marine fuel, lubrication and cooling references (2026-11-23)
 
-Migration `202611232550_expand_marine_fuel_lube_cooling_parts.sql` adds 15 official Cat Parts Store references. All are search-only `REFERENCE` rows; price and stock remain unset/zero and image URLs are not guessed.
+Migration `202611232560_expand_marine_fuel_lube_cooling_parts.sql` adds 15 official Cat Parts Store references. All are search-only `REFERENCE` rows; price and stock remain unset/zero and image URLs are not guessed.
 
 | Part number | Cat item | Group | Marine engine families |
 |---|---|---|---|
