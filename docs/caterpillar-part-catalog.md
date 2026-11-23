@@ -441,3 +441,10 @@ Official source pages: https://parts.cat.com/en/catcorp/product/4N-0733, https:/
 Migration `202611232210_expand_cat_3500_and_3400_cooling_pump_references.sql` adds five Cat Parts Store references: `10R-9598`, `20R-5191`, `315-5137`, `416-0613` and `212-8174`. These cover 3500-family sea-water/auxiliary pumps and selected 3512/3516 engine water-pump groups. Model associations are limited to Cat's explicit Compatible Models lists; `10R-9598` is tagged only with the broad 3500 application from the official title/recommended application and has no explicit compatible-model array. All five remain search-only `REFERENCE` records, with no price or stock.
 
 Official sources: https://parts.cat.com/en/catcorp/product/10R-9598, https://parts.cat.com/en/catcorp/product/20R-5191, https://parts.cat.com/en/catcorp/product/315-5137, https://parts.cat.com/en/catcorp/product/416-0613 and https://parts.cat.com/en/catcorp/product/212-8174.
+
+
+## Additional Cat 3400/3500 cooling and C18 turbo references (2026-11-23)
+
+Migration `202611232220_expand_cat_3500_cooling_and_c18_turbo_references.sql` adds five official Cat Parts Store records: `0R-7721`, `20R-7175`, `10R-1670`, `20R-0505` and `20R-5005`. They cover 3400/3500 auxiliary pumps, 3500-family engine water pumps, the 3406E/C18 sea-water pump application and a C18 turbocharger cartridge. Compatibility arrays are grounded in the individual Cat Compatible Models lists; for example, `20R-0505` is not tagged as 3512B/3516B because Cat's listed models are G3516C, selected G3520 and 3512E/3516E variants. All entries remain search-only `REFERENCE` records, with no price or stock.
+
+Official sources: https://parts.cat.com/en/catcorp/product/0R-7721, https://parts.cat.com/en/catcorp/product/20R-7175, https://parts.cat.com/en/catcorp/product/10R-1670, https://parts.cat.com/en/catcorp/product/20R-0505 and https://parts.cat.com/en/catcorp/product/20R-5005.
