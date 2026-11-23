@@ -715,3 +715,21 @@ Official category source:
 - [Variable Valve Actuators](https://parts.cat.com/en/catcorp/category/reman-products-variable-valve-actuators?beginIndex=80&page=1&pageSize=16&productBeginIndex=80&sortBy=0) — 10 records
 
 Official product pages: [20R-3915](https://parts.cat.com/en/catcorp/product/20R-3915), [20R-6833](https://parts.cat.com/en/catcorp/product/20R-6833), [20R-0271](https://parts.cat.com/en/catcorp/product/20R-0271), [10R-3578](https://parts.cat.com/en/catcorp/product/10R-3578), [10R-6334](https://parts.cat.com/en/catcorp/product/10R-6334), [10R-6335](https://parts.cat.com/en/catcorp/product/10R-6335), [10R-6336](https://parts.cat.com/en/catcorp/product/10R-6336), [10R-6691](https://parts.cat.com/en/catcorp/product/10R-6691), [20R-0268](https://parts.cat.com/en/catcorp/product/20R-0268), [20R-0272](https://parts.cat.com/en/catcorp/product/20R-0272).
+
+
+## Combined completed public Cat Reman categories (2026-11-23): Prechamber Kits, Diesel Particulate Filters, Gearboxes
+
+A single migration, `202611232410_import_cat_prechamber_dpf_gearboxes_bundle.sql`, imports all 11 items from three official one-page categories:
+
+- **Prechamber Kits — 2 of 2:** `11R-2061`, `11R-2060`.
+- **Diesel Particulate Filters — 4 of 4:** `536-6756`, `535-2508`, `591-2381`, `591-2382`.
+- **Gearboxes — 5 of 5:** `20R-9045`, `20R-9567`, `20R-9565`, `20R-9564`, `20R-9566`.
+
+All records are search-only `REFERENCE` entries with no price or stock. Engine fitment is populated only for `11R-2061`, whose official Cat title explicitly identifies G3600; no engine fitment is inferred for the other ten entries. Images remain NULL because no high-resolution product image was verified for this batch.
+
+Official category sources:
+- [Prechamber Kits](https://parts.cat.com/en/catcorp/category/reman-products-prechamber-kits) — 2 records
+- [Diesel Particulate Filters](https://parts.cat.com/en/catcorp/category/reman-products-diesel-particulate-filters) — 4 records
+- [Gearboxes](https://parts.cat.com/en/catcorp/category/reman-products-gearboxes) — 5 records
+
+Official product pages: [11R-2061](https://parts.cat.com/en/catcorp/product/11R-2061), [11R-2060](https://parts.cat.com/en/catcorp/product/11R-2060), [536-6756](https://parts.cat.com/en/catcorp/product/536-6756), [535-2508](https://parts.cat.com/en/catcorp/product/535-2508), [591-2381](https://parts.cat.com/en/catcorp/product/591-2381), [591-2382](https://parts.cat.com/en/catcorp/product/591-2382), [20R-9045](https://parts.cat.com/en/catcorp/product/20R-9045), [20R-9567](https://parts.cat.com/en/catcorp/product/20R-9567), [20R-9565](https://parts.cat.com/en/catcorp/product/20R-9565), [20R-9564](https://parts.cat.com/en/catcorp/product/20R-9564), [20R-9566](https://parts.cat.com/en/catcorp/product/20R-9566).
