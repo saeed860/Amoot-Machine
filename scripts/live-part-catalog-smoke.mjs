@@ -695,7 +695,7 @@ async function runTest(test) {
   const url = new URL(base + "/api/products");
   url.searchParams.set("q", test.q);
   if (test.filterCategory) url.searchParams.set("category", test.filterCategory);
-  const response = await fetch(url, { headers: { apikey: key } });
+  const response = await fetch(url, { headers: { apikey: key }, signal: AbortSignal.timeout(15000) });
   const body = await response.json().catch(() => ({}));
   const items = Array.isArray(body.items) ? body.items : [];
   const normSku = v => String(v || "").replace(/[^A-Z0-9]/gi, "").toUpperCase();
@@ -713,7 +713,7 @@ async function runTest(test) {
   }) + "\n");
   return ok;
 }
-const workers = Array.from({ length: 8 }, async () => {
+const workers = Array.from({ length: 4 }, async () => {
   while (cursor < tests.length) {
     const index = cursor++;
     const ok = await runTest(tests[index]);
