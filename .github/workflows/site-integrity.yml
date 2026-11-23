@@ -42,6 +42,9 @@ jobs:
           node --check api-client.js
           node --check api-config.js
           node --check search.js
+          grep -q 'machine_model: clean(body.machineModel,120)' supabase/functions/store-api/index.ts
+          grep -q 'data-open-quote' search.js
+          grep -q 'stock-state' search.js
       - name: Verify secure account password flow
         run: |
           grep -q 'path === "/api/me/password"' supabase/functions/store-api/index.ts
