@@ -484,3 +484,19 @@ Migration `202611232240_correct_cat_392_0221_fitment.sql` adds the Cat-listed `3
 ### Verified Cat Scene7 images
 
 Migration `202611232250_set_verified_cat_scene7_images_for_injector_and_water_pump.sql` stores direct Cat Scene7 assets captured from the official product-image links for `7E-6408` and `352-0210`. The URLs are direct Caterpillar image assets, not generic placeholders. Sources: https://parts.cat.com/en/catcorp/product/7E-6408 and https://parts.cat.com/en/catcorp/product/352-0210.
+
+
+## Additional Cat 3406 and 3500 engine references (2026-11-23)
+
+Migration `202611232260_expand_cat_3406_3500_cylinder_turbo_and_fuel_pump_references.sql` adds/upserts four further official Cat Parts Store references:
+
+| Part number | Component | Explicit Cat-listed engine scope |
+|---|---|---|
+| 20R-5629 | Reman cylinder pack | Cat Recommended Application: 3512/3516; Compatible Models explicitly lists 3512C and 3516C (plus 962K wheel loader) |
+| 108-6630 | Fuel injection pump | 3406B, 3406C and 3412 |
+| 0R-3841 | Reman cylinder pack, 13.0:1 | 3508, 3512 and 3516 across listed generator-set, marine, industrial and vehicular categories |
+| 110-8897 | Fuel injection pump | 3406B and 3406C |
+
+All remain search-only `REFERENCE` records with no price or stock. Model arrays are limited to Cat's explicit Compatible Models data; for 20R-5629, the broader 3512/3516 recommended application is retained in provenance but only 3512C/3516C are tagged as exact compatible engine models. No image is assigned unless a direct exact Cat Scene7 asset is verified.
+
+Official sources: [20R-5629](https://parts.cat.com/en/catcorp/product/20R-5629), [108-6630](https://parts.cat.com/en/catcorp/product/108-6630), [0R-3841](https://parts.cat.com/en/catcorp/product/0R-3841), [110-8897](https://parts.cat.com/en/catcorp/product/110-8897).
