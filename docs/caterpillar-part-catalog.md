@@ -301,3 +301,29 @@ Migration `202611232130_expand_cat_engine_internal_and_turbo_references.sql` add
 All entries remain `REFERENCE`; Cat source URLs and provenance are stored. No sale price or stock is fabricated. Where the public Cat source did not provide a model-level fitment list, compatible_models remains empty. Turbo images marked representative by Cat are not stored as exact product images. Serial/arrangement confirmation remains necessary before order acceptance.
 
 Sources: [450-1408](https://parts.cat.com/en/catcorp/product/450-1408), [20R-9480](https://parts.cat.com/en/catcorp/product/20R-9480), [314-2700](https://parts.cat.com/en/catcorp/product/314-2700), [0R-9737](https://parts.cat.com/en/catcorp/product/0R-9737), [0R-9739](https://parts.cat.com/en/catcorp/product/0R-9739), [523-8663](https://parts.cat.com/en/catcorp/product/523-8663), [593-2027](https://parts.cat.com/en/catcorp/product/593-2027), [107-7330](https://parts.cat.com/en/catcorp/product/107-7330), [7W-0489](https://parts.cat.com/en/catcorp/product/7W-0489), [20R-3163](https://parts.cat.com/en/catcorp/product/20R-3163), [1W-8922](https://parts.cat.com/en/catcorp/product/1W-8922), [8N-0822](https://parts.cat.com/en/catcorp/product/8N-0822), [4W-1434](https://parts.cat.com/en/catcorp/product/4W-1434), [9N-6753](https://parts.cat.com/en/catcorp/product/9N-6753), [0R-6364](https://parts.cat.com/en/catcorp/product/0R-6364), [4W-7637](https://parts.cat.com/en/catcorp/product/4W-7637).
+
+
+## C15/C18/C9 injector, turbo and pump batch (2026-11-23)
+
+Migration `202611232140_expand_cat_c15_c18_c9_fuel_pump_turbo_references.sql` adds/upserts **14 additional official Cat references**:
+
+| Part number | Part | Explicit Cat-listed fitment |
+|---|---|---|
+| 10R-0956 | Reman electronic injector | C-15, 3406E |
+| 10R-9787 | 3406E Reman injector | C-18, 3406E, 3456 |
+| 232-1811 | Basic turbocharger group | C15 |
+| 10R-8499 | Reman injector kit | 3406E Reman Engine |
+| 241-9595 | Fuel injector group | C9 Marine Engine |
+| 350-2537 | Engine water pump | C-9 Industrial Engine |
+| 10R-8501 | Reman fuel injector | C-15, C-16, 3406E |
+| 10R-8500 | Reman injector kit (set of 6) | C-15, C-16, 3406E, C-12 |
+| 211-3022 | Fuel injector group | C-15, 3406E |
+| 211-3026 | Fuel injector group | C-18, 3406E, 3456 |
+| 20R-8060 | C9 Reman injector | C9 Truck Engine |
+| 20R-8812 | 3500 Reman auxiliary water pump | 3512/3516/3508 and Cat-listed B/C variants |
+| 284-2712 | Basic turbocharger group | C15, C18 generator-set; C15 industrial |
+| 293-4068 | C9 fuel injector group | C-9/C9 Truck Engine |
+
+All are reference-only; exact Cat source URLs and compatibility provenance are stored. No sale price or stock was fabricated. For turbo pages whose image is marked representative, no product image is assigned.
+
+Sources: [10R-0956](https://parts.cat.com/en/catcorp/product/10R-0956), [10R-9787](https://parts.cat.com/en/catcorp/product/10R-9787), [232-1811](https://parts.cat.com/en/catcorp/product/232-1811), [10R-8499](https://parts.cat.com/en/catcorp/product/10R-8499), [241-9595](https://parts.cat.com/en/catcorp/product/241-9595), [350-2537](https://parts.cat.com/en/catcorp/product/350-2537), [10R-8501](https://parts.cat.com/en/catcorp/product/10R-8501), [10R-8500](https://parts.cat.com/en/catcorp/product/10R-8500), [211-3022](https://parts.cat.com/en/catcorp/product/211-3022), [211-3026](https://parts.cat.com/en/catcorp/product/211-3026), [20R-8060](https://parts.cat.com/en/catcorp/product/20R-8060), [20R-8812](https://parts.cat.com/en/catcorp/product/20R-8812), [284-2712](https://parts.cat.com/en/catcorp/product/284-2712), [293-4068](https://parts.cat.com/en/catcorp/product/293-4068).
