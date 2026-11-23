@@ -251,7 +251,7 @@
   if(cached.catalog_source==='server')oldLoadProducts?.();
   else{if(typeof window.setApiProducts==='function')window.setApiProducts([]);const meta=document.querySelector('#catalogMeta');if(meta)meta.textContent='دریافت محصولات از سرور ناموفق بود؛ لطفاً اتصال را بررسی کنید.';}
  }};
- if(base)window.loadProducts?.();\n
+ if(base)window.loadProducts?.();
  async function renderMarineEngineDirectory(){
   const host=document.querySelector('#marineEngineGrid');if(!host)return;
   try{
