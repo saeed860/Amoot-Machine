@@ -593,3 +593,24 @@ Official category: [Rods](https://parts.cat.com/en/catcorp/category/reman-produc
 ### Verified images for the Rods category
 
 Exact official Cat Scene7 product images were resolved from the corresponding Cat product pages and attached to `0R-0916`, `20R-0925`, and `0R-0921` in migration `202611232320_set_verified_cat_rod_product_images.sql`. Other products in this seven-part category retain a null image because the retrieved official pages showed only a fallback/logo or a low-resolution thumbnail; no generic replacement was used.
+
+
+
+## Completed public Cat Reman categories (2026-11-23): Lifters, Air Dryer Cartridges, Exhaust Bypass Valves
+
+A single migration, `202611232330_import_complete_cat_lifters_airdryer_exhaust_bypass.sql`, imports three complete one-page official Cat categories as search-only `REFERENCE` rows:
+
+- **Lifters — 16 of 16:** `20R-1626`, `0R-9668`, `10R-3139`, `10R-3138`, `20R-9654`, `11R-2387`, `20R-1828`, `30R-1590`, `11R-2388`, `0R-9667`, `20R-2447`, `11R-2389`, `20R-8981`, `0R-3270`, `0R-3271`, `0R-4657`.
+- **Air Dryer Cartridges — 1 of 1:** `632-5510`.
+- **Exhaust Bypass Valves — 2 of 2:** `30R-0133`, `30R-0132`.
+
+The Lifters import retains Cat's exact engine-family and Compatible Models details where published. For `0R-3271`, `0R-4657`, `632-5510`, and both exhaust-bypass groups, Cat says compatible-model information is unavailable; fitment arrays therefore remain empty rather than guessed. The Cat page for `11R-2388` lists only CAT WDS, which is not treated as an engine fitment. No price or stock is fabricated.
+
+Verified direct Scene7 images resolved from the corresponding official product pages are attached to `20R-1626`, `0R-9668`, `10R-3139`, `10R-3138`, `20R-9654`, `20R-1828`, `0R-9667`, `632-5510`, `30R-0133`, and `30R-0132`. Other Lifters records retain null images where an exact primary asset was not verified.
+
+Official category sources:
+- [Lifters](https://parts.cat.com/en/catcorp/category/reman-products-lifters) — 16 records
+- [Air Dryer Cartridges](https://parts.cat.com/en/catcorp/category/reman-products-air-dryer-cartridges) — 1 record
+- [Exhaust Bypass Valves](https://parts.cat.com/en/catcorp/category/reman-products-exhaust-bypass-valves) — 2 records
+
+Official product sources: [20R-1626](https://parts.cat.com/en/catcorp/product/20R-1626), [0R-9668](https://parts.cat.com/en/catcorp/product/0R-9668), [10R-3139](https://parts.cat.com/en/catcorp/product/10R-3139), [10R-3138](https://parts.cat.com/en/catcorp/product/10R-3138), [20R-9654](https://parts.cat.com/en/catcorp/product/20R-9654), [20R-1828](https://parts.cat.com/en/catcorp/product/20R-1828), [30R-1590](https://parts.cat.com/en/catcorp/product/30R-1590), [11R-2387](https://parts.cat.com/en/catcorp/product/11R-2387), [11R-2388](https://parts.cat.com/en/catcorp/product/11R-2388), [0R-9667](https://parts.cat.com/en/catcorp/product/0R-9667), [20R-2447](https://parts.cat.com/en/catcorp/product/20R-2447), [11R-2389](https://parts.cat.com/en/catcorp/product/11R-2389), [20R-8981](https://parts.cat.com/en/catcorp/product/20R-8981), [0R-3270](https://parts.cat.com/en/catcorp/product/0R-3270), [0R-3271](https://parts.cat.com/en/catcorp/product/0R-3271), [0R-4657](https://parts.cat.com/en/catcorp/product/0R-4657), [632-5510](https://parts.cat.com/en/catcorp/product/632-5510), [30R-0133](https://parts.cat.com/en/catcorp/product/30R-0133), [30R-0132](https://parts.cat.com/en/catcorp/product/30R-0132).
