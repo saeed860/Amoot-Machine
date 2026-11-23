@@ -438,6 +438,24 @@ const tests = [
   { q: "590-0196", sku: "590-0196", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Workshop Supplies" },
   { q: "169-7372", sku: "169-7372", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Workshop Supplies" },
   { q: "653-9562", sku: "653-9562", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Workshop Supplies" },
+
+  { q: "211-3023", sku: "211-3023", kind: "PART_REFERENCE", skuSuffix: true, sourceRequired: true },
+  { q: "392-0206", sku: "392-0206", kind: "PART_REFERENCE", skuSuffix: true, sourceRequired: true },
+  { q: "20R-4147", sku: "20R-4147", kind: "PART_REFERENCE", skuSuffix: true, sourceRequired: true },
+  { q: "9N-3246", sku: "9N-3246", kind: "PART_REFERENCE", skuSuffix: true, sourceRequired: true },
+  { q: "7N-9843", sku: "7N-9843", kind: "PART_REFERENCE", skuSuffix: true, sourceRequired: true },
+  { q: "4N-0733", sku: "4N-0733", kind: "PART_REFERENCE", skuSuffix: true, sourceRequired: true },
+  { q: "0R-9448", sku: "0R-9448", kind: "PART_REFERENCE", skuSuffix: true, sourceRequired: true },
+  { q: "0R-9449", sku: "0R-9449", kind: "PART_REFERENCE", skuSuffix: true, sourceRequired: true },
+  { q: "0R-9200", sku: "0R-9200", kind: "PART_REFERENCE", skuSuffix: true, sourceRequired: true },
+  { q: "299-3521", sku: "299-3521", kind: "PART_REFERENCE", skuSuffix: true, sourceRequired: true },
+  { q: "223-9250", sku: "223-9250", kind: "PART_REFERENCE", skuSuffix: true, sourceRequired: true },
+  { q: "102-0296", sku: "102-0296", kind: "PART_REFERENCE", skuSuffix: true, sourceRequired: true },
+  { q: "102-0299", sku: "102-0299", kind: "PART_REFERENCE", skuSuffix: true, sourceRequired: true },
+  { q: "1W-1052", sku: "1W-1052", kind: "PART_REFERENCE", skuSuffix: true, sourceRequired: true },
+  { q: "134-5402", sku: "134-5402", kind: "PART_REFERENCE", skuSuffix: true, sourceRequired: true },
+  { q: "528-9753", sku: "528-9753", kind: "PART_REFERENCE", skuSuffix: true, sourceRequired: true },
+  { q: "1P-1120", sku: "1P-1120", kind: "PART_REFERENCE", skuSuffix: true, sourceRequired: true },
 ];
 let failed = false;
 let cursor = 0;
