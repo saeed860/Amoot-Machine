@@ -913,3 +913,23 @@ Official sources: https://parts.cat.com/en/catcorp/product/338-1664, https://par
 ## Application-label evidence correction (2026-11-23)
 
 Migration `202611232590_remove_unproven_land_application_tags.sql` changes eight product labels from `LAND` to internal `UNVERIFIED`: `CAT-20R-2510`, `CAT-20R-5367`, `CAT-30R-0084`, `CAT-593-5344`, `CAT-0R-8200`, `CAT-9X-3406`, `CAT-260-3406` and `CAT-20R-3958`. The checked public pages did not prove land-only exclusivity; absence of a marine listing is not sufficient evidence for a definitive land label. The storefront suppresses unknown application labels, so users see only supported «دریایی»، «خشکی» or «هر دو» labels.
+
+## C32 and 3500-series fuel, turbo-cooling and lubrication references (2026-11-23)
+
+Migration `202611232600_add_verified_c32_3500_cooling_and_fuel_parts.sql` adds nine Cat Parts Store reference records:
+
+| Part number | Description | Engine family | Application |
+|---|---|---|---|
+| 167-1751 | Turbocharger Water Lines Tube | 3516 / 3516B | Marine + land |
+| 8N-0419 | Turbocharger Water Lines Tube | 3508 / 3512 | Marine + land |
+| 097-7404 | DM Bulk Tube | 3500 / C280 | Marine + land |
+| 487-0039 | Fuel Tube Assembly | C32 | Marine + land |
+| 525-7148 | Fuel Tube Assembly | C32 / C32B | Marine + land |
+| 309-4499 | Support | C32 | Marine + land |
+| 368-9037 | Fuel Hose Assembly | C32 | Marine + land |
+| 1W-2447 | Oil Cooler Outlet Adapter | 3512 / 3516 | Marine + land |
+| 339-5148 | Engine Oil Filter Cover | 3500 | Marine + land |
+
+Each application label follows Cat's published Compatible Models classes. These entries remain reference-only, without fabricated pricing, stock, or image links. Family-level compatibility does not replace serial-number-specific parts validation.
+
+Official Cat source pages: https://parts.cat.com/en/catcorp/product/167-1751, https://parts.cat.com/en/catcorp/product/8N-0419, https://parts.cat.com/en/catcorp/product/097-7404, https://parts.cat.com/en/catcorp/product/487-0039, https://parts.cat.com/en/catcorp/product/525-7148, https://parts.cat.com/en/catcorp/product/309-4499, https://parts.cat.com/en/catcorp/product/368-9037, https://parts.cat.com/en/catcorp/product/1W-2447, https://parts.cat.com/en/catcorp/product/339-5148.
