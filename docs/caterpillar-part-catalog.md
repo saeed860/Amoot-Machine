@@ -825,7 +825,7 @@ Marine classification does not replace serial-number/arrangement validation for 
 
 ## Additional marine-compatible Cat part references (2026-11-23)
 
-Migration `202611232530_add_more_verified_marine_parts.sql` adds 10 additional official Cat Parts Store references. These records remain search-only `REFERENCE` rows, with NULL pricing, zero stock, and no guessed image or serial-specific fitment.
+Migration `202611232540_add_more_verified_marine_parts.sql` adds 10 additional official Cat Parts Store references. These records remain search-only `REFERENCE` rows, with NULL pricing, zero stock, and no guessed image or serial-specific fitment.
 
 | Part number | Cat description | Marine model evidence | Group |
 |---|---|---|---|
