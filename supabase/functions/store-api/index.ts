@@ -66,17 +66,22 @@ Deno.serve(async (req) => {
       let partItems:any[] = [];
       if (q || model) {
         let partsQuery = adminDb.from("part_catalog").select("id,part_number,part_number_normalized,name,description,engine_models,technical_group,source_name,source_url,source_note,verification_status").eq("is_active",true).eq("brand","Caterpillar").limit(100);
-        if (model) partsQuery = partsQuery.contains("engine_models",[model.toUpperCase()]);
+        const normalizeEngineFamily=(value:string)=>value.toUpperCase().replace(/\\s+/g,"").replace(/CB$/,"");
+        const requestedModel=normalizeEngineFamily(model);
+        if (model) partsQuery = partsQuery.contains("engine_models",[requestedModel]);
         if (q) {
           const normalized=q.toUpperCase().replace(/[^A-Z0-9]/g,"");
+          const modelQuery=normalizeEngineFamily(normalized);
           const filters=[`part_number.ilike.%${q}%`,`part_number_normalized.ilike.%${normalized}%`,`name.ilike.%${q}%`,`description.ilike.%${q}%`];
-          if (/^[A-Z0-9-]{2,20}$/i.test(q)) { const modelAlias = ({ "3512CB":"3512", "3516CB":"3516" } as Record<string,string>)[q.toUpperCase()] ?? q.toUpperCase(); filters.push(`engine_models.cs.{${modelAlias}}`); }
+          if (/^[A-Z0-9-]{2,20}$/i.test(q)) filters.push(`engine_models.cs.{${modelQuery}}`);
           partsQuery=partsQuery.or(filters.join(","));
         }
         const {data:parts,error:partsError}=await partsQuery;
         if(partsError && partsError.code!=="42P01")return fail(500,"PART_CATALOG_FAILED","جستجوی کاتالوگ پارت‌نامبر ناموفق بود.");
-        const aliasNote = q.toUpperCase()==="3512CB" ? "جستجوی 3512CB بر اساس خانواده 3512 است؛ سازگاری نسخه CB هنوز تأیید نشده." : q.toUpperCase()==="3516CB" ? "جستجوی 3516CB بر اساس خانواده 3516 است؛ سازگاری نسخه CB هنوز تأیید نشده." : "";
-        partItems=(parts??[]).map(p=>({id:p.id,kind:"PART_REFERENCE",sku:p.part_number,name:p.name,brand:"Caterpillar",category:"قطعات موتور",machineModel:(p.engine_models??[]).join(" / "),description:[p.description,p.technical_group?"گروه فنی: "+p.technical_group:"","مرجع: "+p.source_name,"وضعیت: "+p.verification_status,p.source_note,aliasNote,"سازگاری نهایی با شماره سریال و Arrangement بررسی شود."].filter(Boolean).join(" · "),imageUrl:null,priceIrr:null,stock:0,sourceUrl:p.source_url}));
+        partItems=(parts??[]).map(p=>{
+          const displayModels=(p.engine_models??[]).map((m:string)=>m.toUpperCase().replace(/CB$/,""));
+          return {id:p.id,kind:"PART_REFERENCE",sku:p.part_number,name:p.name,brand:"Caterpillar",category:"قطعات موتور",machineModel:[...new Set(displayModels)].join(" / "),description:[p.description,p.technical_group?"گروه فنی: "+p.technical_group:"","مرجع: "+p.source_name,"وضعیت: "+p.verification_status,p.source_note,"مدل‌های CB در جستجو و نمایش ذیل خانواده پایه 3512 و 3516 قرار می‌گیرند؛ تأیید سازگاری نهایی با شماره سریال و Arrangement انجام شود."].filter(Boolean).join(" · "),imageUrl:null,priceIrr:null,stock:0,sourceUrl:p.source_url};
+        });
       }
       const merged=[...productItems,...partItems].filter((item,index,all)=>all.findIndex(x=>String(x.sku).toUpperCase().replace(/[^A-Z0-9]/g,"")===String(item.sku).toUpperCase().replace(/[^A-Z0-9]/g,""))===index);
       return json({items:merged.slice(0,150),partReferenceCount:partItems.length});
