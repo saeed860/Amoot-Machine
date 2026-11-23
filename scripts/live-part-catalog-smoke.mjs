@@ -581,7 +581,7 @@ const tests = [
   { q: "130-5789", sku: "130-5789", kind: "PART_REFERENCE", skuSuffix: true, sourceRequired: true },
   { q: "10R-4374", sku: "10R-4374", kind: "PART_REFERENCE", skuSuffix: true, sourceRequired: true },
   { q: "10R-9224", sku: "10R-9224", kind: "PART_REFERENCE", skuSuffix: true, sourceRequired: true },
-  { q: "20R-5152", sku: "20R-5152", kind: "PART_REFERENCE", skuSuffix: true, sourceRequired: true },,
+  { q: "20R-5152", sku: "20R-5152", kind: "PART_REFERENCE", skuSuffix: true, sourceRequired: true },
   {"q":"10R-8415","sku":"10R-8415","kind":"PART_REFERENCE","sourceRequired":true},
   {"q":"10R-8417","sku":"10R-8417","kind":"PART_REFERENCE","sourceRequired":true},
   {"q":"11R-1405","sku":"11R-1405","kind":"PART_REFERENCE","sourceRequired":true},
