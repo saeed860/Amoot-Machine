@@ -1,3 +1,4 @@
+-- Re-numbered to avoid a pre-existing remote migration version 202611230005.
 -- Complete the public C15 directory page-1/page-2 references omitted from the first seed.
 insert into public.part_catalog
 (part_number,name,engine_models,technical_group,source_name,source_url,source_note,verification_status)
