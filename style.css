@@ -343,3 +343,17 @@
  .products-section .filters select{height:30px;min-width:calc(50% - 5px);max-width:calc(50% - 5px);font-size:9px;padding:4px 7px}
  .products-section .filters .mini{padding:7px 9px}
 }
+
+/* Header balance: wider search and left-aligned category shortcut */
+@media(min-width:981px){
+ .header-main{gap:14px}
+ .main-nav{gap:16px}
+ .header-search{flex:1 1 420px;min-width:280px;max-width:none;height:46px}
+ .category-entry{display:inline-flex;align-items:center;justify-content:center;order:4;flex:0 0 auto;height:46px;min-width:156px;padding:0 16px;margin-inline-start:0;font-size:11px}
+}
+@media(min-width:981px) and (max-width:1240px){
+ .header-main{gap:9px}
+ .main-nav{gap:10px;font-size:10px}
+ .header-search{flex:1 1 250px;min-width:205px;height:42px}
+ .category-entry{height:42px;min-width:132px;padding:0 10px;font-size:10px}
+}
