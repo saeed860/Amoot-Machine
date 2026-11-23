@@ -6,7 +6,8 @@ const base = extract("AMOOT_API_BASE_URL");
 const key = extract("AMOOT_SUPABASE_ANON_KEY");
 if (!base || !key) throw new Error("Public API configuration is missing");
 
-// Verify the deployed function against the live Supabase endpoint.\nconst tests = [
+// Verify the deployed function against the live Supabase endpoint.
+const tests = [
   { q: "392-0217", expected: "392-0217" },
   { q: "3920217", expected: "392-0217" },
   { q: "3512CB", expectedAny: true },
@@ -31,8 +32,11 @@ for (const test of tests) {
     partReferences: refs.length,
     samplePartNumbers: refs.slice(0, 5).map(x => x.sku),
     expected: test.expected || "at least one family reference",
-    oemImage: hasOemImage,\n    specifications: hasSpecs,\n    pass: ok,
+    oemImage: hasOemImage,
+    specifications: hasSpecs,
+    pass: ok,
     apiError: body.error?.code || null, debug: body.error?.debug || null
-  }) + "\n");
+  }) + "
+");
 }
 if (failed) process.exit(1);
