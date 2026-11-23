@@ -268,3 +268,8 @@ These entries expand direct C9/C9.3 coverage. They remain reference-only; exact 
 ### Official Cat product image mapping for the 2026-11-23 batch
 
 Migration `202611232110_set_verified_cat_scene7_images.sql` stores direct Scene7 image assets linked from the official Cat product pages for **211-3023, 460-8213, 392-0206, 9N-3246, 7N-9843, 102-0296, 102-0299, 134-5402, 223-9250, 0R-9200, 0R-9448 and 0R-9449**. No fallback/logo or merely representative image is assigned: 4N-0733, 528-9753, 432-0153 and 216-7815 remain without a stored product image in this batch because the Cat page showed a generic logo/fallback or explicitly described the image as representative. The remaining 20R-4147 image is not assigned in this pass.
+
+
+### Fitment correction and final image verification
+
+The official Cat page for `20R-4147` uses the title “3408/3412 Reman Fuel Injector” but its explicit Compatible Models section lists **Marine Engine 3412E only**. Migration `202611232120_correct_cat_20r4147_fitment_and_images.sql` therefore retains 3408/3412 as search terms while recording only 3412E in `compatible_models`. The same migration adds the exact Scene7 image for 20R-4147 and the exact product image for 1P-1120. The 1W-1052 Cat page states its image is representative, so that image remains deliberately unassigned.
