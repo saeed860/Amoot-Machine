@@ -1,0 +1,4 @@
+-- Legacy remote migration marker.
+-- The linked Supabase project already records version 202611230005, but its
+-- original SQL is not present in this repository. This no-op file keeps the
+-- local migration version list aligned; do not treat it as a schema definition.
