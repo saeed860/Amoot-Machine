@@ -4,8 +4,8 @@ declare
   v_count integer;
 begin
   select count(*) into v_count from public.part_catalog;
-  if v_count < 237 then
-    raise exception 'Expected at least 237 Caterpillar reference rows, found %', v_count;
+  if v_count < 393 then
+    raise exception 'Expected at least 393 Caterpillar reference rows, found %', v_count;
   end if;
 
   if not exists (
