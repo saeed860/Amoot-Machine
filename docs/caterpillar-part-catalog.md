@@ -448,3 +448,29 @@ Official sources: https://parts.cat.com/en/catcorp/product/10R-9598, https://par
 Migration `202611232220_expand_cat_3500_cooling_and_c18_turbo_references.sql` adds five official Cat Parts Store records: `0R-7721`, `20R-7175`, `10R-1670`, `20R-0505` and `20R-5005`. They cover 3400/3500 auxiliary pumps, 3500-family engine water pumps, the 3406E/C18 sea-water pump application and a C18 turbocharger cartridge. Compatibility arrays are grounded in the individual Cat Compatible Models lists; for example, `20R-0505` is not tagged as 3512B/3516B because Cat's listed models are G3516C, selected G3520 and 3512E/3516E variants. All entries remain search-only `REFERENCE` records, with no price or stock.
 
 Official sources: https://parts.cat.com/en/catcorp/product/0R-7721, https://parts.cat.com/en/catcorp/product/20R-7175, https://parts.cat.com/en/catcorp/product/10R-1670, https://parts.cat.com/en/catcorp/product/20R-0505 and https://parts.cat.com/en/catcorp/product/20R-5005.
+
+
+## Additional official Cat 3500 injector and 3400/C-series cooling references (2026-11-23)
+
+Migration `202611232230_expand_cat_3500_injector_and_3400_cooling_references.sql` adds 15 official Cat Parts Store references:
+- Fuel system/injectors: `7C-1903`, `7E-6408`, `392-0204`, `392-0205`, `392-0220`, `392-0221`, `121-2630`, `200-5272`, `392-0214`, `392-0213`, `457-5312`, `456-0027`.
+- Cooling: `605-7481`, `352-0210`.
+- Turbocharger: `7C-7688` (Cat marks this part discontinued).
+
+Model tags are based on each Cat product page's Compatible Models section, not merely the engine family mentioned in a search query. All records are `REFERENCE` only; no sales price or stock is added. Cat product pages are linked directly below:
+
+https://parts.cat.com/en/catcorp/product/7C-1903
+https://parts.cat.com/en/catcorp/product/7E-6408
+https://parts.cat.com/en/catcorp/product/392-0204
+https://parts.cat.com/en/catcorp/product/392-0205
+https://parts.cat.com/en/catcorp/product/392-0220
+https://parts.cat.com/en/catcorp/product/392-0221
+https://parts.cat.com/en/catcorp/product/121-2630
+https://parts.cat.com/en/catcorp/product/200-5272
+https://parts.cat.com/en/catcorp/product/392-0214
+https://parts.cat.com/en/catcorp/product/392-0213
+https://parts.cat.com/en/catcorp/product/457-5312
+https://parts.cat.com/en/catcorp/product/605-7481
+https://parts.cat.com/en/catcorp/product/7C-7688
+https://parts.cat.com/en/catcorp/product/352-0210
+https://parts.cat.com/en/catcorp/product/456-0027
