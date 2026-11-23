@@ -75,7 +75,7 @@ Deno.serve(async (req) => {
         }
         const {data:parts,error:partsError}=await partsQuery;
         if(partsError && partsError.code!=="42P01")return fail(500,"PART_CATALOG_FAILED","جستجوی کاتالوگ پارت‌نامبر ناموفق بود.");
-        partItems=(parts??[]).map(p=>({id:p.id,kind:"PART_REFERENCE",sku:p.part_number,name:p.name,brand:"Caterpillar",category:"قطعات موتور",machineModel:(p.engine_models??[]).join(" / "),description:[p.description,p.technical_group?"گروه فنی: "+p.technical_group:"","مرجع: "+p.source_name,"وضعیت: "+p.verification_status,p.source_note,"سازگاری نهایی با شماره سریال و Arrangement بررسی شود."].filter(Boolean).join(" · "),imageUrl:null,priceIrr:null,stock:0,sourceUrl:p.source_url}));
+        const aliasNote = q.toUpperCase()==="3512CB" ? "جستجوی 3512CB بر اساس خانواده 3512 است؛ سازگاری نسخه CB هنوز تأیید نشده." : q.toUpperCase()==="3516CB" ? "جستجوی 3516CB بر اساس خانواده 3516 است؛ سازگاری نسخه CB هنوز تأیید نشده." : "";\n        partItems=(parts??[]).map(p=>({id:p.id,kind:"PART_REFERENCE",sku:p.part_number,name:p.name,brand:"Caterpillar",category:"قطعات موتور",machineModel:(p.engine_models??[]).join(" / "),description:[p.description,p.technical_group?"گروه فنی: "+p.technical_group:"","مرجع: "+p.source_name,"وضعیت: "+p.verification_status,p.source_note,aliasNote,"سازگاری نهایی با شماره سریال و Arrangement بررسی شود."].filter(Boolean).join(" · "),imageUrl:null,priceIrr:null,stock:0,sourceUrl:p.source_url}));
       }
       const merged=[...productItems,...partItems].filter((item,index,all)=>all.findIndex(x=>String(x.sku).toUpperCase().replace(/[^A-Z0-9]/g,"")===String(item.sku).toUpperCase().replace(/[^A-Z0-9]/g,""))===index);
       return json({items:merged.slice(0,150),partReferenceCount:partItems.length});
