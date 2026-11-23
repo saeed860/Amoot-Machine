@@ -774,3 +774,8 @@ All records are `REFERENCE`, with no price, stock or guessed image. Engine model
 ## Fuel Rails category reconciliation (2026-11-23)
 
 The official Cat Parts Store currently reports 34 Fuel Rails results. The visible first-page listing (1–16) contains 16 exact part numbers; two missed references, `518-5338` and `562-0434`, are now imported by migration `202611232450_reconcile_cat_fuel_rails_page1.sql`. `518-5338` has an official product page that explicitly reports no compatibility information; `562-0434` remains reference-only because its detail page could not be independently retrieved in this pass. Two earlier rows (`393-9936`, `399-8470`) were not in the visible official category listing and have been reclassified as unclassified references rather than Fuel Rails. The category remains **incomplete**: the remaining 18 results have not yet been independently captured and verified. No price, stock or unverified image is populated.
+
+
+## Sea Water Pumps (2026-11-23)
+
+The official Cat Parts Store Sea Water Pumps category reports 33 results. Migration `202611232460_import_cat_sea_water_pumps_page1_partial.sql` adds the 16 visible first-page references, without replacing existing part-number records. Engine-family tags are copied only from explicit product-title text; no exact equipment fitment, price, stock or image is inferred. One result (`519-6373`) is a shaft rather than a complete pump and is retained as listed in the source category. **17 results remain unverified; this category is partial.**
