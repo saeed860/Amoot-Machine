@@ -357,3 +357,22 @@
  .header-search{flex:1 1 250px;min-width:205px;height:42px}
  .category-entry{height:42px;min-width:132px;padding:0 10px;font-size:10px}
 }
+
+
+/* Marine engine directory and explicit equipment-application labels */
+.application-badge{display:inline-flex;align-items:center;width:max-content;max-width:100%;padding:5px 10px;border-radius:999px;font-size:11px;font-weight:800;margin:7px 0 9px;border:1px solid #d8dee4;background:#f4f6f8;color:#39434d}
+.application-MARINE{background:#e8f4fb;border-color:#b9d9eb;color:#155779}
+.application-LAND{background:#f1f2f4;border-color:#d5d9de;color:#454d56}
+.application-BOTH{background:#e9f4ed;border-color:#bfddc9;color:#24633c}
+.application-UNVERIFIED{background:#fff5df;border-color:#f0d99d;color:#79570a}
+.marine-directory-section{padding:34px 0 38px;background:#f5f6f7;border-block:1px solid #e3e6e9}
+.marine-intro{color:#606a73;font-size:13px;line-height:1.9;margin:-4px 0 20px}
+.marine-engine-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.marine-engine-group{background:#fff;border:1px solid #e2e6e9;border-radius:12px;padding:16px;min-width:0}
+.marine-engine-group h3{font-size:15px;margin:0 0 13px;color:#252b30}
+.marine-engine-group h3 small{font-size:11px;color:#78828b;font-weight:500}
+.marine-model-chips{display:flex;flex-wrap:wrap;gap:8px}
+.marine-model-chip{display:flex;flex-direction:column;gap:3px;min-width:92px;padding:9px 11px;border:1px solid #e2e7eb;border-radius:9px;text-decoration:none;color:#28323a;background:#fafbfc}
+.marine-model-chip b{font-size:13px;direction:ltr;text-align:right}
+.marine-model-chip span{font-size:10px;color:#28739a}
+@media(max-width:700px){.marine-engine-grid{grid-template-columns:1fr}.marine-engine-group{padding:13px}.marine-model-chip{min-width:82px}}
