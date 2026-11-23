@@ -733,3 +733,19 @@ Official category sources:
 - [Gearboxes](https://parts.cat.com/en/catcorp/category/reman-products-gearboxes) — 5 records
 
 Official product pages: [11R-2061](https://parts.cat.com/en/catcorp/product/11R-2061), [11R-2060](https://parts.cat.com/en/catcorp/product/11R-2060), [536-6756](https://parts.cat.com/en/catcorp/product/536-6756), [535-2508](https://parts.cat.com/en/catcorp/product/535-2508), [591-2381](https://parts.cat.com/en/catcorp/product/591-2381), [591-2382](https://parts.cat.com/en/catcorp/product/591-2382), [20R-9045](https://parts.cat.com/en/catcorp/product/20R-9045), [20R-9567](https://parts.cat.com/en/catcorp/product/20R-9567), [20R-9565](https://parts.cat.com/en/catcorp/product/20R-9565), [20R-9564](https://parts.cat.com/en/catcorp/product/20R-9564), [20R-9566](https://parts.cat.com/en/catcorp/product/20R-9566).
+
+
+## Combined completed public Cat Reman categories (2026-11-23): Fan Clutches and Radiators
+
+A single migration, `202611232420_import_cat_fan_clutches_radiators_bundle.sql`, imports all 18 records from two official one-page Cat Reman categories:
+
+- **Fan Clutches — 13 of 13:** `0R-1039`, `10R-1417`, `20R-8352`, `20R-8360`, `20R-8364`, `20R-8369`, `20R-8373`, `20R-8380`, `20R-8381`, `20R-8390`, `20R-8403`, `20R-8406`, `20R-8418`.
+- **Radiators — 5 of 5:** `111-7785`, `140-4238`, `10R-0747`, `10R-0739`, `10R-0745`.
+
+All records are search-only `REFERENCE` entries; no price or stock is inferred. Engine models are stored only where the Cat title or Compatible Models section explicitly identifies them. Cat marks `10R-0747` discontinued. Only `140-4238` received an image because its official product page linked a high-resolution Scene7 asset; the other category images were low-resolution or unavailable and remain NULL.
+
+Official category pages:
+- [Fan Clutches](https://parts.cat.com/en/catcorp/category/reman-products-fan-clutches) — 13 records
+- [Radiators](https://parts.cat.com/en/catcorp/category/reman-products-radiators?page=1&sortBy=0) — 5 records
+
+Official product pages: [0R-1039](https://parts.cat.com/en/catcorp/product/0R-1039), [10R-1417](https://parts.cat.com/en/catcorp/product/10R-1417), [20R-8352](https://parts.cat.com/en/catcorp/product/20R-8352), [20R-8360](https://parts.cat.com/en/catcorp/product/20R-8360), [20R-8364](https://parts.cat.com/en/catcorp/product/20R-8364), [20R-8369](https://parts.cat.com/en/catcorp/product/20R-8369), [20R-8373](https://parts.cat.com/en/catcorp/product/20R-8373), [20R-8380](https://parts.cat.com/en/catcorp/product/20R-8380), [20R-8381](https://parts.cat.com/en/catcorp/product/20R-8381), [20R-8390](https://parts.cat.com/en/catcorp/product/20R-8390), [20R-8403](https://parts.cat.com/en/catcorp/product/20R-8403), [20R-8406](https://parts.cat.com/en/catcorp/product/20R-8406), [20R-8418](https://parts.cat.com/en/catcorp/product/20R-8418), [111-7785](https://parts.cat.com/en/catcorp/product/111-7785), [140-4238](https://parts.cat.com/en/catcorp/product/140-4238), [10R-0747](https://parts.cat.com/en/catcorp/product/10R-0747), [10R-0739](https://parts.cat.com/en/catcorp/product/10R-0739), [10R-0745](https://parts.cat.com/en/catcorp/product/10R-0745).
