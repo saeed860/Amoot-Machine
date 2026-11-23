@@ -4,8 +4,8 @@ declare
   v_count integer;
 begin
   select count(*) into v_count from public.part_catalog;
-  if v_count < 393 then
-    raise exception 'Expected at least 393 Caterpillar reference rows, found %', v_count;
+  if v_count < 394 then
+    raise exception 'Expected at least 394 Caterpillar reference rows, found %', v_count;
   end if;
 
   if not exists (
@@ -190,6 +190,40 @@ begin
       and engine_models && array['3512CB','3516CB']::text[]
   ) then
     raise exception '392-0217 must not claim CB-specific fitment';
+  end if;
+
+
+  if not exists (
+    select 1 from public.part_catalog
+    where part_number = '030-7946'
+      and engine_models @> array['C9']::text[]
+  ) or not exists (
+    select 1 from public.part_catalog
+    where part_number = '464-0329'
+      and engine_models @> array['C9']::text[]
+  ) or not exists (
+    select 1 from public.part_catalog
+    where part_number = '457-6112'
+      and engine_models @> array['C9']::text[]
+  ) then
+    raise exception 'C9/C9.3 directory model associations are incomplete';
+  end if;
+
+  if not exists (
+    select 1 from public.part_catalog
+    where part_number = '453-2315'
+      and engine_models @> array['C18']::text[]
+      and verification_status = 'REFERENCE'
+  ) then
+    raise exception 'C18 page-5 gasket reference is missing';
+  end if;
+
+  if exists (
+    select 1 from public.part_catalog
+    where part_number = '343-5527'
+      and engine_models @> array['C15']::text[]
+  ) then
+    raise exception '343-5527 must not be tagged as a C15 directory fitment';
   end if;
 
   if exists (
