@@ -675,7 +675,7 @@ Official product pages: [11R-0023](https://parts.cat.com/en/catcorp/product/11R-
 
 ## Completed public Cat Reman category (2026-11-23): Crankshaft Dampers
 
-Migration `202611232370_import_complete_cat_crankshaft_dampers_category.sql` imports the full official Crankshaft Dampers category (13 of 13):
+Migration `202611232370_import_complete_cat_crankshaft_dampers_category.sql` imports the first 12 entries; corrective migration `202611232371_add_missing_cat_crankshaft_damper_20r4700.sql` adds the omitted `20R-4700`, completing the official Crankshaft Dampers category (13 of 13):
 
 `0R-7853`, `0R-7847`, `20R-4602`, `10R-3833`, `10R-0711`, `10R-0707`, `10R-0716`, `10R-0717`, `10R-0715`, `10R-0718`, `20R-4700`, `20R-5393`, `20R-5420`.
 
