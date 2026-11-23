@@ -87,7 +87,7 @@ Additional search-only references were added/upserted from the public Cat Parts 
 - `202611231770`: drivetrain and undercarriage references.
 - `202611231780`: attachments and structures.
 - `202611231790`: cab filters/cameras, equipment upgrades, hose/cap parts, repair kits and workshop supplies.
-- `202611231795`: product-specific image corrections for `575-2083` and `626-4231`.
+- `202611231800`: product-specific image corrections for `575-2083` and `626-4231`.
 
 All these rows remain `REFERENCE`, with no price or stock. Fitment is recorded only where Cat's product page explicitly lists the model; category membership alone is not treated as machine compatibility.
 
