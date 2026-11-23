@@ -221,3 +221,32 @@ Migration `202611232070_expand_cat_c15_c18_reman_overhaul_references.sql` adds/u
 | 10R-9923 | C15 Reman Gold Overhaul Kit | Truck Engine C15 |
 
 Follow-up migration `202611232080_set_c15_c18_cat_scene7_images.sql` stores exact official Scene7 image assets for eight of the nine references. Cat's 30R-0925 page did not expose a direct Scene7 asset in this pass, so no guessed image was saved. All entries remain quote-only `REFERENCE` records; no price or stock is invented.
+
+
+## Consolidated fuel, turbocharger, pump and internal-engine parts batch (2026-11-23)
+
+Migration `202611232090_expand_cat_engine_fuel_turbo_pump_internal_references.sql` adds/upserts **17 official Cat Parts Store references**:
+
+| Part number | Component group | Explicit Cat-listed engine applications |
+|---|---|---|
+| 211-3023 | Fuel injector group | C-15, C-16, 3406E |
+| 392-0206 | Injector group | 3512B, 3508B, 3516B |
+| 20R-4147 | 3408/3412 Reman injector | 3408/3412 in product title; no wider fitment asserted |
+| 9N-3246 | Fuel injection nozzle | 3406, 3408, 3408B, 3412 |
+| 7N-9843 | Fuel injector valve nozzle | 3406, 3408, 3408B, 3412 |
+| 4N-0733 | Engine oil pump | 3406B/C/E, 3406, 3516 |
+| 0R-9448 | 3406C Reman oil pump | 3406B/C/E, 3406, 3508, 3516 |
+| 0R-9449 | Reman oil pump | C15/C16/C18, 3406B/C/E, 3408B/C, 3412 |
+| 0R-9200 | 3500 Reman connecting rod | 3508, 3512, 3516 and listed B/C variants |
+| 299-3521 | Engine cylinder head | 3508B/C, 3512/3512B/C, 3516B/C |
+| 223-9250 | Basic engine cylinder head | C15, C18, 3406E, C-16 |
+| 102-0296 | Basic turbocharger | 3512, 3516, 3516B |
+| 102-0299 | Turbocharger group | 3512, 3516 |
+| 1W-1052 | Turbocharger group | 3406 |
+| 134-5402 | Engine turbocharger | 3508, 3512, 3516 |
+| 528-9753 | Engine turbocharger | 3512B/C, 3516B/C, 3516 |
+| 1P-1120 | Turbocharger cartridge seal ring | 3406, 3408, 3412, 3508, 3512, 3516 variants |
+
+All rows remain `REFERENCE`, with null price and no saleable stock. Exact Cat source URLs and provenance are stored. Image URLs are not guessed: the existing API resolves official Cat product imagery where the Cat page exposes a product asset; pages showing a fallback image remain without an invented image. Confirm exact arrangement and serial-number fitment before accepting an order.
+
+Official Cat product pages: [211-3023](https://parts.cat.com/en/catcorp/product/211-3023), [392-0206](https://parts.cat.com/en/catcorp/product/392-0206), [20R-4147](https://parts.cat.com/en/catcorp/product/20R-4147), [9N-3246](https://parts.cat.com/en/catcorp/product/9N-3246), [7N-9843](https://parts.cat.com/en/catcorp/product/7N-9843), [4N-0733](https://parts.cat.com/en/catcorp/product/4N-0733), [0R-9448](https://parts.cat.com/en/catcorp/product/0R-9448), [0R-9449](https://parts.cat.com/en/catcorp/product/0R-9449), [0R-9200](https://parts.cat.com/en/catcorp/product/0R-9200), [299-3521](https://parts.cat.com/en/catcorp/product/299-3521), [223-9250](https://parts.cat.com/en/catcorp/product/223-9250), [102-0296](https://parts.cat.com/en/catcorp/product/102-0296), [102-0299](https://parts.cat.com/en/catcorp/product/102-0299), [1W-1052](https://parts.cat.com/en/catcorp/product/1W-1052), [134-5402](https://parts.cat.com/en/catcorp/product/134-5402), [528-9753](https://parts.cat.com/en/catcorp/product/528-9753), [1P-1120](https://parts.cat.com/en/catcorp/product/1P-1120).
