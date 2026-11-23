@@ -193,6 +193,20 @@ begin
   end if;
 
 
+
+  if (select count(*) from public.part_catalog where engine_models @> array['C9']::text[]) <> 125 then
+    raise exception 'Expected 125 C9/C9.3 references';
+  end if;
+  if (select count(*) from public.part_catalog where engine_models @> array['C15']::text[]) <> 142 then
+    raise exception 'Expected 142 C15 references';
+  end if;
+  if (select count(*) from public.part_catalog where engine_models @> array['C18']::text[]) <> 144 then
+    raise exception 'Expected 144 C18 references';
+  end if;
+  if (select count(*) from public.part_catalog where engine_models && array['3406','3408']::text[]) <> 14 then
+    raise exception 'Expected 14 combined 3406/3408 references';
+  end if;
+
   if not exists (
     select 1 from public.part_catalog
     where part_number = '030-7946'
