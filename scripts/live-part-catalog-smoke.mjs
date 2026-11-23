@@ -74,7 +74,7 @@ const tests = [
   { q: "244-3114", sku: "244-3114", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Hydraulics" },
   { q: "539-0117", sku: "539-0117", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Electrical & Electronics" },
   { q: "505-4113", sku: "505-4113", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Ground Engaging Tools" },
-  { q: "000-5242", sku: "000-5242", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Hardware, Seals, & Consumables" },
+  { q: "000-5242", sku: "000-5242", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Hardware, Seals & Consumables" },
   { q: "6V-0852", sku: "6V-0852", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Hoses & Tubes" },
   { q: "574-0991", sku: "574-0991", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Engine" },
   { q: "20R-5566", sku: "20R-5566", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Engine" },
