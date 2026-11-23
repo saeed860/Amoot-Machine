@@ -76,6 +76,26 @@ jobs:
             console.log(JSON.stringify(checks,null,2));
             const full = checks.find(x=>x.mode==='all');
             if (!full || full.state?.blocked || !['interactive','complete'].includes(full.state?.ready) || full.state?.products<5 || full.errors?.length) throw new Error('Full storefront failed startup test');
+
+            // Verify that the homepage search bar routes to the full parts catalog.
+            const homeSearchPage = await browser.newPage();
+            await homeSearchPage.route('**/functions/v1/store-api/api/products*', async route => {
+              await route.fulfill({status:200,contentType:'application/json',body:JSON.stringify({items:[{id:'p1',kind:'PART_REFERENCE',sku:'392-0217',name:'Fuel injector',brand:'Caterpillar',category:'قطعات موتور',machineModel:'3512 / 3516',priceIrr:null,stock:0,sourceUrl:'https://parts.cat.com/en/catcorp/product/392-0217'}]})});
+            });
+            await homeSearchPage.goto('http://127.0.0.1:4173/', {waitUntil:'domcontentloaded',timeout:8000});
+            await homeSearchPage.locator('#search').fill('392-0217');
+            await homeSearchPage.locator('#quickSearchForm button[type=submit]').click();
+            await homeSearchPage.waitForURL('**/search.html?q=392-0217', {timeout:8000});
+            await homeSearchPage.waitForSelector('.part-detail-card .part-number', {timeout:8000});
+            const homeSearchState = await homeSearchPage.evaluate(() => ({
+              path:location.pathname,query:new URLSearchParams(location.search).get('q'),
+              cards:document.querySelectorAll('.part-detail-card').length,
+              part:document.querySelector('.part-detail-card .part-number')?.textContent.trim(),
+              font:getComputedStyle(document.body).fontFamily
+            }));
+            checks.push({mode:'homepage-quick-search',state:homeSearchState});
+            if (!homeSearchState.path.endsWith('/search.html') || homeSearchState.query!=='392-0217' || homeSearchState.cards<1 || !homeSearchState.part.includes('392-0217') || !homeSearchState.font.includes('Estedad')) throw new Error('Homepage quick search did not open the styled parts catalog');
+            await homeSearchPage.close();
             const searchPage = await browser.newPage();
             const searchErrors = [], searched = [];
             searchPage.on('pageerror', e => searchErrors.push(e.message));
