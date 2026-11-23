@@ -65,7 +65,7 @@ Deno.serve(async (req) => {
       const productItems = (data ?? []).map(p => ({ id:p.id, kind:"PRODUCT", sku:p.sku, name:p.name, brand:p.brand, category:p.category, machineModel:p.machine_model, description:p.description, imageUrl:p.image_url, priceIrr:p.price_irr == null ? null : String(p.price_irr), stock:p.stock }));
       let partItems:any[] = [];
       if (q || model) {
-        let partsQuery = adminDb.from("part_catalog").select("id,part_number,part_number_normalized,name,description,engine_models,technical_group,source_name,source_url,verification_status").eq("is_active",true).eq("brand","Caterpillar").limit(100);
+        let partsQuery = adminDb.from("part_catalog").select("id,part_number,part_number_normalized,name,description,engine_models,technical_group,source_name,source_url,source_note,verification_status").eq("is_active",true).eq("brand","Caterpillar").limit(100);
         if (model) partsQuery = partsQuery.contains("engine_models",[model.toUpperCase()]);
         if (q) {
           const normalized=q.toUpperCase().replace(/[^A-Z0-9]/g,"");
@@ -75,7 +75,7 @@ Deno.serve(async (req) => {
         }
         const {data:parts,error:partsError}=await partsQuery;
         if(partsError && partsError.code!=="42P01")return fail(500,"PART_CATALOG_FAILED","جستجوی کاتالوگ پارت‌نامبر ناموفق بود.");
-        partItems=(parts??[]).map(p=>({id:p.id,kind:"PART_REFERENCE",sku:p.part_number,name:p.name,brand:"Caterpillar",category:"قطعات موتور",machineModel:(p.engine_models??[]).join(" / "),description:[p.description,p.technical_group?"گروه فنی: "+p.technical_group:"","مرجع: "+p.source_name,"وضعیت: "+p.verification_status,"سازگاری نهایی با شماره سریال موتور بررسی شود."].filter(Boolean).join(" · "),imageUrl:null,priceIrr:null,stock:0,sourceUrl:p.source_url}));
+        partItems=(parts??[]).map(p=>({id:p.id,kind:"PART_REFERENCE",sku:p.part_number,name:p.name,brand:"Caterpillar",category:"قطعات موتور",machineModel:(p.engine_models??[]).join(" / "),description:[p.description,p.technical_group?"گروه فنی: "+p.technical_group:"","مرجع: "+p.source_name,"وضعیت: "+p.verification_status,p.source_note,"سازگاری نهایی با شماره سریال و Arrangement بررسی شود."].filter(Boolean).join(" · "),imageUrl:null,priceIrr:null,stock:0,sourceUrl:p.source_url}));
       }
       const merged=[...productItems,...partItems].filter((item,index,all)=>all.findIndex(x=>String(x.sku).toUpperCase().replace(/[^A-Z0-9]/g,"")===String(item.sku).toUpperCase().replace(/[^A-Z0-9]/g,""))===index);
       return json({items:merged.slice(0,150),partReferenceCount:partItems.length});
