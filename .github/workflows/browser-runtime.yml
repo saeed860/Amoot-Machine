@@ -86,10 +86,22 @@ jobs:
             await searchPage.goto('http://127.0.0.1:4173/search.html',{waitUntil:'domcontentloaded',timeout:8000});
             await searchPage.locator('#partQuery').fill('3512CB');
             await searchPage.locator('#partsSearchForm button[type=submit]').click();
-            await searchPage.waitForSelector('.part-result',{timeout:5000});
-            const searchState = await searchPage.evaluate(() => ({title:document.title,results:document.querySelectorAll('.part-result').length,shown:document.querySelector('.part-number')?.textContent}));
+            await searchPage.waitForSelector('.part-detail-card',{timeout:5000});
+            const searchState = await searchPage.evaluate(() => ({title:document.title,results:document.querySelectorAll('.part-detail-card').length,shown:document.querySelector('.part-number')?.textContent,availability:document.querySelector('.stock-state')?.textContent,hasInquiry:!!document.querySelector('[data-open-quote]')}));
             checks.push({mode:'parts-search',state:searchState,queries:searched,errors:searchErrors});
-            if (searchState.results!==1 || searchState.shown!=='392-0217' || searched[0]!=='3512CB' || searchErrors.length) throw new Error('Parts search page failed runtime test');
+            if (searchState.results!==1 || !searchState.shown.includes('392-0217') || !searchState.availability.includes('کاتالوگ') || !searchState.hasInquiry || searched[0]!=='3512CB' || searchErrors.length) throw new Error('Parts search inventory card failed runtime test');
+            let quotePayload=null;
+            await searchPage.route('**/functions/v1/store-api/api/quotes',async route=>{
+              quotePayload=JSON.parse(route.request().postData()||'{}');
+              await route.fulfill({status:201,contentType:'application/json',body:JSON.stringify({quote:{quoteNumber:'AQ-TEST123'}})});
+            });
+            await searchPage.locator('[data-open-quote]').click();
+            await searchPage.locator('input[name="name"]').fill('Test Customer');
+            await searchPage.locator('input[name="phone"]').fill('09120000000');
+            await searchPage.locator('button[type="submit"]').filter({hasText:'ثبت درخواست استعلام'}).click();
+            await searchPage.waitForFunction(()=>document.querySelector('.quote-feedback')?.textContent.includes('AQ-TEST123'));
+            if(quotePayload?.productSku!=='392-0217'||!quotePayload?.message?.includes('392-0217')) throw new Error('Supplier inquiry payload failed');
+            checks.push({mode:'supplier-inquiry',submitted:true,productSku:quotePayload.productSku});
             await searchPage.close();
           } finally {
             await browser.close().catch(()=>{});
