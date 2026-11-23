@@ -142,3 +142,65 @@
  .part-image,.part-image-placeholder{width:70px;height:70px;flex-basis:70px}
  .part-detail-title h3{font-size:12px}
 }
+
+
+/* AMOOT MACHINE — 2026 premium parts finder refresh */
+.sr-only{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.header-search{margin:0;min-width:230px}
+.header-search input[type=search]{appearance:none;-webkit-appearance:none}
+.header-search input[type=search]::-webkit-search-cancel-button{-webkit-appearance:none}
+.parts-search-page{background:#eef1f3}
+.parts-search-page .topline{background:#171b1e}
+.parts-search-page .search-header{max-width:1440px}
+.parts-search-page .search-main{max-width:1440px;padding-top:26px}
+.parts-search-page .search-intro{min-height:220px;padding:42px 48px;display:flex;flex-direction:column;justify-content:center;border-radius:16px;background:radial-gradient(circle at 14% 30%,#41494e 0,#252b2f 32%,transparent 60%),linear-gradient(110deg,#171b1e,#30373b);box-shadow:0 18px 42px #10182024}
+.parts-search-page .search-intro:before{left:5%;top:-210px;width:520px;height:520px;border:1px solid #ffffff18;box-shadow:0 0 0 42px #ffffff08,0 0 0 88px #ffffff05}
+.parts-search-page .search-intro:after{left:22%;bottom:-140px;width:280px;height:280px;opacity:.14}
+.parts-search-page .search-intro h1{font-size:clamp(28px,3.3vw,42px);letter-spacing:-.6px}
+.parts-search-page .search-intro p{font-size:13px;max-width:760px}
+.parts-search-page .search-panel{margin:-26px 30px 22px;padding:25px 28px;border-radius:13px;box-shadow:0 18px 42px #10182016}
+.parts-search-page .search-input-row input{height:58px;font-size:14px}
+.parts-search-page .search-input-row button{min-width:160px;font-size:13px}
+.parts-search-page .filter-area,.parts-search-page .results-section,.parts-search-page .search-help{border-radius:13px;box-shadow:0 7px 24px #1018200a}
+.parts-search-page .results-section{padding:26px}
+.parts-search-page .results-list{gap:18px}
+.parts-search-page .part-detail-card{padding:25px 26px;border-radius:14px;border-color:#dfe4e7;background:linear-gradient(115deg,#fff 0%,#fff 72%,#fcfcf8 100%);box-shadow:0 8px 26px #1b252d0c}
+.parts-search-page .part-detail-card:before{width:5px;background:linear-gradient(180deg,#ffd84d,#dca900)}
+.parts-search-page .part-detail-card:hover{transform:translateY(-3px);box-shadow:0 16px 36px #1b252d16}
+.parts-search-page .part-detail-top{gap:24px}
+.parts-search-page .part-image,.parts-search-page .part-image-placeholder{width:154px;height:154px;flex-basis:154px;border-radius:12px;background:linear-gradient(145deg,#f8f9f9,#edf0f1);border:1px solid #e7ebed}
+.parts-search-page .part-brand{font-size:10px;padding:6px 11px}
+.parts-search-page .part-detail-title h3{font-size:20px;margin:10px 0 5px}
+.parts-search-page .part-detail-title .part-number{font-size:13px;padding:9px 14px;border-radius:7px;box-shadow:0 3px 9px #171b1e18}
+.parts-search-page .part-detail-title p{font-size:12px;line-height:2.15}
+.parts-search-page .part-spec-grid{gap:12px;margin-top:22px}
+.parts-search-page .part-spec-grid>div{min-height:82px;padding:14px 15px;border-radius:9px;background:#f5f7f7;border-color:#e9edef}
+.parts-search-page .part-spec-grid small{font-size:10px}
+.parts-search-page .part-spec-grid b{font-size:12px}
+.parts-search-page .part-stock-check{margin-top:18px;padding:18px 0 15px}
+.parts-search-page .part-stock-check>div b{font-size:13px}
+.parts-search-page .part-stock-check p{font-size:11px}
+.parts-search-page .part-action{min-height:43px;padding:10px 19px;font-size:11px}
+.parts-search-page .stock-qty{font-size:11px;padding:10px 15px}
+.parts-search-page .part-source{font-size:11px}
+.parts-search-page .quote-inline{padding:20px;border-radius:11px}
+.parts-search-page .search-help{padding:20px 24px}
+@media(max-width:900px){
+ .parts-search-page .search-intro{padding:34px 30px}
+ .parts-search-page .search-panel{margin:-18px 12px 18px;padding:21px}
+ .parts-search-page .part-image,.parts-search-page .part-image-placeholder{width:120px;height:120px;flex-basis:120px}
+}
+@media(max-width:650px){
+ .parts-search-page .search-intro{min-height:190px;padding:27px 20px}
+ .parts-search-page .search-intro h1{font-size:25px}
+ .parts-search-page .search-panel{margin:0 0 14px;padding:16px}
+ .parts-search-page .results-section{padding:16px}
+ .parts-search-page .part-detail-card{padding:16px}
+ .parts-search-page .part-detail-top{gap:12px}
+ .parts-search-page .part-image,.parts-search-page .part-image-placeholder{width:88px;height:88px;flex-basis:88px}
+ .parts-search-page .part-detail-title h3{font-size:14px}
+ .parts-search-page .part-detail-title .part-number{font-size:10px}
+ .parts-search-page .part-detail-title p{font-size:9px}
+ .parts-search-page .part-spec-grid>div{min-height:65px;padding:9px}
+ .parts-search-page .part-spec-grid b{font-size:9px}
+}
