@@ -69,6 +69,13 @@ const tests = [
   ...["321-8076","7T-3205","221-8307","1R-0716","320-6690","HPU-042","HCV-315","HPP-220","PNC-032","FRL-01","SV-24V"].map(q => ({q, absent:true})),
   { q: "CAT-1L-9049", sku: "CAT-1L-9049", kind: "PRODUCT", filterCategory: "قطعات موتور" },
   { q: "CAT-202-2785", sku: "CAT-202-2785", kind: "PRODUCT", filterCategory: "قطعات برقی" },
+
+  { q: "360-8960", sku: "360-8960", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Filters & Fluids" },
+  { q: "244-3114", sku: "244-3114", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Hydraulics" },
+  { q: "539-0117", sku: "539-0117", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Electrical & Electronics" },
+  { q: "505-4113", sku: "505-4113", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Ground Engaging Tools" },
+  { q: "000-5242", sku: "000-5242", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Hardware, Seals, & Consumables" },
+  { q: "6V-0852", sku: "6V-0852", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Hoses & Tubes" },
 ];
 let failed = false;
 for (const test of tests) {
