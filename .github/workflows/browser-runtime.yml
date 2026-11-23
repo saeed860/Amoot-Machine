@@ -9,6 +9,9 @@ on:
       - "api-client.js"
       - "api-config.js"
       - "style.css"
+      - "search.html"
+      - "search.js"
+      - "search.css"
       - "assets/**"
       - ".github/workflows/browser-runtime.yml"
   workflow_dispatch:
@@ -72,6 +75,22 @@ jobs:
             console.log(JSON.stringify(checks,null,2));
             const full = checks.find(x=>x.mode==='all');
             if (!full || full.state?.blocked || full.state?.ready!=='complete' || full.state?.products<5 || full.errors?.length) throw new Error('Full storefront failed startup test');
+            const searchPage = await browser.newPage();
+            const searchErrors = [], searched = [];
+            searchPage.on('pageerror', e => searchErrors.push(e.message));
+            await searchPage.route('**/functions/v1/store-api/api/products*', async route => {
+              const url = new URL(route.request().url());
+              searched.push(url.searchParams.get('q'));
+              await route.fulfill({status:200,contentType:'application/json',body:JSON.stringify({items:[{id:'p1',kind:'PART_REFERENCE',sku:'392-0217',name:'Fuel injector',brand:'Caterpillar',category:'قطعات موتور',machineModel:'3512 / 3516',priceIrr:null,stock:0,sourceUrl:'https://parts.cat.com/en/catcorp/product/392-0217'}]})});
+            });
+            await searchPage.goto('http://127.0.0.1:4173/search.html',{waitUntil:'domcontentloaded',timeout:8000});
+            await searchPage.locator('#partQuery').fill('3512CB');
+            await searchPage.locator('#partsSearchForm button[type=submit]').click();
+            await searchPage.waitForSelector('.part-result',{timeout:5000});
+            const searchState = await searchPage.evaluate(() => ({title:document.title,results:document.querySelectorAll('.part-result').length,shown:document.querySelector('.part-number')?.textContent}));
+            checks.push({mode:'parts-search',state:searchState,queries:searched,errors:searchErrors});
+            if (searchState.results!==1 || searchState.shown!=='392-0217' || searched[0]!=='3512CB' || searchErrors.length) throw new Error('Parts search page failed runtime test');
+            await searchPage.close();
           } finally {
             await browser.close().catch(()=>{});
             server.closeAllConnections();
