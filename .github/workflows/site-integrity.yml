@@ -22,6 +22,9 @@ on:
       - "api-client.js"
       - "api-config.js"
       - "style.css"
+      - "search.html"
+      - "search.js"
+      - "search.css"
       - "assets/**"
       - ".github/workflows/site-integrity.yml"
 jobs:
