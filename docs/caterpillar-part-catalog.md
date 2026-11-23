@@ -655,3 +655,19 @@ Official category sources:
 - [Radiators](https://parts.cat.com/en/catcorp/category/reman-products-radiators?page=1&sortBy=0) — 5 records
 
 Official product pages: [0R-1039](https://parts.cat.com/en/catcorp/product/0R-1039), [10R-1417](https://parts.cat.com/en/catcorp/product/10R-1417), [0R-9983](https://parts.cat.com/en/catcorp/product/0R-9983), [10R-2356](https://parts.cat.com/en/catcorp/product/10R-2356), [0R-9986](https://parts.cat.com/en/catcorp/product/0R-9986), [10R-0747](https://parts.cat.com/en/catcorp/product/10R-0747), [10R-0739](https://parts.cat.com/en/catcorp/product/10R-0739), [10R-0745](https://parts.cat.com/en/catcorp/product/10R-0745).
+
+
+## Completed public Cat Reman category (2026-11-23): Generator Ends
+
+Migration `202611232360_import_complete_cat_generator_ends_category.sql` imports the full official Generator Ends category (10 of 10):
+
+`11R-0023`, `11R-0024`, `11R-0025`, `11R-2113`, `30R-0417`, `30R-0418`, `30R-0422`, `30R-0454`, `30R-0484`, `30R-0485`.
+
+All are search-only `REFERENCE` records, without price or inventory. Cat Compatible Models values are retained only when explicitly listed on product pages. `11R-0025` explicitly has no compatibility data; the D6R XE Motor wording remains descriptive only. No engine family is inferred from equipment fitment.
+
+Verified official Scene7 product images are attached to `30R-0417`, `30R-0418`, `30R-0454`, `30R-0484`, and `30R-0485`. Other entries remain image-null where the page exposed only a fallback or non-product image.
+
+Official category source:
+- [Generator Ends](https://parts.cat.com/en/catcorp/category/reman-products-generator-ends?page=1&sortBy=0) — 10 records
+
+Official product pages: [11R-0023](https://parts.cat.com/en/catcorp/product/11R-0023), [11R-0024](https://parts.cat.com/en/catcorp/product/11R-0024), [11R-0025](https://parts.cat.com/en/catcorp/product/11R-0025), [11R-2113](https://parts.cat.com/en/catcorp/product/11R-2113), [30R-0417](https://parts.cat.com/en/catcorp/product/30R-0417), [30R-0418](https://parts.cat.com/en/catcorp/product/30R-0418), [30R-0422](https://parts.cat.com/en/catcorp/product/30R-0422), [30R-0454](https://parts.cat.com/en/catcorp/product/30R-0454), [30R-0484](https://parts.cat.com/en/catcorp/product/30R-0484), [30R-0485](https://parts.cat.com/en/catcorp/product/30R-0485).
