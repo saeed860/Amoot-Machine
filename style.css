@@ -1,43 +1,307 @@
-<!doctype html>
-<html lang="fa" dir="rtl">
-<head>
-<meta charset="utf-8">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Estedad:wght@100..900&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#202326">
-<title>آموت ماشین | تأمین قطعات و ماشین‌آلات صنعتی</title>
+:root{--yellow:#ffc400;--dark:#202326;--ink:#17191b;--muted:#777d82;--line:#e4e6e8;--paper:#f6f7f8}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#fff;color:var(--ink);font-family:Estedad,Tahoma,sans-serif}button,input,select,textarea{font-family:inherit}.wrap{width:min(1500px,calc(100% - 48px));margin:auto}.topline{background:#202326;color:#f7f7f7;font-size:11px}.top-inner{height:38px;display:flex;justify-content:space-between;align-items:center}.top-left{display:flex;gap:24px}.top-left span+span{border-right:1px solid #555;padding-right:22px}.top-right{font-weight:700}.top-right b{display:inline-block;width:3px;height:14px;background:var(--yellow);margin-right:9px;vertical-align:middle}.header{background:#fff;box-shadow:0 2px 10px #0000000b;position:relative;z-index:5}.header-main{height:76px;display:flex;align-items:center;gap:25px}.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:#101214;flex-shrink:0}.brand-name{font-size:21px;font-weight:900;line-height:1.2}.brand-name small{display:block;font-size:10px;letter-spacing:1.6px;direction:ltr;text-align:right}.brand-mark{width:48px;height:42px;position:relative;display:block;overflow:hidden}.brand-mark:before,.brand-mark:after,.brand-mark i{content:"";position:absolute;bottom:0;border-style:solid;border-color:transparent transparent var(--yellow) transparent}.brand-mark:before{border-width:0 23px 38px 23px;right:0}.brand-mark:after{border-width:0 15px 25px 15px;right:13px;border-bottom-color:var(--dark)}.brand-mark i:first-child{z-index:2;border-width:0 8px 14px 8px;right:20px;border-bottom-color:var(--yellow)}.brand-mark i:last-child{display:none}.main-nav{display:flex;gap:25px;white-space:nowrap;font-size:12px;font-weight:700}.main-nav a{color:#292c2e;text-decoration:none;padding:27px 0}.main-nav a.selected,.main-nav a:hover{border-bottom:3px solid var(--yellow)}.header-search{height:43px;display:flex;border:1px solid #dfe1e3;border-radius:6px;overflow:hidden;flex:1;min-width:160px}.header-search select{width:110px;border:0;border-left:1px solid #ddd;background:#fafafa;padding:0 8px;font-size:10px}.header-search input{border:0;outline:0;flex:1;min-width:0;padding:0 12px;font-size:11px}.header-search button{width:48px;border:0;background:var(--yellow);font-size:26px;cursor:pointer}.btn{border:0;border-radius:7px;padding:11px 17px;font-size:11px;font-weight:800;cursor:pointer;white-space:nowrap}.yellow{background:var(--yellow);color:#17191b}.dark{background:#202326;color:#fff}.hamb{display:none;background:none;border:0;font-size:23px}.yellow-nav{background:var(--yellow);height:34px}.yellow-nav .wrap{height:100%;display:flex;align-items:center;justify-content:space-between;font-size:10px;font-weight:700}.yellow-nav button{background:transparent;border:0;font-size:11px;font-weight:900;cursor:pointer}.hero{height:290px;position:relative;overflow:hidden;background:#202326;color:#fff}.hero-photo{position:absolute;inset:0 0 0 40%;background-image:url('./assets/hero-excavator.jpg');background-size:cover;background-position:center 48%;}.hero-shade{position:absolute;inset:0;background:linear-gradient(270deg,#202326 0%,#202326f5 38%,#2023269c 54%,#20232600 76%)}.hero-content{position:relative;height:100%;display:flex;align-items:center;justify-content:flex-start}.hero-copy{width:56%;margin-right:auto;text-align:right;padding:20px 0}.eyebrow{font-size:11px;color:var(--yellow);font-weight:800}.eyebrow i{display:inline-block;width:20px;height:2px;background:var(--yellow);margin-left:8px;vertical-align:middle}h1{font-size:36px;line-height:1.55;margin:8px 0 4px;font-weight:900}h1 em{font-style:normal;color:var(--yellow)}.hero-copy p{font-size:12px;color:#e3e5e6;margin:0 0 18px}.hero-search{display:flex;background:#fff;border-radius:7px;overflow:hidden;height:43px;max-width:590px}.hero-search input{flex:1;min-width:0;border:0;outline:0;padding:0 15px;font-size:11px}.hero-search button{width:48px;background:var(--yellow);border:0;font-size:25px;cursor:pointer}.hero-points{display:flex;gap:22px;font-size:10px;margin-top:15px;color:#f2f2f2}.hero-points span:first-letter{color:var(--yellow)}.hero-stripe{position:absolute;left:-35px;top:0;width:54px;height:100%;background:var(--yellow);transform:skewX(-24deg);opacity:.95}.category-section{padding:12px 0 22px;background:#fff}.categories{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:9px}.cat{height:91px;display:flex;align-items:center;gap:8px;padding:7px 9px;border:1px solid #e4e6e8;border-radius:9px;background:linear-gradient(145deg,#fff,#f5f6f7);cursor:pointer;text-align:right;min-width:0;transition:.2s}.cat:hover,.cat.active{border-color:var(--yellow);box-shadow:0 4px 14px #0000000b}.cat img{width:42%;height:76px;object-fit:contain;mix-blend-mode:multiply}.cat span{display:flex;flex-direction:column;min-width:0;flex:1}.cat b{font-size:11px;white-space:nowrap}.cat small{font-size:8px;color:#777;white-space:nowrap}.cat i{width:25px;height:25px;border-radius:50%;background:var(--yellow);font-style:normal;display:grid;place-items:center;flex-shrink:0}.products-section{padding:2px 0 18px}.section-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px}.section-head h2{font-size:21px;margin:0;font-weight:900;border-right:5px solid var(--yellow);padding-right:12px}.more{font-size:11px;color:#b48600;text-decoration:none;font-weight:800}.filters{display:flex;gap:7px;justify-content:flex-start;margin-bottom:8px}.filters select{padding:5px 10px;border:1px solid var(--line);border-radius:5px;background:#fff;font-size:10px}.product-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}.product{background:#fff;border:1px solid #e1e4e6;border-radius:7px;overflow:hidden;transition:.2s}.product:hover{box-shadow:0 7px 20px #00000012;transform:translateY(-2px)}.product-img{height:137px;background:#fff;display:grid;place-items:center;overflow:hidden;padding:8px}.product-img img{width:100%;height:100%;object-fit:contain;mix-blend-mode:multiply}.product-body{padding:5px 12px 11px}.tag{display:none}.product h3{font-size:12px;margin:3px 0 0;font-weight:800}.product-meta{font-size:9px;color:#747a7e;line-height:1.8}.product-foot{display:flex;align-items:center;justify-content:space-between;gap:6px;margin-top:8px}.price{font-size:10px;font-weight:900;white-space:nowrap}.ask{border:0;background:var(--yellow);color:#17191b;border-radius:5px;padding:7px 10px;font-size:9px;font-weight:800;cursor:pointer}.empty{grid-column:1/-1;padding:30px;text-align:center;background:#f7f7f7;color:#777}.trust-strip{background:#202326;color:#fff;padding:14px 0}.trust-grid{display:grid;grid-template-columns:repeat(5,1fr) auto;gap:12px;align-items:center}.trust-grid div{border-left:1px solid #777;padding:5px 12px}.trust-grid b,.trust-grid small{display:block}.trust-grid b{font-size:11px;color:#fff}.trust-grid small{font-size:9px;color:#c4c7c9}.trust-grid .btn{font-size:10px}.about-section{position:relative;min-height:180px;background:#f6f7f8;overflow:hidden}.about-photo{position:absolute;inset:0 0 0 48%;background:url('./assets/about-dumptruck.jpg') center/cover no-repeat}.about-section:after{content:"";position:absolute;inset:0;background:linear-gradient(270deg,#f6f7f8 0%,#f6f7f8f5 40%,#f6f7f800 75%)}.about-copy{position:relative;z-index:1;min-height:180px;display:flex;align-items:center}.about-copy>div{width:50%;padding:18px 0}.about-copy h2{font-size:21px;margin:0 0 8px;border-right:5px solid var(--yellow);padding-right:12px}.about-copy p{font-size:11px;line-height:2;color:#45494c}.footer{padding:28px 0;color:#fff}.footer p,.footer>span{font-size:11px;color:#b9bec1}.footer .brand-name{color:#fff}.copy{display:block;border-top:1px solid #ffffff22;padding-top:14px;margin-top:18px;color:#8f969a;font-size:10px}footer{background:#202326}.modal{position:fixed;inset:0;background:#0009;z-index:30;display:none;align-items:center;justify-content:center;padding:18px}.modal.open{display:flex}.modal-card{background:#fff;border-radius:12px;width:min(850px,100%);max-height:90vh;overflow:auto;padding:28px;position:relative}.close{position:absolute;left:18px;top:12px;border:0;background:none;font-size:27px;cursor:pointer}.modal h2{font-size:20px;margin:0 0 20px}.field{display:flex;flex-direction:column;gap:6px;margin-bottom:13px}.field label{font-size:11px;font-weight:700}.field input,.field textarea,.field select{padding:11px;border:1px solid #ddd;border-radius:6px;font-size:12px;width:100%}.field textarea{min-height:75px}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.notice{background:#fff7d9;padding:12px;border-radius:6px;font-size:11px;margin:12px 0}.admin-layout{display:grid;grid-template-columns:190px 1fr;min-height:480px;gap:20px}.side{background:#25292c;color:#fff;border-radius:8px;padding:14px}.side button{display:block;width:100%;padding:11px;text-align:right;background:none;color:#d9dcde;border:0;border-radius:5px;font-size:11px;cursor:pointer}.side button.sel,.side button:hover{background:#ffffff16;color:var(--yellow)}.admin-main{min-width:0}.admin-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:15px}.admin-head h3{margin:0;font-size:17px}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:18px}.stat{background:#f6f7f7;border-radius:7px;padding:14px}.stat small{display:block;color:var(--muted);font-size:10px}.stat b{font-size:21px}.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:7px}table{width:100%;border-collapse:collapse;font-size:10px;white-space:nowrap}th,td{padding:11px;border-bottom:1px solid var(--line);text-align:right}th{background:#f6f7f7}.admin-actions{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:14px}.mini{padding:8px 12px;font-size:10px;border:0;border-radius:5px;background:#202326;color:#fff;cursor:pointer}.mini.gold{background:var(--yellow);color:#202326}.mini.red{background:#b83b32}.status{padding:4px 7px;border-radius:4px;background:#edf8ed;color:#35733b}.login-box{max-width:360px;margin:30px auto}.login-box .btn{width:100%}.toast{position:fixed;bottom:20px;left:20px;z-index:60;background:#202326;color:white;padding:12px 18px;border-radius:7px;font-size:11px;display:none}.toast.show{display:block}
+@media(max-width:1100px){.header-main{gap:14px}.main-nav{gap:14px}.brand-name{font-size:18px}.admin-entry{display:none}.categories{grid-template-columns:repeat(3,1fr)}.product-grid{grid-template-columns:repeat(3,1fr)}.trust-grid{grid-template-columns:repeat(3,1fr)}.trust-grid .btn{grid-column:1/-1;justify-self:start}}
+@media(max-width:720px){.wrap{width:calc(100% - 28px)}.top-inner{height:32px}.top-left{gap:10px;font-size:9px}.top-left span+span{padding-right:9px}.top-right{display:none}.header-main{height:65px}.main-nav{display:none;position:absolute;top:65px;right:0;left:0;background:#fff;padding:12px 20px;box-shadow:0 8px 14px #0002;flex-direction:column;gap:4px}.main-nav.show{display:flex}.main-nav a{padding:9px}.header-search{display:none}.hamb{display:block;margin-right:auto}.brand-name{font-size:17px}.brand-mark{transform:scale(.85)}.yellow-nav{height:32px}.yellow-nav span{font-size:9px}.hero{height:300px}.hero-photo{inset:0 0 0 12%;opacity:.7}.hero-shade{background:linear-gradient(270deg,#202326 0%,#202326e8 45%,#2023266b 100%)}.hero-copy{width:100%;padding:15px 0}.hero-copy h1{font-size:29px}.hero-copy p{font-size:10px;max-width:95%}.hero-points{font-size:8px;gap:10px;flex-wrap:wrap}.hero-search{height:39px}.hero-search input{font-size:9px}.categories{grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}.cat{height:82px;padding:5px}.cat img{height:70px}.cat b{font-size:10px}.cat small{font-size:7px}.cat i{width:21px;height:21px}.section-head h2{font-size:18px}.product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.product-img{height:115px}.product-body{padding:5px 8px 9px}.product h3{font-size:10px}.product-meta{font-size:8px}.price{font-size:9px}.ask{padding:6px 8px;font-size:8px}.trust-grid{grid-template-columns:repeat(2,1fr);gap:6px}.trust-grid div{padding:5px 8px}.trust-grid b{font-size:9px}.trust-grid small{font-size:8px}.about-photo{inset:0 0 0 20%;opacity:.22}.about-section:after{background:#f6f7f8d9}.about-copy>div{width:100%}.about-copy p{font-size:10px}.admin-layout{grid-template-columns:1fr}.side{display:flex;overflow:auto;gap:4px}.side button{white-space:nowrap;width:auto}.stats{grid-template-columns:repeat(2,1fr)}.modal-card{padding:23px 16px}.form-grid{grid-template-columns:1fr}}
+@media(max-width:390px){.product-foot{align-items:flex-start;flex-direction:column}.ask{width:100%}.cat small{white-space:normal}}
 
-<link rel="icon" type="image/png" href="./assets/amoot-logo.png">
-<link rel="stylesheet" href="./style.css?v=20261123f">
-</head>
-<body>
-<div class="topline"><div class="wrap top-inner"><div class="top-left"><button type="button" class="account-entry" id="accountEntry" onclick="openAuth('login')">♙ ورود / ثبت‌نام</button><button type="button" class="admin-entry" onclick="openAdmin()">ورود مدیریت</button><button type="button" class="cart-entry" onclick="openCart()">▣ سبد خرید <b id="cartCount">۰</b></button><span>☎ 021-12345678</span></div><div class="top-right">تأمین تخصصی قطعات و ماشین‌آلات صنعتی <b></b></div></div></div>
-<header class="header"><div class="wrap header-main"><a class="brand" href="#home"><span class="brand-mark"><img src="./assets/amoot-logo.png" alt="نشان آموت ماشین"></span><span class="brand-name">آموت ماشین<small>AMOOT MACHINE</small></span></a><nav class="main-nav"><a class="selected" href="#home">خانه</a><a href="#products">محصولات⌄</a><a href="./search.html">جستجوی قطعات</a><a href="#catalog">دسته‌بندی‌ها</a><a href="#about">درباره ما</a><a href="#contact">تماس با ما</a></nav><form class="header-search" id="quickSearchForm" action="./search.html" method="get" role="search"><label class="sr-only" for="search">جستجوی پارت‌نامبر، نام قطعه یا مدل موتور</label><input id="search" name="q" type="search" autocomplete="off" placeholder="پارت‌نامبر، نام قطعه یا مدل موتور را جستجو کنید..." required><button type="submit" aria-label="جستجو در کاتالوگ قطعات">⌕</button></form><button class="category-entry" onclick="document.querySelector('#catalog').scrollIntoView({behavior:'smooth'})">☰ دسته‌بندی محصولات</button><button class="hamb" aria-label="باز کردن منو" onclick="document.querySelector('.main-nav').classList.toggle('show')">☰</button></div></header>
-<main id="home">
-<section class="hero"><div class="hero-photo"></div><div class="hero-shade"></div><div class="wrap hero-content"><div class="hero-copy"><div class="eyebrow"><i></i> مرجع تخصصی قطعات ماشین‌آلات سنگین</div><h1>قدرت ماشین‌آلات شما،<br><em>با قطعات مطمئن</em></h1><p>مرجع تخصصی جستجو و تأمین قطعات یدکی، ماشین‌آلات سنگین و تجهیزات صنعتی از برندهای معتبر جهانی.</p><div class="hero-points"><span>◆ ضمانت اصالت کالا</span><span>◆ ارسال سریع</span><span>◆ مشاوره تخصصی</span></div><a class="hero-cta" href="#products">مشاهده محصولات <b>←</b></a></div></div><div class="hero-stripe"></div></section>
-<section class="category-section" id="catalog"><div class="wrap categories">
-<button class="cat" data-cat="قطعات برقی"><img src="./assets/cat-electrical.jpg" alt="قطعات برقی"><span><b>قطعات برقی</b><small>استارت، دینام، سنسور</small></span><i>←</i></button>
-<button class="cat" data-cat="فیلتر و مصرفی"><img src="./assets/cat-filters.jpg" alt="فیلتر و مصرفی"><span><b>فیلتر و مصرفی</b><small>فیلتر هوا، روغن و سوخت</small></span><i>←</i></button>
-<button class="cat" data-cat="قطعات زیربندی"><img src="./assets/cat-undercarriage.jpg" alt="قطعات زیربندی"><span><b>قطعات زیربندی</b><small>زنجیر، رولیک، دنده</small></span><i>←</i></button>
-<button class="cat" data-cat="قطعات هیدرولیک"><img src="./assets/cat-hydraulic.jpg" alt="قطعات هیدرولیک"><span><b>قطعات هیدرولیک</b><small>پمپ، شیر، جک</small></span><i>←</i></button>
-<button class="cat" data-cat="قطعات پنوماتیک"><img src="./assets/cat-hydraulic.jpg" alt="قطعات پنوماتیک"><span><b>قطعات پنوماتیک</b><small>جک، شیر برقی، واحد مراقبت</small></span><i>←</i></button>
-<button class="cat" data-cat="قطعات موتور"><img src="./assets/cat-engine.jpg" alt="قطعات موتور"><span><b>قطعات موتور</b><small>پیستون، بوش، سوپاپ</small></span><i>←</i></button>
-<button class="cat active" data-cat=""><img src="./assets/cat-loader.jpg" alt="ماشین‌آلات سنگین"><span><b>ماشین‌آلات سنگین</b><small>بیل مکانیکی، لودر، بولدوزر</small></span><i>←</i></button>
-</div></section>
-<section class="products-section" id="products"><div class="wrap"><div class="section-head"><h2>محصولات پرفروش</h2><a href="#products" class="more">مشاهده همه محصولات ←</a></div><div class="filters"><select id="brandFilter" onchange="loadProducts()"><option value="">همه برندها</option><option>Caterpillar</option><option>Komatsu</option><option>Volvo</option><option>Cummins</option><option>JCB</option><option>Parker</option><option>Danfoss</option><option>SMC</option><option>Norgren</option></select><select id="modelFilter" onchange="loadProducts()"><option value="">همه مدل‌های دستگاه</option></select><select id="availabilityFilter" onchange="loadProducts()"><option value="">همه وضعیت‌ها</option><option value="available">موجود</option><option value="quote">نیازمند استعلام</option></select><select id="sortFilter" onchange="loadProducts()"><option value="new">جدیدترین</option><option value="price">ارزان‌ترین</option></select><button type="button" class="mini" onclick="resetProductFilters()">پاک‌کردن فیلترها</button></div><div class="catalog-meta" id="catalogMeta" aria-live="polite"></div><div id="productGrid" class="product-grid">
-<article class="product"><div class="product-img"><img src="./assets/product-alternator.jpg?v=20261122h" alt="دینام کاترپیلار" loading="eager"></div><div class="product-body"><span class="tag">Caterpillar</span><h3>دینام کاترپیلار</h3><div class="product-meta">کد فنی: 321-8076</div><div class="product-foot"><span class="price">۳۲٬۰۰۰٬۰۰۰ تومان</span><span class="stock-label">موجود</span></div></div></article>
-<article class="product"><div class="product-img"><img src="./assets/product-roller.jpg?v=20261122h" alt="رولیک زیربندی" loading="eager"></div><div class="product-body"><span class="tag">Caterpillar</span><h3>رولیک زیربندی</h3><div class="product-meta">کد فنی: 7T-3205</div><div class="product-foot"><span class="price">۱۲٬۸۰۰٬۰۰۰ تومان</span><span class="stock-label">موجود</span></div></div></article>
-<article class="product"><div class="product-img"><img src="./assets/product-pump.jpg?v=20261122h" alt="پمپ هیدرولیک" loading="eager"></div><div class="product-body"><span class="tag">Caterpillar</span><h3>پمپ هیدرولیک</h3><div class="product-meta">کد فنی: 221-8307</div><div class="product-foot"><span class="price">۷۵٬۰۰۰٬۰۰۰ تومان</span><span class="stock-label">موجود</span></div></div></article>
-<article class="product"><div class="product-img"><img src="./assets/product-filter.jpg?v=20261122h" alt="فیلتر هوای موتور" loading="eager"></div><div class="product-body"><span class="tag">Caterpillar</span><h3>فیلتر هوای موتور</h3><div class="product-meta">کد فنی: 1R-0716</div><div class="product-foot"><span class="price">۳٬۲۰۰٬۰۰۰ تومان</span><span class="stock-label">موجود</span></div></div></article>
-<article class="product"><div class="product-img"><img src="./assets/product-starter.jpg?v=20261122h" alt="استارت کاترپیلار" loading="eager"></div><div class="product-body"><span class="tag">Caterpillar</span><h3>استارت کاترپیلار</h3><div class="product-meta">کد فنی: 320-6690</div><div class="product-foot"><span class="price">۴۸٬۵۰۰٬۰۰۰ تومان</span><span class="stock-label">موجود</span></div></div></article>
-</div></div></section>
-<section class="trust-strip"><div class="wrap trust-grid"><div><b>⬟ ضمانت اصالت کالا</b><small>با تضمین کیفیت</small></div><div><b>▰ ارسال سریع</b><small>به سراسر کشور</small></div><div><b>◉ مشاوره تخصصی</b><small>پیش از خرید</small></div><div><b>⚙ پشتیبانی حرفه‌ای</b><small>در تمام مراحل خرید</small></div><div><b>♧ تأمین قطعات کمیاب</b><small>از معتبرترین برندها</small></div><button class="btn yellow" onclick="openQuote()">درخواست استعلام قیمت ←</button></div></section>
-<section class="about-section" id="about"><div class="about-photo"></div><div class="wrap about-copy"><div><h2>درباره آموت ماشین</h2><p>آموت ماشین، با سال‌ها تجربه در تأمین و فروش قطعات یدکی و تجهیزات صنعتی، همراه مطمئن شما در پروژه‌های بزرگ و کسب‌وکارهای صنعتی است.</p><button class="btn dark" onclick="openQuote()">اطلاعات بیشتر ←</button></div></div></section>
-</main>
-<footer id="contact"><div class="wrap footer"><div class="brand"><span class="brand-mark"><img src="./assets/amoot-logo.png" alt="نشان آموت ماشین"></span><span class="brand-name">آموت ماشین<small>AMOOT MACHINE</small></span></div><p>تأمین تخصصی قطعات یدکی، ماشین‌آلات سنگین و تجهیزات صنعتی</p><span>تلفن تماس: 021-12345678</span><small class="copy">© تمامی حقوق برای آموت ماشین محفوظ است.</small></div></footer>
-<div id="modal" class="modal" onclick="if(event.target===this)closeModal()"><div class="modal-card"><button class="close" onclick="closeModal()">×</button><div id="modalBody"></div></div></div><div id="toast" class="toast"></div>
-<script src="./app.js?v=20261123c"></script><script src="./api-config.js?v=20261122h"></script><script src="./api-client.js?v=20261123b"></script><script src="./cart.js?v=20261122m"></script>
-</body></html>
+/* Layout correction: keep photographic panels on the LEFT and Persian copy on the RIGHT. */
+.hero{height:clamp(300px,30vw,420px);min-height:300px;background:#202326}
+.hero-photo{inset:0 40% 0 0;background-position:center center;background-size:cover;opacity:1}
+.hero-shade{inset:0;background:linear-gradient(90deg,rgba(32,35,38,0) 0%,rgba(32,35,38,.22) 35%,rgba(32,35,38,.88) 58%,#202326 100%)}
+.hero-content{justify-content:flex-start}
+.hero-copy{width:52%;max-width:680px;margin:0 0 0 auto;padding:28px 0;text-align:right}
+.hero-copy h1{font-size:clamp(27px,3vw,43px);line-height:1.45}
+.hero-copy p{max-width:610px;line-height:2}
+.hero-search{width:100%}
+.hero-stripe{left:18px;right:auto}
+.about-section{min-height:230px;background:#f6f7f8}
+.about-photo{inset:0 48% 0 0;background-position:center;background-size:cover;opacity:1}
+.about-section:after{inset:0;background:linear-gradient(90deg,rgba(246,247,248,0) 0%,rgba(246,247,248,.18) 34%,rgba(246,247,248,.92) 55%,#f6f7f8 100%)}
+.about-copy{min-height:230px;justify-content:flex-start}
+.about-copy>div{width:50%;max-width:650px;margin-right:auto;padding:26px 0}
+@media(max-width:720px){
+ .hero{height:auto;min-height:360px}
+ .hero-photo{inset:0 0 0 0;background-position:35% center;opacity:.48}
+ .hero-shade{background:linear-gradient(90deg,rgba(32,35,38,.30),rgba(32,35,38,.88) 60%,#202326 100%)}
+ .hero-content{min-height:360px}
+ .hero-copy{width:100%;max-width:none;margin:0;padding:24px 0}
+ .hero-copy h1{font-size:clamp(25px,7vw,32px)}
+ .hero-stripe{left:5px;width:24px}
+ .about-section{min-height:220px}
+ .about-photo{inset:0;background-position:center;opacity:.22}
+ .about-section:after{background:linear-gradient(90deg,rgba(246,247,248,.45),rgba(246,247,248,.94) 70%)}
+ .about-copy{min-height:220px}
+ .about-copy>div{width:100%;max-width:none;margin:0;padding:22px 0}
+}
+
+
+/* Final layout fix: single search field in header; balanced about panel. */
+.hero-search{display:none!important}
+.about-section{position:relative;display:block;min-height:260px;background:#f6f7f8;overflow:hidden}
+.about-photo{position:absolute;top:0;bottom:0;left:0;right:auto;width:48%;height:100%;background-image:url('./assets/about-dumptruck.jpg');background-position:center center;background-size:cover;background-repeat:no-repeat;opacity:1}
+.about-section:after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(to right,rgba(246,247,248,0) 0%,rgba(246,247,248,.04) 35%,#f6f7f8 52%,#f6f7f8 100%)}
+.about-copy{position:relative;z-index:1;min-height:260px;display:flex;align-items:center;justify-content:flex-start}
+.about-copy>div{width:46%;max-width:650px;margin-right:0;margin-left:auto;padding:28px 0;text-align:right}
+.about-copy h2{margin:0 0 12px;line-height:1.6}
+.about-copy p{margin:0 0 16px;max-width:600px;line-height:2.15}
+@media(max-width:720px){
+ .about-section{min-height:300px}
+ .about-photo{width:100%;height:100%;inset:0;opacity:.16;background-position:center 45%}
+ .about-section:after{background:rgba(246,247,248,.78)}
+ .about-copy{min-height:300px;align-items:center}
+ .about-copy>div{width:100%;max-width:none;margin:0;padding:28px 0}
+}
+
+/* AMOOT visual refinement — aligned with the supplied WordPress reference */
+:root{--yellow:#ffc400;--dark:#202326;--ink:#17191b;--muted:#747a7f;--line:#e4e6e8;--paper:#f5f6f7}
+.wrap{width:min(1540px,calc(100% - 56px))}
+.topline{font-size:12px;background:#1d2022}
+.top-inner{height:38px}
+.top-left{align-items:center;gap:22px}
+.top-left button{border:0;background:transparent;color:#fff;font-size:11px;cursor:pointer;padding:0}
+.top-left span{font-size:11px}
+.header-main{height:82px;gap:22px}
+.brand{gap:12px}
+.brand-mark{width:56px;height:48px;flex:0 0 56px}
+.brand-mark:before{border-width:0 27px 44px 27px}
+.brand-mark:after{border-width:0 17px 29px 17px;right:15px}
+.brand-mark i:first-child{border-width:0 9px 16px 9px;right:23px}
+.brand-name{font-size:23px;white-space:nowrap}
+.brand-name small{font-size:10px;letter-spacing:2px}
+.main-nav{gap:19px;font-size:12px;flex:0 0 auto}
+.main-nav a{padding:30px 0}
+.header-search{height:46px;max-width:520px;border-radius:7px;flex:1}
+.header-search select{width:105px;font-size:11px}
+.header-search input{font-size:11px}
+.header-search button{width:52px;font-size:27px}
+.category-entry{height:46px;flex:0 0 auto;padding:0 19px;border:0;border-radius:6px;background:var(--yellow);font-size:12px;font-weight:900;cursor:pointer;white-space:nowrap}
+.hamb{display:none}
+.hero{height:clamp(330px,30vw,440px);min-height:330px}
+.hero-photo{inset:0 0 0 42%;background-position:center 48%}
+.hero-shade{background:linear-gradient(90deg,rgba(32,35,38,0) 0%,rgba(32,35,38,.08) 30%,rgba(32,35,38,.80) 54%,#202326 100%)}
+.hero-copy{width:53%;max-width:720px;padding:32px 0}
+.eyebrow{font-size:12px;letter-spacing:.1px}
+.hero-copy h1{font-size:clamp(32px,3.25vw,48px);line-height:1.48;margin:12px 0 8px}
+.hero-copy p{font-size:14px;line-height:2.1;margin-bottom:17px;color:#f0f1f2}
+.hero-points{font-size:11px;gap:24px;margin-top:14px}
+.hero-cta{display:inline-flex;align-items:center;gap:22px;margin-top:22px;padding:12px 22px;background:var(--yellow);border-radius:6px;color:#17191b;text-decoration:none;font-size:12px;font-weight:900;box-shadow:0 5px 16px #0003}
+.hero-cta b{font-size:18px;line-height:1}
+.hero-stripe{left:22px;width:44px}
+.category-section{padding:14px 0 24px}
+.categories{gap:10px}
+.cat{height:104px;padding:8px 10px;border-radius:9px;gap:7px;background:linear-gradient(145deg,#fff,#f4f5f6)}
+.cat img{width:43%;height:86px;object-fit:contain}
+.cat b{font-size:12px;font-weight:900}
+.cat small{font-size:9px;color:#777}
+.cat i{width:27px;height:27px;font-size:14px}
+.products-section{padding:3px 0 22px}
+.section-head{margin-bottom:14px}
+.section-head h2{font-size:23px;border-right-width:5px;padding-right:13px}
+.more{font-size:12px}
+.filters{margin-bottom:10px}
+.filters select{font-size:10px;padding:6px 11px}
+.product-grid{grid-template-columns:repeat(5,minmax(0,1fr));gap:14px}
+.product{border-radius:8px;box-shadow:0 1px 3px #00000008}
+.product-img{height:158px;padding:10px 12px}
+.product-body{padding:7px 13px 12px}
+.product h3{font-size:13px;margin-top:4px}
+.product-meta{font-size:10px}
+.product-foot{margin-top:10px}
+.price{font-size:11px}
+.ask{font-size:10px;padding:8px 11px;white-space:nowrap}
+.trust-strip{padding:17px 0;background:#202326}
+.trust-grid{gap:13px}
+.trust-grid div{min-height:44px;border-left:1px solid #777;padding:4px 12px}
+.trust-grid b{font-size:12px;color:#fff}
+.trust-grid small{font-size:10px;margin-top:3px}
+.trust-grid .btn{font-size:11px;padding:13px 17px}
+.about-section{min-height:270px}
+.about-photo{width:51%;background-position:center 53%}
+.about-section:after{background:linear-gradient(to right,rgba(246,247,248,0) 0%,rgba(246,247,248,.05) 34%,rgba(246,247,248,.93) 54%,#f6f7f8 100%)}
+.about-copy{min-height:270px}
+.about-copy>div{width:47%;max-width:680px;padding:30px 0}
+.about-copy h2{font-size:24px;margin-bottom:10px}
+.about-copy p{font-size:13px;line-height:2.2;color:#303438}
+.about-copy .btn{font-size:11px;padding:12px 18px}
+.footer{padding:34px 0}
+@media(max-width:1250px){
+ .header-main{gap:14px}.main-nav{gap:12px;font-size:11px}.brand-name{font-size:20px}.category-entry{padding:0 12px;font-size:11px}.header-search{max-width:none}
+ .hero-copy{width:57%}.hero-copy h1{font-size:clamp(30px,3.5vw,42px)}
+ .cat{gap:5px;padding:6px}.cat b{font-size:10px}.cat small{font-size:8px}.cat i{width:23px;height:23px}
+}
+@media(max-width:980px){
+ .header-main{height:auto;min-height:72px;flex-wrap:wrap;padding:10px 0;gap:12px}
+ .brand{order:1;margin-left:auto}.hamb{display:block;order:2;margin:0 0 0 4px}
+ .main-nav{display:none;position:absolute;top:100%;right:0;left:0;background:#fff;padding:12px 22px;box-shadow:0 10px 18px #0002;flex-direction:column;gap:2px;z-index:20}
+ .main-nav.show{display:flex}.main-nav a{padding:10px 0;border-bottom:1px solid #eee}.main-nav a.selected{border-bottom:2px solid var(--yellow)}
+ .header-search{order:3;flex:1 0 100%;height:43px;max-width:none}
+ .category-entry{order:4;display:none}
+ .hero{height:360px}.hero-copy{width:60%}.hero-copy h1{font-size:36px}
+ .categories{grid-template-columns:repeat(3,minmax(0,1fr))}
+ .product-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+ .trust-grid{grid-template-columns:repeat(3,1fr)}
+}
+@media(max-width:720px){
+ .wrap{width:calc(100% - 28px)}
+ .top-inner{height:34px}.top-left{gap:12px}.top-left button,.top-left span{font-size:9px}.top-left span+span{padding-right:9px}.top-right{display:none}
+ .header-main{min-height:0;padding:10px 0 12px;gap:9px}.brand{gap:7px}.brand-mark{width:42px;height:37px;flex-basis:42px;transform:none}.brand-mark:before{border-width:0 21px 35px 21px}.brand-mark:after{border-width:0 13px 23px 13px;right:11px}.brand-mark i:first-child{border-width:0 7px 13px 7px;right:17px}.brand-name{font-size:17px}.brand-name small{font-size:8px;letter-spacing:1.5px}
+ .hamb{font-size:24px;margin-right:0;margin-left:2px}
+ .header-search{display:flex;order:3;height:42px;flex:1 0 100%;min-width:0}.header-search select{width:82px;font-size:9px;padding:0 5px}.header-search input{font-size:10px;padding:0 9px}.header-search button{width:43px;font-size:23px}
+ .hero{height:auto;min-height:380px}.hero-photo{inset:0;background-position:34% center;opacity:.62}.hero-shade{background:linear-gradient(90deg,rgba(32,35,38,.48),rgba(32,35,38,.86) 58%,#202326 100%)}
+ .hero-content{min-height:380px}.hero-copy{width:100%;max-width:none;padding:27px 0}.eyebrow{font-size:10px}.hero-copy h1{font-size:clamp(27px,7.4vw,35px);line-height:1.55;margin:12px 0}.hero-copy p{font-size:11px;line-height:2;max-width:100%}.hero-points{font-size:9px;gap:9px 14px;margin-top:14px}.hero-cta{margin-top:18px;padding:11px 17px;font-size:11px}.hero-stripe{left:3px;width:18px}
+ .category-section{padding:11px 0 18px}.categories{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.cat{height:83px;padding:5px 7px;gap:5px}.cat img{width:38%;height:70px}.cat b{font-size:10px}.cat small{font-size:8px;white-space:normal;line-height:1.5}.cat i{width:21px;height:21px;font-size:12px}
+ .products-section{padding:0 0 17px}.section-head{margin-bottom:10px}.section-head h2{font-size:18px;padding-right:9px}.more{font-size:9px}.filters{gap:5px;margin-bottom:8px}.filters select{font-size:9px;padding:5px 7px;max-width:48%}
+ .product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.product-img{height:125px;padding:7px}.product-body{padding:5px 8px 9px}.product h3{font-size:10px}.product-meta{font-size:8px}.product-foot{align-items:flex-start;flex-direction:column;gap:7px;margin-top:8px}.price{font-size:9px}.ask{width:100%;font-size:9px;padding:8px 5px}
+ .trust-strip{padding:12px 0}.trust-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.trust-grid div{padding:5px 8px;min-height:40px}.trust-grid b{font-size:9px}.trust-grid small{font-size:8px}.trust-grid .btn{grid-column:1/-1;justify-self:stretch;font-size:10px;padding:11px}
+ .about-section{min-height:285px}.about-photo{width:100%;height:100%;inset:0;opacity:.20;background-position:center 45%}.about-section:after{background:rgba(246,247,248,.82)}.about-copy{min-height:285px}.about-copy>div{width:100%;max-width:none;padding:23px 0}.about-copy h2{font-size:20px}.about-copy p{font-size:11px;line-height:2.1}
+ .footer{padding:25px 0}.footer .brand-name{font-size:18px}.footer p,.footer>span{font-size:10px}
+ .modal{padding:8px}.modal-card{padding:25px 14px;max-height:94vh}.admin-layout{grid-template-columns:1fr;gap:10px}.side{display:flex;overflow-x:auto;gap:4px;padding:7px}.side button{white-space:nowrap;width:auto;padding:9px;font-size:9px}.stats{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:390px){.top-left{gap:8px}.top-left span+span{padding-right:7px}.cat{height:78px}.cat img{width:34%}.cat small{font-size:7px}.hero{min-height:365px}.hero-content{min-height:365px}.product-img{height:112px}}
+
+/* Header + hero correction and customer account entry */
+.top-left{gap:14px}
+.top-left button.account-entry{background:var(--yellow);color:#17191b;padding:7px 13px;border-radius:5px;font-weight:900}
+.top-left button.admin-entry{color:#f2f2f2;border:1px solid #62676b;padding:6px 10px;border-radius:5px}
+.hero{isolation:isolate;min-height:350px;height:clamp(350px,32vw,455px);background:#202326}
+.hero-photo{inset:0 auto 0 0;width:61%;height:100%;background-size:cover;background-position:center 48%;z-index:-2}
+.hero-shade{inset:0;background:linear-gradient(270deg,#202326 0%,rgba(32,35,38,.98) 34%,rgba(32,35,38,.76) 49%,rgba(32,35,38,.08) 78%,rgba(32,35,38,0) 100%);z-index:-1}
+.hero-content{justify-content:flex-start;direction:rtl}
+.hero-copy{width:51%;max-width:700px;margin:0;padding:28px 0 34px;position:relative}
+.hero-copy h1{max-width:100%;overflow-wrap:anywhere}
+.hero-copy p{max-width:650px}
+.hero-stripe{z-index:1}
+.auth-box{max-width:520px;margin:0 auto}
+.auth-brand{display:flex;align-items:center;gap:12px;margin:0 0 18px}
+.auth-brand b{display:block;font-size:19px;font-weight:900}
+.auth-brand small{display:block;color:#777;font-size:11px;margin-top:4px}
+.auth-tabs{display:grid;grid-template-columns:1fr 1fr;background:#f0f1f2;border-radius:8px;padding:4px;margin-bottom:14px}
+.auth-tabs button{border:0;background:transparent;border-radius:6px;padding:11px;font:700 13px Estedad;cursor:pointer;color:#555}
+.auth-tabs button.active{background:#fff;color:#17191b;box-shadow:0 1px 5px #00000012}
+.auth-notice{font-size:10px;line-height:1.9}
+.auth-submit{width:100%;margin-top:8px;padding:13px}
+.auth-foot{font-size:10px;color:#777;line-height:1.9;margin:12px 0 0}
+@media(max-width:980px){.hero{height:370px}.hero-photo{width:70%}.hero-copy{width:63%}}
+@media(max-width:720px){.top-left{gap:7px}.top-left button.account-entry,.top-left button.admin-entry{font-size:8px;padding:5px 7px}.top-left{flex-wrap:nowrap}.hero{height:auto;min-height:390px}.hero-photo{width:100%;opacity:.58;background-position:35% center}.hero-shade{background:linear-gradient(270deg,rgba(32,35,38,.98) 0%,rgba(32,35,38,.86) 55%,rgba(32,35,38,.48) 100%)}.hero-content{min-height:390px}.hero-copy{width:100%;padding:28px 0}.hero-copy h1{font-size:clamp(27px,7.2vw,36px);line-height:1.6}.hero-copy p{max-width:100%}.auth-brand b{font-size:16px}}
+
+/* Customer account dashboard */
+.text-action{display:inline-block;border:0;background:transparent;color:#8a6500;font:700 12px Estedad;cursor:pointer;padding:8px 0}
+.auth-consent{display:flex;align-items:center;gap:8px;font-size:11px;color:#555;margin:12px 0}
+.customer-head{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:4px 4px 18px;border-bottom:1px solid #e8e9ea;margin-bottom:16px}
+.customer-head h2{font-size:20px;margin:6px 0}.customer-head small{font-size:11px;color:#777}
+.customer-layout{display:grid;grid-template-columns:190px minmax(0,1fr);gap:18px;min-height:330px}
+.customer-nav{display:flex;flex-direction:column;gap:5px;background:#f5f6f7;border-radius:9px;padding:9px;height:max-content}
+.customer-nav button{border:0;background:transparent;text-align:right;border-radius:6px;padding:10px 11px;font:600 12px Estedad;color:#45494c;cursor:pointer}
+.customer-nav button.sel{background:#202326;color:#ffc400;font-weight:800}
+.customer-content{min-width:0}.customer-content h3{font-size:16px;margin:2px 0 16px}
+.customer-stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:9px;margin-bottom:22px}
+.customer-stats>div{background:#f5f6f7;border:1px solid #eceeef;border-radius:8px;padding:15px 10px;text-align:center}
+.customer-stats b{display:block;font-size:22px;color:#202326}.customer-stats small{font-size:10px;color:#777}
+.quick-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-bottom:16px}
+.quick-links button{border:1px solid #e6e7e8;background:#fff;border-radius:7px;padding:12px;text-align:right;font:600 11px Estedad;cursor:pointer}
+.customer-content .field{margin-bottom:12px}.customer-content .field input,.customer-content .field textarea{width:100%;box-sizing:border-box}
+.customer-list{display:grid;gap:9px;margin:15px 0}.customer-list article{border:1px solid #e8e9ea;border-radius:8px;padding:12px;display:grid;gap:6px}.customer-list article b{font-size:12px}.customer-list article small{font-size:10px;color:#777;line-height:1.8}
+.empty-state{border:1px dashed #d5d8da;border-radius:9px;padding:28px 16px;text-align:center;color:#686d70;font-size:12px;line-height:2.1;margin:10px 0 16px}.empty-state p{max-width:460px;margin:8px auto 16px}
+.favorite-list{display:grid;gap:9px}.favorite-list article{display:flex;align-items:center;gap:10px;border:1px solid #e8e9ea;padding:8px;border-radius:8px}.favorite-list img{width:66px;height:58px;object-fit:contain;background:#f6f7f8;border-radius:5px}.favorite-list article div{display:grid;gap:4px;flex:1;min-width:0}.favorite-list b{font-size:11px}.favorite-list small{font-size:9px;color:#777}.favorite-list strong{font-size:10px}.favorite-toggle{position:absolute;top:9px;left:9px;border:0;background:#fff;color:#c43b36;width:31px;height:31px;border-radius:50%;font-size:21px;line-height:1;box-shadow:0 1px 6px #0002;cursor:pointer}.product-img{position:relative}
+@media(max-width:720px){.customer-head{align-items:flex-start}.customer-head h2{font-size:16px}.customer-layout{grid-template-columns:1fr;gap:12px}.customer-nav{flex-direction:row;overflow-x:auto;white-space:nowrap}.customer-nav button{white-space:nowrap;font-size:10px;padding:9px}.customer-stats{grid-template-columns:repeat(2,minmax(0,1fr))}.quick-links{grid-template-columns:1fr}.customer-content h3{font-size:14px}.favorite-list article{flex-wrap:wrap}.favorite-list article div{min-width:calc(100% - 90px)}}
+
+
+/* Amoot Machine official refreshed logo */
+.brand-mark{width:58px;height:58px;flex:0 0 58px;display:flex;align-items:center;justify-content:center;overflow:visible;position:relative}
+.brand-mark:before,.brand-mark:after,.brand-mark i{display:none!important;content:none!important}
+.brand-mark img{display:block;width:100%;height:100%;object-fit:contain}
+.auth-brand .brand-mark{width:64px;height:64px;flex-basis:64px}
+.footer .brand-mark{width:62px;height:62px;flex-basis:62px}
+@media(max-width:720px){.brand-mark{width:44px;height:44px;flex-basis:44px}.auth-brand .brand-mark{width:56px;height:56px;flex-basis:56px}.footer .brand-mark{width:52px;height:52px;flex-basis:52px}}
+
+
+/* Stabilized layout overrides — replaces conflicting stacked positioning rules */
+.header{position:relative;z-index:20}
+.header-main{display:flex;align-items:center;gap:clamp(10px,1.35vw,22px);min-width:0}
+.brand{display:flex;align-items:center;flex:0 0 auto;gap:10px;min-width:max-content}
+.brand-mark{display:flex!important;align-items:center;justify-content:center;overflow:hidden;flex:0 0 54px;width:54px;height:54px;transform:none!important}
+.brand-mark img{width:100%;height:100%;object-fit:contain;display:block}
+.brand-name{white-space:nowrap;line-height:1.25}
+.main-nav{display:flex;align-items:center;gap:clamp(9px,1.25vw,19px);flex:0 1 auto;min-width:0}
+.main-nav a{white-space:nowrap}
+.header-search{flex:1 1 260px;min-width:180px;max-width:none}
+.category-entry{flex:0 0 auto;white-space:nowrap}
+.hero{position:relative;isolation:isolate;overflow:hidden;display:block;height:clamp(340px,31vw,440px);min-height:340px;background:#202326;color:#fff}
+.hero-photo{position:absolute;inset:0 auto 0 0;width:59%;height:100%;z-index:0;background-image:url('./assets/hero-excavator.jpg');background-size:cover;background-position:center 48%;opacity:1}
+.hero-shade{position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,rgba(32,35,38,0) 0%,rgba(32,35,38,.16) 32%,rgba(32,35,38,.82) 55%,#202326 100%)}
+.hero-content{position:relative;z-index:2;display:flex;align-items:center;justify-content:flex-start;direction:rtl;height:100%;min-height:0}
+.hero-copy{position:relative;z-index:2;width:51%;max-width:690px;margin:0;padding:28px 0;text-align:right}
+.hero-copy h1{max-width:100%;overflow-wrap:normal;word-break:normal;font-size:clamp(30px,3.1vw,46px);line-height:1.55}
+.hero-copy p{max-width:620px;line-height:2.05}
+.hero-stripe{position:absolute;z-index:3;left:20px;right:auto;top:0;height:100%;width:34px;pointer-events:none}
+.about-section{position:relative;overflow:hidden}
+.about-photo{position:absolute;top:0;bottom:0;left:0;right:auto;width:48%;height:100%;background-size:cover;background-position:center;opacity:1}
+.about-section:after{pointer-events:none}
+.about-copy{position:relative;z-index:2;display:flex;align-items:center;justify-content:flex-start}
+.about-copy>div{width:47%;max-width:650px;margin:0 0 0 auto}
+.top-left{display:flex;align-items:center;flex-wrap:nowrap;min-width:0}
+.top-left button,.top-left span{white-space:nowrap}
+@media(max-width:1240px) and (min-width:981px){
+ .header-main{gap:10px}.brand-mark{width:47px;height:47px;flex-basis:47px}.brand-name{font-size:19px}.main-nav{gap:9px;font-size:10px}.header-search{min-width:140px}.header-search select{width:82px}.category-entry{padding:0 10px;font-size:10px}
+}
+@media(max-width:980px){
+ .header-main{height:auto;min-height:72px;flex-wrap:wrap;padding:9px 0 12px;gap:10px}
+ .brand{order:1;margin-left:auto}.hamb{display:block;order:2;margin:0 0 0 2px}
+ .main-nav{display:none;position:absolute;top:100%;right:0;left:0;z-index:30;background:#fff;padding:12px 22px;box-shadow:0 10px 18px #0002;flex-direction:column;align-items:stretch;gap:0}
+ .main-nav.show{display:flex}.main-nav a{padding:10px 0;border-bottom:1px solid #eee}
+ .header-search{order:3;display:flex;flex:1 0 100%;width:100%;min-width:0;height:43px}
+ .category-entry{display:none}
+ .hero{height:370px;min-height:370px}.hero-photo{width:70%}.hero-copy{width:61%}
+}
+@media(max-width:720px){
+ .wrap{width:calc(100% - 28px)}
+ .top-inner{height:auto;min-height:36px;padding:5px 0}.top-left{width:100%;justify-content:flex-start;gap:7px;flex-wrap:wrap}.top-left button.account-entry,.top-left button.admin-entry{font-size:9px;padding:5px 8px}.top-left span{font-size:9px}.top-left span+span{padding-right:7px}
+ .header-main{min-height:0;padding:9px 0 11px;gap:8px}.brand{gap:7px}.brand-mark{width:43px;height:43px;flex-basis:43px}.brand-name{font-size:17px}.brand-name small{font-size:8px;letter-spacing:1.3px}.hamb{font-size:23px}
+ .header-search{height:41px;flex:1 0 100%;min-width:0}.header-search select{width:82px;min-width:72px;font-size:9px;padding:0 4px}.header-search input{font-size:10px;padding:0 8px}.header-search button{width:42px}
+ .hero{height:auto;min-height:390px}.hero-photo{inset:0;width:100%;height:100%;opacity:.43;background-position:35% center}.hero-shade{background:linear-gradient(90deg,rgba(32,35,38,.30),rgba(32,35,38,.86) 58%,#202326 100%)}.hero-content{min-height:390px;height:auto}.hero-copy{width:100%;max-width:none;padding:28px 0}.hero-copy h1{font-size:clamp(26px,7vw,34px);line-height:1.55}.hero-copy p{font-size:11px;max-width:100%;line-height:2}.hero-points{font-size:9px;gap:8px 13px;flex-wrap:wrap}.hero-cta{margin-top:17px;padding:11px 16px;font-size:11px}.hero-stripe{left:4px;width:17px}
+ .about-section{min-height:290px}.about-photo{inset:0;width:100%;height:100%;opacity:.16;background-position:center 45%}.about-section:after{inset:0;background:rgba(246,247,248,.82)}.about-copy{min-height:290px}.about-copy>div{width:100%;max-width:none;margin:0;padding:24px 0}
+ .footer .brand-mark{width:48px;height:48px;flex-basis:48px}
+}
+
+
+/* Hydraulic & pneumatic category expansion */
+.categories{grid-template-columns:repeat(7,minmax(0,1fr))}
+.cat img{object-fit:cover;object-position:center;border-radius:6px;background:#f4f5f6;mix-blend-mode:normal}
+.product-img{background:linear-gradient(145deg,#fff,#f7f8f9)}
+.product-img img{object-fit:contain;mix-blend-mode:normal}
+@media(max-width:1240px) and (min-width:981px){.categories{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(max-width:980px){.categories{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:720px){.categories{grid-template-columns:repeat(2,minmax(0,1fr))}.cat img{object-fit:cover}.cat small{white-space:normal;line-height:1.5}}
+
+/* Product detail and advanced catalog search */
+.header-search select{max-width:118px;min-width:96px}
+.filters{display:flex;align-items:center;flex-wrap:wrap;gap:8px}.filters select{min-width:145px}
+.catalog-meta{font-size:11px;color:#747a7e;margin:0 0 10px}
+.product{position:relative}.product-open{display:block;width:100%;height:100%;padding:0;border:0;background:transparent;text-align:right;color:inherit;font:inherit;cursor:pointer}
+.product-open:focus-visible{outline:2px solid var(--yellow);outline-offset:-3px}.product .product-body{padding-bottom:12px}.product .product-foot{flex-wrap:wrap}
+.stock-label{font-size:9px;color:#5d6469}.detail-link{display:block;margin-top:9px;padding-top:8px;border-top:1px solid #eceeef;color:#806000;font-size:10px;font-weight:800}
+.product-detail{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:22px;align-items:start}
+.detail-image{background:#f5f6f7;border:1px solid #eceeef;border-radius:10px;min-height:260px;display:grid;place-items:center;padding:16px}
+.detail-image img{width:100%;height:260px;object-fit:contain}.detail-info h2{font-size:23px;margin:7px 0 10px}
+.detail-tags{display:flex;gap:7px;flex-wrap:wrap}.detail-tags span{background:#f1f2f3;border-radius:20px;padding:5px 10px;font-size:10px}
+.detail-price{font-size:17px;font-weight:900;color:#7b5c00;margin:14px 0}.detail-info p{font-size:12px;line-height:2.1;color:#555}
+.spec-table{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:14px 0}.spec-table>div{background:#f7f8f9;border:1px solid #eceeef;border-radius:7px;padding:9px;display:grid;gap:5px;min-width:0}
+.spec-table small{font-size:9px;color:#7a8084}.spec-table b{font-size:11px;overflow-wrap:anywhere}
+.detail-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.detail-note{display:block;color:#7b8084;font-size:9px;line-height:1.9;margin-top:13px}
+@media(max-width:720px){.header-search select{max-width:88px;min-width:78px}.filters select{min-width:calc(50% - 8px);max-width:calc(50% - 8px)}.filters .mini{width:100%}.product-detail{grid-template-columns:1fr;gap:14px}.detail-image{min-height:180px}.detail-image img{height:190px}.detail-info h2{font-size:18px}.detail-price{font-size:15px}}
+
+/* Amoot Machine cart, checkout and order tracking */
+.cart-entry{border:0;background:transparent;color:#f4f4f4;font:inherit;font-size:11px;cursor:pointer;white-space:nowrap}
+.cart-entry b{display:inline-grid;place-items:center;min-width:20px;height:20px;padding:0 4px;border-radius:20px;background:var(--yellow);color:#17191b;font-size:10px}
+.cart-lines{display:grid;gap:9px;margin:16px 0}.cart-lines article{display:flex;align-items:center;gap:12px;padding:10px;border:1px solid #e8eaec;border-radius:8px}
+.cart-lines img{width:74px;height:68px;object-fit:contain;background:#f5f6f7;border-radius:6px}
+.cart-line-info{display:grid;gap:6px;flex:1;min-width:0}.cart-line-info b{font-size:12px}.cart-line-info small{font-size:9px;color:#777}
+.cart-lines article>strong{font-size:10px;white-space:nowrap}.qty-control{display:flex;align-items:center;gap:8px}
+.qty-control button{border:1px solid #ddd;background:#fff;border-radius:5px;min-width:27px;height:26px;cursor:pointer}
+.qty-control .remove-line{border:0;color:#b33;background:transparent;font-size:10px}
+.cart-total{display:flex;justify-content:space-between;align-items:center;padding:14px 0;border-top:1px solid #e5e7e8;font-size:12px}
+.checkout-btn{width:100%;margin-top:12px;padding:13px}.order-success{text-align:center;padding:16px 0}.order-success>strong{display:block;font-size:24px;letter-spacing:1px;color:#8a6500;margin:12px}
+.add-cart-btn{display:block;width:calc(100% - 24px);margin:0 12px 12px;padding:9px}
+@media(max-width:720px){.cart-entry{font-size:9px}.cart-lines article{gap:7px;align-items:flex-start;flex-wrap:wrap}.cart-lines img{width:56px;height:54px}.cart-lines article>strong{margin-right:auto}.cart-line-info b{font-size:10px}.add-cart-btn{width:calc(100% - 16px);margin:0 8px 8px;font-size:9px}.qty-control{gap:5px}}
 
 /* Compact, balanced desktop and mobile proportions */
 .header-main{gap:16px}
