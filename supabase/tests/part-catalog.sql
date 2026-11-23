@@ -160,10 +160,18 @@ begin
   if not exists (
     select 1 from public.part_catalog
     where part_number = '392-0217'
-      and engine_models @> array['3512CB']::text[]
+      and engine_models @> array['3512B','3516B','3508B']::text[]
       and verification_status = 'REFERENCE'
   ) then
-    raise exception '3512CB supplier reference is missing or incorrectly verified';
+    raise exception 'Official Cat 392-0217 model listing is missing';
+  end if;
+
+  if exists (
+    select 1 from public.part_catalog
+    where part_number = '392-0217'
+      and engine_models && array['3512CB','3516CB']::text[]
+  ) then
+    raise exception '392-0217 must not claim CB-specific fitment';
   end if;
 
   if exists (
