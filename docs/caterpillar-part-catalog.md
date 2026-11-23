@@ -179,3 +179,8 @@ Migration `202611232030_expand_cat_engine_overhaul_and_cooling_references.sql` a
 The batch records only Cat-published product descriptions, specifications and explicit compatible-model details. All rows remain `REFERENCE`; no price or stock is fabricated, and image URLs remain NULL for the official image resolver. Confirm exact arrangement and serial-number fitment with Cat before purchase.
 
 Official product pages: [603-1668](https://parts.cat.com/en/catcorp/product/603-1668), [284-5565](https://parts.cat.com/en/catcorp/product/284-5565), [346-3791](https://parts.cat.com/en/catcorp/product/346-3791), [599-7781](https://parts.cat.com/en/catcorp/product/599-7781), [0R-4285](https://parts.cat.com/en/catcorp/product/0R-4285), [144-0503](https://parts.cat.com/en/catcorp/product/144-0503), [0R-8200](https://parts.cat.com/en/catcorp/product/0R-8200).
+
+
+### Official image verification for the 2026-11-23 overhaul/cooling batch
+
+The follow-up migration `202611232040_set_verified_cat_scene7_images.sql` stores direct Cat Scene7 assets confirmed from the official product-page image links for **603-1668, 346-3791, 599-7781, 0R-4285 and 0R-8200**. Cat's public pages expose only a generic fallback image for **284-5565** and **144-0503**, so no generic placeholder was stored for those SKUs. The API smoke test expects images only for the five parts with an actual product image.
