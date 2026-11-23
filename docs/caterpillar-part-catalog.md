@@ -701,3 +701,17 @@ Official category source:
 - [Rocker Arms](https://parts.cat.com/en/catcorp/category/reman-products-rocker-arms) — 17 records
 
 Official product pages: [20R-8517](https://parts.cat.com/en/catcorp/product/20R-8517), [20R-3319](https://parts.cat.com/en/catcorp/product/20R-3319), [20R-3318](https://parts.cat.com/en/catcorp/product/20R-3318), [20R-3322](https://parts.cat.com/en/catcorp/product/20R-3322), [20R-3317](https://parts.cat.com/en/catcorp/product/20R-3317), [20R-3323](https://parts.cat.com/en/catcorp/product/20R-3323), [20R-6263](https://parts.cat.com/en/catcorp/product/20R-6263), [11R-2442](https://parts.cat.com/en/catcorp/product/11R-2442), [20R-5681](https://parts.cat.com/en/catcorp/product/20R-5681), [10R-3479](https://parts.cat.com/en/catcorp/product/10R-3479), [10R-3480](https://parts.cat.com/en/catcorp/product/10R-3480), [20R-3320](https://parts.cat.com/en/catcorp/product/20R-3320), [20R-3321](https://parts.cat.com/en/catcorp/product/20R-3321), [20R-4505](https://parts.cat.com/en/catcorp/product/20R-4505), [20R-1136](https://parts.cat.com/en/catcorp/product/20R-1136), [0R-9952](https://parts.cat.com/en/catcorp/product/0R-9952), [20R-3324](https://parts.cat.com/en/catcorp/product/20R-3324).
+
+
+## Completed public Cat Reman category (2026-11-23): Variable Valve Actuators
+
+Migration `202611232390_import_complete_cat_variable_valve_actuators.sql` imports the complete official category (10 of 10):
+
+`20R-3915`, `20R-6833`, `20R-0271`, `10R-3578`, `10R-6334`, `10R-6335`, `10R-6336`, `10R-6691`, `20R-0268`, `20R-0272`.
+
+All are search-only `REFERENCE` records without price or stock. Engine model fitment is taken from explicit Cat Compatible Models engine headings or model designations in the official product title; no equipment model is converted into an engine fitment. Official Scene7 images verified from the product pages are attached to nine entries; `20R-0271` remains image-null because its primary image was exposed only as an 80px thumbnail.
+
+Official category source:
+- [Variable Valve Actuators](https://parts.cat.com/en/catcorp/category/reman-products-variable-valve-actuators?beginIndex=80&page=1&pageSize=16&productBeginIndex=80&sortBy=0) — 10 records
+
+Official product pages: [20R-3915](https://parts.cat.com/en/catcorp/product/20R-3915), [20R-6833](https://parts.cat.com/en/catcorp/product/20R-6833), [20R-0271](https://parts.cat.com/en/catcorp/product/20R-0271), [10R-3578](https://parts.cat.com/en/catcorp/product/10R-3578), [10R-6334](https://parts.cat.com/en/catcorp/product/10R-6334), [10R-6335](https://parts.cat.com/en/catcorp/product/10R-6335), [10R-6336](https://parts.cat.com/en/catcorp/product/10R-6336), [10R-6691](https://parts.cat.com/en/catcorp/product/10R-6691), [20R-0268](https://parts.cat.com/en/catcorp/product/20R-0268), [20R-0272](https://parts.cat.com/en/catcorp/product/20R-0272).
