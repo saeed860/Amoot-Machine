@@ -18,7 +18,7 @@ try {
   check(Boolean(registered.token), 'Customer registration');
   const me = await request('/api/me', { token:registered.token });
   check(me.identifier === identifier, 'Authenticated customer profile');
-  const sku = '1R-0716';
+  const sku = 'CI-ORDER-FIXTURE';
   const stockBefore = Number(products.items.find(x => x.sku === sku)?.stock);
   check(Number.isInteger(stockBefore) && stockBefore > 0, 'Initial inventory available for lifecycle test');
   const orderBody = { items:[{sku,quantity:1}], shipping:{recipient:'CI Customer',phone:'09120000000',province:'تهران',city:'تهران',postalCode:'1111111111',addressLine:'خیابان آزمایشی، پلاک ۱'} };
