@@ -4,7 +4,7 @@ The store keeps Caterpillar references in `public.part_catalog`, separate from s
 
 ## Current seed coverage
 
-As of 2026-11-23, the initial seed contained 237 unique references. After page-by-page expansion and official Cat injector-reference corrections, the migrations now produce 394 unique part-number records. Model counts overlap because one part may be listed for multiple engine families; cross-family references can also make a tagged family count differ from the third-party directory's own total.
+Baseline before the public Cat Parts Store category imports below: the initial seed contained 237 unique references and earlier directory expansion produced 394 unique part-number records. Subsequent public-category migrations add or update additional references; treat 394 as the pre-expansion baseline, not the current live total. Model counts overlap because one part may be listed for multiple engine families; cross-family references can also make a tagged family count differ from the third-party directory's own total.
 
 | Engine family | Current references | Public directory count |
 |---|---:|---:|
