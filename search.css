@@ -263,3 +263,27 @@
 /* Part reference imagery */
 .parts-search-page .part-image{object-fit:contain;padding:8px;background:#fff;display:block}
 .parts-search-page .part-image-placeholder{display:flex;align-items:center;justify-content:center;text-align:center;font-size:12px;font-weight:900;letter-spacing:1px;color:#a1a8ac;line-height:1.8}
+
+
+/* Search banner: compact, stable layout without oversized decorative pseudo-elements */
+.parts-search-page{font-family:"Estedad",Tahoma,sans-serif}
+.parts-search-page .search-intro{position:relative;isolation:isolate;overflow:hidden;min-height:118px;padding:19px 27px;display:block;border-radius:10px;background:linear-gradient(112deg,#202629 0%,#30383d 58%,#3b4246 100%);box-shadow:0 8px 22px #10182018}
+.parts-search-page .search-intro:before,.parts-search-page .search-intro:after{display:none!important;content:none!important}
+.parts-search-page .search-intro .eyebrow{font-size:9px;letter-spacing:.5px;margin:0 0 5px;color:#f2d36b}
+.parts-search-page .search-intro h1{font-size:clamp(21px,2.2vw,29px);line-height:1.4;margin:0 0 4px;color:#fff}
+.parts-search-page .search-intro p{font-size:10px;line-height:1.8;color:#d5dadd;margin:0;max-width:720px}
+.parts-search-page .part-image,.parts-search-page .part-image-placeholder{width:128px;height:128px;flex-basis:128px}
+.parts-search-page .part-spec-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+.parts-search-page .part-spec-grid>div{min-width:0}
+.parts-search-page .part-spec-grid b{overflow-wrap:anywhere}
+@media(max-width:850px){
+ .parts-search-page .search-intro{min-height:106px;padding:17px 21px}
+ .parts-search-page .part-image,.parts-search-page .part-image-placeholder{width:108px;height:108px;flex-basis:108px}
+}
+@media(max-width:600px){
+ .parts-search-page .search-intro{min-height:98px;padding:14px 15px;margin-bottom:9px}
+ .parts-search-page .search-intro h1{font-size:19px}
+ .parts-search-page .search-intro p{font-size:8px;line-height:1.8}
+ .parts-search-page .part-image,.parts-search-page .part-image-placeholder{width:78px;height:78px;flex-basis:78px}
+ .parts-search-page .part-spec-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
