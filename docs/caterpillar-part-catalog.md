@@ -85,10 +85,12 @@ Additional search-only references were added/upserted from the public Cat Parts 
 - `202611231700`: 66 references across filters, hydraulics, electrical, GET, hardware and hoses.
 - `202611231710`–`202611231760`: fuel-system, 3500/G3600 and C-series engine components, including a corrected C18 association for `10R-7231`.
 - `202611231770`: drivetrain and undercarriage references.
+- `202611231810`: additional hardware and consumable references.
+- `202611231820`: selected page-2 undercarriage kit references, including D9 arrangements, sprocket kits and track seal/bushing kits.
 - `202611231780`: attachments and structures.
 - `202611231790`: cab filters/cameras, equipment upgrades, hose/cap parts, repair kits and workshop supplies.
 - `202611231800`: product-specific image corrections for `575-2083` and `626-4231`.
 
 All these rows remain `REFERENCE`, with no price or stock. Fitment is recorded only where Cat's product page explicitly lists the model; category membership alone is not treated as machine compatibility.
 
-**Coverage limitation:** many Cat category pages display only 1–16 of 1,200 results (75 pages), and their subcategories contain additional inventories. This batch captures the visible first-page samples and selected official product pages; it is not a complete export of all Cat part numbers or a substitute for Cat SIS. Continue crawling remaining pages/categories or obtain an authorized complete catalog feed before claiming full coverage.
+**Coverage limitation:** many Cat category pages display only 1–16 of 1,200 results (75 pages), and their subcategories contain additional inventories. This batch captures visible first-page samples for major categories, selected official product pages, and six selected references from page 2 of Cat Undercarriage Kits; it is not a complete export of all Cat part numbers or a substitute for Cat SIS. Continue crawling remaining pages/categories or obtain an authorized complete catalog feed before claiming full coverage.
