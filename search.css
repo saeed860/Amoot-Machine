@@ -259,3 +259,7 @@
  .parts-search-page .result-count{font-size:8px;padding:5px 8px}
  .parts-search-page .search-help{padding:12px 14px}
 }
+
+/* Part reference imagery */
+.parts-search-page .part-image{object-fit:contain;padding:8px;background:#fff;display:block}
+.parts-search-page .part-image-placeholder{display:flex;align-items:center;justify-content:center;text-align:center;font-size:12px;font-weight:900;letter-spacing:1px;color:#a1a8ac;line-height:1.8}
