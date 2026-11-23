@@ -51,6 +51,24 @@ begin
 
   if not exists (
     select 1 from public.part_catalog
+    where part_number = '236-0957'
+      and engine_models @> array['C9']::text[]
+      and verification_status = 'REFERENCE'
+  ) then
+    raise exception 'New C9 directory reference is missing';
+  end if;
+
+  if not exists (
+    select 1 from public.part_catalog
+    where part_number = '540-6824'
+      and engine_models @> array['C18']::text[]
+      and verification_status = 'REFERENCE'
+  ) then
+    raise exception 'New C18 directory reference is missing';
+  end if;
+
+  if not exists (
+    select 1 from public.part_catalog
     where part_number = '392-0217'
       and engine_models @> array['3512CB']::text[]
       and verification_status = 'REFERENCE'
