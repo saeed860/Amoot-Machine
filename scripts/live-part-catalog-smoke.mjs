@@ -263,7 +263,7 @@ async function runTest(test) {
     image: found?.imageUrl ? "present" : "missing",
     priceIrr: found?.priceIrr ?? null, stock: found?.stock ?? null,
     pass: ok, apiError: body.error?.code || null
-  }) + "\\n");
+  }) + "\n");
   return ok;
 }
 const workers = Array.from({ length: 8 }, async () => {
