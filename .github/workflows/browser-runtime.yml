@@ -103,7 +103,7 @@ jobs:
             await searchPage.route('**/functions/v1/store-api/api/products*', async route => {
               const url = new URL(route.request().url());
               searched.push(url.searchParams.get('q'));
-              await route.fulfill({status:200,contentType:'application/json',body:JSON.stringify({items:[{id:'p1',kind:'PART_REFERENCE',sku:'392-0217',name:'Fuel injector',brand:'Caterpillar',category:'قطعات موتور',machineModel:'3512 / 3516',priceIrr:null,stock:0,sourceUrl:'https://parts.cat.com/en/catcorp/product/392-0217'}]})});
+              await route.fulfill({status:200,contentType:'application/json',body:JSON.stringify({items:[{id:'p1',kind:'PART_REFERENCE',sku:'392-0217',name:'Fuel injector',brand:'Caterpillar',category:'قطعات موتور',machineModel:'3512B / 3516B',compatibleModels:['3508B','3512B','3516B'],technicalGroup:'Fuel system · Injector group',specifications:{length:{value:14.8,unit:'in'},height:{value:3,unit:'in'}},imageUrl:'https://caterpillar.scene7.com/is/image/Caterpillar/CM20231128-59fa0-8c001?fmt=WebP&wid=960',priceIrr:null,stock:0,sourceUrl:'https://parts.cat.com/en/catcorp/product/392-0217'}]})});
             });
             await searchPage.goto('http://127.0.0.1:4173/search.html',{waitUntil:'domcontentloaded',timeout:8000});
             await searchPage.locator('#partQuery').fill('3512CB');
