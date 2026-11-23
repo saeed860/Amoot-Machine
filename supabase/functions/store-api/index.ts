@@ -398,7 +398,11 @@ Deno.serve(async (req) => {
         seen.add(partNumber.toUpperCase());
         const rawStatus=clean(raw.verificationStatus??raw.verification_status,40).toUpperCase();
         const status=["REFERENCE","OEM_VERIFIED","NEEDS_SERIAL_CHECK"].includes(rawStatus)?rawStatus:"REFERENCE";
-        rows.push({brand:"Caterpillar",part_number:partNumber,name,description:clean(raw.description,1000)||null,engine_models:[...new Set(engineModels)],technical_group:clean(raw.technicalGroup??raw.technical_group,100)||null,source_name:sourceName,source_url:sourceUrl,source_note:clean(raw.sourceNote??raw.source_note,500)||null,verification_status:status});
+        const sourceSerialNumber=clean(raw.sourceSerialNumber??raw.source_serial_number,80);
+        const arrangementNumber=clean(raw.arrangementNumber??raw.arrangement_number,80);
+        const sourceDocumentRef=clean(raw.sourceDocumentRef??raw.source_document_ref,160);
+        if(status==="OEM_VERIFIED"&&(!/^cat\\s*(sis|sis2go)/i.test(sourceName)||sourceSerialNumber.length<3||arrangementNumber.length<2||sourceDocumentRef.length<3))return fail(400,"MISSING_CAT_SIS_EVIDENCE","تأیید OEM فقط با مرجع Cat SIS/SIS2GO، شماره سریال، Arrangement و شناسه سند قابل ثبت است.");
+        rows.push({brand:"Caterpillar",part_number:partNumber,name,description:clean(raw.description,1000)||null,engine_models:[...new Set(engineModels)],technical_group:clean(raw.technicalGroup??raw.technical_group,100)||null,source_name:sourceName,source_url:sourceUrl,source_note:clean(raw.sourceNote??raw.source_note,500)||null,source_serial_number:sourceSerialNumber||null,arrangement_number:arrangementNumber||null,source_document_ref:sourceDocumentRef||null,source_accessed_at:status==="OEM_VERIFIED"?new Date().toISOString():null,verification_status:status});
       }
       const {data,error}=await adminDb.from("part_catalog").upsert(rows,{onConflict:"part_number"}).select("part_number");
       if(error)return fail(500,"PART_IMPORT_FAILED","ذخیره پارت‌نامبرها ناموفق بود؛ ابتدا migration کاتالوگ قطعات را اجرا کنید.");
