@@ -17,6 +17,12 @@ const tests = [
   { q: "CAT-199-8436", sku: "CAT-199-8436", kind: "PRODUCT", category: "قطعات برقی" },
   { q: "CAT-4N-1114", sku: "CAT-4N-1114", kind: "PRODUCT", category: "قطعات برقی" },
   { q: "CAT-8T-6765", sku: "CAT-8T-6765", kind: "PRODUCT", category: "قطعات موتور" },
+  { q: "3349111411", sku: "3349111411", kind: "PRODUCT", category: "قطعات هیدرولیک" },
+  { q: "D1VW001CNJW", sku: "D1VW001CNJW", kind: "PRODUCT", category: "قطعات هیدرولیک" },
+  { q: "CDQ2B32-25DZ", sku: "CDQ2B32-25DZ", kind: "PRODUCT", category: "قطعات پنوماتیک" },
+  { q: "SY5120-5LZ-01N", sku: "SY5120-5LZ-01N", kind: "PRODUCT", category: "قطعات پنوماتیک" },
+  { q: "AC30A-03-D", sku: "AC30A-03-D", kind: "PRODUCT", category: "قطعات پنوماتیک" },
+  ...["321-8076","7T-3205","221-8307","1R-0716","320-6690","HPU-042","HCV-315","HPP-220","PNC-032","FRL-01","SV-24V"].map(q => ({q, absent:true})),
   { q: "CAT-1L-9049", sku: "CAT-1L-9049", kind: "PRODUCT", filterCategory: "قطعات موتور" },
   { q: "CAT-202-2785", sku: "CAT-202-2785", kind: "PRODUCT", filterCategory: "قطعات برقی" },
 ];
@@ -28,12 +34,14 @@ for (const test of tests) {
   const response = await fetch(url, { headers: { apikey: key } });
   const body = await response.json().catch(() => ({}));
   const items = Array.isArray(body.items) ? body.items : [];
-  const found = items.find(x => String(x.sku || "").replace(/[^A-Z0-9]/gi, "").toUpperCase() === String(test.sku || "").replace(/[^A-Z0-9]/gi, "").toUpperCase() && x.kind === test.kind && (!test.filterCategory || x.category === test.filterCategory));
-  const ok = response.ok && (test.any ? items.some(x => x.kind === test.kind) : Boolean(found)) && (!test.category || found?.category === test.category);
+  const normSku = v => String(v || "").replace(/[^A-Z0-9]/gi, "").toUpperCase();
+  const found = items.find(x => normSku(x.sku) === normSku(test.sku) && x.kind === test.kind && (!test.filterCategory || x.category === test.filterCategory));
+  const exists = items.some(x => normSku(x.sku) === normSku(test.q));
+  const ok = response.ok && (test.absent ? !exists : (test.any ? items.some(x => x.kind === test.kind) : Boolean(found))) && (!test.category || found?.category === test.category);
   failed ||= !ok;
   process.stdout.write(JSON.stringify({
-    query: test.q, http: response.status, kind: test.kind,
-    found: Boolean(found) || Boolean(test.any && items.some(x => x.kind === test.kind)),
+    query: test.q, http: response.status, kind: test.kind || "ABSENT",
+    found: Boolean(found) || Boolean(test.any && items.some(x => x.kind === test.kind)), absent: test.absent ? !exists : undefined,
     category: found?.category || null,
     image: found?.imageUrl ? "present" : "missing",
     priceIrr: found?.priceIrr ?? null, stock: found?.stock ?? null,
