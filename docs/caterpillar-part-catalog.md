@@ -537,3 +537,16 @@ The public Cat Parts Store category currently lists exactly 9 entries (1–9 of 
 - `528-1699` — SEM cylinder block (Cat publishes no compatible-model data)
 
 No prices, stock, guessed compatibility, or placeholder images were added. Fitment fields only use models explicitly shown on Cat product pages; `528-1699` has empty fitment arrays because Cat states that compatibility information is unavailable. All nine are search-only references, not sellable products.
+
+
+## Completed public Cat category: Sleeve Pins
+
+Source: https://parts.cat.com/en/catcorp/category/cylinder-components-sleeve-pins
+
+The public Cat Parts Store page shows exactly **6 of 6** records. Migration `202611232290_import_complete_cat_sleeve_pins_category.sql` imports all six as search-only `REFERENCE` entries: `598-0498`, `387-9865`, `7T-9309`, `655-7611`, `6E-4351` and `7T-9307`.
+
+Important catalog-quality note: Cat's own Sleeve Pins listing includes products whose individual product titles identify a bolt, a piston-pump pin, a cylinder-head valve sleeve and bogie-pin cartridges. The import preserves the official category membership as provenance but does not mislabel these as engine-specific parts. Equipment compatibility is copied only where explicitly listed on each Cat product page; engine-family tags are limited to the G3516K/G3512K/G3520K/G3520 applications shown for `655-7611`. Cat marks `7T-9309` and `7T-9307` discontinued; those statuses are retained in source notes.
+
+Verified direct Cat Scene7 image assets were captured for all six listed records. No prices or stock are fabricated; every row remains `REFERENCE` rather than a sellable product.
+
+Official product pages: [598-0498](https://parts.cat.com/en/catcorp/product/598-0498), [387-9865](https://parts.cat.com/en/catcorp/product/387-9865), [7T-9309](https://parts.cat.com/en/catcorp/product/7T-9309), [655-7611](https://parts.cat.com/en/catcorp/product/655-7611), [6E-4351](https://parts.cat.com/en/catcorp/product/6E-4351), [7T-9307](https://parts.cat.com/en/catcorp/product/7T-9307).
