@@ -1,0 +1,13 @@
+-- Complete official Cat Reman Flywheels category (3 of 3).
+-- Reference-only rows; Cat product pages expose only low-resolution thumbnails, so images remain NULL.
+insert into public.part_catalog
+(brand,part_number,name,description,engine_models,technical_group,source_name,source_url,source_note,verification_status,image_url,specifications,compatible_models)
+values
+('Caterpillar','0R-9983','Cat Reman Flywheel','Cat Reman flywheel; Cat explicitly lists engine models 3116, 3114, C7, 3126B, 3126E and 3126 under Compatible Models.',ARRAY['3116','3114','C7','3126B','3126E','3126']::text[],'Flywheels','Cat Parts Store (official)','https://parts.cat.com/en/catcorp/product/0R-9983','Complete official Cat Reman Flywheels category member (1–3 of 3). Engine models copied from the product page Compatible Models headings. Cat product page exposed only an 80px thumbnail; image intentionally omitted.','REFERENCE',null,'{}'::jsonb,ARRAY['3116','3114','C7','3126B','3126E','3126']::text[]),
+('Caterpillar','10R-2356','Cat Reman Flywheel','Cat Reman flywheel; Cat explicitly lists 3406E, 3406C, 3406B, C18, C15, C16 and 3406E under Compatible Models.',ARRAY['3406E','3406C','3406B','C18','C15','C16']::text[],'Flywheels','Cat Parts Store (official)','https://parts.cat.com/en/catcorp/product/10R-2356','Complete official Cat Reman Flywheels category member (1–3 of 3). Engine models copied from Cat Compatible Models headings (Truck Engine, Industrial Engine, Petroleum Engine and Reman Engine). Cat product page exposed only an 80px thumbnail; image intentionally omitted.','REFERENCE',null,'{}'::jsonb,ARRAY['3406E','3406C','3406B','C18','C15','C16']::text[]),
+('Caterpillar','0R-9986','Cat Reman Flywheel','Cat Reman flywheel; Cat explicitly lists C-10, C-12, C9, C11, C13, 3176, 3196, C9.3B, C9.3, C-9 and C13B under Compatible Models.',ARRAY['C10','C12','C9','C11','C13','3176','3196','C9.3B','C9.3','C13B']::text[],'Flywheels','Cat Parts Store (official)','https://parts.cat.com/en/catcorp/product/0R-9986','Complete official Cat Reman Flywheels category member (1–3 of 3). Engine models copied from Cat Compatible Models headings. Cat product page exposed only an 80px thumbnail; image intentionally omitted.','REFERENCE',null,'{}'::jsonb,ARRAY['C10','C12','C9','C11','C13','3176','3196','C9.3B','C9.3']::text[])
+on conflict (part_number) do update set
+ name=excluded.name,description=excluded.description,engine_models=excluded.engine_models,
+ technical_group=excluded.technical_group,source_name=excluded.source_name,source_url=excluded.source_url,
+ source_note=excluded.source_note,verification_status='REFERENCE',image_url=null,
+ specifications=excluded.specifications,compatible_models=excluded.compatible_models,updated_at=now();
