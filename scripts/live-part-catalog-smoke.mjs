@@ -30,7 +30,7 @@ const tests = [
   { q: "CAT-7W-0009", sku: "CAT-7W-0009", kind: "PRODUCT", imageRequired: true, sourceRequired: true, category: "قطعات موتور" },
   { q: "CAT-9X-3406", sku: "CAT-9X-3406", kind: "PRODUCT", imageRequired: true, sourceRequired: true, category: "قطعات برقی" },
   { q: "CAT-260-3406", sku: "CAT-260-3406", kind: "PRODUCT", imageRequired: true, sourceRequired: true, category: "قطعات موتور" },
-  ...["3512","3516","C15","C18","C9","3406","3408"].map(q => ({ q, kind: "PRODUCT", any: true })),
+  ...["3512","3516","C15","C18","C9","3406","3408"].map(q => ({ q, kind: "PRODUCT", any: true, modelQuery: true })),
   { q: "CAT-20R-4278", sku: "CAT-20R-4278", kind: "PRODUCT", imageRequired: true, sourceRequired: true, category: "قطعات موتور" },
   { q: "CAT-10R-9063", sku: "CAT-10R-9063", kind: "PRODUCT", imageRequired: true, sourceRequired: true, category: "قطعات موتور" },
   ...["321-8076","7T-3205","221-8307","1R-0716","320-6690","HPU-042","HCV-315","HPP-220","PNC-032","FRL-01","SV-24V"].map(q => ({q, absent:true})),
@@ -48,7 +48,8 @@ for (const test of tests) {
   const normSku = v => String(v || "").replace(/[^A-Z0-9]/gi, "").toUpperCase();
   const found = items.find(x => normSku(x.sku) === normSku(test.sku) && x.kind === test.kind && (!test.filterCategory || x.category === test.filterCategory));
   const exists = items.some(x => normSku(x.sku) === normSku(test.q) && x.kind === "PRODUCT");
-  const ok = response.ok && (test.absent ? !exists : (test.any ? items.some(x => x.kind === test.kind) : Boolean(found))) && (!test.category || found?.category === test.category) && (!test.imageRequired || Boolean(found?.imageUrl)) && (!test.sourceRequired || String(found?.description || "").includes("parts.cat.com"));
+  const modelMatched = !test.modelQuery || items.some(x => x.kind === "PRODUCT" && (normSku(x.machineModel).includes(normSku(test.q)) || normSku(x.description).includes(normSku(test.q))));
+  const ok = response.ok && (test.absent ? !exists : (test.any ? items.some(x => x.kind === test.kind) : Boolean(found))) && modelMatched && (!test.category || found?.category === test.category) && (!test.imageRequired || Boolean(found?.imageUrl)) && (!test.sourceRequired || String(found?.description || "").includes("parts.cat.com"));
   failed ||= !ok;
   process.stdout.write(JSON.stringify({
     query: test.q, http: response.status, kind: test.kind || "ABSENT",
