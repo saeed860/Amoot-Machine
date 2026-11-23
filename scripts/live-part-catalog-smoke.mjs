@@ -590,7 +590,7 @@ const tests = [
   {"q":"20R-3441","sku":"20R-3441","kind":"PART_REFERENCE","sourceRequired":true},
   {"q":"20R-3442","sku":"20R-3442","kind":"PART_REFERENCE","sourceRequired":true},
   {"q":"20R-5199","sku":"20R-5199","kind":"PART_REFERENCE","sourceRequired":true},
-  {"q":"528-1699","sku":"528-1699","kind":"PART_REFERENCE","sourceRequired":true}
+  {"q":"528-1699","sku":"528-1699","kind":"PART_REFERENCE","sourceRequired":true},
   { "q": "598-0498", "sku": "598-0498", "kind": "PART_REFERENCE", "sourceRequired": true, "imageRequired": true },
   { "q": "387-9865", "sku": "387-9865", "kind": "PART_REFERENCE", "sourceRequired": true, "imageRequired": true },
   { "q": "7T-9309", "sku": "7T-9309", "kind": "PART_REFERENCE", "sourceRequired": true, "imageRequired": true },
