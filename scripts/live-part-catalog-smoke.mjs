@@ -251,6 +251,22 @@ const tests = [
   { q: "523-3387", sku: "523-3387", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
   { q: "572-2683", sku: "572-2683", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
   { q: "572-2684", sku: "572-2684", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
+  { q: "261-8287", sku: "261-8287", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
+  { q: "6T-1382", sku: "6T-1382", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
+  { q: "7T-0375", sku: "7T-0375", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
+  { q: "7T-8555", sku: "7T-8555", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
+  { q: "128-4414", sku: "128-4414", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
+  { q: "7T-5420", sku: "7T-5420", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
+  { q: "134-2679", sku: "134-2679", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
+  { q: "7T-5417", sku: "7T-5417", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
+  { q: "126-8588", sku: "126-8588", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
+  { q: "134-2680", sku: "134-2680", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
+  { q: "128-7256", sku: "128-7256", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
+  { q: "362-3566", sku: "362-3566", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
+  { q: "156-4208", sku: "156-4208", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
+  { q: "156-4209", sku: "156-4209", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
+  { q: "310-2901", sku: "310-2901", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
+  { q: "310-2902", sku: "310-2902", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
 ];
 let failed = false;
 let cursor = 0;
