@@ -76,6 +76,18 @@ const tests = [
   { q: "505-4113", sku: "505-4113", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Ground Engaging Tools" },
   { q: "000-5242", sku: "000-5242", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Hardware, Seals & Consumables" },
   { q: "6V-0852", sku: "6V-0852", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Hoses & Tubes" },
+  { q: "574-0991", sku: "574-0991", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Engine" },
+  { q: "20R-5566", sku: "20R-5566", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Engine" },
+  { q: "596-1051", sku: "596-1051", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Engine" },
+  { q: "647-0750", sku: "647-0750", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Engine" },
+  { q: "10R-6341", sku: "10R-6341", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Engine" },
+  { q: "511-7975", sku: "511-7975", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Engine" },
+  { q: "20R-5075", sku: "20R-5075", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Engine" },
+  { q: "460-0310", sku: "460-0310", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Filters & Fluids" },
+  { q: "552-5534", sku: "552-5534", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Engine" },
+  { q: "20R-2284", sku: "20R-2284", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Engine" },
+  { q: "10R-7231", sku: "10R-7231", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Engine" },
+  { q: "546-6109", sku: "546-6109", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Engine" },
 ];
 let failed = false;
 for (const test of tests) {
