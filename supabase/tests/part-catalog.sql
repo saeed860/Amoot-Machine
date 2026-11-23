@@ -331,6 +331,60 @@ begin
     raise exception 'Official Cat 397-5051 description/discontinued status is missing';
   end if;
 
+  if not exists (
+    select 1 from public.part_catalog
+    where part_number = '392-0222'
+      and source_name = 'Cat Parts Store (official)'
+      and engine_models @> array['3512C','3516C']::text[]
+  ) then
+    raise exception 'Official Cat 392-0222 injector reference is missing';
+  end if;
+
+  if not exists (
+    select 1 from public.part_catalog
+    where part_number = '392-0221'
+      and source_name = 'Cat Parts Store (official)'
+      and engine_models @> array['3512B','3512C','3516C']::text[]
+  ) then
+    raise exception 'Official Cat 392-0221 injector reference is missing';
+  end if;
+
+  if not exists (
+    select 1 from public.part_catalog
+    where part_number = '392-0216'
+      and source_name = 'Cat Parts Store (official)'
+      and engine_models @> array['3512B','3512C','3516C']::text[]
+  ) then
+    raise exception 'Official Cat 392-0216 injector reference is missing';
+  end if;
+
+  if not exists (
+    select 1 from public.part_catalog
+    where part_number = '392-0220'
+      and source_name = 'Cat Parts Store (official)'
+      and engine_models @> array['3508','3512','3516']::text[]
+  ) then
+    raise exception 'Official Cat 392-0220 injector reference is missing';
+  end if;
+
+  if not exists (
+    select 1 from public.part_catalog
+    where part_number = '7C-0877'
+      and source_name = 'Cat Parts Store (official)'
+      and engine_models @> array['3508','3512','3516']::text[]
+  ) then
+    raise exception 'Official Cat 7C-0877 injector reference is missing';
+  end if;
+
+  if not exists (
+    select 1 from public.part_catalog
+    where part_number = '100-3878'
+      and source_name = 'Cat Parts Store (official)'
+      and engine_models @> array['3512C','3516C']::text[]
+  ) then
+    raise exception 'Official Cat 100-3878 injector spring reference is missing';
+  end if;
+
   if not exists (select 1 from pg_constraint where conname = 'part_catalog_oem_verified_evidence_check') then
     raise exception 'Cat SIS evidence constraint is missing';
   end if;
