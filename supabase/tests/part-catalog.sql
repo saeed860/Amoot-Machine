@@ -4,8 +4,8 @@ declare
   v_count integer;
 begin
   select count(*) into v_count from public.part_catalog;
-  if v_count < 219 then
-    raise exception 'Expected at least 219 Caterpillar reference rows, found %', v_count;
+  if v_count < 221 then
+    raise exception 'Expected at least 221 Caterpillar reference rows, found %', v_count;
   end if;
 
   if not exists (
@@ -15,6 +15,14 @@ begin
       and engine_models @> array['3406','3408']::text[]
   ) then
     raise exception '3406/3408 reference or normalized part-number lookup failed';
+  end if;
+
+  if not exists (
+    select 1 from public.part_catalog
+    where part_number = '567-5857'
+      and engine_models @> array['C15']::text[]
+  ) then
+    raise exception 'C15 water pump reference is missing';
   end if;
 
   if not exists (
