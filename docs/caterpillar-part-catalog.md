@@ -395,3 +395,27 @@ Migration `202611232180_expand_cat_3400_c15_fuel_injector_references.sql` adds/u
 All records remain quote-only `REFERENCE` entries. Compatible models are limited to Cat's explicit compatible-model sections; where only the Cat product title names an engine family, the source note says so and the compatible-model array is left empty. No pricing, stock, or non-Cat image is fabricated. This is a targeted family batch, not a claim that the public Cat catalog has been fully extracted.
 
 Official sources: [9N-3246](https://parts.cat.com/en/catcorp/product/9N-3246), [7N-9843](https://parts.cat.com/en/catcorp/product/7N-9843), [20R-4147](https://parts.cat.com/en/catcorp/product/20R-4147), [20R-0759](https://parts.cat.com/en/catcorp/product/20R-0759), [10R-1273](https://parts.cat.com/en/catcorp/product/10R-1273), [10R-3261](https://parts.cat.com/en/catcorp/product/10R-3261), [20R-1306](https://parts.cat.com/en/catcorp/product/20R-1306), [249-0709](https://parts.cat.com/en/catcorp/product/249-0709), [211-3023](https://parts.cat.com/en/catcorp/product/211-3023), [4W-7019](https://parts.cat.com/en/catcorp/product/4W-7019), [6I-0036](https://parts.cat.com/en/catcorp/product/6I-0036), [1W-6316](https://parts.cat.com/en/catcorp/product/1W-6316), [1W-6312](https://parts.cat.com/en/catcorp/product/1W-6312).
+
+
+## Cat C9/3400/3500 cylinder-pack and crankshaft batch (2026-11-23)
+
+Migration `202611232190_expand_cat_c9_3400_3500_cylinder_and_crankshaft_references.sql` adds/upserts **12 official Cat references**:
+
+| Part number | Component | Cat-listed engine scope |
+|---|---|---|
+| 0R-9736 | 3512B Reman UTN crankshaft | 3512, 3512B/C/E, G3512/B/E/J |
+| 20R-4195 | C18 Reman UTN crankshaft | C18 |
+| 0R-8502 | 3508B Reman UTN crankshaft | 3508, 3508B/C |
+| 0R-2657 | 3408 Reman UTN crankshaft | 3408/3408B/C/E, 3412/3412C, G3408 family, G3412 |
+| 0R-2235 | C9 Reman UTN crankshaft | C9, C-9 |
+| 10R-6213 | C9 Reman cylinder pack, 17.5:1 | C9, C-9 |
+| 20R-0615 | C9 Reman cylinder pack, 15.5:1 | C9 |
+| 10R-8157 | C9 Reman cylinder pack, 17.0:1 | C9, C-9 |
+| 20R-4306 | C9 Reman cylinder pack, Tier 4 | C9.3 explicitly listed; title also references C9 |
+| 0R-1572 | 3408/3412 Reman cylinder pack | 3408/3408B/C, 3406B, 3412/3412C |
+| 20R-0582 | 3500C HD Reman cylinder pack | 3512B/C, 3516B/C |
+| 20R-5616 | 3500 HD Reman cylinder pack | 3512B, 3516B |
+
+All entries are reference-only and quote-only. Compatible models are based on the official Cat product page's explicit compatible-model section; the 20R-4306 entry stores C9.3 only because that is what Cat explicitly lists, despite the product title identifying the C9 family. No prices, stock, or unverified image URLs are fabricated.
+
+Official sources: [0R-9736](https://parts.cat.com/en/catcorp/product/0R-9736), [20R-4195](https://parts.cat.com/en/catcorp/product/20R-4195), [0R-8502](https://parts.cat.com/en/catcorp/product/0R-8502), [0R-2657](https://parts.cat.com/en/catcorp/product/0R-2657), [0R-2235](https://parts.cat.com/en/catcorp/product/0R-2235), [10R-6213](https://parts.cat.com/en/catcorp/product/10R-6213), [20R-0615](https://parts.cat.com/en/catcorp/product/20R-0615), [10R-8157](https://parts.cat.com/en/catcorp/product/10R-8157), [20R-4306](https://parts.cat.com/en/catcorp/product/20R-4306), [0R-1572](https://parts.cat.com/en/catcorp/product/0R-1572), [20R-0582](https://parts.cat.com/en/catcorp/product/20R-0582), [20R-5616](https://parts.cat.com/en/catcorp/product/20R-5616).
