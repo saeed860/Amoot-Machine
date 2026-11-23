@@ -500,3 +500,21 @@ Migration `202611232260_expand_cat_3406_3500_cylinder_turbo_and_fuel_pump_refere
 All remain search-only `REFERENCE` records with no price or stock. Model arrays are limited to Cat's explicit Compatible Models data; for 20R-5629, the broader 3512/3516 recommended application is retained in provenance but only 3512C/3516C are tagged as exact compatible engine models. No image is assigned unless a direct exact Cat Scene7 asset is verified.
 
 Official sources: [20R-5629](https://parts.cat.com/en/catcorp/product/20R-5629), [108-6630](https://parts.cat.com/en/catcorp/product/108-6630), [0R-3841](https://parts.cat.com/en/catcorp/product/0R-3841), [110-8897](https://parts.cat.com/en/catcorp/product/110-8897).
+
+
+## Additional Cat 3406/3408 and 3500 references (2026-11-23)
+
+Migration `202611232270_expand_cat_3406_3408_and_3500_fuel_references.sql` adds six official Cat Parts Store references:
+
+| Part number | Component | Explicit Cat-listed engine scope |
+|---|---|---|
+| 4P-1384 | Fuel injection pump | 3406B, 3406C |
+| 115-5699 | Fuel injection pump | 3406C |
+| 130-5789 | Fuel injection pump group | 3406B, 3406C |
+| 10R-4374 | Cat Reman 11 mm fuel injection pump | 3406B, 3406C |
+| 10R-9224 | Cat Reman cylinder pack, 15.3:1 | 3512B, 3516B |
+| 20R-5152 | Cat Reman basic 10 mm fuel injection pump | 3406, 3406B, 3408, 3408B, 3408C, 3412, 3412C |
+
+The records remain `REFERENCE` search results with no assumed selling price or stock. Compatible engine arrays reflect only the Cat Parts Store's explicit Compatible Models section. Images are left unset where an exact direct Cat Scene7 asset has not been verified.
+
+Official Cat sources: [4P-1384](https://parts.cat.com/en/catcorp/product/4P-1384), [115-5699](https://parts.cat.com/en/catcorp/product/115-5699), [130-5789](https://parts.cat.com/en/catcorp/product/130-5789), [10R-4374](https://parts.cat.com/en/catcorp/product/10R-4374), [10R-9224](https://parts.cat.com/en/catcorp/product/10R-9224), [20R-5152](https://parts.cat.com/en/catcorp/product/20R-5152).
