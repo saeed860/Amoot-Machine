@@ -159,6 +159,21 @@ begin
 
   if not exists (
     select 1 from public.part_catalog
+    where part_number_normalized = '3920217'
+      and part_number = '392-0217'
+  ) then
+    raise exception 'Normalized exact part-number lookup for 392-0217 failed';
+  end if;
+
+  if not exists (
+    select 1 from public.part_catalog
+    where part_number_normalized ilike '%3920217%'
+  ) then
+    raise exception 'Normalized partial part-number lookup for 392-0217 failed';
+  end if;
+
+  if not exists (
+    select 1 from public.part_catalog
     where part_number = '392-0217'
       and engine_models @> array['3512B','3516B','3508B']::text[]
       and verification_status = 'REFERENCE'
