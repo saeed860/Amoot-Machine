@@ -474,3 +474,8 @@ https://parts.cat.com/en/catcorp/product/605-7481
 https://parts.cat.com/en/catcorp/product/7C-7688
 https://parts.cat.com/en/catcorp/product/352-0210
 https://parts.cat.com/en/catcorp/product/456-0027
+
+
+### Fitment correction — 392-0221
+
+Migration `202611232240_correct_cat_392_0221_fitment.sql` adds the Cat-listed `3512B` Marine Auxiliary application to the engine and compatible-model arrays for `392-0221`. This corrects the integration-test expectation against the official product page: https://parts.cat.com/en/catcorp/product/392-0221.
