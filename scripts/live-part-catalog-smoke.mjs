@@ -30,7 +30,7 @@ for (const test of tests) {
     samplePartNumbers: refs.slice(0, 5).map(x => x.sku),
     expected: test.expected || "at least one family reference",
     pass: ok,
-    apiError: body.error?.code || null
+    apiError: body.error?.code || null, debug: body.error?.debug || null
   }) + "\n");
 }
 if (failed) process.exit(1);
