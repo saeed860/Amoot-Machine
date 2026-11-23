@@ -70,7 +70,7 @@ Deno.serve(async (req) => {
         if (q) {
           const normalized=q.toUpperCase().replace(/[^A-Z0-9]/g,"");
           const filters=[`part_number.ilike.%${q}%`,`part_number_normalized.ilike.%${normalized}%`,`name.ilike.%${q}%`,`description.ilike.%${q}%`];
-          if (/^[A-Z0-9-]{2,20}$/i.test(q)) filters.push(`engine_models.cs.{${q.toUpperCase()}}`);
+          if (/^[A-Z0-9-]{2,20}$/i.test(q)) { const modelAlias = ({ "3512CB":"3512", "3516CB":"3516" } as Record<string,string>)[q.toUpperCase()] ?? q.toUpperCase(); filters.push(`engine_models.cs.{${modelAlias}}`); }
           partsQuery=partsQuery.or(filters.join(","));
         }
         const {data:parts,error:partsError}=await partsQuery;
