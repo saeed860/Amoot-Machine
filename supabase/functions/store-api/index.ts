@@ -61,7 +61,7 @@ Deno.serve(async (req) => {
         console.error("[store-api/marine-engines] listing failed", error.code, error.message);
         return fail(500, "MARINE_ENGINES_FAILED", "دریافت فهرست موتورهای دریایی ناموفق بود.");
       }
-      return json({ items: data ?? [] });
+      return json({ items: (data ?? []).map(x => ({ modelKey:x.model_key, modelName:x.model_name, applicationGroup:x.application_group, applicationType:x.application_type, sourceUrl:x.source_url, sourceName:x.source_name })) });
     }
 
     if (req.method === "GET" && path === "/api/part-categories") {
