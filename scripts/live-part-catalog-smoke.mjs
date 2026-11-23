@@ -17,15 +17,18 @@ const tests = [
   { q: "CAT-199-8436", sku: "CAT-199-8436", kind: "PRODUCT", category: "قطعات برقی" },
   { q: "CAT-4N-1114", sku: "CAT-4N-1114", kind: "PRODUCT", category: "قطعات برقی" },
   { q: "CAT-8T-6765", sku: "CAT-8T-6765", kind: "PRODUCT", category: "قطعات موتور" },
+  { q: "CAT-1L-9049", sku: "CAT-1L-9049", kind: "PRODUCT", filterCategory: "قطعات موتور" },
+  { q: "CAT-202-2785", sku: "CAT-202-2785", kind: "PRODUCT", filterCategory: "قطعات برقی" },
 ];
 let failed = false;
 for (const test of tests) {
   const url = new URL(base + "/api/products");
   url.searchParams.set("q", test.q);
+  if (test.filterCategory) url.searchParams.set("category", test.filterCategory);
   const response = await fetch(url, { headers: { apikey: key } });
   const body = await response.json().catch(() => ({}));
   const items = Array.isArray(body.items) ? body.items : [];
-  const found = items.find(x => String(x.sku || "").replace(/[^A-Z0-9]/gi, "").toUpperCase() === String(test.sku || "").replace(/[^A-Z0-9]/gi, "").toUpperCase() && x.kind === test.kind);
+  const found = items.find(x => String(x.sku || "").replace(/[^A-Z0-9]/gi, "").toUpperCase() === String(test.sku || "").replace(/[^A-Z0-9]/gi, "").toUpperCase() && x.kind === test.kind && (!test.filterCategory || x.category === test.filterCategory));
   const ok = response.ok && (test.any ? items.some(x => x.kind === test.kind) : Boolean(found)) && (!test.category || found?.category === test.category);
   failed ||= !ok;
   process.stdout.write(JSON.stringify({
