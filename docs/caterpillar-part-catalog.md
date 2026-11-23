@@ -273,3 +273,31 @@ Migration `202611232110_set_verified_cat_scene7_images.sql` stores direct Scene7
 ### Fitment correction and final image verification
 
 The official Cat page for `20R-4147` uses the title “3408/3412 Reman Fuel Injector” but its explicit Compatible Models section lists **Marine Engine 3412E only**. Migration `202611232120_correct_cat_20r4147_fitment_and_images.sql` therefore retains 3408/3412 as search terms while recording only 3412E in `compatible_models`. The same migration adds the exact Scene7 image for 20R-4147 and the exact product image for 1P-1120. The 1W-1052 Cat page states its image is representative, so that image remains deliberately unassigned.
+
+
+## Expanded engine internals and turbocharger batch (2026-11-23)
+
+Migration `202611232130_expand_cat_engine_internal_and_turbo_references.sql` adds/upserts **16 additional official Cat references**:
+
+| Part number | Description | Cat-listed engine/application scope |
+|---|---|---|
+| 450-1408 | Top piston ring | 3512E, 3516E, G3516C, G3512H and listed 3500 family applications |
+| 20R-9480 | 3512E DGB Tier 4 Reman cylinder pack | 3512E DGB (product title) |
+| 314-2700 | Piston kit for basic engine | Exact SKU/title listed; fitment not asserted |
+| 0R-9737 | 3516 Reman UTN crankshaft | 3516 (product title) |
+| 0R-9739 | 3512B Reman UTN long-stroke crankshaft | 3512B (product title) |
+| 523-8663 | 170.025 mm cylinder block liner | Exact SKU and diameter listed; fitment not asserted |
+| 593-2027 | Cylinder liner | Exact SKU/title listed; fitment not asserted |
+| 107-7330 | Connecting rod bearing | Exact SKU, dimensions and material listed; fitment not asserted |
+| 7W-0489 | Turbocharger cartridge | 3408, 3408B/C, G3408 family |
+| 20R-3163 | Reman turbocharger | 3408/3408B/C, 3412, G3408 family |
+| 1W-8922 | Piston ring kit | 3406, 3406B/C, 3408/3408B, 3412 and listed applications |
+| 8N-0822 | Engine and motor piston ring | 3406, 3408/3408B/C, 3412/3412C |
+| 4W-1434 | Engine turbocharger | 3408, 3408B |
+| 9N-6753 | Turbocharger group | 3408, 3408B |
+| 0R-6364 | Reman turbocharger | 3408 family, 3412, 3508, G3512/G3516 |
+| 4W-7637 | Turbocharger group | 3408 family, G3408 family |
+
+All entries remain `REFERENCE`; Cat source URLs and provenance are stored. No sale price or stock is fabricated. Where the public Cat source did not provide a model-level fitment list, compatible_models remains empty. Turbo images marked representative by Cat are not stored as exact product images. Serial/arrangement confirmation remains necessary before order acceptance.
+
+Sources: [450-1408](https://parts.cat.com/en/catcorp/product/450-1408), [20R-9480](https://parts.cat.com/en/catcorp/product/20R-9480), [314-2700](https://parts.cat.com/en/catcorp/product/314-2700), [0R-9737](https://parts.cat.com/en/catcorp/product/0R-9737), [0R-9739](https://parts.cat.com/en/catcorp/product/0R-9739), [523-8663](https://parts.cat.com/en/catcorp/product/523-8663), [593-2027](https://parts.cat.com/en/catcorp/product/593-2027), [107-7330](https://parts.cat.com/en/catcorp/product/107-7330), [7W-0489](https://parts.cat.com/en/catcorp/product/7W-0489), [20R-3163](https://parts.cat.com/en/catcorp/product/20R-3163), [1W-8922](https://parts.cat.com/en/catcorp/product/1W-8922), [8N-0822](https://parts.cat.com/en/catcorp/product/8N-0822), [4W-1434](https://parts.cat.com/en/catcorp/product/4W-1434), [9N-6753](https://parts.cat.com/en/catcorp/product/9N-6753), [0R-6364](https://parts.cat.com/en/catcorp/product/0R-6364), [4W-7637](https://parts.cat.com/en/catcorp/product/4W-7637).
