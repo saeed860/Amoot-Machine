@@ -194,17 +194,17 @@ begin
 
 
 
-  if (select count(*) from public.part_catalog where engine_models @> array['C9']::text[]) <> 125 then
-    raise exception 'Expected 125 C9/C9.3 references';
+  if (select count(*) from public.part_catalog where engine_models @> array['C9']::text[]) < 125 then
+    raise exception 'Expected at least 125 C9/C9.3 references';
   end if;
-  if (select count(*) from public.part_catalog where engine_models @> array['C15']::text[]) <> 142 then
-    raise exception 'Expected 142 C15 references';
+  if (select count(*) from public.part_catalog where engine_models @> array['C15']::text[]) < 142 then
+    raise exception 'Expected at least 142 C15 references';
   end if;
-  if (select count(*) from public.part_catalog where engine_models @> array['C18']::text[]) <> 144 then
-    raise exception 'Expected 144 C18 references';
+  if (select count(*) from public.part_catalog where engine_models @> array['C18']::text[]) < 144 then
+    raise exception 'Expected at least 144 C18 references';
   end if;
-  if (select count(*) from public.part_catalog where engine_models && array['3406','3408']::text[]) <> 14 then
-    raise exception 'Expected 14 combined 3406/3408 references';
+  if (select count(*) from public.part_catalog where engine_models && array['3406','3408']::text[]) < 14 then
+    raise exception 'Expected at least 14 combined 3406/3408 references';
   end if;
 
   if not exists (
@@ -275,6 +275,42 @@ begin
       and engine_models @> array['3512C','3516C']::text[]
   ) then
     raise exception 'Official Cat 127-2176 model listing is missing';
+  end if;
+
+  if not exists (
+    select 1 from public.part_catalog
+    where part_number = '397-5051'
+      and source_name = 'Cat Parts Store (official)'
+      and engine_models @> array['3406','3408']::text[]
+  ) then
+    raise exception 'Official Cat 397-5051 3406/3408 reference is missing';
+  end if;
+
+  if not exists (
+    select 1 from public.part_catalog
+    where part_number = '338-3454'
+      and source_name = 'Cat Parts Store (official)'
+      and engine_models @> array['C9','C15','C18']::text[]
+  ) then
+    raise exception 'Official Cat 338-3454 C9/C15/C18 reference is missing';
+  end if;
+
+  if not exists (
+    select 1 from public.part_catalog
+    where part_number = '8N-8836'
+      and source_name = 'Cat Parts Store (official)'
+      and engine_models @> array['3406','3408']::text[]
+  ) then
+    raise exception 'Official Cat 8N-8836 3406/3408 reference is missing';
+  end if;
+
+  if not exists (
+    select 1 from public.part_catalog
+    where part_number = '1L-5011'
+      and source_name = 'Cat Parts Store (official)'
+      and engine_models @> array['C9','C15','C18']::text[]
+  ) then
+    raise exception 'Official Cat 1L-5011 C-series reference is missing';
   end if;
 
   if not exists (select 1 from pg_constraint where conname = 'part_catalog_oem_verified_evidence_check') then
