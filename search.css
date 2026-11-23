@@ -146,3 +146,9 @@
  .parts-search-page .quote-inline-head,.parts-search-page .quote-inline .quote-message{grid-column:1}
  .parts-search-page .quote-inline-head{align-items:flex-start;flex-direction:column}
 }
+
+.application-badge{display:inline-flex;align-items:center;width:max-content;padding:5px 10px;margin:6px 0 8px;border-radius:999px;border:1px solid #d8dee4;background:#f4f6f8;color:#39434d;font-size:11px;font-weight:800}
+.application-MARINE{background:#e8f4fb;border-color:#b9d9eb;color:#155779}
+.application-LAND{background:#f1f2f4;border-color:#d5d9de;color:#454d56}
+.application-BOTH{background:#e9f4ed;border-color:#bfddc9;color:#24633c}
+.application-UNVERIFIED{background:#fff5df;border-color:#f0d99d;color:#79570a}
