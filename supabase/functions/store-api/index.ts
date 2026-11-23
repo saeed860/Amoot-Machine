@@ -76,7 +76,8 @@ Deno.serve(async (req) => {
           // Keep part-number lookup independent from text/model filters. This avoids
           // PostgREST OR parsing edge cases for punctuation-heavy Cat part numbers.
           if (normalized) searches.push(basePartsQuery().ilike("part_number_normalized", "%" + normalized + "%"));
-          searches.push(basePartsQuery().or("name.ilike.%" + q + "%,description.ilike.%" + q + "%"));
+          searches.push(basePartsQuery().ilike("name", "%" + q + "%"));
+          searches.push(basePartsQuery().ilike("description", "%" + q + "%"));
           const modelQuery=normalizeEngineFamily(normalized);
           if (/^[A-Z0-9]{2,20}$/i.test(modelQuery)) {
             const candidates=familyModelCandidates(modelQuery);
