@@ -518,3 +518,22 @@ Migration `202611232270_expand_cat_3406_3408_and_3500_fuel_references.sql` adds 
 The records remain `REFERENCE` search results with no assumed selling price or stock. Compatible engine arrays reflect only the Cat Parts Store's explicit Compatible Models section. Images are left unset where an exact direct Cat Scene7 asset has not been verified.
 
 Official Cat sources: [4P-1384](https://parts.cat.com/en/catcorp/product/4P-1384), [115-5699](https://parts.cat.com/en/catcorp/product/115-5699), [130-5789](https://parts.cat.com/en/catcorp/product/130-5789), [10R-4374](https://parts.cat.com/en/catcorp/product/10R-4374), [10R-9224](https://parts.cat.com/en/catcorp/product/10R-9224), [20R-5152](https://parts.cat.com/en/catcorp/product/20R-5152).
+
+
+## Completed public Cat category: Bare Blocks
+
+Source: https://parts.cat.com/en/catcorp/category/engine-blocks-bare-blocks
+
+The public Cat Parts Store category currently lists exactly 9 entries (1–9 of 9). All nine have been imported into `public.part_catalog` as `REFERENCE` records with official product URLs:
+
+- `10R-8415` — 3512 Reman cylinder block (Cat marks discontinued)
+- `10R-8417` — 3516 Reman UTN bare block (Cat marks discontinued)
+- `11R-1405` — 3512 Reman NWC bare block
+- `11R-1406` — 3516 Reman NWC bare block
+- `20R-3440` — 3508 Reman bare block (Cat marks discontinued)
+- `20R-3441` — 3512 Reman service bare block (Cat marks discontinued)
+- `20R-3442` — 3516 Reman bare block
+- `20R-5199` — C175-16 Reman UTN bare block (Cat marks discontinued)
+- `528-1699` — SEM cylinder block (Cat publishes no compatible-model data)
+
+No prices, stock, guessed compatibility, or placeholder images were added. Fitment fields only use models explicitly shown on Cat product pages; `528-1699` has empty fitment arrays because Cat states that compatibility information is unavailable. All nine are search-only references, not sellable products.
