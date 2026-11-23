@@ -99,7 +99,7 @@ All these rows remain `REFERENCE`, with no price or stock. Fitment is recorded o
 
 ## Further official Cat undercarriage references (2026-11-23)
 
-The public Cat Parts Store undercarriage catalog was expanded in migrations `202611231830`–`202611231870` and `202611231880`. This includes selected official references from Bogies, Guards, Rubber Track components, Seals, Rolling Components, Track Roller Groups and Carrier Roller Groups. The rolling-component batch includes track segments, track rollers, idler groups and Cat-listed fitment for selected models. The carrier-roller batch adds:
+The public Cat Parts Store undercarriage catalog was expanded in migrations `202611231830`–`202611231870`, `202611231880`–`202611231890` and `202611231900`. This includes selected official references from Bogies, Guards, Rubber Track components, Seals, Rolling Components, Track Roller Groups and Carrier Roller Groups. The rolling-component batch includes track segments, track rollers, idler groups and Cat-listed fitment for selected models. The carrier-roller batch adds:
 
 | Cat part number | Part | Cat-listed model examples |
 |---|---|---|
