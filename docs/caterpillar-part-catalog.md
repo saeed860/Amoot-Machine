@@ -29,7 +29,7 @@ Additional C9 pages 2–6 and C18 pages 3–6 references have now been added fro
 
 ## Additional official Cat Parts Store products (2026-11-23)
 
-The sellable storefront catalog has been expanded with ten further Cat Parts Store records in migration `202611231500_expand_cat_oem_engine_products.sql`. Each row uses the exact Cat part number (prefixed with `CAT-` in Amoot's SKU), the Cat product page as its source, and a Cat Scene7 product image. Price is NULL and stock is 0, so each item is quote-only until supplier pricing and availability are confirmed.
+The sellable storefront catalog has been expanded with ten further Cat Parts Store records across migrations `202611231500_expand_cat_oem_engine_products.sql` and `202611231520_add_cat_3406_c15_reman_blocks.sql`. Each row uses the exact Cat part number (prefixed with `CAT-` in Amoot's SKU), the Cat product page as its source, and a Cat Scene7 product image. Price is NULL and stock is 0, so each item is quote-only until supplier pricing and availability are confirmed.
 
 | Amoot SKU | Cat part number | Cat product page | Engine family / listed application |
 |---|---|---|---|
@@ -41,9 +41,6 @@ The sellable storefront catalog has been expanded with ten further Cat Parts Sto
 | CAT-7W-0009 | 7W-0009 | https://parts.cat.com/en/catcorp/product/7W-0009 | Cylinder head assembly; Cat lists 3406B / 3406C |
 | CAT-9X-3406 | 9X-3406 | https://parts.cat.com/en/catcorp/product/9X-3406 | 2-pin connector; Cat lists G3512 / G3516 / G3406 / G3408 |
 | CAT-260-3406 | 260-3406 | https://parts.cat.com/en/catcorp/product/260-3406 | High-temperature coolant hose; Cat lists G3516 / G3516B / G3516C |
-
-| CAT-20R-4278 | 20R-4278 | https://parts.cat.com/en/catcorp/product/20R-4278 | 3406 Reman Long Block |
-| CAT-10R-9063 | 10R-9063 | https://parts.cat.com/en/catcorp/product/10R-9063 | C15 Reman Short Block |
 
 | CAT-20R-4278 | 20R-4278 | https://parts.cat.com/en/catcorp/product/20R-4278 | 3406 Reman Long Block |
 | CAT-10R-9063 | 10R-9063 | https://parts.cat.com/en/catcorp/product/10R-9063 | C15 Reman Short Block |
