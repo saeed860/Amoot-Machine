@@ -569,3 +569,22 @@ The official Cat Parts Store category lists exactly **7 of 7** records on one pa
 Compatibility arrays are limited to the official Cat product-page Compatible Models sections. For `20R-7555` and `20R-7560`, the retrieved official category listing confirms the engine application, but no compatible-model detail was available; those arrays remain empty. No price, stock, or unverified image URLs were added.
 
 Official category: [Camshaft Kits](https://parts.cat.com/en/catcorp/category/engine-components-camshaft-kits). Official product pages: [20R-7549](https://parts.cat.com/en/catcorp/product/20R-7549), [0R-3021](https://parts.cat.com/en/catcorp/product/0R-3021), [0R-3025](https://parts.cat.com/en/catcorp/product/0R-3025), [0R-3026](https://parts.cat.com/en/catcorp/product/0R-3026), [20R-7547](https://parts.cat.com/en/catcorp/product/20R-7547), [20R-7555](https://parts.cat.com/en/catcorp/product/20R-7555), [20R-7560](https://parts.cat.com/en/catcorp/product/20R-7560).
+
+
+## Completed public Cat category: Rods
+
+Source: https://parts.cat.com/en/catcorp/category/reman-products-rods
+
+The official Cat Reman category lists exactly **7 of 7** products on one page. Migration `202611232310_import_complete_cat_reman_rods_category.sql` adds all seven as search-only `REFERENCE` records:
+
+- `0R-0916` — 3408 Reman Connecting Rod (Wide Taper)
+- `10R-6211` — C9 Reman Connecting Rod (9.3L)
+- `10R-2788` — C11 Reman Connecting Rod
+- `20R-0925` — C13 Reman Connecting Rod
+- `0R-0921` — Reman Connecting Rod for D379/D398/D399 families
+- `30R-1275` — Reman Connecting Rod; Cat lists compatible model 307.5, with no engine model inferred
+- `30R-1818` — C32B Reman Connecting Rod; Cat lists compatible truck model 777F
+
+Engine/model compatibility is restricted to information explicitly shown in official Cat product pages. No prices, stock, or unverified images were added.
+
+Official category: [Rods](https://parts.cat.com/en/catcorp/category/reman-products-rods). Official product pages: [0R-0916](https://parts.cat.com/en/catcorp/product/0R-0916), [10R-6211](https://parts.cat.com/en/catcorp/product/10R-6211), [10R-2788](https://parts.cat.com/en/catcorp/product/10R-2788), [20R-0925](https://parts.cat.com/en/catcorp/product/20R-0925), [0R-0921](https://parts.cat.com/en/catcorp/product/0R-0921), [30R-1275](https://parts.cat.com/en/catcorp/product/30R-1275), [30R-1818](https://parts.cat.com/en/catcorp/product/30R-1818).
