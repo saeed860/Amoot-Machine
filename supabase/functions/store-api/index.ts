@@ -65,25 +65,31 @@ Deno.serve(async (req) => {
       const productItems = (data ?? []).map(p => ({ id:p.id, kind:"PRODUCT", sku:p.sku, name:p.name, brand:p.brand, category:p.category, machineModel:p.machine_model, description:p.description, imageUrl:p.image_url, priceIrr:p.price_irr == null ? null : String(p.price_irr), stock:p.stock }));
       let partItems:any[] = [];
       if (q || model) {
-        let partsQuery = adminDb.from("part_catalog").select("id,part_number,part_number_normalized,name,description,engine_models,technical_group,source_name,source_url,source_note,verification_status").eq("is_active",true).eq("brand","Caterpillar").limit(100);
+        const fields = "id,part_number,part_number_normalized,name,description,engine_models,technical_group,source_name,source_url,source_note,verification_status";
+        const basePartsQuery = () => adminDb.from("part_catalog").select(fields).eq("is_active",true).limit(100);
         const normalizeEngineFamily=(value:string)=>value.toUpperCase().replace(/\\s+/g,"").replace(/CB$/,"");
         const familyModelCandidates=(value:string)=>value==="3512"?["3512","3512A","3512B","3512C","3512E","3512CB"]:value==="3516"?["3516","3516A","3516B","3516C","3516E","3516CB"]:[value];
         const requestedModel=normalizeEngineFamily(model);
-        const applyEngineFamilyFilter=(query:any,value:string)=>value==="3512"||value==="3516"?query.overlaps("engine_models",familyModelCandidates(value)):query.contains("engine_models",[value]);
-        if (model) partsQuery = applyEngineFamilyFilter(partsQuery,requestedModel);
+        const searches:Promise<any>[] = [];
         if (q) {
           const normalized=q.toUpperCase().replace(/[^A-Z0-9]/g,"");
+          // Keep part-number lookup independent from text/model filters. This avoids
+          // PostgREST OR parsing edge cases for punctuation-heavy Cat part numbers.
+          if (normalized) searches.push(basePartsQuery().ilike("part_number_normalized", "%" + normalized + "%"));
+          searches.push(basePartsQuery().or("name.ilike.%" + q + "%,description.ilike.%" + q + "%"));
           const modelQuery=normalizeEngineFamily(normalized);
-          const filters=[`part_number.ilike.%${q}%`,`part_number_normalized.ilike.%${normalized}%`,`name.ilike.%${q}%`,`description.ilike.%${q}%`];
-          if (/^[A-Z0-9-]{2,20}$/i.test(q)) {
-            if (modelQuery==="3512"||modelQuery==="3516") { filters.push(`engine_models.ov.{${familyModelCandidates(modelQuery).join(",")}}`); }
-            else filters.push(`engine_models.cs.{${modelQuery}}`);
+          if (/^[A-Z0-9]{2,20}$/i.test(modelQuery)) {
+            const candidates=familyModelCandidates(modelQuery);
+            searches.push(basePartsQuery().overlaps("engine_models",candidates));
           }
-          partsQuery=partsQuery.or(filters.join(","));
         }
-        const {data:parts,error:partsError}=await partsQuery;
-        if(partsError && partsError.code!=="42P01")return fail(500,"PART_CATALOG_FAILED","جستجوی کاتالوگ پارت‌نامبر ناموفق بود.");
-        partItems=(parts??[]).map(p=>{
+        if (model) searches.push(basePartsQuery().overlaps("engine_models",familyModelCandidates(requestedModel)));
+        const results=await Promise.all(searches);
+        const failed=results.find(x=>x.error && x.error.code!=="42P01");
+        if(failed)return fail(500,"PART_CATALOG_FAILED","جستجوی کاتالوگ پارت‌نامبر ناموفق بود.");
+        const byId=new Map<string,any>();
+        for(const result of results)for(const part of result.data??[])byId.set(String(part.id),part);
+        partItems=[...byId.values()].map(p=>{
           const displayModels=(p.engine_models??[]).map((m:string)=>m.toUpperCase().replace(/CB$/,""));
           return {id:p.id,kind:"PART_REFERENCE",sku:p.part_number,name:p.name,brand:"Caterpillar",category:"قطعات موتور",machineModel:[...new Set(displayModels)].join(" / "),description:[p.description,p.technical_group?"گروه فنی: "+p.technical_group:"","مرجع: "+p.source_name,"وضعیت: "+p.verification_status,p.source_note,"مدل‌های CB در جستجو و نمایش ذیل خانواده پایه 3512 و 3516 قرار می‌گیرند؛ تأیید سازگاری نهایی با شماره سریال و Arrangement انجام شود."].filter(Boolean).join(" · "),imageUrl:null,priceIrr:null,stock:0,sourceUrl:p.source_url};
         });
