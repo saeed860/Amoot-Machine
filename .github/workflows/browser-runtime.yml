@@ -80,7 +80,7 @@ jobs:
             // Verify that the homepage search bar routes to the full parts catalog.
             const homeSearchPage = await browser.newPage();
             await homeSearchPage.route('**/functions/v1/store-api/api/products*', async route => {
-              await route.fulfill({status:200,contentType:'application/json',body:JSON.stringify({items:[{id:'p1',kind:'PART_REFERENCE',sku:'392-0217',name:'Fuel injector',brand:'Caterpillar',category:'قطعات موتور',machineModel:'3512 / 3516',priceIrr:null,stock:0,sourceUrl:'https://parts.cat.com/en/catcorp/product/392-0217'}]})});
+              await route.fulfill({status:200,contentType:'application/json',body:JSON.stringify({items:[{id:'p1',kind:'PART_REFERENCE',sku:'392-0217',name:'Fuel injector',brand:'Caterpillar',category:'قطعات موتور',machineModel:'3512B / 3516B',compatibleModels:['3508B','3512B','3516B'],technicalGroup:'Fuel system · Injector group',specifications:{length:{value:14.8,unit:'in'},height:{value:3,unit:'in'}},imageUrl:'https://caterpillar.scene7.com/is/image/Caterpillar/CM20231128-59fa0-8c001?fmt=WebP&wid=960',priceIrr:null,stock:0,sourceUrl:'https://parts.cat.com/en/catcorp/product/392-0217'}]})});
             });
             await homeSearchPage.goto('http://127.0.0.1:4173/', {waitUntil:'domcontentloaded',timeout:8000});
             await homeSearchPage.locator('#search').fill('392-0217');
@@ -91,10 +91,11 @@ jobs:
               path:location.pathname,query:new URLSearchParams(location.search).get('q'),
               cards:document.querySelectorAll('.part-detail-card').length,
               part:document.querySelector('.part-detail-card .part-number')?.textContent.trim(),
-              font:getComputedStyle(document.body).fontFamily
+              fontLink:document.querySelector('link[href*="family=Estedad"]')?.href||'',
+              fontFamily:getComputedStyle(document.querySelector('.search-intro h1')).fontFamily
             }));
             checks.push({mode:'homepage-quick-search',state:homeSearchState});
-            if (!homeSearchState.path.endsWith('/search.html') || homeSearchState.query!=='392-0217' || homeSearchState.cards<1 || !homeSearchState.part.includes('392-0217') || !homeSearchState.font.includes('Estedad')) throw new Error('Homepage quick search did not open the styled parts catalog');
+            if (!homeSearchState.path.endsWith('/search.html') || homeSearchState.query!=='392-0217' || homeSearchState.cards<1 || !homeSearchState.part.includes('392-0217') || !homeSearchState.fontLink.includes('Estedad')) throw new Error('Homepage quick search did not open the styled parts catalog');
             await homeSearchPage.close();
             const searchPage = await browser.newPage();
             const searchErrors = [], searched = [];
@@ -108,9 +109,9 @@ jobs:
             await searchPage.locator('#partQuery').fill('3512CB');
             await searchPage.locator('#partsSearchForm button[type=submit]').click();
             await searchPage.waitForSelector('.part-detail-card',{timeout:5000});
-            const searchState = await searchPage.evaluate(() => ({title:document.title,results:document.querySelectorAll('.part-detail-card').length,shown:document.querySelector('.part-number')?.textContent,availability:document.querySelector('.stock-state')?.textContent,hasInquiry:!!document.querySelector('[data-open-quote]')}));
+            const searchState = await searchPage.evaluate(() => ({title:document.title,results:document.querySelectorAll('.part-detail-card').length,shown:document.querySelector('.part-number')?.textContent,availability:document.querySelector('.stock-state')?.textContent,hasInquiry:!!document.querySelector('[data-open-quote]'),image:document.querySelector('.part-image')?.src,dimensions:document.querySelector('.part-spec-grid')?.textContent||''}));
             checks.push({mode:'parts-search',state:searchState,queries:searched,errors:searchErrors});
-            if (searchState.results!==1 || !searchState.shown.includes('392-0217') || !searchState.availability.includes('کاتالوگ') || !searchState.hasInquiry || searched[0]!=='3512CB' || searchErrors.length) throw new Error('Parts search inventory card failed runtime test');
+            if (searchState.results!==1 || !searchState.shown.includes('392-0217') || !searchState.availability.includes('کاتالوگ') || !searchState.hasInquiry || !searchState.image.includes('caterpillar.scene7.com') || !searchState.dimensions.includes('14.8') || searched[0]!=='3512CB' || searchErrors.length) throw new Error('Parts search inventory card failed runtime test');
             let quotePayload=null;
             await searchPage.route('**/functions/v1/store-api/api/quotes',async route=>{
               quotePayload=JSON.parse(route.request().postData()||'{}');
@@ -137,10 +138,11 @@ jobs:
               cards: document.querySelectorAll('.part-detail-card').length,
               partNumbers: [...document.querySelectorAll('.part-detail-card .part-number')].map(x => x.textContent.trim()),
               sourceLinks: document.querySelectorAll('.part-detail-card .part-source a').length,
-              inquiryButtons: document.querySelectorAll('.part-detail-card [data-open-quote]').length
+              inquiryButtons: document.querySelectorAll('.part-detail-card [data-open-quote]').length,
+              partImages:[...document.querySelectorAll('.part-detail-card .part-image')].map(img=>img.src)
             }));
             checks.push({mode:'live-production-search',http:liveResponse?.status(),state:liveState,errors:liveErrors});
-            if (liveResponse?.status()!==200 || liveState.cards<1 || !liveState.partNumbers.some(x=>x.includes('392-0217')) || liveErrors.length) {
+            if (liveResponse?.status()!==200 || liveState.cards<1 || !liveState.partNumbers.some(x=>x.includes('392-0217')) || !liveState.partImages.some(x=>x.includes('caterpillar.scene7.com')) || liveErrors.length) {
               throw new Error('Live production search did not render the 392-0217 part card');
             }
             await livePage.close();
