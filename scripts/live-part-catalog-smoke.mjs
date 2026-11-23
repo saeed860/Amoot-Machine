@@ -637,7 +637,17 @@ const tests = [
   { q: "140-4238", sku: "140-4238", kind: "PART_REFERENCE", sourceRequired: true },
   { q: "10R-0747", sku: "10R-0747", kind: "PART_REFERENCE", sourceRequired: true, imageRequired: true },
   { q: "10R-0739", sku: "10R-0739", kind: "PART_REFERENCE", sourceRequired: true },
-  { q: "10R-0745", sku: "10R-0745", kind: "PART_REFERENCE", sourceRequired: true }
+  { q: "10R-0745", sku: "10R-0745", kind: "PART_REFERENCE", sourceRequired: true },
+  { q: "11R-0023", sku: "11R-0023", kind: "PART_REFERENCE", sourceRequired: true },
+  { q: "11R-0024", sku: "11R-0024", kind: "PART_REFERENCE", sourceRequired: true },
+  { q: "11R-0025", sku: "11R-0025", kind: "PART_REFERENCE", sourceRequired: true },
+  { q: "11R-2113", sku: "11R-2113", kind: "PART_REFERENCE", sourceRequired: true },
+  { q: "30R-0417", sku: "30R-0417", kind: "PART_REFERENCE", sourceRequired: true, imageRequired: true },
+  { q: "30R-0418", sku: "30R-0418", kind: "PART_REFERENCE", sourceRequired: true, imageRequired: true },
+  { q: "30R-0422", sku: "30R-0422", kind: "PART_REFERENCE", sourceRequired: true },
+  { q: "30R-0454", sku: "30R-0454", kind: "PART_REFERENCE", sourceRequired: true, imageRequired: true },
+  { q: "30R-0484", sku: "30R-0484", kind: "PART_REFERENCE", sourceRequired: true, imageRequired: true },
+  { q: "30R-0485", sku: "30R-0485", kind: "PART_REFERENCE", sourceRequired: true, imageRequired: true }
 ];
 let failed = false;
 let cursor = 0;
