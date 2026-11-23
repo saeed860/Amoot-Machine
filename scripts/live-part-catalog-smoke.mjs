@@ -88,6 +88,16 @@ const tests = [
   { q: "20R-2284", sku: "20R-2284", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Engine" },
   { q: "10R-7231", sku: "10R-7231", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Engine" },
   { q: "546-6109", sku: "546-6109", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Engine" },
+  { q: "20R-3545", sku: "20R-3545", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Engine" },
+  { q: "20R-3549", sku: "20R-3549", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Engine" },
+  { q: "20R-3543", sku: "20R-3543", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Engine" },
+  { q: "10R-4343", sku: "10R-4343", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Engine" },
+  { q: "20R-2647", sku: "20R-2647", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Engine" },
+  { q: "523-8663", sku: "523-8663", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Engine" },
+  { q: "20R-5616", sku: "20R-5616", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Engine" },
+  { q: "10R-8618", sku: "10R-8618", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Engine" },
+  { q: "107-7330", sku: "107-7330", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Engine" },
+  { q: "0R-9737", sku: "0R-9737", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Engine" },
 ];
 let failed = false;
 for (const test of tests) {
