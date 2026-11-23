@@ -596,7 +596,14 @@ const tests = [
   { "q": "7T-9309", "sku": "7T-9309", "kind": "PART_REFERENCE", "sourceRequired": true, "imageRequired": true },
   { "q": "655-7611", "sku": "655-7611", "kind": "PART_REFERENCE", "sourceRequired": true, "imageRequired": true },
   { "q": "6E-4351", "sku": "6E-4351", "kind": "PART_REFERENCE", "sourceRequired": true, "imageRequired": true },
-  { "q": "7T-9307", "sku": "7T-9307", "kind": "PART_REFERENCE", "sourceRequired": true, "imageRequired": true }
+  { "q": "7T-9307", "sku": "7T-9307", "kind": "PART_REFERENCE", "sourceRequired": true, "imageRequired": true },
+  {"q":"20R-7549","sku":"20R-7549","kind":"PART_REFERENCE","sourceRequired":true},
+  {"q":"0R-3021","sku":"0R-3021","kind":"PART_REFERENCE","sourceRequired":true},
+  {"q":"0R-3025","sku":"0R-3025","kind":"PART_REFERENCE","sourceRequired":true},
+  {"q":"0R-3026","sku":"0R-3026","kind":"PART_REFERENCE","sourceRequired":true},
+  {"q":"20R-7547","sku":"20R-7547","kind":"PART_REFERENCE","sourceRequired":true},
+  {"q":"20R-7555","sku":"20R-7555","kind":"PART_REFERENCE","sourceRequired":true},
+  {"q":"20R-7560","sku":"20R-7560","kind":"PART_REFERENCE","sourceRequired":true}
 
 ];
 let failed = false;
