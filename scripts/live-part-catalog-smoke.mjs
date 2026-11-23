@@ -31,6 +31,8 @@ const tests = [
   { q: "CAT-9X-3406", sku: "CAT-9X-3406", kind: "PRODUCT", imageRequired: true, sourceRequired: true, category: "قطعات برقی" },
   { q: "CAT-260-3406", sku: "CAT-260-3406", kind: "PRODUCT", imageRequired: true, sourceRequired: true, category: "قطعات موتور" },
   ...["3512","3516","C15","C18","C9","3406","3408"].map(q => ({ q, kind: "PRODUCT", any: true })),
+  { q: "CAT-20R-4278", sku: "CAT-20R-4278", kind: "PRODUCT", imageRequired: true, sourceRequired: true, category: "قطعات موتور" },
+  { q: "CAT-10R-9063", sku: "CAT-10R-9063", kind: "PRODUCT", imageRequired: true, sourceRequired: true, category: "قطعات موتور" },
   ...["321-8076","7T-3205","221-8307","1R-0716","320-6690","HPU-042","HCV-315","HPP-220","PNC-032","FRL-01","SV-24V"].map(q => ({q, absent:true})),
   { q: "CAT-1L-9049", sku: "CAT-1L-9049", kind: "PRODUCT", filterCategory: "قطعات موتور" },
   { q: "CAT-202-2785", sku: "CAT-202-2785", kind: "PRODUCT", filterCategory: "قطعات برقی" },
