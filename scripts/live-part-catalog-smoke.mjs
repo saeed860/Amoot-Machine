@@ -344,6 +344,10 @@ const tests = [
   { q: "254-0224", sku: "254-0224", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage Hardware" },
   { q: "608-7785", sku: "608-7785", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage Hardware" },
   { q: "4K-7038", sku: "4K-7038", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage Hardware" },
+  { q: "603-8538", sku: "603-8538", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
+  { q: "235-5974", sku: "235-5974", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
+  { q: "300-4545", sku: "300-4545", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
+  { q: "542-8380", sku: "542-8380", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
 ];
 let failed = false;
 let cursor = 0;
