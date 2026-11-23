@@ -67,15 +67,16 @@ Deno.serve(async (req) => {
       if (q || model) {
         let partsQuery = adminDb.from("part_catalog").select("id,part_number,part_number_normalized,name,description,engine_models,technical_group,source_name,source_url,source_note,verification_status").eq("is_active",true).eq("brand","Caterpillar").limit(100);
         const normalizeEngineFamily=(value:string)=>value.toUpperCase().replace(/\\s+/g,"").replace(/CB$/,"");
+        const familyModelCandidates=(value:string)=>value==="3512"?["3512","3512A","3512B","3512C","3512E","3512CB"]:value==="3516"?["3516","3516A","3516B","3516C","3516E","3516CB"]:[value];
         const requestedModel=normalizeEngineFamily(model);
-        const applyEngineFamilyFilter=(query:any,value:string)=>value==="3512"||value==="3516"?query.or(`engine_models.cs.{${value}},engine_models.cs.{${value}CB}`):query.contains("engine_models",[value]);
+        const applyEngineFamilyFilter=(query:any,value:string)=>value==="3512"||value==="3516"?query.overlaps("engine_models",familyModelCandidates(value)):query.contains("engine_models",[value]);
         if (model) partsQuery = applyEngineFamilyFilter(partsQuery,requestedModel);
         if (q) {
           const normalized=q.toUpperCase().replace(/[^A-Z0-9]/g,"");
           const modelQuery=normalizeEngineFamily(normalized);
           const filters=[`part_number.ilike.%${q}%`,`part_number_normalized.ilike.%${normalized}%`,`name.ilike.%${q}%`,`description.ilike.%${q}%`];
           if (/^[A-Z0-9-]{2,20}$/i.test(q)) {
-            if (modelQuery==="3512"||modelQuery==="3516") { filters.push(`engine_models.cs.{${modelQuery}}`,`engine_models.cs.{${modelQuery}CB}`); }
+            if (modelQuery==="3512"||modelQuery==="3516") { filters.push(`engine_models.ov.{${familyModelCandidates(modelQuery).join(",")}}`); }
             else filters.push(`engine_models.cs.{${modelQuery}}`);
           }
           partsQuery=partsQuery.or(filters.join(","));
