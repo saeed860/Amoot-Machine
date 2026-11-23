@@ -635,3 +635,23 @@ Official category sources:
 - [Telematics](https://parts.cat.com/en/catcorp/category/reman-products-telematics) — 1 record
 
 Official product pages: [0R-6756](https://parts.cat.com/en/catcorp/product/0R-6756), [0R-5739](https://parts.cat.com/en/catcorp/product/0R-5739), [0R-2897](https://parts.cat.com/en/catcorp/product/0R-2897), [20R-7307](https://parts.cat.com/en/catcorp/product/20R-7307), [20R-7306](https://parts.cat.com/en/catcorp/product/20R-7306), [20R-5677](https://parts.cat.com/en/catcorp/product/20R-5677).
+
+
+## Completed public Cat Reman categories (2026-11-23): Flywheels, Fan Clutches, Radiators
+
+Migration `202611232350_import_complete_cat_flywheels_fan_clutches_radiators.sql` imports three complete official category listings (21 references):
+
+- **Flywheels — 3 of 3:** `0R-9983`, `10R-2356`, `0R-9986`.
+- **Fan Clutches — 13 of 13:** `0R-1039`, `10R-1417`, `20R-8352`, `20R-8360`, `20R-8364`, `20R-8369`, `20R-8373`, `20R-8380`, `20R-8381`, `20R-8390`, `20R-8403`, `20R-8406`, `20R-8418`.
+- **Radiators — 5 of 5:** `111-7785`, `140-4238`, `10R-0747`, `10R-0739`, `10R-0745`.
+
+All 21 are search-only `REFERENCE` records, with no price or stock. `10R-0747` is marked discontinued per Cat. The two radiator caps are included because they are members of the official Radiators category; they are not described as Reman products. Engine models and fitment are only populated where Cat product pages explicitly list them. The public pages for most generic fan-clutch entries do not expose fitment, so none is inferred.
+
+Verified official Scene7 images are attached to `0R-1039`, `0R-9983`, `10R-2356`, `0R-9986`, and `10R-0747`. No generic or substitute images are used.
+
+Official category sources:
+- [Flywheels](https://parts.cat.com/en/catcorp/category/reman-products-flywheels?page=1&sortBy=0) — 3 records
+- [Fan Clutches](https://parts.cat.com/en/catcorp/category/reman-products-fan-clutches?page=1&sortBy=0) — 13 records
+- [Radiators](https://parts.cat.com/en/catcorp/category/reman-products-radiators?page=1&sortBy=0) — 5 records
+
+Official product pages: [0R-1039](https://parts.cat.com/en/catcorp/product/0R-1039), [10R-1417](https://parts.cat.com/en/catcorp/product/10R-1417), [0R-9983](https://parts.cat.com/en/catcorp/product/0R-9983), [10R-2356](https://parts.cat.com/en/catcorp/product/10R-2356), [0R-9986](https://parts.cat.com/en/catcorp/product/0R-9986), [10R-0747](https://parts.cat.com/en/catcorp/product/10R-0747), [10R-0739](https://parts.cat.com/en/catcorp/product/10R-0739), [10R-0745](https://parts.cat.com/en/catcorp/product/10R-0745).
