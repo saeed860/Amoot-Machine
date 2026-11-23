@@ -238,6 +238,8 @@ begin
     raise exception 'C9/C9.3 directory model associations are incomplete';
   end if;
 
+  raise notice '453-2315 diagnostic: %', (select json_build_object('part_number',part_number,'engine_models',engine_models,'verification_status',verification_status,'source_name',source_name) from public.part_catalog where part_number='453-2315');
+
   if not exists (
     select 1 from public.part_catalog
     where part_number = '453-2315'
