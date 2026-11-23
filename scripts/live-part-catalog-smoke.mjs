@@ -107,7 +107,7 @@ const tests = [
   { q: "647-0750", sku: "647-0750", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Engine" },
   { q: "10R-6341", sku: "10R-6341", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Engine" },
   { q: "511-7975", sku: "511-7975", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Engine" },
-  { q: "20R-5075", sku: "20R-5075", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Engine" },
+  { q: "20R-5075", sku: "20R-5075", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, sourceRequired: true, category: "Fuel System" },
   { q: "460-0310", sku: "460-0310", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Filters & Fluids" },
   { q: "552-5534", sku: "552-5534", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Engine" },
   { q: "20R-2284", sku: "20R-2284", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Engine" },
