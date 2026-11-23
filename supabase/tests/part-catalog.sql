@@ -313,6 +313,24 @@ begin
     raise exception 'Official Cat 1L-5011 C-series reference is missing';
   end if;
 
+  if not exists (
+    select 1 from public.part_catalog
+    where part_number = '095-0670'
+      and name = 'M12-1.75 x 45mm Hex Socket Head Bolt'
+      and engine_models @> array['C9','C9.3','C15','C18']::text[]
+  ) then
+    raise exception 'Official Cat 095-0670 exact description or model associations are missing';
+  end if;
+
+  if not exists (
+    select 1 from public.part_catalog
+    where part_number = '397-5051'
+      and name = 'Throttle Control Rod'
+      and source_note ilike '%discontinued%'
+  ) then
+    raise exception 'Official Cat 397-5051 description/discontinued status is missing';
+  end if;
+
   if not exists (select 1 from pg_constraint where conname = 'part_catalog_oem_verified_evidence_check') then
     raise exception 'Cat SIS evidence constraint is missing';
   end if;
