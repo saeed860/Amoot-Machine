@@ -278,6 +278,20 @@ const tests = [
   { q: "189-3032", sku: "189-3032", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
   { q: "139-2016", sku: "139-2016", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
   { q: "147-5331", sku: "147-5331", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
+  { q: "592-5830", sku: "592-5830", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
+  { q: "607-4804", sku: "607-4804", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
+  { q: "607-4805", sku: "607-4805", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
+  { q: "527-2809", sku: "527-2809", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
+  { q: "592-5827", sku: "592-5827", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
+  { q: "289-8490", sku: "289-8490", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
+  { q: "592-5829", sku: "592-5829", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
+  { q: "608-7331", sku: "608-7331", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
+  { q: "608-7329", sku: "608-7329", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
+  { q: "420-9876", sku: "420-9876", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
+  { q: "607-4803", sku: "607-4803", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
+  { q: "607-4800", sku: "607-4800", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
+  { q: "420-9877", sku: "420-9877", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
+  { q: "566-2975", sku: "566-2975", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
 ];
 let failed = false;
 let cursor = 0;
