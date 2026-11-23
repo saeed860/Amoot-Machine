@@ -821,3 +821,23 @@ Official references:
 - https://parts.cat.com/en/catcorp/product/302-8728
 
 Marine classification does not replace serial-number/arrangement validation for exact fitment. All part references remain non-sellable reference records unless independently approved for sale; no price or stock is inferred.
+
+
+## Additional marine-compatible Cat part references (2026-11-23)
+
+Migration `202611232530_add_more_verified_marine_parts.sql` adds 9 additional official Cat Parts Store references. These records remain search-only `REFERENCE` rows, with NULL pricing, zero stock, and no guessed image or serial-specific fitment.
+
+| Part number | Cat description | Marine model evidence | Group |
+|---|---|---|---|
+| 4P-0710 | ENGINE AIR FILTER | 3516, 3508B, 3516B/C, 3512B/C | Air intake & filtration |
+| 068-0005 | TUBE | 3516 | Fluid lines |
+| 7W-3737 | SUPPORT | 3516C/E, 3516B Auxiliary | Mounts & supports |
+| 109-5738 | FILM-INTRFCE | 3512/3516, C32/C30/C9/C7, 3406E and others | Electrical & controls |
+| 161-0801 | BAR | 3516 | General engine parts |
+| 190-0330 | MODULE | C280-6/8/12/16, 3612/3616 | Electrical & controls |
+| 301-3043 | INSERT V SEA | C280-12 | Sealing |
+| 110-3754 | ADAPTER | C280-6/8/12/16, 3608 Auxiliary | Adapters & fittings |
+| 5L-6954 | ELBOW | 3512/3516/3508 families | Fluid lines |
+| 160-8765 | FITTING AS | 3516, 3508 | Adapters & fittings |
+
+Note: the migration currently contains 9 records; the table above should list exactly those records. Every one of these pages lists at least one marine compatible model and at least one non-marine engine/application, so the current application tag is `BOTH`. Sources: https://parts.cat.com/en/catcorp/product/4P-0710, https://parts.cat.com/en/catcorp/product/068-0005, https://parts.cat.com/en/catcorp/product/7W-3737, https://parts.cat.com/en/catcorp/product/109-5738, https://parts.cat.com/en/catcorp/product/161-0801, https://parts.cat.com/en/catcorp/product/190-0330, https://parts.cat.com/en/catcorp/product/301-3043, https://parts.cat.com/en/catcorp/product/110-3754, https://parts.cat.com/en/catcorp/product/5L-6954, https://parts.cat.com/en/catcorp/product/160-8765.
