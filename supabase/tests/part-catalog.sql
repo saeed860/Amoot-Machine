@@ -78,6 +78,33 @@ begin
 
   if not exists (
     select 1 from public.part_catalog
+    where part_number = '227-1200'
+      and engine_models @> array['C9']::text[]
+      and verification_status = 'REFERENCE'
+  ) then
+    raise exception 'C9 page-2 reference is missing';
+  end if;
+
+  if not exists (
+    select 1 from public.part_catalog
+    where part_number = '10R-7231'
+      and engine_models @> array['C18']::text[]
+      and verification_status = 'REFERENCE'
+  ) then
+    raise exception 'C18 page-5 reference is missing';
+  end if;
+
+  if not exists (
+    select 1 from public.part_catalog
+    where part_number = '422-7587'
+      and engine_models @> array['3508']::text[]
+      and verification_status = 'REFERENCE'
+  ) then
+    raise exception '3508 combined-family reference is missing';
+  end if;
+
+  if not exists (
+    select 1 from public.part_catalog
     where part_number = '392-0217'
       and engine_models @> array['3512CB']::text[]
       and verification_status = 'REFERENCE'
