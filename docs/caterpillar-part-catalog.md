@@ -50,3 +50,29 @@ The sellable storefront catalog has been expanded with fourteen further Cat Part
 
 These are distinct Cat catalogue records, not a claim that every part fits every variant of the seven engine families. In particular, G-series references are not automatically interchangeable with diesel engine model references; C18 Reman engine numbers also have different machine/application configurations. Always check Cat SIS / dealer fitment by full serial number and Arrangement before order acceptance. Cat product images and descriptions are linked to Caterpillar's public Parts Store; commercial image reuse remains subject to Caterpillar's terms.
 
+## Cat Filters category expansion (2026-11-23)
+
+The previously empty **فیلتر و مصرفی** storefront category now contains 15 genuine Cat filter-related product records. The product entries link to individual Cat Parts Store pages and Cat Scene7 product images. Every row is quote-only (price NULL, stock 0) pending supplier confirmation.
+
+| Amoot SKU | Cat part number | Filter type | Cat listed engine applications (selected) |
+|---|---|---|---|
+| CAT-1R-1808 | 1R-1808 | Engine oil filter | Included in Cat PM kits for 3406C, C15 and C18 |
+| CAT-1R-0749 | 1R-0749 | Secondary fuel filter | Included in Cat PM kits for 3406C, C15 and C18 |
+| CAT-142-1340 | 142-1340 | Primary air filter, ultra-high efficiency | 3406C PM kit |
+| CAT-513-4490 | 513-4490 | Fuel-water separator | 3406C PM kit |
+| CAT-423-8521 | 423-8521 | Advanced fuel-water separator | C18, C15, C9 |
+| CAT-151-7737 | 151-7737 | Primary air filter | C18, C15, 3406C |
+| CAT-189-0202 | 189-0202 | Secondary air filter | C18, C15, 3406C |
+| CAT-321-6970 | 321-6970 | Secondary fuel filter, cartridge | 3516B, 3512B, G3516, G3512, G3406, G3408 |
+| CAT-7W-5313 | 7W-5313 | Primary air filter | G3406, G3516, G3512, 3406B/C, 3408B |
+| CAT-6N-6071 | 6N-6071 | Primary air filter | 3406B/C, 3408, 3408B |
+| CAT-4N-0015 | 4N-0015 | Primary air filter, panel | C18, C15, 3406B/C, 3408 |
+| CAT-453-1607 | 453-1607 | Fuel filter, tank sock | C18, C15, C9.3 |
+| CAT-136-3742 | 136-3742 | Engine oil filter | C15, C18, 3512E, 3516C, G3406 |
+| CAT-8H-7202 | 8H-7202 | Primary fuel filter | 3512/3516, C18, C15, C9, 3406/3408 |
+| CAT-9M-2342 | 9M-2342 | Fuel filter screen | 3512/3516, 3406/3408 |
+
+Cat PM kit 633-4100 (3406, 500-hour service) lists 142-1340 x2, 1R-0749 x2, 1R-1808 x2 and 513-4490 x1. Cat PM kit 609-0030 (C18) lists 151-7737, 189-0202, 1R-0749, 423-8521 and 1R-1808. Cat PM kit 606-1783 (C15) lists 423-8521, 1R-1808 and 1R-0749. These kit contents ground the service relationships; do not assume one filter part fits every arrangement of an engine family. Verify serial number, Arrangement and filter housing before order acceptance.
+
+Sources: official Cat product pages linked in each row, plus https://parts.cat.com/en/catcorp/product/633-4100, https://parts.cat.com/en/catcorp/product/609-0030 and https://parts.cat.com/en/catcorp/product/606-1783.
+
