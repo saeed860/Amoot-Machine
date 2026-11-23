@@ -112,3 +112,17 @@ The public Cat Parts Store undercarriage catalog was expanded in migrations `202
 Each row remains a search-only `REFERENCE` with no price or stock. Product pages and Cat Scene7 product images are stored as source references. Compatible-model arrays are populated only from the individual Cat product pages; Cat itself advises confirming the machine serial number and configuration before ordering.
 
 The official Cat pages expose multiple rolling-component subcategories with dozens to hundreds of results. These imports are selected page/category samples, not a complete export of Cat's undercarriage catalog or a replacement for Cat SIS.
+
+## Full public Cat category index snapshot (2026-11-23)
+
+Migration `202611231910_import_cat_category_tree_and_products.sql` adds a separate `public.cat_part_categories` taxonomy table, preserving Cat's public navigation separately from part references and saleable products.
+
+- 15 official top-level Cat Parts Store categories captured from the public Shop By Category page.
+- 118 first-level subcategory records captured from the official category landing pages, with Cat's displayed result counts and category URLs.
+- 64 additional/upserted individual Cat part references across the 15 top-level groups. Each reference has an official Cat product URL and Cat Scene7 image URL; the source page's description/specifications are recorded where visible.
+- `GET /api/part-categories` exposes the category index for the storefront and future category filters.
+- Every imported reference remains `REFERENCE`; no price, stock, or unlisted machine fitment is invented.
+
+The 15 top-level groups are Attachments, Cabs, Drivetrain, Electrical & Electronics, Engine, Equipment Upgrades, Filters & Fluids, Ground Engaging Tools, Hardware/Seals/Consumables, Hoses & Tubes, Hydraulics, Structures & Other Systems Components, Undercarriage, Upgrade & Repair Kits, and Workshop Supplies.
+
+**Important scope:** this is a complete snapshot of Cat's 15 top-level navigation groups plus the 118 first-level subcategory links captured in this pass, not a complete export of every Cat SKU. Cat's public category pages commonly paginate up to 1,200 visible results (75 pages), while individual subcategories can contain tens of thousands of entries. Full SKU extraction still requires a systematic paginated crawl of every subcategory and may require Cat-authorized catalog/SIS access for fitment details. Category membership is never treated as compatibility.
