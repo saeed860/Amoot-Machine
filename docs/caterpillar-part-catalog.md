@@ -671,3 +671,17 @@ Official category source:
 - [Generator Ends](https://parts.cat.com/en/catcorp/category/reman-products-generator-ends?page=1&sortBy=0) — 10 records
 
 Official product pages: [11R-0023](https://parts.cat.com/en/catcorp/product/11R-0023), [11R-0024](https://parts.cat.com/en/catcorp/product/11R-0024), [11R-0025](https://parts.cat.com/en/catcorp/product/11R-0025), [11R-2113](https://parts.cat.com/en/catcorp/product/11R-2113), [30R-0417](https://parts.cat.com/en/catcorp/product/30R-0417), [30R-0418](https://parts.cat.com/en/catcorp/product/30R-0418), [30R-0422](https://parts.cat.com/en/catcorp/product/30R-0422), [30R-0454](https://parts.cat.com/en/catcorp/product/30R-0454), [30R-0484](https://parts.cat.com/en/catcorp/product/30R-0484), [30R-0485](https://parts.cat.com/en/catcorp/product/30R-0485).
+
+
+## Completed public Cat Reman category (2026-11-23): Crankshaft Dampers
+
+Migration `202611232370_import_complete_cat_crankshaft_dampers_category.sql` imports the full official Crankshaft Dampers category (13 of 13):
+
+`0R-7853`, `0R-7847`, `20R-4602`, `10R-3833`, `10R-0711`, `10R-0707`, `10R-0716`, `10R-0717`, `10R-0715`, `10R-0718`, `20R-4700`, `20R-5393`, `20R-5420`.
+
+All 13 are search-only `REFERENCE` records with no price or inventory. Explicit Cat Compatible Models and engine headings are retained; equipment titles are not used to invent engine compatibility. Verified official Scene7 images are attached to `0R-7847`, `20R-4602`, `10R-3833`, and `10R-0711`. No generic images are used for the remaining records.
+
+Official category source:
+- [Crankshaft Dampers](https://parts.cat.com/en/catcorp/category/reman-products-crankshaft-dampers?page=1) — 13 records
+
+Official product pages: [0R-7853](https://parts.cat.com/en/catcorp/product/0R-7853), [0R-7847](https://parts.cat.com/en/catcorp/product/0R-7847), [20R-4602](https://parts.cat.com/en/catcorp/product/20R-4602), [10R-3833](https://parts.cat.com/en/catcorp/product/10R-3833), [10R-0711](https://parts.cat.com/en/catcorp/product/10R-0711), [10R-0707](https://parts.cat.com/en/catcorp/product/10R-0707), [10R-0716](https://parts.cat.com/en/catcorp/product/10R-0716), [10R-0717](https://parts.cat.com/en/catcorp/product/10R-0717), [10R-0715](https://parts.cat.com/en/catcorp/product/10R-0715), [10R-0718](https://parts.cat.com/en/catcorp/product/10R-0718), [20R-4700](https://parts.cat.com/en/catcorp/product/20R-4700), [20R-5393](https://parts.cat.com/en/catcorp/product/20R-5393), [20R-5420](https://parts.cat.com/en/catcorp/product/20R-5420).
