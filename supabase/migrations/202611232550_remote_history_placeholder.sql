@@ -1,0 +1,5 @@
+-- Compatibility placeholder for an existing remote Supabase migration ledger version.
+-- The remote project already records version 202611232550, but its original local file
+-- was removed while resolving a duplicate-version collision. The actual marine fuel,
+-- lubrication and cooling catalog migration is preserved in 202611232560_*.sql.
+-- This file intentionally contains no SQL and must remain a no-op.
