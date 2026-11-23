@@ -5,6 +5,12 @@ const prisma = new PrismaClient();
 const products = [];
 async function main(){
  for(const p of products) await prisma.product.upsert({where:{sku:p.sku},update:{},create:p});
+ // Disposable order fixture exists only in the isolated CI database; never seeded in production.
+ if(process.env.NODE_ENV==='test') await prisma.product.upsert({
+  where:{sku:'CI-ORDER-FIXTURE'},
+  update:{},
+  create:{sku:'CI-ORDER-FIXTURE',name:'CI Order Lifecycle Fixture',brand:'TEST',category:'CI ONLY',machineModel:'TEST',description:'Ephemeral automated-test fixture; not a storefront product.',priceIrr:1000n,stock:5,imageUrl:'/assets/product-pump.jpg'}
+ });
  if(process.env.ADMIN_IDENTIFIER&&process.env.ADMIN_PASSWORD){
   const identifier=process.env.ADMIN_IDENTIFIER.trim().toLowerCase();
   const passwordHash=await argon2.hash(process.env.ADMIN_PASSWORD,{type:argon2.argon2id});
