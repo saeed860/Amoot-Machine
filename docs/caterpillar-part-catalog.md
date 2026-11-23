@@ -789,3 +789,35 @@ Imported: `20R-9122`, `10R-1669`, `20R-9124`, `10R-0484`, `0R-4680`, `10R-1670`,
 
 
 The current official category listing also exposes two additional references, `0R-7722` and `0R-7867`, added by migration `202611232480_add_cat_sea_water_pump_visible_references.sql`. These are reference-only and have no inferred engine fitment. The category still reports 33 results and remains partial; page 2 and page 3 could not be retrieved in this pass.
+
+
+## Marine engine directory and application classification (2026-11-23)
+
+The storefront now includes a dedicated marine-engine directory, grouped into:
+- Commercial propulsion engines
+- High-performance propulsion engines
+- Marine generator sets
+- Auxiliary engines
+
+The model directory is sourced from Caterpillar's official Marine Power Systems pages. It is a model directory, not a statement of current stock or a guarantee that every engine variant is available in every region. Official source: https://www.cat.com/en_US/products/new/power-systems/marine-power-systems/marine-generator-sets/114160.html
+
+Product application labels use four database values:
+- `MARINE`: Cat's public description explicitly identifies marine use, marine engine/auxiliary, or sea-water-pump application.
+- `LAND`: Cat public compatible-model/application data supports land-only use for the checked configuration.
+- `BOTH`: Cat's compatible-model page explicitly lists marine and land/power applications.
+- `UNVERIFIED`: evidence is insufficient; the UI must not guess.
+
+The Persian storefront labels these as «دریایی»، «خشکی»، «هر دو» and «نیازمند بررسی». Evidence and source URL are stored with each classification and are available in product details.
+
+Verified examples from Cat Parts Store:
+- `6J-2680` O-ring: Cat's compatible-model page includes Marine Engine and Marine Auxiliary as well as many land-machine and generator applications; classified BOTH.
+- `9Y-0849` Support RH: Cat lists Marine Engine and Marine Auxiliary plus generator-set, industrial and petroleum engine groups; classified BOTH.
+- `302-8728` Motor Assembly: Cat lists Marine Auxiliary and Marine Engine plus generator, industrial and petroleum applications; classified BOTH.
+- Sea-water pump references are classified MARINE only when the official name/description explicitly says Sea Water Pump. A fresh-water pump merely appearing in the Sea Water Pumps category is not automatically classified MARINE.
+
+Official references:
+- https://parts.cat.com/en/catcorp/product/6J-2680
+- https://parts.cat.com/en/catcorp/product/9Y-0849
+- https://parts.cat.com/en/catcorp/product/302-8728
+
+Marine classification does not replace serial-number/arrangement validation for exact fitment. All part references remain non-sellable reference records unless independently approved for sale; no price or stock is inferred.
