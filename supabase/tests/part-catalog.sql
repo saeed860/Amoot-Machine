@@ -166,6 +166,24 @@ begin
     raise exception 'Official Cat 392-0217 model listing is missing';
   end if;
 
+  if not exists (
+    select 1 from public.part_catalog
+    where part_number = '392-0205'
+      and engine_models @> array['3512C','3516C']::text[]
+      and source_name = 'Cat Parts Store (official)'
+  ) then
+    raise exception 'Official Cat C-series injector reference is missing';
+  end if;
+
+  if not exists (
+    select 1 from public.part_catalog
+    where part_number = '392-0214'
+      and engine_models @> array['3512B','3516B']::text[]
+      and source_name = 'Cat Parts Store (official)'
+  ) then
+    raise exception 'Official Cat B-series injector reference is missing';
+  end if;
+
   if exists (
     select 1 from public.part_catalog
     where part_number = '392-0217'
