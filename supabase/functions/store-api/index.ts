@@ -64,7 +64,7 @@ Deno.serve(async (req) => {
       };
       let productData:any[] = [];
       if (q) {
-        // Live catalog smoke tests run after this function deploys.
+        // Live catalog smoke tests run after this function deploys and report sanitized diagnostics.
         // Search product fields independently; a PostgREST OR expression must never
         // prevent the separate part-reference catalog search from running.
         const productResults = await Promise.all(["name","sku","brand","machine_model"].map(field => baseProductQuery().ilike(field, "%" + q + "%")));
