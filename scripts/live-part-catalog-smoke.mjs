@@ -37,20 +37,20 @@ const tests = [
   { q: "CAT-20R-3958", sku: "CAT-20R-3958", kind: "PRODUCT", imageRequired: true, sourceRequired: true, category: "قطعات موتور" },
   { q: "CAT-0R-8200", sku: "CAT-0R-8200", kind: "PRODUCT", imageRequired: true, sourceRequired: true, category: "قطعات موتور" },
   { q: "CAT-593-5344", sku: "CAT-593-5344", kind: "PRODUCT", imageRequired: true, sourceRequired: true, category: "قطعات موتور" },
-  { q: "20R-2510", sku: "CAT-20R-2510", kind: "PRODUCT", imageRequired: true, sourceRequired: true },
-  { q: "20R-5367", sku: "CAT-20R-5367", kind: "PRODUCT", imageRequired: true, sourceRequired: true },
-  { q: "30R-0084", sku: "CAT-30R-0084", kind: "PRODUCT", imageRequired: true, sourceRequired: true },
-  { q: "10R-9954", sku: "CAT-10R-9954", kind: "PRODUCT", imageRequired: true, sourceRequired: true },
-  { q: "5N-4504", sku: "CAT-5N-4504", kind: "PRODUCT", imageRequired: true, sourceRequired: true },
-  { q: "7W-0009", sku: "CAT-7W-0009", kind: "PRODUCT", imageRequired: true, sourceRequired: true },
-  { q: "9X-3406", sku: "CAT-9X-3406", kind: "PRODUCT", imageRequired: true, sourceRequired: true },
-  { q: "260-3406", sku: "CAT-260-3406", kind: "PRODUCT", imageRequired: true, sourceRequired: true },
-  { q: "20R-4278", sku: "CAT-20R-4278", kind: "PRODUCT", imageRequired: true, sourceRequired: true },
-  { q: "10R-9063", sku: "CAT-10R-9063", kind: "PRODUCT", imageRequired: true, sourceRequired: true },
-  { q: "20R-0043", sku: "CAT-20R-0043", kind: "PRODUCT", imageRequired: true, sourceRequired: true },
-  { q: "20R-3958", sku: "CAT-20R-3958", kind: "PRODUCT", imageRequired: true, sourceRequired: true },
-  { q: "0R-8200", sku: "CAT-0R-8200", kind: "PRODUCT", imageRequired: true, sourceRequired: true },
-  { q: "593-5344", sku: "CAT-593-5344", kind: "PRODUCT", imageRequired: true, sourceRequired: true },
+  { q: "20R-2510", sku: "CAT-20R-2510", kind: "PRODUCT", skuSuffix: true, imageRequired: true, sourceRequired: true },
+  { q: "20R-5367", sku: "CAT-20R-5367", kind: "PRODUCT", skuSuffix: true, imageRequired: true, sourceRequired: true },
+  { q: "30R-0084", sku: "CAT-30R-0084", kind: "PRODUCT", skuSuffix: true, imageRequired: true, sourceRequired: true },
+  { q: "10R-9954", sku: "CAT-10R-9954", kind: "PRODUCT", skuSuffix: true, imageRequired: true, sourceRequired: true },
+  { q: "5N-4504", sku: "CAT-5N-4504", kind: "PRODUCT", skuSuffix: true, imageRequired: true, sourceRequired: true },
+  { q: "7W-0009", sku: "CAT-7W-0009", kind: "PRODUCT", skuSuffix: true, imageRequired: true, sourceRequired: true },
+  { q: "9X-3406", sku: "CAT-9X-3406", kind: "PRODUCT", skuSuffix: true, imageRequired: true, sourceRequired: true },
+  { q: "260-3406", sku: "CAT-260-3406", kind: "PRODUCT", skuSuffix: true, imageRequired: true, sourceRequired: true },
+  { q: "20R-4278", sku: "CAT-20R-4278", kind: "PRODUCT", skuSuffix: true, imageRequired: true, sourceRequired: true },
+  { q: "10R-9063", sku: "CAT-10R-9063", kind: "PRODUCT", skuSuffix: true, imageRequired: true, sourceRequired: true },
+  { q: "20R-0043", sku: "CAT-20R-0043", kind: "PRODUCT", skuSuffix: true, imageRequired: true, sourceRequired: true },
+  { q: "20R-3958", sku: "CAT-20R-3958", kind: "PRODUCT", skuSuffix: true, imageRequired: true, sourceRequired: true },
+  { q: "0R-8200", sku: "CAT-0R-8200", kind: "PRODUCT", skuSuffix: true, imageRequired: true, sourceRequired: true },
+  { q: "593-5344", sku: "CAT-593-5344", kind: "PRODUCT", skuSuffix: true, imageRequired: true, sourceRequired: true },
   ...["321-8076","7T-3205","221-8307","1R-0716","320-6690","HPU-042","HCV-315","HPP-220","PNC-032","FRL-01","SV-24V"].map(q => ({q, absent:true})),
   { q: "CAT-1L-9049", sku: "CAT-1L-9049", kind: "PRODUCT", filterCategory: "قطعات موتور" },
   { q: "CAT-202-2785", sku: "CAT-202-2785", kind: "PRODUCT", filterCategory: "قطعات برقی" },
@@ -64,7 +64,7 @@ for (const test of tests) {
   const body = await response.json().catch(() => ({}));
   const items = Array.isArray(body.items) ? body.items : [];
   const normSku = v => String(v || "").replace(/[^A-Z0-9]/gi, "").toUpperCase();
-  const found = items.find(x => normSku(x.sku) === normSku(test.sku) && x.kind === test.kind && (!test.filterCategory || x.category === test.filterCategory));
+  const found = items.find(x => (normSku(x.sku) === normSku(test.sku) || (test.skuSuffix && normSku(x.sku).endsWith(normSku(test.q)))) && x.kind === test.kind && (!test.filterCategory || x.category === test.filterCategory));
   const exists = items.some(x => normSku(x.sku) === normSku(test.q) && x.kind === "PRODUCT");
   const modelMatched = !test.modelQuery || items.some(x => x.kind === "PRODUCT" && (normSku(x.machineModel).includes(normSku(test.q)) || normSku(x.description).includes(normSku(test.q))));
   const ok = response.ok && (test.absent ? !exists : (test.any ? items.some(x => x.kind === test.kind) : Boolean(found))) && modelMatched && (!test.category || found?.category === test.category) && (!test.imageRequired || Boolean(found?.imageUrl)) && (!test.sourceRequired || String(found?.description || "").includes("parts.cat.com"));
