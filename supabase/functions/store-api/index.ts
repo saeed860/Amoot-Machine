@@ -66,7 +66,7 @@ Deno.serve(async (req) => {
     }
 
     if (req.method === "GET" && path === "/api/products") {
-      const u = new URL(req.url), q = clean(u.searchParams.get("q"), 100).replace(/[,%()_*\\\\]/g, " ").replace(/\\s+/g, " ").trim(), category = clean(u.searchParams.get("category"), 100), brand = clean(u.searchParams.get("brand"), 100), model = clean(u.searchParams.get("model"), 120);
+      const u = new URL(req.url), includeImages = u.searchParams.get("includeImages") !== "false", q = clean(u.searchParams.get("q"), 100).replace(/[,%()_*\\\\]/g, " ").replace(/\\s+/g, " ").trim(), category = clean(u.searchParams.get("category"), 100), brand = clean(u.searchParams.get("brand"), 100), model = clean(u.searchParams.get("model"), 120);
       const baseProductQuery = () => {
         let productQuery = adminDb.from("products").select("*").eq("status", "ACTIVE").order("created_at", { ascending: false }).limit(100);
         if (category) productQuery = productQuery.eq("category", category);
@@ -121,7 +121,7 @@ Deno.serve(async (req) => {
         const partRecords=[...byId.values()];
         // Resolve and cache the real OEM product image from the official Cat Parts Store.
         // Only a bounded number of missing images are fetched per request to protect latency.
-        const imageResolved=await Promise.all(partRecords.slice(0,24).map(async (part:any)=>{
+        const imageResolved=includeImages ? await Promise.all(partRecords.slice(0,24).map(async (part:any)=>{
           let imageUrl=part.image_url??null;
           if(!imageUrl && /^https:\/\/parts\.cat\.com\//i.test(String(part.source_url??""))){
             try{
@@ -137,7 +137,7 @@ Deno.serve(async (req) => {
             }catch(_){}
           }
           return {...part,image_url:imageUrl};
-        }));
+        })) : partRecords;
         const imageById=new Map(imageResolved.map((part:any)=>[String(part.id),part]));
         partItems=partRecords.map((raw:any)=>{
           const p=imageById.get(String(raw.id))??raw;
