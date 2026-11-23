@@ -22,7 +22,7 @@ values
    'REFERENCE')
 on conflict (part_number) do update set
   name = excluded.name,
-  engine_models = (select array_agg(distinct x order by x) from unnest(public.part_catalog.engine_models || excluded.engine_models) x),
+  engine_models = (select array_agg(distinct v order by v) from unnest(part_catalog.engine_models || excluded.engine_models) as t(v)),
   technical_group = excluded.technical_group,
   source_name = excluded.source_name,
   source_url = excluded.source_url,
