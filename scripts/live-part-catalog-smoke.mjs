@@ -572,6 +572,10 @@ const tests = [
   { q: "7C-7688", sku: "7C-7688", kind: "PART_REFERENCE", skuSuffix: true, sourceRequired: true },
   { q: "352-0210", sku: "352-0210", kind: "PART_REFERENCE", skuSuffix: true, sourceRequired: true, imageRequired: true },
   { q: "456-0027", sku: "456-0027", kind: "PART_REFERENCE", skuSuffix: true, sourceRequired: true },
+  { q: "20R-5629", sku: "20R-5629", kind: "PART_REFERENCE", skuSuffix: true, sourceRequired: true },
+  { q: "108-6630", sku: "108-6630", kind: "PART_REFERENCE", skuSuffix: true, sourceRequired: true },
+  { q: "0R-3841", sku: "0R-3841", kind: "PART_REFERENCE", skuSuffix: true, sourceRequired: true },
+  { q: "110-8897", sku: "110-8897", kind: "PART_REFERENCE", skuSuffix: true, sourceRequired: true },
 ];
 let failed = false;
 let cursor = 0;
