@@ -240,6 +240,43 @@ begin
     raise exception '343-5527 must not be tagged as a C15 directory fitment';
   end if;
 
+  if not exists (
+    select 1 from public.part_catalog
+    where part_number = '447-8618'
+      and source_name = 'Cat Parts Store (official)'
+      and engine_models @> array['C15','C18','3512C','3516C']::text[]
+      and verification_status = 'REFERENCE'
+  ) then
+    raise exception 'Official Cat 447-8618 public reference is missing';
+  end if;
+
+  if not exists (
+    select 1 from public.part_catalog
+    where part_number = '397-4971'
+      and source_name = 'Cat Parts Store (official)'
+      and engine_models @> array['3512C','3516C']::text[]
+  ) then
+    raise exception 'Official Cat 397-4971 model listing is missing';
+  end if;
+
+  if not exists (
+    select 1 from public.part_catalog
+    where part_number = '375-4809'
+      and source_name = 'Cat Parts Store (official)'
+      and engine_models @> array['3512C','3516C']::text[]
+  ) then
+    raise exception 'Official Cat 375-4809 model listing is missing';
+  end if;
+
+  if not exists (
+    select 1 from public.part_catalog
+    where part_number = '127-2176'
+      and source_name = 'Cat Parts Store (official)'
+      and engine_models @> array['3512C','3516C']::text[]
+  ) then
+    raise exception 'Official Cat 127-2176 model listing is missing';
+  end if;
+
   if not exists (select 1 from pg_constraint where conname = 'part_catalog_oem_verified_evidence_check') then
     raise exception 'Cat SIS evidence constraint is missing';
   end if;
