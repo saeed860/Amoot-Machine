@@ -160,3 +160,22 @@ Migration `202611232020_consolidated_cat_engine_family_batch.sql` adds/upserts t
 The migration stores Cat's published specifications for 574-0991 and the official compatible-model list for 115-5674. Both records remain `REFERENCE`; image URLs are left NULL for the existing official Cat image resolver, and no price or stock is invented. Cat's public pages do not provide a complete universal fitment guarantee: confirm the exact arrangement and serial number before accepting an order.
 
 **Extraction scope:** this is a consolidated verified batch, not a complete export of all Cat catalog SKUs. Cat's public categories expose large paginated inventories (up to 1,200 items in the visible category result window and additional subcategory inventories). Full-catalog extraction requires crawling every category page and product detail page; serial-specific SIS fitment remains a separate authorized-catalog task.
+
+
+## Consolidated engine overhaul and cooling batch (2026-11-23)
+
+Migration `202611232030_expand_cat_engine_overhaul_and_cooling_references.sql` adds/upserts seven official Cat references:
+
+| Part number | Cat listing | Explicit engine applications recorded |
+|---|---|---|
+| 603-1668 | Basic Water Pump | C15, C18 |
+| 284-5565 | Water Pump Rebuild Kit | C18, 3406E, C15 |
+| 346-3791 | Engine Overhaul (Silver) Kit | 3406E |
+| 599-7781 | Engine Overhaul (Major) Kit | G3516B |
+| 0R-4285 | 3406A Reman Cylinder Pack | 3406A title only; no broader fitment asserted |
+| 144-0503 | Piston & Ring Kit | 3516, 3512, 3508, 3516B, 3512B, 3406B/C/E |
+| 0R-8200 | 3408/3412 Reman Cylinder Pack | 3408E, 3412E |
+
+The batch records only Cat-published product descriptions, specifications and explicit compatible-model details. All rows remain `REFERENCE`; no price or stock is fabricated, and image URLs remain NULL for the official image resolver. Confirm exact arrangement and serial-number fitment with Cat before purchase.
+
+Official product pages: [603-1668](https://parts.cat.com/en/catcorp/product/603-1668), [284-5565](https://parts.cat.com/en/catcorp/product/284-5565), [346-3791](https://parts.cat.com/en/catcorp/product/346-3791), [599-7781](https://parts.cat.com/en/catcorp/product/599-7781), [0R-4285](https://parts.cat.com/en/catcorp/product/0R-4285), [144-0503](https://parts.cat.com/en/catcorp/product/144-0503), [0R-8200](https://parts.cat.com/en/catcorp/product/0R-8200).
