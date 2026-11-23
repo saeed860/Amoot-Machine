@@ -532,6 +532,18 @@ const tests = [
   { q: "10R-8762", sku: "10R-8762", kind: "PART_REFERENCE", skuSuffix: true, sourceRequired: true },
   { q: "0R-4449", sku: "0R-4449", kind: "PART_REFERENCE", skuSuffix: true, sourceRequired: true },
   { q: "20R-1270", sku: "20R-1270", kind: "PART_REFERENCE", skuSuffix: true, sourceRequired: true },
+  
+  { q: "4N-0733", sku: "4N-0733", kind: "PART_REFERENCE", skuSuffix: true, sourceRequired: true },
+  { q: "0R-9448", sku: "0R-9448", kind: "PART_REFERENCE", skuSuffix: true, sourceRequired: true },
+  { q: "0R-9449", sku: "0R-9449", kind: "PART_REFERENCE", skuSuffix: true, sourceRequired: true },
+  { q: "261-6857", sku: "261-6857", kind: "PART_REFERENCE", skuSuffix: true, sourceRequired: true },
+  { q: "600-3535", sku: "600-3535", kind: "PART_REFERENCE", skuSuffix: true, sourceRequired: true },
+  { q: "110-8463", sku: "110-8463", kind: "PART_REFERENCE", skuSuffix: true, sourceRequired: true },
+  { q: "0R-9697", sku: "0R-9697", kind: "PART_REFERENCE", skuSuffix: true, sourceRequired: true },
+  { q: "7W-2225", sku: "7W-2225", kind: "PART_REFERENCE", skuSuffix: true, sourceRequired: true },
+  { q: "416-4686", sku: "416-4686", kind: "PART_REFERENCE", skuSuffix: true, sourceRequired: true },
+  { q: "264-6416", sku: "264-6416", kind: "PART_REFERENCE", skuSuffix: true, sourceRequired: true },
+  { q: "170-4007", sku: "170-4007", kind: "PART_REFERENCE", skuSuffix: true, sourceRequired: true },
 ];
 let failed = false;
 let cursor = 0;
