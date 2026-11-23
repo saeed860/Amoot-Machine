@@ -841,3 +841,30 @@ Migration `202611232540_add_more_verified_marine_parts.sql` adds 10 additional o
 | 160-8765 | FITTING AS | 3516, 3508 | Adapters & fittings |
 
 Note: the migration contains exactly 10 records, matching the table above. Every one of these pages lists at least one marine compatible model and at least one non-marine engine/application, so the current application tag is `BOTH`. Sources: https://parts.cat.com/en/catcorp/product/4P-0710, https://parts.cat.com/en/catcorp/product/068-0005, https://parts.cat.com/en/catcorp/product/7W-3737, https://parts.cat.com/en/catcorp/product/109-5738, https://parts.cat.com/en/catcorp/product/161-0801, https://parts.cat.com/en/catcorp/product/190-0330, https://parts.cat.com/en/catcorp/product/301-3043, https://parts.cat.com/en/catcorp/product/110-3754, https://parts.cat.com/en/catcorp/product/5L-6954, https://parts.cat.com/en/catcorp/product/160-8765.
+
+
+## Marine fuel, lubrication and cooling references (2026-11-23)
+
+Migration `202611232550_expand_marine_fuel_lube_cooling_parts.sql` adds 15 official Cat Parts Store references. All are search-only `REFERENCE` rows; price and stock remain unset/zero and image URLs are not guessed.
+
+| Part number | Cat item | Group | Marine engine families |
+|---|---|---|---|
+| 9Y-5068 | Auxiliary Sea Water Pump Impeller | Cooling / sea water | 3500 |
+| 10R-9598 | Reman Auxiliary Sea Water Pump | Cooling / sea water | 3516 |
+| 520-2924 | Engine Oil Pump | Lubrication | C32, 3412E |
+| 557-7650 | Engine Oil Pump | Lubrication | C32, C32B |
+| 20R-1516 | Reman Engine Oil Pump | Lubrication | C32 |
+| 0R-7724 | Reman Auxiliary Water Pump | Cooling / sea water | 3500 |
+| 5N-9021 | Auxiliary Sea Water Pump Impeller | Cooling / sea water | 3500 |
+| 318-2579 | Auxiliary Sea Water Pump | Cooling / sea water | 3500 |
+| 416-0613 | Water Pump with Impeller | Cooling | 3512C, 3516 |
+| 0R-8210 | Reman Engine Oil Pump | Lubrication | C30, C32, 3412C/E |
+| 20R-0675 | Reman Fuel Injector | Fuel / injection | C280-6/8/12/16 |
+| 572-5881 | 12 Volt Fuel Priming Pump | Fuel / priming | C18 |
+| 292-8125 | Fuel Line Tube Assembly | Fuel / lines | C18 |
+| 140-9545 | Fuel Cooler Core | Fuel / cooling | C18, 3406E |
+| 313-2650 | Water Pump | Cooling | 3516 |
+
+Application flags are derived from the Cat Compatible Models section: `MARINE` is used only when the displayed list contains a marine engine class and no non-marine engine class; `BOTH` when Cat lists both. The category labels group components by function, not by a claim of serial-number-level fitment.
+
+Official sources: https://parts.cat.com/en/catcorp/product/9Y-5068, https://parts.cat.com/en/catcorp/product/10R-9598, https://parts.cat.com/en/catcorp/product/520-2924, https://parts.cat.com/en/catcorp/product/557-7650, https://parts.cat.com/en/catcorp/product/20R-1516, https://parts.cat.com/en/catcorp/product/0R-7724, https://parts.cat.com/en/catcorp/product/5N-9021, https://parts.cat.com/en/catcorp/product/318-2579, https://parts.cat.com/en/catcorp/product/416-0613, https://parts.cat.com/en/catcorp/product/0R-8210, https://parts.cat.com/en/catcorp/product/20R-0675, https://parts.cat.com/en/catcorp/product/572-5881, https://parts.cat.com/en/catcorp/product/292-8125, https://parts.cat.com/en/catcorp/product/140-9545; 313-2650: https://parts.cat.com/en/catcorp/313-2650.
