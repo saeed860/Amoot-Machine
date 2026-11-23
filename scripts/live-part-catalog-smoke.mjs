@@ -610,7 +610,7 @@ const tests = [
   { q: "20R-0925", sku: "20R-0925", kind: "PART_REFERENCE", sourceRequired: true, imageRequired: true },
   { q: "0R-0921", sku: "0R-0921", kind: "PART_REFERENCE", sourceRequired: true, imageRequired: true },
   { q: "30R-1275", sku: "30R-1275", kind: "PART_REFERENCE", sourceRequired: true },
-  { q: "30R-1818", sku: "30R-1818", kind: "PART_REFERENCE", sourceRequired: true }
+  { q: "30R-1818", sku: "30R-1818", kind: "PART_REFERENCE", sourceRequired: true },
   { q: "0R-6756", sku: "0R-6756", kind: "PART_REFERENCE", sourceRequired: true },
   { q: "0R-5739", sku: "0R-5739", kind: "PART_REFERENCE", sourceRequired: true, imageRequired: true },
   { q: "0R-2897", sku: "0R-2897", kind: "PART_REFERENCE", sourceRequired: true, imageRequired: true },
