@@ -348,6 +348,71 @@ const tests = [
   { q: "235-5974", sku: "235-5974", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
   { q: "300-4545", sku: "300-4545", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
   { q: "542-8380", sku: "542-8380", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
+
+  { q: "529-5790", sku: "529-5790", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Attachments" },
+  { q: "575-2083", sku: "575-2083", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Attachments" },
+  { q: "279-5373", sku: "279-5373", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Attachments" },
+  { q: "626-4231", sku: "626-4231", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Attachments" },
+  { q: "7K-1181", sku: "7K-1181", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Cabs" },
+  { q: "3S-2093", sku: "3S-2093", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Cabs" },
+  { q: "8X-9620", sku: "8X-9620", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Drivetrain" },
+  { q: "226-2826", sku: "226-2826", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Drivetrain" },
+  { q: "2A-6946", sku: "2A-6946", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Drivetrain" },
+  { q: "8R-7036", sku: "8R-7036", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Drivetrain" },
+  { q: "150-8355", sku: "150-8355", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Drivetrain" },
+  { q: "106-0933", sku: "106-0933", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Drivetrain" },
+  { q: "384-4562", sku: "384-4562", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Drivetrain" },
+  { q: "365-4922", sku: "365-4922", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Drivetrain" },
+  { q: "0R-9043", sku: "0R-9043", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Drivetrain" },
+  { q: "255-0902", sku: "255-0902", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Drivetrain" },
+  { q: "290-4140", sku: "290-4140", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Drivetrain" },
+  { q: "303-2504", sku: "303-2504", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Drivetrain" },
+  { q: "163-9366", sku: "163-9366", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Drivetrain" },
+  { q: "562-8118", sku: "562-8118", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Drivetrain" },
+  { q: "8W-0212", sku: "8W-0212", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Drivetrain" },
+  { q: "153-5710", sku: "153-5710", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Electrical & Electronics" },
+  { q: "153-5720", sku: "153-5720", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Electrical & Electronics" },
+  { q: "115-2422", sku: "115-2422", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Electrical & Electronics" },
+  { q: "230-6368", sku: "230-6368", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Electrical & Electronics" },
+  { q: "9X-3404", sku: "9X-3404", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Electrical & Electronics" },
+  { q: "360-8960", sku: "360-8960", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Engine" },
+  { q: "1R-0749", sku: "1R-0749", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Engine" },
+  { q: "7W-2326", sku: "7W-2326", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Engine" },
+  { q: "322-3155", sku: "322-3155", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Engine" },
+  { q: "513-5975", sku: "513-5975", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Equipment Upgrades" },
+  { q: "513-5980", sku: "513-5980", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Equipment Upgrades" },
+  { q: "518-3210", sku: "518-3210", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Equipment Upgrades" },
+  { q: "567-4125", sku: "567-4125", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Equipment Upgrades" },
+  { q: "7D-1577", sku: "7D-1577", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Ground Engaging Tools" },
+  { q: "505-4113", sku: "505-4113", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Ground Engaging Tools" },
+  { q: "000-5242", sku: "000-5242", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Hardware, Seals, & Consumables" },
+  { q: "000-5251", sku: "000-5251", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Hardware, Seals, & Consumables" },
+  { q: "000-5252", sku: "000-5252", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Hardware, Seals, & Consumables" },
+  { q: "000-5253", sku: "000-5253", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Hardware, Seals, & Consumables" },
+  { q: "6V-0852", sku: "6V-0852", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Hoses & Tubes" },
+  { q: "6L-8617", sku: "6L-8617", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Hoses & Tubes" },
+  { q: "8C-3446", sku: "8C-3446", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Hoses & Tubes" },
+  { q: "304-3885", sku: "304-3885", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Hoses & Tubes" },
+  { q: "3B-8489", sku: "3B-8489", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Hydraulics" },
+  { q: "244-3114", sku: "244-3114", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Hydraulics" },
+  { q: "6V-3965", sku: "6V-3965", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Hydraulics" },
+  { q: "6V-7238", sku: "6V-7238", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Hydraulics" },
+  { q: "307-3245", sku: "307-3245", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Hydraulics" },
+  { q: "349-7059", sku: "349-7059", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Structures & Other Systems Components" },
+  { q: "519-7297", sku: "519-7297", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Structures & Other Systems Components" },
+  { q: "284-9039", sku: "284-9039", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Structures & Other Systems Components" },
+  { q: "619-9945", sku: "619-9945", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
+  { q: "638-4572", sku: "638-4572", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
+  { q: "380-5940", sku: "380-5940", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
+  { q: "339-1048", sku: "339-1048", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Upgrade & Repair Kits" },
+  { q: "569-8036", sku: "569-8036", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Upgrade & Repair Kits" },
+  { q: "350-7735", sku: "350-7735", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Upgrade & Repair Kits" },
+  { q: "20R-6628", sku: "20R-6628", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Upgrade & Repair Kits" },
+  { q: "499-6727", sku: "499-6727", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Upgrade & Repair Kits" },
+  { q: "177-9343", sku: "177-9343", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Workshop Supplies" },
+  { q: "590-0196", sku: "590-0196", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Workshop Supplies" },
+  { q: "169-7372", sku: "169-7372", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Workshop Supplies" },
+  { q: "653-9562", sku: "653-9562", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Workshop Supplies" },
 ];
 let failed = false;
 let cursor = 0;
@@ -381,4 +446,11 @@ const workers = Array.from({ length: 8 }, async () => {
   }
 });
 await Promise.all(workers);
+const categoryResponse = await fetch(base + "/api/part-categories", { headers: { apikey: key } });
+const categoryBody = await categoryResponse.json().catch(() => ({}));
+const categoryItems = Array.isArray(categoryBody.items) ? categoryBody.items : [];
+const rootCount = categoryItems.filter(item => !item.parent_key).length;
+const categoryPass = categoryResponse.ok && rootCount === 15 && categoryItems.length >= 130;
+process.stdout.write(JSON.stringify({ query: "/api/part-categories", http: categoryResponse.status, roots: rootCount, total: categoryItems.length, pass: categoryPass }) + "\\n");
+if (!categoryPass) failed = true;
 if (failed) process.exit(1);
