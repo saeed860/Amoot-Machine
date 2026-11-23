@@ -723,6 +723,7 @@ let cursor = 0;
 async function runTest(test) {
   const url = new URL(base + "/api/products");
   url.searchParams.set("q", test.q);
+  url.searchParams.set("includeImages", "false");
   if (test.filterCategory) url.searchParams.set("category", test.filterCategory);
   const response = await fetch(url, { headers: { apikey: key }, signal: AbortSignal.timeout(15000) });
   const body = await response.json().catch(() => ({}));
