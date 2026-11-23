@@ -370,3 +370,28 @@ Migration `202611232170_expand_cat_3500_engine_and_fuel_references.sql` adds/ups
 All seven remain quote-only `REFERENCE` records. Source URLs point to official Cat product pages; compatibility is limited to Cat's explicit engine-model list. No price, stock, or non-Cat image has been fabricated. The public category listing also demonstrates that Cat's Fuel System and Turbo System categories contain thousands of results and the public catalog is paginated; this batch is not a claim of complete catalog extraction.
 
 Official sources: [30R-0090](https://parts.cat.com/en/catcorp/product/30R-0090), [20R-6618](https://parts.cat.com/en/catcorp/product/20R-6618), [20R-1626](https://parts.cat.com/en/catcorp/product/20R-1626), [10R-8762](https://parts.cat.com/en/catcorp/product/10R-8762), [0R-4449](https://parts.cat.com/en/catcorp/product/0R-4449), [20R-5075](https://parts.cat.com/en/catcorp/product/20R-5075), [20R-1270](https://parts.cat.com/en/catcorp/product/20R-1270).
+
+
+## Additional Cat 3400/C15 fuel-system batch (2026-11-23)
+
+Migration `202611232180_expand_cat_3400_c15_fuel_injector_references.sql` adds/upserts **13 official Cat references**:
+
+| Part number | Component | Cat-listed engine scope |
+|---|---|---|
+| 9N-3246 | Fuel injection nozzle | 3406, 3408, 3408B, 3412 |
+| 7N-9843 | Fuel injector valve nozzle | 3406, 3408, 3408B, 3412 |
+| 20R-4147 | 3408/3412 Reman fuel injector | Product title identifies 3408/3412; no separate fitment list asserted |
+| 20R-0759 | Reman fuel injector | 3408E |
+| 10R-1273 | C15 Reman EI550 EUI injector | C15 |
+| 10R-3261 | Reman fuel injector | C15 |
+| 20R-1306 | C15 Reman MEUI-C 10mm injector | C15 |
+| 249-0709 | Fuel injector group | C15 |
+| 211-3023 | Fuel injector group | C-15, C-16, 3406E |
+| 4W-7019 | Fuel injector nozzle | 3408/3408B/C, 3412/3412C |
+| 6I-0036 | 1.83mm fuel injector line | 3408/3408B/C, 3412C |
+| 1W-6316 | Fuel injection line no. 6 | 3408/3408B/C |
+| 1W-6312 | Fuel injection line no. 2 | 3408/3408B/C, 3412C |
+
+All records remain quote-only `REFERENCE` entries. Compatible models are limited to Cat's explicit compatible-model sections; where only the Cat product title names an engine family, the source note says so and the compatible-model array is left empty. No pricing, stock, or non-Cat image is fabricated. This is a targeted family batch, not a claim that the public Cat catalog has been fully extracted.
+
+Official sources: [9N-3246](https://parts.cat.com/en/catcorp/product/9N-3246), [7N-9843](https://parts.cat.com/en/catcorp/product/7N-9843), [20R-4147](https://parts.cat.com/en/catcorp/product/20R-4147), [20R-0759](https://parts.cat.com/en/catcorp/product/20R-0759), [10R-1273](https://parts.cat.com/en/catcorp/product/10R-1273), [10R-3261](https://parts.cat.com/en/catcorp/product/10R-3261), [20R-1306](https://parts.cat.com/en/catcorp/product/20R-1306), [249-0709](https://parts.cat.com/en/catcorp/product/249-0709), [211-3023](https://parts.cat.com/en/catcorp/product/211-3023), [4W-7019](https://parts.cat.com/en/catcorp/product/4W-7019), [6I-0036](https://parts.cat.com/en/catcorp/product/6I-0036), [1W-6316](https://parts.cat.com/en/catcorp/product/1W-6316), [1W-6312](https://parts.cat.com/en/catcorp/product/1W-6312).
