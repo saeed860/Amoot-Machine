@@ -779,3 +779,10 @@ The official Cat Parts Store currently reports 34 Fuel Rails results. The visibl
 ## Sea Water Pumps (2026-11-23)
 
 The official Cat Parts Store Sea Water Pumps category reports 33 results. Migration `202611232460_import_cat_sea_water_pumps_page1_partial.sql` adds the 16 visible first-page references, without replacing existing part-number records. Engine-family tags are copied only from explicit product-title text; no exact equipment fitment, price, stock or image is inferred. One result (`519-6373`) is a shaft rather than a complete pump and is retained as listed in the source category. **17 results remain unverified; this category is partial.**
+
+
+## Cat Reman Water Pumps — first-page partial import (2026-11-23)
+
+The official [Cat Reman Water Pumps category](https://parts.cat.com/en/catcorp/category/reman-products-water-pumps) reports **110 results** and displays 16 items per page. Migration `202611232470_import_cat_reman_water_pumps_page1_partial.sql` adds the 16 visible page-one references. Engine-family tags are copied only from explicit model text in the Cat listing; generic titles remain untagged. These are search-only `REFERENCE` records, with no price, stock, image or inferred compatibility. **94 results remain unverified; this category is partial.**
+
+Imported: `20R-9122`, `10R-1669`, `20R-9124`, `10R-0484`, `0R-4680`, `10R-1670`, `10R-0482`, `0R-0999`, `20R-0505`, `20R-9976`, `20R-9847`, `20R-1859`, `10R-9598`, `10R-6400`, `10R-5407`, `0R-1003`.
