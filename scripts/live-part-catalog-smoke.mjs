@@ -307,6 +307,16 @@ const tests = [
   { q: "297-9545", sku: "297-9545", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Seals" },
   { q: "162-7863", sku: "162-7863", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Seals" },
   { q: "314-4118", sku: "314-4118", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Seals" },
+  { q: "433-6739", sku: "433-6739", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
+  { q: "184-6306", sku: "184-6306", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
+  { q: "309-7678", sku: "309-7678", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
+  { q: "620-6402", sku: "620-6402", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
+  { q: "288-0935", sku: "288-0935", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
+  { q: "288-0934", sku: "288-0934", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
+  { q: "202-4296", sku: "202-4296", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
+  { q: "643-4218", sku: "643-4218", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
+  { q: "638-4575", sku: "638-4575", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
+  { q: "457-9635", sku: "457-9635", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Undercarriage" },
 ];
 let failed = false;
 let cursor = 0;
