@@ -6,7 +6,7 @@ const base = extract("AMOOT_API_BASE_URL");
 const key = extract("AMOOT_SUPABASE_ANON_KEY");
 if (!base || !key) throw new Error("Public API configuration is missing");
 
-const tests = [
+// Verify the deployed function against the live Supabase endpoint.\nconst tests = [
   { q: "392-0217", expected: "392-0217" },
   { q: "3920217", expected: "392-0217" },
   { q: "3512CB", expectedAny: true },
