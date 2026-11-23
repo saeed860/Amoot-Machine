@@ -54,3 +54,7 @@ jobs:
         env:
           PGPASSWORD: ci_password
         run: psql -h 127.0.0.1 -U postgres -d amoot_ci -v ON_ERROR_STOP=1 -f supabase/tests/order-lifecycle.sql
+      - name: Verify Caterpillar part catalog seed and normalization
+        env:
+          PGPASSWORD: ci_password
+        run: psql -h 127.0.0.1 -U postgres -d amoot_ci -v ON_ERROR_STOP=1 -f supabase/tests/part-catalog.sql
