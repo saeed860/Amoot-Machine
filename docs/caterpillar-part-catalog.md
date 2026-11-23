@@ -351,3 +351,22 @@ Migration `202611232160_expand_cat_3512_3516_3406_3408_fuel_turbo_references.sql
 All entries are reference-only and sourced to official Cat product pages. Compatibility is restricted to the models explicitly listed by Cat; where the product title and visible fitment list differ, the source note records that distinction. No pricing or stock is fabricated.
 
 Sources: [467-5333](https://parts.cat.com/en/catcorp/product/467-5333), [0R-9943](https://parts.cat.com/en/catcorp/product/0R-9943), [102-0297](https://parts.cat.com/en/catcorp/product/102-0297), [102-0290](https://parts.cat.com/en/catcorp/product/102-0290), [0R-3536](https://parts.cat.com/en/catcorp/product/0R-3536), [0R-8787](https://parts.cat.com/en/catcorp/product/0R-8787), [0R-3422](https://parts.cat.com/en/catcorp/product/0R-3422), [118-2989](https://parts.cat.com/en/catcorp/product/118-2989), [102-0294](https://parts.cat.com/en/catcorp/product/102-0294), [0R-7164](https://parts.cat.com/en/catcorp/product/0R-7164), [100-4095](https://parts.cat.com/en/catcorp/product/100-4095), [0R-3425](https://parts.cat.com/en/catcorp/product/0R-3425).
+
+
+## Additional Cat 3500 engine and fuel references (2026-11-23)
+
+Migration `202611232170_expand_cat_3500_engine_and_fuel_references.sql` adds/upserts **7 official Cat references** identified from Cat Parts Store category listings and verified product pages:
+
+| Part number | Component | Cat-listed engine scope |
+|---|---|---|
+| 30R-0090 | G3500 Reman cylinder head (no swirl) | G3512, G3516 |
+| 20R-6618 | 3500 HD Reman cylinder pack | 3512B, 3516B |
+| 20R-1626 | 3500 Reman valve lifter | 3508/3508B/C, 3512B/C, 3516B/C |
+| 10R-8762 | 3500C Reman cylinder pack | 3508B/C, 3512/3512B/C, 3516/3516B/C |
+| 0R-4449 | G3500 SI Reman cylinder pack | G3508, G3512, G3516 |
+| 20R-5075 | C9 CR350 Reman fuel injector | C9 is identified in Cat product title; engine fitment list not separately asserted |
+| 20R-1270 | 3500B Reman fuel injector | 3508B, 3512B, 3516B |
+
+All seven remain quote-only `REFERENCE` records. Source URLs point to official Cat product pages; compatibility is limited to Cat's explicit engine-model list. No price, stock, or non-Cat image has been fabricated. The public category listing also demonstrates that Cat's Fuel System and Turbo System categories contain thousands of results and the public catalog is paginated; this batch is not a claim of complete catalog extraction.
+
+Official sources: [30R-0090](https://parts.cat.com/en/catcorp/product/30R-0090), [20R-6618](https://parts.cat.com/en/catcorp/product/20R-6618), [20R-1626](https://parts.cat.com/en/catcorp/product/20R-1626), [10R-8762](https://parts.cat.com/en/catcorp/product/10R-8762), [0R-4449](https://parts.cat.com/en/catcorp/product/0R-4449), [20R-5075](https://parts.cat.com/en/catcorp/product/20R-5075), [20R-1270](https://parts.cat.com/en/catcorp/product/20R-1270).
