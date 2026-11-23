@@ -76,3 +76,19 @@ Cat PM kit 633-4100 (3406, 500-hour service) lists 142-1340 x2, 1R-0749 x2, 1R-1
 
 Sources: official Cat product pages linked in each row, plus https://parts.cat.com/en/catcorp/product/633-4100, https://parts.cat.com/en/catcorp/product/609-0030 and https://parts.cat.com/en/catcorp/product/606-1783.
 
+
+
+## Public Cat Parts Store category expansion (2026-11-23)
+
+Additional search-only references were added/upserted from the public Cat Parts Store category and product pages. The migration batch covers:
+
+- `202611231700`: 66 references across filters, hydraulics, electrical, GET, hardware and hoses.
+- `202611231710`–`202611231760`: fuel-system, 3500/G3600 and C-series engine components, including a corrected C18 association for `10R-7231`.
+- `202611231770`: drivetrain and undercarriage references.
+- `202611231780`: attachments and structures.
+- `202611231790`: cab filters/cameras, equipment upgrades, hose/cap parts, repair kits and workshop supplies.
+- `202611231795`: product-specific image corrections for `575-2083` and `626-4231`.
+
+All these rows remain `REFERENCE`, with no price or stock. Fitment is recorded only where Cat's product page explicitly lists the model; category membership alone is not treated as machine compatibility.
+
+**Coverage limitation:** many Cat category pages display only 1–16 of 1,200 results (75 pages), and their subcategories contain additional inventories. This batch captures the visible first-page samples and selected official product pages; it is not a complete export of all Cat part numbers or a substitute for Cat SIS. Continue crawling remaining pages/categories or obtain an authorized complete catalog feed before claiming full coverage.
