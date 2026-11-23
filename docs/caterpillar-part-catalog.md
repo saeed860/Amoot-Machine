@@ -588,3 +588,8 @@ The official Cat Reman category lists exactly **7 of 7** products on one page. M
 Engine/model compatibility is restricted to information explicitly shown in official Cat product pages. No prices, stock, or unverified images were added.
 
 Official category: [Rods](https://parts.cat.com/en/catcorp/category/reman-products-rods). Official product pages: [0R-0916](https://parts.cat.com/en/catcorp/product/0R-0916), [10R-6211](https://parts.cat.com/en/catcorp/product/10R-6211), [10R-2788](https://parts.cat.com/en/catcorp/product/10R-2788), [20R-0925](https://parts.cat.com/en/catcorp/product/20R-0925), [0R-0921](https://parts.cat.com/en/catcorp/product/0R-0921), [30R-1275](https://parts.cat.com/en/catcorp/product/30R-1275), [30R-1818](https://parts.cat.com/en/catcorp/product/30R-1818).
+
+
+### Verified images for the Rods category
+
+Exact official Cat Scene7 product images were resolved from the corresponding Cat product pages and attached to `0R-0916`, `20R-0925`, and `0R-0921` in migration `202611232320_set_verified_cat_rod_product_images.sql`. Other products in this seven-part category retain a null image because the retrieved official pages showed only a fallback/logo or a low-resolution thumbnail; no generic replacement was used.
