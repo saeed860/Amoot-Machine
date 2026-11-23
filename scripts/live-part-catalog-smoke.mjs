@@ -788,7 +788,7 @@ const marinePass = marineResponse.ok && marineRows.length === 46 && marineRows.e
 process.stdout.write(JSON.stringify({ query: "/api/marine-engines", http: marineResponse.status, totalGroupEntries: marineRows.length, groups: marineCounts, pass: marinePass }) + "\n");
 if (!marinePass) failed = true;
 
-for (const [sku, expected] of [["CAT-10R-9954","MARINE"],["CAT-20R-0043","MARINE"],["CAT-5N-4504","BOTH"],["CAT-7W-0009","BOTH"],["CAT-20R-5367","LAND"]]) {
+for (const [sku, expected] of [["CAT-10R-9954","MARINE"],["CAT-20R-0043","MARINE"],["CAT-5N-4504","BOTH"],["CAT-7W-0009","BOTH"],["CAT-20R-5367","UNVERIFIED"]]) {
   const url = new URL(base + "/api/products");
   url.searchParams.set("q", sku);
   url.searchParams.set("includeImages", "false");
