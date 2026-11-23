@@ -749,3 +749,14 @@ Official category pages:
 - [Radiators](https://parts.cat.com/en/catcorp/category/reman-products-radiators?page=1&sortBy=0) — 5 records
 
 Official product pages: [0R-1039](https://parts.cat.com/en/catcorp/product/0R-1039), [10R-1417](https://parts.cat.com/en/catcorp/product/10R-1417), [20R-8352](https://parts.cat.com/en/catcorp/product/20R-8352), [20R-8360](https://parts.cat.com/en/catcorp/product/20R-8360), [20R-8364](https://parts.cat.com/en/catcorp/product/20R-8364), [20R-8369](https://parts.cat.com/en/catcorp/product/20R-8369), [20R-8373](https://parts.cat.com/en/catcorp/product/20R-8373), [20R-8380](https://parts.cat.com/en/catcorp/product/20R-8380), [20R-8381](https://parts.cat.com/en/catcorp/product/20R-8381), [20R-8390](https://parts.cat.com/en/catcorp/product/20R-8390), [20R-8403](https://parts.cat.com/en/catcorp/product/20R-8403), [20R-8406](https://parts.cat.com/en/catcorp/product/20R-8406), [20R-8418](https://parts.cat.com/en/catcorp/product/20R-8418), [111-7785](https://parts.cat.com/en/catcorp/product/111-7785), [140-4238](https://parts.cat.com/en/catcorp/product/140-4238), [10R-0747](https://parts.cat.com/en/catcorp/product/10R-0747), [10R-0739](https://parts.cat.com/en/catcorp/product/10R-0739), [10R-0745](https://parts.cat.com/en/catcorp/product/10R-0745).
+
+
+## Completed public Cat Engine Overhaul Kits category (2026-11-23)
+
+The official [Engine Overhaul Kits](https://parts.cat.com/en/catcorp/category/engine-overhaul-kits) category displays exactly 3 results (1–3 of 3). All three are imported by `202611232430_import_complete_cat_engine_overhaul_kits.sql`:
+
+- `20R-0651` — Cat Reman Platinum Engine Overhaul Kit (3126B). The product title identifies 3126B; Cat Compatible Models separately lists Truck Engine 3126E.
+- `356-1448` — Heavy Duty Precious Metals Silver Overhaul Kit. Cat Compatible Models lists Truck Engine C15.
+- `435-1295` — Cat Complete Engine Arrangement (C7); Cat marks it discontinued. Compatible Models lists Excavator 329D and 329D L.
+
+All three are search-only `REFERENCE` records with no price, stock, or unverified image. Fitment is limited to Cat's product title, description, or Compatible Models section. Official product pages: [20R-0651](https://parts.cat.com/en/catcorp/product/20R-0651), [356-1448](https://parts.cat.com/en/catcorp/product/356-1448), [435-1295](https://parts.cat.com/en/catcorp/product/435-1295).
