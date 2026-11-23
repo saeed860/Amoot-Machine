@@ -98,6 +98,7 @@ const tests = [
   { q: "10R-8618", sku: "10R-8618", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Engine" },
   { q: "107-7330", sku: "107-7330", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Engine" },
   { q: "0R-9737", sku: "0R-9737", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Engine" },
+  { q: "453-2315", sku: "453-2315", kind: "PART_REFERENCE", skuSuffix: true, imageRequired: true, category: "Engine" },
 ];
 let failed = false;
 for (const test of tests) {
