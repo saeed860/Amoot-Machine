@@ -54,18 +54,6 @@ Deno.serve(async (req) => {
     }
 
     if (req.method === "GET" && path === "/api/products") {
-      const u = new URL(req.url), q = clean(u.searchParams.get("q"), 100).replace(/[,%()_*\\]/g, " ").replace(/\s+/g, " ").trim(), category = clean(u.searchParams.get("category"), 100), brand = clean(u.searchParams.get("brand"), 100), model = clean(u.searchParams.get("model"), 120);
-      let query = adminDb.from("products").select("*").eq("status", "ACTIVE").order("created_at", { ascending: false }).limit(100);
-      if (category) query = query.eq("category", category);
-      if (brand) query = query.eq("brand", brand);
-      if (model) query = query.eq("machine_model", model);
-      if (q) query = query.or(`name.ilike.%${q}%,sku.ilike.%${q}%,brand.ilike.%${q}%,machine_model.ilike.%${q}%`);
-      const { data, error } = await query;
-      if (error) return fail(500, "PRODUCTS_FAILED", "دریافت محصولات ناموفق بود.");
-      return json({ items: (data ?? []).map(p => ({ id: p.id, sku: p.sku, name: p.name, brand: p.brand, category: p.category, machineModel: p.machine_model, description: p.description, imageUrl: p.image_url, priceIrr: p.price_irr == null ? null : String(p.price_irr), stock: p.stock })) });
-    }
-
-    if (req.method === "GET" && path === "/api/products") {
       const u = new URL(req.url), q = clean(u.searchParams.get("q"), 100).replace(/[,%()_*\\\\]/g, " ").replace(/\\s+/g, " ").trim(), category = clean(u.searchParams.get("category"), 100), brand = clean(u.searchParams.get("brand"), 100), model = clean(u.searchParams.get("model"), 120);
       let query = adminDb.from("products").select("*").eq("status", "ACTIVE").order("created_at", { ascending: false }).limit(100);
       if (category) query = query.eq("category", category);
@@ -396,7 +384,7 @@ Deno.serve(async (req) => {
         const partNumber=clean(raw.partNumber??raw.part_number??raw.sku,80),name=clean(raw.name,180);
         const engineModels=Array.isArray(raw.engineModels)?raw.engineModels.map((x:any)=>clean(x,40).toUpperCase()).filter(Boolean):clean(raw.engineModels??raw.engine_models,300).split(/[;,|]/).map(x=>clean(x,40).toUpperCase()).filter(Boolean);
         const sourceName=clean(raw.sourceName??raw.source_name,120),sourceUrl=clean(raw.sourceUrl??raw.source_url,1000);
-        if(!partNumber||!name||!engineModels.length||!sourceName||!/^https:\\/\\//i.test(sourceUrl)||seen.has(partNumber.toUpperCase()))return fail(400,"INVALID_IMPORT_ROW","شماره قطعه، نام، مدل موتور و منبع معتبر برای هر ردیف الزامی است.");
+        if(!partNumber||!name||!engineModels.length||!sourceName||!sourceUrl.startsWith("https://")||seen.has(partNumber.toUpperCase()))return fail(400,"INVALID_IMPORT_ROW","شماره قطعه، نام، مدل موتور و منبع معتبر برای هر ردیف الزامی است.");
         seen.add(partNumber.toUpperCase());
         const rawStatus=clean(raw.verificationStatus??raw.verification_status,40).toUpperCase();
         const status=["REFERENCE","OEM_VERIFIED","NEEDS_SERIAL_CHECK"].includes(rawStatus)?rawStatus:"REFERENCE";
