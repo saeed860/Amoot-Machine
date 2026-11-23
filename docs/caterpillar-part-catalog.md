@@ -25,4 +25,4 @@ The public directory is a third-party reference, not Cat SIS. All imported rows 
 
 ## Remaining work
 
-The public C9, C18 and 3500-family directories advertise more references than are currently seeded. The remaining pages still need extraction and review. For OEM-complete data, use Cat SIS / the authorized parts catalog with the full engine model, serial number and Arrangement number. Never promote a family-level match to OEM-confirmed compatibility without that check.
+Additional C9 page-5 and C18 pages 3–6 references have now been added from the public third-party directory in migration `202611230008_expand_c9_c18_directory_references.sql`. The C9/C18/3500-family coverage still requires a page-by-page reconciliation against the directory totals; do not infer completeness from the import alone. The 3500-family remaining pages and direct CB-specific references remain open. For OEM-complete data, use Cat SIS / the authorized parts catalog with the full engine model, serial number and Arrangement number. Never promote a family-level match to OEM-confirmed compatibility without that check.
