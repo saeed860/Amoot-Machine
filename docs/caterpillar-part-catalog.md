@@ -184,3 +184,21 @@ Official product pages: [603-1668](https://parts.cat.com/en/catcorp/product/603-
 ### Official image verification for the 2026-11-23 overhaul/cooling batch
 
 The follow-up migration `202611232040_set_verified_cat_scene7_images.sql` stores direct Cat Scene7 assets confirmed from the official product-page image links for **603-1668, 346-3791, 599-7781, 0R-4285 and 0R-8200**. Cat's public pages expose only a generic fallback image for **284-5565** and **144-0503**, so no generic placeholder was stored for those SKUs. The API smoke test expects images only for the five parts with an actual product image.
+
+
+## Additional consolidated engine-overhaul batch (2026-11-23)
+
+Migration `202611232050_expand_cat_engine_overhaul_references.sql` adds/upserts eight official Cat references:
+
+| Part number | Cat listing | Explicit engine applications |
+|---|---|---|
+| 0R-1571 | 3408/3412 Reman Cylinder Pack, 14.5:1 | Marine 3412; Industrial 3406 |
+| 618-8046 | Engine Overhaul Kit | Truck Engine C15 |
+| 350-2178 | 3512 Tier 2 Engine Upgrade Kit | Marine 3512B |
+| 440-0216 | Land Drilling 3512 Engine Overhaul Kit | Generator Set 3512B |
+| 20R-7411 | Reman Platinum Engine Overhaul Kit, C15 | Truck Engine C15 |
+| 10R-4471 | 3516 Reman Cylinder Pack, 8.0:1 | G3508, G3512, G3516 |
+| 494-1279 | Engine Overhaul (Top End) Kit | 3516, 3512, 3508, 3512B, 3512C, 3508B |
+| 442-8972 | Engine Overhaul (Silver) Kit | Truck Engine C15 |
+
+Follow-up migration `202611232060_set_additional_cat_scene7_images.sql` stores direct official Scene7 images for 0R-1571, 618-8046, 440-0216, 20R-7411, 10R-4471 and 442-8972. Cat's pages show fallback images for 350-2178 and 494-1279, so no generic placeholder is saved. All records remain `REFERENCE`; no price or stock is invented.
