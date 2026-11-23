@@ -250,3 +250,16 @@ Migration `202611232090_expand_cat_engine_fuel_turbo_pump_internal_references.sq
 All rows remain `REFERENCE`, with null price and no saleable stock. Exact Cat source URLs and provenance are stored. Image URLs are not guessed: the existing API resolves official Cat product imagery where the Cat page exposes a product asset; pages showing a fallback image remain without an invented image. Confirm exact arrangement and serial-number fitment before accepting an order.
 
 Official Cat product pages: [211-3023](https://parts.cat.com/en/catcorp/product/211-3023), [392-0206](https://parts.cat.com/en/catcorp/product/392-0206), [20R-4147](https://parts.cat.com/en/catcorp/product/20R-4147), [9N-3246](https://parts.cat.com/en/catcorp/product/9N-3246), [7N-9843](https://parts.cat.com/en/catcorp/product/7N-9843), [4N-0733](https://parts.cat.com/en/catcorp/product/4N-0733), [0R-9448](https://parts.cat.com/en/catcorp/product/0R-9448), [0R-9449](https://parts.cat.com/en/catcorp/product/0R-9449), [0R-9200](https://parts.cat.com/en/catcorp/product/0R-9200), [299-3521](https://parts.cat.com/en/catcorp/product/299-3521), [223-9250](https://parts.cat.com/en/catcorp/product/223-9250), [102-0296](https://parts.cat.com/en/catcorp/product/102-0296), [102-0299](https://parts.cat.com/en/catcorp/product/102-0299), [1W-1052](https://parts.cat.com/en/catcorp/product/1W-1052), [134-5402](https://parts.cat.com/en/catcorp/product/134-5402), [528-9753](https://parts.cat.com/en/catcorp/product/528-9753), [1P-1120](https://parts.cat.com/en/catcorp/product/1P-1120).
+
+
+## C9/C9.3 and C15 fuel/turbo follow-up (2026-11-23)
+
+Migration `202611232100_expand_cat_c9_c15_fuel_turbo_references.sql` adds/upserts three additional official Cat references:
+
+| Part number | Component | Cat-listed engine application |
+|---|---|---|
+| 460-8213 | Common-rail fuel injector | C9, C9.3 (explicit in Cat product title) |
+| 432-0153 | Basic turbocharger group | C15, C9 |
+| 216-7815 | Turbocharger group | C-9 |
+
+These entries expand direct C9/C9.3 coverage. They remain reference-only; exact arrangement and serial-number fitment must be checked before an order. No price, stock or image URL has been invented.
