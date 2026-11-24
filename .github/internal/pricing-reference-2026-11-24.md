@@ -656,3 +656,12 @@
 | CAT-6N-6071 | FinditParts | Caterpillar | 90.49 | 149.31 | موجود در زمان مشاهده | https://www.finditparts.com/t/190/manufacturer/caterpillar/categories/air-and-fuel-delivery/filters/engine-air-filter/ |
 
 قیمت آموت با ضریب ۱٫۶۵ محاسبه شده است.
+
+
+## قیمت تکمیلی محصول فعال — بررسی فروشنده، ۲۴ نوامبر ۲۰۲۶ (بخش ششم)
+
+| SKU | فروشنده | نوع / مبنای قیمت | قیمت منبع USD | قیمت آموت USD | وضعیت | منبع داخلی |
+|---|---|---|---:|---:|---|---|
+| CAT-7N-7807 | Propel Parts | کیت ترمینال جایگزین افترمارکت نو | 6.86 | 11.32 | موجود؛ ارسال همان‌روز طبق فروشنده | https://propelparts.us/caterpillar-equipment-terminal-kit-7n7807.html |
+
+ضریب قیمت آموت ۱٫۶۵ است؛ این قیمت برای جایگزین افترمارکت است، نه قطعه Genuine Cat.
