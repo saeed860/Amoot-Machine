@@ -43,9 +43,9 @@
  if(!photo||dots.length!==4)return;
  const slides=[
   {src:'./assets/hero-excavator.jpg',alt:'ماشین‌آلات سنگین - تصویر اصلی آموت ماشین'},
-  {src:'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Jack-up-rig-in-the-caspian-sea.JPG/1600px-Jack-up-rig-in-the-caspian-sea.JPG',alt:'Offshore self elevating drilling rig - Iran Khazar'},
-  {src:'https://commons.wikimedia.org/wiki/Special:FilePath/OSV_Cape_Cod.jpg?width=1600',alt:'Offshore supply vessel Cape Cod'},
-  {src:'https://s7d2.scene7.com/is/image/Caterpillar/C831222?wid=1600&hei=1000&fit=constrain&fmt=webp&qlt=82',alt:'Caterpillar 3516 industrial diesel engine'}
+  {src:'./assets/hero-jackup-rig.jpg',alt:'دکل حفاری خودبالابر ایران خزر - دریای خزر'},
+  {src:'./assets/hero-supply-vessel.jpg',alt:'کشتی پشتیبانی فراساحلی Cape Cod'},
+  {src:'./assets/hero-cat-3516b.jpg',alt:'موتور دیزل ژنراتوری Caterpillar 3516B'}
  ];
  let current=0,timer;
  function show(n){current=(n+slides.length)%slides.length;photo.style.opacity='.18';setTimeout(()=>{photo.style.backgroundImage='url("'+slides[current].src+'")';photo.setAttribute('aria-label',slides[current].alt);photo.style.opacity='1'},220);dots.forEach((d,k)=>{d.classList.toggle('active',k===current);d.setAttribute('aria-pressed',k===current?'true':'false')});}

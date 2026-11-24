@@ -37,10 +37,19 @@
 
 ## Homepage hero carousel image sources (2026-11-24)
 
-The homepage hero keeps the existing local image `assets/hero-excavator.jpg` as slide 1. Other slides use source-hosted optimized image variants; these are not yet vendored into the repository because binary downloads were unavailable in this editing session.
+The homepage hero keeps the existing local image `assets/hero-excavator.jpg` as slide 1. All three non-original hero slides are now stored locally under assets/; the homepage no longer requests these hero images from external hosts.
 
-- Slide 2 — Iran Khazar jack-up drilling rig, Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Jack-up-rig-in-the-caspian-sea.JPG — CC BY-SA 3.0 (and GFDL notice on file page); attribution to the source as documented there. Resized Wikimedia thumbnail used.
-- Slide 3 — OSV Cape Cod, Wikimedia Commons: https://commons.wikimedia.org/wiki/File:OSV_Cape_Cod.jpg — CC0 1.0, author GuavaTrain. Wikimedia file delivery with width parameter used.
-- Slide 4 — Cat 3516 industrial diesel engine, official Caterpillar Scene7 media: https://www.cat.com/en_GB/products/new/power-systems/industrial/industrial-diesel-engines/18397893.html and https://s7d2.scene7.com/is/image/Caterpillar/C831222 — official product image delivered as constrained WebP.
+- Slide 2 — Iran Khazar jack-up drilling rig, Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Jack-up-rig-in-the-caspian-sea.JPG — CC BY-SA 3.0 (and GFDL notice on file page); attribution to the source as documented there. Locally vendored as assets/hero-jackup-rig.jpg (resized Wikimedia file).
+- Slide 3 — OSV Cape Cod, Wikimedia Commons: https://commons.wikimedia.org/wiki/File:OSV_Cape_Cod.jpg — CC0 1.0, author GuavaTrain. Locally vendored as assets/hero-supply-vessel.jpg (resized Wikimedia file).
+- Slide 4 — Cat 3516 industrial diesel engine, official Caterpillar Scene7 media: https://www.cat.com/en_GB/products/new/power-systems/industrial/industrial-diesel-engines/18397893.html and https://s7d2.scene7.com/is/image/Caterpillar/C831222 — Replaced for local hosting with a Wikimedia Commons photograph of a Caterpillar 3516B XQ2000 power module, locally vendored as assets/hero-cat-3516b.jpg.
 
 The carousel fades between slides and retains its 5.5-second automatic rotation plus manual controls. External image delivery still depends on the source hosts; for fully self-hosted operation, obtain and commit the licensed image binaries with their attribution records.
+
+
+## Local hero asset attribution (2026-11-24)
+
+- `assets/hero-jackup-rig.jpg` — Iran Khazar jack-up rig, source: [Wikimedia Commons file page](https://commons.wikimedia.org/wiki/File:Jack-up-rig-in-the-caspian-sea.JPG), CC BY-SA 3.0; attribution/source as listed on the Commons page (www.dragonoil.com). Changes: resized for web delivery.
+- `assets/hero-supply-vessel.jpg` — OSV Cape Cod, source: [Wikimedia Commons file page](https://commons.wikimedia.org/wiki/File:OSV_Cape_Cod.jpg), CC0 1.0, author GuavaTrain. Changes: resized for web delivery.
+- `assets/hero-cat-3516b.jpg` — Caterpillar 3516B XQ2000 power module, source: [Wikimedia Commons file page](https://commons.wikimedia.org/wiki/File:Caterpillar_3516B_-_XQ2000_Power_Module.JPG), CC BY-SA 3.0, author StcudorPrewoP. Changes: resized for web delivery.
+
+The original first-slide image remains local at `assets/hero-excavator.jpg`. Product-SKU photographs sourced from third-party sellers/manufacturer media remain separately documented above and are not included in this hero-image migration.
