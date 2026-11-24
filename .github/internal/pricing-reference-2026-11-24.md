@@ -603,3 +603,16 @@
 | 6J-2680 | Aftermarket Express | New aftermarket · USD 0.36 | 0.36 | 0.59 | موجودی Texas در زمان مشاهده؛ افترمارکت، نه OEM | https://aftermarket.express/caterpillar/6j2680 |
 
 قیمت با ضریب ۱٫۶۵ محاسبه شده است. موجودی فروشنده، موجودی آموت محسوب نمی‌شود.
+
+
+## قیمت‌های تکمیلی محصولات فعال — بررسی فروشندگان، ۲۴ نوامبر ۲۰۲۶
+
+| SKU | فروشنده | نوع / مبنا | قیمت منبع USD | قیمت آموت USD | وضعیت ثبت‌شده | منبع داخلی |
+|---|---|---|---:|---:|---|---|
+| CAT-199-8436 | Reliable Aftermarket Parts | افترمارکت نو | 77.49 | 127.86 | Sold out در زمان مشاهده | https://www.reliableaftermarketparts.com/products/1998436-terminal-kit-fits-caterpillar-models |
+| CAT-189-0202 | Novi Group | Genuine Caterpillar | 125.10 | 206.42 | استعلام موجودی | https://novi.com.tr/caterpillar-189-0202 |
+| CAT-142-1340 | Novi Group | Genuine Caterpillar | 208.62 | 344.22 | استعلام موجودی | https://novi.com.tr/caterpillar-142-1340 |
+| 3N-4622 | Hydraulic Express | شیلنگ جایگزین نو | 17.95 | 29.62 | ساخت پس از سفارش | https://shop.hydraulicexpress.com/3n4622-hose-a-caterpillar-new-replacement/ |
+| CAT-0S-1571 | Aftermarket Supply | پیشنهاد New OEM | 0.48 | 0.79 | پیشنهاد فروشنده در Wisconsin؛ کنترل موجودی لازم است | https://aftermarket.supply/caterpillar/0S1571 |
+
+تمام قیمت‌ها با ضریب ۱٫۶۵ محاسبه شده‌اند. وضعیت فروشنده به‌معنای موجودی آموت نیست؛ نوع OEM و افترمارکت در سوابق تفکیک شده است.
