@@ -995,3 +995,35 @@ Official Cat sources checked:
 - https://parts.cat.com/en/catcorp/product/20R-2284
 
 Database checkpoint: all 10 rows updated and verified. Four exact official images newly linked (20R-1275, 20R-1306, 20R-1369, 20R-1859); existing images retained for 20R-1626, 20R-1828, 20R-2009 and 20R-2284. Low-resolution/representative images omitted. Overall manual progress: 28/50 batches, 280/500 SKUs.
+
+
+## Batch 29/50 — SKUs 281–290 (20R-2447 through 20R-3321)
+
+All ten official Cat pages were reviewed; all ten Supabase rows were updated and query-verified.
+
+| SKU | Official identity / captured detail | Image / fitment treatment |
+|---|---|---|
+| 20R-2447 | Cat Reman 3400-Series Valve Lifter; tappet follows camshaft lobes to open/close intake/exhaust valves; Cat 12-month warranty; no compatible-model list published | Only 80px image; omitted |
+| 20R-2647 | Cat Reman Cylinder Head Assembly Kit; 21 component lines with exact quantities; 49.75 × 15.0 in; extensive generator/truck/tractor/shovel/marine/pipelayer/excavator/petroleum/loader fitment | Existing exact official kit image retained; 186 model identifiers stored |
+| 20R-2734 | Cat Reman C18 Turbocharger; 15.6 × 17.0 in; compatible Marine Engine C18 | Exact official Scene7 turbocharger image newly linked |
+| 20R-2861 | Cat C9 Reman Short Block; 9.3L, Tier 4; compatible D6T/D7E, 627H, 586C, 336E family, 12M/160M/140M graders, MHPU and 966K/972K loaders | Exact official Scene7 short-block image newly linked; 21 model identifiers stored |
+| 20R-3163 | Cat Reman Turbocharger; 15.1 × 15.9 in; compatible gen-set 3408B/3408C/3408, marine 3408B/3408/3412 and gas engines G3408C/G3408/G3408B | Exact official Scene7 turbocharger image newly linked |
+| 20R-3317 | Cat Reman Valve Rocker Arm; pushrod/camshaft valve actuation; core inspection, engineering updates and testing; no compatible-model list published | Exact official Scene7 rocker-arm image newly linked |
+| 20R-3318 | Cat Reman C15 Valve Rocker Arm; rocker/pushrod/camshaft function; no separate compatible-model list published | Only 80px image; omitted; C15 retained as engine designation only |
+| 20R-3319 | Cat Reman Unit Injector Rocker Arm; valve/injector rocker function and core inspection; no compatible-model list published | Existing exact official image retained |
+| 20R-3320 | Cat Reman Valve Rocker Arm; rocker/pushrod/camshaft function; no compatible-model list published | Existing exact official image retained |
+| 20R-3321 | Cat Reman Valve Rocker Arm; rocker/pushrod/camshaft function; no compatible-model list published | Existing exact official image retained |
+
+Official Cat sources checked:
+- https://parts.cat.com/en/catcorp/product/20R-2447
+- https://parts.cat.com/en/catcorp/product/20R-2647
+- https://parts.cat.com/en/catcorp/product/20R-2734
+- https://parts.cat.com/en/catcorp/product/20R-2861
+- https://parts.cat.com/en/catcorp/product/20R-3163
+- https://parts.cat.com/en/catcorp/product/20R-3317
+- https://parts.cat.com/en/catcorp/product/20R-3318
+- https://parts.cat.com/en/catcorp/product/20R-3319
+- https://parts.cat.com/en/catcorp/product/20R-3320
+- https://parts.cat.com/en/catcorp/product/20R-3321
+
+Database checkpoint: all 10 rows updated and verified. Four exact official images newly linked (20R-2734, 20R-2861, 20R-3163, 20R-3317); existing exact images retained for 20R-2647, 20R-3319, 20R-3320 and 20R-3321. Low-resolution lifter images omitted. Overall manual progress: 29/50 batches, 290/500 SKUs.
