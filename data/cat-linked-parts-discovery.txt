@@ -181,3 +181,15 @@ Source pages:
 613-5951 | Track Roller Group, Single Flange, Standard Application | Cat Parts Store related-parts panel for 288-0934 | cat_linked_candidate; needs_individual_verification
 288-0947 | Track Roller Group, High Temperature Application, Single Flange | Cat Parts Store related-parts panel for 288-0935 | cat_linked_candidate; needs_individual_verification
 396-7353 | Track Roller Group, Single Flange, Standard Application | Cat Parts Store related-parts panel for 288-0935 | cat_linked_candidate; needs_individual_verification
+
+20R-8062 | Cat Reman Fuel Injector (H1315B) (C9) (2.2 SF) | Cat Parts Store alternate displayed on discontinued 293-4068 injector page | cat_linked_candidate; needs_individual_verification
+2W-6289 | Fuel Injection Lines Tube Assembly | Cat Parts Store frequently bought together with 2W-6290 | cat_linked_candidate; needs_individual_verification
+2W-6667 | 4.57mm Inner Diameter Fuel Filter Tube Assembly | Cat Parts Store frequently bought together with 2W-6290 | cat_linked_candidate; needs_individual_verification
+214-7568 | STOR O-Ring Seal (SAE 9/16-18) | Cat Parts Store frequently bought together with 2W-6290 | cat_linked_candidate; needs_individual_verification
+7C-7677 | 9.52mm Outer Diameter Fuel Injection Tube | Cat Parts Store frequently bought together with 2W-6290 | cat_linked_candidate; needs_individual_verification
+6V-5048 | 1.83 x 8.92mm 75A FKM O-Ring | Cat Parts Store frequently bought together with 2W-6290 | cat_linked_candidate; needs_individual_verification
+449-2274 | Carrier Roller Group, Cantilever, Standard Application, 160mm Tread | Cat Parts Store alternate shown for 300-4545 | cat_linked_candidate; needs_individual_verification
+6Y-5685 | Track Sprocket | Cat Parts Store frequently bought together with 300-4545 | cat_linked_candidate; needs_individual_verification
+136-2422 | Idler Group | Cat Parts Store frequently bought together with 300-4545 | cat_linked_candidate; needs_individual_verification
+357-7540 | Track Adjuster Fill Valve | Cat Parts Store frequently bought together with 300-4545 | cat_linked_candidate; needs_individual_verification
+1R-1808 | Engine Oil Filter | Cat Parts Store frequently bought together with 300-4545 | cat_linked_candidate; needs_individual_verification
