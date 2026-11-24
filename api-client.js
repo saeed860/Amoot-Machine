@@ -259,6 +259,11 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["7N3486","MANIFOLD",1693.33,2793.99,"۸۴ New Aftermarket"],
+ ["7N4651","TURBO G",1602.10,2643.46,"۱۷۴ New Aftermarket؛ ۱ Rebuilt"],
+ ["7N7748","TURBO G",1802.98,2974.92,"۱۰ New Aftermarket"],
+ ["7S7400","PUMP G",4177.28,6892.51,"۲۲ New Aftermarket؛ ۱ Call For Pricing"],
+ ["7T2731","PUMP G",4401.49,7262.46,"۱۴ New Aftermarket"],
  ["7N0110","CORE AS-OC",1433.99,2366.08,"۳۹ New Aftermarket؛ ۱ Call For Pricing؛ ۵ Used"],
  ["7N0165","CORE A OIL C",1465.33,2417.79,"۲۷۶ New Aftermarket؛ ۴ Used"],
  ["7C3039","CORE AS",1882.01,3105.32,"۱۹۹ New Aftermarket؛ ۳ Used"],
