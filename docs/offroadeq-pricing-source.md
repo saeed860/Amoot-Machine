@@ -58,3 +58,17 @@ The public popular-parts index was checked for normalized exact matches against 
 - **305-8921, 207-2422, 353-9049, 362-0801, 438-5385** — not present in the public top-500 list at the time of review.
 
 This is only a check of the public popular-parts list, not the full supplier inventory. The full inventory search is gated by sign-in; absence from the top-500 list must not be interpreted as supplier non-availability.
+
+
+## Follow-up public-source recheck (24 Nov 2026)
+
+The public popular-parts page was re-opened. It still advertises **500 parts** and says each number can be selected to check current availability. The full-inventory search is linked separately. The public login page displays the supplier's contact details:
+- Email: **parts@offroadeq.com**
+- Phone: **+1 865-379-7895**
+- Live chat: Monday–Friday, 8:00 a.m.–5:00 p.m. Eastern Time
+
+The same login page states that Off Road Equipment Parts, Inc. is **not an authorized Caterpillar dealer**. Its own site describes inventory as a mixture of genuine surplus OEM and aftermarket parts. Therefore, every quote must retain condition and provenance; do not describe all stock as new genuine Cat OEM.
+
+This recheck did not reveal anonymous supplier unit prices or a public downloadable price export. The previous 1161980 detail-page test remains the only exact public price/inventory example in this project: its visible OEM List Price is not the supplier unit price, and actual unit prices remain login-gated. No price, availability or stock was changed in Amoot.
+
+**Recommended supplier request:** ask Off Road Equipment for an authorized quote/export containing exact part number, description, brand, condition (NEW OEM / NEW AFTERMARKET / REMAN / USED), supplier unit price, currency, quantity available, lead time, quote date/expiry and shipping origin. The +65% calculation should be applied only to the supplier's actual unit price, separately for each condition and currency.
