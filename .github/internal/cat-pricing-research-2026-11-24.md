@@ -2880,3 +2880,38 @@ Additional Cat-linked discovery candidates:
 11R-1773, 11R-1774, 565-2488, 418-2073, 485-9752, 460-9257, 377-6969, 110-6326, 110-6331, 265-6619, 265-6618, 235-5974, 288-0934, 173-0946, 288-0935, 490-6505, 616-0732, 246-0504, 294-3060, 297-0129, 297-0130, 508-0581, 514-4892, 527-9168, 596-0073, 596-0081, 596-0095, 567-7867, 596-3519, 596-3514, 529-7106, 1R-1808, 3J-1907, 366-3380, 1P-3705, 6V-9746, 11R-2284, 20R-3466, 228-4947, 7E-1630, 485-4705, 159-3219, 5P-7815, 363-5819, 416-5884. These are Cat Reman, related or frequently-bought-together candidates only; not universal fitment/interchange claims.
 
 Overall reviewed progress: 64/500 batches = 640/5,000 product target (12.8%). Original Cat seed list has 147 SKUs remaining (products 641–787).
+
+## Batch 65/500 — products 641–650 (2026-11-25)
+
+SKUs: 561-1061, 561-1069, 561-5499, 562-0434, 562-8118, 563-8470, 566-2975, 567-4125, 569-2542, 569-8036. All ten Cat product pages retrieved; fitment/spec/kit sections inspected. All ten DB rows re-queried and fitment arrays deduplicated.
+
+Verified updates:
+- 561-1061: Cat 45-joint SystemOne track link assembly, clamp master, press fit, SALT, 202.81mm (7.985in) pitch. Added 11 D6 tractor models: D6R III/D6T/D6T XL/D6R LGP/D6R II/D6T XW/D6T LGP/D6T LGPPAT/D6XE/D6/D6T XW PAT. Specs 3.539in sprocket-side spread, 4.256in roller-side spread, 1.638in rail-to-bushing OD, 7.508in outside spread, 2.864in bushing OD, 45 sections, M22 bolts, 8.469in pin, 5.276in link height, no RBT/wear sensor.
+- 561-1069: Cat 46-joint track link assembly, clamp master, press fit, SALT, 190mm (7.48in) pitch. Added D6N LGP/D6N/D5/D6N XL. Specs 3.189in sprocket-side spread, 3.717in roller-side spread, 1.496in rail-to-bushing OD, 6.717in outside spread, 2.559in bushing OD, 46 sections, M20 bolts, 7.488in pin, 4.783in link height, no RBT/wear sensor.
+- 561-5499: Cat 450mm-wide rubber skid-steer bar track, 86mm pitch, 56 sections, 17.717in belt width, 3.386in pitch, rubber/rubber-fiber, HD. Fitment 289D/279D/279C2/279D3/289C2/289D3.
+- 562-0434: Cat Fuel Rail (RAIL-FUEL). Added exact Cat fitment Utility Vehicle CUV102D/CUV105D and Alloy Aluminum material. Cat page says description/specifications are still being added; no engine fitment inferred.
+- 562-8118: Cat 240S roller chain, 27 links, ANSI 240, 3in pitch, 165in overall length, 1.86in roller width. Fitment motor graders 24M/24; used in tandem drive to transmit power between axles/wheels.
+- 563-8470: Cat Track Group for D11T: 1-tooth master, single grouser, 41 sections, PPR, SALT, ES shoe, 810mm/31.89in shoe width, 317.5mm/12.5in pitch. HDXL, 4.646in sprocket-side inside spread, 4.488in bushing ID, 1-3/8in track bolt, M36 master bolt, wear sensor present, no RBT/ARM/clipping. Cat explicitly says no parts currently associated with the kit; separate related track segments/O-rings are discovery candidates only.
+- 566-2975: Cat Heavy Duty 300mm-wide rubber track, 52.5mm pitch, 90 sections, black, block tread, rubber/rubber-fiber, HD. Fitment mini excavators 303.5CR/304SR/302.7CR/303CR. Cat related track 575-8723 has 82 sections; not assumed interchangeable.
+- 567-4125: Cat Grade with 3D for Small Dozers, factory-integrated grade control system using automated blade movements to improve grading efficiency, accuracy and productivity. Cat public page provides no compatible-model list or item-level specifications; fitment remains empty.
+- 569-2542: Cat Track Group for D10T2: 1-tooth master, single grouser, press-fit, PPR, SALT, SES, 44 sections, 610mm/24in shoe width, 261mm/10.25in pitch. HDXL, 5.315in sprocket-side spread, 3.899in bushing ID, 1-1/8in track/master bolt, no RBT/ARM/clipping/wear sensor. Cat page states no parts currently associated with the kit.
+- 569-8036: Cat Lube Filter Element Kit (Engine Oil). Recorded exact kit contents: 505-3864 Element Assembly-Lube ×1 and 6V-8002 88.49mm ID O-ring ×1. Material Corrosion Preventative Fluid. Added 74 distinct Cat model labels across CTL, generator sets, C3.6 engines, soil/vibratory compactors, backhoe loaders, telehandlers, compact/wheel loaders, D1/D2/D3 tractors, asphalt compactors/pavers, mini excavators, skid steers, wheeled excavators and industrial engines.
+
+Cat pages:
+- https://parts.cat.com/en/catcorp/product/561-1061
+- https://parts.cat.com/en/catcorp/product/561-1069
+- https://parts.cat.com/en/catcorp/product/561-5499
+- https://parts.cat.com/en/catcorp/product/562-0434
+- https://parts.cat.com/en/catcorp/product/562-8118
+- https://parts.cat.com/en/catcorp/product/563-8470
+- https://parts.cat.com/en/catcorp/product/566-2975
+- https://parts.cat.com/en/catcorp/product/567-4125
+- https://parts.cat.com/en/catcorp/product/569-2542
+- https://parts.cat.com/en/catcorp/product/569-8036
+
+Post-update verification returned all ten rows. Distinct fitment counts: 561-1061=11; 561-1069=4; 561-5499=6; 562-0434=2; 562-8118=2; 563-8470=1; 566-2975=4; 567-4125=0; 569-2542=1; 569-8036=74. No customer prices/current stock inferred.
+
+Additional Cat-linked discovery candidates:
+561-1056, 561-1058, 561-1059, 561-1062, 653-5187, 653-5188, 653-5190, 653-5193, 653-5195, 234-9672, 351-0957, 351-0958, 235-2511, 351-0961, 561-1068, 575-8723, 304-1916, 602-0405, 602-0406, 3K-0360, 3J-1907, 505-3864, 6V-8002, 523-6602, 528-0585, 540-5119, 360-8960, 346-6688. These are related track assemblies/parts, kit contents or commonly purchased items; not universal fitment/interchange claims.
+
+Overall reviewed progress: 65/500 batches = 650/5,000 product target (13.0%). Original Cat seed list has 137 SKUs remaining (products 651–787).
