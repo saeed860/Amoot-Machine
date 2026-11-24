@@ -62,11 +62,17 @@
 آخرین تکمیل: ۲۴ نوامبر ۲۰۲۶. قیمت آموت برابر قیمت منبع پس از تبدیل به USD (در صورت نیاز) × ۱٫۶۵ است. همه مبالغ عمومی فروشگاه به USD نمایش داده می‌شوند. وضعیت‌های OEM، افترمارکت، Reman و Used با هم ادغام نشده‌اند. موجودی فروشنده، موجودی متعلق به آموت نیست.
 
 
-ردیف‌های قیمت‌گذاری‌شده: 499؛ SKU یکتای قیمت‌گذاری‌شده: 499؛ پوشش فهرست عمومی Off Road: 493 از 500.
+ردیف‌های قیمت‌گذاری‌شده: 505؛ SKU یکتای قیمت‌گذاری‌شده: 505؛ پوشش فهرست عمومی Off Road: 499 از 500.
 
 
 | SKU | شرح | منبع | مبنای قیمت | قیمت منبع | ارز | قیمت آموت USD | وضعیت/شرط | منبع داخلی |
 |---|---|---|---:|---:|---|---:|---|---|
+| 1930980 | 2-SECTION GEAR PUMP | eBay · Machinery Parts Trading | Independent seller listing · NEW · seller rating 99.4% | 3,015.00 | USD | 4,974.75 | NEW · last one at time of listing | https://www.ebay.com/itm/298336824272 |
+| 5582101 | CIRCLE DRIVE PINION | 3GEN Export | Independent seller listing · New OEM-quality replacement | 2,220.00 | USD | 3,663.00 | In Stock · 90 units at time of listing | https://3genexport.com/part/caterpillar/5582101/ |
+| 2S4078 | SEAL O-RING | Highway & Heavy Parts | Independent seller listing · NEW | 1.06 | USD | 1.75 | NEW · available at time of listing | https://highwayandheavyparts.com/product/2s4078-caterpillar-seal-o-ring/ |
+| 7X7700 | FUEL CAP ASSEMBLY | Aftermarket Supply | Independent seller listing · NEW AFTERMARKET | 16.35 | USD | 26.98 | NEW AFTERMARKET · stock in Texas/Florida at time of listing | https://aftermarket.supply/caterpillar/7x7700 |
+| 1727767 | WATER PUMP GP | Aftermarket Supply | Independent seller listing · NEW AFTERMARKET | 187.27 | USD | 309.00 | NEW AFTERMARKET · stock in Florida/Texas at time of listing | https://aftermarket.supply/caterpillar/1727767 |
+| 1J6472 | INTERNAL RETAINING RING | Reliable Aftermarket Parts | Independent seller listing · NEW AFTERMARKET · sold out | 13.99 | USD | 23.08 | NEW AFTERMARKET · SOLD OUT at source | https://www.reliableaftermarketparts.com/products/1j6472-snap-ring-fits-cat-d5h-xl-d5h-lgp |
 | 1P3703 | RECTANGULAR SEAL | Allegheny York | Independent seller listing · replacement nitrile D-ring | 2.19 | USD | 3.61 | Available 617 at time of listing | https://www.alleghenyyork.com/wps/portal/c/seal-components/ |
 | 4P2942 | CAMSHAFT KIT | Woodline Parts | Independent seller listing · NEW aftermarket PAI kit | 407.08 | USD | 671.68 | Typically ships same to next business day | https://www.woodlineparts.com/products/pai-391905-caterpillar-4p2942-camshaft-kit-3306-1n4407-5s3972-9y1222 |
 | 2J3506 | NUT | AMT Equipment Parts | Independent seller listing · NEW AFTERMARKET | 0.42 | USD | 0.69 | NEW · stock check required | https://www.amtequipmentparts.com/hardware-parts/nuts/2j3506-nut-caterpillar-style/ |
@@ -570,21 +576,6 @@
 ## SKUهای بدون قیمت عمومی قابل تأیید
 قیمت این موارد در منابع عمومی بررسی‌شده در دسترس نبود، یا فقط از طریق ورود به حساب/استعلام فروشنده قابل دریافت است. قیمت حدسی درج نشود و تا دریافت پیش‌فاکتور با «نیازمند استعلام» نمایش داده شوند.
 - 813967 — نیازمند استعلام قیمت دقیق
-- 1727767 — نیازمند استعلام قیمت دقیق
-- 1930980 — نیازمند استعلام قیمت دقیق
-- 5582101 — نیازمند استعلام قیمت دقیق
-- 1J6472 — نیازمند استعلام قیمت دقیق
-- 2S4078 — نیازمند استعلام قیمت دقیق
-- 7X7700 — نیازمند استعلام قیمت دقیق
-
-## محصولات مستقل فروشگاه
-| SKU | فروشنده | قیمت اولیه | ارز اولیه | FX→USD | قیمت آموت USD | وضعیت | منبع |
-|---|---|---:|---|---:|---:|---|---|
-| 151-7737 | L&S Engineers | 57.20 | GBP | 1.304 | 123.07 | Back-order | https://www.lsengineers.co.uk/air-filter-for-cat-c15-3412c-de400sgc-engines-replaces-oem-no-151-7737.html |
-| 136-3742 | KMP Brand | 0.84 | GBP | 1.304 | 1.81 | Low stock | https://storeuk.kmpbrand.com/products/filter-136-3742-caterpillar.html |
-| CDQ2B32-25DZ | SMC Pneumatics | 45.00 | USD | 1 | 74.25 | 107 available to ship | https://www.smcpneumatics.com/CDQ2B32-25DZ.html |
-| SY5120-5LZ-01N | Motion | 54.36 | USD | 1 | 89.69 | Factory order / in stock | https://www.motion.com/products/sku/09776092 |
-| D1VW001CNJW | RS Components | 303.92 | GBP | 1.304 | 653.91 | In stock | https://uk.rs-online.com/web/p/hydraulic-directional-control-valves/1346967 |
 
 ## قواعد انتشار
 - کارت عمومی فقط مبلغ آموت را به دلار آمریکا نمایش دهد؛ نام منبع، مبلغ اولیه و ضریب در کارت عمومی نباشد.
