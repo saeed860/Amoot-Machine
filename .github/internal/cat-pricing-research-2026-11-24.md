@@ -3300,3 +3300,38 @@ Additional Cat-linked discovery candidates:
 214-7568, 3S-9643, 248-5513, 238-5081, 132-6469, 9H-6454, 2D-4202, 9M-7394, 5D-1911, 3J-1907, 6V-8397, 3K-0360, 6V-8398, 6V-9746, 1H-1023, 8M-4437, 253-1752, 7C-0307, 2S-2251, 602-0406, 602-0405, 5P-4057, 5P-5846, 1J-2890, 9X-4590, 3T-7494, 2S-5926, 3P-2482, 134-2679, 134-2680, 7G-5221, 7T-5419, 184-4395, 311-1298, 131-1651, 9W-4481. These are cap seals, injector seals, track segments, bogie components and roller-guide accessories; candidate-only, not universal interchange evidence.
 
 Overall reviewed progress: 76/500 batches = 760/5,000 product target (15.2%). Original Cat seed list has 27 SKUs remaining (products 761–787).
+
+## Batch 77/500 — products 761–770 (2026-11-25)
+
+SKUs: 7T-8555, 7T-9307, 7T-9309, 7W-0489, 7W-2225, 7W-2326, 8C-3445, 8C-3446, 8F-9866, 8N-0419. Six pages supplied usable details; 7T-8555 was inaccessible and 8C-3445/8C-3446 timed out. All ten DB rows re-queried.
+
+Verified updates:
+- 7T-8555: Cat page inaccessible; no changes.
+- 7T-9307: Cat Sleeve Bearing Cartridge (Bogie Pin), permanently lubricated pin joint, no routine maintenance. Cat explicitly says no longer available; set is_active=false. Fitment 22 distinct labels across D9T/D8T/D9R/D8R/D8R II/D8L/D9N/D8N tractors, ripper 9/8, pipelayer 578, bulldozers 9U/8S/8U/9SU/8SU/8A and winches 58/59N/58L/59L/57H. Specs 4.134in length, 4.02in pin diameter, 4.022in outer OD, 3.982in inner OD, HD, steel/structural steel/oil/alloy steel.
+- 7T-9309: Cat Sleeve Bearing Cartridge (Bogie Pin), permanently lubricated, no routine maintenance. Cat explicitly says no longer available; set is_active=false. Fitment 16 labels across D9L/D10R/D10T2/D10T/D10N, ripper 9, pipelayer 589, bulldozers 9U/10SU/10U/9S/9C and winches 59/59N/58L/59L. Specs 5.295in length, steel/oil/structural/alloy steel, Standard Application, HD, 4.022in outer OD, 3.982in inner OD, oil lubricant, major/minor bogie.
+- 7W-0489: Cat Turbocharger Cartridge for 3408 family. Fitment Gen Set Engine 3408B/3408C/3408; Marine Engine 3408B/3408; Engine G3408; Gas Engine G3408C/G3408/G3408B. Specs 10.1in length ×14.3in height, ductile spheroidal iron and adhesive. Cat Compare Alternate Parts displays 0R-5362 Cat Reman Turbocharger Cartridge; serial applicability must be confirmed.
+- 7W-2225: Cat Cylinder Head Assembly for 3408 engine. Added 33 distinct labels: Truck Engine 3408B/3408; Wheel Tractor 633E II/637D/637E/631E; Cold Planer PR-450C/PM-565/PM-565B; Wheel Dozer 834B; Winch 59N/59L/58/58L; Landfill Compactor 836; Wheel Loader 988F II/988B/988F; Track-Type Tractor D9R/D9N/D8L; Gen Set Engine 3408B/3408C/3408; Engine-Machine 3408; Marine Engine 3408B/3408C/3408; Ripper 9; Pipelayer 589; Industrial Engine 3408E/3408B/3408C; Quarry Truck 771D/771C; Truck 769D/769C; Wheel Scraper 657E; Tractor 768C; Bulldozer 9U/9SU. Specs 40.5in length ×11.5in height. Cat Reman alternate 20R-0524 3408 Direct Injection I Type Cylinder Head; serial applicability must be confirmed.
+- 7W-2326: Cat Standard Efficiency Engine Oil Filter, normal-duty filtration. Added 283 distinct labels across pumper SPF343C, LC20XX/LC30XX/LC31XX generators, 3054 truck/marine engines, IT14G toolcarriers, MH3022/MH3024 material handlers, D3/D4/D5/D6 tractors, CB compactors, AP pavers, PL61 pipelayer, M315F/312/317 excavators, C4.4 engine/gen sets, asphalt/soil/vibratory/pneumatic compactors, backhoe loaders, compact wheel loaders, telehandlers, forwarder 554, wheeled excavators and industrial engines. Specs 3.78in diameter, 6.717in length, Out-to-In, Carbon Steel, Standard Efficiency, Spin-On.
+- 8C-3445: Cat Dust Cap page timed out; existing record retained.
+- 8C-3446: Cat 7/16in Thread Fluid Sampling Valve with STOR sealing page timed out; existing record retained.
+- 8F-9866: Cat Lever Grease Gun Assembly. Includes grease coupler, nipple and 12in hose; check valve and air-bleed valve; spring-primed, two-way loading. Alloy Zinc, 1/8 NPTF thread, 68,948kPa operating pressure, 12in hose. California cancer and reproductive harm warning.
+- 8N-0419: Cat Turbocharger Water Lines Tube directs coolant to/from turbocharger. Fitment Gen Set Engine 3512/3516/3508; Generator Set 3508C/3508; Marine Engine 3508/3512; Industrial Engine 3512/3508; Engine 3508PETROL; Petroleum Engine 3512; Gas Engine G3512/G3516. Outer diameter 1.0in, Steel.
+
+Cat pages:
+- https://parts.cat.com/en/catcorp/product/7T-8555
+- https://parts.cat.com/en/catcorp/product/7T-9307
+- https://parts.cat.com/en/catcorp/product/7T-9309
+- https://parts.cat.com/en/catcorp/product/7W-0489
+- https://parts.cat.com/en/catcorp/product/7W-2225
+- https://parts.cat.com/en/catcorp/product/7W-2326
+- https://parts.cat.com/en/catcorp/product/8C-3445
+- https://parts.cat.com/en/catcorp/product/8C-3446
+- https://parts.cat.com/en/catcorp/product/8F-9866
+- https://parts.cat.com/en/catcorp/product/8N-0419
+
+Post-update verification returned all ten rows. Distinct fitment counts: 7T-8555=0 (unchanged); 7T-9307=22 (inactive); 7T-9309=16 (inactive); 7W-0489=6; 7W-2225=33; 7W-2326=283; 8C-3445=0 (unchanged); 8C-3446=0 (unchanged); 8F-9866=0 (no compatible-model list); 8N-0419=7. No prices/current stock inferred.
+
+Additional Cat-linked discovery candidates:
+0R-5362, 20R-0524, 360-8960, 479-4133, 346-6688, 528-0585, 471-7003, 5P-8500, 9G-2758, 8T-8729, 8N-0420, 8N-8953, 8N-8955, 7N-7415, 7L-4773. These are Cat Reman alternatives, filters, grease-gun accessories and turbocharger water-line components; no universal interchange claims.
+
+Overall reviewed progress: 77/500 batches = 770/5,000 product target (15.4%). Original Cat seed list has 17 SKUs remaining (products 771–787).
