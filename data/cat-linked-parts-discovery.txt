@@ -172,3 +172,12 @@ Source pages:
 - https://parts.cat.com/en/catcorp/product/282-5199
 - https://parts.cat.com/en/catcorp/product/277-3076
 - https://parts.cat.com/en/catcorp/product/279-5377
+
+143-2878 | 4mm Thick Cylinder Head Gasket | Cat Parts Store frequently bought together with 290-2041 piston assembly | cat_linked_candidate; needs_individual_verification
+6I-4545 | 5.26 x 638.2mm 75A FKM O-Ring | Cat Parts Store frequently bought together with 290-2041 piston assembly | cat_linked_candidate; needs_individual_verification
+159-3219 | Combustion Sensor | Cat Parts Store frequently bought together with 290-2041 piston assembly | cat_linked_candidate; needs_individual_verification
+227-2902 | 228.40mm Outside Diameter Connecting Rod Bearing | Cat Parts Store frequently bought together with 290-2041 piston assembly | cat_linked_candidate; needs_individual_verification
+288-0948 | Track Roller Group, Double Flange, High Temperature Application | Cat Parts Store related-parts panel for 288-0934 | cat_linked_candidate; needs_individual_verification
+613-5951 | Track Roller Group, Single Flange, Standard Application | Cat Parts Store related-parts panel for 288-0934 | cat_linked_candidate; needs_individual_verification
+288-0947 | Track Roller Group, High Temperature Application, Single Flange | Cat Parts Store related-parts panel for 288-0935 | cat_linked_candidate; needs_individual_verification
+396-7353 | Track Roller Group, Single Flange, Standard Application | Cat Parts Store related-parts panel for 288-0935 | cat_linked_candidate; needs_individual_verification
