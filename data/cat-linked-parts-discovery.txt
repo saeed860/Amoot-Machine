@@ -100,3 +100,22 @@ Source pages:
 - https://parts.cat.com/en/catcorp/product/237-9313
 - https://parts.cat.com/en/catcorp/product/238-0472
 - https://parts.cat.com/en/catcorp/product/238-0473
+
+
+## Additional Cat-linked candidates from batch 40
+
+Eight additional part numbers were found in Cat Parts Store related-parts panels for the modulating valve group 244-3114 and track bolt 254-0224. These are cross-discovery leads only; individual fitment must be checked on each item's own Cat page.
+
+part_number | displayed description | source context | status
+3J-1907 | 1.98 × 11.89mm 90A NBR O-ring | Frequently bought together with Cat 244-3114 | cat_linked_candidate; needs_individual_verification
+6V-0852 | Hydraulic oil dust cap | Related part shown on Cat 244-3114 page | cat_linked_candidate; needs_individual_verification
+6D-7889 | 2.62 × 61.6mm 75A FKM O-ring | Related part shown on Cat 244-3114 page | cat_linked_candidate; needs_individual_verification
+7M-8485 | 2.95 × 29.74mm 90A NBR O-ring | Related part shown on Cat 244-3114 page | cat_linked_candidate; needs_individual_verification
+318-1064 | Track link | Frequently bought together with Cat 254-0224 | cat_linked_candidate; needs_individual_verification
+173-0946 | Track segment | Related part shown on Cat 254-0224 page | cat_linked_candidate; needs_individual_verification
+288-0934 | Track roller group | Related part shown on Cat 254-0224 page | cat_linked_candidate; needs_individual_verification
+2S-4078 | 3 × 37.47mm 90A NBR O-ring | Related part shown on Cat 254-0224 page | cat_linked_candidate; needs_individual_verification
+
+Source pages:
+- https://parts.cat.com/en/catcorp/product/244-3114
+- https://parts.cat.com/en/catcorp/product/254-0224
