@@ -55,3 +55,63 @@
 - لینک‌های منبع در کارت‌های مشخصات محصول نمایش داده نشوند.
 - اطلاعات منبع، نرخ تبدیل، مبلغ اولیه، ضریب، زمان مشاهده و وضعیت موجودی فقط در سوابق داخلی نگهداری شوند.
 - صفحه عمومی «قیمت‌های مرجع» حذف شده است؛ این سند مرجع داخلی تیم است و نباید از رابط عمومی سایت قابل دسترسی یا لینک‌دهی باشد.
+
+
+## تکمیل قیمت‌گذاری Off Road — بررسی تکمیلی
+
+مقادیر زیر از صفحات عمومی دقیق پارت‌نامبر Off Road برداشت شده‌اند. قیمت آموت برابر OEM List Price × ۱٫۶۵ است. ردیف‌های با OEM List Price صفر یا خط تیره، قیمت‌گذاری نشده‌اند و در فهرست استعلام باقی می‌مانند.
+
+
+| SKU | شرح | OEM USD | قیمت آموت USD | وضعیت نمایش‌داده‌شده | صفحه منبع |
+
+|---|---|---:|---:|---|---|
+| 1417916 | CARTRIDGE | 2,045.66 | 3,375.34 | ۱۰ New Aftermarket | https://offroadeq.com/parts/1417916 |
+| 1440725 | ROD AS | 2,372.57 | 3,914.74 | ۱۳۹ New Aftermarket؛ ۱۲ Used | https://offroadeq.com/parts/1440725 |
+| 1484644 | DRIVE GP | 19,197.19 | 31,675.36 | ۱۳ New Aftermarket | https://offroadeq.com/parts/1484644 |
+| 1003259 | PUMP G | 4,813.76 | 7,942.70 | ۲۰ New Aftermarket | https://offroadeq.com/parts/1003259 |
+| 1005047 | ALTERNATOR | 695.99 | 1,148.38 | ۱ New Genuine Surplus؛ ۱۲ New Aftermarket؛ ۱ Used | https://offroadeq.com/parts/1005047 |
+| 1007408 | CAMSHAFT A | 2,672.77 | 4,410.07 | ۱۰۷ New Aftermarket؛ ۱ Used | https://offroadeq.com/parts/1007408 |
+| 1041752 | PUMP GP | 7,334.72 | 12,102.29 | ۲۷ New Aftermarket؛ ۱ Used | https://offroadeq.com/parts/1041752 |
+| 1052140 | PUMP GP-PS&V | 5,555.22 | 9,166.11 | ۲ New Aftermarket | https://offroadeq.com/parts/1052140 |
+| 1053196 | MOTOR GRP | 1,493.77 | 2,464.72 | ۳ New Aftermarket | https://offroadeq.com/parts/1053196 |
+| 1053635 | PUMP GP | 5,890.11 | 9,718.68 | ۸ New Aftermarket؛ ۵ Used | https://offroadeq.com/parts/1053635 |
+| 1069872 | PUMP GP | 6,064.01 | 10,005.62 | ۵ New Aftermarket | https://offroadeq.com/parts/1069872 |
+| 1075007 | JOINT G-SL | 4,231.67 | 6,982.26 | ۷ New Aftermarket | https://offroadeq.com/parts/1075007 |
+| 1080850 | SHAFT A. | 4,424.66 | 7,300.69 | ۶ New Aftermarket | https://offroadeq.com/parts/1080850 |
+| 1115059 | CORE AS AF | 5,231.66 | 8,632.24 | ۹ New Aftermarket | https://offroadeq.com/parts/1115059 |
+| 1116841 | PUMP GP | 4,449.49 | 7,341.66 | ۱۵ New Aftermarket؛ ۱ Call For Pricing | https://offroadeq.com/parts/1116841 |
+| 1118181 | CYL GP-LIF | 13,335.42 | 22,003.44 | ۳ New Aftermarket؛ ۲ Call For Pricing | https://offroadeq.com/parts/1118181 |
+| 1125060 | BRACKET AS | 2,364.74 | 3,901.82 | ۲۵ New Aftermarket | https://offroadeq.com/parts/1125060 |
+| 1150637 | PUMP | 2,138.30 | 3,528.20 | ۱۱۵ New Aftermarket | https://offroadeq.com/parts/1150637 |
+| 1154517 | CORE A | 2,137.94 | 3,527.60 | ۲ Used | https://offroadeq.com/parts/1154517 |
+| 1159899 | PUMP GP | 3,457.60 | 5,705.04 | ۱۷ New Aftermarket | https://offroadeq.com/parts/1159899 |
+| 1166562 | CORE AS-O. | 3,078.09 | 5,078.85 | ۴۵ New Aftermarket؛ ۱ Used | https://offroadeq.com/parts/1166562 |
+| 1167885 | PAN OIL | 2,383.69 | 3,933.09 | ۲۷ New Aftermarket؛ ۱ Used | https://offroadeq.com/parts/1167885 |
+| 116-1980 | Engine Oil Pump Group | 2,024.61 | 3,340.61 | ۱۵ New Aftermarket؛ ۲ Call For Pricing | https://offroadeq.com/parts/1161980 |
+| 1168046 | BEARING AS | 1,878.87 | 3,100.14 | ۲ New Aftermarket | https://offroadeq.com/parts/1168046 |
+| 1197698 | PUMP G-PS | 5,671.73 | 9,358.35 | ۲ New Aftermarket | https://offroadeq.com/parts/1197698 |
+| 1245142 | CORE A | 4,125.50 | 6,807.07 | ۱۶ New Aftermarket؛ ۳ Call For Pricing؛ ۱ Used | https://offroadeq.com/parts/1245142 |
+| 1253537 | IDLER GP | 6,223.83 | 10,269.32 | ۱ Call For Pricing؛ ۱ Used | https://offroadeq.com/parts/1253537 |
+| 1275537 | CORE AS | 2,910.79 | 4,802.80 | ۹۴ New Aftermarket | https://offroadeq.com/parts/1275537 |
+| 1291908 | CYL GP | 8,259.50 | 13,628.17 | ۲ New Aftermarket | https://offroadeq.com/parts/1291908 |
+| 1330125 | CORE AS | 1,919.65 | 3,167.42 | ۳۹۵ New Aftermarket؛ ۱ Used | https://offroadeq.com/parts/1330125 |
+| 1331149 | PUMP GP | 3,537.49 | 5,836.86 | ۳۲ New Aftermarket | https://offroadeq.com/parts/1331149 |
+| 1342679 | BOGIE AS | 11,540.01 | 19,041.02 | ۳۰ New Aftermarket؛ ۱ Used | https://offroadeq.com/parts/1342679 |
+| 1342680 | BOGIE AS-R | 12,007.96 | 19,813.13 | ۲۸ New Aftermarket | https://offroadeq.com/parts/1342680 |
+| 1362422 | SEE 2394321 | 2,176.47 | 3,591.18 | ۱ New Genuine Surplus؛ ۲ Call For Pricing؛ ۳ Used | https://offroadeq.com/parts/1362422 |
+| 1363965 | PUMP GP | 1,624.27 | 2,680.05 | ۶ New Aftermarket؛ ۳ Call For Pricing؛ ۲ Used | https://offroadeq.com/parts/1363965 |
+| 1392383 | PUMP GP | 7,312.88 | 12,066.25 | ۵ New Aftermarket | https://offroadeq.com/parts/1392383 |
+| 1409699 | BAR GP-EQU | 17,930.99 | 29,586.13 | ۱۷ New Aftermarket | https://offroadeq.com/parts/1409699 |
+| 1414109 | CORE A | 5,631.82 | 9,292.50 | ۵۰ New Aftermarket؛ ۲ Call For Pricing | https://offroadeq.com/parts/1414109 |
+| 5J1193 | Bearing | 91.15 | 150.40 | ۱۶۲ New Aftermarket | https://offroadeq.com/parts/5J1193 |
+| 5P1948 | Cone | 2,557.93 | 4,220.58 | ۱۲ New Aftermarket؛ ۱ New Genuine Surplus؛ ۴ Used | https://offroadeq.com/parts/5P1948 |
+| 2807856 | Motor GP-P | 5,081.35 | 8,384.23 | ۷ New Aftermarket | https://offroadeq.com/parts/2807856 |
+| 2V7390 | Shim Pack | 60.12 | 99.20 | ۲۸ New Genuine Surplus؛ ۲۰ New Aftermarket | https://offroadeq.com/parts/2V7390 |
+| 1R0751 | Filter AS | 25.46 | 42.01 | ۳۶۵ New Aftermarket | https://offroadeq.com/parts/1R0751 |
+| 2681900 | Pump GP F | 943.36 | 1,556.54 | ۲ Used | https://offroadeq.com/parts/2681900 |
+| 8H9789 | Bearing | 39.16 | 64.61 | ۶۷۰ New Genuine Surplus؛ ۱٬۴۸۴ New Aftermarket | https://offroadeq.com/parts/8H9789 |
+| 6R4385 | Wheel A | 1,430.22 | 2,359.86 | موجودی دقیق شماره یافت نشد | https://offroadeq.com/parts/6R4385 |
+| 2P0220 | Gasket | 6.67 | 11.01 | موجودی دقیق شماره یافت نشد؛ گزینه جایگزین جداست | https://offroadeq.com/parts/2P0220 |
+| 0816876 | Bolt-PC | 27.35 | 45.13 | موجودی دقیق شماره یافت نشد | https://offroadeq.com/parts/0816876 |
+| 4619930 | Gear-Ring | 2,145.59 | 3,540.22 | ۵۴ New Aftermarket | https://offroadeq.com/parts/4619930 |
+| 1886126 | Gasket | 1.18 | 1.95 | ۴۷ New Genuine Surplus؛ ۲٬۳۲۰ New Aftermarket | https://offroadeq.com/parts/1886126 |
