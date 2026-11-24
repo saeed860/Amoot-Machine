@@ -259,6 +259,8 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["5P8247","WASHER-PC",1.30,2.15,"۲۹ New Genuine Surplus؛ ۴۹٬۴۶۹ New Aftermarket"],
+ ["6E3524","PUMP G",2965.13,4892.46,"۲۸ New Aftermarket"],
  ["5N5692","ALTERNATOR G",1435.95,2369.32,"۱ New Genuine Surplus؛ ۷۳ New Aftermarket"],
  ["5P0505","CONE BEARI",1583.19,2612.26,"۳۶ New Aftermarket؛ ۳ New Genuine Surplus؛ ۳ Used"],
  ["5P1949","CUP",1567.77,2586.82,"۱ New Genuine Surplus؛ ۵۰ New Aftermarket"],
