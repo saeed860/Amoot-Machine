@@ -8,6 +8,7 @@ on:
       - "cart.js"
       - "api-client.js"
       - "api-config.js"
+      - "offroad-catalog.js"
       - "style.css"
       - "search.html"
       - "search.js"
