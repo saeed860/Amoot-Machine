@@ -201,3 +201,31 @@ Official product pages:
 - https://parts.cat.com/en/catcorp/product/362-0801
 
 These matches verify the exact component numbers and published model classes at Cat Parts Store level. They do not prove the exact SDN/RSD assembly inclusion/quantity for every engine serial; retain K-Part diagram/quantity as scoped candidate evidence and use SIS with complete serial + Arrangement for order-level fitment. Other component rows remain unverified until individually checked.
+
+
+#### Further Cat Parts Store matches — C32 aftercooler, heat-exchanger and alternator components
+
+A second exact-number lookup pass found these additional official product records among the K-Part component rows:
+
+| Part number | K-Part extraction scope | Official Cat page evidence | Application interpretation |
+|---|---|---|---|
+| **175-7060** | SDN and RSD fuel-water separator groups | Cat lists C32 Marine Engine, C32 Marine Auxiliary, Generator Set C32 and land equipment | **BOTH** |
+| **353-9029** | RSD sea-water heat exchanger group | Cat lists C32/C32B Marine Engine and Generator Set C32 | **BOTH** |
+| **353-9037** | SDN sea-water heat exchanger group | Cat lists C32/C32B Marine Engine and Generator Set C32 | **BOTH** |
+| **229-9407** | SDN alternator bearing assembly | Cat lists Marine Engine C32 and Marine Auxiliary C32B, plus Generator Set C32 and land classes | **BOTH** at published model-class level; auxiliary list is C32B, not C32 |
+| **5P-3419** | SDN alternator bearing inner race | Cat lists Marine Engine C32 and Marine Auxiliary C32/C32B, plus Generator Set C32 and land classes | **BOTH** |
+| **231-6133** | SDN alternator bearing kit | Cat kit page lists Marine Engine C32 and Marine Auxiliary C32, and includes 5P-3419 + 229-9407 as its two kit components | **BOTH**; Cat kit contents are useful corroboration of the extracted bearing pair |
+| **231-6134** | SDN alternator rectifier kit | Cat lists Marine Engine C32 and Marine Auxiliary C32B, plus Generator Set C32 and land classes | **BOTH** at published model-class level; auxiliary list is C32B, not C32 |
+| **3T-6354** | SDN alternator voltage regulator assembly | Cat page lists C32 among Generator Set and Engine categories, including C32 MARINE | **BOTH** |
+
+Official product pages:
+- https://parts.cat.com/en/catcorp/product/175-7060
+- https://parts.cat.com/en/catcorp/product/353-9029
+- https://parts.cat.com/en/catcorp/product/353-9037
+- https://parts.cat.com/en/catcorp/product/229-9407
+- https://parts.cat.com/en/catcorp/product/5P-3419
+- https://parts.cat.com/en/catcorp/product/231-6133
+- https://parts.cat.com/en/catcorp/product/231-6134
+- https://parts.cat.com/en/catcorp/product/3T-6354
+
+The official pages substantiate Cat's published compatible-model classes for these part numbers. They do not, by themselves, certify that every listed item is present in every SDN/RSD serial-specific assembly or establish order quantity. The K-Part diagram remains scoped third-party evidence; final fitment still requires the full engine serial and Arrangement in SIS/Cat's serial-specific diagram. Continue to retain these as reference/evidence, not automatically sellable stock.
