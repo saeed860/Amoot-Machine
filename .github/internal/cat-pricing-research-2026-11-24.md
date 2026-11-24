@@ -931,3 +931,35 @@ Official Cat sources checked:
 - https://parts.cat.com/en/catcorp/product/20R-0582
 
 Database checkpoint: all 10 records updated and verified. Three exact official images newly linked (200-5272, 20R-0271, 20R-0505); existing exact images retained for 202-4296, 20R-0268, 20R-0272 and 20R-0582. Single-component, generic-logo and unverified kit images omitted. Overall manual progress: 26/50 batches, 260/500 SKUs.
+
+
+## Batch 27/50 — SKUs 261–270 (20R-0583 through 20R-1270)
+
+All ten official Cat pages were reviewed; all ten Supabase rows were updated and query-verified.
+
+| SKU | Official identity / captured detail | Image / fitment treatment |
+|---|---|---|
+| 20R-0583 | Cat Reman 3500 HD Monotherm Cylinder Pack; 14.7:1; preassembled liner/piston/rings/pin/retainers/rod/seals; recommended 3500 HD; Cat publishes no compatible-model list | No verified image: available image was a connecting rod, not the cylinder pack; omitted |
+| 20R-0615 | Cat Reman C9 Cylinder Pack; 15.5:1, 8.8L; recommended C9; preassembled cylinder pack and up to one hour saved per cylinder | Exact official Scene7 cylinder-pack image newly linked; C9 retained as recommended engine application, not a separate fitment list |
+| 20R-0632 | Cat Reman C18 Cylinder Pack; 14.5:1; recommended C18; preassembled cylinder pack | Existing exact official image retained; C18 retained as recommended engine application, not a separate fitment list |
+| 20R-0651 | Cat Reman Platinum Engine Overhaul Kit (3126B); 210 HP; includes Gold kit plus piston packs, block, head, injector pump, gerotor pump and injectors; title says 3126B while Recommended Application field says 3216B; Compatible Models lists Truck Engine 3126E | No verified full-kit image; omitted; source discrepancy preserved |
+| 20R-0675 | Cat Reman C280 Fuel Injector; 23.6 × 9.3 in; compatible 3608/3606/C280-16/3616 generator, C280 marine/petroleum and 3612 locomotive engines | Exact official Scene7 injector image newly linked |
+| 20R-0744 | Cat Reman Gold C15 Engine Overhaul Kit; 18.0:1; includes 10R-9611 ×6 and 606-0909 ×1; C15 compatibility; assembled core-return terms captured | Exact official Scene7 kit-layout image newly linked |
+| 20R-0759 | Cat Reman Basic Fuel Injector (3408/3412, HIA450 Prime); Compatible Models lists Industrial Engine 3408E; Cat publishes no specifications | Exact official Scene7 injector image newly linked |
+| 20R-0925 | Cat Reman C13 Connecting Rod (Drilled/Fracture-Split); microalloy/alloy steel; POWER SYS, C13 XQ350/XQ375, 623H/621H/627H, 352F/349 excavators, 404F-22 grader, 980K/980K HLG | Existing exact official rod image retained; 24 model identifiers stored |
+| 20R-1136 | Cat Reman C9 Tier 4 Valve Rocker Arm; 6.8 × 2.2 in; generator, C9.3, grader, loader, D6/D7, truck, marine, excavator and mobile-hydraulic fitment | Exact official Scene7 rocker-arm image newly linked; 61 model identifiers stored |
+| 20R-1270 | Cat Reman 3500B Fuel Injector (EI800B/EUI); compatible 3512B/3508B/3516B generator, SR4B, PM3516/PM3512/PM3508, marine, industrial, petroleum, locomotive, 854G and 992G applications | Exact official Scene7 injector image newly linked; 11 model identifiers stored |
+
+Official Cat sources checked:
+- https://parts.cat.com/en/catcorp/product/20R-0583
+- https://parts.cat.com/en/catcorp/product/20R-0615
+- https://parts.cat.com/en/catcorp/product/20R-0632
+- https://parts.cat.com/en/catcorp/product/20R-0651
+- https://parts.cat.com/en/catcorp/product/20R-0675
+- https://parts.cat.com/en/catcorp/product/20R-0744
+- https://parts.cat.com/en/catcorp/product/20R-0759
+- https://parts.cat.com/en/catcorp/product/20R-0925
+- https://parts.cat.com/en/catcorp/product/20R-1136
+- https://parts.cat.com/en/catcorp/product/20R-1270
+
+Database checkpoint: all 10 rows updated and verified. Six exact official images newly linked (20R-0615, 20R-0675, 20R-0744, 20R-0759, 20R-1136, 20R-1270); existing exact images retained for 20R-0632 and 20R-0925. Unverified cylinder-pack/kit imagery was omitted. Overall manual progress: 27/50 batches, 270/500 SKUs.
