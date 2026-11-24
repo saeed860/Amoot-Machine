@@ -97,10 +97,11 @@ async function worker() {
         response = await page.goto(url, { waitUntil: "domcontentloaded", timeout: 18000 });
       }
       row.httpStatus = response?.status() ?? null;
-      await page.waitForTimeout(350);
+      await page.waitForTimeout(1000);
       row.title = await page.title();
       const body = await page.locator("body").innerText({ timeout: 10000 });
       const html = await page.content();
+      if (i < 8) row.sample = body.slice(0, 3500);
       if (/not found|page not found|no product found/i.test(body) && !body.includes(sku)) row.status = "NOT_FOUND";
       else {
         const parsed = extract(body, html, sku, row.title);
@@ -118,8 +119,19 @@ finally { await browser.close(); }
 
 const enriched = results.filter(r => r.status === "PAGE_OK" && (r.description || Object.keys(r.specifications).length || r.compatibleModels.length || r.imageUrl || r.name));
 const statements = enriched.map(updateSql).filter(Boolean);
-if (enriched.length < 250) throw new Error(`Too few official Cat pages yielded metadata: ${enriched.length}/${partNumbers.length}`);
 await mkdir("artifacts", { recursive: true });
+const diagnostics = {
+  generatedAt: new Date().toISOString(),
+  requested: partNumbers.length,
+  pageOk: results.filter(x => x.status === "PAGE_OK").length,
+  notFound: results.filter(x => x.status === "NOT_FOUND").length,
+  errors: results.filter(x => x.status === "ERROR" || x.status === "HTTP_ERROR").length,
+  enriched: enriched.length,
+  samples: results.slice(0, 8)
+};
+await writeFile("artifacts/cat-official-enrichment.json", JSON.stringify(diagnostics, null, 2));
+console.log("Cat extraction diagnostics", JSON.stringify(diagnostics, null, 2));
+if (enriched.length < 250) throw new Error(`Too few official Cat pages yielded metadata: ${enriched.length}/${partNumbers.length}`);
 const stamp = new Date().toISOString().replace(/[-:TZ.]/g, "").slice(0,14);
 const migrationPath = `supabase/migrations/${stamp}_enrich_cat_official_page_metadata.sql`;
 const migration = [
