@@ -101,7 +101,7 @@ Deno.serve(async (req) => {
         if (result.error) { console.error("[store-api/products] product listing failed", result.error.code, result.error.message); return fail(500, "PRODUCTS_FAILED", "دریافت محصولات ناموفق بود."); }
         productData = result.data ?? [];
       }
-      const productItems = productData.map(p => ({ id:p.id, kind:"PRODUCT", sku:p.sku, name:p.name, brand:p.brand, category:p.category, machineModel:p.machine_model, description:p.description, imageUrl:p.image_url, priceIrr:p.price_irr == null ? null : String(p.price_irr), stock:p.stock, applicationType:p.application_type ?? "UNVERIFIED", applicationEvidence:p.application_evidence ?? null, applicationSourceUrl:p.application_source_url ?? null }));
+      const productItems = productData.map(p => ({ id:p.id, kind:"PRODUCT", sku:p.sku, name:p.name, brand:p.brand, category:p.category, machineModel:p.machine_model, description:p.description, imageUrl:p.image_url, priceIrr:p.price_irr == null ? null : String(p.price_irr), priceUsd:p.price_usd == null ? null : Number(p.price_usd), stock:p.stock, applicationType:p.application_type ?? "UNVERIFIED", applicationEvidence:p.application_evidence ?? null, applicationSourceUrl:p.application_source_url ?? null }));
       let partItems:any[] = [];
       if (q || model) {
         const fields = "id,part_number,part_number_normalized,name,description,engine_models,technical_group,source_name,source_url,source_note,verification_status,image_url,specifications,compatible_models,application_type,application_evidence,application_source_url";
