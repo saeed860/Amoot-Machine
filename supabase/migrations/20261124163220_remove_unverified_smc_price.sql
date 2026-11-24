@@ -1,0 +1,1 @@
+UPDATE public.products SET price_usd=NULL WHERE sku='AC30A-03-D';
