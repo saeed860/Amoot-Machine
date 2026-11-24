@@ -259,6 +259,10 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["3520203","PUMP GP-WATE",1539.62,2540.37,"۴۵۲ New Aftermarket؛ ۱ New Genuine Surplus"],
+ ["3520205","PUMP AS-WA",1272.37,2099.41,"۱۰۳ New Aftermarket"],
+ ["3520206","PUMP G",1378.17,2273.98,"۱ New Genuine Surplus؛ ۲۳۹ New Aftermarket"],
+ ["3520209","PUMP GP-WA",2372.96,3915.38,"۱۴۴ New Aftermarket"],
  ["3496530","MOTOR GP E",1866.93,3080.43,"۵ New Aftermarket"],
  ["3500666","PUMP GP-PI",4138.31,6828.21,"۵۰ New Aftermarket"],
  ["3520200","PUMP GP-WA",1893.94,3125.00,"۱۱۱ New Aftermarket؛ ۲ Call For Pricing"],
