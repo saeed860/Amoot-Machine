@@ -745,6 +745,10 @@ const tests = [
   { q: "368-9037", sku: "368-9037", kind: "PART_REFERENCE", sourceRequired: true },
   { q: "1W-2447", sku: "1W-2447", kind: "PART_REFERENCE", sourceRequired: true },
   { q: "339-5148", sku: "339-5148", kind: "PART_REFERENCE", sourceRequired: true },
+  { q: "355-0325", sku: "355-0325", kind: "PART_REFERENCE", sourceRequired: true, applicationType: "MARINE" },
+  { q: "353-9049", sku: "353-9049", kind: "PART_REFERENCE", sourceRequired: true, applicationType: "BOTH" },
+  { q: "116-1980", sku: "116-1980", kind: "PART_REFERENCE", sourceRequired: true, applicationType: "BOTH" },
+  { q: "207-2422", sku: "207-2422", kind: "PART_REFERENCE", sourceRequired: true, applicationType: "BOTH" },
 ];
 let failed = false;
 let cursor = 0;
@@ -760,11 +764,12 @@ async function runTest(test) {
   const found = items.find(x => (normSku(x.sku) === normSku(test.sku) || (test.skuSuffix && normSku(x.sku).endsWith(normSku(test.q)))) && x.kind === test.kind && (!test.filterCategory || x.category === test.filterCategory));
   const exists = items.some(x => normSku(x.sku) === normSku(test.q) && x.kind === "PRODUCT");
   const modelMatched = !test.modelQuery || items.some(x => x.kind === "PRODUCT" && (normSku(x.machineModel).includes(normSku(test.q)) || normSku(x.description).includes(normSku(test.q))));
-  const ok = response.ok && (test.absent ? !exists : (test.any ? items.some(x => x.kind === test.kind) : Boolean(found))) && modelMatched && (!test.category || found?.category === test.category) && (!test.imageRequired || Boolean(found?.imageUrl)) && (!test.sourceRequired || String(found?.sourceUrl || found?.description || "").includes("parts.cat.com"));
+  const ok = response.ok && (test.absent ? !exists : (test.any ? items.some(x => x.kind === test.kind) : Boolean(found))) && modelMatched && (!test.category || found?.category === test.category) && (!test.imageRequired || Boolean(found?.imageUrl)) && (!test.sourceRequired || String(found?.sourceUrl || found?.description || "").includes("parts.cat.com")) && (!test.applicationType || found?.applicationType === test.applicationType);
   process.stdout.write(JSON.stringify({
     query: test.q, http: response.status, kind: test.kind || "ABSENT",
     found: Boolean(found) || Boolean(test.any && items.some(x => x.kind === test.kind)), absent: test.absent ? !exists : undefined,
     category: found?.category || null,
+    application: found?.applicationType || null,
     image: found?.imageUrl ? "present" : "missing",
     priceIrr: found?.priceIrr ?? null, stock: found?.stock ?? null,
     pass: ok, apiError: body.error?.code || null
