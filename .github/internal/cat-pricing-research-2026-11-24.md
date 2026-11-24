@@ -1767,3 +1767,34 @@ Official Cat pages checked:
 - https://parts.cat.com/en/catcorp/product/20R-5379
 
 Database checkpoint: all ten rows queried; fitment corrections for 20R-4505, 20R-5075 and 20R-5379 were re-queried successfully. Overall reviewed progress: 32/500 batches, 320/5,000 products.
+
+
+## Batch 33/500 — SKUs 321–330 (20R-5393 through 20R-6518)
+
+All ten Cat Parts Store product pages were opened and all ten Supabase rows queried. Official Compatible Models sections were checked. One material DB correction was applied and re-queried:
+- 20R-5681: Cat Reman UTN Valve Rocker Arm. DB previously had empty engine/compatible-model arrays. Added engine models C27/C32 and the Cat-published fitment list: SR5, AD63, C27/C32, 777G, 854K/844H/844K, 24, 6015B/6040 FS/6040/6020B/6030 T2/6030, 993K/992K/990K/990H, D10N/D10R/D10T2/D10T/D11/D11R/D11T, MD6310/MD6250, 775G/775F/773G/773F/777C/777B/777D/777G/777F/777E and TH48-E70/CX35-P800. Re-query confirmed the new values.
+Other records reviewed:
+- 20R-5393: Cat C175 Gen I crankshaft damper; official C175-20 generator set and 797F/797/797B trucks; DB matched.
+- 20R-5420: G3520 basic crankshaft damper; official G3520 gen-set engine and G3520C/E/H generator sets; DB matched.
+- 20R-5462: 24V 50MT starter solenoid kit; Cat page publishes a broad cross-family fitment list across generator, mining, truck, grader, track tractor, marine, excavator, loader, dozer and engine families; existing DB array reviewed and retained.
+- 20R-5566: CR1100 common-rail fuel injector for C175; official C175-16/C175-20 generator sets, C175-16 marine/industrial/locomotive, 797/793F/795F truck families and 796 AC/798 AC off-highway trucks; DB matched.
+- 20R-5616: 3500 HD cylinder pack, 15.3:1; official 3516B/3512B gen sets, 793D/793C/797/797B trucks, 3512B/3516B locomotive and 994F/994H loaders; DB matched.
+- 20R-5629: 3512/3516 cylinder pack, 14.7:1; official marine 3516C/3512C and 962K loader; DB matched.
+- 20R-5677: Cat PL542 electronic control/telematics assembly; official fitment spans compact/miniexcavators, excavators, drills, loaders, graders, tractors, pavers, trucks, marine, petroleum, generator and industrial/gas engine families; DB's broad list reviewed and retained.
+- 20R-6263: 3400-series valve rocker arm; Cat page lists broad fitment including 3406/3408/3412 engines, D7–D10 tractors, 245/375 excavators, 621/627/631/637/657 wheel tractors, 825/826/836 compactors, 980/988/992 loaders, 769/773/775 trucks, marine, gen-set and gas engines; DB reviewed and retained.
+- 20R-6518: G3600 A4 reman cylinder head; official marine C280-16/C280-6, industrial G3606B and gas engines G3608/G3612/G3606/G3616; DB matched.
+- 20R-5462 Cat page does not publish structured specifications; no unsupported specs were added.
+
+Official Cat pages checked:
+- https://parts.cat.com/en/catcorp/product/20R-5393
+- https://parts.cat.com/en/catcorp/product/20R-5420
+- https://parts.cat.com/en/catcorp/product/20R-5462
+- https://parts.cat.com/en/catcorp/product/20R-5566
+- https://parts.cat.com/en/catcorp/product/20R-5616
+- https://parts.cat.com/en/catcorp/product/20R-5629
+- https://parts.cat.com/en/catcorp/product/20R-5677
+- https://parts.cat.com/en/catcorp/product/20R-5681
+- https://parts.cat.com/en/catcorp/product/20R-6263
+- https://parts.cat.com/en/catcorp/product/20R-6518
+
+Database checkpoint: all ten rows queried; 20R-5681 engine and compatible-model fields updated and re-queried successfully. Overall reviewed progress: 33/500 batches, 330/5,000 products.
