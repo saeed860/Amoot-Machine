@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - "scripts/offroad-public-detail-audit.mjs"
+      - "scripts/apply-offroad-public-detail-audit.mjs"
       - ".github/workflows/offroad-public-detail-audit.yml"
   workflow_dispatch:
 
