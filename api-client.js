@@ -259,6 +259,11 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["2602160","MONITOR GP",3277.02,5407.08,"۴ New Aftermarket"],
+ ["2602289","LINK AS-BR",3483.97,5748.55,"۳۱ New Aftermarket"],
+ ["2606642","SPINDLE",5730.57,9455.44,"۴ New Aftermarket"],
+ ["2606650","DRIVE GP-F",30180.50,49797.82,"۲ New Aftermarket؛ ۵ Rebuilt"],
+ ["2606655","DRIVE GP-F",29770.37,49121.11,"۳ New Aftermarket؛ ۱ Rebuilt"],
  ["2525165","TURBO GP-B",3171.01,5232.17,"۴۴ New Aftermarket"],
  ["2527086","MOUNTING AS-",6611.33,10908.69,"۳ New Aftermarket"],
  ["2531752","PLATE-THRU",51.40,84.81,"۲۱۸ New Aftermarket"],
