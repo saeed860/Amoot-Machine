@@ -2571,3 +2571,38 @@ Additional Cat-linked discovery candidates:
 238-5084, 228-7093, 7M-8485, 214-7568, 228-7092, 20R-8270, 4J-6750, 3N-3787, 1K-6539, 5K-0605, 4N-4523, 387-5467, 451-2774, 391-5262, 378-3187, 418-2073, 3J-1907, 3K-0360, 6V-8398, 6V-8397, 3D-2824, 6F-6673, 8D-4771, 2R-0098, 9Y-6089, 8C-3089. These are Cat alternate/related/commonly purchased candidate leads only; each needs its own item-page verification.
 
 Overall reviewed progress: 55/500 batches = 550/5,000 product target (11.0%). Original Cat seed list has 237 SKUs remaining (products 551–787).
+
+## Batch 56/500 — products 551–560 (2026-11-25)
+
+SKUs: 3T-5760, 416-0613, 416-4686, 420-9876, 420-9877, 422-7389, 422-7690, 422-7692, 422-7693, 423-3676. Nine Cat pages supplied usable item-level evidence; 422-7692 returned an access/internal error and its existing D9 fitment record was preserved without new claims. All ten rows were re-queried and model arrays deduplicated.
+
+Verified updates:
+- 3T-5760: Cat 12V 31 BCI heavy-duty maintenance-free accessible wet battery. Added 713 distinct Cat model labels across generator, integrated toolcarrier, skidder, compactor, excavator, wheel tractor, backhoe loader, wheel dozer, landfill compactor, telehandler, wheel loader, compact wheel loader, articulated truck, wheeled excavator, pneumatic/vibratory compactor, industrial/marine/gas engines, tractor, pipelayer, mining excavator, truck and agricultural equipment. Specs: 750 CCA, 165-minute reserve, 100Ah, 31/30h group, SAE posts, 13 ×6.8 ×9.5in, 55lb, polypropylene plastic case, calcium-lead alloy grid.
+- 416-0613: Cat Water Pump with Impeller used in engine front housing. Added eight distinct labels: 3516C/3516C GEN, 3512C, 3516, 3516B, XQC1600, 793B, 793C. Cat categories include generator set, marine engine, power module, marine auxiliary, industrial engine, truck, petroleum engine and locomotive engine. Specs 20.8in ×13.4in; material field Oil Fluid. Cat Compare Alternate Parts displays 10R-9598 Cat Reman Auxiliary Sea Water Pump; this is an alternative listing, not guaranteed serial-number interchange.
+- 416-4686: Cat Pump Group. Corrected to six distinct labels 3512B/3508C/3512PETROL/3508PETROL/3512/3508 across generator set, marine engine, marine auxiliary, engine, industrial engine and petroleum engine. Cat page explicitly says description and specifications are still being added; no dimensions/material inferred.
+- 420-9876: Cat General Duty rubber track, 381mm wide, 100mm pitch, 42 sections/lugs, zig-zag tread. Confirmed six MTL models 257D/257D3/257B/247B/247B3/257B3. Specs 74.72in length, 15.24in height, 30.91in overall width, 165.35in circumference, 15in belt width, 188.43lb, reinforced rubber/fiber, black, Heavy Duty Bar, GD system. Cat describes it as a lower-initial-cost option for older/lower-use machines and less aggressive soft-ground applications.
+- 420-9877: Cat General Duty rubber track, 457mm wide, 100mm pitch, 51 sections/lugs, zig-zag tread. Confirmed 11 MTL/CTL models 277D/287C/277C/297D2/297D2 XHP/287C2/277C2/297D/297D XHP/287D/297C. Specs 90in length, 19.69in height, 35.43in overall width, 200.79in circumference, 17.99in belt width, 292.99lb, reinforced rubber/fiber, black, Heavy Duty Bar, GD system.
+- 422-7389: Cat External Engine Oil Pump Kit. Added 13 distinct compatible labels across 3512B gen-set engine, G3508/G3516/G3512 and 3500-family generator sets, power modules, marine/marine auxiliary, petroleum, locomotive and gas engines. Cat kit contains 11 displayed lines: 109-2332 ×2; 111-1349, 1H-9696, 238-5080, 238-5081, 259-4600, 298-6387, 3J-1907, 6V-3908, 6V-5101 and 7N-5057 ×1 each. Description says it supplies gaskets/seals for reinstalling an external oil pump.
+- 422-7690: Cat undercarriage arrangement, camber-only right-hand configuration. Confirmed D9T/D9/D9R/D9 GC track-type tractors.
+- 422-7692: Cat right-hand undercarriage arrangement. Cat page inaccessible in this run; existing D9T/D9/D9R/D9 GC fitment retained unchanged.
+- 422-7693: Cat left-hand undercarriage track frame. Confirmed D9T/D9/D9R/D9 GC track-type tractors. Cat description explains track-frame support, traction and undercarriage load distribution; no dimensional specs published.
+- 423-3676: Cat Lift Arm Quick Coupler. Added 28 distinct fitment labels across MTL, CTL, mini hydraulic excavators and skid-steer loaders. Specs 45.3in length ×8.8in width ×17.1in height, 176.41lb, medium gloss black, alloy steel.
+
+Cat pages:
+- https://parts.cat.com/en/catcorp/product/3T-5760
+- https://parts.cat.com/en/catcorp/product/416-0613
+- https://parts.cat.com/en/catcorp/product/416-4686
+- https://parts.cat.com/en/catcorp/product/420-9876
+- https://parts.cat.com/en/catcorp/product/420-9877
+- https://parts.cat.com/en/catcorp/product/422-7389
+- https://parts.cat.com/en/catcorp/product/422-7690
+- https://parts.cat.com/en/catcorp/product/422-7692
+- https://parts.cat.com/en/catcorp/product/422-7693
+- https://parts.cat.com/en/catcorp/product/423-3676
+
+Post-update verification returned all ten SKUs. Distinct fitment counts: 3T-5760=713; 416-0613=8; 416-4686=6; 420-9876=6; 420-9877=11; 422-7389=13; 422-7690=4; 422-7692=4 (pre-existing, not reverified); 422-7693=4; 423-3676=28. No prices or current stock inferred. Rubber-track descriptions explicitly retain Cat's General Duty use-case limitation.
+
+Additional Cat-linked discovery candidates:
+1R-1808, 3J-1907, 1R-0749, 326-1644, 3K-0360, 10R-9598, 5H-6734, 271-4926, 2H-3928, 6V-6809, 2M-9780, 109-2332, 111-1349, 1H-9696, 238-5080, 238-5081, 259-4600, 298-6387, 6V-3908, 6V-5101, 7N-5057, 3S-9643, 7N-4782, 1R-0726, 4W-3027, 033-6031, 345-6511, 142-9091, 5B-0651, 6K-4148, 388-7978. Candidate leads only; kit components/related parts do not automatically establish interchangeability.
+
+Overall reviewed progress: 56/500 batches = 560/5,000 product target (11.2%). Original Cat seed list has 227 SKUs remaining (products 561–787).
