@@ -259,6 +259,11 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["2807864","MOTOR GP P",5545.01,9149.27,"۲ New Aftermarket"],
+ ["2818491","BAR GP-EQU",12878.29,21249.18,"در موجودی دقیق فروشنده یافت نشد؛ قیمت OEM List موجود است"],
+ ["2818870","KIT-GASKET",2279.40,3761.01,"۳۴ New Aftermarket"],
+ ["2850852","TRUNNION",1294.11,2135.28,"۵۷ New Aftermarket؛ ۲ New Genuine Surplus؛ ۱ Call For Pricing؛ ۳ Used"],
+ ["2892131","CONE SPL T",1763.56,2909.87,"۴ New Aftermarket"],
  ["2721889","ALTERNATOR",1772.15,2924.05,"۲۰ New Aftermarket"],
  ["2726955","PUMP GP-2P",18866.71,31130.07,"۹ New Aftermarket"],
  ["2730178","GEAR SIDE",3287.38,5424.18,"۱ New Genuine Surplus؛ ۱۱ New Aftermarket"],
