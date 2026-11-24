@@ -2985,3 +2985,38 @@ Additional Cat-linked discovery candidates:
 479-5395, 479-5398, 458-9582, 458-9585, 3K-0360, 5P-8500, 3J-1907, 238-8648, 214-7568, 238-5082, 238-5081, 228-7092, 177-9343, 162-8873, 1U-7648, 1U-8757, 110-6326, 110-6331, 377-6969, 265-6619, 265-6618, 304-1916. These are paint, sampling accessories, seals or commonly bought track/filter items only; no fitment/interchange claims inferred.
 
 Overall reviewed progress: 67/500 batches = 670/5,000 product target (13.4%). Original Cat seed list has 117 SKUs remaining (products 671–787).
+
+## Batch 68/500 — products 671–680 (2026-11-25)
+
+SKUs: 593-1012, 593-2027, 595-3692, 595-3920, 596-1051, 597-6033, 598-0498, 598-5827, 599-7781, 5L-6954. All ten Cat pages retrieved; item-level fitment/spec/kit sections inspected. All ten DB rows re-queried and fitment arrays deduplicated.
+
+Verified updates:
+- 593-1012: Cat Heavy Duty Block rubber track, 450mm ×86mm ×56 sections, 17.717in belt width, 3.386in pitch, black, rubber/fiber rubber, HD. Fitment CTL 289D/279D/279C2/279D3/289C2/289D3.
+- 593-2027: Cat Cylinder Liner for Gas Engine G3606. Heat-treated high-grade Gray (Flake) Iron; uniform cross-hatch bore finish for ring seating/oil distribution and roll-burnished flange radius for crack resistance. Cat page publishes no additional dimensions.
+- 595-3692: Cat Engine Cylinder Piston. Cat explicitly states compatibility information is currently unavailable and specifications are still being added; fitment/spec fields remain empty.
+- 595-3920: Cat 12.7mm (0.5in) ID fuel hose assembly with 7/8in 90° elbow JIC 37° flare and 7/8in straight JIC 37° flare couplings. Overall length 10.079in; high-temperature fuel/oil hose; material Other Hose, adhesive tape/labels and carbon steel. Added eight distinct model labels across generator set, marine, marine auxiliary, industrial, engine and petroleum applications.
+- 596-1051: Cat Engine Fuel Supply Valve. Cat explicitly marks discontinued; set is_active=false. Fitment engine 3512E/3516E/3512B and trucks 793D/785C. Material Carbon Steel.
+- 597-6033: Cat Advansys 130 Penetration Plus bucket tip. Added 35 distinct labels: generator set 3512 and excavator 336D2/349 GC/340/349E L/336E LNH/349F L/349/330 GC/349F LXE/349D L/336 GC/345/336D2 XE/336E/349D2 L/349D2/330/352/350/336D2 GC/340D L/352F-VG/336D2 L/336D2 L XE/336/333/355/349D/340D2 L/336F L/336E L/349E/349F/345 GC. Specs 51.43lb, 15.63in length, 4.118in front width, 7.717in rear width, 6.236in rear height, Standard wear, Advansys 130, Penetration Plus.
+- 598-0498: Cat Cartridge-Sleeve Bearing for Wheel Loader 992K. Alloy Steel, 60.08in length. Factory-assembled sealed/oiled pin-and-bearing cartridge for linkage/work-tool rotation.
+- 598-5827: Cat Single Cylinder Head Install Kit / Single Cylinder Head Gasket Kit for Gas Engines G3508/G3512/G3516. Recorded all 24 components and quantities. Includes turbo gaskets but not fuel injector seals; Cat advises ordering a single fuel-injector seal kit separately.
+- 599-7781: Cat 3516 Engine Overhaul Major Kit, Foundational Level, for Gas Engine G3516B. Cat reports 116 components; first 32 visible lines recorded, 84 additional lines not loaded in public-page session. Kit contains gaskets and seals for complete major overhaul plus replacement items such as thermostats and gear bushings.
+- 5L-6954: Cat Elbow fitting. Added 36 distinct model labels across Gen Set Engine, SR4 generator, generator sets, marine/marine auxiliary, industrial, engine, petroleum, locomotive and gas-engine applications including legacy D379/D398/D399 and 3500/G3516/G3520 families. Material Carbon Steel.
+
+Cat pages:
+- https://parts.cat.com/en/catcorp/product/593-1012
+- https://parts.cat.com/en/catcorp/product/593-2027
+- https://parts.cat.com/en/catcorp/product/595-3692
+- https://parts.cat.com/en/catcorp/product/595-3920
+- https://parts.cat.com/en/catcorp/product/596-1051
+- https://parts.cat.com/en/catcorp/product/597-6033
+- https://parts.cat.com/en/catcorp/product/598-0498
+- https://parts.cat.com/en/catcorp/product/598-5827
+- https://parts.cat.com/en/catcorp/product/599-7781
+- https://parts.cat.com/en/catcorp/product/5L-6954
+
+Post-update verification returned all ten rows. Distinct fitment counts: 593-1012=6; 593-2027=1; 595-3692=0; 595-3920=8; 596-1051=5 (inactive); 597-6033=35; 598-0498=1; 598-5827=3; 599-7781=1; 5L-6954=36. No prices/current stock inferred.
+
+Additional Cat-linked discovery candidates:
+119-9443, 125-1372, 133-1774, 135-2651, 144-5692, 153-8455, 179-2960, 198-6067, 272-0757, 272-0758, 2J-0157, 2W-0752, 3J-7354, 420-0652, 420-0653, 591-7736, 5P-0840, 5P-6718, 5P-7204, 6V-5101, 6V-9769, 7E-3772, 7E-4127, 7N-5089, 033-6031, 105-8901, 109-2332, 109-3203, 111-1349, 111-3820, 116-1365, 121-4345, 121-5736, 122-8856, 136-7227, 153-1810, 166-2903, 180-8424, 1R-0726, 204-9598, 214-7568, 216-7485, 227-4147, 228-7097, 230-1072, 237-7623, 238-5082, 238-6646, 247-7133, 250-2343, 259-4598, 259-4600, 593-2028, 566-5491, 566-5490, 566-5489, 598-0497, 316-6138, 274-5696, 1P-3704, 1P-3705, 304-1916, 110-6326, 110-6331, 377-6969, 265-6619. Kit components and related products are discovery leads only, not universal fitment/interchange claims.
+
+Overall reviewed progress: 68/500 batches = 680/5,000 product target (13.6%). Original Cat seed list has 107 SKUs remaining (products 681–787).
