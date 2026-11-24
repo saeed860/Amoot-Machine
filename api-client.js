@@ -259,6 +259,11 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["1592950","SEAT GP-SU",3506.56,5785.82,"۲ New Aftermarket"],
+ ["1614110","PUMP GP-EO",2644.35,4363.18,"۶۶ New Aftermarket؛ ۱ Call For Pricing"],
+ ["1614111","PUMP GP-EO",2372.23,3914.18,"۷۳ New Aftermarket؛ ۱ New Genuine Surplus؛ ۱ Call For Pricing؛ ۱ Used"],
+ ["1614113","PUMP GP-EO",2203.67,3636.06,"۲۳۷ New Aftermarket؛ ۳ Call For Pricing؛ ۱ Used"],
+ ["1616634","PUMP GP-PS",5522.61,9112.31,"۶ New Aftermarket"],
  ["1494915","COMPR GP-B",2884.96,4760.18,"۲۶ New Aftermarket"],
  ["1507585","PUMP GP-GR",1951.11,3219.33,"۱۱ New Aftermarket"],
  ["1515911","MANIFOLD A",3953.28,6522.91,"در صفحه عمومی موجودی دقیق یافت نشد"],
