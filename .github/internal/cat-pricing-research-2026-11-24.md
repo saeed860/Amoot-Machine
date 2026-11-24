@@ -1532,3 +1532,35 @@ Official Cat pages checked:
 - https://parts.cat.com/en/catcorp/product/20R-0582
 
 Database checkpoint: all ten rows queried; 202-4296's complete official specifications and description were updated and re-queried. No fallback or unverified kit image was assigned. Overall reviewed progress: 26/500 batches, 260/5,000 products.
+
+
+## Batch 27/500 — SKUs 261–270 (20R-0583 through 20R-1270)
+
+All ten official Cat Parts Store pages were reviewed and all ten Supabase rows queried. Four records were corrected or completed from official fitment/specification data: 20R-0583, 20R-0615, 20R-0632 and 20R-1270. All four updates were verified with a follow-up query. No fallback or thumbnail-only image was added.
+
+| SKU | Official identity / verified detail | Image treatment |
+|---|---|---|
+| 20R-0583 | Cat Reman 3500 HD Monotherm Cylinder Pack, 14.7:1 compression ratio; preassembled pack; official fitment 3516C generator-set, 3512C/3516C marine auxiliary and marine, 3512B industrial, 3512C/3516C locomotive and 3512C petroleum engine; same-as-new 12-month warranty | No exact high-resolution asset confirmed; no image assigned |
+| 20R-0615 | Cat Reman C9 Cylinder Pack, 15.5:1 compression ratio, 8.8L; official fitment C9 marine engine; same-as-new 12-month warranty | Existing exact Cat image retained |
+| 20R-0632 | Cat Reman C18 Cylinder Pack, 14.5:1 compression ratio; preassembled liner/piston/rings/pin/retainers/connecting rod/seals; official fitment POWER SYS, C18, D550GC and D600 GC; Cat also lists 0.06 lb in its accessible specification field | Existing exact Cat image retained |
+| 20R-0651 | Cat Reman Platinum Engine Overhaul Kit; product title says 3126B and 16.1:1, while Recommended Application says 3216B and Compatible Models lists 3126E truck engine; official horsepower range 210; discrepancy preserved rather than silently normalized | No high-resolution exact asset confirmed; no image assigned |
+| 20R-0675 | Cat Reman C280 Fuel Injector; 23.6 in length × 9.3 in height; compatible 3608/3606/C280-16/3616 generator-set, C280-16/-12/-6/-8 marine, C280-12 petroleum and 3612 locomotive engines; same-as-new 12-month warranty | Existing Cat image retained at 384px; no higher-resolution exact asset confirmed |
+| 20R-0744 | Cat Reman Gold C15 Engine Overhaul Kit, 18.0:1 compression ratio; includes Bronze Kit 606-0909 ×1 plus six 10R-9611 cylinder pack assemblies; 435–550 hp; official fitment C15 truck engine | Existing Cat image retained |
+| 20R-0759 | Cat Reman Basic Fuel Injector, 3408/3412 HIA450 Prime; official Compatible Models lists Industrial Engine 3408E; no structured dimensions published | Existing Cat image retained at 384px |
+| 20R-0925 | Cat Reman C13 drilled, fracture-split connecting rod; microalloy/alloy steel; official fitment POWER SYS, C13/XQ350/XQ375 generator set, 623H/621H/627H wheel tractors, 352F OEM solution, industrial C13, excavator 352/352F/349 variants, grader 404F-22, 349E L HVG/352FMHPU mobile hydraulic units and 980K/980K HLG loaders | Existing exact Cat image retained |
+| 20R-1136 | Cat Reman C9 Tier 4 Valve Rocker Arm; 6.8 in length × 2.2 in height; broad official fitment including C9.3 generator/marine, C9.3B/C9.3 industrial, graders, loaders, D6/D7 tractors, articulated trucks, excavators and mobile hydraulic power units | Existing Cat image retained at 384px |
+| 20R-1270 | Cat Reman 3500B EI800B electronic unit injector; official fitment 3512B/3508B/3516B gen-set engines, SR4B, 3516B GEN, PM3516/PM3512/PM3508, 3512 marine, marine auxiliary, industrial/petroleum/locomotive, 854G wheel dozer and 992G wheel loader; official material field: Grease (Lanolin, Silicone) Fluid | Existing Cat image retained at 384px |
+
+Official Cat pages checked:
+- https://parts.cat.com/en/catcorp/product/20R-0583
+- https://parts.cat.com/en/catcorp/product/20R-0615
+- https://parts.cat.com/en/catcorp/product/20R-0632
+- https://parts.cat.com/en/catcorp/product/20R-0651
+- https://parts.cat.com/en/catcorp/product/20R-0675
+- https://parts.cat.com/en/catcorp/product/20R-0744
+- https://parts.cat.com/en/catcorp/product/20R-0759
+- https://parts.cat.com/en/catcorp/product/20R-0925
+- https://parts.cat.com/en/catcorp/product/20R-1136
+- https://parts.cat.com/en/catcorp/product/20R-1270
+
+Database checkpoint: all ten rows queried; the four official fitment/specification corrections were updated and re-queried successfully. Overall reviewed progress: 27/500 batches, 270/5,000 products.
