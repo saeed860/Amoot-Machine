@@ -3335,3 +3335,38 @@ Additional Cat-linked discovery candidates:
 0R-5362, 20R-0524, 360-8960, 479-4133, 346-6688, 528-0585, 471-7003, 5P-8500, 9G-2758, 8T-8729, 8N-0420, 8N-8953, 8N-8955, 7N-7415, 7L-4773. These are Cat Reman alternatives, filters, grease-gun accessories and turbocharger water-line components; no universal interchange claims.
 
 Overall reviewed progress: 77/500 batches = 770/5,000 product target (15.4%). Original Cat seed list has 17 SKUs remaining (products 771–787).
+
+## Batch 78/500 — products 771–780 (2026-11-25)
+
+SKUs: 8N-0822, 8N-8466, 8N-8836, 8R-7036, 8W-0212, 8X-9620, 9D-2734, 9N-3246, 9N-6753, 9P-9990. All ten Cat pages opened; item-level fitment/spec sections reviewed. All ten DB rows re-queried.
+
+Verified updates:
+- 8N-0822: Cat Engine and Motor Piston Ring with intermediate, top and oil rings. Added 62 distinct labels across SR4 generator, 3406/3408/3412 engine families, wheel tractors/scrapers, vehicular engines D348/D349, 983B track loader, 825C/826C compactors, 834B/824C wheel dozers, 16G grader/ripper, winches, wheel loaders, D8/D9/D10 tractors, trucks, excavators and bulldozers. Specs 5.9in length ×0.8in height.
+- 8N-8466: Cat Auxiliary Pump Group - S. Cat says description/specifications are still being added. Added 12 distinct labels: Gen Set Engine 3508/3512/3516; Generator SR4; Marine Engine 3512C/3516/3512/3508/3508C/3508B/3516B/3516C/3512B; Marine Auxiliary 3512C/3508/3516C/3512B/3508B/3516B/3512; Engine-Industrial 3512B; Industrial Engine 3508/3512/3516; Gas Engine G3512/G3516.
+- 8N-8836: Cat Basic Radiator. Cat says specifications are still being added. Added 15 distinct labels across gen-set engines 3406C/3306/3406/3408B/3408C/3406B/3408/3412C/3412/3306B; SR4 generator; Engine-Machine 3408; Generator Set 3406C; Marine Engine 3406C; Engine-Industrial 3406B; Industrial Engine 3306/3406/3412/3412E/3412C/D333C/3406C/3408E/3408B/3408C; Gas Engine G3306.
+- 8R-7036: Cat Universal Joint Bearing Spider transfers rotational motion between intersecting shafts. Added 27 distinct labels across truck 785/785G/793D/793C/789C/789D/785C/785D; wheel dozer 854/844/854G/854K/844K; off-highway truck 785/785D; rotary cutter RC20; wheel loaders 993K/994F/994D/994K/994H/992G/995/990K/994/992K/990/993/992. Cat says specifications are still being added.
+- 8W-0212: Cat Outer Plate for service and parking brake. Added 23 distinct labels across engine 3516E, trucks 785/789/793-family, Cat WDS spray ar, tractors 784C/784B, off-highway trucks 789/785/789G/793/785D/793D/789D/793F and rotary cutter RC20. Specs 27.251in ID ×35.456in OD ×0.095in thickness, Carbon Steel.
+- 8X-9620: Cat 295mm Long Ball Stud for steering-cylinder rod-end and tie-rod linkage. Added 14 distinct labels across trucks 793/793D/793B/793C/793F/789/793F AC/789C/793F CMD/789D/789B/793F OEM/793F XQ and off-highway trucks 789G/793/793D/789/789D/793F. Material Carbon Steel/Alloy Steel/Low Alloy Steel; overall length 295mm.
+- 9D-2734: Cat 0.8mm Thick Fuel Pump and Governor Gasket / Rectangular Seal. Added 35 distinct labels across SR4/SR4B/SR4BHV generators, 651/657 wheel tractors/scrapers, G3516/G3520 gen sets, PMG3516 power module, 3500/C280 marine/marine auxiliary, industrial/petroleum engines, locomotive engines, 3508B off-highway truck, gas engines and LD700E. NBR material; compatible with air, engine oil, diesel fuel, coolant/urea, hydraulic oil and ATF, not biodiesel. Specs 0.15in cross-section width, 2.28in ID, 0.3in cross-section height.
+- 9N-3246: Cat Nozzle Assembly - Fuel Valve. Fitment Gen Set Engine 3406; Engine-Machine 3408; Truck Engine 3406; Industrial Engine 3412/3406/3408B. Specs 4.5in length ×0.1in height.
+- 9N-6753: Cat Turbocharger Group for Truck Engine 3408/3408B. Specs 13.7in length ×14.9in height. Cat Compare Alternate Parts lists 0R-5382 Cat Reman Turbocharger; confirm serial-number applicability.
+- 9P-9990: Cat 214mm Overall Length Ductile Iron Cast Retainer. Fitment D11R/D11T/D11N/D10/D11 XE/D11 track-type tractors; ripper 11/10; bulldozers 10S/10U/11SU/11U/10C. Specs Cast Iron material description, 8.425in length ×8.425in width ×1.732in height, 1.102in hole size; material fields Boron Steel/Ductile Spheroidal Iron/Low Alloy Steel.
+
+Cat pages:
+- https://parts.cat.com/en/catcorp/product/8N-0822
+- https://parts.cat.com/en/catcorp/product/8N-8466
+- https://parts.cat.com/en/catcorp/product/8N-8836
+- https://parts.cat.com/en/catcorp/product/8R-7036
+- https://parts.cat.com/en/catcorp/product/8W-0212
+- https://parts.cat.com/en/catcorp/product/8X-9620
+- https://parts.cat.com/en/catcorp/product/9D-2734
+- https://parts.cat.com/en/catcorp/product/9N-3246
+- https://parts.cat.com/en/catcorp/product/9N-6753
+- https://parts.cat.com/en/catcorp/product/9P-9990
+
+Post-update verification returned all ten rows. Distinct fitment counts: 8N-0822=62; 8N-8466=12; 8N-8836=15; 8R-7036=27; 8W-0212=23; 8X-9620=14; 9D-2734=35; 9N-3246=4; 9N-6753=2; 9P-9990=13. No prices/current stock inferred.
+
+Additional Cat-linked discovery candidates:
+328-5574, 9L-5854, 2S-2251, 253-1752, 8S-7928, 2S-6498, 9M-7539, 3J-1907, 8M-5661, 0R-5382. These are connecting-rod bearings, filler bands, O-rings, crankshaft thrust plates, seals and Cat Reman turbocharger alternative; candidate-only, not fitment/interchange proof.
+
+Overall reviewed progress: 78/500 batches = 780/5,000 product target (15.6%). Original Cat seed list has 7 SKUs remaining (products 781–787).
