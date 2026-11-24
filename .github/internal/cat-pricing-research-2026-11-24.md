@@ -3125,3 +3125,38 @@ Additional Cat-linked discovery candidates:
 201-9119, 213-1971, 216-1556, 301-2287, 301-2307, 330-5418, 395-3569, 395-3570, 430-3336, 465-7727, 524-3181, 558-2434, 569-4555, 569-4556, 571-3747, 609-0861, 609-0867, 609-0876, 609-0896, 610-2801, 610-4693, 150-4767, 300-4610, 528-2933, 575-6593, 6Y-0473, 7G-4332, 304-1916, 110-6326, 110-6331, 377-6969, 265-6619, 265-6618. These are related link assemblies, track shoes/rollers, nuts and commonly bought filters; they are discovery candidates only, not interchangeability evidence.
 
 Overall reviewed progress: 71/500 batches = 710/5,000 product target (14.2%). Original Cat seed list has 77 SKUs remaining (products 711–787).
+
+## Batch 72/500 — products 711–720 (2026-11-25)
+
+SKUs: 617-8509, 618-8046, 619-9945, 620-6380, 620-6402, 623-9031, 626-4231, 627-7250, 632-5510, 635-7538. Seven pages provided usable data; 617-8509 returned an access/404 error, 632-5510 and 635-7538 were inaccessible. All ten DB rows re-queried.
+
+Verified updates:
+- 617-8509: Cat page inaccessible; no change.
+- 618-8046: Cat C15 Engine Overhaul Kit. Recorded all nine kit line items and quantities: 160-9874 Single Cylinder Liner Gasket Kit ×6; 250-2940 Pin Retainer ×12; 306-4014 137mm Oil Piston Ring ×6; 306-4016 138mm Intermediate Piston Ring ×6; 310-4188 138mm Top Piston Ring ×6; 325-9492 Engine Piston Body ×6; 524-5565 59.975mm Piston Pin ×6; 586-3377 137.185mm ID Cylinder Block Liner ×6; 606-0909 Engine Overhaul (Bronze) Kit ×1. Cat says specifications are still being added.
+- 619-9945: Cat Idler Group, Standard Application, 292mm rim width, interchangeable machine side, 766mm/30.157in tread diameter. Fitment D10N/D10R/D10T2/D10/D10T. Specs 31.732in center flange diameter, 5.217in flange width, HD, 21.693in shaft, 2.733in shaft protrusion, 11.496in rim width. Cat Compare Alternate Parts displays 125-3537 and 167-1946; not treated as universal interchange.
+- 620-6380: Cat Single-Flange Track Roller Group, Standard Application, 247mm tread, 326.16mm mounting width, carrier-roller compatible. Fitment D8T/D8R/D8R II/D8GC/D8 GC/D8/D8 XE. Specs 9.724in tread, 12.841in mounting width, HD, 17.953in shaft, 9.173in link outside spread, 3.606in inside spread, 2.283in shaft OD, 10.827in outer flange.
+- 620-6402: Cat Double-Flange Track Roller Group, Standard Application, 241mm tread, 306.74mm mounting width. Fitment D8T/D8R/D8GC/D8 GC/D8/D8 XE. Specs 9.488in tread, 12.076in mounting width, HD, 17.975in shaft, not carrier-roller compatible, 9.512in link outside spread, 3.819in inside spread, 2.283in shaft OD, 10.827in outer flange. Cat Compare Alternate Parts shows 523-2224/620-6403/620-6405; related parts include 525-1082 and 615-6360.
+- 623-9031: Cat Lubrication Pump for Cylinder Lines in centralized lubrication system. Fitment D9/D10/D11 XE/D11. Specs 22.59in length, 13.84in width, 35.71lb; Plastic/Nylon 6/Nylon 6/12/Nylon 6/6 and Grease Fluid. Cat page labels height as 273.9in, which appears unit-inconsistent; preserved verbatim rather than silently converting. Parts diagram includes 346-8243 and 389-1079; related components include 6V-8398, 344-0004 and 380-8941.
+- 626-4231: Cat BU115 polypropylene Utility Broom. Fitment CTL 285XE/285/253/275/265/255/275XE; skid steers 250/270/260/270XE; attachment BU115. Specs 71.3in overall width, 59.1in sweeping width, 26.2in brush diameter, standard flow without electrical, 31.2in height, 60.2in length, 948lb, 30–86L/min, 145–241bar, 24.1in³/rev motor displacement, 210rpm brush speed, direct drive, polypropylene bristles.
+- 627-7250: Cat Auxiliary Sea Water Pump. Fitment Generator Set C32; Marine Auxiliary C32B; Marine Engine C32B/C32 MARINE/C32; Engine C32 MARINE. Material Alloy Copper. Cat Reman alternate 11R-2486; related items 310-3954/8H-7521/167-4407/1R-1808/214-7566.
+- 632-5510: Cat page inaccessible; existing record retained.
+- 635-7538: Cat page inaccessible; existing record retained.
+
+Cat pages:
+- https://parts.cat.com/en/catcorp/product/617-8509
+- https://parts.cat.com/en/catcorp/product/618-8046
+- https://parts.cat.com/en/catcorp/product/619-9945
+- https://parts.cat.com/en/catcorp/product/620-6380
+- https://parts.cat.com/en/catcorp/product/620-6402
+- https://parts.cat.com/en/catcorp/product/623-9031
+- https://parts.cat.com/en/catcorp/product/626-4231
+- https://parts.cat.com/en/catcorp/product/627-7250
+- https://parts.cat.com/en/catcorp/product/632-5510
+- https://parts.cat.com/en/catcorp/product/635-7538
+
+Post-update verification returned all ten rows. Distinct compatible-model counts: 617-8509=0 (unchanged); 618-8046=1; 619-9945=5; 620-6380=7; 620-6402=6; 623-9031=4; 626-4231=12; 627-7250=3; 632-5510=0 (unchanged); 635-7538=0 (unchanged). No prices/current stock inferred.
+
+Additional Cat-linked discovery candidates:
+160-9874, 250-2940, 306-4014, 306-4016, 310-4188, 325-9492, 524-5565, 586-3377, 606-0909, 125-3537, 167-1946, 525-1082, 615-6360, 523-2224, 620-6403, 620-6405, 346-8243, 389-1079, 6V-8398, 344-0004, 380-8941, 310-3954, 8H-7521, 167-4407, 1R-1808, 214-7566, 11R-2486. Kit components, alternate rollers and pump accessories are candidate leads only; not universal fitment/interchange claims.
+
+Overall reviewed progress: 72/500 batches = 720/5,000 product target (14.4%). Original Cat seed list has 67 SKUs remaining (products 721–787).
