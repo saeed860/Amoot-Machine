@@ -259,6 +259,7 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["8R7036","SPIDER G",1887.40,3114.21,"۳ New Genuine Surplus؛ ۵۱ New Aftermarket؛ ۱ Used"],
  ["6V5839","WASHER",0.54,0.89,"۲۴٬۷۹۰ New Genuine Surplus؛ ۶٬۳۵۱ New Aftermarket"],
  ["3W6551","SHAFT",1398.87,2308.14,"۳۴ New Aftermarket"],
  ["3W7515","CYLINDER A",1796.91,2964.90,"۲۰ New Aftermarket"],
