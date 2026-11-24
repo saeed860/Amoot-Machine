@@ -259,6 +259,11 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["3P1465","SPRING",2682.21,4425.65,"۴۷ New Aftermarket"],
+ ["3P7958","PUMP GRPGE",2224.78,3670.89,"۱۰ New Aftermarket"],
+ ["3T7897","PUMP G",3377.90,5573.53,"۲ New Aftermarket"],
+ ["3T8098","PUMP G",5510.47,9092.28,"۱۰ New Aftermarket"],
+ ["3W6144","HUB",5172.78,8535.09,"۴ New Aftermarket"],
  ["3E7577","ALTERNATOR G",1555.23,2566.13,"۶۴ New Aftermarket؛ ۱ Core؛ ۱ Call For Pricing؛ ۱ Used"],
  ["3G4768","PUMP G",2547.12,4202.75,"۴۱ New Aftermarket"],
  ["3G5868","PUMP G",3653.77,6028.72,"۲۱ New Aftermarket؛ ۱ Call For Pricing"],
