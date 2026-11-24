@@ -450,3 +450,9 @@
  .detail-image img{height:220px}
 }
 @media(max-width:390px){.product-img{height:158px}}
+
+
+/* Banner: remove the decorative orange wedge; keep the full photo area clean. */
+.hero-stripe{display:none!important}
+.hero-photo{background-size:cover;background-repeat:no-repeat;background-color:#202326;background-position:center center}
+@media(max-width:720px){.hero-photo{background-size:cover;background-position:center center}}
