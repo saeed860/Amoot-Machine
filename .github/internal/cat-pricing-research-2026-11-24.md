@@ -1275,3 +1275,35 @@ All ten official Cat Parts Store product pages were opened and reviewed; all ten
 Official pages checked: https://parts.cat.com/en/catcorp/product/11R-1405; /11R-1406; /11R-2060; /11R-2061; /11R-2113; /11R-2194; /11R-2387; /11R-2388; /11R-2389; /11R-2442.
 
 Database checkpoint: all 10 rows verified. No questionable/thumbnail images were added. Overall manual progress: 18/50 batches, 180/500 SKUs.
+
+
+## Batch 19/50 — SKUs 181–190 (121-2630 through 128-8614)
+
+All ten official Cat product pages were opened and checked; all ten corresponding Supabase rows were queried. Catalog identities, published specifications, compatible-model arrays and exact-image decisions were checked against the official pages. Existing enrichment was retained where it matched; no generic fallback imagery was added.
+
+| SKU | Official identity / source-verified detail | Image treatment |
+|---|---|---|
+| 121-2630 | Cat Fuel Injector Group; 12.3 in length × 4.8 in height; coated plungers, low-sulfur/low-lubricity fuel design and 12-month warranty; 3512/3516 generator, marine and industrial engines | Existing exact official Scene7 image retained |
+| 122-2311 | Cat Adapter; Cat publishes fitment for 3608/3606/3616 generator engines and C280-16/-12/-6/-8 marine/petroleum engines; no function/specifications published | Fallback image only; omitted |
+| 126-1768 | Cat 19 mm Long Connector Socket for lighting wiring harness; extensive integrated-toolcarrier, utility vehicle, mini-excavator, rotary-drill, forestry and excavator fitment | Existing exact official Scene7 image retained |
+| 126-8588 | Cat Undercarriage Rear Bogie; structural/alloy steel; D10N/D10R/D10T2/D10T track-type tractors | Existing exact official Scene7 image retained |
+| 127-2176 | Cat 1.6 mm Carrier-Thick Integral Seal Gasket (Edge-Bonded); HNBR seal, 0.063 in thickness, 2-bolt flange; extensive 3500-family, generator, marine, mining, truck and industrial fitment | Existing exact official Scene7 image retained |
+| 127-2441 | Cat Exhaust Kit; 111-5819 ×1, 111-5822 ×1, 136-7730 ×8, 166-4572 ×1, 2W-0439 ×1; 3606/3608/3612/3616 and C280 applications | Kit image is fallback; component photos are not the kit; omitted |
+| 127-2442 | Cat Exhaust Kit Parts; 133-5179 ×2, 133-8081 ×2, 619-3057 ×1; 3606 generator and C280 marine applications | Kit image is fallback; component photos are not the kit; omitted |
+| 128-4414 | Cat Undercarriage Front Bogie; alloy/structural steel; D10N/D10R/D10T2/D10/D10T | Existing exact official Scene7 image retained |
+| 128-7256 | Cat Undercarriage Front Bogie; structural/alloy steel; D11N/D11R/D11T/D11 XE/D11 | Existing exact official Scene7 image retained |
+| 128-8614 | Cat Seal Kit for Water Collection Bowl; seals for element header, drain valve, bowl header and bowl bolt; broad Cat truck-engine, toolcarrier, grader, skidder, tractor, excavator, paver, compactor and loader fitment | Existing exact official Scene7 image retained |
+
+Official Cat pages checked:
+- https://parts.cat.com/en/catcorp/product/121-2630
+- https://parts.cat.com/en/catcorp/product/122-2311
+- https://parts.cat.com/en/catcorp/product/126-1768
+- https://parts.cat.com/en/catcorp/product/126-8588
+- https://parts.cat.com/en/catcorp/product/127-2176
+- https://parts.cat.com/en/catcorp/product/127-2441
+- https://parts.cat.com/en/catcorp/product/127-2442
+- https://parts.cat.com/en/catcorp/product/128-4414
+- https://parts.cat.com/en/catcorp/product/128-7256
+- https://parts.cat.com/en/catcorp/product/128-8614
+
+Database checkpoint: all 10 rows verified. Existing exact official images retained for 8 products; the adapter and exhaust-kit fallback images were deliberately omitted. Overall manual progress: 19/50 batches, 190/500 SKUs.
