@@ -1798,3 +1798,33 @@ Official Cat pages checked:
 - https://parts.cat.com/en/catcorp/product/20R-6518
 
 Database checkpoint: all ten rows queried; 20R-5681 engine and compatible-model fields updated and re-queried successfully. Overall reviewed progress: 33/500 batches, 330/5,000 products.
+
+
+## Batch 34/500 — SKUs 331–340 (20R-6618 through 20R-7555)
+
+Ten source-list entries and Supabase rows were checked. Nine Cat Parts Store product pages were opened and inspected; the public page for 20R-7555 was inaccessible through the current fetch route, so its existing DB record was not changed. Three DB compatibility corrections were applied and re-queried:
+- 20R-6618: D3500 Monotherm cylinder pack, 14.0:1. Cat publishes a real fitment list: 3516B GEN/3516B/3512B, PM3516, 854G, 994D/992G, D11R/D11N, 5230B/5130B, 785/789/793D/793C/789C/789D/777B/789B/785C/777D/785D/785B, and 776D/784C. Added to DB.
+- 20R-6628: G3600 prechamber kit with Cat Reman check valve; Cat page's compatible models are industrial G3606B and gas engines G3608/G3612/G3606/G3616. Added to DB.
+- 20R-7411: C15 Platinum engine overhaul kit, 18.0:1. Cat page's Compatible Models lists Truck Engine C15; added to DB.
+Other records reviewed:
+- 20R-6833: 24V Cat Brake variable valve actuator; official fitment covers 740/745/735 articulated trucks, 631K/637K/657 tractors/scrapers, C15/C18 industrial engines, 770/772G trucks/quarry trucks, 834H/834K dozers, 24M grader and 988/986 loaders; DB matched.
+- 20R-7175: Tier 3 auxiliary seawater pump (3406E/C18); official POWER SYS, C18 gen-set/marine/petroleum package and C-15 petroleum engine; DB matched.
+- 20R-7306: Cat Reman 24V UTN HID flood lamp; Cat page explicitly marks it Discontinued and says part is no longer available. DB is_active=false and availability_status=Discontinued; retained.
+- 20R-7307: Cat Reman 24V UTN HID flood lamp; official fitment D10T2/D10T/D11T, IT62H, 613G, 793/795/797/773/789/785/777 truck families, CAT WDS, 345D/349D/320D/374D/390D excavators, dozers, graders, landfill compactors and loaders; DB fitment reviewed.
+- 20R-7547: 3406B camshaft kit; Cat lists Truck Engine 3406C/3406B and Industrial Engine 3406B; DB matched.
+- 20R-7549: 3406C camshaft kit; Cat lists Truck Engine 3406C; DB matched.
+- 20R-7555: 3408 camshaft kit; Cat page fetch failed. DB remains at recommended application 3408 only; no fitment inferred.
+
+Official Cat pages checked:
+- https://parts.cat.com/en/catcorp/product/20R-6618
+- https://parts.cat.com/en/catcorp/product/20R-6628
+- https://parts.cat.com/en/catcorp/product/20R-6833
+- https://parts.cat.com/en/catcorp/product/20R-7175
+- https://parts.cat.com/en/catcorp/product/20R-7306
+- https://parts.cat.com/en/catcorp/product/20R-7307
+- https://parts.cat.com/en/catcorp/product/20R-7411
+- https://parts.cat.com/en/catcorp/product/20R-7547
+- https://parts.cat.com/en/catcorp/product/20R-7549
+- https://parts.cat.com/en/catcorp/product/20R-7555 (fetch inaccessible)
+
+Database checkpoint: all ten rows queried; corrections for 20R-6618, 20R-6628 and 20R-7411 were re-queried successfully. Overall reviewed progress: 34/500 batches, 340/5,000 products.
