@@ -2431,3 +2431,38 @@ Additional Cat-linked discovery candidates:
 358-5259, 7T-5959, 327-6618, 5I-8670, 479-4131, 1R-1808, 1R-0749, 322-3155, 093-7521, 327-6618, 337-1943, 9X-7307, 123-2941, 7D-7519, 341-8543, 364-9371, 375-0296, 228-7090, 364-5898. All are related/commonly purchased leads, not proof of fitment or interchangeability.
 
 Overall reviewed progress: 51/500 batches = 510/5,000 product target (10.2%). Original Cat seed list has 277 SKUs remaining (products 511–787).
+
+## Batch 52/500 — products 511–520 (2026-11-25)
+
+SKUs: 367-8137, 368-9037, 370-4617, 373-6968, 375-4809, 376-2724, 377-6969, 380-5938, 380-5940, 380-5946. All ten Cat product pages were retrieved; item-level specifications and fitment sections inspected. All ten database records re-queried after updates and model arrays deduplicated.
+
+Verified updates:
+- 367-8137: Cat Track Seal, 66.85mm (2.632in) OD, 1.25in ID, NBR/HNBR/XNBR rubber. Cat fitment: multi-terrain loaders 257B/247B/247/257. Cat says seals maintain lubrication and keep dirt/contaminants out of the pin-and-bushing cavity.
+- 368-9037: Cat 10.92mm ID Fuel Hose Assembly. Confirmed C32 Generator Set, Marine Auxiliary and Marine Engine. Material alloy copper, carbon steel and hose.
+- 370-4617: Cat 4-meter programming cable for ECU-to-computer/diagnostic-tool communications. Specs: 22 AWG, 1lb, polyurethane plastic. Cat public page does not provide compatible-model information; fitment remains empty.
+- 373-6968: Cat 38mm hydraulic quick coupler, female end. Added 51 compatible model labels across MTL, CTL, skid-steer loaders, compact wheel loaders and wheel loaders. Material description plated steel; materials carbon steel and alloy zinc. Cat page also displays 373-6967 as a different 54mm coupler; not assumed interchangeable.
+- 375-4809: Cat fluid-carrying tube assembly. Confirmed Marine Auxiliary 3512C/3516C; Marine Engine 3516C/3516E/3512C/3512E; Engine 3512E/3516C/3516E/3512C; Industrial Engine 3512E. Specs 0.98in OD; steel, mixed-metal alloy and carbon steel.
+- 376-2724: Cat Engine Fuel Rail. Confirmed Engine-Machine CT13; Truck Engine CT11/CT13 SCR/CT13/CT15; On-Highway Truck CT680/CT681/CT660. Material steel/carbon steel; weight 8.1lb.
+- 377-6969: Cat Standard Efficiency Engine Oil Filter, spin-on. Added 92 distinct fitment labels across MTL, CTL, asphalt pavers, mini excavators, skid-steer loaders, compact wheel loaders and wheel loaders. Specs 3.661in diameter ×3.661in length, Out-to-In, carbon steel, Standard Efficiency, Spin-On. Cat describes fiberglass spiral roving and acrylic beads that stabilize pleats and retain contaminants.
+- 380-5938: Cat SALT Track Group, D10T2/D10/D10. 44 sections, 1-tooth master, single grouser, PPR, ES shoe, HD undercarriage, 610mm shoe width, 260.4mm pitch, 5.315in sprocket-side inside spread, 3.74in bushing ID, 1.125in track/master bolt thread, no RBT/ARM/clipping/wear sensor.
+- 380-5940: Cat SALT Track Group, D10T2/D10/D10. 44 sections, 1-tooth master, single grouser, PPR, SES shoe, HD undercarriage, 610mm shoe width, 260.4mm pitch, 5.315in sprocket-side inside spread, 3.74in bushing ID, 1.125in track/master bolt thread, no RBT/ARM/clipping/wear sensor.
+- 380-5946: Cat Link Assembly, D10T2/D10/D10. 1-tooth master, 44 sections, PPR, SALT, HD undercarriage, 260.4mm pitch. Specs: 4.921in sprocket inside spread, 5.551in roller inside spread, 2.264in rail-to-bushing OD, 3.15/7.48/9.843in shoe-bolt spacings, 3.74in bushing OD, 11.496in outside spread, 1.164in bolt-hole diameter, 2.362in rail-to-pin-boss OD, 1.125in track/master bolt thread, 11.974in pin length, 7.126in link height. Cat Compare Alternate Parts panel displays 458-7813 and 526-3004; these are candidate alternatives only, not guaranteed interchangeable.
+
+Cat pages:
+- https://parts.cat.com/en/catcorp/product/367-8137
+- https://parts.cat.com/en/catcorp/product/368-9037
+- https://parts.cat.com/en/catcorp/product/370-4617
+- https://parts.cat.com/en/catcorp/product/373-6968
+- https://parts.cat.com/en/catcorp/product/375-4809
+- https://parts.cat.com/en/catcorp/product/376-2724
+- https://parts.cat.com/en/catcorp/product/377-6969
+- https://parts.cat.com/en/catcorp/product/380-5938
+- https://parts.cat.com/en/catcorp/product/380-5940
+- https://parts.cat.com/en/catcorp/product/380-5946
+
+Post-update verification returned all ten rows. Distinct compatible-model counts: 367-8137=4; 368-9037=1; 370-4617=0; 373-6968=51; 375-4809=4; 376-2724=7; 377-6969=92; 380-5938=3; 380-5940=3; 380-5946=3. No prices, stock or unverified interchangeability inferred.
+
+Additional Cat-linked discovery candidates:
+7T-9754, 7T-9755, 215-4006, 212-6681, 3P-8681, 457-6114, 3J-1907, 538-5051, 5P-8500, 1R-1808, 373-6967, 6V-9746, 153-2994, 153-2995, 5K-9090, 131-4863, 8C-6875, 6V-8734, 196-9420, 376-2652, 376-2468, 513-4490, 110-6326, 363-5819, 110-6331, 541-6956, 265-6619, 433-6739, 309-7679, 309-7678, 306-9447, 9M-5894, 131-1650, 458-7813, 526-3004. These are related parts or Cat compare-alternate candidates and are not fitment/interchangeability proof.
+
+Overall reviewed progress: 52/500 batches = 520/5,000 product target (10.4%). Original Cat seed list has 267 SKUs remaining (products 521–787).
