@@ -65,6 +65,63 @@
 | SKU | شرح | OEM USD | قیمت آموت USD | وضعیت نمایش‌داده‌شده | صفحه منبع |
 
 |---|---|---:|---:|---|---|
+| 2237962 | CORE AS. | 1,853.84 | 3,058.84 | ۲۶۸ New Aftermarket | https://offroadeq.com/parts/2237962 |
+| 2239250 | HEAD GP-CY | 10,065.28 | 16,607.71 | ۶۴ New Aftermarket | https://offroadeq.com/parts/2239250 |
+| 2244122 | FRAME AS | 14,832.96 | 24,474.38 | ۱ New Aftermarket | https://offroadeq.com/parts/2244122 |
+| 2267683 | ALTERNATOR | 1,563.04 | 2,579.02 | ۲۹ New Genuine Surplus؛ ۴۴ New Aftermarket | https://offroadeq.com/parts/2267683 |
+| 2226926 | BAR GP-EQU | 12,873.57 | 21,241.39 | ۸ New Aftermarket؛ ۱ Rebuilt | https://offroadeq.com/parts/2226926 |
+| 2229219 | SPINDLE | 7,014.40 | 11,573.76 | ۹ New Aftermarket | https://offroadeq.com/parts/2229219 |
+| 2231608 | PUMP GP-BE | 1,656.37 | 2,733.01 | ۶۸ New Aftermarket؛ ۱ Used | https://offroadeq.com/parts/2231608 |
+| 2237263 | HEAD AS | 6,842.03 | 11,289.35 | ۳۴ New Aftermarket؛ ۸ New Aftermarket Loaded | https://offroadeq.com/parts/2237263 |
+| 2237468 | CAMSHAFT A | 3,209.05 | 5,294.93 | ۴۳ New Aftermarket؛ ۱ Call For Pricing | https://offroadeq.com/parts/2237468 |
+| 2195847 | HEAD GP-CY | 5,000.52 | 8,250.86 | ۱۹ New Aftermarket؛ ۱ Used | https://offroadeq.com/parts/2195847 |
+| 2223676 | BAR GP | 24,587.40 | 40,569.21 | ۱۰ New Aftermarket | https://offroadeq.com/parts/2223676 |
+| 2225152 | KIT-REBUIL | 1,314.13 | 2,168.31 | ۱۵ New Aftermarket | https://offroadeq.com/parts/2225152 |
+| 2225153 | KIT-REBUIL | 1,271.42 | 2,097.84 | ۵۲ New Aftermarket | https://offroadeq.com/parts/2225153 |
+| 2120403 | CONT GP-XMSN | 1,509.33 | 2,490.39 | ۱۲ New Aftermarket | https://offroadeq.com/parts/2120403 |
+| 2125024 | CONE | 1,791.15 | 2,955.40 | ۱ New Genuine Surplus؛ ۳۵ New Aftermarket | https://offroadeq.com/parts/2125024 |
+| 2128177 | PUMP GP-WA | 2,281.11 | 3,763.83 | ۷۲ New Aftermarket؛ ۴ Call For Pricing | https://offroadeq.com/parts/2128177 |
+| 2135268 | MOTOR G | 3,660.01 | 6,039.02 | ۲ New Aftermarket؛ ۳ Call For Pricing | https://offroadeq.com/parts/2135268 |
+| 2145097 | STEERING CYL | 1,247.99 | 2,059.18 | ۶ New Aftermarket | https://offroadeq.com/parts/2145097 |
+| 2065889 | A/C CONDEN | 1,487.33 | 2,454.09 | ۲۵ New Aftermarket | https://offroadeq.com/parts/2065889 |
+| 2071517 | MOTOR G | 1,519.79 | 2,507.65 | ۹۷ New Aftermarket | https://offroadeq.com/parts/2071517 |
+| 2071556 | MOTOR GP-ELE | 1,552.19 | 2,561.11 | ۴۵ New Aftermarket؛ ۱ Used | https://offroadeq.com/parts/2071556 |
+| 2071560 | MOTOR G | 1,485.78 | 2,451.54 | ۷۰ New Aftermarket | https://offroadeq.com/parts/2071560 |
+| 2114987 | MOUNT-SUSP | 1,517.33 | 2,503.59 | ۳۲ New Aftermarket؛ ۲ New Genuine Surplus؛ ۶ Used | https://offroadeq.com/parts/2114987 |
+| 2024304 | IDLER G TRAC | 1,629.25 | 2,688.26 | ۷ New Aftermarket | https://offroadeq.com/parts/2024304 |
+| 2044995 | PUMP GP-GR | 2,699.69 | 4,454.49 | ۸ New Aftermarket | https://offroadeq.com/parts/2044995 |
+| 2045462 | TURBO GP-B | 10,778.43 | 17,784.41 | ۱۱ New Aftermarket | https://offroadeq.com/parts/2045462 |
+| 2061556 | HEAD GP-CY | 3,033.42 | 5,005.14 | ۲۲ New Aftermarket؛ ۱۲ Call For Pricing | https://offroadeq.com/parts/2061556 |
+| 2065214 | SHAFT | 27,588.46 | 45,520.96 | ۳ New Aftermarket | https://offroadeq.com/parts/2065214 |
+| 1941252 | SPRING GP- | 10,101.24 | 16,667.05 | ۱۶ New Aftermarket | https://offroadeq.com/parts/1941252 |
+| 1956617 | PUMP GP-ME | 1,989.45 | 3,282.59 | ۳ New Aftermarket | https://offroadeq.com/parts/1956617 |
+| 1967795 | BRG AS SPL | 10,764.70 | 17,761.76 | ۶ New Aftermarket | https://offroadeq.com/parts/1967795 |
+| 1978820 | ALTERNATOR | 1,563.04 | 2,579.02 | ۶۴ New Aftermarket؛ ۱ Used | https://offroadeq.com/parts/1978820 |
+| 1873523 | CORE AS | 3,123.08 | 5,153.08 | ۲۱ New Aftermarket؛ ۱ Used | https://offroadeq.com/parts/1873523 |
+| 1879090 | PUMP GP-PS-B | 2,163.16 | 3,569.21 | ۲۳ New Aftermarket؛ ۱ Used | https://offroadeq.com/parts/1879090 |
+| 1883865 | TC GP-W/TDR | 10,015.50 | 16,525.58 | ۷ New Aftermarket | https://offroadeq.com/parts/1883865 |
+| 1888697 | BEARING | 1,846.96 | 3,047.48 | ۳۹۹ New Aftermarket؛ ۴ New Genuine Surplus | https://offroadeq.com/parts/1888697 |
+| 1795922 | TURBO GP-BAS | 5,433.02 | 8,964.48 | ۵ New Aftermarket | https://offroadeq.com/parts/1795922 |
+| 1835296 | HEAD GP-CY | 10,065.28 | 16,607.71 | ۲۵۴ New Aftermarket | https://offroadeq.com/parts/1835296 |
+| 1851016 | RADIATOR G | 2,307.84 | 3,807.94 | ۲ New Aftermarket | https://offroadeq.com/parts/1851016 |
+| 1855294 | ALTERNATOR G | 1,515.46 | 2,500.51 | ۶۵ New Aftermarket؛ ۱ New Genuine Surplus | https://offroadeq.com/parts/1855294 |
+| 1857593 | DRIVE GP-FIN | 56,113.50 | 92,587.27 | ۲ New Aftermarket | https://offroadeq.com/parts/1857593 |
+| 1727766 | PUMP GP-WT | 1,603.90 | 2,646.43 | ۲۸۰ New Aftermarket | https://offroadeq.com/parts/1727766 |
+| 1738612 | CYLINDER G | 20,144.33 | 33,238.14 | ۲ New Aftermarket | https://offroadeq.com/parts/1738612 |
+| 1774651 | BAR GP | 17,513.33 | 28,896.99 | ۱۳ New Aftermarket | https://offroadeq.com/parts/1774651 |
+| 1779953 | ALTERNATOR G | 1,559.51 | 2,573.19 | ۲ New Aftermarket؛ ۱ New Genuine Surplus | https://offroadeq.com/parts/1779953 |
+| 1643692 | SENSOR GP- | 1,248.73 | 2,060.40 | ۴ New Genuine Surplus؛ ۶۹ New Aftermarket؛ ۲ Used | https://offroadeq.com/parts/1643692 |
+| 1658633 | CYL GP-0121- | 10,825.16 | 17,861.51 | در موجودی دقیق فروشنده یافت نشد؛ قیمت OEM List موجود است | https://offroadeq.com/parts/1658633 |
+| 1592950 | SEAT GP-SU | 3,506.56 | 5,785.82 | ۲ New Aftermarket | https://offroadeq.com/parts/1592950 |
+| 1614110 | PUMP GP-EO | 2,644.35 | 4,363.18 | ۶۶ New Aftermarket؛ ۱ Call For Pricing | https://offroadeq.com/parts/1614110 |
+| 1614111 | PUMP GP-EO | 2,372.23 | 3,914.18 | ۷۳ New Aftermarket؛ ۱ New Genuine Surplus؛ ۱ Call For Pricing؛ ۱ Used | https://offroadeq.com/parts/1614111 |
+| 1614113 | PUMP GP-EO | 2,203.67 | 3,636.06 | ۲۳۷ New Aftermarket؛ ۳ Call For Pricing؛ ۱ Used | https://offroadeq.com/parts/1614113 |
+| 1616634 | PUMP GP-PS | 5,522.61 | 9,112.31 | ۶ New Aftermarket | https://offroadeq.com/parts/1616634 |
+| 1494915 | COMPR GP-B | 2,884.96 | 4,760.18 | ۲۶ New Aftermarket | https://offroadeq.com/parts/1494915 |
+| 1507585 | PUMP GP-GR | 1,951.11 | 3,219.33 | ۱۱ New Aftermarket | https://offroadeq.com/parts/1507585 |
+| 1515911 | MANIFOLD A | 3,953.28 | 6,522.91 | در صفحه عمومی موجودی دقیق یافت نشد | https://offroadeq.com/parts/1515911 |
+| 1519385 | MONITOR GP | 3,804.27 | 6,277.05 | ۹ New Aftermarket؛ ۱ Used | https://offroadeq.com/parts/1519385 |
+| 1539624 | PUMP GP-PS | 7,781.23 | 12,839.03 | ۲ New Aftermarket | https://offroadeq.com/parts/1539624 |
 | 1417916 | CARTRIDGE | 2,045.66 | 3,375.34 | ۱۰ New Aftermarket | https://offroadeq.com/parts/1417916 |
 | 1440725 | ROD AS | 2,372.57 | 3,914.74 | ۱۳۹ New Aftermarket؛ ۱۲ Used | https://offroadeq.com/parts/1440725 |
 | 1484644 | DRIVE GP | 19,197.19 | 31,675.36 | ۱۳ New Aftermarket | https://offroadeq.com/parts/1484644 |
