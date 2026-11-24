@@ -259,6 +259,11 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["8E2900","SHAFT PI",34744.49,57328.41,"۱ New Aftermarket؛ ۱ Rebuilt"],
+ ["8E6709","PUMP G",3944.38,6508.23,"۱۳ New Aftermarket"],
+ ["8E6758","CONNECTO",2153.05,3552.53,"۶۴ New Aftermarket؛ ۱ New Genuine Surplus؛ ۱ Used"],
+ ["8E7569","CASE",7710.61,12722.51,"۱۳ New Aftermarket"],
+ ["8J0498","PUMP G",10276.60,16956.39,"۳ New Aftermarket"],
  ["7W5455","CORE A",5203.16,8585.21,"۳ New Aftermarket"],
  ["7Y1508","MUFFLER",1307.39,2157.19,"۲ New Aftermarket؛ ۲ Used"],
  ["8E2748","HUB",2512.16,4145.06,"۶۳ New Aftermarket"],
