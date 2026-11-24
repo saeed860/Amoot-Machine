@@ -483,3 +483,8 @@ The Off Road full inventory search page was tested again. Its public content exp
 The C9 research document now records these four as third-party discovery candidates. In particular, the third-party EPC listing for **245-3777** says it is a keel-cooled-only auxiliary seawater pump group and cannot be used with heat-exchanger options; it must not be treated as a universal C9 pump fit. The same third-party page lists **170-6116** as a component, but Cat's separate status for 170-6116 is discontinued. Neither source proves current orderability or serial/Arrangement fitment.
 
 See [C9 marine expansion](marine-engine-c9-3400-expansion.md) and [Off Road pricing-source assessment](offroadeq-pricing-source.md).
+
+
+## Owner-approved OEM fallback pricing (24 Nov 2026)
+
+The project owner approved using a public Off Road **OEM List Price** as the fallback benchmark when actual supplier unit prices are login-gated. Record the OEM benchmark separately and calculate a provisional Amoot reference at **OEM List Price × 1.65**. Label it “provisional — based on OEM list, not Off Road acquisition cost”; do not represent it as Off Road's actual sale price or a firm quote. Keep condition and supplier inventory snapshots separate; do not turn supplier quantities into Amoot stock. See [expanded OEM fallback batch and part-level evidence](offroadeq-pricing-source.md). No live prices, public prices, stock quantities or sellable SKUs were changed.
