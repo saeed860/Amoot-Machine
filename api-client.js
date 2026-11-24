@@ -259,6 +259,11 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["6W9744","SEAT G-BAS",6872.34,11339.36,"موجودی دقیق فروشنده یافت نشد؛ قیمت OEM List موجود است"],
+ ["6Y6712","PUMP G",1690.84,2789.89,"۱ New Aftermarket"],
+ ["6Y8764","PUMP",3116.60,5142.39,"۱۷ New Aftermarket"],
+ ["7C0145","CORE A",2333.73,3850.65,"۱۲۴ New Aftermarket"],
+ ["7C1772","PUMP GP",2540.99,4192.63,"۵ New Aftermarket"],
  ["6V0444","BEARING A",1722.82,2842.65,"۱۰۳ New Aftermarket"],
  ["6N1030","PUMP G OIL",2203.67,3636.06,"۲۱ New Aftermarket؛ ۶ Call For Pricing"],
  ["6N7960","CARTRIDGE",2653.42,4378.14,"۱۶ New Aftermarket"],
