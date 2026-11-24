@@ -458,6 +458,47 @@ Deno.serve(async (req) => {
       return json({ imported: data?.length ?? rows.length });
     }
 
+    if (req.method === "POST" && path === "/api/admin/kpart/import") {
+      if (!isAdmin) return fail(403,"FORBIDDEN","دسترسی مدیریت مجاز نیست.");
+      const body = await req.json();
+      if (!Array.isArray(body.items) || body.items.length < 1 || body.items.length > 500)
+        return fail(400,"VALIDATION_ERROR","فایل باید بین ۱ تا ۵۰۰ ردیف مرجع K-Part داشته باشد.");
+      const rows:any[] = [], seen = new Set<string>();
+      for (const raw of body.items) {
+        const partNumber = clean(raw.partNumber ?? raw.part_number,80);
+        const name = clean(raw.name,180);
+        const modelName = clean(raw.modelName ?? raw.model_name,80).toUpperCase();
+        const serialPrefix = clean(raw.serialPrefix ?? raw.serial_prefix,40).toUpperCase();
+        const groupName = clean(raw.groupName ?? raw.group_name,180);
+        const diagramRef = clean(raw.diagramRef ?? raw.diagram_ref,40);
+        const quantityRaw = raw.quantity == null || raw.quantity === "" ? null : Number(raw.quantity);
+        const sourceUrl = clean(raw.sourceUrl ?? raw.source_url,1000);
+        const sourceNote = clean(raw.sourceNote ?? raw.source_note,500);
+        const key = [partNumber,modelName,serialPrefix,groupName,diagramRef].map(x=>x.toUpperCase()).join("|");
+        let parsed:URL|null = null;
+        try { parsed = new URL(sourceUrl); } catch (_) {}
+        if (!partNumber || !name || !modelName || !serialPrefix || !groupName ||
+            !parsed || parsed.protocol !== "https:" || !/(^|\\.)k-part\\.com$/i.test(parsed.hostname) ||
+            (quantityRaw !== null && (!Number.isInteger(quantityRaw) || quantityRaw < 1 || quantityRaw > 100000)) ||
+            seen.has(key))
+          return fail(400,"INVALID_KPART_ROW","پارت‌نامبر، نام، مدل، پیشوند سریال، گروه، نشانی معتبر K-Part یا تعداد معتبر نیست.");
+        seen.add(key);
+        rows.push({
+          part_number:partNumber, name, model_name:modelName, serial_prefix:serialPrefix,
+          group_name:groupName, diagram_ref:diagramRef||null, quantity:quantityRaw,
+          source_name:"K-Part (third-party)", source_url:sourceUrl, source_note:sourceNote||null,
+          review_state:"CANDIDATE", source_accessed_at:new Date().toISOString()
+        });
+      }
+      const {data,error} = await adminDb.from("kpart_catalog_evidence")
+        .upsert(rows,{onConflict:"evidence_key"}).select("evidence_key");
+      if(error) {
+        console.error("[store-api/kpart/import] import failed",error.code,error.message);
+        return fail(500,"KPART_IMPORT_FAILED","ثبت مراجع K-Part ناموفق بود؛ ابتدا migration مربوط را اجرا کنید.");
+      }
+      return json({imported:data?.length??rows.length,reviewState:"CANDIDATE",promotedToPartCatalog:false});
+    }
+
     if (req.method === "POST" && path === "/api/admin/parts/import") {
       if (!isAdmin) return fail(403,"FORBIDDEN","دسترسی مدیریت مجاز نیست.");
       const body=await req.json();
