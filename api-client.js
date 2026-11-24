@@ -259,6 +259,11 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["2612208","CONTROL GP",1442.07,2379.42,"۱۳۳ New Aftermarket"],
+ ["2635055","HEAD GP BA",10115.35,16690.33,"۱۵ New Aftermarket؛ ۱ Used"],
+ ["2652299","DRIVE GP-F",31464.31,51916.11,"۲ New Aftermarket؛ ۱ Call For Pricing؛ ۵ Rebuilt"],
+ ["2672755","PUMP GP-PS",5007.90,8263.03,"در موجودی دقیق فروشنده یافت نشد؛ قیمت OEM List موجود است"],
+ ["2701763","PUMP GP-GE",4973.36,8206.04,"۵ New Aftermarket"],
  ["2602160","MONITOR GP",3277.02,5407.08,"۴ New Aftermarket"],
  ["2602289","LINK AS-BR",3483.97,5748.55,"۳۱ New Aftermarket"],
  ["2606642","SPINDLE",5730.57,9455.44,"۴ New Aftermarket"],
