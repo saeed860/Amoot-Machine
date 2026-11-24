@@ -775,7 +775,7 @@
   const classifyOffRoadPart=(d)=>{
    const x=String(d).toUpperCase();
    if(/FILTER|ELEMENT FU|GASKET|SEAL|RING|WASHER|BOLT|NUT|STUD|FITTING|SPRING/.test(x))return ['فیلتر و مصرفی','قطعات مصرفی و اتصالات','./assets/product-filter.jpg'];
-   if(/ALTERNATOR|SENSOR|SWITCH|MONITOR|DISPLAY|REGULATOR|MOTOR GP-ELE|A\\/C CONDEN/.test(x))return ['قطعات برقی','استارت، دینام و کنترل الکترونیکی','./assets/product-alternator.jpg'];
+   if(/ALTERNATOR|SENSOR|SWITCH|MONITOR|DISPLAY|REGULATOR|MOTOR GP-ELE|A.C CONDEN/.test(x))return ['قطعات برقی','استارت، دینام و کنترل الکترونیکی','./assets/product-alternator.jpg'];
    if(/BOGIE|IDLER|WHEEL|RIM|SPINDLE|DRIVE GP|BAR GP|FRAME|SUSP|HUB|GUARD|CARRIER|RECOIL|TRACK/.test(x))return ['قطعات زیربندی','چرخ، رولیک، شاسی و انتقال قدرت','./assets/product-roller.jpg'];
    if(/VALVE|PUMP|MANIFOLD|CYL|ACTUATOR|ACCUMULATO|PRESSURE|CONTROL|STEERING|CARTRIDG/.test(x))return ['قطعات هیدرولیک','پمپ، شیر، سیلندر و کنترل','./assets/cat-hydraulic.jpg'];
    if(/TURBO|CAMSHAFT|CRANKSHAFT|HEAD|INJECTOR|INJ GP|LINER|PISTON|CYLINDER|COMPRESSOR|RADIATOR|MUFFLER|MOTOR|CORE|PAN OIL/.test(x))return ['قطعات موتور','موتور، توربو، سرسیلندر و سوخت‌رسانی','./assets/cat-engine.jpg'];
