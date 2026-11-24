@@ -259,6 +259,11 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["4452672","PUMP GP-GR",6403.84,10566.34,"۵ New Aftermarket"],
+ ["4481988","CYL GP-102",4844.51,7993.44,"در موجودی دقیق فروشنده یافت نشد؛ قیمت OEM List موجود است"],
+ ["4505243","SHAFT",1912.84,3156.19,"۳۶ New Aftermarket"],
+ ["4506182","GEAR-WORM",2706.30,4465.40,"۱۸ New Aftermarket"],
+ ["4529831","CONT GP-XM",1411.93,2329.68,"۲۲ New Aftermarket"],
  ["4302593","CRANKSHAFT",10175.90,16790.23,"۲۰ New Aftermarket"],
  ["4333677","HEAD AS-CO",2853.76,4708.70,"۱ New Genuine Surplus"],
  ["4401616","COMPRESSOR",6132.57,10118.74,"۴ New Aftermarket"],
