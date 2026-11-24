@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - "supabase/migrations/*researched_cat_part_prices.sql"
+      - "supabase/migrations/*researched_cat_part_prices_20261124.sql"
       - ".github/workflows/cat-official-correction.yml"
 
 permissions:
