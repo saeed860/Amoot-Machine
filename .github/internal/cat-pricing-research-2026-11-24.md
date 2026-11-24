@@ -3370,3 +3370,32 @@ Additional Cat-linked discovery candidates:
 328-5574, 9L-5854, 2S-2251, 253-1752, 8S-7928, 2S-6498, 9M-7539, 3J-1907, 8M-5661, 0R-5382. These are connecting-rod bearings, filler bands, O-rings, crankshaft thrust plates, seals and Cat Reman turbocharger alternative; candidate-only, not fitment/interchange proof.
 
 Overall reviewed progress: 78/500 batches = 780/5,000 product target (15.6%). Original Cat seed list has 7 SKUs remaining (products 781–787).
+
+## Batch 79/500 — products 781–787 (2026-11-25)
+
+Final seven SKUs from the original 787-number Cat seed list: 9S-8004, 9S-8005, 9W-4264, 9X-3402, 9X-3404, 9Y-5068, 9Y-9236. All seven Cat pages opened; all seven DB rows re-queried.
+
+Verified updates:
+- 9S-8004: Cat 9/16-18 Thread Hex Drive Plug, threaded plug with O-ring sealing. Plated Steel; Carbon Steel/Alloy Steel/Alloy Zinc; O-ring 3J-1907. Cat lists a very broad compatibility index; exact full model list not normalized, so structured fitment remains empty.
+- 9S-8005: Cat 3/4-16 Thread Hex-Drive Plug / Internal Hex Plug for wheel group and drive train. Length 0.9in, height 0.5in, Plated Steel; Alloy Steel/Alloy Zinc/Carbon Steel; O-ring 3K-0360. Cat lists a very broad compatibility index; exact full model list not normalized, so structured fitment remains empty.
+- 9W-4264: Cat Track Seal, 61.9mm OD. Fitment D10 track-type tractor, ripper 10 and bulldozers 10C/10S/10U. Specs 2.185in ID ×2.437in OD, Extreme Service/Single Grouser shoe type. Cat frequently bought together: 6Y-0473 clear track-idler plug, 7G-4332 track-roller rubber stopper, 252-6329 Track Seal Set and 239-5509 Track Link Ring Set.
+- 9X-3402: Cat Connector Socket for wire-to-wire/wire-to-device interface. 16–18 AWG, gold-plated brass, up to 13A, 0.13in diameter, 0.78in length. Added 464 distinct Cat model labels across integrated toolcarriers, CatSafety, C18 power pack, CUV utility vehicles, mini hydraulic excavators, MD rotary drills, track feller bunchers, harvester heads, excavators, pump power ends, shovels, multi-terrain loaders, pavers, compact track loaders and rotary mixers.
+- 9X-3404: Cat 12V Heavy-Duty Maintenance-Free Accessible Wet Battery, Group 31/30h, SAE posts, starting application, polypropylene plastic. 100Ah at 20h, 165min reserve capacity, 12.9 ×6.7 ×8.6in. Added 437 distinct model labels across toolcarriers, harvesters, LHDs, material handlers, trucks, graders, tractors, compactors, pavers, mini excavators, pipelayers, forestry, MHPUs, excavators, generator sets, compact track loaders, telehandlers and wheel loaders. Source discrepancy preserved: title/description says 900 CCA; specification block says 950 CCA.
+- 9Y-5068: Cat Auxiliary Sea Water Pump Impeller. Fitment Gen Set Engine 3512B/3516B; Generator Set 3516B/3512B; Marine Engine 3516/3512/3508B/3516B/3516C/3512B; Marine Auxiliary 3512B/3516B; Engine 3512PETROL/3516PETROLEUM; Petroleum Engine 3516B. Eight distinct model labels. Cat description: seawater circulation through cooling system.
+- 9Y-9236: Cat Steel Sight Gauge Body Assembly, porthole style, leak-free visual liquid-level indicator. Zinc-plated steel, 282.50kPa maximum pressure. Specs 1.5in width, 1.7in overall length, 1.1in depth, Low Alloy Steel, Cat specification thread 1-5/16-12. Added 409 distinct model labels across generator SR4, toolcarriers, C18 power pack, compactors, skidders, rotary drills, feller bunchers, forestry, MHPUs, underground trucks, excavators, tractors, loaders/dozers, pavers, graders, industrial engines, trucks, shovels and more. Source discrepancy preserved: title says 27mm long and 5/16-12 thread, specification block says 1.7in length and 1-5/16-12 thread.
+
+Cat pages:
+- https://parts.cat.com/en/catcorp/product/9S-8004
+- https://parts.cat.com/en/catcorp/product/9S-8005
+- https://parts.cat.com/en/catcorp/product/9W-4264
+- https://parts.cat.com/en/catcorp/product/9X-3402
+- https://parts.cat.com/en/catcorp/product/9X-3404
+- https://parts.cat.com/en/catcorp/product/9Y-5068
+- https://parts.cat.com/en/catcorp/product/9Y-9236
+
+Post-update verification returned all seven rows. Distinct fitment counts: 9S-8004=0 (broad index withheld pending normalization); 9S-8005=0 (broad index withheld); 9W-4264=5; 9X-3402=464; 9X-3404=437; 9Y-5068=8; 9Y-9236=409. No prices/current stock inferred.
+
+Additional Cat-linked discovery candidates:
+3J-1907, 3K-0360, 6Y-0473, 7G-4332, 252-6329, 239-5509, 6V-5048, 2R-0098, 2S-4078, 6V-9746, 3S-2093, 3S-2094, 3S-2095, 1R-1808, 360-8960, 479-4133, 346-6688, 528-0585, 471-7003, 5N-6055, 5N-2902, 3N-8463, 3N-8462, 4M-6107, 1P-3705. Candidate-only related seals, plugs, link-ring sets, wiring accessories, battery/filter accessories and impeller components; no universal fitment/interchange claims.
+
+Original Cat seed list completion: 787/787 SKUs reviewed (79 batches including the final 7-item partial batch). Next batch 80 onward will draw from the separate Cat-linked, independent-supplier and Off Road discovery queues; each candidate must be individually verified before catalog promotion.
