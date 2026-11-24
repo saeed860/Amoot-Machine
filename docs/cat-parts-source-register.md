@@ -105,3 +105,39 @@ Cross-checked catalog-group examples now stored as REFERENCE-only rows in `part_
 - **207-2422** — Fuel/Water Separator Filter Group. Listed in SDN and RSD Fuel System. Cat Parts Store lists marine, generator-set and land applications → **BOTH**.
 
 No prices, stock quantities, or universal serial fitment were created. The full engine serial and arrangement remain necessary for final fitment.
+
+
+### K-Part component-table extraction — C32 marine heat exchangers
+
+A subsequent public-UI run opened the internal parts tables for two specific sea-water heat-exchanger assemblies. These are **third-party catalog observations scoped to the selected book/prefix**, not independent Cat Parts Store compatibility confirmation and not a claim of fitment to every C32.
+
+**C32 / SDN — group 353-9049 HEAT EXCHANGER GP-SEA WATER** (diagram page SEBP61470191):
+
+| Part number | Description as displayed | Qty |
+|---|---|---:|
+| 111-4374 | VALVE AS (VENT LINES) | 1 |
+| 135-2654 | SEAL-O-RING | 8 |
+| 353-9033 | HOUSING | 1 |
+| 353-9034 | SPACER | 2 |
+| 353-9036 | BONNET | 2 |
+| 353-9037 | HEAT EXCHANGER | 2 |
+| 376-0526 | BONNET | 1 |
+| 131-3983 | BOLT-SOCKET HEAD (M8X1.25X35-MM) | 16 |
+| 289-4232 | BOLT (M6X1X16-MM) | 12 |
+
+**C32 / RSD — group 586-1380 HEAT EXCHANGER GP-SEA WATER** (diagram page SEBP64650188):
+
+| Part number | Description as displayed | Qty |
+|---|---|---:|
+| 111-4374 | VALVE AS (VENT LINES) | 1 |
+| 347-8906 | SPACER | 1 |
+| 353-9028 | HOUSING (HEAT EXCHANGER) | 1 |
+| 353-9029 | CORE AS (HEAT EXCHANGER) | 1 |
+| 353-9030 | BONNET-RETURN | 1 |
+| 586-1389 | BONNET | 1 |
+| 131-3983 | BOLT-SOCKET HEAD (M8X1.25X35-MM) | 8 |
+| 289-4232 | BOLT (M6X1X16-MM) | 6 |
+| 331-3521 | SEAL-O-RING | 4 |
+| 586-1397 | SEAL | 1 |
+
+The UI also returned a non-part source note in the SDN table; it is intentionally excluded from part rows. These observations should be staged as K-Part **CANDIDATE** evidence with the exact model, prefix, assembly, diagram page, quantity and source URL. They must not be promoted to OEM-verified or sellable catalog records solely from this extraction. Reconcile the exact part numbers against Cat Parts Store/SIS and the full engine serial/Arrangement before confirming fitment. No price or inventory was added.
