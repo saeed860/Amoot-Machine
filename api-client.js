@@ -259,6 +259,11 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["3073993","CONT GP-HA",2836.28,4679.86,"۲۳ New Aftermarket"],
+ ["3109354","CONTROL GP",1368.74,2258.42,"۱۱ New Aftermarket"],
+ ["3119541","PUMP GP-2P",35559.89,58673.82,"۴ New Aftermarket"],
+ ["3133997","CRANKSHAFT",9435.97,15569.35,"۴۰ New Aftermarket"],
+ ["3137770","PUMP GP-F XF",1370.34,2261.06,"۲۸ New Genuine Surplus؛ ۱۱۶ New Aftermarket؛ ۱ Used"],
  ["3050324","COMPRESSOR",1377.77,2273.32,"۴۶ New Aftermarket"],
  ["3050325","COMPRESSOR",1377.77,2273.32,"۱ New Genuine Surplus؛ ۱۸۳ New Aftermarket"],
  ["3050617","HEAD GP-CY",8064.47,13306.38,"۴۵ New Aftermarket"],
