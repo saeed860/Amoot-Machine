@@ -259,6 +259,8 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["7N0110","CORE AS-OC",1433.99,2366.08,"۳۹ New Aftermarket؛ ۱ Call For Pricing؛ ۵ Used"],
+ ["7N0165","CORE A OIL C",1465.33,2417.79,"۲۷۶ New Aftermarket؛ ۴ Used"],
  ["7C3039","CORE AS",1882.01,3105.32,"۱۹۹ New Aftermarket؛ ۳ Used"],
  ["7C3372","MOTOR G",4875.64,8044.81,"۹ New Aftermarket"],
  ["7E7739","COMPRESSOR G",2277.15,3757.30,"۱۳ New Aftermarket"],
