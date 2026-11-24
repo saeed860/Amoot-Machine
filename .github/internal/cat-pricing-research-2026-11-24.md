@@ -739,3 +739,35 @@ Official Cat sources checked:
 - https://parts.cat.com/en/catcorp/product/140-9545
 
 Database checkpoint: all 10 records updated and verified. One exact official product image newly linked (140-9545); existing exact images retained for 134-2679, 134-2680, 134-5402, 135-9349, 139-2016, 139-2019 and 140-4238. No fallback or mismatched images assigned. Overall manual progress: 20/50 batches, 200/500 SKUs. This is the first 200-SKU milestone; next checkpoint is 300 SKUs.
+
+
+## Batch 21/50 — SKUs 201–210 (141-7015 through 153-2994)
+
+All ten official Cat pages were reviewed; all ten Supabase rows were updated and query-verified.
+
+| SKU | Official identity / captured detail | Image / fitment treatment |
+|---|---|---|
+| 141-7015 | Cat Marine Engine Wiring Harness Assembly; marine engine 3508B/3516B/3512B/3516/3512 and marine auxiliary applications; no function/pinout published | Fallback image omitted |
+| 142-8937 | Cat Lockable Non-Vent Hydraulic Tank Cap; black polyamide plastic, composite exterior, overall size 63.5 (unit not specified), non-vented; broad grader/compactor/tractor/loader/excavator/telehandler compatibility | Existing exact official image retained; 207 model identifiers stored |
+| 144-0503 | Cat Piston & Ring Kit; Cat page publishes broad 3406/3306/3176/3500-series engine and machine compatibility but no kit contents/specifications | No verified image; omitted; 72 model identifiers stored |
+| 147-5331 | Cat Track Roller Frame Rear Guard; compatible D10R/D10T2/D10/D10T | Existing exact official image retained |
+| 147-5332 | Cat Track Guide Front Guard; upper track roller-frame guard around idler; compatible D10R/D10T2/D10/D10T | Existing exact official image retained |
+| 149-1912 | Cat Standard-Efficiency Cabin Air Filter; urethane round, standard media; 11.772 in height with/without seal, 6.472 × 6.472 in width/length; normal-duty cab filtration | Existing exact official image retained |
+| 150-3141 | Cat Mechanical Cover Group (C); Cat publishes no functional description/specification; broad C18/C15/3406E/3456 generator, marine, truck, industrial, petroleum and machine compatibility | Fallback image omitted |
+| 150-8355 | Cat 14.5C Interlock Universal Joint; steel, Lube-for-Life, 322 mm swing diameter; compatible 793F/797 truck variants | Existing exact official image retained |
+| 151-5565 | Cat Engine Block; carbon steel; compatible 3516/3516B/3508B/3512/3512C generator, marine and industrial engine families | Fallback image omitted |
+| 153-2994 | Cat 7/8-inch STOR Hydraulic Hose Quick Disconnector; fluid quick-connect, plated steel/alloy zinc/alloy steel/carbon steel; broad Cat work-tool and machine fitment | Cat explicitly labels the image reference-only and says construction may differ; image removed; 357 model identifiers stored |
+
+Official Cat sources checked:
+- https://parts.cat.com/en/catcorp/product/141-7015
+- https://parts.cat.com/en/catcorp/product/142-8937
+- https://parts.cat.com/en/catcorp/product/144-0503
+- https://parts.cat.com/en/catcorp/product/147-5331
+- https://parts.cat.com/en/catcorp/product/147-5332
+- https://parts.cat.com/en/catcorp/product/149-1912
+- https://parts.cat.com/en/catcorp/product/150-3141
+- https://parts.cat.com/en/catcorp/product/150-8355
+- https://parts.cat.com/en/catcorp/product/151-5565
+- https://parts.cat.com/en/catcorp/product/153-2994
+
+Database checkpoint: all 10 records updated and verified. No new exact images were added; existing exact images retained for 142-8937, 147-5331, 147-5332, 149-1912 and 150-8355. The non-exact/reference-only 153-2994 image was removed. Overall manual progress: 21/50 batches, 210/500 SKUs.
