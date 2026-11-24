@@ -1990,3 +1990,17 @@ Official Cat pages checked:
 - https://parts.cat.com/en/catcorp/product/238-0473
 
 Database checkpoint: all ten rows queried; updates for 231-5127, 231-6345, 232-1811, 237-2719, 237-9313, 238-0472 and 238-0473 were re-queried successfully. Overall reviewed progress: 39/500 batches, 390/5,000 products.
+
+
+## Batch 39 follow-up — additional Cat-linked discoveries and queue recount
+
+From Cat official cross-links in batch 39, appended 14 more candidate numbers to `data/cat-linked-parts-discovery.txt`: 20R-2665, 219-3240, 7N-4927, 4W-3027, 1P-0436, 137-5541, 214-7568, 1R-0755, 238-5080, 318-2486, 357-5368, 362-0515, 190-8609 and 561-1082. Contexts include Cat's alternative oil pump, related fuel-system components, and track undercarriage frequently-bought-together listings. These are discovery leads, not automatically compatible replacements.
+
+Recount after expanding the Cat-linked queue:
+- Off Road queue: 91 rows.
+- Independent supplier/technical-reference queue: 44 rows.
+- Cat-linked BOM/related-parts queue: 57 rows.
+- Total queue entries: 192.
+- Unique candidate numbers across all queues (normalizing hyphens): 184.
+- Unique numbers not present in the original 787-number seed list (normalizing hyphens): 178.
+- Eight numbers overlap across discovery queues or with the original seed. All remain segregated for individual verification.
