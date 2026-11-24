@@ -165,7 +165,8 @@ const statements = enriched.map(updateSql).filter(Boolean);
 await mkdir("artifacts", { recursive: true });
 const diagnostics = {
   generatedAt: new Date().toISOString(),
-  requested: partNumbers.length,\n  batchStart, batchSize, totalOfficial: allPartNumbers.length,
+  requested: partNumbers.length,
+  batchStart, batchSize, totalOfficial: allPartNumbers.length,
   resumed: completedFromCheckpoint,
   checkpointed: results.filter(Boolean).length,
   pageOk: results.filter(x => x.status === "PAGE_OK").length,
