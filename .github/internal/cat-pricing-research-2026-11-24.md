@@ -2004,3 +2004,34 @@ Recount after expanding the Cat-linked queue:
 - Unique candidate numbers across all queues (normalizing hyphens): 184.
 - Unique numbers not present in the original 787-number seed list (normalizing hyphens): 178.
 - Eight numbers overlap across discovery queues or with the original seed. All remain segregated for individual verification.
+
+
+## Batch 40/500 — SKUs 391–400 (238-3262 through 254-0224)
+
+All ten Supabase rows were queried and all ten Cat product pages opened. Seven fitment/specification sections were readable. The following verified corrections were applied and re-queried:
+- 238-3262: Cat adapter; official Truck Engine C9 compatibility. DB already matched.
+- 243-0762: Cat harness assembly; official Generator Set C18 and Marine Engine C18/3412E/3126. DB matched.
+- 243-6652: Cat 10mm slotted strip wear cover for circle drive. Added title-grounded 10mm thickness and application/part-type attributes; no fitment inferred.
+- 244-3114: Cat 24VDC modulating valve group. Official page lists extensive fitment across pumper, underground articulated trucks, power modules, toolcarriers, wheel tractor-scrapers, LHDs, off-highway trucks, graders, tractors, skidders, pipelayers, petroleum packages/transmissions, compactors, ejector trucks, wheel dozers/loaders, landfill compactors, articulated trucks, quarry trucks and powertrain. Expanded compatible_models to the complete Cat model list (239 distinct model identifiers after deduplication). Added 6.77in length, 2.28in width, 2.9in height, 0.76in hex, 24VDC, adhesive material, integrated 2-pin DT connector, two-bolt mount and RoHS-compliant attributes.
+- 248-2857: Cat auxiliary pump group. Official fitment is Gen Set Engine 3516, Marine Engine 3508B/3512B/3512C, Marine Auxiliary 3516C/3512B. Corrected compatible_models to those five published identifiers; material Alloy Copper, Sealants/Adhesives Adhesive added.
+- 249-0709: Cat C15 fuel injector group. Official Truck Engine C15; dimensions 14.8in length × 3.0in height; material Grease (Lanolin, Silicone) Fluid. Added material; existing fitment/dimensions matched.
+- 250-1306: Cat fuel injector group is explicitly discontinued. Cat lists Generator SR4/SR5/SR4B, gen-set engine and generator set 3512B/3508B/3516B, marine and marine auxiliary 3500 series, power modules PM3516/PM3512/PM3508, locomotive 3508B/3512B, wheel dozer 854G and wheel loader 992G. Set is_active=false and added discontinued status, 14.75in length × 3.0in height and material; corrected fitment to Cat's published model list.
+- 251-8364: Cat 66.95mm OD oil-grooved master thrust ring. Added material Low Alloy Steel/Alloy Steel and official fitment across MD6310/MD6250 rotary drills, 3512 generator set, 551/552/TK751/TK752 track feller bunchers, MD6420 family, 558/568 forestry, 352F and broad excavator/material-handler/mobile-hydraulic-power-unit families. Added 58 distinct model identifiers.
+- 253-4646: Cat 173mm wear plate for grader blade-bracket cylinder. Added material Steel/Structural Steel/Alloy Steel, 6.81 × 1.75 × 1.75in dimensions and 0.39in single hole. Added official grader fitment list (24 distinct model identifiers).
+- 254-0224: Cat M22 × 1.5, 108mm track bolt. Added official D6H/D6R/D6T/D6XE/D6GC, 963/953 track loader and 527 track skidder fitment; 4.252in length, 3.228in grip, 0.8661in bolt size, RH thread, Boron Steel/Alloy Zinc, Zinc Phosphate + Oil coating, Cat/ISO 898-1 Class 11.9. Added 25 distinct model identifiers.
+
+Additional related-part discovery: added eight Cat-linked candidates to `data/cat-linked-parts-discovery.txt`: 3J-1907, 6V-0852, 6D-7889, 7M-8485, 318-1064, 173-0946, 288-0934 and 2S-4078. They appear in Cat Parts Store related-parts panels for 244-3114 and 254-0224; this is not standalone proof of fitment.
+
+Official Cat pages checked:
+- https://parts.cat.com/en/catcorp/product/238-3262
+- https://parts.cat.com/en/catcorp/product/243-0762
+- https://parts.cat.com/en/catcorp/product/243-6652
+- https://parts.cat.com/en/catcorp/product/244-3114
+- https://parts.cat.com/en/catcorp/product/248-2857
+- https://parts.cat.com/en/catcorp/product/249-0709
+- https://parts.cat.com/en/catcorp/product/250-1306
+- https://parts.cat.com/en/catcorp/product/251-8364
+- https://parts.cat.com/en/catcorp/product/253-4646
+- https://parts.cat.com/en/catcorp/product/254-0224
+
+Database checkpoint: all ten rows queried; corrections for 243-6652, 244-3114, 248-2857, 249-0709, 250-1306, 251-8364, 253-4646 and 254-0224 were re-queried successfully. Overall reviewed progress: 40/500 batches, 400/5,000 products.
