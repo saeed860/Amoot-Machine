@@ -867,3 +867,35 @@ Official Cat sources checked:
 - https://parts.cat.com/en/catcorp/product/1M-9011
 
 Database checkpoint: all 10 rows updated and verified. Existing exact official images retained for 184-6305, 184-6306, 185-3630, 186-2002, 187-3298, 189-3032, 1M-8747 and 1M-9011. No unverified kit/valve image assigned. Overall manual progress: 24/50 batches, 240/500 SKUs.
+
+
+## Batch 25/50 — SKUs 241–250 (1P-1120 through 1W-6316)
+
+All ten official Cat product pages were reviewed; all ten Supabase rows were updated and query-verified.
+
+| SKU | Official identity / captured detail | Image / fitment treatment |
+|---|---|---|
+| 1P-1120 | Cat Turbocharger Cartridge Seal Ring; 4.5 × 0.1 in; broad generator, truck-engine, toolcarrier, tractor/scraper, loader, industrial, marine and track-type tractor fitment | Existing exact official image retained; 271 model identifiers stored |
+| 1R-0749 | Cat Spin-On Fuel Filter; 3.689 in diameter × 10.571 in length; Out-to-In; carbon steel/mixed metal-nonmetal; acrylic beads, spiral roving, nylon center tube and molded end caps | Existing exact official image retained; 447 model identifiers stored |
+| 1R-0762 | Cat Advanced-High-Efficiency Spin-On Fuel Filter; 3.681 × 10.504 in; Out-to-In; carbon steel/mixed metal-nonmetal; extensive truck, grader, tractor, excavator, loader, compactor and engine fitment | Existing exact official image retained; 292 model identifiers stored |
+| 1U-5516 | Cat 2 in Aluminum Oxide Type A-Coarse Surface Conditioning Disc; 25,000 max/18,000 optimum RPM; R-style quarter-turn; Cat page discrepancy recorded: description says 2 in/50.8 mm, structured spec says 1.0 in | Existing exact official disc image retained; discrepancy explicitly flagged |
+| 1U-5517 | Cat 3 in Aluminum Oxide Type A-Coarse Surface Conditioning Disc; 18,000 max/15,000 optimum RPM; R-style quarter-turn | Existing exact official disc image retained |
+| 1W-1052 | Cat 3406C Turbocharger Group; 13.6 × 17.0 in; 3406C/3406/3406B generator-set, SR4 generator and 3406 industrial applications | Cat explicitly says image is representative, not exact; omitted |
+| 1W-2447 | Cat 118 mm Long Oil Cooler Outlet Adapter; 28.5 × 1.5 × 3.78 in; 1.5 in diameter; 13.49 lb; grey iron; broad marine/generator/truck/industrial/petroleum fitment | Exact official Scene7 adapter image newly linked; 94 model identifiers stored |
+| 1W-4674 | Cat Pump Group Kit; Cat has no description/specifications yet; 3512/3516 generator, marine, industrial, petroleum and gas-engine applications | Fallback image omitted |
+| 1W-6312 | Cat Fuel Injection Line No. 2 for double-walled cylinder; 15.3 × 4.0 in; 3408B/3408C/3408 | Exact official Scene7 line image newly linked |
+| 1W-6316 | Cat Fuel Injection Line No. 6 for double-walled cylinder; 22.3 × 3.0 in; 3408B/3408C/3408 | Exact official Scene7 line image newly linked |
+
+Official Cat sources checked:
+- https://parts.cat.com/en/catcorp/product/1P-1120
+- https://parts.cat.com/en/catcorp/product/1R-0749
+- https://parts.cat.com/en/catcorp/product/1R-0762
+- https://parts.cat.com/en/catcorp/product/1U-5516
+- https://parts.cat.com/en/catcorp/product/1U-5517
+- https://parts.cat.com/en/catcorp/product/1W-1052
+- https://parts.cat.com/en/catcorp/product/1W-2447
+- https://parts.cat.com/en/catcorp/product/1W-4674
+- https://parts.cat.com/en/catcorp/product/1W-6312
+- https://parts.cat.com/en/catcorp/product/1W-6316
+
+Database checkpoint: all 10 records updated and verified. Three exact official images newly linked (1W-2447, 1W-6312, 1W-6316); existing exact images retained for 1P-1120, 1R-0749, 1R-0762, 1U-5516 and 1U-5517. Representative/fallback images not assigned. Overall manual progress: 25/50 batches, 250/500 SKUs.
