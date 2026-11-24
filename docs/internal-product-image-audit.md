@@ -23,6 +23,8 @@
 | 202-4304 | گروه آیدلر زیربندی | https://caterpillar.scene7.com/is/image/Caterpillar/CM20220428-22ce0-ede45 | تصویر رسمی Caterpillar |
 | 179-5922 | توربوشارژر | https://www.hydraulicbreakerhammer.com/photo/pt204183860-turbocharger_1795922_for_excavator_cat_980c_980g_part_number_179_5922.jpg | عکس فروشنده با شماره فنی دقیق در عنوان صفحه |
 | 223-9250 | مجموعه سرسیلندر | https://industriemarine.com/images/thumbs/008/0088680_45135_510.jpeg | عکس فروشنده با تطبیق شماره فنی در عنوان صفحه |
+| 125-3537 | گروه آیدلر | https://caterpillar.scene7.com/is/image/Caterpillar/CM20220428-29938-02375?fmt=WebP&hei=960&iccembed=0&layer=COMP&op_sharpen=0&op_usm=1%2C1%2C6%2C0&printres=72&qlt=88%2C1&resmode=sharp2&wid=960 | تصویر رسمی Caterpillar |
+| 226-7683 | آلترناتور 24V | https://advancedtruckparts.com/cdn/shop/files/10r-9095-cat-24-volts-alternator-advanced-truck-parts-48695_1200x1200.jpg?v=1755233460 | عکس فروشنده؛ شماره فنی روی بدنه قابل مشاهده است |
 
 ## سیاست ادامه کار
 
