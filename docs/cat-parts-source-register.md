@@ -474,3 +474,12 @@ The C15 evidence in [marine-engine-source-expansion.md](marine-engine-source-exp
 The C9 marine evidence document now includes exact Cat Parts Store checks for **149-3239** (fuel-cooler hose), **315-8339** (aftercooler core), **113-1110** (auxiliary seawater-pump cam), and **170-6116** (auxiliary pump group). Cat's published model classes support BOTH for all four; **170-6116 is discontinued** and must not be treated as currently orderable. Exact serial/Arrangement fitment remains unverified. Logan Marine still supplies discovery group context, not OEM proof: [C9 expansion](marine-engine-c9-3400-expansion.md).
 
 Off Road Equipment's public /parts page was rechecked and still lists 500 popular parts; its login page publishes parts@offroadeq.com and +1 865-379-7895 and states it is not an authorized Caterpillar dealer. Actual supplier unit prices remain gated. See [updated pricing-source assessment](offroadeq-pricing-source.md). No Amoot selling prices or stock quantities were changed.
+
+
+## Off Road search-page access check and C9 follow-up (24 Nov 2026)
+
+The Off Road full inventory search page was tested again. Its public content exposes the search/batch-import interface but explicitly requires login to shop; no anonymous result, actual supplier unit price or full-inventory availability is exposed. The public top-500 popular-parts index was checked against the four newly researched C9 candidates **258-0794, 197-5987, 242-5336 and 245-3777**; none appears in that public list. This does not establish absence from the full inventory, which remains login-gated. No Amoot price or stock change was made.
+
+The C9 research document now records these four as third-party discovery candidates. In particular, the third-party EPC listing for **245-3777** says it is a keel-cooled-only auxiliary seawater pump group and cannot be used with heat-exchanger options; it must not be treated as a universal C9 pump fit. The same third-party page lists **170-6116** as a component, but Cat's separate status for 170-6116 is discontinued. Neither source proves current orderability or serial/Arrangement fitment.
+
+See [C9 marine expansion](marine-engine-c9-3400-expansion.md) and [Off Road pricing-source assessment](offroadeq-pricing-source.md).
