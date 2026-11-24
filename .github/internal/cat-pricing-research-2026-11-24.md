@@ -1123,3 +1123,35 @@ Official Cat sources checked:
 - https://parts.cat.com/en/catcorp/product/20R-5379
 
 Database checkpoint: all 10 rows updated and verified. Four exact official images newly linked (20R-4505, 20R-4700, 20R-5005, 20R-5191); existing exact images retained for 20R-4602 and 20R-5075. Incorrect, low-resolution and generic images omitted. Overall manual progress: 32/50 batches, 320/500 SKUs.
+
+
+## Batch 33/50 — SKUs 321–330 (20R-5393 through 20R-6518)
+
+All ten official Cat pages were reviewed; all ten Supabase rows were updated and query-verified.
+
+| SKU | Official identity / captured detail | Image / fitment treatment |
+|---|---|---|
+| 20R-5393 | Cat C175 Reman Crankshaft Damper (Gen I); absorbs torsional vibration; C175-20 generator set and 797F/797/797B trucks | Exact official Scene7 damper image newly linked |
+| 20R-5420 | Cat Reman G3520 Crankshaft Damper; viscous damper with fluid-sampling port; qualifying core return and 12-month warranty; G3520 gen-set engine and G3520C/E/H/G3520 generator sets | Image resolved to generic Cat logo; omitted |
+| 20R-5462 | Cat Reman 24V Starter Solenoid Kit (50MT); kit has one solenoid, no separately listed components; 12-month warranty; broad generator, truck, engine, marine, grader, tractor, excavator, loader and other fitment | Exact official Scene7 solenoid image newly linked; 242 model identifiers stored |
+| 20R-5566 | Cat Reman Common-Rail Fuel Injector (CR1100, C175); compatible C175-16/C175-20 generator sets, C175-16 marine/industrial, 797F/797/793F/795F truck variants, locomotive C175-16 and 796/798 AC off-highway trucks | Existing exact official injector image retained; 13 model identifiers stored |
+| 20R-5616 | Cat Reman 3500 HD Cylinder Pack; 15.3:1; compatible 3516B/3512B generator sets, 793D/793C/797/797B trucks, 3512B/3516B locomotive engines and 994F/994H loaders | Existing exact official cylinder-pack image retained; 8 model identifiers stored |
+| 20R-5629 | Cat Reman 3512/3516 Cylinder Pack; 14.7:1; compatible Marine Engine 3516C/3512C and Wheel Loader 962K | Product image showed a connecting-rod/piston component, not a full kit; omitted |
+| 20R-5677 | Cat PL542 Reman Electronic Control/Telematics Assembly; PL641E radio, 8/12-pin interfaces, cellular/Wi-Fi/GPS, 9–32V; extensive compact/miniexcavator, excavator, loader, drill, grader, tractor, paver, truck, marine, generator and industrial fitment | Existing exact official telematics image retained; 458 model identifiers stored |
+| 20R-5681 | Cat Reman Upgrade-to-New Valve Rocker Arm; new replacement at reduced cost with qualifying core return; no compatible-model list published | Exact official Scene7 rocker-arm image newly linked |
+| 20R-6263 | Cat Reman 3400-Series Valve Rocker Arm; core inspection/salvage/engineering updates; extensive pumper, generator, truck-engine, grader, tractor, marine, pipelayer, excavator, loader, scraper, compactor and gas-engine fitment | Exact official Scene7 rocker-arm image newly linked; 163 model identifiers stored |
+| 20R-6518 | Cat Reman G3600 A4 Cylinder Head; material attribute Sealants/Adhesives Adhesive; compatible Marine C280-16/C280-6, Industrial G3606B and Gas Engines G3608/G3612/G3606/G3616 | Existing exact official cylinder-head image retained; 7 model identifiers stored |
+
+Official Cat sources checked:
+- https://parts.cat.com/en/catcorp/product/20R-5393
+- https://parts.cat.com/en/catcorp/product/20R-5420
+- https://parts.cat.com/en/catcorp/product/20R-5462
+- https://parts.cat.com/en/catcorp/product/20R-5566
+- https://parts.cat.com/en/catcorp/product/20R-5616
+- https://parts.cat.com/en/catcorp/product/20R-5629
+- https://parts.cat.com/en/catcorp/product/20R-5677
+- https://parts.cat.com/en/catcorp/product/20R-5681
+- https://parts.cat.com/en/catcorp/product/20R-6263
+- https://parts.cat.com/en/catcorp/product/20R-6518
+
+Database checkpoint: all 10 rows updated and verified. Four exact official images newly linked (20R-5393, 20R-5462, 20R-5681, 20R-6263); existing exact images retained for 20R-5566, 20R-5616, 20R-5677 and 20R-6518. Generic/incorrect kit imagery omitted. Overall manual progress: 33/50 batches, 330/500 SKUs.
