@@ -247,3 +247,45 @@ Official pages:
 - https://parts.cat.com/en/catcorp/product/111-4374
 
 These are official part-number/model-class matches. For 353-9033, the marine seawater function is explicitly stated in Cat's description. For 135-2654 and 111-4374, the broad compatible-model lists establish both application classes, but do not independently prove the precise assembly usage/quantity in each SDN/RSD book. Maintain the K-Part assembly reference and quantity as third-party evidence pending serial-specific SIS confirmation.
+
+
+#### Fourth Cat Parts Store exact-number pass — aftercooler and alternator internals (24 Nov 2026)
+
+This pass checked exact part numbers from the 58-row K-Part extraction. The table distinguishes a positive Cat model-class match from a page that does not publish enough compatible-model evidence for C32 marine classification.
+
+| Part number | K-Part group context | Official Cat page finding | Handling |
+|---|---|---|---|
+| **347-8906** | RSD 586-1380 sea-water heat exchanger spacer | Cat describes it as a heat-exchanger spacer used in the seawater heat exchanger; compatible classes include C32/C32B Marine Engine and Generator Set C32 | **BOTH** |
+| **365-4457** | SDN 361-1283 raw-water aftercooler seal | Cat describes it as a press-in-place seal for the aftercooler; compatible classes include C32/C32B Marine Engine and Generator Set C32 | **BOTH** |
+| **229-8906** | SDN 305-8921 alternator capacitor | Cat compatible classes include C32/C32B Marine Engine, Marine Auxiliary C32B, and Generator Set C32, plus land classes | **BOTH** at published model-class level; Marine Auxiliary listing is C32B |
+| **202-8647** | SDN 305-8921 alternator stator | Cat compatible classes include Marine Engine C32/C32B, Marine Auxiliary C32/C32B and Generator Set C32, plus land classes | **BOTH** |
+| **202-2708** | SDN 305-8921 alternator diode | Cat compatible classes include Marine Engine C32/C32B and Marine Auxiliary C32/C32B, plus Generator Set and land classes | **BOTH** |
+| **202-2703** | SDN 305-8921 alternator coil | Cat compatible classes include Marine Engine C32/C32B, Marine Auxiliary C32/C32B and Generator Set C32, plus land classes | **BOTH**; Cat's page description text appears inconsistent with the product title, so use title/part identity and compatible list cautiously |
+| **202-7713** | SDN 305-8921 alternator frame | Cat compatible classes include C32 Marine Engine, C32B Marine Auxiliary, Generator Set C32 and land classes | **BOTH** |
+| **238-5081** | SDN 361-1283 aftercooler seal | Exact Cat page found, but displayed compatible-model list does not include the C32 marine classes | Do not classify as C32 marine from the current evidence |
+| **6V-3535** | SDN 361-1283 aftercooler dowel | Exact Cat page found, but displayed compatible-model list does not include C32 Marine Engine / C32 Marine Auxiliary | Do not classify as C32 marine from the current evidence |
+| **360-3693** | SDN 361-1283 aftercooler plug | Exact Cat page found; the returned page excerpt did not provide a C32 marine compatible-model match | Keep application unconfirmed |
+| **5C-2874** | SDN 305-8921 alternator nut | Exact Cat hardware page found; returned compatible-model list does not show C32 marine | Do not classify as C32 marine from current evidence |
+| **3K-0360** | SDN 361-1283 aftercooler O-ring | Exact Cat page found; returned compatible-model list does not establish C32 marine compatibility (a C13 MARINE entry appears, not C32) | Do not classify as C32 marine |
+| **100-6531** | SDN 305-8921 alternator fan | Exact Cat page found, but the returned page excerpt did not establish C32 marine compatibility | Keep application unconfirmed |
+| **9S-2390** | SDN 305-8921 alternator rotor retainer | Exact Cat page found; returned excerpt did not establish C32 marine compatible-model classes | Keep application unconfirmed |
+| **8T-0328** | SDN 305-8921 alternator washer | Exact Cat page found; returned compatible-model excerpt does not establish C32 marine compatibility | Do not classify as C32 marine |
+
+Official Cat pages:
+- https://parts.cat.com/en/catcorp/product/347-8906
+- https://parts.cat.com/en/catcorp/product/365-4457
+- https://parts.cat.com/en/catcorp/product/229-8906
+- https://parts.cat.com/en/catcorp/product/202-8647
+- https://parts.cat.com/en/catcorp/product/202-2708
+- https://parts.cat.com/en/catcorp/product/202-2703
+- https://parts.cat.com/en/catcorp/product/202-7713
+- https://parts.cat.com/en/catcorp/product/238-5081
+- https://parts.cat.com/en/catcorp/product/6V-3535
+- https://parts.cat.com/en/catcorp/product/360-3693
+- https://parts.cat.com/en/catcorp/product/5C-2874
+- https://parts.cat.com/en/catcorp/product/3K-0360
+- https://parts.cat.com/en/catcorp/product/100-6531
+- https://parts.cat.com/en/catcorp/product/9S-2390
+- https://parts.cat.com/en/catcorp/product/8T-0328
+
+This pass adds seven further exact Cat model-class matches (including the heat-exchanger spacer and six alternator internals) while explicitly withholding marine classification from the other eight numbers. Exact assembly presence/quantity remains sourced to the third-party K-Part diagrams and must be checked in SIS against full serial number + Arrangement before order-level fitment. No candidate was promoted to sellable inventory and no price/stock was created.
