@@ -13,7 +13,7 @@ function card(p,index){
  const stocked=p.kind==="PRODUCT"&&Number(p.stock)>0,hasStoreProduct=p.kind==="PRODUCT";
  const status=stocked?'<span class="stock-state in-stock">● موجود در انبار آموت</span>':hasStoreProduct?'<span class="stock-state out-stock">● در حال حاضر ناموجود</span>':'<span class="stock-state catalog-only">● مرجع کاتالوگ؛ موجودی فروشگاه نیازمند استعلام</span>';
  const image=p.imageUrl?'<img class="part-image" src="'+esc(p.imageUrl)+'" alt="'+esc("تصویر رسمی مرجع "+(p.name||p.sku))+'" loading="lazy" referrerpolicy="no-referrer">':'<div class="part-image-placeholder">تصویر مرجع<br>در دسترس نیست</div>';
- const application=String(p.applicationType||"UNVERIFIED").toUpperCase(),applicationLabel=application==="MARINE"?"دریایی":application==="LAND"?"خشکی":application==="BOTH"?"دریا و خشکی":"";
+ const application=String(p.applicationType||"UNVERIFIED").toUpperCase(),applicationLabel=application==="MARINE"?"دریایی":application==="LAND"?"خشکی":application==="BOTH"?"دریایی و خشکی":"";
  const description=esc(p.description||"اطلاعات تکمیلی این قطعه در کاتالوگ ثبت نشده است.");
  const modelList=(p.compatibleModels||[]).length?p.compatibleModels.join("، "):(p.machineModel||"ثبت نشده");
  const specLabels={length:"طول",height:"ارتفاع",width:"عرض",weight:"وزن",diameter:"قطر",thread:"رزوه",voltage:"ولتاژ",material:"جنس"};
