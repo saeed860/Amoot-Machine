@@ -259,6 +259,10 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["1941252","SPRING GP-",10101.24,16667.05,"۱۶ New Aftermarket"],
+ ["1956617","PUMP GP-ME",1989.45,3282.59,"۳ New Aftermarket"],
+ ["1967795","BRG AS SPL",10764.70,17761.76,"۶ New Aftermarket"],
+ ["1978820","ALTERNATOR",1563.04,2579.02,"۶۴ New Aftermarket؛ ۱ Used"],
  ["1873523","CORE AS",3123.08,5153.08,"۲۱ New Aftermarket؛ ۱ Used"],
  ["1879090","PUMP GP-PS-B",2163.16,3569.21,"۲۳ New Aftermarket؛ ۱ Used"],
  ["1883865","TC GP-W/TDR",10015.50,16525.58,"۷ New Aftermarket"],
