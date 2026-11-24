@@ -24,12 +24,8 @@ update public.part_catalog as p
 set
   name = case when c.name <> '' then c.name else p.name end,
   description = coalesce(nullif(c.description,''), p.description),
-  engine_models = case when cardinality(c.engine_models)>0 then
-    (select array_agg(distinct v order by v) from unnest(p.engine_models || c.engine_models) v)
-    else p.engine_models end,
-  compatible_models = case when cardinality(c.compatible_models)>0 then
-    (select array_agg(distinct v order by v) from unnest(p.compatible_models || c.compatible_models) v)
-    else p.compatible_models end,
+  engine_models = case when cardinality(c.engine_models)>0 then c.engine_models else p.engine_models end,
+  compatible_models = case when cardinality(c.compatible_models)>0 then c.compatible_models else p.compatible_models end,
   specifications = coalesce(p.specifications,'{}'::jsonb) || c.specifications,
   image_url = coalesce(p.image_url, c.image_url),
   updated_at = now()
