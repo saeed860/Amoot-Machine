@@ -259,6 +259,10 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["4793060","ACTUATOR A",2294.37,3785.71,"۱۶۶ New Aftermarket"],
+ ["4897195","RECOIL GP-",6338.09,10457.85,"موجودی Off Road ندارد؛ قیمت OEM List عمومی"],
+ ["5133691","CYL GP-019",31689.70,52288.00,"۳ New Aftermarket"],
+ ["5613002","ALTERNATOR",1853.44,3058.18,"۲ New Aftermarket"],
  ["4621014","CONT GP-XM",1413.76,2332.70,"۵۵ New Aftermarket"],
  ["4621016","CONT GP-XM",1413.76,2332.70,"۹۶ New Aftermarket"],
  ["4656884","PUMP AS",3059.65,5048.42,"موجودی Off Road ندارد؛ قیمت OEM List عمومی"],
