@@ -493,3 +493,8 @@ The project owner approved using a public Off Road **OEM List Price** as the fal
 ## Additional Off Road OEM benchmark batch (24 Nov 2026)
 
 Three more exact public Off Road detail pages were found: **0816876**, **4619930**, and **1886126**. Their OEM list prices and provisional ×1.65 reference values, together with related alternatives and source-specific inventory snapshots, are recorded in [the Off Road pricing assessment](offroadeq-pricing-source.md). The exact 0816876 page has no inventory; alternatives 2H1618, 7X0445 and 1364188 remain separate and are not assumed interchangeable. 4619930 and 1886126 have public inventory snapshots. Actual supplier unit prices remain login-gated. No Amoot stock, firm public price or sellable SKU was changed.
+
+
+## Marine-engine Off Road index batch (24 Nov 2026)
+
+A targeted public-index cross-check covered C32/C9 numbers 305-8921, 207-2422, 353-9049, 362-0801, 438-5385, 258-0794, 197-5987, 242-5336, 245-3777, 6L-2280, 149-3239, 315-8339 and 113-1110. None appeared in the public 500-part index; this is not a full-inventory stock check and does not establish non-availability. Exact Off Road OEM prices and quantities remain unknown for this batch. The index does include 4619930, whose exact page was already documented. Third-party retail/cross-reference observations for 4385385, 6L2280 and 3058921 are kept separate and are not Off Road quotes or Cat-confirmed supersessions. See [the detailed Off Road pricing-source assessment](offroadeq-pricing-source.md). No Amoot price, stock or sellable SKU was changed.
