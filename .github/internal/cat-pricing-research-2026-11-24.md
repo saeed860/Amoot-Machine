@@ -3195,3 +3195,38 @@ Additional Cat-linked discovery candidates:
 638-4574, 125-3537, 187-1484, 245-9947, 245-9950, 292-8090, 520-0979, 521-0809, 9W-4481, 196-9954, 306-9445, 306-9443, 609-3712, 609-3715, 304-1916, 110-6326, 110-6331, 377-6969, 265-6619, 265-6618, 30R-0003, 1R-1808, 214-7568, 238-5080, 248-5513, 650-8530, 272-6009, 272-6010, 627-7997, 177-9343, 3J-1907, 1R-0749, 238-8648, 230-1340, 230-1341, 307-0047, 3S-2093. These are idler/roller variants, Cat Reman alternatives, filter/accessory leads and cellular-kit contents; no universal fitment/interchange claims.
 
 Overall reviewed progress: 73/500 batches = 730/5,000 product target (14.6%). Original Cat seed list has 57 SKUs remaining (products 731–787).
+
+## Batch 74/500 — products 731–740 (2026-11-25)
+
+SKUs: 6E-4351, 6I-0036, 6K-0806, 6L-8617, 6T-1140, 6T-1382, 6V-0852, 6V-0937, 6V-3965, 6V-7238. Seven pages supplied substantive data; 6E-4351 page returned an access error, while several universal fittings have extremely broad model indexes that were not fully normalized. All ten DB rows re-queried.
+
+Verified updates:
+- 6E-4351: Cat Fuel Injector Line; Cat page inaccessible. Existing 27 model labels and 7mm OD Carbon Steel specification retained unchanged.
+- 6I-0036: Cat Fuel Injector Line, 1.83mm ID, collar and swivel nut at both ends. Added 36 distinct model labels across SR4 generator, 3408/3408B truck and marine engines, 637E/631E wheel tractors, PR-450/PR-450C/PM-565 cold planers, 834B wheel dozer, 59N/59L/58/58L winches, 836 landfill compactor, 988B/988F wheel loaders, D8/D9 tractors, 589 pipelayer, 771C quarry truck, 769C truck, 657E scraper and bulldozers. Specs 24in length ×3.1in height.
+- 6K-0806: Cat Nylon Cable Tie, 15.35in long, 0.19in strap width, bundle diameter 0.05–4.33in, Nylon 6/6, 6/12 and 6/6 plastic. Cat page has an exceptionally broad compatibility index; exact identifiers were not fully normalized and structured fitment was intentionally left empty.
+- 6L-8617: Cat Radiator Pressure Cap. Maintains cooling-system pressure to improve cooling efficiency and prevent overheating. Material Polycarbonate Plastic and Carbon Steel. Cat page has a very broad equipment compatibility index; exact identifiers were not fully normalized and structured fitment was intentionally left empty.
+- 6T-1140: Cat Track Bolt, 0.875in thread, 9mm pitch, 87.31mm/3.437in length. Added 35 distinct labels across D8/D9 tractors, 3508B generator set, ripper, pipelayers, bulldozers and winches. Specs 1.772in grip, RH, Carbon Steel, Cat/ASTM F2882 170 Ksi.
+- 6T-1382: Cat Straight Minor Bogie for suspended D8–D11 undercarriage. Added 16 distinct labels: D9L/D10R/D10T2/D10T/D10N/D10 track tractors; ripper 9; bulldozers 9U/10SU/10U/9S/9C; winches 59/59N/58L/59L. Materials Boron Steel/Microalloy Steel/Carbon Steel; shoe type Extreme Service, Single Grouser, Trapezoidal.
+- 6V-0852: Cat Hydraulic Oil Dust Cap protects hydraulic-system openings from dust and debris. Cat compatibility index spans hundreds of machine families, but exact model IDs were not fully normalized; structured fitment intentionally left empty.
+- 6V-0937: Cat Hex Head Track Bolt, 0.625in thread, 18mm pitch, 53mm/2.087in long. Specs 1.181in grip, 0.91in shoulder, 23.81mm hex, RH, Carbon Steel, Cat/ASTM F2882 170 Ksi. Important source discrepancy preserved: product title says 18mm pitch, while Cat description states 5/8-15 UNJF. No compatible-model list published.
+- 6V-3965: Cat 9/16in Thread Quick Disconnect Rubber Nipple with STOR. Straight SAE STOR to male quick-disconnect nipple, plated steel. Material fields Alloy Zinc, NBR/HNBR/XNBR rubber, Alloy Steel, Carbon Steel and FKM rubber. Cat model index is exceptionally broad; exact identifiers were not fully normalized and structured fitment intentionally left empty.
+- 6V-7238: Cat 3/4in Thread Shutoff Valve. Brass material description, 2.8in length, 1in height; material fields Alloy Brass/Alloy Steel/Alloy Copper. Cat model index is exceptionally broad; exact identifiers were not fully normalized and structured fitment intentionally left empty.
+
+Cat pages:
+- https://parts.cat.com/en/catcorp/product/6E-4351
+- https://parts.cat.com/en/catcorp/product/6I-0036
+- https://parts.cat.com/en/catcorp/product/6K-0806
+- https://parts.cat.com/en/catcorp/product/6L-8617
+- https://parts.cat.com/en/catcorp/product/6T-1140
+- https://parts.cat.com/en/catcorp/product/6T-1382
+- https://parts.cat.com/en/catcorp/product/6V-0852
+- https://parts.cat.com/en/catcorp/product/6V-0937
+- https://parts.cat.com/en/catcorp/product/6V-3965
+- https://parts.cat.com/en/catcorp/product/6V-7238
+
+Post-update verification returned all ten rows. Distinct structured fitment counts: 6E-4351=27 (existing); 6I-0036=36; 6K-0806=0 (intentionally withheld pending exact normalization); 6L-8617=0 (intentionally withheld); 6T-1140=35; 6T-1382=16; 6V-0852=0 (intentionally withheld); 6V-0937=0 (Cat publishes no model list); 6V-3965=0 (intentionally withheld); 6V-7238=0 (intentionally withheld). Broad catalog family summaries remain in descriptions, not in the structured fitment array. No prices/current stock inferred.
+
+Additional Cat-linked discovery candidates:
+3J-1907, 6V-5048, 2J-0157, 2S-4078, 3S-2093, 3S-2094, 3S-2095, 238-8648, 1R-1808, 7G-4332, 6Y-0473, 6V-0937, 125-3537, 167-1946, 245-9947, 245-9950, 214-7568, 238-5080, 238-5081, 2H-3928, 5H-6734, 6V-6809, 310-3954, 8H-7521, 167-4407. These are related fasteners, seals, hose/coupling parts, radiator coolant/filter accessories and idler alternatives; candidate-only, not fitment/interchange proof.
+
+Overall reviewed progress: 74/500 batches = 740/5,000 product target (14.8%). Original Cat seed list has 47 SKUs remaining (products 741–787).
