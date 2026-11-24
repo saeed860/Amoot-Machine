@@ -1724,3 +1724,16 @@ Source-status rules:
 - Verify compatibility against exact model/serial-number configuration; do not infer compatibility from a broad engine-family mention.
 - Keep aftermarket, surplus, used, rebuilt and Cat Reman conditions distinct. Never convert seller inventory into an assertion of new genuine Cat stock.
 - Do not import seller prices as authoritative Cat pricing; record seller, condition, currency, date and source if later captured.
+
+
+## Expanded independent-source discovery — additional 44 candidates
+
+Beyond Off Road's public 500-popular-parts index, additional independent catalogs and technical documents were located and used to create a second segregated discovery queue:
+- `data/cat-part-number-discovery-independent-suppliers.txt` — 44 rows from supplier catalogs, aftermarket references, bogie application charts and a scanned Cat 3116 parts manual.
+- Source families include EMS Pumps, Costex alternators, Rivtron turbocharger cross-references, Jereh hydraulic-pump catalog, DMC/BDI undercarriage and bogie references, IPD cylinder-liner literature, and a scanned Numeralkod-hosted Cat 3116 parts manual.
+- Examples of newly surfaced candidate numbers include 1038264, 1192924, 1164624, 1217385, 1125041, 1693345, 2035492, 2128622, 2128561, 7C7691, 0R6333 and multiple 1U-series pump cartridges.
+- Some rows are cross-reference/supersession/kit/component numbers (e.g. 6E5280, 854923, 874738, 2W8625, 9T5976, 8J5407, 2P9239, 1131526, 6P7788, 1342679K, 1342680K, 7C5567). They must not be treated as independent standalone Cat SKUs without checking.
+- Search results confirmed useful independent technical evidence: EMS lists pump applications and cross-references; Costex lists alternator part numbers with engine/machine application columns; DMC/BDI show bogie assembly/component numbers by D9 model; IPD documents 1979322 and its liner kit form; Rivtron cross-references 7C7691 with other turbo numbers. These sources do not establish Cat authorization or new genuine stock.
+- Direct Cat Parts Store product URLs for the initial 12 candidates did not return readable records through the public page fetch, so those rows remain unverified. The next verification path is Cat Parts Store search, SIS/parts manuals or dealer confirmation; no candidates were promoted to the official SKU list.
+
+Discovery queue totals created in this pass: 91 Off Road candidates + 44 independent supplier/technical-reference candidates = 135 new leads, all segregated from the 787-item initial Cat source list and all marked for verification.
