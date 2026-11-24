@@ -2254,3 +2254,40 @@ Additional Cat-linked candidate leads, all requiring their own item-page verific
 620-7314, 7E-0701, 485-4705, 1G-8878, 159-3219, 3S-9643, 622-1438, 1S-5772, 20R-6825, 20R-6359, 368-8179, 261-3450, 253-1752, 317-8766.
 
 Overall reviewed progress: 46/500 batches = 460/5,000 product target (9.2%). Original Cat seed list has 327 SKUs remaining (products 461–787).
+
+## Batch 47/500 — products 461–470 (2026-11-25)
+
+SKUs: 30R-1590, 30R-1818, 310-2365, 310-2901, 310-2902, 311-1298, 311-1299, 311-1300, 311-8150, 313-2650.
+
+Cat product pages retrieved for nine items; 30R-1590 returned an internal/access error and was left unchanged. Relevant item-level compatible-model/specification sections were inspected for the remaining nine.
+
+Verified updates:
+- 30R-1590: Cat Reman valve lifter, existing record identifies CG137-12 generator-set engine. Cat page inaccessible in this run; no new specifications or fitment claims added.
+- 30R-1818: Cat Reman connecting rod (C32B). Confirmed Cat Compatible Models lists 777F truck. Existing C32B engine identification retained; no dimensional specs published by Cat.
+- 310-2365: Tube Assembly. Confirmed Cat compatible applications: Gen Set Engine 3516/3516B; Generator Set 3516C/3516/3516B; Marine Auxiliary 3516B; Industrial Engine 3516/3516B/3516C; Petroleum Engine 3516C/3516B/3516. Added Carbon Steel material and 3516 family labels.
+- 310-2901: Front Bogie Assembly. Confirmed D8T, D8R, D8GC, D8 GC, D8 and D8 XE track-type tractors. Added Alloy Steel and front/suspended-bogie descriptors. Cat description says D8–D11 bogie assemblies absorb impact and reduce shock transferred to the undercarriage by up to 50% on uneven terrain; the published compatible-model list for this SKU itself is the six D8 labels.
+- 310-2902: Rear Bogie Assembly. Confirmed same six D8-family compatible-model labels and Alloy Steel material; identified rear assembly position. Cat frequently-bought-together leads added separately.
+- 311-1298: Sleeve Bearing Cartridge for D9T/D8T/D9/D9R/D8R/D8R II/D8GC/D8N/D9 GC/D8 GC/D8/D8 XE. Added steel/oil, 4.134in length, 4.022in outer diameter, 3.982in inner diameter, standard application, HD heavy-duty undercarriage, oil lubrication, major/minor bogie flags.
+- 311-1299: Sleeve Bearing Cartridge for D10N/D10R/D10T2/D10/D10T. Added steel/oil, 5.295in length, 4.022in OD, 3.982in ID, standard application, HD heavy-duty undercarriage, oil lubrication, major/minor bogie flags.
+- 311-1300: Sleeve Bearing Cartridge for D11N/D11R/D11T/D11 XE/D11. Added steel/oil, 6.417in length, 4.772in OD, 4.746in ID, standard application, HD heavy-duty undercarriage, oil lubrication, major/minor bogie flags.
+- 311-8150: Square track nut, M22 ×1.5 RH fine thread. Added Cat-published fitment across track feller bunchers, rotary/track drills, excavators and mobile hydraulic power units (79 raw model labels deduplicated). Specs: 0.945in thickness, 0.8661in bolt size, alloy zinc/coating fluid/carbon steel, zinc phosphate + oil, ISO 898-2 class 12, 1.26in drive.
+- 313-2650: Cat Water Pump Group. Cat explicitly marks it discontinued and no longer available. Set is_active=false. Confirmed Cat model list: Generator Set 3516C; Marine Engine 3516B/3516C/3516; Marine Auxiliary 3516C; Truck 793B/793C; Petroleum Engine 3516C/3512C; Locomotive Engine 3516C/3516B. Added dimensions 19.5in ×12.5in and recorded the page's alternate display 10R-9598 Cat Reman Auxiliary Sea Water Pump (3500) as a dealer-verification lead, not a guaranteed interchangeable replacement.
+
+Cat pages:
+- https://parts.cat.com/en/catcorp/product/30R-1590
+- https://parts.cat.com/en/catcorp/product/30R-1818
+- https://parts.cat.com/en/catcorp/product/310-2365
+- https://parts.cat.com/en/catcorp/product/310-2901
+- https://parts.cat.com/en/catcorp/product/310-2902
+- https://parts.cat.com/en/catcorp/product/311-1298
+- https://parts.cat.com/en/catcorp/product/311-1299
+- https://parts.cat.com/en/catcorp/product/311-1300
+- https://parts.cat.com/en/catcorp/product/311-8150
+- https://parts.cat.com/en/catcorp/product/313-2650
+
+Post-update DB verification returned all ten SKUs. 30R-1590 was unchanged; 30R-1818 through 313-2650 had the evidence-supported fields applied. 311-8150 compatible-model array was deduplicated after verification. 313-2650 verified inactive. No customer prices, stock, or direct interchangeability inferred.
+
+Additional Cat-linked discovery candidates (not promoted as compatible or interchangeable):
+489-5670, 306-9441, 9W-4481, 7G-5221, 131-1651, 9G-7516, 2K-4472, 7T-5959, 9X-4588, 7G-1952, 8T-0208, 9W-4489, 3P-2482, 3T-9075, 9X-4590, 3T-7494, 8T-2863, 179-3428, 6Y-8180, 179-3426, 6Y-2590, 6Y-5685, 10R-9598.
+
+Overall reviewed progress: 47/500 batches = 470/5,000 product target (9.4%). Original Cat seed list has 317 SKUs remaining (products 471–787).
