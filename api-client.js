@@ -259,6 +259,11 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["4P5638","PUMP GP",6064.01,10005.62,"۱۹ New Aftermarket"],
+ ["4P8730","TURBO GP",4832.30,7973.30,"۲۱ New Aftermarket"],
+ ["4P9075","INJECTOR",1956.81,3228.74,"۱۹ New Aftermarket"],
+ ["4W0255","SPIDER A",3478.88,5740.15,"۲۷ New Aftermarket؛ ۲ Used"],
+ ["4W4980","CORE GRP",4964.11,8190.78,"۵۰ New Aftermarket؛ ۱ Call For Pricing"],
  ["4N1101","PUMP G",2344.74,3868.82,"۲۱ New Aftermarket"],
  ["4N6765","HEAD A D343",11313.40,18667.11,"۱۲ New Aftermarket؛ ۶ New Aftermarket Loaded"],
  ["4N7692","CRANKSHAFT A",7929.57,13083.79,"۱ New Genuine Surplus؛ ۴۳ New Aftermarket"],
