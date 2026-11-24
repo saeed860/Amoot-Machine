@@ -271,3 +271,27 @@ A second marine-engine batch checked normalized exact numbers from the previousl
 As with the previous batch, this result describes only the public popular-parts index. It does not establish that Off Road does not carry these parts; the complete inventory search remains separate and login-gated. No OEM List Price or provisional ×1.65 reference was added because no exact public Off Road detail record with a visible OEM List Price was located for these numbers. Do not infer an alternative or price from a similarly described part.
 
 Source: https://offroadeq.com/parts (500 frequently searched parts; full inventory search: https://offroadeq.com/search).
+
+
+## Independent public supplier-price leads — marine engine parts (24 Nov 2026)
+
+These are public third-party retail/market offers, **not Off Road quotes and not Cat OEM List Prices**. They are recorded in a separate market-reference layer. Brand, condition, VAT treatment and stock state must remain distinct; no Amoot selling price is published from these observations.
+
+| Cat part number | Product / seller | Displayed price | Currency / tax | Brand / condition as represented | Availability shown | Source |
+|---|---|---:|---|---|---|---|
+| 6L-2280 | Tecnoseal 02027 zinc rod, Anode Outlet | 7.93 | GBP; tax treatment not stated in result | Tecnoseal aftermarket equivalent; listing says same as Cat 6L2280/6L2281 | Estimated delivery 2–3 working days | https://www.anodeoutlet.co.uk/02027-tecnoseal-caterpillar-zinc-rod-anode-6l2280/ |
+| 6L-2280 | Cat Zinc 6L-2280, Motortec | 16.52 | EUR, VAT included | Cat-branded listing | Same-day dispatch claim; stock quantity not shown | https://motortecpower.com/product/zinc-6l-2280/ |
+| 6L-2280 | Tecnoseal/Caterpillar type 2027, Lancing Marine price book | 8.60 | GBP; price-book tax treatment not stated | Catalog line maps 2027 to OEM ref 6L2280; manufacturer/condition not specified in excerpt | No stock status in price-book excerpt | https://www.lancingmarine.com/price-book/page-104/ |
+| 315-8339 | CAT 615.9 mm After Cooler Core, Advanced Truck Parts | 4,152.91 (was 5,191.14) | USD; tax treatment not stated | Listed Brand: Caterpillar; condition not explicit | Sold out | https://advancedtruckparts.com/collections/cat-cat/products/315-8339-cat-615-9mm-length-after-cooler-core |
+| 315-8339 | Core Aftercooler CA3158339, DeedParts | 1,750.32 | USD; tax treatment not stated | New aftermarket, “For CAT” (not genuine Cat) | In stock (seller page) | https://www.deedparts.com/core-as-aftercooler-ca3158339-315-8339-3158339-for-caterpillar-cat-engine-c9.html |
+| 315-8339 | C9 aftercooler core, Made-in-China listing | 825.00 | USD; MOQ 1; tax/freight not stated | Manufacturer offer; exact brand/quality certification not established in snippet | Listing offer; availability must be confirmed | https://www.made-in-china.com/products-search/hot-china-products/Core_Aftercooler_Price.html |
+
+### Interpretation / controls
+
+- The three 6L-2280 offers are not directly comparable: Tecnoseal aftermarket equivalence, a Cat-branded retail offer, and a marine price-book line have different provenance and tax/stock detail. Do not average them or treat them as Off Road costs.
+- The 315-8339 offers differ materially in price and condition. Advanced Truck Parts shows a Cat-branded listing but currently **sold out**; DeedParts explicitly describes a new aftermarket “For CAT” product; the Made-in-China listing is a supplier offer with no independently verified brand or certification. They must not be merged into one price.
+- Official Cat Parts Store pages confirm 6L-2280 as a zinc anode for auxiliary sea-water pumps/heat exchangers, and confirm 315-8339 as a C9 aftercooler core. Cat customer prices are login-gated in the returned pages; no OEM price was extracted from them.
+- Official Cat model-class evidence also reconfirmed 305-8921 (C32 Marine Engine/Generator Set), 207-2422 (C32 marine/generator and other classes), 353-9049 (C32 Marine Engine + Generator Set), 149-3239 (C9 Marine Engine/Generator Set), 113-1110 (C9 Marine Engine plus Generator Set/Petroleum), 493-9456 (C18 Marine Engine plus non-marine classes), and 247-0825 (Marine Engine applications including C18/C15/C32/C9). These are application-class observations only; serial/Arrangement fitment still governs.
+- 315-8339 is independently shown as a component in a C9 Marine parts-manual extract for aftercooler group 242-5336, quantity 1. This third-party manual extract is useful assembly context, but the Cat Parts Store compatible-model list and full serial/Arrangement lookup remain the controlling fitment checks.
+
+No supplier quote was obtained, no Off Road price was inferred, no ×1.65 Amoot price was calculated from these third-party retail offers, and no public catalog price or stock was changed.
