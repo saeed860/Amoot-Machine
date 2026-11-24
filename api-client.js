@@ -259,6 +259,10 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["1979322","LINER",225.80,372.57,"۶۰ New Aftermarket؛ ۵ Used"],
+ ["1981508","PUMP GP-EO 2",2644.35,4363.18,"۲۰ New Aftermarket"],
+ ["1995525","LINK AS.-TRA",15021.33,24785.19,"۶ New Aftermarket"],
+ ["2248809","RIM AS.",2953.23,4872.83,"۹ New Aftermarket"],
  ["1678130","DAMPER AS",1550.96,2559.08,"۶ New Aftermarket؛ ۹ Used"],
  ["8T4133","NUT-ZC",0.47,0.78,"۸٬۵۷۱ New Genuine Surplus؛ ۲٬۷۲۹ New Aftermarket؛ ۲ Used"],
  ["8T4224","WASHER-ZC",0.47,0.78,"۲۵۳٬۸۷۴ New Genuine Surplus؛ ۵٬۲۶۷ New Aftermarket"],
