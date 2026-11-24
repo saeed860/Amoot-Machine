@@ -1,0 +1,2 @@
+UPDATE public.products SET price_usd = CASE sku WHEN 'CAT-4N-0015' THEN 21.35 WHEN 'CAT-513-4490' THEN 176.37 ELSE price_usd END WHERE sku IN ('CAT-4N-0015','CAT-513-4490');
+UPDATE public.products SET price_irr=NULL WHERE sku IN ('CAT-4N-0015','CAT-513-4490');
