@@ -1,67 +1,29 @@
-name: Correct official Cat part details
+name: Validate official Cat data migrations
 
 on:
   push:
     branches: [main]
     paths:
+      - "supabase/migrations/*cat*.sql"
       - ".github/workflows/cat-official-correction.yml"
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  migration:
+  validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: supabase/setup-cli@v1
-        with:
-          version: 2.75.0
-      - name: Create migration with Supabase CLI
-        run: supabase migration new cat_correct_official_part_details
-      - name: Write reviewed Cat corrections
+      - name: Validate Cat migration files
+        shell: bash
         run: |
-          migration_file="$(find supabase/migrations -maxdepth 1 -type f -name '*_cat_correct_official_part_details.sql' -print -quit)"
-          test -n "$migration_file"
-          cat > "$migration_file" <<'SQL'
--- Correct and enrich a small, manually cross-checked set of official Cat Parts records.
--- These remain reference-only; Cat requires equipment/serial selection for final fitment.
-update public.part_catalog
-set
-  name = '144.45mm Outer Diameter Connecting Rod Bearing',
-  description = 'Cat 144.45 mm outer-diameter connecting rod bearing. Connecting rod bearings provide a conformable surface for the connecting rod to rotate on the crankshaft.',
-  source_url = 'https://parts.cat.com/en/catcorp/product/107-7330',
-  engine_models = ARRAY['SPS343','SPF343','SPT343','SR4','SR5','SR4B','SR4BHV','3516B','3516C','PP3516','XQC1600','PMG3516','PM3508','PM3516','PM3512','3508B','D11N','D11R','3512C','3516','3512','3508','3508C','3512B','5230B','5130','5230','5130B','G3516','G3512','G3508','G3516B','G3516E','G3520C','G3520B','G3520E','G3512E','G3516C','G3516J','3516PETROLEUM','G3520J','3508PETROL','3512PETROL','854G','994','992G','994D','785','789','793','793D','793B','793C','789C','789D','777C','777B','789B','777D','777','785C','785B','776D','776C','776B','784C','784B','G3508J','G3512B','G3512J','G3508B','11U','11SU']::text[],
-  compatible_models = ARRAY['SPS343','SPF343','SPT343','SR4','SR5','SR4B','SR4BHV','3516B','3516C','PP3516','XQC1600','PMG3516','PM3508','PM3516','PM3512','3508B','D11N','D11R','3512C','3516','3512','3508','3508C','3512B','5230B','5130','5230','5130B','G3516','G3512','G3508','G3516B','G3516E','G3520C','G3520B','G3520E','G3512E','G3516C','G3516J','3516PETROLEUM','G3520J','3508PETROL','3512PETROL','854G','994','992G','994D','785','789','793','793D','793B','793C','789C','789D','777C','777B','789B','777D','777','785C','785B','776D','776C','776B','784C','784B','G3508J','G3512B','G3512J','G3508B','11U','11SU']::text[],
-  specifications = (coalesce(specifications,'{}'::jsonb) - 'material') || '{"length_in":6.4,"height_in":3.6,"outside_diameter_mm":144.45}'::jsonb,
-  updated_at = now()
-where part_number = '107-7330';
-
-update public.part_catalog
-set
-  name = '170.025mm Inner Diameter Cylinder Block Liner',
-  description = 'A cylinder block liner, also called a cylinder sleeve or cylinder liner, is inserted into the engine block bore. This non-cuffed liner provides a durable, wear-resistant surface for the piston and helps maintain consistent clearance.',
-  source_url = 'https://parts.cat.com/en/catcorp/product/523-8663',
-  engine_models = ARRAY['SPF343C','SPF343','SR4','SR5','SR4B','SR4BHV','3516B','3516C','XQC1200','PP3516','XQC1600','PMG3516','PM3508','PM3516','PM3512','3508B','D11N','D11R','MD6540C','3512C','3512B','3508C','3512','3516','3508','5230B','5130','5230','5130B','TH48-E70','G3516','G3512','G3508','G3516B','G3516C','G3516E','G3516H','G3520C','G3520B','G3520E','G3512E','3516E','G3516J','3516PETROLEUM','3508PETROL','3512PETROL','TH48-E80','854G','994','992G','994F','994D','994H','POWER','SYS','C4.4','CG170-16','3561B','LD700E','785','789','797','793D','793B','793C','789C','789D','777C','777B','789B','777D','785C','785D','797B','785B','776D','776C','784C','G3508J','G3512B','G3512J','G3508B','CAT','WDS']::text[],
-  compatible_models = ARRAY['SPF343C','SPF343','SR4','SR5','SR4B','SR4BHV','3516B','3516C','XQC1200','PP3516','XQC1600','PMG3516','PM3508','PM3516','PM3512','3508B','D11N','D11R','MD6540C','3512C','3512B','3508C','3512','3516','3508','5230B','5130','5230','5130B','TH48-E70','G3516','G3512','G3508','G3516B','G3516C','G3516E','G3516H','G3520C','G3520B','G3520E','G3512E','3516E','G3516J','3516PETROLEUM','3508PETROL','3512PETROL','TH48-E80','854G','994','992G','994F','994D','994H','POWER','SYS','C4.4','CG170-16','3561B','LD700E','785','789','797','793D','793B','793C','789C','789D','777C','777B','789B','777D','785C','785D','797B','785B','776D','776C','784C','G3508J','G3512B','G3512J','G3508B','CAT','WDS']::text[],
-  specifications = coalesce(specifications,'{}'::jsonb) || '{"inside_diameter_mm":170.025}'::jsonb,
-  updated_at = now()
-where part_number = '523-8663';
-
--- The official product page explicitly says no specification is available for 20R-6518.
-update public.part_catalog
-set
-  specifications = coalesce(specifications,'{}'::jsonb) - 'material',
-  source_url = 'https://parts.cat.com/en/catcorp/product/20R-6518',
-  updated_at = now()
-where part_number = '20R-6518';
-
-SQL
-      - name: Commit migration
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          migration_file="$(find supabase/migrations -maxdepth 1 -type f -name '*_cat_correct_official_part_details.sql' -print -quit)"
-          git add "$migration_file"
-          git commit -m "data: correct official Cat part metadata"
-          git push
+          shopt -s nullglob
+          files=(supabase/migrations/*cat*.sql)
+          test "${#files[@]}" -gt 0
+          for file in "${files[@]}"; do
+            grep -Eiq 'UPDATE[[:space:]]+public\.part_catalog|UPDATE[[:space:]]+public\.products' "$file" || {
+              echo "No Cat catalog/product update found in $file"
+              exit 1
+            }
+          done
