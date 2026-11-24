@@ -259,6 +259,10 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["3496530","MOTOR GP E",1866.93,3080.43,"۵ New Aftermarket"],
+ ["3500666","PUMP GP-PI",4138.31,6828.21,"۵۰ New Aftermarket"],
+ ["3520200","PUMP GP-WA",1893.94,3125.00,"۱۱۱ New Aftermarket؛ ۲ Call For Pricing"],
+ ["3520202","PUMP GP-WA",1829.02,3017.88,"۷۸ New Aftermarket؛ ۱ New Genuine Surplus"],
  ["3412814","CYL GP-SEA",10834.17,17876.38,"در موجودی دقیق فروشنده یافت نشد؛ قیمت OEM List موجود است"],
  ["3418543","SEAL GP",1236.57,2040.34,"۱ New Genuine Surplus؛ ۶۹ New Aftermarket"],
  ["3434268","WHEEL AS",1448.87,2390.64,"۱۷ New Aftermarket"],
