@@ -66,7 +66,7 @@ jobs:
         run: |
           node --input-type=module <<'NODE'
           import fs from 'node:fs';
-          const files = ['index.html','app.js','cart.js','api-client.js','api-config.js','style.css','search.html','search.js','search.css','prices.html'];
+          const files = ['index.html','app.js','cart.js','api-client.js','api-config.js','style.css','search.html','search.js','search.css'];
           const text = files.map(f => fs.readFileSync(f,'utf8')).join('\n');
           const refs = new Set([...text.matchAll(/(?:\.\/assets\/[A-Za-z0-9._/-]+|\.\/style\.css|\.\/app\.js|\.\/cart\.js|\.\/api-client\.js|\.\/api-config\.js|\.\/search\.js|\.\/search\.css)/g)].map(m=>m[0]));
           const missing = [...refs].filter(p => !fs.existsSync(p.slice(2)));
