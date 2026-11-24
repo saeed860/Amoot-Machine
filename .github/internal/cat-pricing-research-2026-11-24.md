@@ -1155,3 +1155,36 @@ Official Cat sources checked:
 - https://parts.cat.com/en/catcorp/product/20R-6518
 
 Database checkpoint: all 10 rows updated and verified. Four exact official images newly linked (20R-5393, 20R-5462, 20R-5681, 20R-6263); existing exact images retained for 20R-5566, 20R-5616, 20R-5677 and 20R-6518. Generic/incorrect kit imagery omitted. Overall manual progress: 33/50 batches, 330/500 SKUs.
+
+
+## Batch 34/50 — SKUs 331–340 (20R-6618 through 20R-7555)
+
+All ten official Cat pages were reviewed; all ten Supabase rows were updated and query-verified.
+
+| SKU | Official identity / captured detail | Image / fitment treatment |
+|---|---|---|
+| 20R-6618 | Cat Reman D3500 Cylinder Pack; 14.0:1, Monotherm piston; recommended D3500; preassembled liner/piston/rings/pin/retainers/rod/seals; no separate compatible-model list | Available image was a connecting rod, not the cylinder pack; omitted |
+| 20R-6628 | Cat Reman G3600 Prechamber Kit with Check Valve; 20R-3466 ×1 and 454-8324 ×1; G3600 application; core return and 12-month warranty; no separate fitment list | Existing exact official kit image retained |
+| 20R-6833 | Cat Reman Variable Valve Actuator (24V Cat Brake); C15/C18 engines; compatible 740/745C/735C/740GC/735B, 631K/637K, 657, 772G/770G, 834H/834K, 24M, 988K/986K and related loaders/trucks | Existing exact official actuator image retained; 28 model identifiers stored |
+| 20R-7175 | Cat Reman Auxiliary Sea-Water Pump (Tier 3, 3406E/C18); compatible POWER SYS gen-set engine, C18 generator set, C18 marine, C-15 petroleum engine and C18 petroleum package | Exact official Scene7 pump image newly linked |
+| 20R-7306 | Cat Reman 24V UTN HID Flood Lamp; wide-beam lighting, qualifying core return, 12-month warranty; compatible D9T/D11T/D8T/D10T/D7E, AP-500E/AP-555E pavers, 390D/345D/349D/374D excavators, 844/854 dozers, 16M/12M/24M graders, 836H, 993K/988/990/966/962/986/950/972/980/994/992 loaders | Existing exact official image retained; Cat explicitly says part is no longer available—record deactivated; 45 model identifiers retained |
+| 20R-7307 | Cat Reman 24V UTN HID Flood Lamp; qualifying core return and 12-month warranty; compatible D10T2/D10T/D11T, IT62H, 613G, 793F/795F/797F/773F/789D/785D/777F trucks, excavators, dozers, 16M grader, 836H/836K and loaders | Existing exact official image retained; remains active; 62 model identifiers stored |
+| 20R-7411 | Cat Reman Platinum C15 Engine Overhaul Kit; 18.0:1; nine Parts Included lines: 0R-9449 ×1, 10R-1273 ×6, 10R-3304 ×6, 20R-2648 ×1, 20R-9847 ×1, 440-4722 ×1, 440-4723 ×1, 443-1278 ×1, 606-0909 ×1; complete out-of-frame overhaul and assembled core-refund terms | Existing exact official kit image retained; no separate compatible-model list published |
+| 20R-7547 | Cat Reman Camshaft Kit (3406B); camshaft plus Cat Reman valve lifters; high-grade steel, precision-balanced, patented heat treatment and journal grinding; compatible Truck Engine 3406C/3406B and Industrial Engine 3406B | Exact official Scene7 camshaft-kit image newly linked |
+| 20R-7549 | Cat Reman Camshaft Kit (3406C); camshaft plus Cat Reman valve lifters; precision balance, patented heat treatment and journal grinding; compatible Truck Engine 3406C | Exact official Scene7 camshaft-kit image newly linked |
+| 20R-7555 | Cat Reman Camshaft Kit (3408); camshaft plus Cat Reman valve lifters; high-grade steel, precision balance, patented heat treatment and journal grinding; recommended application 3408; no Compatible Models data | Only 80px image; omitted |
+
+Official Cat sources checked:
+- https://parts.cat.com/en/catcorp/product/20R-6618
+- https://parts.cat.com/en/catcorp/product/20R-6628
+- https://parts.cat.com/en/catcorp/product/20R-6833
+- https://parts.cat.com/en/catcorp/product/20R-7175
+- https://parts.cat.com/en/catcorp/product/20R-7306
+- https://parts.cat.com/en/catcorp/product/20R-7307
+- https://parts.cat.com/en/catcorp/product/20R-7411
+- https://parts.cat.com/en/catcorp/product/20R-7547
+- https://parts.cat.com/en/catcorp/product/20R-7549
+- https://parts.cat.com/de/catcorp/product/20R-7555
+- https://parts.cat.com/en/catcorp/category/engine-components-camshaft-kits
+
+Database checkpoint: all 10 rows updated and verified. Three exact official images newly linked (20R-7175, 20R-7547, 20R-7549); existing exact images retained for 20R-6628, 20R-6833, 20R-7306, 20R-7307 and 20R-7411. Incorrect/low-resolution images omitted. 20R-7306 deactivated based on Cat's explicit “Part is no longer available” notice; 20R-7307 remains active. Overall manual progress: 34/50 batches, 340/500 SKUs.
