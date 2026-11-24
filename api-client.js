@@ -259,6 +259,9 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["4W5056","CORE G",2596.16,4283.66,"۲ New Aftermarket"],
+ ["4W5477","PUMP G",1571.25,2592.56,"۴۵ New Aftermarket"],
+ ["4W9822","CORE G",3340.44,5511.73,"۳۲ New Aftermarket؛ ۳ Used"],
  ["4P5638","PUMP GP",6064.01,10005.62,"۱۹ New Aftermarket"],
  ["4P8730","TURBO GP",4832.30,7973.30,"۲۱ New Aftermarket"],
  ["4P9075","INJECTOR",1956.81,3228.74,"۱۹ New Aftermarket"],
