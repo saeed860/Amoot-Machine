@@ -73,3 +73,30 @@ Source pages:
 - https://parts.cat.com/en/catcorp/product/20R-9567
 - https://parts.cat.com/en/catcorp/product/20R-9654
 - https://parts.cat.com/en/catcorp/product/210-2535
+
+
+## Additional Cat-linked candidates from batch 39
+
+The following 14 numbers were found in Cat Parts Store official alternative, related-parts and frequently-bought-together panels. These links establish that Cat surfaces the numbers in a related context, not that they are interchangeable or fit every same machine. Each needs its own product-page and serial-number verification.
+
+part_number | displayed description | source context | status
+20R-2665 | Cat Reman engine oil pump (3500C) | Official Cat alternative shown for 231-5127 | cat_linked_candidate; needs_individual_verification
+219-3240 | Water temperature regulator | Related part shown on Cat 231-5127 page | cat_linked_candidate; needs_individual_verification
+7N-4927 | 1.6mm water-temperature regulator housing gasket | Related part shown on Cat 231-5127 page | cat_linked_candidate; needs_individual_verification
+4W-3027 | Engine crankcase breather | Related part shown on Cat 231-5127 page | cat_linked_candidate; needs_individual_verification
+1P-0436 | 1.2mm thick fuel-filter lines gasket | Related part shown on Cat 237-9313 page | cat_linked_candidate; needs_individual_verification
+137-5541 | 41.4 stroke-per-liter fuel priming pump | Related part shown on Cat 237-9313 page | cat_linked_candidate; needs_individual_verification
+214-7568 | STOR O-ring seal (SAE 9/16-18) | Related part shown on Cat 237-9313 page | cat_linked_candidate; needs_individual_verification
+1R-0755 | High-efficiency fuel filter | Related part shown on Cat 237-9313 page | cat_linked_candidate; needs_individual_verification
+238-5080 | 2.21 × 16.36mm 90A FKM O-ring | Related part shown on Cat 237-9313 page | cat_linked_candidate; needs_individual_verification
+318-2486 | Track link | Frequently bought together with Cat 238-0472/238-0473 | cat_linked_candidate; needs_individual_verification
+357-5368 | Track roller group | Frequently bought together with Cat 238-0472/238-0473 | cat_linked_candidate; needs_individual_verification
+362-0515 | Carrier roller group | Related part shown on Cat track-bolt/nut pages | cat_linked_candidate; needs_individual_verification
+190-8609 | 22mm hex-size track adjuster fill valve | Related part shown on Cat track-bolt/nut pages | cat_linked_candidate; needs_individual_verification
+561-1082 | Link assembly | Related part shown on Cat track-bolt/nut pages | cat_linked_candidate; needs_individual_verification
+
+Source pages:
+- https://parts.cat.com/en/catcorp/product/231-5127
+- https://parts.cat.com/en/catcorp/product/237-9313
+- https://parts.cat.com/en/catcorp/product/238-0472
+- https://parts.cat.com/en/catcorp/product/238-0473
