@@ -1,10 +1,10 @@
-name: Validate official Cat data migrations
+name: Validate researched Cat price migration
 
 on:
   push:
     branches: [main]
     paths:
-      - "supabase/migrations/*cat*.sql"
+      - "supabase/migrations/*researched_cat_part_prices.sql"
       - ".github/workflows/cat-official-correction.yml"
 
 permissions:
@@ -15,15 +15,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Validate Cat migration files
+      - name: Validate researched Cat price migration
         shell: bash
         run: |
-          shopt -s nullglob
-          files=(supabase/migrations/*cat*.sql)
+          files=(supabase/migrations/*researched_cat_part_prices.sql)
           test "${#files[@]}" -gt 0
           for file in "${files[@]}"; do
-            grep -Eiq 'UPDATE[[:space:]]+public\.part_catalog|UPDATE[[:space:]]+public\.products' "$file" || {
-              echo "No Cat catalog/product update found in $file"
+            grep -q "UPDATE public.products" "$file" || {
+              echo "No product price update found in $file"
               exit 1
             }
+            grep -q "CAT-7W-0009" "$file"
+            grep -q "CAT-5N-4504" "$file"
+            grep -q "CAT-8T-6765" "$file"
           done
