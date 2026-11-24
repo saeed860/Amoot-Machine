@@ -387,3 +387,13 @@
 .detail-image img{display:block;width:100%;max-width:100%;height:300px;max-height:55vh;object-fit:contain;object-position:center;image-rendering:auto}
 @media(max-width:720px){.cat img{flex-basis:38%;width:38%;max-width:38%;height:68px;padding:3px;object-fit:contain}.product-img{height:154px;padding:9px}.product-img img{padding:2px}.detail-image img{height:220px;max-height:42vh}}
 @media(max-width:390px){.product-img{height:140px;padding:7px}}
+
+/* Four-image hero carousel */
+.hero-photo{background-image:url('./assets/hero-excavator.jpg');background-size:cover;background-position:center 48%;transition:opacity .65s ease,background-image .65s ease}
+.hero-slides{position:absolute;z-index:3;left:28px;bottom:18px;display:flex;align-items:center;gap:10px;direction:ltr}
+.hero-dots{display:flex;align-items:center;gap:7px}
+.hero-dots button{width:8px;height:8px;padding:0;border:1px solid #fff;border-radius:50%;background:#ffffff66;cursor:pointer;transition:.2s}
+.hero-dots button.active{width:24px;border-color:var(--yellow);border-radius:8px;background:var(--yellow)}
+.hero-arrow{width:27px;height:27px;border:1px solid #ffffff80;border-radius:50%;background:#20232699;color:#fff;font-size:20px;line-height:1;cursor:pointer}
+.hero-arrow:hover{background:var(--yellow);color:#202326;border-color:var(--yellow)}
+@media(max-width:720px){.hero-slides{left:14px;bottom:12px;gap:7px}.hero-arrow{width:25px;height:25px}.hero-dots{gap:6px}}
