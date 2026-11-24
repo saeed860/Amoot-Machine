@@ -2217,3 +2217,40 @@ Additional linked discovery leads from the 306-6820 kit contents, 307-3245 frequ
 Post-update verification: all ten SKUs re-queried. Only 301-2299, 307-3245 and 309-7678 changed; 301-3043, 306-6820 and 309-4499 already matched the Cat fitment; 303-2504, 304-3885, 309-7679 and 30R-0090 were left untouched due to incomplete page evidence. No unsupported pricing, stock, or interchange claims added.
 
 Overall reviewed progress: 45/500 batches = 450/5,000 target products (9.0%). Original Cat seed list has 337 SKUs remaining (products 451–787).
+
+## Batch 46/500 — products 451–460 (2026-11-25)
+
+SKUs: 30R-0132, 30R-0133, 30R-0417, 30R-0418, 30R-0422, 30R-0454, 30R-0484, 30R-0485, 30R-0927, 30R-1275.
+
+Cat product pages were retrieved successfully for 30R-0132, 30R-0133, 30R-0417, 30R-0418, 30R-0484 and 30R-0927. Direct Cat page requests for 30R-0422, 30R-0454, 30R-0485 and 30R-1275 returned access/internal errors; their pre-existing catalog records were retained without adding new unverified dimensions.
+
+Verified changes and findings:
+- 30R-0132: Cat Reman exhaust bypass group. Cat page describes turbocharger boost-pressure regulation by bypassing exhaust gas. Cat explicitly says no compatible-model information is currently available and no specifications have been published. Cleared unsupported empty-fitment assumption only by retaining empty model arrays; updated description to state the public-data limitation. Cat page displays alternate 620-7314 (Exhaust Bypass Wastegate Housing) and related/frequently-bought-together leads 7E-0701, 485-4705, 1G-8878, 159-3219 and 3S-9643.
+- 30R-0133: Cat Reman exhaust bypass group. Cat explicitly says compatible-model information is unavailable and specifications are still being added. Retained empty fitment and no dimensions. Alternate shown: 622-1438 (VALVE AS-BYP); associated parts include 7E-0701, 3S-9643, 1S-5772, 485-4705 and 159-3219.
+- 30R-0417: Cat Reman generator rotor. Confirmed Cat compatible model 795F XQ. Added material Carbon Steel and Sealants/Adhesives Adhesive. Cat describes facility remanufacture with genuine Cat parts, engineering updates and original-specification testing; Cat warranty is same-as-new 12 months subject to limitations.
+- 30R-0418: Cat Reman generator rotor. Confirmed 794 AC truck and 796 AC off-highway truck. Added Sealants/Adhesives Adhesive and Carbon Steel materials.
+- 30R-0422: Cat Reman electric motor rotor (TM4245). Existing record lists 794 AC; Cat page request was inaccessible in this run, so no further changes.
+- 30R-0454: Cat Reman generator stator (G). Existing record lists 794 AC; Cat page request was inaccessible in this run, so no further changes.
+- 30R-0484: Cat Reman generator stator (G). Confirmed 794 AC truck and 796 AC off-highway truck. Added material Silicone/MQ/VMQ/PMQ Rubber, Sealants/Adhesives Adhesive and Carbon Steel.
+- 30R-0485: Cat Reman generator stator. Existing record lists 795F XQ; Cat page request was inaccessible in this run, so no new changes.
+- 30R-0927: Cat C18 Reman marine cylinder pack, 16.5:1 compression ratio. Cat Compatible Models explicitly lists C18 Generator Set. Description confirms preassembled liner, piston, rings, pin, retainers, connecting rod and seals; recorded those kit contents and remanufactured status. Cat page says specs are still being added, so no dimensions/material inferred. Related/frequently-bought-together leads: 261-3450, 253-1752, 317-8766; alternate 368-8179 (piston body).
+- 30R-1275: Cat Reman connecting rod. Existing record lists compatible model 307.5; direct Cat page request was inaccessible, so no new specifications were added.
+
+Cat product URLs:
+- https://parts.cat.com/en/catcorp/product/30R-0132
+- https://parts.cat.com/en/catcorp/product/30R-0133
+- https://parts.cat.com/en/catcorp/product/30R-0417
+- https://parts.cat.com/en/catcorp/product/30R-0418
+- https://parts.cat.com/en/catcorp/product/30R-0422
+- https://parts.cat.com/en/catcorp/product/30R-0454
+- https://parts.cat.com/en/catcorp/product/30R-0484
+- https://parts.cat.com/en/catcorp/product/30R-0485
+- https://parts.cat.com/en/catcorp/product/30R-0927
+- https://parts.cat.com/en/catcorp/product/30R-1275
+
+Post-update verification: all ten rows returned. Six pages supplied usable item-level evidence; four inaccessible pages were not used to invent new data. 30R-0132 and 30R-0133 explicitly have no Cat-published fitment in the public page; 30R-0417, 30R-0418, 30R-0484 and 30R-0927 have their fitments re-confirmed. No customer prices were visible without login and no price or availability was inferred.
+
+Additional Cat-linked candidate leads, all requiring their own item-page verification:
+620-7314, 7E-0701, 485-4705, 1G-8878, 159-3219, 3S-9643, 622-1438, 1S-5772, 20R-6825, 20R-6359, 368-8179, 261-3450, 253-1752, 317-8766.
+
+Overall reviewed progress: 46/500 batches = 460/5,000 product target (9.2%). Original Cat seed list has 327 SKUs remaining (products 461–787).
