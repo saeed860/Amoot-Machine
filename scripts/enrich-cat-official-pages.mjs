@@ -1,4 +1,4 @@
-import { readFile, mkdir, writeFile } from "node:fs/promises";
+import { readFile, mkdir, writeFile, rename } from "node:fs/promises";
 import { chromium } from "playwright";
 
 const partNumbers = (await readFile("data/cat-official-part-numbers.txt", "utf8"))
@@ -6,9 +6,28 @@ const partNumbers = (await readFile("data/cat-official-part-numbers.txt", "utf8"
 if (partNumbers.length !== 787 || new Set(partNumbers).size !== partNumbers.length) {
   throw new Error(`Expected 787 unique official Cat part numbers; found ${partNumbers.length}`);
 }
-const browser = await chromium.launch({ headless: true, args: ["--disable-http2", "--disable-quic"] });
+const checkpointPath = "artifacts/cat-official-enrichment-checkpoint.json";
+await mkdir("artifacts", { recursive: true });
+let checkpoint = [];
+try { checkpoint = JSON.parse(await readFile(checkpointPath, "utf8")); } catch {}
 const results = new Array(partNumbers.length);
+for (const row of checkpoint) {
+  const index = partNumbers.indexOf(row?.sku);
+  if (index >= 0 && row.status !== "ERROR" && row.status !== "HTTP_ERROR") results[index] = row;
+}
+const completedFromCheckpoint = results.filter(Boolean).length;
+console.log(`Resuming Cat enrichment: ${completedFromCheckpoint}/${partNumbers.length} already checkpointed`);
+const browser = await chromium.launch({ headless: true, args: ["--disable-http2", "--disable-quic"] });
 let cursor = 0;
+let saved = 0;
+let saveChain = Promise.resolve();
+async function saveCheckpoint() {
+  const snapshot = results.filter(Boolean);
+  const tmp = checkpointPath + ".tmp";
+  await writeFile(tmp, JSON.stringify(snapshot));
+  await rename(tmp, checkpointPath);
+  saved = snapshot.length;
+}
 
 const clean = value => String(value ?? "").replace(/\u00a0/g, " ").replace(/\s+/g, " ").trim();
 const sql = value => "'" + String(value ?? "").replace(/'/g, "''") + "'";
@@ -87,6 +106,7 @@ async function worker() {
   while (true) {
     const i = cursor++;
     if (i >= partNumbers.length) break;
+    if (results[i]) continue;
     const sku = partNumbers[i];
     const url = "https://parts.cat.com/en/catcorp/product/" + encodeURIComponent(sku);
     let row = { sku, url, status: "ERROR", title: "", description: "", specifications: {}, compatibleModels: [], engineModels: [], imageUrl: null, error: null };
@@ -97,7 +117,7 @@ async function worker() {
         response = await page.goto(url, { waitUntil: "domcontentloaded", timeout: 18000 });
       }
       row.httpStatus = response?.status() ?? null;
-      await page.waitForTimeout(1000);
+      await page.waitForTimeout(250);
       row.title = await page.title();
       const body = await page.locator("body").innerText({ timeout: 10000 });
       const html = await page.content();
@@ -110,11 +130,15 @@ async function worker() {
       }
     } catch (e) { row.error = e.message; }
     results[i] = row;
-    if ((i + 1) % 50 === 0) console.log(`Cat official page progress ${i + 1}/${partNumbers.length}`);
+    if ((i + 1) % 10 === 0 || i === partNumbers.length - 1) {
+      saveChain = saveChain.then(saveCheckpoint);
+      await saveChain;
+      console.log(`Cat official page progress ${results.filter(Boolean).length}/${partNumbers.length}; checkpoint saved`);
+    }
   }
   await page.close();
 }
-try { await Promise.all(Array.from({ length: 3 }, () => worker())); }
+try { await Promise.all(Array.from({ length: 4 }, () => worker())); }
 finally { await browser.close(); }
 
 const enriched = results.filter(r => r.status === "PAGE_OK" && (r.description || Object.keys(r.specifications).length || r.compatibleModels.length || r.imageUrl || r.name));
@@ -123,6 +147,8 @@ await mkdir("artifacts", { recursive: true });
 const diagnostics = {
   generatedAt: new Date().toISOString(),
   requested: partNumbers.length,
+  resumed: completedFromCheckpoint,
+  checkpointed: results.filter(Boolean).length,
   pageOk: results.filter(x => x.status === "PAGE_OK").length,
   notFound: results.filter(x => x.status === "NOT_FOUND").length,
   errors: results.filter(x => x.status === "ERROR" || x.status === "HTTP_ERROR").length,
