@@ -128,6 +128,30 @@ jobs:
             checks.push({mode:'supplier-inquiry',submitted:true,productSku:quotePayload.productSku});
             await searchPage.close();
 
+            // Off Road detail enrichment must merge with Cat Parts records and be searchable by listed alternate part numbers.
+            const offRoadMergePage = await browser.newPage();
+            await offRoadMergePage.route('**/functions/v1/store-api/api/products*', async route => {
+              const q = new URL(route.request().url()).searchParams.get('q');
+              const items = q === '1003259' ? [{id:'cat-offroad-1003259',kind:'PART_REFERENCE',sku:'1003259',name:'Cat official reference 1003259',brand:'Caterpillar',category:'قطعات موتور',machineModel:'',compatibleModels:[],technicalGroup:'Fuel system',specifications:{},imageUrl:null,priceIrr:null,stock:0,sourceUrl:'https://parts.cat.com/en/catcorp/product/1003259'}] : [];
+              await route.fulfill({status:200,contentType:'application/json',body:JSON.stringify({items})});
+            });
+            await offRoadMergePage.goto('http://127.0.0.1:4173/search.html?q=1003259',{waitUntil:'domcontentloaded',timeout:8000});
+            await offRoadMergePage.waitForSelector('.part-detail-card .part-number',{timeout:8000});
+            const mergedOffRoad = await offRoadMergePage.locator('.part-detail-card').innerText();
+            if (!mergedOffRoad.includes('1003259') || !mergedOffRoad.includes('6E5280') || !mergedOffRoad.includes('lb') || !mergedOffRoad.includes('دلار آمریکا')) throw new Error('Off Road pricing/weight/alternate references did not merge into Cat search result');
+            await offRoadMergePage.close();
+
+            const offRoadAltPage = await browser.newPage();
+            await offRoadAltPage.route('**/functions/v1/store-api/api/products*', async route => {
+              await route.fulfill({status:200,contentType:'application/json',body:JSON.stringify({items:[]})});
+            });
+            await offRoadAltPage.goto('http://127.0.0.1:4173/search.html?q=6E5280',{waitUntil:'domcontentloaded',timeout:8000});
+            await offRoadAltPage.waitForSelector('.part-detail-card .part-number',{timeout:8000});
+            const alternateOffRoad = await offRoadAltPage.locator('.part-detail-card').innerText();
+            if (!alternateOffRoad.includes('1003259') || !alternateOffRoad.includes('6E5280') || !alternateOffRoad.includes('دلار آمریکا')) throw new Error('Off Road alternate part number did not resolve to its source part record');
+            checks.push({mode:'offroad-catalog-enrichment',mergedCatReference:true,alternatePartSearch:true});
+            await offRoadAltPage.close();
+
             // Verify the actual GitHub Pages site against the deployed Supabase API.
             // This deliberately has no route mocks: browser origin, CORS, scripts and live data are exercised.
             const livePage = await browser.newPage();
