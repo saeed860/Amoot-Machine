@@ -1737,3 +1737,33 @@ Beyond Off Road's public 500-popular-parts index, additional independent catalog
 - Direct Cat Parts Store product URLs for the initial 12 candidates did not return readable records through the public page fetch, so those rows remain unverified. The next verification path is Cat Parts Store search, SIS/parts manuals or dealer confirmation; no candidates were promoted to the official SKU list.
 
 Discovery queue totals created in this pass: 91 Off Road candidates + 44 independent supplier/technical-reference candidates = 135 new leads, all segregated from the 787-item initial Cat source list and all marked for verification.
+
+
+## Batch 32/500 — SKUs 311–320 (20R-4306 through 20R-5379)
+
+All ten Cat Parts Store pages were opened and all ten Supabase rows queried. Official compatibility was checked against the Cat page's Compatible Models section. Three DB fitment corrections were applied and re-queried:
+- 20R-4505: Cat Reman C13 Tier 4 unit-injector rocker arm. Added the official list including XQ425/C13/XQ375, 621K OEM, 352F OEM, C13B, 730C2 EJ, R1700K, 18M3/16M3/14M3/404F-22, 982M/980M, POWER SYS, 730/735, 352F/349F/352 family and 352FMHPU.
+- 20R-5075: Cat Reman CR350 common-rail fuel injector for C9. Added official fitment D6T/D7E, 725C/725/725C2, PL72, 627K/637K, 336F/340F family, PM312/PM313/PM310, 140M/150/12M/160M grader family, 336FMHPU, 973 and 966M/972M loaders.
+- 20R-5379: Cat C9 Reman complete long block (4-valve, HEUI-B, ATAAC, Tier 3, HEP 10, ADEM 4). Cat page's Compatible Models section lists Industrial Engine C9; added `C9` to compatible_models.
+Other records reviewed:
+- 20R-4306: C9 cylinder pack, 17.0:1, 9.3L, Tier 4; Cat official compatible list reviewed across SR4B/C9.3, 627K/637K, PM312/313/310, graders, loaders, D6T/D7E, articulated trucks, marine/industrial C9.3, PL72, excavators, mobile hydraulic unit and 973 track loader. Existing DB fitment retained.
+- 20R-4602: C175 Gen II crankshaft damper; official C175-16/C175-20, 793F/795F family and 798/794 AC/796 AC off-highway truck applications reviewed; DB retained.
+- 20R-4700: Cat Reman crankshaft damper; CP-563C vibratory compactor and 120H ES grader; DB retained.
+- 20R-5005: Cat Reman C18 turbocharger cartridge; POWER SYS, C18 generator set, marine C18 and C18 petroleum package; DB retained.
+- 20R-5152: Cat Reman basic 10 mm fuel-injection pump; official extensive 3406/3408/3412, truck, scraper, tractor, marine, industrial, loader, dozer and excavator fitment reviewed; DB retained.
+- 20R-5191: 3500-series auxiliary seawater pump; Cat fitment spans 3508/3512/3516 gen-set, marine, auxiliary marine, industrial and G3512/G3516 gas engines; DB retained.
+- 20R-5199: C175-16 Reman UTN bare block; official C175-16 generator/marine/industrial/petroleum/locomotive and 793F/795F/798/794 AC/796 AC truck family fitment reviewed; DB retained.
+
+Official Cat pages checked:
+- https://parts.cat.com/en/catcorp/product/20R-4306
+- https://parts.cat.com/en/catcorp/product/20R-4505
+- https://parts.cat.com/en/catcorp/product/20R-4602
+- https://parts.cat.com/en/catcorp/product/20R-4700
+- https://parts.cat.com/en/catcorp/product/20R-5005
+- https://parts.cat.com/en/catcorp/product/20R-5075
+- https://parts.cat.com/en/catcorp/product/20R-5152
+- https://parts.cat.com/en/catcorp/product/20R-5191
+- https://parts.cat.com/en/catcorp/product/20R-5199
+- https://parts.cat.com/en/catcorp/product/20R-5379
+
+Database checkpoint: all ten rows queried; fitment corrections for 20R-4505, 20R-5075 and 20R-5379 were re-queried successfully. Overall reviewed progress: 32/500 batches, 320/5,000 products.
