@@ -259,6 +259,10 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["2W4088","CRANKSHAFT",15732.62,25958.82,"۴ New Aftermarket"],
+ ["2W6587","CORE A",4746.20,7831.23,"۲۳ New Aftermarket؛ ۳ Call For Pricing"],
+ ["2W6593","CORE A",4687.99,7735.18,"۱۳ New Aftermarket؛ ۱ Call For Pricing"],
+ ["2W9978","CORE AS.",1853.59,3058.42,"۷۹ New Aftermarket؛ ۱ Call For Pricing؛ ۲ Used"],
  ["20R4179","INJ GP FUE",2621.29,4325.13,"۱۱ New Genuine Surplus"],
  ["20R8575","HEAD AS-CO",1997.66,3296.14,"۳ New Aftermarket؛ ۲ Call For Pricing"],
  ["2A4429","LOCK",1.09,1.80,"۲۵ New Genuine Surplus؛ ۸۷٬۹۸۰ New Aftermarket"],
