@@ -1188,3 +1188,36 @@ Official Cat sources checked:
 - https://parts.cat.com/en/catcorp/category/engine-components-camshaft-kits
 
 Database checkpoint: all 10 rows updated and verified. Three exact official images newly linked (20R-7175, 20R-7547, 20R-7549); existing exact images retained for 20R-6628, 20R-6833, 20R-7306, 20R-7307 and 20R-7411. Incorrect/low-resolution images omitted. 20R-7306 deactivated based on Cat's explicit “Part is no longer available” notice; 20R-7307 remains active. Overall manual progress: 34/50 batches, 340/500 SKUs.
+
+
+## Batch 35/50 — SKUs 341–350 (20R-7560 through 20R-8390)
+
+All ten Cat catalog entries were reviewed; all ten Supabase rows were updated and query-verified. For fan-clutch SKUs, Cat explicitly provides no description, specifications or compatible-model data, so no fitment was inferred.
+
+| SKU | Official identity / captured detail | Image / fitment treatment |
+|---|---|---|
+| 20R-7560 | Cat Reman Camshaft Kit (3412); category listing confirms 3412 application; generic Cat kit description includes camshaft and Cat Reman valve lifters, high-grade steel, precision balance, patented heat treatment and journal grinding; no compatible-model list | No verified image; omitted |
+| 20R-8060 | Cat Reman Fuel Injector H1315B (C9), 1.96 SF; low-sulfur/low-lubricity fuel design, specialized metallurgy and reliability testing; compatible Truck Engine C9 | Exact official Scene7 injector image newly linked |
+| 20R-8352 | Cat Reman Fan Clutch; Cat provides no description, specifications or compatible models | No image or fitment inferred |
+| 20R-8360 | Cat Reman Fan Clutch; Cat provides no description, specifications or compatible models | No image or fitment inferred |
+| 20R-8364 | Cat Reman Fan Clutch; Cat provides no description, specifications or compatible models | No image or fitment inferred |
+| 20R-8369 | Cat Reman Fan Clutch; Cat provides no description, specifications or compatible models | No image or fitment inferred |
+| 20R-8373 | Cat Reman Fan Clutch; Cat provides no description, specifications or compatible models | No image or fitment inferred |
+| 20R-8380 | Cat Reman Fan Clutch; Cat provides no description, specifications or compatible models | Fallback image only; omitted |
+| 20R-8381 | Cat Reman Fan Clutch; Cat provides no description, specifications or compatible models | Fallback image only; omitted |
+| 20R-8390 | Cat Reman Fan Clutch; Cat provides no description, specifications or compatible models | Fallback image only; omitted |
+
+Official Cat sources checked:
+- https://parts.cat.com/en/catcorp/category/engine-components-camshaft-kits
+- https://parts.cat.com/en/catcorp/product/20R-8060
+- https://parts.cat.com/en/catcorp/category/reman-products-fan-clutches
+- https://parts.cat.com/en/catcorp/product/20R-8352
+- https://parts.cat.com/te/catcorp/product/20R-8360
+- https://parts.cat.com/cs/catcorp/product/20R-8364
+- https://parts.cat.com/de/catcorp/product/20R-8369
+- https://parts.cat.com/pl/catcorp/product/20R-8373
+- https://parts.cat.com/en/catcorp/product/20R-8380
+- https://parts.cat.com/en/catcorp/product/20R-8381
+- https://parts.cat.com/cs/catcorp/product/20R-8390
+
+Database checkpoint: all 10 rows updated and verified. One exact official image newly linked (20R-8060). Fallback and unavailable fan-clutch images omitted. All eight fan-clutch records remain active because Cat does not explicitly state that they are no longer available; the “Replaced” key alone is not treated as a discontinuation notice. Overall manual progress: 35/50 batches, 350/500 SKUs.
