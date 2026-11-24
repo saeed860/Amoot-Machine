@@ -1,4 +1,4 @@
-/* Public 500-part Off Road Equipment popular catalogue. Not an Amoot-owned stock feed. */
+/* Amoot Machine product catalog seed. Pricing provenance is kept in internal audit documentation, not public storefront data. */
 (()=>{
  const offRoadCatalogText = `
 813967|(see details)
