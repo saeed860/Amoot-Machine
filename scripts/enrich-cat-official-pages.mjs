@@ -102,7 +102,7 @@ function updateSql(row) {
 
 async function worker() {
   const page = await browser.newPage({ viewport: { width: 1365, height: 1000 } });
-  page.setDefaultNavigationTimeout(30000);
+  page.setDefaultNavigationTimeout(12000);
   while (true) {
     const i = cursor++;
     if (i >= partNumbers.length) break;
@@ -110,22 +110,24 @@ async function worker() {
     const sku = partNumbers[i];
     const url = "https://parts.cat.com/en/catcorp/product/" + encodeURIComponent(sku);
     let row = { sku, url, status: "ERROR", title: "", description: "", specifications: {}, compatibleModels: [], engineModels: [], imageUrl: null, error: null };
+    console.log(`[START] ${i + 1}/${partNumbers.length} ${sku}`);
     try {
       // Do not wait for DOMContentLoaded: Cat's storefront can keep long-running
       // requests open and previously caused every page navigation to time out.
       let response = null;
       let lastError = null;
-      for (let attempt = 1; attempt <= 3; attempt++) {
+      for (let attempt = 1; attempt <= 2; attempt++) {
         try {
-          response = await page.goto(url, { waitUntil: "commit", timeout: 30000 });
-          if (response && response.status() >= 500 && attempt < 3) {
+          console.log(`[NAV] ${sku} attempt ${attempt}/2`);
+          response = await page.goto(url, { waitUntil: "commit", timeout: 12000 });
+          if (response && response.status() >= 500 && attempt < 2) {
             await page.waitForTimeout(800 * attempt);
             continue;
           }
           break;
         } catch (e) {
           lastError = e;
-          if (attempt < 3) await page.waitForTimeout(1000 * attempt);
+          if (attempt < 2) await page.waitForTimeout(1000 * attempt);
         }
       }
       if (!response && lastError) throw lastError;
@@ -145,11 +147,9 @@ async function worker() {
       }
     } catch (e) { row.error = e.message; }
     results[i] = row;
-    if ((i + 1) % 10 === 0 || i === partNumbers.length - 1) {
-      saveChain = saveChain.then(saveCheckpoint);
-      await saveChain;
-      console.log(`Cat official page progress ${results.filter(Boolean).length}/${partNumbers.length}; checkpoint saved`);
-    }
+    saveChain = saveChain.then(saveCheckpoint);
+    await saveChain;
+    console.log(`[DONE] ${i + 1}/${partNumbers.length} ${sku} status=${row.status} http=${row.httpStatus ?? "n/a"} description=${Boolean(row.description)} specs=${Object.keys(row.specifications).length} models=${row.compatibleModels.length} image=${Boolean(row.imageUrl)} error=${row.error ?? "none"}`);
   }
   await page.close();
 }
