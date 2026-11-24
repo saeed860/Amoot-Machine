@@ -2466,3 +2466,38 @@ Additional Cat-linked discovery candidates:
 7T-9754, 7T-9755, 215-4006, 212-6681, 3P-8681, 457-6114, 3J-1907, 538-5051, 5P-8500, 1R-1808, 373-6967, 6V-9746, 153-2994, 153-2995, 5K-9090, 131-4863, 8C-6875, 6V-8734, 196-9420, 376-2652, 376-2468, 513-4490, 110-6326, 363-5819, 110-6331, 541-6956, 265-6619, 433-6739, 309-7679, 309-7678, 306-9447, 9M-5894, 131-1650, 458-7813, 526-3004. These are related parts or Cat compare-alternate candidates and are not fitment/interchangeability proof.
 
 Overall reviewed progress: 52/500 batches = 520/5,000 product target (10.4%). Original Cat seed list has 267 SKUs remaining (products 521–787).
+
+## Batch 53/500 — products 521–530 (2026-11-25)
+
+SKUs: 384-2960, 384-4562, 385-5991, 387-9865, 388-9664, 390-2615, 392-0200, 392-0204, 392-0205, 392-0206. Nine Cat product pages supplied usable item-level data; 387-9865 returned an access/internal error and its pre-existing record was retained unchanged. All ten DB rows were re-queried and model arrays deduplicated.
+
+Verified updates:
+- 384-2960: Cat SALT Track Group for D8T/D8R/D8R II/D8GC/D8 GC/D8. 5-tooth master, single grouser, 44 sections, PPR, ES shoe, HD undercarriage, 610mm (24.016in) shoe width, 215.9mm (8.5in) pitch, 3.654in sprocket-side inside spread, 3.117in bushing ID, 7/8in bolt size/thread, wear sensor present. Cat describes SALT sealing lubricant and excluding abrasives; PPR helps prevent pin end-play.
+- 384-4562: Cat steering ball-stud bearing assembly. Added 28 distinct fitment labels across D10R off-highway truck, 770/772/773/775/777 truck and quarry families, and 776D/776C tractors. Specs 2.8in height ×2.8in width ×7.7in length. Cat says it includes sealed race, ball stud and strap and forms part of the steering system.
+- 385-5991: Cat Fuel Rail Group. Confirmed Generator Set C7.1, Marine Engine C7.1 and Engine C7.1 MARIN. Cat explicitly says specifications are still being added; no dimensions or materials inferred.
+- 387-9865: M10-1.25 ×24mm hex-head bolt. Cat page was inaccessible in this run; existing record retained (65 compatible labels and previously stored zinc-plated steel fastener dimensions/specifications) without new item-level verification.
+- 388-9664: Cat 1200mm (47in) grading bucket for mini hydraulic excavators. Confirmed 305E/305.5E2 CR/305D CR/305E2 CR/305.5D/305.5E. Specs 47.2in width, 9.2ft³ capacity, 410.5lb weight, 0.8in base edge, 28.2in tip radius, pin-on interface. Cat page describes ditch cleaning, sloping, grading, trenching and finishing.
+- 390-2615: Cat Fuel Injection Rail for fuel injection pump. Added 26 distinct labels across C3.4B/C32/C3.4 engine and generator sets, industrial loader, pneumatic/soil/vibratory compactor, excavator, backhoe loader, package and telehandler. Specs 3.63lb, carbon steel.
+- 392-0200: Cat Fuel Injector Group. Corrected/expanded to nine distinct labels: 3512B/3508B/3516B, SR4B/SR4BHV, 3508/3512, LD700E and 3561B across gen-set, generator, marine, auxiliary, industrial, petroleum and off-highway-truck applications. Specs 14.8in ×3.0in. Cat Compare Alternate Parts shows 11R-0278 Cat Reman NWC and 20R-1264 Cat Reman Electronic Fuel Injector; these are alternatives to verify by serial number.
+- 392-0204: Cat Fuel Injector Group. Corrected fitment to generator-set engines 3512/3508B/3516/3516B and marine engines 3508/3516/3512. Specs 14.8in ×3.0in. Cat Compare Alternate Parts displays 20R-1268 Reman Fuel Injector; not asserted as universal interchange.
+- 392-0205: Cat Fuel Pump Injector. Expanded to five distinct labels: 3512C/3516B/3516C/3512B/3508C, across generator-set, marine, marine auxiliary, industrial, locomotive and petroleum categories. Specs 14.8in ×3.0in. Cat lists 11R-0681 Cat Reman NWC and 20R-1269 Cat Reman as alternate listings; serial-number confirmation required.
+- 392-0206: Cat Injector Group. Expanded to 15 distinct labels including SR4/SR5/SR4B/SR4BHV, 3500B family, PM3516/PM3512/PM3508 power modules, marine/auxiliary, industrial, petroleum and locomotive engines, 854G wheel dozer and 992G wheel loader. Specs 14.8in ×3.0in. Cat lists 11R-0280 Cat Reman NWC and 20R-1270 Cat Reman alternatives; not assumed interchangeable.
+
+Cat pages:
+- https://parts.cat.com/en/catcorp/product/384-2960
+- https://parts.cat.com/en/catcorp/product/384-4562
+- https://parts.cat.com/en/catcorp/product/385-5991
+- https://parts.cat.com/en/catcorp/product/387-9865
+- https://parts.cat.com/en/catcorp/product/388-9664
+- https://parts.cat.com/en/catcorp/product/390-2615
+- https://parts.cat.com/en/catcorp/product/392-0200
+- https://parts.cat.com/en/catcorp/product/392-0204
+- https://parts.cat.com/en/catcorp/product/392-0205
+- https://parts.cat.com/en/catcorp/product/392-0206
+
+Post-update verification returned all ten records. Distinct fitment counts: 384-2960=6; 384-4562=28; 385-5991=2; 387-9865=65 (pre-existing, not newly verified); 388-9664=6; 390-2615=26; 392-0200=9; 392-0204=5; 392-0205=5; 392-0206=15. No price, stock or guaranteed interchangeability inferred.
+
+Additional Cat-linked discovery candidates:
+384-2962, 384-2964, 384-2968, 615-3646, 625-7306, 641-9533, 654-8598, 654-8599, 654-8600, 384-2954, 384-2978, 384-2982, 384-2984, 553-7145, 631-8965, 654-8595, 654-8602, 654-8603, 654-8606, 654-8611, 283-5593, 374-3608, 7D-5435, 336-9373, 3D-2824, 282-2785, 5P-8500, 390-3122, 387-9141, 550-8863, 311-3901, 11R-0278, 20R-1264, 248-5513, 132-6469, 1R-0756, 1R-0726, 20R-1268, 11R-0681, 20R-1269, 219-3240, 313-7770, 11R-0280, 20R-1270, 468-8825, 468-8824, 316-5980. These are Cat alternate, related or commonly purchased candidate links, not fitment/interchangeability proof.
+
+Overall reviewed progress: 53/500 batches = 530/5,000 product target (10.6%). Original Cat seed list has 257 SKUs remaining (products 531–787).
