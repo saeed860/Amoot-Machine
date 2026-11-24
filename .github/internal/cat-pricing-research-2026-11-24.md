@@ -1059,3 +1059,35 @@ Official Cat sources checked:
 - https://parts.cat.com/en/catcorp/product/20R-3623
 
 Database checkpoint: all 10 rows updated and verified. Three exact official images newly linked (20R-3440, 20R-3441, 20R-3442); existing exact images retained for 20R-3324, 20R-3543, 20R-3545 and 20R-3549. Low-resolution images omitted. Important correction: 20R-3440/3441/3442 remain active; Cat's “Replaced” key label is not a discontinuation notice. Overall manual progress: 30/50 batches, 300/500 SKUs.
+
+
+## Batch 31/50 — SKUs 301–310 (20R-3666 through 20R-4292)
+
+All ten official Cat pages were reviewed; all ten Supabase rows were updated and query-verified.
+
+| SKU | Official identity / captured detail | Image / fitment treatment |
+|---|---|---|
+| 20R-3666 | Cat Reman UTN Diesel Particulate Filter Kit; 582-7467 Filter Kit ×1; soot regeneration/ash service/crack inspection; qualifying core return; 12-month warranty; XQ425, 637D/621K, 657/627K/623K, C15, R1700/R2900, 740/730, 18M3/16M3, 986/988, D8/D9, PL83/87, 352F and more | Existing exact official DPF kit image retained; 59 model identifiers stored |
+| 20R-3915 | Cat Reman C27/C32 Variable Valve Actuator; 24V Cat Brake; compatible D1500, 775G/775F/773G/773F, 777G/777F, 854K/844K, 24, 990K/993K/992K | Existing exact official actuator image retained; 18 model identifiers stored |
+| 20R-4147 | Cat Reman Basic Fuel Injector (3408/3412); 14.2 × 5.3 in; Cat publishes no compatible-model list | Existing exact official injector image retained; no fitment inferred |
+| 20R-4195 | Cat C18 Reman UTN Crankshaft (Tier 4 Final); heat-treated/hardened, tested; qualifying core return; 12-month warranty | Exact official Scene7 crankshaft image newly linked; no separate fitment list published |
+| 20R-4263 | Cat Reman C175-16 Common-Rail Fuel Rail (RH); generator set C175-16/C175-16GENSET, 793F/795F/794 AC truck variants, petroleum/locomotive C175-16, 796 AC/798 AC off-highway trucks | Exact official Scene7 RH fuel-rail image newly linked; 12 model identifiers stored |
+| 20R-4264 | Cat Reman C175-16 Common-Rail Fuel Rail (LH); C175-16 generator/marine/industrial/petroleum/locomotive applications, 793F/795F/794 AC truck variants, 796 AC/798 AC off-highway trucks | Exact official Scene7 LH fuel-rail image newly linked; 11 model identifiers stored |
+| 20R-4266 | Cat Reman C175-20 Common-Rail Fuel Rail (RH); compatible C175-20 generator set and 797F/797/797B trucks | Exact official Scene7 RH fuel-rail image newly linked |
+| 20R-4267 | Cat Reman C175-20 Common-Rail Fuel Rail (LH); compatible C175-20 generator set and 797F/797/797B trucks | Exact official Scene7 LH fuel-rail image newly linked |
+| 20R-4277 | Cat 3406C Reman Complete Long Block (DI-TA); block/crankshaft/cylinder packs/head/camshaft/valve mechanism/gears/water pump/accessory drive; U.S. core return/destruction requirement; D8R/D8R II, 621/623/627 series, 825G, 824G, 826G and 980G | Exact official Scene7 long-block image newly linked; 17 model identifiers stored |
+| 20R-4292 | Cat Reman G3306 Auxiliary Fresh-Water Pump; stainless-steel shaft, hardened bearing retainer; G3306 generator set, XQG135 power module, G3304/G3306B gas engines and G3306B petroleum gen set | Exact official Scene7 pump image newly linked; 4 model identifiers stored |
+
+Official Cat sources checked:
+- https://parts.cat.com/en/catcorp/product/20R-3666
+- https://parts.cat.com/en/catcorp/product/20R-3915
+- https://parts.cat.com/en/catcorp/product/20R-4147
+- https://parts.cat.com/en/catcorp/product/20R-4195
+- https://parts.cat.com/en/catcorp/product/20R-4263
+- https://parts.cat.com/en/catcorp/product/20R-4264
+- https://parts.cat.com/en/catcorp/product/20R-4266
+- https://parts.cat.com/en/catcorp/product/20R-4267
+- https://parts.cat.com/en/catcorp/product/20R-4277
+- https://parts.cat.com/en/catcorp/product/20R-4292
+
+Database checkpoint: all 10 records updated and verified. Seven exact official images newly linked (20R-4195, 20R-4263, 20R-4264, 20R-4266, 20R-4267, 20R-4277, 20R-4292); existing exact images retained for 20R-3666, 20R-3915 and 20R-4147. Overall manual progress: 31/50 batches, 310/500 SKUs.
