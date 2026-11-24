@@ -1,0 +1,34 @@
+name: Vendor licensed homepage images
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/vendor-homepage-images.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  vendor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Download and localize licensed hero images
+        run: python scripts/vendor-homepage-images.py
+      - name: Commit local image assets and references
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/hero-jackup-rig.jpg assets/hero-supply-vessel.jpg assets/hero-cat-3516b.jpg index.html docs/internal-product-image-audit.md
+          if git diff --cached --quiet; then
+            echo "No asset changes to commit"
+            exit 0
+          fi
+          git commit -m "chore: self-host licensed homepage hero images"
+          git push
