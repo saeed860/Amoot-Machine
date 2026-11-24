@@ -460,3 +460,10 @@ The OEM C18/C15 discovery pass and exact Cat Parts Store model-class findings ar
 ## K-Part C32 candidate artifact reconciliation (24 Nov 2026)
 
 The retained GitHub Actions artifact kpart-c32-marine-groups (run [45357078431](https://github.com/saeed860/Amoot-Machine/actions/runs/45357078431), artifact ID 14903007171) was downloaded and independently recounted: **58 numbered rows**, **57 unique part numbers**, across four successfully loaded component tables (SDN 361-1283: 27; SDN 207-2422: 2; SDN 305-8921: 27; RSD 207-2422: 2). Part **175-7060** occurs twice in separate SDN/RSD evidence scopes and must remain two records. Four other requested groups timed out and contributed zero rows. All 58 remain third-party K-Part CANDIDATE evidence; no database ingestion, sellable SKU, price or stock update is claimed.
+
+
+## Additional marine engine coverage — C9, C15 and 3400 family (24 Nov 2026)
+
+The C9 and legacy 3400-family research is recorded in [marine-engine-c9-3400-expansion.md](marine-engine-c9-3400-expansion.md). It includes the Logan Marine C9 system-group discovery list, exact Cat Parts Store checks for C9 components, dedicated Cat 3406/3406C Marine Engine diagram entry points, and model-class checks for 3406/3408/3412-family parts. C9 exact Cat matches include 6L-2280, 2N-0178 and 294-2787; 190-3562 is explicitly withheld from marine classification because Cat's returned compatible-model list does not show C9 under Marine Engine. 3400 examples with published marine and non-marine classes include 4W-6412, 4W-4901, 6N-7421 and 3N-8455. These are model-class references only, not serial/Arrangement fitment or sellable stock.
+
+The C15 evidence in [marine-engine-source-expansion.md](marine-engine-source-expansion.md) now also includes exact Cat Parts Store pages for 3N-6059, 4N-0933 and 105-5081, each listing C15 under Marine Engine and at least one non-marine class. All are BOTH at published model-class level; serial/Arrangement confirmation remains mandatory.
