@@ -2110,3 +2110,40 @@ Current segregated discovery queues:
 - Unique candidate numbers across queues after normalizing hyphens: 221.
 - Unique candidates not present in the original 787-number seed list: 203.
 - Eight repeated/overlapping numbers are deduplicated in the unique count. Candidates remain segregated and require item-level verification before promotion.
+
+## Batch 43/500 — products 421–430 (2026-11-24)
+
+Source SKUs: 284-2712, 284-5565, 284-9039, 288-0934, 288-0935, 289-8490, 290-2041, 290-2288, 290-4140, 291-4311.
+
+Official Cat item pages opened for all 10 SKUs. Database rows were queried before research and re-queried after the updates.
+
+Verified database changes:
+- 284-2712: confirmed Basic Turbocharger Group. Expanded Cat fitment to C15 GEN SE POWER SYS, SR4B/SR4, C18/C15/C15 I6, C15 GEN SE, D450GC and D500GC. Confirmed 18.5in length, 15.8in height and ductile spheroidal iron.
+- 284-5565: Cat Water Pump Rebuild Kit. Existing C18/3406E/C15/C-15 fitment and 14.8 ×9.9in dimensions matched the readable Cat page; no change needed.
+- 284-9039: Vented fuel-strainer cap. Added Cat-published machine fitment across paving/soil/asphalt/utility compactors, MTL/CTL, backhoe loaders, graders, telehandlers, compact/wheel loaders, pavers, skid-steer loaders and industrial applications. Added 63.5mm overall size, black composite exterior, vented cap, 10-micron filtration, no debris boot, polyamide plastic.
+- 288-0934: Single-flange standard track roller, 210mm tread /258.04mm mounting width. Added 21 Cat model identifiers (D6 family and 963 track loaders) and published geometry: 10.159in mounting width, M20 cap thread, 9.26in outside link spread, 3.969in inside spread, 8.268in tread, 4.5in traverse spacing, 0.866in bolt hole, 14.508in shaft length, 2.341in shaft OD, 12.925in axial spacing, 9.449in outer flange.
+- 288-0935: Double-flange standard track roller, same 210mm tread /258.04mm mounting width and same 21 Cat model identifiers. Added HDXL system and its distinct geometry: 7.72in outside link spread, 3.831in inside spread, 13.051in axial spacing; remaining dimensions as listed on its Cat page.
+- 289-8490: Cat Rubber Track, 457.2mm wide, single section, smooth tread. Cat page opened but public readable content did not expose compatible models/specifications beyond those title attributes; left fitment unchanged rather than infer it.
+- 290-2041: Piston Assembly. Existing G3612/G3616 fitment and 12.55in length /15.78in height matched Cat. Cat frequently-bought-together panel exposed four additional discovery leads; these are not fitment or interchangeability evidence.
+- 290-2288: Cabin Air Filter, lower-restriction media. Added 54 Cat model labels across C13/MG630, road reclaimers, rotary/reclaimer mixers, soil/vibratory compactors and wheel loaders. Added 14.661 ×3.811in, 1.445in with seal /1.059in without, urethane panel, mixed metal/nonmetal material and lower-restriction media.
+- 290-4140: Final-drive planet gear. Added Cat-published fitment for 3516E and 793-family trucks (793C/D/F, CMD/OEM/XQ) and specs: steel, low-alloy/mixed metal, 23 teeth, 12.627in OD, 7.118in ID, 5.708in width, 12.6in diameter.
+- 291-4311: Cat auxiliary water pump. Cat page explicitly says discontinued and no longer available. Corrected database status to is_active=false, retained the Cat-published 3500-family fitment and added 13.65in length /14.85in height plus discontinued flag.
+
+Cat product pages:
+- https://parts.cat.com/en/catcorp/product/284-2712
+- https://parts.cat.com/en/catcorp/product/284-5565
+- https://parts.cat.com/en/catcorp/product/284-9039
+- https://parts.cat.com/en/catcorp/product/288-0934
+- https://parts.cat.com/en/catcorp/product/288-0935
+- https://parts.cat.com/en/catcorp/product/289-8490
+- https://parts.cat.com/en/catcorp/product/290-2041
+- https://parts.cat.com/en/catcorp/product/290-2288
+- https://parts.cat.com/en/catcorp/product/290-4140
+- https://parts.cat.com/en/catcorp/product/291-4311
+
+Post-update database verification: all 10 SKUs returned; 8 rows updated, 2 unchanged after matching Cat page (284-5565 and 290-2041); 291-4311 verified inactive. No price, availability, fitment, or replacement claims inferred from related-part panels.
+
+Additional Cat-linked discovery leads from Cat 290-2041 frequently-bought-together and track-roller related-parts panels:
+143-2878, 6I-4545, 159-3219, 227-2902, 288-0948, 613-5951, 288-0947, 396-7353. Each is a candidate only; verify its own item page before promotion.
+
+Overall reviewed progress: 43/500 batches = 430/5,000 product target (8.6%). Original Cat seed list still has 357 SKUs remaining (products 431–787).
