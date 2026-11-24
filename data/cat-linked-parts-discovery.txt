@@ -673,3 +673,53 @@ Source pages:
 282-2785 | Bucket Mounting Pin | Cat Parts Store related part for 464-9911 bucket | cat_linked_candidate; needs_individual_verification
 
 469-1990 | Engine Repair Kit (C18 Industrial Engine) | Scribd scan of Cat C18 Industrial Engine Parts Book (SEBP8111-71) shows 469-1990 under available repair kits; Cat Parts Store item page not accessible and exact kit scope/fitment not confirmed | cat_linked_candidate; needs_individual_verification
+
+033-6031 | 3.53 x 69.44mm 75A FKM O-Ring | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 3 | cat_linked_candidate; needs_individual_verification
+136-7227 | 19.18mm ID Seal-O-Ring | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 1 | cat_linked_candidate; needs_individual_verification
+1R-0726 | Standard Efficiency Engine Oil Filter | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 3 | cat_linked_candidate; needs_individual_verification
+1R-0756 | Element Assembly | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 5 | cat_linked_candidate; needs_individual_verification
+1W-1251 | 0.82mm Thick Air Lines Gasket | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 5 | cat_linked_candidate; needs_individual_verification
+1W-1253 | 0.9mm Thick Aftercooler Gasket | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 2 | cat_linked_candidate; needs_individual_verification
+214-7566 | 1.83 x 8.92mm 90A FKM O-Ring | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 1 | cat_linked_candidate; needs_individual_verification
+214-7568 | STOR O-Ring Seal (SAE 9/16-18) | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 7 | cat_linked_candidate; needs_individual_verification
+230-1072 | 0.8mm Thick Gasket | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 2 | cat_linked_candidate; needs_individual_verification
+238-5080 | 2.21 x 16.36mm 90A FKM O-Ring | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 1 | cat_linked_candidate; needs_individual_verification
+238-5081 | 2.46 x 19.18mm 90A FKM O-Ring | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 6 | cat_linked_candidate; needs_individual_verification
+248-5513 | Engine Water Temperature Regulator | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 4 | cat_linked_candidate; needs_individual_verification
+272-0757 | Valve Cover Press In Place Seal | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 3 | cat_linked_candidate; needs_individual_verification
+304-7216 | Main Water Pump Install Gasket Kit | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 1 | cat_linked_candidate; needs_individual_verification
+3S-9643 | Rotating Shaft Lip Type Seal | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 4 | cat_linked_candidate; needs_individual_verification
+457-6719 | Turbocharger Installation Gasket Kit | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 2 | cat_linked_candidate; needs_individual_verification
+492-0914 | Oil Cooler and Lines Gasket Kit | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 1 | cat_linked_candidate; needs_individual_verification
+4F-7226 | 7/16-14 Thread Hex Head Bolt | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 12 | cat_linked_candidate; needs_individual_verification
+4W-3027 | Engine Crankcase Breather | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 3 | cat_linked_candidate; needs_individual_verification
+4W-3100 | 0.8mm Thick Governor Cover Gasket | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 1 | cat_linked_candidate; needs_individual_verification
+5D-5957 | 104.37mm Inner Diameter Seal O-Ring | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 3 | cat_linked_candidate; needs_individual_verification
+5P-4892 | 3.53 x 59.92mm 75A FKM O-Ring | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 4 | cat_linked_candidate; needs_individual_verification
+6V-1454 | 72.39mm Inside Diameter Seal-O-Ring | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 6 | cat_linked_candidate; needs_individual_verification
+6V-3907 | 3.53 x 183.74mm 75A FKM O-Ring | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 4 | cat_linked_candidate; needs_individual_verification
+6V-5048 | 1.83 x 8.92mm 75A FKM O-Ring | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 5 | cat_linked_candidate; needs_individual_verification
+6V-5066 | 5.33 x 85.09mm 70A EPDM O-Ring | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 2 | cat_linked_candidate; needs_individual_verification
+6V-8001 | 85.32mm Inside Diameter Seal-O-Ring | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 1 | cat_linked_candidate; needs_individual_verification
+6V-9027 | 1.83 x 8.92mm 70A EPDM O-Ring | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 3 | cat_linked_candidate; needs_individual_verification
+7M-9909 | 104.37mm Inside Diameter Seal-O-Ring | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 2 | cat_linked_candidate; needs_individual_verification
+7N-4782 | 31.38mm Free Length Lifter Guide Spring | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 36 | cat_linked_candidate; needs_individual_verification
+7N-4927 | 1.6mm Water Temperature Regulator Housing Gasket | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 1 | cat_linked_candidate; needs_individual_verification
+7N-6806 | 15.60mm Inner Diameter Round Seal | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 4 | cat_linked_candidate; needs_individual_verification
+290-2041 | Piston Assembly | Cat Parts Store related part for 497-5606 cylinder block liner | cat_linked_candidate; needs_individual_verification
+6I-4545 | 5.26 x 638.2mm 75A FKM O-Ring | Cat Parts Store related part for 497-5606 cylinder block liner | cat_linked_candidate; needs_individual_verification
+143-2878 | 4mm Thick Cylinder Head Gasket | Cat Parts Store related part for 497-5606 cylinder block liner | cat_linked_candidate; needs_individual_verification
+227-2902 | 228.40mm Outside Diameter Connecting Rod Bearing | Cat Parts Store related part for 497-5606 cylinder block liner | cat_linked_candidate; needs_individual_verification
+575-1591 | GPS Module and Installation Cable | Cat Parts Store frequently bought together with 499-6727 Driver Safety System | cat_linked_candidate; needs_individual_verification
+126-1767 | 3.30mm Outer Diameter Connector Pin | Cat Parts Store frequently bought together with 499-6727 Driver Safety System | cat_linked_candidate; needs_individual_verification
+126-1768 | Connector Socket | Cat Parts Store frequently bought together with 499-6727 Driver Safety System | cat_linked_candidate; needs_individual_verification
+278-2355 | Track Segment | Cat Parts Store related part for 4K-7038 track bolt | cat_linked_candidate; needs_individual_verification
+278-2356 | Track Segment | Cat Parts Store related part for 4K-7038 track bolt | cat_linked_candidate; needs_individual_verification
+6S-3609 | Carrier Roller Group | Cat Parts Store related part for 4K-7038 track bolt | cat_linked_candidate; needs_individual_verification
+190-7396 | Track Segment | Cat Parts Store related part for 4K-7038 track bolt | cat_linked_candidate; needs_individual_verification
+6Y-0473 | 6.35mm Diameter Clear Plug for track idler | Cat Parts Store related part for 4K-7038 track bolt | cat_linked_candidate; needs_individual_verification
+0R-3536 | Cat 3408 Reman Fuel Injector Nozzle | Cat Parts Store alternative for 4W-7019 fuel injector nozzle | cat_linked_candidate; needs_individual_verification
+328-5574 | 104.90mm OD Big End Connecting Rod Bearing | Cat Parts Store frequently bought together with 4W-7019 injector nozzle | cat_linked_candidate; needs_individual_verification
+253-1752 | 5.73mm Thick Crankshaft Thrust Plate | Cat Parts Store frequently bought together with 4W-7019 injector nozzle | cat_linked_candidate; needs_individual_verification
+4N-7253 | 4.8mm Thick Cylinder Head Chamber Gasket | Cat Parts Store frequently bought together with 4W-7019 injector nozzle | cat_linked_candidate; needs_individual_verification
+317-8766 | 131.29mm OD Steel Backed Copper Lead Main Bearing | Cat Parts Store frequently bought together with 4W-7019 injector nozzle | cat_linked_candidate; needs_individual_verification
