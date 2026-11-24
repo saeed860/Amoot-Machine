@@ -16,38 +16,40 @@ jobs:
           node-version: 22
       - run: npm install --no-save playwright
       - run: npx playwright install --with-deps chromium
-      - name: Search public CAT catalog for C32 marine engine
+      - name: Open a C32 serial-prefix catalog and inspect its parts groups
         run: |
           mkdir -p artifacts
           node --input-type=module <<'NODE'
           import { chromium } from 'playwright';
           import { writeFile } from 'node:fs/promises';
           const browser=await chromium.launch({headless:true});
-          const page=await browser.newPage({viewport:{width:1440,height:1000}});
-          const requests=[],responses=[];
-          page.on('request',req=>{const u=new URL(req.url());if(u.hostname==='k-part.com')requests.push({method:req.method(),url:req.url(),resourceType:req.resourceType(),postData:req.postData()?.slice(0,10000)||null});});
-          page.on('response',async res=>{const u=new URL(res.url());if(u.hostname!=='k-part.com')return;const h=res.headers(),type=h['content-type']||'';const x={url:res.url(),status:res.status(),contentType:type};if(/json|text\//i.test(type)&&Number(h['content-length']||0)<1000000){try{x.body=(await res.text()).slice(0,400000)}catch{}}responses.push(x);});
+          const page=await browser.newPage({viewport:{width:1440,height:1100}});
+          const requests=[],responses=[],actions=[];
+          page.on('request',req=>{const u=new URL(req.url());if(u.hostname==='k-part.com')requests.push({method:req.method(),url:req.url(),resourceType:req.resourceType(),postData:req.postData()?.slice(0,12000)||null});});
+          page.on('response',async res=>{const u=new URL(res.url());if(u.hostname!=='k-part.com')return;const h=res.headers(),type=h['content-type']||'';const x={url:res.url(),status:res.status(),contentType:type};if(/json|text\//i.test(type)&&Number(h['content-length']||0)<1500000){try{x.body=(await res.text()).slice(0,500000)}catch{}}responses.push(x);});
           let error=null;
           try{
             await page.goto('https://k-part.com/chat?catalog_brand=cat',{waitUntil:'domcontentloaded',timeout:45000});
-            await page.waitForTimeout(6000);
+            await page.waitForTimeout(5000);
             const accept=page.getByRole('button',{name:'Accept',exact:true});if(await accept.count())await accept.first().click().catch(()=>{});
-            await page.waitForTimeout(2500);
-            const input=page.locator('input[name="message"]');
-            await input.fill('C32');
+            await page.waitForTimeout(1500);
+            await page.locator('input[name="message"]').fill('C32');
             await page.getByRole('button',{name:'Send',exact:true}).first().click();
-            await page.waitForTimeout(10000);
+            await page.waitForTimeout(5000);
+            const prefix=page.getByRole('button',{name:'C32 / B2C',exact:true});
+            if(await prefix.count()){await prefix.first().click();actions.push('selected C32 / B2C');}
+            await page.waitForTimeout(12000);
             const text=await page.locator('body').innerText();
-            const controls=await page.locator('input,button,select,[role=button]').evaluateAll(xs=>xs.slice(0,250).map(x=>({tag:x.tagName,type:x.type||'',text:(x.innerText||x.getAttribute('aria-label')||'').trim().slice(0,140),placeholder:x.placeholder||'',name:x.name||'',value:x.value||''})));
-            await writeFile('artifacts/kpart-c32-search.json',JSON.stringify({url:page.url(),error,text:text.slice(0,30000),controls,requests,responses},null,2));
-          }catch(e){error=e.message;await writeFile('artifacts/kpart-c32-search.json',JSON.stringify({error,requests,responses},null,2));}
+            const controls=await page.locator('input,button,select,[role=button]').evaluateAll(xs=>xs.slice(0,350).map(x=>({tag:x.tagName,type:x.type||'',text:(x.innerText||x.getAttribute('aria-label')||'').trim().slice(0,160),placeholder:x.placeholder||'',name:x.name||'',value:x.value||''})));
+            await writeFile('artifacts/kpart-c32-b2c-catalog.json',JSON.stringify({url:page.url(),error,actions,text:text.slice(0,45000),controls,requests,responses},null,2));
+          }catch(e){error=e.message;await writeFile('artifacts/kpart-c32-b2c-catalog.json',JSON.stringify({error,actions,requests,responses},null,2));}
           finally{await browser.close();}
-          console.log(JSON.stringify({error,requests:requests.length,responses:responses.filter(x=>x.url.includes('aiChatProxy')).map(x=>({status:x.status,body:x.body?.slice(0,4000)}))},null,2));
+          console.log(JSON.stringify({error,actions,requests:requests.length,responses:responses.filter(x=>x.url.includes('aiChatProxy')).map(x=>({status:x.status,body:x.body?.slice(0,2500)}))},null,2));
           NODE
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: kpart-c32-search
-          path: artifacts/kpart-c32-search.json
+          name: kpart-c32-b2c-catalog
+          path: artifacts/kpart-c32-b2c-catalog.json
           if-no-files-found: warn
           retention-days: 7
