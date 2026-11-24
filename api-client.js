@@ -259,6 +259,8 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["3W6551","SHAFT",1398.87,2308.14,"۳۴ New Aftermarket"],
+ ["3W7515","CYLINDER A",1796.91,2964.90,"۲۰ New Aftermarket"],
  ["3K0360","SEAL",1.52,2.51,"۱۳۱ New Genuine Surplus؛ ۷۰٬۰۳۶ New Aftermarket"],
  ["1N3574","CYL BLK G",12127.61,20010.56,"۱۰ New Aftermarket"],
  ["2512552","PIN AS",1496.02,2468.43,"۱۱ New Aftermarket"],
