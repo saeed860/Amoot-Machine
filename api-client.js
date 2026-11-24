@@ -259,6 +259,11 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["2929964","PUMP GP",4842.40,7989.96,"۲۶ New Aftermarket؛ ۱ Call For Pricing؛ ۱ Used"],
+ ["2935712","CYL GP-065",1468.07,2422.32,"۲۷ New Aftermarket"],
+ ["2976876","KIT-GASKET",2354.18,3884.40,"۱۱ New Aftermarket"],
+ ["2979150","ADJUST GP",2432.63,4013.84,"۵۳ New Aftermarket"],
+ ["2979151","ADJUST GP",2576.21,4250.75,"۵۶ New Aftermarket؛ ۲ Used"],
  ["2807864","MOTOR GP P",5545.01,9149.27,"۲ New Aftermarket"],
  ["2818491","BAR GP-EQU",12878.29,21249.18,"در موجودی دقیق فروشنده یافت نشد؛ قیمت OEM List موجود است"],
  ["2818870","KIT-GASKET",2279.40,3761.01,"۳۴ New Aftermarket"],
