@@ -33,7 +33,7 @@ for (const d of details) {
   if (normalized.has(key)) throw new Error("Duplicate Off Road part number: " + d.sku);
   normalized.add(key);
 }
-const publicDetails = details.map(d => [d.sku, d.description, d.weight, d.amoot, d.alternatives.map(x => [x.sku, x.name])]);
+const publicDetails = details.map(d => [d.sku, d.description, d.weight, d.amoot, d.alternatives]);
 const block = "const offRoadPublicDetails=" + JSON.stringify(publicDetails) + ";\n";
 let updated = source;
 const existing = /const offRoadPublicDetails=\[[\s\S]*?\];\n/;
