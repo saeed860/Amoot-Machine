@@ -23,6 +23,7 @@ on:
       - "cart.js"
       - "api-client.js"
       - "api-config.js"
+      - "offroad-catalog.js"
       - "style.css"
       - "search.html"
       - "search.js"
@@ -77,17 +78,23 @@ jobs:
           const context = { window: {} };
           vm.runInNewContext(fs.readFileSync('offroad-catalog.js', 'utf8'), context);
           const rows = context.window.AMOOT_OFFROAD_CATALOG;
-          if (!Array.isArray(rows) || rows.length < 500) throw new Error('Off Road catalog has fewer than 500 priced products');
+          if (!Array.isArray(rows) || rows.length !== 505) throw new Error('Expected 505 priced Off Road products; found ' + (rows?.length ?? 'none'));
           const seen = new Set();
           for (const p of rows) {
             const sku = String(p.sku || '').replace(/[^A-Z0-9]/gi, '').toUpperCase();
             if (!sku || seen.has(sku)) throw new Error('Missing or duplicate SKU: ' + p.sku);
             seen.add(sku);
             const r = p.priceReference;
-            if (!r || r.currency !== 'USD' || r.amootCurrency !== 'USD' || r.factor !== 1.65) throw new Error('Missing USD price reference: ' + p.sku);
-            if (Math.abs(Number(r.amount) * 1.65 - Number(r.amootAmount)) > 0.011) throw new Error('Incorrect Amoot price: ' + p.sku);
+            if (!r || r.amootCurrency !== 'USD' || !(Number(r.amootAmount) > 0)) throw new Error('Missing final USD price: ' + p.sku);
+            if (Object.keys(r).some(k => !['amootAmount','amootCurrency'].includes(k))) throw new Error('Internal pricing metadata leaked into public catalog: ' + p.sku);
           }
-          console.log('Verified', rows.length, 'unique products with USD prices at 1.65x.');
+          const audit = fs.readFileSync('docs/internal-offroad-price-audit.md', 'utf8');
+          const audited = [...audit.matchAll(/^\\| ([^|]+) \\| [^|]* \\| ([0-9.]+) \\| ([0-9.]+) \\|/gm)].map(m => ({sku:m[1],base:Number(m[2]),final:Number(m[3])}));
+          if (audited.length !== 505) throw new Error('Internal pricing audit must contain 505 rows; found ' + audited.length);
+          for (const row of audited) {
+            if (Math.round(row.base * 1.65 * 100) / 100 !== row.final) throw new Error('Incorrect 1.65x price formula: ' + row.sku);
+          }
+          console.log('Verified', rows.length, 'public USD prices and', audited.length, 'internal 1.65x calculations.');
           NODE
       - name: Verify local page assets
         run: |
