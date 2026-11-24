@@ -3230,3 +3230,38 @@ Additional Cat-linked discovery candidates:
 3J-1907, 6V-5048, 2J-0157, 2S-4078, 3S-2093, 3S-2094, 3S-2095, 238-8648, 1R-1808, 7G-4332, 6Y-0473, 6V-0937, 125-3537, 167-1946, 245-9947, 245-9950, 214-7568, 238-5080, 238-5081, 2H-3928, 5H-6734, 6V-6809, 310-3954, 8H-7521, 167-4407. These are related fasteners, seals, hose/coupling parts, radiator coolant/filter accessories and idler alternatives; candidate-only, not fitment/interchange proof.
 
 Overall reviewed progress: 74/500 batches = 740/5,000 product target (14.8%). Original Cat seed list has 47 SKUs remaining (products 741–787).
+
+## Batch 75/500 — products 741–750 (2026-11-25)
+
+SKUs: 6Y-0469, 6Y-0471, 6Y-0472, 6Y-1082, 7C-0877, 7C-1903, 7C-7688, 7D-1577, 7E-0688, 7E-6408. All ten Cat pages opened; nine had substantive item-level data, and all ten DB rows re-queried.
+
+Verified updates:
+- 6Y-0469: Cat Track Seal/Thrust Ring for SALT undercarriage. Carbon Steel, 1.811in ID ×2.031in OD (51.6mm). Cat says it protects the sealing system and helps retain lubricant/exclude abrasives. No compatible-model list published.
+- 6Y-0471: Cat Track Seal/Thrust Ring for SALT. Carbon Steel, 2.185in ID; title states 61.9mm OD. Cat description says thrust rings protect the sealing system. No compatible-model list published.
+- 6Y-0472: Cat Track Seal/Thrust Ring for SALT. Carbon Steel, 2.559in ID ×2.811in OD (about 71.4mm). Cat page lists 13 distinct labels: D11R/D11T/D11N/D11 XE/D11; ripper 11; mining excavators 5130B/5130; expanded mining LD350; bulldozers 11SU/11U; hydraulic shovels 6015B/6015. Source discrepancy preserved: product title says “7.15mm Outside Diameter”, while Specifications says 2.811in (about 71.4mm).
+- 6Y-1082: Cat Track Seal/Thrust Ring for SALT. Inside diameter 2.535in, outside diameter 2.86in, shoe type Double Grouser, Center Punched. No compatible-model list or material published.
+- 7C-0877: Cat Injector Assembly. Cat explicitly marks discontinued; set is_active=false. Compatible Gen Set Engine 3508/3512/3516, Marine Engine 3508/3516/3512, Industrial Engine 3512/3516/3508. Compare Alternate Parts lists 0R-1756 Reman Fuel Nozzles & Injectors.
+- 7C-1903: Cat Fuel Injector Pump Group. Cat says description is still being added. Added 11 distinct labels: Gen Set Engine 3406C/3304B/3516/3406B/3508/3608/3606/3616; Truck Engine 3126; Marine Engine 3616/3508/3612/3412; Marine Auxiliary 3608; Military Gen Set 3608. Material Grease (Lanolin, Silicone) Fluid.
+- 7C-7688: Cat Turbocharger Group for Gen Set Engine 3408B/3408C/3408, Engine-Machine 3408 and Industrial Engine 3408B. Cat explicitly marks discontinued; set is_active=false. Specs 12.6in length ×15.8in height.
+- 7D-1577: Cat 19mm Curved Motor Grader Cutting Edge. Added 46 distinct labels across motor graders and ripper scarifier including 16G. Through-hardened DH2/Boron Steel, Standard wear, 0.748in thickness, 83.906in overall length, 8in width, 15 holes for 3/4in plow bolts (21mm square), curved/not serrated, 6in hole spacing, 3in end spacing, continuous edge.
+- 7E-0688: Cat Turbocharger Cartridge Seal Ring. Fitment Gen Set Engine/Marine Engine/Vehicular Engine/Industrial Engine 3516 and Engine 3516PETROLEUM. Specs 3.8in length ×0.3in height.
+- 7E-6408: Cat Fuel Injector Group. Fitment Gen Set Engine 3512/3516/3508; Industrial Engine 3512; Vehicular Engine 3512. Specs 12.3in length ×4.8in height, Grease (Lanolin, Silicone) Fluid. Cat Compare Alternate Parts lists 0R-3052 Cat Reman Electronic Power Generation Uprate Timing Retard Scroll Injector; serial-number applicability must be confirmed.
+
+Cat pages:
+- https://parts.cat.com/en/catcorp/product/6Y-0469
+- https://parts.cat.com/en/catcorp/product/6Y-0471
+- https://parts.cat.com/en/catcorp/product/6Y-0472
+- https://parts.cat.com/en/catcorp/product/6Y-1082
+- https://parts.cat.com/en/catcorp/product/7C-0877
+- https://parts.cat.com/en/catcorp/product/7C-1903
+- https://parts.cat.com/en/catcorp/product/7C-7688
+- https://parts.cat.com/en/catcorp/product/7D-1577
+- https://parts.cat.com/en/catcorp/product/7E-0688
+- https://parts.cat.com/en/catcorp/product/7E-6408
+
+Post-update verification returned all ten rows. Distinct fitment counts: 6Y-0469=0; 6Y-0471=0; 6Y-0472=13; 6Y-1082=0; 7C-0877=3 (inactive); 7C-1903=11; 7C-7688=3 (inactive); 7D-1577=46; 7E-0688=2; 7E-6408=3. No prices/current stock inferred.
+
+Additional Cat-linked discovery candidates:
+239-7943, 6Y-0473, 360-2308, 460-6952, 9G-1642, 7G-4332, 6Y-1579, 352-9703, 222-7001, 352-9711, 126-5343, 222-7007, 261-4408, 9W-9621, 0R-1756, 2J-3506, 5F-8933, 5J-4773, 5P-8248, 8E-5529, 6Y-2805, 446-1526, 276-1318, 276-1319, 0R-3052. These are related seals, track pins, plugs, fasteners, grader wear components and Cat Reman alternatives; not universal fitment/interchange claims.
+
+Overall reviewed progress: 75/500 batches = 750/5,000 product target (15.0%). Original Cat seed list has 37 SKUs remaining (products 751–787).
