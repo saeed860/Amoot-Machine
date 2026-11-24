@@ -259,6 +259,8 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["4583867","SHAFT-CIRC",1574.50,2597.92,"۶۲ New Aftermarket"],
+ ["4592220","CONT GP",4196.43,6924.11,"۲ New Genuine Surplus"],
  ["4452672","PUMP GP-GR",6403.84,10566.34,"۵ New Aftermarket"],
  ["4481988","CYL GP-102",4844.51,7993.44,"در موجودی دقیق فروشنده یافت نشد؛ قیمت OEM List موجود است"],
  ["4505243","SHAFT",1912.84,3156.19,"۳۶ New Aftermarket"],
