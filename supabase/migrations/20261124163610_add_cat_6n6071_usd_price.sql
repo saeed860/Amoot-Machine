@@ -1,0 +1,1 @@
+UPDATE public.products SET price_usd=149.31, price_irr=NULL WHERE sku='CAT-6N-6071';
