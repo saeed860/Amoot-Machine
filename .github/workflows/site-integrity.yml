@@ -65,7 +65,7 @@ jobs:
           grep -Fq "api('/api/admin/products/'+encodeURIComponent(p.sku)" api-client.js
           grep -Fq 'function openProductEditor(p)' api-client.js
           grep -Fq 'factor:1.65' offroad-catalog.js
-          grep -Fq 'amootCurrency:\'USD\'' offroad-catalog.js
+          grep -Fq "amootCurrency:'USD'" offroad-catalog.js
           grep -Fq 'INVALID_ORDER_TRANSITION' api/src/server.js
           grep -Fq 'Cancellation restores inventory exactly once' api/scripts/smoke-test.js
       - name: Verify Off Road catalog pricing
