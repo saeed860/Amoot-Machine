@@ -2501,3 +2501,38 @@ Additional Cat-linked discovery candidates:
 384-2962, 384-2964, 384-2968, 615-3646, 625-7306, 641-9533, 654-8598, 654-8599, 654-8600, 384-2954, 384-2978, 384-2982, 384-2984, 553-7145, 631-8965, 654-8595, 654-8602, 654-8603, 654-8606, 654-8611, 283-5593, 374-3608, 7D-5435, 336-9373, 3D-2824, 282-2785, 5P-8500, 390-3122, 387-9141, 550-8863, 311-3901, 11R-0278, 20R-1264, 248-5513, 132-6469, 1R-0756, 1R-0726, 20R-1268, 11R-0681, 20R-1269, 219-3240, 313-7770, 11R-0280, 20R-1270, 468-8825, 468-8824, 316-5980. These are Cat alternate, related or commonly purchased candidate links, not fitment/interchangeability proof.
 
 Overall reviewed progress: 53/500 batches = 530/5,000 product target (10.6%). Original Cat seed list has 257 SKUs remaining (products 531–787).
+
+## Batch 54/500 — products 531–540 (2026-11-25)
+
+SKUs: 392-0213, 392-0214, 392-0216, 392-0217, 392-0219, 392-0220, 392-0221, 392-0222, 393-9936, 395-1044. All ten Cat item pages were retrieved; Cat Compatible Models and Specifications were inspected and all database rows re-queried. Injector fitment arrays were corrected to the exact model labels visible on Cat pages.
+
+Verified updates:
+- 392-0213: Cat Fuel Pump Injector. Added nine Cat labels: Engine 3516E; Truck 793D/793C/797/789C/797B; Locomotive Engine 3516B; Wheel Loader 994F/994H. Specs 14.8in ×3.0in. Cat Compare Alternate Parts lists 11R-0284 Cat Reman NWC and 20R-0850 Cat Reman Fuel Injector.
+- 392-0214: Cat Injector Group. Corrected to six distinct engine labels 3508/3516/3512/3508B/3516B/3512B across Marine Engine, Marine Auxiliary, Industrial Engine and Locomotive Engine. Specs 14.8in ×3.0in.
+- 392-0216: Cat Injector Group. Corrected to eight distinct labels SPF343C, SR5, C4.4, 3516C, 3512C, 3512B, TH48-E80 and TH48-E70 across pumper, generator, engine-machine, generator-set, marine, industrial, locomotive and petroleum categories. Specs 14.8in ×3.0in. Cat alternatives: 11R-0682 Cat Reman NWC and 20R-1277 Cat Reman.
+- 392-0217: Cat Injector Group. Corrected to 11 distinct labels 3512B/3508B/3516B, SR4/SR5/SR4B/SR4BHV, PP3516, PM3508/PM3516/PM3512. Cat categories include gen-set engine, generator, generator set, power module, marine auxiliary, industrial, petroleum and petroleum gen set. Specs 14.8in ×3.0in. Cat alternatives: 11R-0286 Cat Reman NWC and 20R-1278 Cat Reman.
+- 392-0219: Cat Fuel Pump Injector. Corrected to five labels SR4B/SR4/3512C/3508C/3516C across generator, generator set, marine auxiliary, industrial, petroleum engine and petroleum gen-set. Specs 14.8in ×3.0in. Cat alternatives: 11R-0665 Cat Reman NWC and 20R-1280 Cat Reman Electronic Fuel Injector.
+- 392-0220: Cat Fuel Pump Injector. Corrected to 11 distinct labels SR5/SR4B/3516C/3516C GEN/3512C/3516/3512/3508C/3508B/3516B/3512B across generator, generator set, power module, marine engine and marine auxiliary. Specs 14.8in ×3.0in.
+- 392-0221: Cat Fuel Injector Group. Corrected to 11 distinct labels 3516C/SR5/3516C GEN/3516C GEN SET/3516E/3512C/XQC1200/XQC1600/3512B/789D/789 across engine-machine, generator, generator set, power module, marine, industrial and truck categories. Specs 14.8in ×3.0in. Cat alternative: 20R-0863 Cat Reman Fuel Injector.
+- 392-0222: Cat Injector Group. Corrected to seven distinct labels SR4B/3516C/3512C/3512/3512B/3508B/3508C across generator, generator set, marine, industrial, engine, petroleum and locomotive. Specs 14.8in ×3.0in. Cat alternatives: 11R-0667 Cat Reman NWC and 20R-1282 Reman Electronic Fuel Injector.
+- 393-9936: Cat Cylinder Head Rail Tube, carries fuel from the fuel rail to cylinder-head injectors. Confirmed Truck Engine CT15 and On-Highway Truck CT660; material Carbon Steel.
+- 395-1044: Cat SALT Track Group for D11T/D11 XE/D11. 1-tooth master, single grouser, 41 sections, PPR, ES shoe, HD undercarriage, 710mm (27.953in) shoe width, 317.5mm (12.5in) pitch, 5.748in sprocket-side inside spread, 4.331in bushing ID, 1.375in track bolt thread, M36 master bolt, no RBT/ARM/clipping/wear sensor. Cat says sleeve-bearing track reduces pin/bushing galling; the listed compare-alternate and related track-group variants are discovery candidates only.
+
+Cat pages:
+- https://parts.cat.com/en/catcorp/product/392-0213
+- https://parts.cat.com/en/catcorp/product/392-0214
+- https://parts.cat.com/en/catcorp/product/392-0216
+- https://parts.cat.com/en/catcorp/product/392-0217
+- https://parts.cat.com/en/catcorp/product/392-0219
+- https://parts.cat.com/en/catcorp/product/392-0220
+- https://parts.cat.com/en/catcorp/product/392-0221
+- https://parts.cat.com/en/catcorp/product/392-0222
+- https://parts.cat.com/en/catcorp/product/393-9936
+- https://parts.cat.com/en/catcorp/product/395-1044
+
+Post-update verification returned all ten SKUs. Distinct fitment counts: 392-0213=9; 392-0214=6; 392-0216=8; 392-0217=11; 392-0219=5; 392-0220=11; 392-0221=11; 392-0222=7; 393-9936=2; 395-1044=3. No customer prices, stock or universal interchangeability inferred.
+
+Additional Cat-linked discovery candidates:
+275-2604, 245-4907, 132-6469, 245-4908, 3J-1907, 11R-0284, 20R-0850, 272-0760, 3S-9643, 7N-4927, 230-2520, 6V-1454, 11R-0682, 20R-1277, 248-5513, 214-7566, 2A-4429, 468-8824, 316-5980, 11R-0286, 20R-1278, 1R-0756, 1R-0726, 8N-6309, 5D-5957, 11R-0665, 20R-1280, 5H-6734, 468-8825, 197-7055, 20R-0863, 154-6389, 219-3240, 11R-0667, 20R-1282, 395-1050, 526-3867, 526-3868, 570-3234, 570-3236, 570-3242, 572-3289, 601-4080, 601-4081, 601-4083, 601-7902, 375-5922, 384-3012, 395-1046, 395-1048, 395-1052, 526-3870, 526-3871, 595-3220, 601-4085, 601-4089, 184-6306, 184-6305, 602-0406, 602-0405, 187-3298. These are Cat alternate/related/commonly purchased leads, not confirmed fitment or interchange.
+
+Overall reviewed progress: 54/500 batches = 540/5,000 product target (10.8%). Original Cat seed list has 247 SKUs remaining (products 541–787).
