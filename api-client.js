@@ -259,6 +259,11 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["3850937","COMPRESSOR",3213.32,5301.98,"۱ New Genuine Surplus؛ ۱۹ New Aftermarket"],
+ ["3874367","CORE AS",1664.64,2746.66,"۵۲ New Aftermarket"],
+ ["3900788","MOTOR GP-E",1602.33,2643.84,"۴ New Aftermarket"],
+ ["3909923","SPINDLE",6072.65,10019.87,"۳ New Aftermarket"],
+ ["3920206","INJECTOR G",2687.53,4434.42,"۱۰ New Aftermarket"],
  ["3808698","TURBO GP-B",8290.21,13678.85,"۸ New Aftermarket"],
  ["3816555","ROD AS",2419.05,3991.43,"۳۵ New Aftermarket"],
  ["3826529","YOKE AS",2394.91,3951.60,"۱۸ New Aftermarket"],
