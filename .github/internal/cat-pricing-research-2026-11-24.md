@@ -2705,3 +2705,38 @@ Independent source leads:
 - https://www.highwayandheavyparts.com/product/1807350-caterpillar-c15-piston-pin-new-5245565/
 - https://www.reliableaftermarketparts.com/products/1807350-pin-piston-fits-caterpillar-models
 - https://www.scribd.com/document/430948533/C18-Industrial-Engine-sn-WJH-WRH-Part-book-pdf
+
+## Batch 60/500 — products 591–600 (2026-11-25)
+
+SKUs: 487-0039, 494-1279, 497-5606, 499-6727, 4K-7038, 4N-0733, 4N-0933, 4P-1384, 4W-1434, 4W-7019. All ten Cat product pages retrieved; item-level fitment/spec/kit sections inspected. All ten database records re-queried and compatible-model arrays deduplicated.
+
+Verified updates:
+- 487-0039: Cat Fuel Lines Hose Assembly for C32 marine engine fuel delivery. Confirmed C32 fitment; materials alloy copper, carbon steel and hose. No public dimensions supplied.
+- 494-1279: Cat Engine Overhaul (Top End) Kit. Fitment labels: Gen Set Engine 3516; Generator Set 3512; Marine Engine 3516/3512; Industrial Engine 3508B/3512B; Locomotive Engine 3516/3512; Petroleum Engine 3512C. Recorded 32 visible components and quantities from the Cat kit display; Cat reports 37 total, with five further lines not loaded in this public-page session. Components include O-rings, gaskets, filters, regulators, bearings, springs and turbocharger/water-pump/oil-cooler installation kits.
+- 497-5606: Cat 300.025mm ID engine cylinder block liner for Gas Engine G3612. Material Gray (Flake) Iron. Cat page explains liner function in piston running surface and heat transfer; no other dimensional specs published. Related product panel shows 290-2041 piston assembly, 6I-4545 O-ring, 143-2878 cylinder-head gasket and 227-2902 connecting-rod bearing; these are discovery leads only.
+- 499-6727: Cat Driver Safety System (DSS), non-intrusive in-cab fatigue/distraction detection with audible and seat-vibration alerts and event notification to monitoring center. Added 129 distinct Cat model labels across underground articulated trucks, articulated/ejector trucks, wagons, CATSAFETY, industrial engines, haul/quarry/off-highway trucks and tractors. Material field Carbon Steel. Page shows a generic “Replaced” indicator but no replacement SKU in the visible content; kept active and did not infer supersession.
+- 4K-7038: Cat Track Bolt, 41.28mm (1.625in) long, 9/16in (0.5625in) size, 18mm pitch. Added 60 distinct fitment labels across D1-D4/D3-D4 track tractors, compact track loaders, asphalt pavers, ripper, hydraulic control, track loaders, excavators, cold planers, bulldozers, winches and backhoes. Specs 0.843in grip, RH, zinc-phosphate/oil coating, boron steel/coating fluid/alloy zinc, Cat/ASTM F2882 170 Ksi.
+- 4N-0733: Cat Oil Pump Group. Added 50 distinct Cat model labels spanning SR4 generator, 3400/3126 truck engines, R2900 LHD, 16G/16H graders, 3608 military gen-set/marine auxiliary, 3508/3412 marine engines, stabilizer mixer, 245 excavator, wheel tractors/scrapers, G3406 generator set, reclaimers, compactors, cold planer, wheel dozer/loader, landfill compactor, soil stabilizer, road reclaimer, articulated truck and industrial/gas engines. Specs 14.3in length ×7.0in height.
+- 4N-0933: Cat Gasket. Added 296 distinct compatible-model labels across WEG/SR4B/SR500/XQP500 generators, 3400/C16/C15/C18 engine families, integrated toolcarriers, skidders, excavators, wheel tractors/scrapers, compactors, wheel loaders/dozers, articulated/underground trucks, marine/industrial/gas engines, track tractors/loaders, reclaimers, pavers, pipelayers, winches, graders, shovels, power modules and Challenger tractors. Cat materials: Rubber & Cork, Rubber & Fiber Gasket, Rubber Gasket. No dimensions published.
+- 4P-1384: Cat Fuel Injection Pump. Confirmed 3406B/3406C engine fitment; no additional public specifications.
+- 4W-1434: Cat Engine Turbocharger. Confirmed Generator Set 3408; Marine Engine 3408/3408B; Petroleum Engine 3408; Petroleum Generator Set 3408B; Truck Engine 3408B. Specs 14.9in length ×12.9in height, carbon steel.
+- 4W-7019: Cat Fuel Injector Nozzle. Confirmed engine fitment 3408/3408B/3408C/3412/3412C. Specs 8.7in length ×1.5in height, Fuel Fluid material. Cat Available Cat Reman panel displays 0R-3536 Cat 3408 Reman Fuel Injector Nozzle; serial-number applicability required.
+
+Cat pages:
+- https://parts.cat.com/en/catcorp/product/487-0039
+- https://parts.cat.com/en/catcorp/product/494-1279
+- https://parts.cat.com/en/catcorp/product/497-5606
+- https://parts.cat.com/en/catcorp/product/499-6727
+- https://parts.cat.com/en/catcorp/product/4K-7038
+- https://parts.cat.com/en/catcorp/product/4N-0733
+- https://parts.cat.com/en/catcorp/product/4N-0933
+- https://parts.cat.com/en/catcorp/product/4P-1384
+- https://parts.cat.com/en/catcorp/product/4W-1434
+- https://parts.cat.com/en/catcorp/product/4W-7019
+
+Post-update verification returned all ten SKUs. Distinct compatible-model counts: 487-0039=1; 494-1279=5; 497-5606=1; 499-6727=129; 4K-7038=60; 4N-0733=50; 4N-0933=296; 4P-1384=2; 4W-1434=2; 4W-7019=5. No prices or current stock inferred.
+
+Additional Cat-linked discovery candidates:
+033-6031, 136-7227, 1R-0726, 1R-0756, 1W-1251, 1W-1253, 214-7566, 214-7568, 230-1072, 238-5080, 238-5081, 248-5513, 272-0757, 304-7216, 3S-9643, 457-6719, 492-0914, 4F-7226, 4W-3027, 4W-3100, 5D-5957, 5P-4892, 6V-1454, 6V-3907, 6V-5048, 6V-5066, 6V-8001, 6V-9027, 7M-9909, 7N-4782, 7N-4927, 7N-6806, 290-2041, 6I-4545, 143-2878, 227-2902, 575-1591, 126-1767, 126-1768, 278-2355, 278-2356, 6S-3609, 190-7396, 6Y-0473, 0R-3536, 328-5574, 253-1752, 4N-7253, 317-8766. These are kit BOM/related/Reman candidates only, not guaranteed fitment or interchangeable replacements.
+
+Overall reviewed progress: 60/500 batches = 600/5,000 product target (12.0%). Original Cat seed list has 187 SKUs remaining (products 601–787).
