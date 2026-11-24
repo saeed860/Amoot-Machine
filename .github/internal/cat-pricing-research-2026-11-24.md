@@ -3055,3 +3055,38 @@ Additional Cat-linked discovery candidates:
 5N-6055, 5N-2902, 3N-8463, 3N-8462, 4M-6107, 5N-9006, 5N-9013, 5N-9017, 3K-0360, 2R-0098, 2S-4078, 8D-4771, 3J-1907, 5P-8500, 1P-3705, 6V-9746, 20R-9849, 20R-9847, 602-0405. These are pump components, seals, bolt-associated items and Cat Reman alternatives only; no universal interchange claims inferred.
 
 Overall reviewed progress: 69/500 batches = 690/5,000 product target (13.8%). Original Cat seed list has 97 SKUs remaining (products 691–787).
+
+## Batch 70/500 — products 691–700 (2026-11-25)
+
+SKUs: 603-3385, 603-7963, 603-8538, 604-2039, 604-2388, 605-7481, 607-4800, 607-4803, 607-4804, 607-4805. Cat pages opened for all ten; two Grade 3D product pages returned only short title shells, while eight pages provided usable item-level details. All ten DB rows re-queried and fitment arrays deduplicated.
+
+Verified updates:
+- 603-3385: Cat Grade with 3D for Excavators. Page returned only a short title shell; no model list/specification details added. Existing product description retained.
+- 603-7963: Cat Basic Auxiliary Sea Water Pump for marine/industrial engine cooling. Added 16 distinct model labels across generator-set engines 3508/3512/3516, SR4 generator, 3400/3500 marine and marine auxiliary engines, industrial D379/D398/D399 engines, petroleum 3512/3512B and gas G3512/G3516. Material Acrylic Adhesive and Oil Fluid.
+- 603-8538: Cat Carrier Roller Group. Existing database fitment/specification record rechecked against Cat page; 12 distinct compatible-model labels and published roller geometry already matched, so no unnecessary overwrite.
+- 604-2039: Cat Grade with 3D for Mini Excavators. Page returned only a short title shell; no model list/specification details added. Existing product description retained.
+- 604-2388: Cat Water Pump Pipe for coolant transfer between radiator and engine block. Added 48 distinct labels across LC20XX/LC51XX/LC31XX generators, IT14G integrated toolcarriers, MH3032 material handler, graders, D3/D4/D5/D6 track tractors, wheel skidders, CB compactors, AP pavers and PL61 pipelayer. Weight 0.07lb; Alloy Zinc, Plastic/Polyamide, Corrosion Preventative Fluid and Carbon Steel; corrosion-resistant black pipe.
+- 605-7481: Cat Engine Cooling Water Pump. Added 42 distinct labels across AD55/AD30/AD45B underground trucks; C-18/C-15/C-16/C16/C18 truck engines; R3000H/R2900G/R2900 LHD; 24M grader; 6018/6015/6015 FS shovels; D8/D8T/D8R tractors; C18/C15/3406E marine engines; PL83/PL87/583T/587T pipelayers; CX31-C15I/CX35-P800 petroleum packages; TH43-C18 MHPU; 633E II/627G/623G/631D/651B/631E/631G/637G/657E/637D/657B/637E/633D/657G/621G wheel tractors; C18/3508B generator sets. Cat states specifications are still being added.
+- 607-4800: Cat Heavy Duty Bar-tread rubber track, 400mm ×86mm ×49 sections, 15.748in belt width, 3.386in pitch, black, rubber/fiber rubber, HD. Fitment CTL 249D/239D/249D3/239D3.
+- 607-4803: Cat Heavy Duty Block-tread rubber track, 320mm ×86mm ×53 sections, 12.598in belt width, 3.386in pitch, black, rubber/fiber rubber, HD. Fitment CTL 259D/259B3/259D3.
+- 607-4804: Cat Heavy Duty Bar-tread rubber track, 400mm ×86mm ×53 sections, 15.748in belt width, 3.386in pitch, black, rubber/fiber rubber, HD. Fitment CTL 259D/259B3/259D3.
+- 607-4805: Cat Heavy Duty Bar-tread rubber track, 450mm ×86mm ×60 sections, 17.717in belt width, 3.386in pitch, black, rubber/fiber rubber, HD. Fitment CTL 299D3 XE/299D/299C/289C/279C/299D2/299D XHP/299D2 XHP.
+
+Cat pages:
+- https://parts.cat.com/en/catcorp/product/603-3385
+- https://parts.cat.com/en/catcorp/product/603-7963
+- https://parts.cat.com/en/catcorp/product/603-8538
+- https://parts.cat.com/en/catcorp/product/604-2039
+- https://parts.cat.com/en/catcorp/product/604-2388
+- https://parts.cat.com/en/catcorp/product/605-7481
+- https://parts.cat.com/en/catcorp/product/607-4800
+- https://parts.cat.com/en/catcorp/product/607-4803
+- https://parts.cat.com/en/catcorp/product/607-4804
+- https://parts.cat.com/en/catcorp/product/607-4805
+
+Post-update verification returned all ten rows. Distinct compatible-model counts: 603-3385=0 (unchanged); 603-7963=16; 603-8538=12 (existing verified); 604-2039=0 (unchanged); 604-2388=48; 605-7481=42; 607-4800=4; 607-4803=3; 607-4804=3; 607-4805=8. No prices/current stock inferred.
+
+Additional Cat-linked discovery candidates:
+5N-6055, 5N-2902, 3N-8463, 3N-8462, 4M-6107, 1R-1808, 3J-1907, 366-3380, 1P-3705, 6V-9746, 3K-0360, 4N-7253, 110-6326, 110-6331, 377-6969, 265-6619, 265-6618, 304-1916. These are related pump components, seals and common filter/sprocket leads only; no fitment/interchange claims inferred.
+
+Overall reviewed progress: 70/500 batches = 700/5,000 product target (14.0%). Original Cat seed list has 87 SKUs remaining (products 701–787).
