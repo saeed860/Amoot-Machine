@@ -2098,3 +2098,15 @@ Official Cat pages checked:
 - https://parts.cat.com/en/catcorp/product/284-1087
 
 Database checkpoint: all ten rows queried; updates for 265-8575, 272-6009, 273-3286, 277-3076, 279-5369/5373/5377, 282-5199 and 284-1087 were re-queried. Fitment arrays for 279-5369 and 279-5373 were corrected to exclude 304.5E2, which Cat lists only for 279-5377. Overall reviewed progress: 42/500 batches, 420/5,000 products.
+
+
+## Discovery queue recount after batch 42
+
+Current segregated discovery queues:
+- Off Road: 91 entries.
+- Independent suppliers/technical references: 44 entries.
+- Cat official BOM/related-parts panels: 94 entries.
+- Total rows: 229.
+- Unique candidate numbers across queues after normalizing hyphens: 221.
+- Unique candidates not present in the original 787-number seed list: 203.
+- Eight repeated/overlapping numbers are deduplicated in the unique count. Candidates remain segregated and require item-level verification before promotion.
