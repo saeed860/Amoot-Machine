@@ -1828,3 +1828,27 @@ Official Cat pages checked:
 - https://parts.cat.com/en/catcorp/product/20R-7555 (fetch inaccessible)
 
 Database checkpoint: all ten rows queried; corrections for 20R-6618, 20R-6628 and 20R-7411 were re-queried successfully. Overall reviewed progress: 34/500 batches, 340/5,000 products.
+
+
+## Batch 35/500 — SKUs 341–350 (20R-7560 through 20R-8390)
+
+All ten Supabase rows were queried. Cat Parts Store pages were publicly readable for 20R-8060, 20R-8380 and 20R-8381; the remaining seven product URLs were inaccessible through the current page-fetch route, so no unsupported changes were made.
+- 20R-8060: Cat Reman H1315B fuel injector, C9, 1.96 SF; Cat's Compatible Models section explicitly lists Truck Engine C9. Existing DB engine_models/compatible_models already contain C9; retained.
+- 20R-8380: Cat Parts Store title CLUTCH-FAN, brand Cat. Page says no description, no structured specifications and explicitly no compatibility information. Existing empty technical fields and null image retained.
+- 20R-8381: Cat Parts Store title CLUTCH-FAN, brand Cat. Page says no description, no structured specifications and explicitly no compatibility information. Existing empty technical fields and null image retained.
+- 20R-7560: 3412 camshaft kit; Cat page inaccessible in this pass. Existing recommended application 3412 retained; no compatible model inferred.
+- 20R-8352, 20R-8360, 20R-8364, 20R-8369, 20R-8373 and 20R-8390: fan-clutch records already have no Cat-published description/specification/fitment in DB. Individual Cat product pages could not be read during this pass; no speculative details added.
+
+Pages checked:
+- https://parts.cat.com/en/catcorp/product/20R-7560 (inaccessible)
+- https://parts.cat.com/en/catcorp/product/20R-8060 (readable; C9 truck engine confirmed)
+- https://parts.cat.com/en/catcorp/product/20R-8352 (inaccessible)
+- https://parts.cat.com/en/catcorp/product/20R-8360 (inaccessible)
+- https://parts.cat.com/en/catcorp/product/20R-8364 (inaccessible)
+- https://parts.cat.com/en/catcorp/product/20R-8369 (inaccessible)
+- https://parts.cat.com/en/catcorp/product/20R-8373 (inaccessible)
+- https://parts.cat.com/en/catcorp/product/20R-8380 (readable; Cat says no compatibility information)
+- https://parts.cat.com/en/catcorp/product/20R-8381 (readable; Cat says no compatibility information)
+- https://parts.cat.com/en/catcorp/product/20R-8390 (inaccessible)
+
+Database checkpoint: all ten rows queried; no DB changes required because accessible pages confirmed existing data or explicitly supplied no compatibility data. Overall reviewed progress: 35/500 batches, 350/5,000 products.
