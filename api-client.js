@@ -259,6 +259,10 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["2507700","TURBO GP-B",4293.96,7085.03,"۲۸ New Aftermarket"],
+ ["2512557","PIN",1605.88,2649.70,"۱۴ New Genuine Surplus؛ ۳۲ New Aftermarket؛ ۲ Used"],
+ ["2512652","LINK AS-BR",7430.08,12259.63,"۱۵ New Aftermarket"],
+ ["2518266","ACCUMULATO",1251.91,2065.65,"۲ New Genuine Surplus؛ ۸ New Aftermarket"],
  ["2490059","COUPLING",7008.33,11563.74,"در موجودی دقیق فروشنده یافت نشد؛ قیمت OEM List موجود است"],
  ["2490313","ALTERNATOR",1853.44,3058.18,"۲۶ New Aftermarket"],
  ["2500841","TURBO GP-B",3677.13,6067.26,"۶۷ New Aftermarket؛ ۱ New Genuine Surplus"],
