@@ -2291,3 +2291,38 @@ Additional Cat-linked discovery candidates (not promoted as compatible or interc
 489-5670, 306-9441, 9W-4481, 7G-5221, 131-1651, 9G-7516, 2K-4472, 7T-5959, 9X-4588, 7G-1952, 8T-0208, 9W-4489, 3P-2482, 3T-9075, 9X-4590, 3T-7494, 8T-2863, 179-3428, 6Y-8180, 179-3426, 6Y-2590, 6Y-5685, 10R-9598.
 
 Overall reviewed progress: 47/500 batches = 470/5,000 product target (9.4%). Original Cat seed list has 317 SKUs remaining (products 471–787).
+
+## Batch 48/500 — products 471–480 (2026-11-25)
+
+SKUs: 314-2700, 314-4118, 315-5137, 318-2558, 318-2579, 322-0364, 322-3155, 323-5917, 326-1643, 326-1644. All ten Cat item pages were retrieved and the relevant model/specification sections inspected. Database records were re-queried after updates; duplicate model labels were removed from the arrays.
+
+Verified updates:
+- 314-2700: Cat Piston Kit for Basic Engine. Added Gen Set Engine fitment 3608/3606/C280-16/3616; Marine Engine 3616/3612/C280-16/C280-12/C280-6/C280-8; Petroleum Engine C280-12; Locomotive Engine 3612; Military Gen Set 3608. Specs 13.65in length ×14.85in height.
+- 314-4118: Class D rubber toric ring, 364.03mm ID. Cat fitment includes 785/773E/785G/773D/789C/789D/777C/789B/785C/777D/785D/775E/773B/775D/785B, quarry trucks 773E/775D/777E, tractors 776D/776C/784C/784B, off-highway trucks 789/785/789G/777E/777/789D/773/773GC and RC20 rotary cutter. Cat says detailed specifications are still being added; no unsupported dimensions/material beyond the published title/DB data were added.
+- 315-5137: Cat Auxiliary Water Pump Group / Sea Water Pump. Expanded Cat model fitment across 3500-series gen-set, marine, marine auxiliary, industrial, petroleum and gas engines (15 distinct labels). Specs 14.8in length ×11.9in height; Cat material field says Oil Fluid. Description captures the Cat-published bronze housing, stainless-steel structure/shaft, flexible SMX impeller and improved seals.
+- 318-2558: M22 ×1.5 track bolt, 73mm long. Added 63 Cat-compatible labels across track feller bunchers, rotary/track drills, excavators and mobile hydraulic power units. Specs 2.874in length, 1.26in grip, 0.8661in bolt size, RH, zinc-phosphate/oil coating, boron steel/alloy zinc/coating fluid, Cat/ISO 898-1 class 11.9.
+- 318-2579: Cat Auxiliary Sea Water Pump. Added 14 distinct 3500-family engine/generator/marine/industrial/petroleum labels. Specs 25.0in length ×14.0in height; material Alloy Copper and Sealants/Adhesives Adhesive. Cat page displays 30R-1361 Cat Reman Auxiliary Water Pump as an alternate listing, not a confirmed universal interchange.
+- 322-0364: Grey/flake iron fuel connector used in the fuel pump and governor drive. Added 14 distinct C175-family generator/marine/industrial/petroleum/locomotive and 793/794/795/796/797/798 truck fitment labels. Material Gray (Flake) Iron.
+- 322-3155: Advanced Efficiency Lube Filter, cartridge. Added 119 distinct compatible labels across knuckleboom loaders, asphalt pavers, gen sets, wheeled excavators, forestry/log-loaders, excavators, material handlers and mobile hydraulic power units. Specs 4.043in diameter ×8.713in length, Out-to-In flow, cartridge type, Advanced Efficiency. Cat states its reusable housing/element construction and higher media efficiency than standard-efficiency lube filters.
+- 323-5917: Advanced Modular Cooling System Seal. Added 42 distinct labels across D8/D10/D11 tractors, pipelayers, soil/landfill compactors, wheel dozers and wheel loaders. Specs 6.3in length ×4.25in width ×0.85in height, two 1.209in holes, HNBR/NBR/XNBR rubber.
+- 326-1643: Advanced High Efficiency Fuel-Water Separator, Spin-On. Added 232 distinct Cat-compatible labels across generator, truck engine, wheel tractor-scraper, power pack, rotary drill, underground truck, excavator, wheel tractor, rotary mixer, track loader, compactors, petroleum, wheel loader, articulated/off-highway trucks, industrial engine, shovel, tractor, pipelayer, mobile hydraulic power unit, petroleum/power packages, engine and locomotive categories. Specs 4.264in diameter ×9.087in length, Out-to-In, carbon steel, Advanced High Efficiency, Spin-On. Cat says the separator removes 100% free water and 90% emulsified water.
+- 326-1644: Advanced High Efficiency Fuel-Water Separator, Spin-On. Added Cat fitment across generator, truck engine, integrated toolcarrier, wheel tractor-scraper, material handler, off-highway truck, grader, rotary cutter, track tractor, skidder, paver, feller buncher, marine engine, pipelayer, excavator, compactor, mobile hydraulic power unit, generator set, wheel tractor, reclaimer, wheel dozer, wheel loader, forwarder and gen-set engine categories. Specs 4.264in diameter ×7.323in length, Out-to-In, carbon steel, Advanced High Efficiency, Spin-On.
+
+Cat pages:
+- https://parts.cat.com/en/catcorp/product/314-2700
+- https://parts.cat.com/en/catcorp/product/314-4118
+- https://parts.cat.com/en/catcorp/product/315-5137
+- https://parts.cat.com/en/catcorp/product/318-2558
+- https://parts.cat.com/en/catcorp/product/318-2579
+- https://parts.cat.com/en/catcorp/product/322-0364
+- https://parts.cat.com/en/catcorp/product/322-3155
+- https://parts.cat.com/en/catcorp/product/323-5917
+- https://parts.cat.com/en/catcorp/product/326-1643
+- https://parts.cat.com/en/catcorp/product/326-1644
+
+Post-update verification returned all ten SKUs and their updated fitment/spec fields. 314-4118 retains Cat's explicit warning that specifications are still being added. No customer price, current stock or unsupported interchange claims were added.
+
+Additional Cat-linked discovery candidates (each requires its own item-level verification):
+314-2692, 314-2693, 123-2941, 9X-7307, 7D-7519, 6M-5218, 30R-1361, 8C-3076, 228-7100, 360-8960, 523-4987, 509-5694, 479-4131, 5I-8670, 106-4572, 6I-2435, 3J-1907, 3K-0360, 1R-1808, 1R-0749, 1R-0755, 142-1340, 571-5253.
+
+Overall reviewed progress: 48/500 batches = 480/5,000 product target (9.6%). Original Cat seed list has 307 SKUs remaining (products 481–787).
