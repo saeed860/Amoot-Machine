@@ -1033,3 +1033,19 @@ Migration `202611240170_add_c15_cat_reman_bearing_oiljet_references.sql` adds fi
 Application labels follow the compatible equipment classes shown on each official Cat product page. They are family-level catalog evidence, not serial-number-specific fitment guarantees. Verify engine serial number and Arrangement before accepting an order.
 
 Official Cat sources: https://parts.cat.com/en/catcorp/product/10R-1503, https://parts.cat.com/en/catcorp/product/0R-9942, https://parts.cat.com/en/catcorp/product/328-5573, https://parts.cat.com/en/catcorp/product/277-3076, https://parts.cat.com/en/catcorp/product/0R-9449.
+
+## Additional official Cat service and engine references (2026-11-24)
+
+Migration `202611240180_add_verified_cat_c15_3500_service_references.sql` adds seven Cat Parts Store reference records. All remain `REFERENCE`: no customer price, stock, or serial-level fitment is inferred.
+
+| Part number | Official description | Engine family | Application |
+|---|---|---|---|
+| 0R-3361 | Cat Reman Oil Cooler Core | C15 / 3406 | Marine + land |
+| 1W-4674 | KIT-PUMP GP | 3512 / 3516 | Marine + land |
+| 222-5152 | Main Water Pump Rebuild Kit | 3508 / 3512 / 3516 / C32 | Marine + land |
+| 4N-0933 | Gasket | C15 / C18 / 3406 / 3408 | Land |
+| 202-2783 | Plate-Alternator | 3406 / 3408 / 3512 / 3516 / C15 / C18 | Land |
+| 10R-5488 | Cat Reman Electronic Control Module | 3508 / 3512 / 3516 | Marine + land |
+| 20R-5462 | Cat Reman Solenoid Kit | C9 / C15 / C18 / 3406 / 3408 / 3500 family | Marine + land |
+
+The application tag follows the equipment classes explicitly listed by Cat on each official page. A family-level listing is not a serial-number-specific fitment guarantee; verify the full engine serial number and Arrangement before accepting an order. The official source URLs are stored per row in the migration.
