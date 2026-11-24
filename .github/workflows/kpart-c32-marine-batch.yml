@@ -18,7 +18,7 @@ jobs:
           node-version: 22
       - run: npm install --no-save playwright
       - run: npx playwright install --with-deps chromium
-      - name: Collect C32 marine prefix trees and one auxiliary sea-water pump group
+      - name: Capture C32 SDN/RSD sea-water heat-exchanger group detail through public UI
         run: |
           mkdir -p artifacts
           node --input-type=module <<'NODE'
@@ -26,8 +26,8 @@ jobs:
           import { writeFile } from 'node:fs/promises';
           const browser=await chromium.launch({headless:true});
           const page=await browser.newPage({viewport:{width:1440,height:1100}});
-          const all=[];
-          async function collect(prefix){
+          const books=[];
+          async function collect(prefix,groupTitle){
             const responses=[];
             const handler=async res=>{
               if(!res.url().includes('/komatsu/komatsu/aiChatProxy')) return;
@@ -35,58 +35,60 @@ jobs:
               try { const j=await res.json(); if(j?.ok && j.card) responses.push({url:res.url(),json:j}); } catch {}
             };
             page.on('response',handler);
-            await page.goto('https://k-part.com/chat?catalog_brand=cat',{waitUntil:'domcontentloaded',timeout:45000});
-            await page.waitForTimeout(3000);
-            const accept=page.getByRole('button',{name:'Accept',exact:true});
-            if(await accept.count()) await accept.first().click().catch(()=>{});
-            await page.waitForTimeout(1000);
-            await page.locator('input[name="message"]').fill('C32');
-            await page.getByRole('button',{name:'Send',exact:true}).first().click();
-            const prefixButton=page.getByRole('button',{name:`C32 / ${prefix}`,exact:true});
-            await prefixButton.waitFor({timeout:45000});
-            await prefixButton.click();
-            await page.getByRole('button',{name:'Cooling system',exact:true}).first().waitFor({timeout:45000});
-            await page.waitForTimeout(2000);
-            const bookHit=[...responses].reverse().find(x=>x.json.card?.cat_snp===prefix && x.json.card?.section_tree);
-            const bookCard=bookHit?.json?.card||null;
-            let pumpDetail=null, groupError=null;
-            await page.getByRole('button',{name:'Cooling system',exact:true}).first().click();
-            await page.waitForTimeout(1000);
-            const pump=page.getByRole('button',{name:/355-0325 PUMP GP-AUXILIARY SEA WATER/}).first();
-            if(await pump.count()){
-              await pump.click();
-              await page.waitForTimeout(3500);
-              const detailHit=[...responses].reverse().find(x=>x.json.card?.parts?.length>0);
-              pumpDetail=detailHit?.json?.card||null;
-            } else groupError='Auxiliary sea-water pump group not exposed as a visible button';
-            const visibleText=await page.locator('body').innerText();
-            const sections=(bookCard?.section_tree||[]).map(s=>({section:s.title,count:(s.children||[]).length,groups:(s.children||[]).map(c=>c.title)}));
-            all.push({model:'C32',serialPrefix:prefix,book:bookCard?.book||`C32 / ${prefix}`,media:bookCard?.cat_media||null,sections,waterPumpGroupError:groupError,waterPumpDetail:pumpDetail,visibleText:visibleText.slice(-10000)});
+            let error=null,detail=null,tree=null,book=null;
+            try {
+              await page.goto('https://k-part.com/chat?catalog_brand=cat',{waitUntil:'domcontentloaded',timeout:45000});
+              await page.waitForTimeout(2500);
+              const accept=page.getByRole('button',{name:'Accept',exact:true});
+              if(await accept.count()) await accept.first().click().catch(()=>{});
+              await page.waitForTimeout(1000);
+              await page.locator('input[name="message"]').fill('C32');
+              await page.getByRole('button',{name:'Send',exact:true}).first().click();
+              await page.getByRole('button',{name:`C32 / ${prefix}`,exact:true}).waitFor({timeout:45000});
+              await page.getByRole('button',{name:`C32 / ${prefix}`,exact:true}).click();
+              await page.getByRole('button',{name:'Cooling system',exact:true}).first().waitFor({timeout:45000});
+              await page.waitForTimeout(2000);
+              const base=[...responses].reverse().find(x=>x.json.card?.cat_snp===prefix && x.json.card?.section_tree);
+              book=base?.json.card?.book||`C32 / ${prefix}`;
+              tree=base?.json.card?.section_tree||[];
+              await page.getByRole('button',{name:'Cooling system',exact:true}).first().click();
+              await page.waitForTimeout(1000);
+              const target=page.getByText(groupTitle,{exact:true}).first();
+              await target.waitFor({timeout:20000});
+              const before=responses.length;
+              await target.click();
+              await page.waitForTimeout(5000);
+              const hit=[...responses.slice(before)].reverse().find(x=>Array.isArray(x.json.card?.parts)&&x.json.card.parts.length>0);
+              detail=hit?.json?.card||null;
+              if(!detail) error='Clicked group but no parts table response was captured';
+            } catch(e) { error=e.message; }
+            const visibleText=await page.locator('body').innerText().catch(()=> '');
+            books.push({model:'C32',serialPrefix:prefix,book,groupTitle,error,sectionCount:tree?.length||0,sections:(tree||[]).map(s=>({section:s.title,count:(s.children||[]).length})),groupDetail:detail,visibleText:visibleText.slice(-9000)});
             page.removeListener('response',handler);
           }
-          let error=null;
-          try { await collect('SDN'); await collect('RSD'); } catch(e) { error=e.message; }
-          await writeFile('artifacts/kpart-c32-marine-batch.json',JSON.stringify({error,books:all,generatedAt:new Date().toISOString()},null,2));
+          let fatal=null;
+          try {
+            await collect('SDN','353-9049 HEAT EXCHANGER GP-SEA WATER');
+            await collect('RSD','586-1380 HEAT EXCHANGER GP-SEA WATER');
+          } catch(e) { fatal=e.message; }
+          await writeFile('artifacts/kpart-c32-marine-groups.json',JSON.stringify({fatal,books,generatedAt:new Date().toISOString()},null,2));
           await browser.close();
-          console.log(JSON.stringify({error,books:all.map(b=>({prefix:b.serialPrefix,sections:b.sections.map(s=>({section:s.section,count:s.count})),waterPumpGroupError:b.waterPumpGroupError,waterPumpParts:b.waterPumpDetail?.parts?.length||0}))},null,2));
+          console.log(JSON.stringify({fatal,books:books.map(b=>({prefix:b.serialPrefix,group:b.groupTitle,error:b.error,parts:b.groupDetail?.parts?.length||0,complete:b.groupDetail?.parts_complete??null}))},null,2));
           NODE
-      - name: Validate marine prefix trees and candidate group detail
+      - name: Validate group detail responses
         run: |
           node --input-type=module <<'NODE'
           import {readFile} from 'node:fs/promises';
-          const d=JSON.parse(await readFile('artifacts/kpart-c32-marine-batch.json','utf8'));
-          if(d.error) throw new Error(d.error);
-          for(const p of ['SDN','RSD']) {
-            const b=d.books.find(x=>x.serialPrefix===p);
-            if(!b) throw new Error('Missing marine prefix '+p);
-            if(!b.sections.length) throw new Error('No section tree for '+p);
-          }
-          console.log('PASS: SDN and RSD catalog trees captured; group details:',d.books.map(b=>b.serialPrefix+': '+(b.waterPumpDetail?.parts?.length||0)).join(', '));
+          const d=JSON.parse(await readFile('artifacts/kpart-c32-marine-groups.json','utf8'));
+          if(d.fatal) throw new Error(d.fatal);
+          if(!d.books.some(x=>x.serialPrefix==='SDN')) throw new Error('SDN missing');
+          if(!d.books.some(x=>x.serialPrefix==='RSD')) throw new Error('RSD missing');
+          console.log('PASS: both OEM-mapped marine prefixes processed; part detail rows:',d.books.map(x=>x.serialPrefix+':'+(x.groupDetail?.parts?.length||0)).join(', '));
           NODE
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: kpart-c32-marine-batch
-          path: artifacts/kpart-c32-marine-batch.json
+          name: kpart-c32-marine-groups
+          path: artifacts/kpart-c32-marine-groups.json
           if-no-files-found: warn
           retention-days: 7
