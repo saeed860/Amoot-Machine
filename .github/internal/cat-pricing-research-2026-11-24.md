@@ -418,3 +418,35 @@ Database checkpoint: all 10 rows updated and query-verified. Four exact official
 ## Updated extraction checkpoint — 50 batches / 500 parts
 
 The manual Cat Parts enrichment run is extended from 10 batches to 50 batches, with 10 SKUs per batch (500 SKUs total). The first 10 batches (SKUs 1–100) are complete. Continue at batch 11 (SKUs 101–110). Record progress and verify database writes at each 10-batch milestone: 200, 300, 400, and 500 SKUs. Stop after batch 50 / SKU 500 and wait for the user's next instruction. Preserve source-backed descriptions, compatibility, structured specifications, and exact official product images only; do not assign tiny thumbnails or fallback images, and do not infer fitment or availability.
+
+
+## Batch 11/50 — SKUs 101–110 (10R-0711 through 10R-1273)
+
+Official Cat Parts Store pages were manually reviewed for all ten SKUs and the Supabase rows were updated and query-verified.
+
+| SKU | Official identity / captured detail | Availability / image treatment |
+|---|---|---|
+| 10R-0711 | Cat Reman Crankshaft Damper; torsional-vibration damping, viscous-fluid sampling port, reman core inspection and Cat warranty details; 48 compatible model identifiers, including industrial engine 3306B | Active; existing exact official image retained |
+| 10R-0715 | Cat Reman Crankshaft Damper; official page says no longer available | Discontinued; deactivated; no image |
+| 10R-0716 | Cat Reman Crankshaft Damper; 3208, 613C, 231D/225D and CS-553/CS-551/CP-553/CB-614 compatible-model entries | Active; Cat-logo fallback only, no image assigned |
+| 10R-0717 | Cat Reman Crankshaft Damper; official page says no longer available | Discontinued; deactivated; no image |
+| 10R-0718 | Cat Reman Crankshaft Damper; Challenger 75/75C and Truck Engine 3176/3176B; reman process and warranty captured | Active; Cat-logo fallback only, no image assigned |
+| 10R-0739 | Cat Reman Radiator (Bolted Core); 3412/3412C/3412E/3408E and G3412 family references; core-return and warranty notes | Active; fallback only, no image assigned |
+| 10R-0745 | Cat Reman Radiator (Bolted Core); compatible engine families include 3406, 3408, 3412 and 3512; core-return and warranty notes | Active; fallback only, no image assigned |
+| 10R-0747 | Cat Reman Radiator (Bolted Core); material attribute and compatible models captured | Discontinued; deactivated; existing official product image retained |
+| 10R-0956 | Cat Reman Electronic Fuel Injector with coated plunger; C-15/3406E; 14.8 in length × 3.0 in height | Active; exact official Scene7 image linked |
+| 10R-1273 | Cat Reman Fuel Injector (EI550/EUI/C15); C15; 14.8 in length × 3.0 in height | Active; exact official Scene7 image linked |
+
+Official Cat sources checked:
+- https://parts.cat.com/en/catcorp/product/10R-0711
+- https://parts.cat.com/en/catcorp/product/10R-0715
+- https://parts.cat.com/en/catcorp/product/10R-0716
+- https://parts.cat.com/en/catcorp/product/10R-0717
+- https://parts.cat.com/en/catcorp/product/10R-0718
+- https://parts.cat.com/en/catcorp/product/10R-0739
+- https://parts.cat.com/en/catcorp/product/10R-0745
+- https://parts.cat.com/en/catcorp/product/10R-0747
+- https://parts.cat.com/en/catcorp/product/10R-0956
+- https://parts.cat.com/en/catcorp/product/10R-1273
+
+Database checkpoint: all 10 records updated and verified. Three parts explicitly marked discontinued by Cat (10R-0715, 10R-0717, 10R-0747) were deactivated. Two exact product images were newly linked (10R-0956, 10R-1273); existing verified images for 10R-0711 and 10R-0747 were retained. No Cat-logo or fallback image was assigned. Overall manual progress: 11/50 batches, 110/500 SKUs.
