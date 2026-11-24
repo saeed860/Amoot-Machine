@@ -259,6 +259,10 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["2195847","HEAD GP-CY",5000.52,8250.86,"۱۹ New Aftermarket؛ ۱ Used"],
+ ["2223676","BAR GP",24587.40,40569.21,"۱۰ New Aftermarket"],
+ ["2225152","KIT-REBUIL",1314.13,2168.31,"۱۵ New Aftermarket"],
+ ["2225153","KIT-REBUIL",1271.42,2097.84,"۵۲ New Aftermarket"],
  ["2120403","CONT GP-XMSN",1509.33,2490.39,"۱۲ New Aftermarket"],
  ["2125024","CONE",1791.15,2955.40,"۱ New Genuine Surplus؛ ۳۵ New Aftermarket"],
  ["2128177","PUMP GP-WA",2281.11,3763.83,"۷۲ New Aftermarket؛ ۴ Call For Pricing"],
