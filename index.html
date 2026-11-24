@@ -8,7 +8,7 @@
 <title>آموت ماشین | تأمین قطعات و ماشین‌آلات صنعتی</title>
 
 <link rel="icon" type="image/png" href="./assets/amoot-logo.png">
-<link rel="stylesheet" href="./style.css?v=20261124fullfit2">
+<link rel="stylesheet" href="./style.css?v=20261124hero4">
 </head>
 <body>
 <div class="topline"><div class="wrap top-inner"><div class="top-left"><button type="button" class="account-entry" id="accountEntry" onclick="openAuth('login')">♙ ورود / ثبت‌نام</button><button type="button" class="admin-entry" onclick="openAdmin()">ورود مدیریت</button><button type="button" class="cart-entry" onclick="openCart()">▣ سبد خرید <b id="cartCount">۰</b></button><span>☎ 021-12345678</span></div><div class="top-right">تأمین تخصصی قطعات و ماشین‌آلات صنعتی <b></b></div></div></div>
@@ -42,13 +42,13 @@
  const dots=[...document.querySelectorAll('#heroDots button')];
  if(!photo||dots.length!==4)return;
  const slides=[
-  {src:'./assets/hero-excavator.jpg',alt:'ماشین‌آلات سنگین - تصویر اصلی آموت ماشین'},
-  {src:'./assets/hero-jackup-rig.jpg',alt:'دکل حفاری خودبالابر ایران خزر - دریای خزر'},
-  {src:'./assets/hero-supply-vessel.jpg',alt:'کشتی پشتیبانی فراساحلی Cape Cod'},
-  {src:'./assets/hero-cat-3516b.jpg',alt:'موتور دیزل ژنراتوری Caterpillar 3516B'}
+  {src:'./assets/hero-excavator.jpg',alt:'ماشین‌آلات سنگین - تصویر اصلی آموت ماشین',position:'center 48%'},
+  {src:'https://cdn.pixabay.com/photo/2021/04/07/09/15/jack-up-6158560_1280.jpg',alt:'دکل حفاری دریایی خودبالابر Jack-up offshore drilling rig',position:'center 48%'},
+  {src:'https://images.unsplash.com/photo-1775606911552-8339c1aa23b4?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000',alt:'شناور پشتیبانی فراساحلی PSV - Skandi Vega',position:'center 52%'},
+  {src:'https://s7d2.scene7.com/is/image/Caterpillar/CM20231013-43d34-6475b',alt:'موتور سنگین دریایی Caterpillar 3516E High Output',position:'center 50%'}
  ];
  let current=0,timer;
- function show(n){current=(n+slides.length)%slides.length;photo.style.opacity='.18';setTimeout(()=>{photo.style.backgroundImage='url("'+slides[current].src+'")';photo.setAttribute('aria-label',slides[current].alt);photo.style.opacity='1'},220);dots.forEach((d,k)=>{d.classList.toggle('active',k===current);d.setAttribute('aria-pressed',k===current?'true':'false')});}
+ function show(n){current=(n+slides.length)%slides.length;photo.style.opacity='.18';setTimeout(()=>{photo.style.backgroundImage='url("'+slides[current].src+'")';photo.style.backgroundPosition=slides[current].position||'center center';photo.setAttribute('aria-label',slides[current].alt);photo.style.opacity='1'},220);dots.forEach((d,k)=>{d.classList.toggle('active',k===current);d.setAttribute('aria-pressed',k===current?'true':'false')});}
  function start(){clearInterval(timer);timer=setInterval(()=>show(current+1),5500)}
  dots.forEach((d,k)=>d.addEventListener('click',()=>{show(k);start()}));
  document.querySelector('.hero-arrow.prev')?.addEventListener('click',()=>{show(current-1);start()});
