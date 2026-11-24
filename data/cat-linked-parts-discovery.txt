@@ -28,3 +28,48 @@ Source pages:
 - https://parts.cat.com/en/catcorp/product/20R-9045
 - https://parts.cat.com/en/catcorp/product/20R-9124
 - https://parts.cat.com/en/catcorp/product/20R-9480
+
+
+## Additional candidates from official Cat BOMs and related-parts panels (batch 38)
+
+These 27 numbers are additional to the original 787-number seed list. They were discovered from Cat Parts Store kit BOMs, replacement/alternate links, and related-parts panels. BOM members are documented components; related-panel items are only leads, not guaranteed fitment/interchangeability. Verify each candidate's own Cat page and equipment serial-number fit before adding it to the product catalog.
+
+part_number | source description | source context | status
+0S-1618 | Threaded external hexagonal bolt | BOM component of Cat 222-5152 water-pump rebuild kit; quantity 2 | cat_linked_candidate; needs_individual_verification
+166-4374 | 31.86mm ID seal ring | BOM component of Cat 222-5152; quantity 1 | cat_linked_candidate; needs_individual_verification
+212-8180 | 14 external spline teeth water-pump drive shaft | BOM component of Cat 222-5152; quantity 1 | cat_linked_candidate; needs_individual_verification
+212-8184 | 6-vanes water-pump impeller | BOM component of Cat 222-5152; quantity 1 | cat_linked_candidate; needs_individual_verification
+271-4926 | 196.44mm ID O-ring seal | BOM component of Cat 222-5152; quantity 1 | cat_linked_candidate; needs_individual_verification
+3D-2824 | 2.95 × 23.47mm 90A NBR O-ring | BOM component of Cat 222-5152; quantity 1 | cat_linked_candidate; needs_individual_verification
+416-0603 | Water-pump face-type seal | BOM component of Cat 222-5152; quantity 1 | cat_linked_candidate; needs_individual_verification
+4N-5834 | 13mm thick foam filter | BOM component of Cat 222-5152; quantity 2 | cat_linked_candidate; needs_individual_verification
+7N-4758 | 8.5mm thick thrust washer | BOM component of Cat 222-5152; quantity 1 | cat_linked_candidate; needs_individual_verification
+8C-5236 | 31.75mm shaft-diameter lip-type seal | BOM component of Cat 222-5152; quantity 1 | cat_linked_candidate; needs_individual_verification
+9M-1974 | M8 ID steel flat washer | BOM component of Cat 222-5152; quantity 2 | cat_linked_candidate; needs_individual_verification
+10R-9598 | Cat Reman auxiliary sea-water pump | Official replacement/alternate shown for discontinued Cat 212-8174 | cat_linked_candidate; needs_individual_verification
+205-8421 | Cat pump-related part | Frequently bought together with Cat 210-1471 | cat_linked_candidate; needs_individual_verification
+6V-1454 | Cat fitting/connector | Frequently bought together with Cat 210-1471 | cat_linked_candidate; needs_individual_verification
+425-6526 | Harness assembly | Related component shown on Cat 211-3023 page | cat_linked_candidate; needs_individual_verification
+230-3728 | 32.99mm ID fuel-system seal | Related component shown on Cat 211-3023 page | cat_linked_candidate; needs_individual_verification
+10R-0823 | Cat Reman turbocharger | Official alternative shown for Cat 216-7815 | cat_linked_candidate; needs_individual_verification
+450-9233 | Gear and case group-transfer | Official alternate part shown for Cat 20R-9567 | cat_linked_candidate; needs_individual_verification
+130-3212 | Hydraulic/transmission oil filter | Related component shown on Cat 20R-9565 page | cat_linked_candidate; needs_individual_verification
+1H-6227 | 101.19mm ID seal O-ring | Related component shown on Cat 20R-9565 page | cat_linked_candidate; needs_individual_verification
+6V-9746 | 1.78 × 18.94mm 90A NBR O-ring | Related component shown on Cat 20R-9565 page | cat_linked_candidate; needs_individual_verification
+242-4100 | Valve mechanism cover seal | Related component shown on Cat 20R-9654 page | cat_linked_candidate; needs_individual_verification
+228-7100 | 9.4mm ID seal O-ring | Related component shown on Cat 20R-9654 page | cat_linked_candidate; needs_individual_verification
+448-3228 | 97.90mm long floating bridge rocker arm | Related component shown on Cat 20R-9654 page | cat_linked_candidate; needs_individual_verification
+228-7089 | 1.78 × 9.27mm 90A FKM O-ring | Related component shown on Cat 20R-9654 page | cat_linked_candidate; needs_individual_verification
+210-1470 | Fuel injection line tube assembly | Related part shown on Cat 210-2535 page | cat_linked_candidate; needs_individual_verification
+1R-0726 | Cat secondary fuel filter | Related part shown on Cat 210-2535 page | cat_linked_candidate; needs_individual_verification
+
+Source pages:
+- https://parts.cat.com/en/catcorp/product/222-5152
+- https://parts.cat.com/en/catcorp/product/212-8174
+- https://parts.cat.com/en/catcorp/product/210-1471
+- https://parts.cat.com/en/catcorp/product/211-3023
+- https://parts.cat.com/en/catcorp/product/216-7815
+- https://parts.cat.com/en/catcorp/product/20R-9565
+- https://parts.cat.com/en/catcorp/product/20R-9567
+- https://parts.cat.com/en/catcorp/product/20R-9654
+- https://parts.cat.com/en/catcorp/product/210-2535
