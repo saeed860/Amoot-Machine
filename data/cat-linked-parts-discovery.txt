@@ -119,3 +119,28 @@ part_number | displayed description | source context | status
 Source pages:
 - https://parts.cat.com/en/catcorp/product/244-3114
 - https://parts.cat.com/en/catcorp/product/254-0224
+
+
+## Additional Cat-linked candidates from batch 41
+
+These 13 numbers were surfaced by official Cat Parts Store related-parts panels. Their presence in a related-parts panel is discovery evidence only, not a fitment/interchangeability assertion.
+
+part_number | displayed description | source context | status
+8C-3076 | O-ring / seal component | Related part shown on Cat 258-9959 C175 connection page | cat_linked_candidate; needs_individual_verification
+6V-9028 | Seal component | Related part shown on Cat 258-9959 C175 connection page | cat_linked_candidate; needs_individual_verification
+311-1300 | Bogie pin assembly cartridge | Frequently bought together with Cat 261-8287 minor bogie | cat_linked_candidate; needs_individual_verification
+187-3298 | Hardened steel undercarriage roller guide | Related part shown on Cat 261-8287 page | cat_linked_candidate; needs_individual_verification
+3P-2482 | 57.6mm wide resilient pad | Related part shown on Cat 261-8287 page | cat_linked_candidate; needs_individual_verification
+306-9457 | Track roller mount cap | Related part shown on Cat 261-8287 page | cat_linked_candidate; needs_individual_verification
+3T-9075 | Suspension bogie insert | Related part shown on Cat 261-8287 page | cat_linked_candidate; needs_individual_verification
+110-6326 | Air cleaner primary element | Related part shown on Cat 265-6618 cabin filter page | cat_linked_candidate; needs_individual_verification
+110-6331 | Secondary standard-efficiency engine air filter | Related part shown on Cat 265-6618 cabin filter page | cat_linked_candidate; needs_individual_verification
+348-1862 | Advanced-efficiency hydraulic/transmission oil filter | Related part shown on Cat 265-6618 cabin filter page | cat_linked_candidate; needs_individual_verification
+363-5819 | Standard-efficiency fuel-water separator | Related part shown on Cat 265-6618 cabin filter page | cat_linked_candidate; needs_individual_verification
+377-6969 | Standard-efficiency engine oil filter | Related part shown on Cat 265-6618 cabin filter page | cat_linked_candidate; needs_individual_verification
+541-6956 | Engine fuel filter | Related part shown on Cat 265-6618 cabin filter page | cat_linked_candidate; needs_individual_verification
+
+Source pages:
+- https://parts.cat.com/en/catcorp/product/258-9959
+- https://parts.cat.com/en/catcorp/product/261-8287
+- https://parts.cat.com/en/catcorp/product/265-6618
