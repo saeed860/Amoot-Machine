@@ -26,6 +26,7 @@ on:
       - "search.html"
       - "search.js"
       - "search.css"
+      - "prices.html"
       - "assets/**"
       - ".github/workflows/site-integrity.yml"
 jobs:
