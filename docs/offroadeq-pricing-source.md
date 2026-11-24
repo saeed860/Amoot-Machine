@@ -201,3 +201,43 @@ The 0816876 page explicitly says the exact part was not found; its alternatives 
 - No shipping, customs, tax, currency conversion or payment fees have been added.
 - Recheck stock, condition and price with the supplier before quotation or purchase.
 - No live Amoot product price, stock, or sellable SKU was changed in this research pass.
+
+
+## Marine-engine targeted Off Road batch — public index cross-check (24 Nov 2026)
+
+A further batch targeted the C32, C9 and marine engine references already present in the Amoot research register. The public popular-parts page was opened and its 500 visible part-number rows were checked by normalized digits. It is a discovery index only; the separate full inventory search remains login-gated. The following exact-number outcomes were recorded:
+
+| Part number | Target context | Public top-500 index | Public Off Road exact OEM price / inventory | Handling |
+|---|---|---|---|---|
+| 305-8921 | C32 charging alternator group | Not listed | Not established in this pass | Keep price and supplier availability unknown |
+| 207-2422 | C32 fuel/water separator group | Not listed | Not established in this pass | Keep price and supplier availability unknown |
+| 353-9049 | C32 sea-water heat-exchanger group | Not listed | Not established in this pass | Keep price and supplier availability unknown |
+| 362-0801 | C32 marine candidate | Not listed | Not established in this pass | Keep price and supplier availability unknown |
+| 438-5385 | C32/C175 fuel-water separator filter | Not listed | Not established in this pass | Keep price and supplier availability unknown |
+| 258-0794 | C9 fuel cooler group candidate | Not listed | Not established in this pass | Keep price and supplier availability unknown |
+| 197-5987 | C9 water-cooled exhaust manifold candidate | Not listed | Not established in this pass | Keep price and supplier availability unknown |
+| 242-5336 | C9 aftercooler group candidate | Not listed | Not established in this pass | Keep price and supplier availability unknown |
+| 245-3777 | C9 auxiliary sea-water pump candidate | Not listed | Not established in this pass | Keep price and supplier availability unknown |
+| 6L-2280 | C9 auxiliary sea-water pump zinc anode | Not listed | Not established in this pass | Keep price and supplier availability unknown |
+| 149-3239 | C9 fuel-cooler hose | Not listed | Not established in this pass | Keep price and supplier availability unknown |
+| 315-8339 | C9 aftercooler core | Not listed | Not established in this pass | Keep price and supplier availability unknown |
+| 113-1110 | C9 sea-water pump cam | Not listed | Not established in this pass | Keep price and supplier availability unknown |
+
+The exact normalized number **4619930** (the recently researched GEAR-RING page) does appear in the 500-part index, consistent with its public detail page. The index also contains 1161980 and other previously documented numbers. The tested C32/C9 targets above do not appear in that index. This absence is not proof of full-inventory non-availability; it is not a substitute for a logged-in authorized search or supplier quotation.
+
+### Related public-source checks — not Off Road quotations
+
+- **4385385** appears on third-party parts pages as a fuel/water separator. One third-party listing describes broad equipment/engine applications including C32/C32 Marine; another UK listing cross-references it with 4385386, 3169954 and other filter numbers. These are not Off Road records and do not establish Cat supersession or exact marine serial fitment. No Off Road price is inferred.
+- **6L2280** appears on a UK marine-anode retailer page as a zinc anode, with a displayed retail price of GBP 14.00 and stock status; a separate aftermarket listing shows USD 9.65. Neither is an Off Road price or Cat OEM list-price record, and the listings differ in manufacturer/offer context. Do not import either as an Off Road benchmark.
+- **3058921** appears as a cross-reference on a third-party alternator listing for 240-36485. This does not prove the listing is the same exact Cat assembly or establish an Off Road price. Keep it as a cross-reference lead only.
+
+Sources checked:
+- Public 500-part index: https://offroadeq.com/parts
+- Full inventory search (login required to shop): https://offroadeq.com/search
+- Off Road exact page for 4619930: https://offroadeq.com/parts/4619930
+- Third-party 4385385 application/offer example: https://irondt.com/product/4385385/
+- Third-party 4385385 UK cross-reference example: https://www.pallmanfilter.com/product/pff50110/
+- Third-party 6L2280 UK anode offer: https://www.anodefactory.co.uk/products/zinkanod-caterpillar-%E1%B4%9312-40-motor-3-8unc-endast-anod
+- Third-party 3058921 cross-reference example: https://www.robertsandson.com/alternators/alternators/240-36485.html
+
+No additional OEM benchmark or provisional ×1.65 value was created in this pass because no new exact Off Road detail page with a visible OEM List Price was established. No Amoot price, inventory, or sellable SKU was changed.
