@@ -259,6 +259,11 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["3628488","CYL GP-021",45378.13,74873.91,"۲ New Aftermarket"],
+ ["3634457","KIT-SEAL",2276.79,3756.70,"۳۹ New Aftermarket"],
+ ["3654920","SEAL GP DU",2067.70,3411.71,"۳۳ New Aftermarket"],
+ ["3654922","SEAL GP-DU",1919.84,3167.74,"۴۸ New Aftermarket"],
+ ["3741605","PUMP GP-GE",4853.13,8007.66,"۲۷ New Aftermarket"],
  ["3579784","CYL GP-016",19381.46,31979.41,"۱ New Aftermarket"],
  ["3579794","ROD AS",7385.26,12185.68,"۹ New Aftermarket"],
  ["3584920","TURBO GP-B",3220.48,5313.79,"۲۵ New Aftermarket"],
