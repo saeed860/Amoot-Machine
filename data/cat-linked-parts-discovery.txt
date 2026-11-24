@@ -777,3 +777,20 @@ Source pages:
 500-0483 | Engine Oil Filter | Cat Parts Store related item for 528-8101 roller guard | cat_linked_candidate; needs_individual_verification
 496-9841 | Standard Efficiency Engine Air - Primary | Cat Parts Store related item for 528-8101 roller guard | cat_linked_candidate; needs_individual_verification
 496-9842 | Standard Efficiency Engine Air - Secondary | Cat Parts Store related item for 528-8101 roller guard | cat_linked_candidate; needs_individual_verification
+
+20R-8321 | Cat Reman Turbocharger Group | Cat Parts Store Compare Alternate Parts for 528-9753 turbocharger | cat_linked_candidate; needs_individual_verification
+426-6548 | 2036mm (80in) Bolt-On Cutting Edge | Cat Parts Store related item for 529-5780/529-5790/529-5791 cold planers | cat_linked_candidate; needs_individual_verification
+489-2200 | MB250 Material Mixer | Cat Parts Store related item for 529-5780/529-5790/529-5791 cold planers | cat_linked_candidate; needs_individual_verification
+9W-0852 | 14 AWG Connector Pin | Cat Parts Store parts diagram for 529-5780 PC305 | cat_linked_candidate; needs_individual_verification
+9W-0844 | Connector Socket | Cat Parts Store parts diagram for 529-5780 PC305 | cat_linked_candidate; needs_individual_verification
+246-2641 | Fuel Tank Mounting Padlock | Cat Parts Store parts diagram for 529-5790 PC306 | cat_linked_candidate; needs_individual_verification
+5P-8500 | Machine Ignition Key | Cat Parts Store parts diagram for 529-5790 PC306 | cat_linked_candidate; needs_individual_verification
+357-7477 | 500mm Wide Regular Joint Rubber Pad Track Shoe | Cat Parts Store related part for 533-6299 track shoe | cat_linked_candidate; needs_individual_verification
+533-6298 | 490mm Wide Regular Joint Rubber Pad Track Shoe | Cat Parts Store related part for 533-6299 track shoe | cat_linked_candidate; needs_individual_verification
+586-3118 | 500mm Wide Regular Joint Rubber Pad Track Shoe | Cat Parts Store related part for 533-6299 track shoe | cat_linked_candidate; needs_individual_verification
+589-5985 | 600mm Wide Regular Joint Rubber Pad Track Shoe | Cat Parts Store related part for 533-6299 track shoe | cat_linked_candidate; needs_individual_verification
+378-3187 | Diesel Exhaust Fluid Filter | Cat Parts Store related part for 536-6756 DEF tank filter assembly | cat_linked_candidate; needs_individual_verification
+540-5119 | Element-Separator | Cat Parts Store related part for 536-6756 DEF tank filter assembly | cat_linked_candidate; needs_individual_verification
+471-7003 | Transmission Hydraulic Filter | Cat Parts Store related part for 536-6756 DEF tank filter assembly | cat_linked_candidate; needs_individual_verification
+461-9110 | 91.44mm Inner Diameter O-Ring Seal | Cat Parts Store related part for 536-6756 DEF tank filter assembly | cat_linked_candidate; needs_individual_verification
+507-1011 | 9 Pin Adapter Cable | Cat Parts Store frequently bought together with 538-5051 Communication Adapter Tool | cat_linked_candidate; needs_individual_verification
