@@ -1091,3 +1091,35 @@ Source pages:
 1R-1808 | Engine Oil Filter | Cat Parts Store related item for 627-7250 auxiliary sea water pump | cat_linked_candidate; needs_individual_verification
 214-7566 | 1.83 x 8.92mm 90A FKM O-Ring | Cat Parts Store related item for 627-7250 auxiliary sea water pump | cat_linked_candidate; needs_individual_verification
 11R-2486 | Cat Reman New with Core (NWC) Auxiliary Water Pump | Cat Parts Store alternative for 627-7250 auxiliary sea water pump | cat_linked_candidate; needs_individual_verification
+
+638-4574 | Arctic Application Idler Group, 338mm Rim Width, 892mm Tread | Cat Parts Store Compare Alternate Parts for 638-4572 | cat_linked_candidate; needs_individual_verification
+125-3537 | Idler Group, 292mm Rim Width, 766mm Tread | Cat Parts Store related part for 638-4572 | cat_linked_candidate; needs_individual_verification
+187-1484 | Idler Group, 338mm Rim Width, 892mm Tread | Cat Parts Store related part for 638-4572 | cat_linked_candidate; needs_individual_verification
+245-9947 | Arctic Application Idler Group, 292mm Rim Width, 766mm Tread | Cat Parts Store related part for 638-4572 | cat_linked_candidate; needs_individual_verification
+245-9950 | Arctic Track Idler | Cat Parts Store related part for 638-4572 | cat_linked_candidate; needs_individual_verification
+292-8090 | Sound Suppressed Idler Group, 342.7mm Rim Width, 892mm Tread | Cat Parts Store related part for 638-4572 | cat_linked_candidate; needs_individual_verification
+520-0979 | Track Idler Wheel, 286mm Rim Width, 872mm Tread | Cat Parts Store related part for 638-4572 | cat_linked_candidate; needs_individual_verification
+521-0809 | Idler Group, 265mm Rim Width, 743mm Tread | Cat Parts Store related part for 638-4572 | cat_linked_candidate; needs_individual_verification
+9W-4481 | 67.96mm Inside Diameter Suspension Bogie Insert | Cat Parts Store frequently bought together with 638-4575 idler | cat_linked_candidate; needs_individual_verification
+196-9954 | Track Roller Group | Cat Parts Store frequently bought together with 638-4575 idler | cat_linked_candidate; needs_individual_verification
+306-9445 | Track Idler Mounting Cap | Cat Parts Store frequently bought together with 638-4575 idler | cat_linked_candidate; needs_individual_verification
+306-9443 | Track Idler Mounting Cap | Cat Parts Store frequently bought together with 638-4575 idler | cat_linked_candidate; needs_individual_verification
+609-3712 | Single Flange Track Idler Group | Cat Parts Store related part for 643-4218 triple-flange idler | cat_linked_candidate; needs_individual_verification
+609-3715 | Double Flange Track Idler Group | Cat Parts Store related part for 643-4218 triple-flange idler | cat_linked_candidate; needs_individual_verification
+30R-0003 | Cat Reman C15 Fuel Injector | Cat Parts Store Compare Alternate Parts for 647-0750 engine fuel injector | cat_linked_candidate; needs_individual_verification
+1R-1808 | Engine Oil Filter | Cat Parts Store related item for 647-0750 fuel injector | cat_linked_candidate; needs_individual_verification
+214-7568 | STOR O-Ring Seal (SAE 9/16-18) | Cat Parts Store related item for 647-0750 fuel injector | cat_linked_candidate; needs_individual_verification
+238-5080 | 2.21 x 16.36mm 90A FKM O-Ring | Cat Parts Store related item for 647-0750 fuel injector | cat_linked_candidate; needs_individual_verification
+248-5513 | Engine Water Temperature Regulator | Cat Parts Store related item for 647-0750 fuel injector | cat_linked_candidate; needs_individual_verification
+650-8530 | Sealed and Lubricated Track Link | Cat Parts Store Compare Alternate Parts for 651-9069 link assembly | cat_linked_candidate; needs_individual_verification
+272-6009 | Link Assembly, 5 Tooth Master, 44 Sections, PPR, SALT, 215.9mm Pitch | Cat Parts Store related link assembly for 651-9069 | cat_linked_candidate; needs_individual_verification
+272-6010 | Link Assembly, 5 Tooth Master, 44 Sections, PPR, SALT, 215.9mm Pitch | Cat Parts Store related link assembly for 651-9069 | cat_linked_candidate; needs_individual_verification
+627-7997 | Link Assembly, 5 Tooth Master, 44 Sections, PPR, SALT, 215.9mm Pitch, Wear Sensor | Cat Parts Store related link assembly for 651-9069 | cat_linked_candidate; needs_individual_verification
+177-9343 | Probe and Cap Group | Cat Parts Store related item for 653-9562 cleaning cloths | cat_linked_candidate; needs_individual_verification
+3J-1907 | 1.98 x 11.89mm 90A NBR O-Ring | Cat Parts Store related item for 653-9562 cleaning cloths | cat_linked_candidate; needs_individual_verification
+1R-0749 | Secondary Fuel Filter | Cat Parts Store related item for 653-9562 cleaning cloths | cat_linked_candidate; needs_individual_verification
+238-8648 | Extended Life Coolant 50/50 Premix (1 Gallon) | Cat Parts Store related item for 653-9562 cleaning cloths | cat_linked_candidate; needs_individual_verification
+230-1340 | Warning Film Label | Cat Parts Store component in 659-8663 PL542V3 radio kit, quantity 1 | cat_linked_candidate; needs_individual_verification
+230-1341 | Product Link Warning Film | Cat Parts Store component in 659-8663 PL542V3 radio kit, quantity 1 | cat_linked_candidate; needs_individual_verification
+307-0047 | 40mm Long Product Link Film | Cat Parts Store component in 659-8663 PL542V3 radio kit, quantity 1 | cat_linked_candidate; needs_individual_verification
+3S-2093 | 202mm Long Cable Strap | Cat Parts Store component in 659-8663 PL542V3 radio kit, quantity 4 | cat_linked_candidate; needs_individual_verification
