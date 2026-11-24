@@ -259,6 +259,9 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["2490059","COUPLING",7008.33,11563.74,"در موجودی دقیق فروشنده یافت نشد؛ قیمت OEM List موجود است"],
+ ["2490313","ALTERNATOR",1853.44,3058.18,"۲۶ New Aftermarket"],
+ ["2500841","TURBO GP-B",3677.13,6067.26,"۶۷ New Aftermarket؛ ۱ New Genuine Surplus"],
  ["2436650","CIRCLE AS",26574.93,43848.63,"در موجودی دقیق فروشنده یافت نشد؛ قیمت OEM List موجود است"],
  ["2443114","VALVE GP-M",336.20,554.73,"۴۷۹ New Aftermarket؛ ۱ New Genuine Surplus؛ ۳ Used"],
  ["2443304","PUMP GP-GR",5877.99,9698.68,"۵ New Aftermarket؛ ۱ Used"],
