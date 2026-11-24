@@ -259,6 +259,9 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["5N5692","ALTERNATOR G",1435.95,2369.32,"۱ New Genuine Surplus؛ ۷۳ New Aftermarket"],
+ ["5P0505","CONE BEARI",1583.19,2612.26,"۳۶ New Aftermarket؛ ۳ New Genuine Surplus؛ ۳ Used"],
+ ["5P1949","CUP",1567.77,2586.82,"۱ New Genuine Surplus؛ ۵۰ New Aftermarket"],
  ["5G9660","GUARD A",2350.27,3877.95,"۴۴ New Aftermarket"],
  ["4W5056","CORE G",2596.16,4283.66,"۲ New Aftermarket"],
  ["4W5477","PUMP G",1571.25,2592.56,"۴۵ New Aftermarket"],
