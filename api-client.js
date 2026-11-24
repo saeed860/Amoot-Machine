@@ -259,6 +259,10 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["9P7390","DISC A",203.79,336.25,"۲٬۱۲۸ New Aftermarket؛ ۴ Used"],
+ ["9P8517","CASE",8750.17,14437.78,"۲ New Aftermarket"],
+ ["9S8752","NUT-PC",0.33,0.54,"۷ New Genuine Surplus؛ ۱۳٬۱۳۸ New Aftermarket"],
+ ["9T5977","MOTOR G",1717.26,2833.48,"در موجودی دقیق فروشنده یافت نشد؛ قیمت OEM List موجود است"],
  ["9G9180","HUB",5315.48,8770.54,"۶۲ New Aftermarket"],
  ["9M1974","WASHER-PC",0.37,0.61,"۲۱٬۵۸۰ New Aftermarket؛ ۱۱ New Genuine Surplus"],
  ["9P6912","PIN",1809.98,2986.47,"۳۸ New Aftermarket"],
