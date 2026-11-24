@@ -259,6 +259,11 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["2436650","CIRCLE AS",26574.93,43848.63,"در موجودی دقیق فروشنده یافت نشد؛ قیمت OEM List موجود است"],
+ ["2443114","VALVE GP-M",336.20,554.73,"۴۷۹ New Aftermarket؛ ۱ New Genuine Surplus؛ ۳ Used"],
+ ["2443304","PUMP GP-GR",5877.99,9698.68,"۵ New Aftermarket؛ ۱ Used"],
+ ["2475212","MOTOR AS-G",1849.63,3051.89,"۴۲ New Aftermarket"],
+ ["2475232","MOTOR AS-G",1582.20,2610.63,"۳۹ New Aftermarket"],
  ["2394322","SPRING G",6971.47,11502.93,"۲۷ New Aftermarket؛ ۲ Used"],
  ["2399988","TURBO GP-B",5536.98,9136.02,"۴۰ New Aftermarket"],
  ["2418686","PUMP GP",1929.16,3183.11,"۷ New Aftermarket"],
