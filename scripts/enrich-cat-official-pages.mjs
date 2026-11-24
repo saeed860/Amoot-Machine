@@ -6,7 +6,7 @@ const partNumbers = (await readFile("data/cat-official-part-numbers.txt", "utf8"
 if (partNumbers.length !== 787 || new Set(partNumbers).size !== partNumbers.length) {
   throw new Error(`Expected 787 unique official Cat part numbers; found ${partNumbers.length}`);
 }
-const browser = await chromium.launch({ headless: true });
+const browser = await chromium.launch({ headless: true, args: ["--disable-http2", "--disable-quic"] });
 const results = new Array(partNumbers.length);
 let cursor = 0;
 
@@ -114,7 +114,7 @@ async function worker() {
   }
   await page.close();
 }
-try { await Promise.all(Array.from({ length: 6 }, () => worker())); }
+try { await Promise.all(Array.from({ length: 3 }, () => worker())); }
 finally { await browser.close(); }
 
 const enriched = results.filter(r => r.status === "PAGE_OK" && (r.description || Object.keys(r.specifications).length || r.compatibleModels.length || r.imageUrl || r.name));
