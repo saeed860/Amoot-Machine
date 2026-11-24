@@ -61,3 +61,18 @@ This confirms the CAT catalog model lookup and serial-prefix selection are live.
 The guest UI reported a shared allowance of 50 actions, with 50 remaining at session start; registration does not reset that shared allowance. Keep testing economical and use the browser's normal public UI only. No CAPTCHA, login, rate-limit or access-control bypass is permitted.
 
 The C32 query returned model/prefix choices only. A selected book must still be opened, then system/group contents and the parts table captured with its prefix scope before any part is staged. No part rows are inferred from this list.
+
+### OEM-confirmed C32 marine serial-prefix mapping
+
+Caterpillar's own **C32 SCAC Marine Project Guide, LEBM0009-05** explicitly maps:
+- **SDN** — C32 MP3MC Marine Propulsion high-performance engine
+- **RSD** — C32 MGE3MC Marine Auxiliary / Gen Set engine
+
+The K-Part public C32 prefix choices include both **SDN** and **RSD**. These two are therefore the first priority for a marine-focused parts-book probe. Do not assume other C32 prefixes are marine without their own OEM evidence.
+
+OEM references:
+- Caterpillar C32 SCAC Marine Project Guide: https://emc.cat.com/n/api/pubdirect?media_string_id=LEBM0009-05.pdf
+- Caterpillar C32 Marine Engine Parts Store: https://parts.cat.com/en/catcorp/equipment/marine-engine/C32-47
+- Caterpillar C32 marine repair/order matrix: https://s7d2.scene7.com/is/content/Caterpillar/CM20170109-54307-34066
+
+The official guide documents marine-specific cooling, sea-water pump, exhaust, fuel, lubrication and starting-system sections. This is useful for organizing the parts intake taxonomy, but the project guide is not a substitute for a serial-specific parts book.
