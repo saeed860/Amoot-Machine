@@ -83,3 +83,45 @@ The public popular-parts index (https://offroadeq.com/parts) still exposes a 500
 For these and future C9 candidates, use the supplier search only through an authorized account or quote/export. Capture exact part number, brand, description, condition, actual supplier unit price, currency, available quantity, lead time and observation date. Apply Amoot's 1.65 multiplier only to the actual supplier unit price. Do not calculate from Cat OEM List Price or infer a price from the public popular-parts index.
 
 No Amoot price, inventory quantity or public SKU was changed in this pass.
+
+
+## Expanded public detail-page batch (24 Nov 2026)
+
+A public-page batch was checked for exact part-number records. The supplier's actual unit price remains hidden on every inventory row inspected; the USD values below are explicitly the page's **OEM List Price**, not an Off Road sale/quote price. Inventory figures are the quantities displayed by the public page at crawl/review time and must be rechecked before ordering.
+
+| Part number | Description | OEM List Price (USD) | Publicly displayed inventory | Actual supplier unit price |
+|---|---|---:|---|---|
+| 5J1193 | BEARING | 91.15 | 162 New Aftermarket | Login to view |
+| 5P1948 | CONE | 2,557.93 | 12 New Aftermarket; 1 New Genuine Surplus; 4 Used | Login to view |
+| 8T4224 | WASHER-ZC | 0.47 | 254,039 New Genuine Surplus; 6,948 New Aftermarket | Login to view |
+| 2807856 | MOTOR GP-P | 5,081.35 | 7 New Aftermarket | Login to view |
+| 2V7390 | SHIM PACK | 60.12 | 28 New Genuine Surplus; 20 New Aftermarket | Login to view |
+| 1R0751 | FILTER AS | 25.46 | 365 New Aftermarket | Login to view |
+| 2681900 | PUMP GP F | 943.36 | 2 Used | Login to view |
+| 8H9789 | BEARING | 39.16 | 665 New Genuine Surplus; 1,694 New Aftermarket | Login to view |
+
+Additional public alternatives visible on those pages:
+- **5J1193**: alternative 3828046 / CLASSIC, OEM List Price USD 41.01; exact inventory not found.
+- **5P1948**: alternative H247549 / CONE, OEM List Price USD 2,445.74; exact inventory not found.
+- **8T4224**: alternative 9M1974 / WASHER-PC, OEM List Price USD 0.37; 51 New Genuine Surplus and 10,028 New Aftermarket shown.
+- **2807856**: alternatives 2208162 (USD 4,834.30), 10R3336 (USD 3,142.28), 1429020 (USD 4,834.30), and 10R6129 (USD 3,302.85); those exact alternatives were not found in inventory on the page.
+- **2V7390**: alternatives 5U3131, 5U3132, 5U3130 and 5U3133; each displayed OEM List Price USD 57.49 and no exact inventory.
+- **1R0751**: alternative P551315 showed OEM List Price USD 0.00 (not a usable price) and 148 New Aftermarket; do not use the zero value for pricing.
+- **2681900**: alternative 3137770 / PUMP GP-F XF, OEM List Price USD 1,370.34; 28 New Genuine Surplus, 120 New Aftermarket and 2 Used shown.
+- **8H9789**: alternative 1999929, OEM List Price USD 37.46; 25 New Genuine Surplus shown. Alternative 1B4109 showed 55 New Aftermarket and 5 New Genuine Surplus.
+
+Source detail pages:
+- https://offroadeq.com/parts/5J1193
+- https://offroadeq.com/parts/5P1948
+- https://offroadeq.com/parts/8T4224
+- https://offroadeq.com/parts/2807856
+- https://offroadeq.com/parts/2V7390
+- https://offroadeq.com/parts/1R0751
+- https://offroadeq.com/parts/2681900
+- https://offroadeq.com/parts/8H9789
+
+### Commercial interpretation
+
+This batch proves the public pages are useful for **OEM list-price benchmarks, condition segmentation and displayed inventory quantities**, but not for Off Road's actual buy price. The list-price values must not be used as supplier acquisition cost and must not be multiplied by 1.65 to create Amoot's selling price. The sourcing-price field stays empty until an authenticated supplier quote or authorized price response is obtained. Public inventory snapshots are not Amoot-owned stock and are not an order confirmation.
+
+The public top-500 list includes 1161980, but the checked C32/C9 numbers 3058921, 2072422, 3539049, 3620801, 4385385, 2580794, 1975987, 2425336 and 2453777 did not produce public detail-page price records in this pass. Their full-inventory availability and supplier prices remain unknown; absence from the public top-500 list is not proof of non-availability.
