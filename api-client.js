@@ -259,6 +259,11 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["3808698","TURBO GP-B",8290.21,13678.85,"۸ New Aftermarket"],
+ ["3816555","ROD AS",2419.05,3991.43,"۳۵ New Aftermarket"],
+ ["3826529","YOKE AS",2394.91,3951.60,"۱۸ New Aftermarket"],
+ ["3836807","GEAR SET",13452.41,22196.48,"۳۱ New Aftermarket"],
+ ["3849908","CRANKSHAFT",15890.18,26218.80,"۳ New Aftermarket"],
  ["3751722","CYL GP-017",25575.94,42200.30,"در موجودی دقیق فروشنده یافت نشد؛ قیمت OEM List موجود است"],
  ["3789567","DRIVE GP-F",29597.06,48835.15,"۶ New Aftermarket"],
  ["3793504","CYL GP-090",4422.84,7297.69,"در موجودی دقیق فروشنده یافت نشد؛ قیمت OEM List موجود است"],
