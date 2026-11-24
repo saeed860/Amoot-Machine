@@ -157,3 +157,27 @@ Caterpillar's C18 marine project-guide material independently confirms the engin
 **Lubrication-system boundary:** the same OEM specification sheets confirm a front-service simplex oil system and gear-driven oil pump. However, this pass did not establish a serial-specific Cat part number for the C18 marine oil-pump assembly. The Cat page for 1R-1808 lists C18 in several non-marine classes but did not provide an explicit MARINE ENGINE C18 match in the retrieved compatible-model section; therefore it is not tagged MARINE or BOTH here. A third-party SEBP5331 sample lists 1R-1808 in a C18 oil-filter group, but its serial scope is PRL1-UP and the sample alone is not sufficient to assert fitment to all C18 marine variants.
 
 Cat customer prices on reviewed pages are login-gated. No prices, stock quantities, or sellable SKUs were created from this extraction. Application labels are model-class-level only; verify full engine serial number, Arrangement and fuel-system configuration in Cat SIS before quoting or accepting an order.
+
+
+## C18 lubrication-system Cat Parts Store extraction — 24 Nov 2026
+
+A follow-up exact-number pass located official Cat pages with explicit C18 **MARINE ENGINE** compatible-model evidence:
+
+| Part number | Official Cat description | Cat model-class evidence | Application | Condition / note |
+|---|---|---|---|---|
+| **226-1191** | 1 Section Gear Engine Oil Pump | GENERATOR SET C18, MARINE ENGINE C18, PETROLEUM PACKAGE C18 | **BOTH** | Cat oil-pump assembly; exact serial/Arrangement required |
+| **161-4113** | One Section Engine Oil Gear Pump | MARINE ENGINE C18 MARINE/C18 and other listed marine engine families; also C18 generator/industrial/petroleum classes | **BOTH** | Cat oil-pump assembly; do not assume interchangeability with 226-1191 |
+| **20R-4330** | Cat Reman Gear Pump (1 Section) | MARINE ENGINE C18; also C18 generator, petroleum and non-marine classes | **BOTH** | **REMAN** condition must remain distinct from new Cat pumps |
+| **6I-4575** | 34 Teeth Engine Oil Pump Drive Gear | MARINE ENGINE C18/C15/3406E; also truck, power-pack, generator and other classes | **BOTH** | Drive gear, not a complete oil pump |
+| **258-9978** | Engine Oil Filter Tube Line Assembly | GENERATOR SET C18, MARINE ENGINE C18, PETROLEUM PACKAGE C18 | **BOTH** | Oil-filter tube/line; exact arrangement required |
+
+Official Cat product pages:
+- https://parts.cat.com/en/catcorp/product/226-1191
+- https://parts.cat.com/en/catcorp/product/161-4113
+- https://parts.cat.com/en/catcorp/product/20R-4330
+- https://parts.cat.com/en/catcorp/product/6I-4575
+- https://parts.cat.com/en/catcorp/product/258-9978
+
+Caterpillar's C18 marine specification sheets describe the lubrication architecture as a front-service simplex oil system with a gear-driven oil pump. These exact product pages add model-class part references, but they do not prove that all five items are installed together or fit every C18 marine serial/Arrangement. In particular, 20R-4330 is a Reman gear pump and must not be mixed with new-parts condition or pricing. Cat customer prices were not publicly exposed on the reviewed pages.
+
+A Logan Marine C18 system listing also mentions 161-4113 and 226-1191 as engine-oil pumps, but this third-party list is discovery context only; Cat pages are the source for model-class evidence. No price, stock quantity or sellable SKU was created. Verify engine serial, Arrangement and exact oil-system configuration in Cat SIS before quoting.
