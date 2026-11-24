@@ -675,3 +675,35 @@ Official Cat sources checked:
 - https://parts.cat.com/en/catcorp/product/11R-2442
 
 Database checkpoint: all 10 records updated and query-verified. Eight exact official product images newly linked (11R-1405, 11R-1406, 11R-2060, 11R-2061, 11R-2387, 11R-2388, 11R-2389, 11R-2442); existing exact battery image retained for 11R-2194. 11R-2113 promotional artwork deliberately not assigned. Overall manual progress: 18/50 batches, 180/500 SKUs.
+
+
+## Batch 19/50 — SKUs 181–190 (121-2630 through 128-8614)
+
+All ten official Cat product pages were reviewed; all ten Supabase rows were updated and query-verified.
+
+| SKU | Official identity / captured detail | Image / fitment treatment |
+|---|---|---|
+| 121-2630 | Cat Fuel Injector Group; 12.3 × 4.8 in; coated plunger; 3512/3516 generator, marine and industrial engine applications | Exact official Scene7 image newly linked |
+| 122-2311 | Cat Adapter; compatible Gen Set Engine 3608/3606/3616, Marine Engine C280-16/C280-12/C280-6/C280-8 and Petroleum Engine C280-12; Cat publishes no function/specification | Fallback image omitted |
+| 126-1768 | Cat 19 mm Long Connector Socket for lighting wiring harness; extensive Cat equipment list across integrated toolcarriers, utility vehicles, mini excavators, drills, harvesters and excavators | Existing exact official image retained; 91 model IDs stored as representative fitment subset |
+| 126-8588 | Cat Undercarriage Rear Bogie; compatible D10N/D10R/D10T2/D10T | Existing exact official image retained |
+| 127-2176 | Cat 1.6 mm Carrier-Thick Edge-Bonded Seal; 0.063 in thickness, HNBR primary seal, 2-bolt flange, -40 to 115 °C service range; extensive engine/equipment fitment | Exact official Scene7 image newly linked |
+| 127-2441 | Cat Exhaust Kit; 111-5819 ×1, 111-5822 ×1, 136-7730 ×8, 166-4572 ×1, 2W-0439 ×1; 3600/C280 generator, marine, industrial and petroleum engines | Fallback image omitted |
+| 127-2442 | Cat Exhaust Kit Parts; 133-5179 ×2, 133-8081 ×2, 619-3057 ×1; 3606 generator and C280 marine applications | Fallback image omitted |
+| 128-4414 | Cat Undercarriage Front Bogie; alloy/structural steel; compatible D10N/D10R/D10T2/D10/D10T | Existing exact official image retained |
+| 128-7256 | Cat Undercarriage Front Bogie; structural/alloy steel; compatible D11N/D11R/D11T/D11 XE/D11 | Existing exact official image retained |
+| 128-8614 | Cat Water Collection Bowl Seal Kit; seals for element header, drain valve, bowl header and bowl bolt; very broad Cat machine compatibility | Existing exact official image retained; 156 model IDs stored from Cat's extensive list |
+
+Official Cat sources checked:
+- https://parts.cat.com/en/catcorp/product/121-2630
+- https://parts.cat.com/en/catcorp/product/122-2311
+- https://parts.cat.com/en/catcorp/product/126-1768
+- https://parts.cat.com/en/catcorp/product/126-8588
+- https://parts.cat.com/en/catcorp/product/127-2176
+- https://parts.cat.com/en/catcorp/product/127-2441
+- https://parts.cat.com/en/catcorp/product/127-2442
+- https://parts.cat.com/en/catcorp/product/128-4414
+- https://parts.cat.com/en/catcorp/product/128-7256
+- https://parts.cat.com/en/catcorp/product/128-8614
+
+Database checkpoint: all 10 records updated and verified. Two exact official images newly linked (121-2630, 127-2176); existing exact images retained for 126-1768, 126-8588, 128-4414, 128-7256 and 128-8614. No fallback kit/adapter images assigned. Overall manual progress: 19/50 batches, 190/500 SKUs.
