@@ -2915,3 +2915,38 @@ Additional Cat-linked discovery candidates:
 561-1056, 561-1058, 561-1059, 561-1062, 653-5187, 653-5188, 653-5190, 653-5193, 653-5195, 234-9672, 351-0957, 351-0958, 235-2511, 351-0961, 561-1068, 575-8723, 304-1916, 602-0405, 602-0406, 3K-0360, 3J-1907, 505-3864, 6V-8002, 523-6602, 528-0585, 540-5119, 360-8960, 346-6688. These are related track assemblies/parts, kit contents or commonly purchased items; not universal fitment/interchange claims.
 
 Overall reviewed progress: 65/500 batches = 650/5,000 product target (13.0%). Original Cat seed list has 137 SKUs remaining (products 651–787).
+
+## Batch 66/500 — products 651–660 (2026-11-25)
+
+SKUs: 571-1452, 571-5253, 572-2683, 572-2684, 572-5881, 574-0991, 575-2083, 578-1844, 580-5439, 585-9997. All ten Cat pages retrieved; compatible-model/specification/kit sections reviewed. All ten DB rows re-queried and fitment arrays deduplicated.
+
+Verified updates:
+- 571-1452: Cat Hard Rock crawler track shoe for Electric Rope Shovel 7495. Specs 508mm/20in pitch, 2000.25mm/78.75in pad width, with bushings, alloy steel, 10.62in roller width, 5.31in drive-lug height, 10in roller path, 1.25in track-bolt thread, 4.445in pin diameter, single roller path, self-seeking sprocket engagement, bolt-and-nut retention.
+- 571-5253: Cat Advanced High Efficiency transmission filter cartridge. Added 163 distinct Cat model labels across pumper, power modules, scrapers, off-highway trucks, graders, track tractors, pipelayers, excavators, generators, MHPUs, wheel tractors/dozers/loaders, compactors, petroleum transmissions, ejector/articulated trucks, landfill compactors, industrial engines, quarry trucks and powertrains. Specs 4.74in diameter ×10.689in length, Out-to-In, Polyamide Plastic, Advanced High Efficiency, Cartridge.
+- 572-2683: Cat HDXL Track Seal and Bushing Kit. Exact kit contents: 106-1618 Track Bushing ×46 and 250-3988 Track Seal ×92. Cat explicitly says compatible-model information is not currently available; fitment remains empty.
+- 572-2684: Cat HDXL Track Seal and Bushing Kit. Exact kit contents: 207-0544 Track Seal ×92 and 8E-7222 Track Bushing ×46. Cat explicitly says compatible-model information is not currently available; fitment remains empty.
+- 572-5881: Cat 12V fuel priming pump with solenoid valve for Marine Engine C18. Cat specifications list adhesive material and Spin-On filter type.
+- 574-0991: Cat High Pressure Control Fuel Pump / fuel transfer pump. Fitment Pumper SPF743, Engine 3512E, Petroleum Engine 3512E/2016. Specs 579 ×200 ×451mm (22.81 ×7.87 ×17.74in), cast iron/ductile spheroidal iron/carbon steel. Existing source fields also list 12–24V and 11.4L/min rated flow.
+- 575-2083: Cat GB124 with Wings Smart Grader Blade. Fitment CTL 253/275/265/255/275XE; skid steer 250/260; blade GB124. Specs 96in blade width, 102.6in overall width, 105.8in fully angled, 50–86L/min, 180–230bar, standard flow with 14-pin, 88.4in length, 104.4in height with masts, 41.2in height, 2292.8lb, 15° tilt, 30° max blade angle, 205° wing rotation. Cat lists wings-open working width 99.3in and wings-closed 102.6in; retained as published despite the unusual relation.
+- 578-1844: Cat Lower Restriction Cabin Air Filter, metal panel, 17in length ×10in width, 2.197in height without seal/2.354in with seal, mixed metal/nonmetal and carbon steel, lower-restriction media. Added 53 distinct labels across road reclaimers, rotary/reclaimer mixers, 815/825 compactors, 814/824/834 wheel dozers, 816/826/836 landfill compactors and wheel-loader families.
+- 580-5439: Cat Standard Cabin Air Filter, plastic ABS panel, 14.921in length ×9.488in width, 2.933in height with/without seal, Standard media. Added 62 distinct model labels across M313/M314/M315/M316/M317/M318/M319/M320/M322/M323/MH3026/MH3040 wheeled excavators, OEM MHPU336, excavators and material handlers MH3022/MH3024/MH3032/MH3050/MH3250/MH3260.
+- 585-9997: Cat 273.5mm Air Prescreener for CTL 285XE/285/275/265/255/275XE and skid steers 250/270/260/270XE/265. Cat says detailed specifications are still being added; retained only length and model fitment.
+
+Cat pages:
+- https://parts.cat.com/en/catcorp/product/571-1452
+- https://parts.cat.com/en/catcorp/product/571-5253
+- https://parts.cat.com/en/catcorp/product/572-2683
+- https://parts.cat.com/en/catcorp/product/572-2684
+- https://parts.cat.com/en/catcorp/product/572-5881
+- https://parts.cat.com/en/catcorp/product/574-0991
+- https://parts.cat.com/en/catcorp/product/575-2083
+- https://parts.cat.com/en/catcorp/product/578-1844
+- https://parts.cat.com/en/catcorp/product/580-5439
+- https://parts.cat.com/en/catcorp/product/585-9997
+
+Post-update verification returned all ten rows. Distinct compatible-model counts: 571-1452=1; 571-5253=163; 572-2683=0; 572-2684=0; 572-5881=1; 574-0991=3; 575-2083=8; 578-1844=53; 580-5439=62; 585-9997=10. No prices/current stock inferred.
+
+Additional Cat-linked discovery candidates:
+106-1618, 250-3988, 207-0544, 8E-7222, 1R-1808, 3J-1907, 1R-0756, 5P-7815, 6V-9746, 2H-3928, 5H-6734, 6V-6809, 1R-0749, 585-9997, 505-4113, 505-4160, 505-4161, 505-4162, 265-6618, 265-6619, 500-0957, 110-6326, 110-6331, 528-0585, 523-4987, 509-5694. Kit components and related filters are candidate leads only; they do not prove interchangeability.
+
+Overall reviewed progress: 66/500 batches = 660/5,000 product target (13.2%). Original Cat seed list has 127 SKUs remaining (products 661–787).
