@@ -488,3 +488,8 @@ See [C9 marine expansion](marine-engine-c9-3400-expansion.md) and [Off Road pric
 ## Owner-approved OEM fallback pricing (24 Nov 2026)
 
 The project owner approved using a public Off Road **OEM List Price** as the fallback benchmark when actual supplier unit prices are login-gated. Record the OEM benchmark separately and calculate a provisional Amoot reference at **OEM List Price × 1.65**. Label it “provisional — based on OEM list, not Off Road acquisition cost”; do not represent it as Off Road's actual sale price or a firm quote. Keep condition and supplier inventory snapshots separate; do not turn supplier quantities into Amoot stock. See [expanded OEM fallback batch and part-level evidence](offroadeq-pricing-source.md). No live prices, public prices, stock quantities or sellable SKUs were changed.
+
+
+## Additional Off Road OEM benchmark batch (24 Nov 2026)
+
+Three more exact public Off Road detail pages were found: **0816876**, **4619930**, and **1886126**. Their OEM list prices and provisional ×1.65 reference values, together with related alternatives and source-specific inventory snapshots, are recorded in [the Off Road pricing assessment](offroadeq-pricing-source.md). The exact 0816876 page has no inventory; alternatives 2H1618, 7X0445 and 1364188 remain separate and are not assumed interchangeable. 4619930 and 1886126 have public inventory snapshots. Actual supplier unit prices remain login-gated. No Amoot stock, firm public price or sellable SKU was changed.
