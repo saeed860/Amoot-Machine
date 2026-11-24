@@ -259,6 +259,11 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["3144126","SEAL GP-DU",1436.31,2369.91,"۱۴ New Aftermarket"],
+ ["3144128","SEAL GP-DU",1338.45,2208.44,"۲۳ New Aftermarket"],
+ ["3144130","SEAL GP-DU",2646.78,4367.19,"۷۱ New Aftermarket"],
+ ["3145005","PISTON AS",1711.01,2823.17,"۳۶۶ New Aftermarket"],
+ ["3147755","REGULATOR",2919.33,4816.89,"در موجودی دقیق فروشنده یافت نشد؛ قیمت OEM List موجود است"],
  ["3073993","CONT GP-HA",2836.28,4679.86,"۲۳ New Aftermarket"],
  ["3109354","CONTROL GP",1368.74,2258.42,"۱۱ New Aftermarket"],
  ["3119541","PUMP GP-2P",35559.89,58673.82,"۴ New Aftermarket"],
