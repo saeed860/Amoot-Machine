@@ -2740,3 +2740,38 @@ Additional Cat-linked discovery candidates:
 033-6031, 136-7227, 1R-0726, 1R-0756, 1W-1251, 1W-1253, 214-7566, 214-7568, 230-1072, 238-5080, 238-5081, 248-5513, 272-0757, 304-7216, 3S-9643, 457-6719, 492-0914, 4F-7226, 4W-3027, 4W-3100, 5D-5957, 5P-4892, 6V-1454, 6V-3907, 6V-5048, 6V-5066, 6V-8001, 6V-9027, 7M-9909, 7N-4782, 7N-4927, 7N-6806, 290-2041, 6I-4545, 143-2878, 227-2902, 575-1591, 126-1767, 126-1768, 278-2355, 278-2356, 6S-3609, 190-7396, 6Y-0473, 0R-3536, 328-5574, 253-1752, 4N-7253, 317-8766. These are kit BOM/related/Reman candidates only, not guaranteed fitment or interchangeable replacements.
 
 Overall reviewed progress: 60/500 batches = 600/5,000 product target (12.0%). Original Cat seed list has 187 SKUs remaining (products 601–787).
+
+## Batch 61/500 — products 601–610 (2026-11-25)
+
+SKUs: 4W-7637, 500-0957, 505-4113, 509-5694, 511-7975, 513-5975, 513-5980, 516-2634, 518-3210, 518-5338. Seven records received substantive item-level updates; 513-5975 and 518-3210 pages were inaccessible; 513-5980 page returned only a short title shell and no usable model/spec data. All ten rows were re-queried.
+
+Verified updates:
+- 4W-7637: Cat Turbocharger Group. Confirmed Gen Set Engine 3408B/3408C/3408; Marine Engine 3408B/3408; Engine G3408; Gas Engine G3408C/G3408/G3408B. Dimensions 15.1in ×15.9in. Cat Compare Alternate Parts lists 20R-3163 Cat Reman Turbocharger; verify serial-number applicability.
+- 500-0957: Cat Standard Efficiency Cabin Air Filter for normal-duty filtration. Added 84 distinct Cat labels across track feller bunchers, forestry, wheeled excavators, MHPU/OEM units, excavators, material handlers, graders and wheel loaders. Specs 9.587in length, Polypropylene Plastic. Cat says standard-efficiency media prevents dirt/soot/sand entering cab and fits the current housing without modification.
+- 505-4113: Cat Advansys 110 Penetration Plus excavator bucket tip. Added 26 distinct model labels across excavators and wheel loaders. Cast steel; 14.378in overall length, 3.543in front width, 5.488in rear width, 5.689in rear height. Cat states 25% more wear material than general-purpose tips, 10–15% more usable life, self-sharpening; intended for high-impact trenching/excavating/loading, compacted clay, cemented gravel and rock.
+- 509-5694: Cat Ultra High Efficiency Secondary Fuel Filter Element, cartridge. Added 53 distinct labels across wheeled excavators, forestry, excavators, material handlers, MHPUs, graders and wheel loaders. Specs 3.484in diameter ×6.654in length, Out-to-In, Polyamide Plastic, Cartridge, Ultra High Efficiency. Cat related elements: 523-4987 and 322-3155; also lists primary/secondary air filters 479-8989/479-8991.
+- 511-7975: Cat Common Rail Fuel Injection Pump for C9.3. Added 68 distinct model labels across SR4B generator, 627/637 wheel tractors and scrapers, 973 track loader, 2864C/586C site-prep tractors, PM312/PM313/PM310 cold planers, motor graders, 972/966 wheel loaders, D6T/D7E track-type tractors, 725 articulated trucks, PL72 pipelayer, excavators and MHPUs. Specs 11.65in overall length; height not specified; material Fuel Fluid and adhesive.
+- 516-2634: Cat M24 ×1.5 track bolt, 80mm (3.15in) long. Added 28 distinct model labels across MD6250/MD6310/MD6420C/MD6420 drills, OEM POWER module, forestry products, excavators and MH3250/MH3260 material handlers. Specs 1.457in grip, RH, zinc-phosphate/oil coating, alloy zinc/coating fluid/boron steel, Cat/ISO 898-1 class 11.9. Cat page's thread-size numeric field is zero, so M24/1.5mm is retained from the product title only.
+- 518-5338: Cat Rail Group - SEM. Cat page explicitly states no compatibility information is currently available. Added Carbon Steel material and kept fitment empty.
+- 513-5975: Cat page inaccessible; no change.
+- 513-5980: Cat Grade with 3D for Medium Dozers page returned only a title shell; no fitment/spec changes.
+- 518-3210: Cat page inaccessible; no change.
+
+Cat pages:
+- https://parts.cat.com/en/catcorp/product/4W-7637
+- https://parts.cat.com/en/catcorp/product/500-0957
+- https://parts.cat.com/en/catcorp/product/505-4113
+- https://parts.cat.com/en/catcorp/product/509-5694
+- https://parts.cat.com/en/catcorp/product/511-7975
+- https://parts.cat.com/en/catcorp/product/513-5975
+- https://parts.cat.com/en/catcorp/product/513-5980
+- https://parts.cat.com/en/catcorp/product/516-2634
+- https://parts.cat.com/en/catcorp/product/518-3210
+- https://parts.cat.com/en/catcorp/product/518-5338
+
+Post-update verification returned all ten rows. Distinct fitment counts: 4W-7637=6; 500-0957=84; 505-4113=26; 509-5694=53; 511-7975=68; 513-5975=0 (unchanged); 513-5980=0 (unchanged); 516-2634=28; 518-3210=0 (unchanged); 518-5338=0 (Cat explicitly has no compatibility information). No prices/current stock inferred.
+
+Additional Cat-linked discovery candidates:
+20R-3163, 580-5439, 523-4987, 505-4010, 505-4012, 505-4110, 505-4114, 505-4115, 505-4116, 505-4160, 505-4161, 505-4162, 456-7043, 322-3155, 479-8989, 479-8991, 6V-8260, 214-7568, 214-7567, 238-5080, 251-7757, 257-3604, 609-0880, 250-3998. These are Cat Reman, related or frequently-bought-together leads only; not universal fitment/interchange claims.
+
+Overall reviewed progress: 61/500 batches = 610/5,000 product target (12.2%). Original Cat seed list has 177 SKUs remaining (products 611–787).
