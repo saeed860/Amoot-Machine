@@ -133,3 +133,27 @@ Cat also exposes 524-3159 (PUMP GP-AUX) with C18 in its MARINE ENGINE model clas
 The public Sea Water Pumps category currently displays 33 items; only exact product pages with compatible-model evidence were promoted into this reference table. Cat customer pricing remains login-gated on the reviewed pages. No Off Road price, Amoot selling price, stock, or sellable SKU was created from this OEM-only pass.
 
 **Fitment limit:** model-class compatibility is not serial/Arrangement confirmation. Confirm the full engine serial number, Arrangement and pump configuration in Cat SIS / the serial-specific parts diagram before quoting or accepting an order. Keep the Reman condition of 20R-7175 distinct from new Cat parts.
+
+
+## C18 fuel-system Cat Parts Store extraction — 24 Nov 2026
+
+A targeted official Cat Parts Store check identified these fuel-system references with explicit C18 **MARINE ENGINE** compatible-model evidence:
+
+| Part number | Official Cat description | Cat model-class evidence | Customer application | Handling |
+|---|---|---|---|---|
+| **361-5093** | 12V Fuel Pump Housing Base / Fuel Priming Pump | MARINE ENGINE C18; also Engine C15/C18 and Industrial Engine C18/C9.3/C13/C15 | **BOTH** | Cat genuine listing; exact engine serial/Arrangement still required |
+| **448-4451** | Fuel Transfer Pump Kit | MARINE ENGINE C18; also Generator Set C18 and Petroleum Package C18 | **BOTH** | Cat kit; includes transfer pump 384-8612 and installation hardware; exact configuration still required |
+| **448-4452** | Kit-Fuel Transfer Pump | MARINE ENGINE C18 and C18 MARINE; also Generator Set C18/C18 MARINE GS and Petroleum Package C18 | **BOTH** | Cat kit; includes transfer pump 388-7286 and seals/bolts; exact configuration still required |
+
+Official Cat product pages:
+- https://parts.cat.com/en/catcorp/product/361-5093
+- https://parts.cat.com/en/catcorp/product/448-4451
+- https://parts.cat.com/en/catcorp/product/448-4452
+
+Caterpillar's C18 marine project-guide material independently confirms the engine fuel-system architecture includes a gear-driven fuel transfer pump and manual fuel priming pump. The Cat C18 propulsion and auxiliary/generator marine specification sheets also describe the front-service simplex fuel system. These are system-level design references, not substitutes for serial-specific parts diagrams:
+- https://emc.cat.com/n/api/pubdirect?media_string_id=MSS-MAR-18493267-003.pdf
+- https://emc.cat.com/n/api/pubdirect?media_string_id=MSS-MAR-18501232-005.pdf
+
+**Lubrication-system boundary:** the same OEM specification sheets confirm a front-service simplex oil system and gear-driven oil pump. However, this pass did not establish a serial-specific Cat part number for the C18 marine oil-pump assembly. The Cat page for 1R-1808 lists C18 in several non-marine classes but did not provide an explicit MARINE ENGINE C18 match in the retrieved compatible-model section; therefore it is not tagged MARINE or BOTH here. A third-party SEBP5331 sample lists 1R-1808 in a C18 oil-filter group, but its serial scope is PRL1-UP and the sample alone is not sufficient to assert fitment to all C18 marine variants.
+
+Cat customer prices on reviewed pages are login-gated. No prices, stock quantities, or sellable SKUs were created from this extraction. Application labels are model-class-level only; verify full engine serial number, Arrangement and fuel-system configuration in Cat SIS before quoting or accepting an order.
