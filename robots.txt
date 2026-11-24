@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://saeed860.github.io/Amoot-Machine/sitemap.xml
