@@ -803,3 +803,35 @@ Official Cat sources checked:
 - https://parts.cat.com/en/catcorp/product/162-7864
 
 Database checkpoint: all 10 rows updated and verified. Existing exact official images retained for 153-5710, 153-5720, 155-2260, 155-2270, 155-9879, 156-4208, 156-4209, 162-7863 and 162-7864. No image assigned to 160-8765 because Cat page exposed only fallback. Overall manual progress: 22/50 batches, 220/500 SKUs.
+
+
+## Batch 23/50 — SKUs 221–230 (163-9366 through 184-4396)
+
+All ten catalog rows were updated and query-verified. Nine Cat product pages were reviewed in detail; 184-4395 page retries timed out, so its previously captured official catalog data was retained with a verification caveat.
+
+| SKU | Official identity / captured detail | Image / fitment treatment |
+|---|---|---|
+| 163-9366 | Cat 2.413 mm Outer Brake Separator Plate; 0.095 in thick, 144-tooth external spline, steel hardness/surface finish optimized for brake life | Existing exact official image retained; Cat publishes no compatible-model list |
+| 165-6170 | Cat 24.13 mm OD Non-Threaded Engine Oil Level Gauge Plug; nitrile rubber; direct OEM replacement | Existing exact official image retained; Cat publishes no compatible-model list |
+| 167-1751 | Cat Turbocharger Water Lines Tube; 0.75 in OD, steel; compatible Marine Engine 3516B/3516, Industrial Engine 3516B and Locomotive Engine 3516B | Exact official Scene7 tube image newly linked |
+| 169-7372 | Cat 4 oz PET ribbed fluid-sampling bottle; 200-pack, 2.0 in diameter, 3.5 in high, 0.046 lb, polyethylene; 3126/C-10/C-12/3176, 637K, 825H, 824H, 826H | Existing exact official bottle image retained |
+| 169-7373 | Cat 2.5 oz PET ribbed fluid-sampling bottle; 200-pack, 1.53 in diameter, 2.7 in high, PVC; Cat publishes no compatible models | Existing exact official bottle image retained |
+| 169-8373 | Cat fluid-sampling bottle set; 300 × 4 oz bottles + 500 cap/probe sets; compatible 2.5 oz bottles; 75C/85E/95E, C-10/C-12/3126/3116/3176, 637K, 772G/777C, 825H, 312C, 824H/834H, 836H/826H, 988H | Single-bottle image removed because it misrepresented the bulk set |
+| 170-4007 | Cat Fuel Transfer Pump; moves fuel from tank to engine; 3406C/3412/3512/3512B/3508B/3516/3516B/3508/3412C generator sets, PM3508/PM3516/PM3412/PM3512 and G3516 | Exact official Scene7 pump image newly linked |
+| 177-9343 | Cat Fluid-Sampling Probe and Cap Set; bottles not included; two tapered cap holes and clear probe tube; compatible 4 oz/2.5 oz bottles; 3126/C-10/C-12/3176, 637K, 825H, 824H, 826H | Bottle-only image removed because it misrepresented the probe/cap set |
+| 184-4395 | Cat Roller Guard Short Center; both sides position and both sides of frame; boron/low-alloy steel; previously captured D8/D9/PL83/PL87/583/587 associations retained | Existing exact official image retained; latest Cat page retry timed out |
+| 184-4396 | Cat Steel Undercarriage Roller Guide; boron steel; guides/protects link assembly and rollers; D10N/D10R/D10T2/D10/D10T and pipelayer 589 | Existing exact official image retained |
+
+Official Cat sources checked:
+- https://parts.cat.com/en/catcorp/product/163-9366
+- https://parts.cat.com/en/catcorp/product/165-6170
+- https://parts.cat.com/en/catcorp/product/167-1751
+- https://parts.cat.com/en/catcorp/product/169-7372
+- https://parts.cat.com/en/catcorp/product/169-7373
+- https://parts.cat.com/en/catcorp/product/169-8373
+- https://parts.cat.com/en/catcorp/product/170-4007
+- https://parts.cat.com/en/catcorp/product/177-9343
+- https://parts.cat.com/en/catcorp/product/184-4395
+- https://parts.cat.com/en/catcorp/product/184-4396
+
+Database checkpoint: all 10 records updated and verified. Two exact official images newly linked (167-1751, 170-4007); existing exact images retained for 163-9366, 165-6170, 169-7372, 169-7373, 184-4395 and 184-4396. Two misleading images removed (169-8373, 177-9343). Overall manual progress: 23/50 batches, 230/500 SKUs.
