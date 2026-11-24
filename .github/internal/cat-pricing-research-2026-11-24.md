@@ -963,3 +963,35 @@ Official Cat sources checked:
 - https://parts.cat.com/en/catcorp/product/20R-1270
 
 Database checkpoint: all 10 rows updated and verified. Six exact official images newly linked (20R-0615, 20R-0675, 20R-0744, 20R-0759, 20R-1136, 20R-1270); existing exact images retained for 20R-0632 and 20R-0925. Unverified cylinder-pack/kit imagery was omitted. Overall manual progress: 27/50 batches, 270/500 SKUs.
+
+
+## Batch 28/50 — SKUs 271–280 (20R-1275 through 20R-2284)
+
+All ten official Cat product pages were reviewed; all ten Supabase rows were updated and query-verified.
+
+| SKU | Official identity / captured detail | Image / fitment treatment |
+|---|---|---|
+| 20R-1275 | Cat Reman Electronic Fuel Injector; 14.8 × 3.0 in; marine 3508B/3516B/3512B/3508/3512, marine auxiliary 3512B, industrial 3508B/3512B/3516B and locomotive 3512B/3516B/3508B | Exact official Scene7 injector image newly linked |
+| 20R-1306 | Cat Reman MEUI-C 10mm Fuel Injector (Tier 4 Interim); 12.3 × 4.8 in; compatible Industrial Engine C15 and Petroleum Engine C15 | Exact official Scene7 injector image newly linked |
+| 20R-1367 | Cat C18 Reman Long Block; block/crankshaft/cylinder packs/head/camshaft/valve mechanism/front housing/gears/water pump/lifting eyes; fuel transfer pump and oil cooler shipped loose; C18 recommended, compatible 657G and C18 industrial | Only 80px exploded-engine thumbnail available; omitted |
+| 20R-1369 | Cat C15 Reman Long Block; block/crankshaft/cylinder packs/head/camshaft/VVA/front housing/gears/water pump/lifting eyes; fuel transfer pump/oil cooler shipped loose; U.S. engine-core return/destruction requirement | Exact official Scene7 long-block image newly linked; Cat publishes no compatible-model list |
+| 20R-1516 | Cat Reman C32 Engine Oil Pump; Cat publishes no specs; compatible SR5, AD63, C32/C27 generator/petroleum/marine/industrial, 777G, 844H/854K, 24, 6015B/6020B/6030, 993K/990K/992K, MD6250/MD6310 and related trucks | Only 80px image; omitted; 35 model identifiers stored |
+| 20R-1626 | Cat Reman 3500-Series Valve Lifter; pumper, generator, power-module, petroleum, locomotive, D11N/R, 854G, 992G/994D, 5230B/5130B, 785/797/793C/777 and related marine/industrial applications | Existing exact official image retained; 42 model identifiers stored |
+| 20R-1828 | Cat Reman 3400-Series Valve Lifter; extensive 3406/3408/3412 engine and pumper, generator, truck, grader, tractor, marine, pipelayer, compactor, loader, scraper, reclaimer, industrial and petroleum fitment | Existing exact official image retained; 154 model identifiers stored |
+| 20R-1859 | Cat Reman C27/C32 Water Pump; 17.5 × 9.9 in; AD63, C27/C32 generator/petroleum/locomotive/industrial, 777G, 854K/844K, 24, 6015B/6020B/6030, 993K/990K/992K, D11T/D10T2/D11 and related applications | Exact official Scene7 water-pump image newly linked; 27 model identifiers stored |
+| 20R-2009 | Cat Reman Double Piston Hydraulic Pump; 48.6 × 23.0 in; Sealants/Adhesives Adhesive; compatible Hydraulic Shovel 6060 | Existing exact official image retained |
+| 20R-2284 | Cat Reman Fuel Injector; coated plungers, engineering updates and reliability testing; Cat does not publish compatible models or structured specifications | Existing catalog image retained with fitment unverified; no fitment inferred |
+
+Official Cat sources checked:
+- https://parts.cat.com/en/catcorp/product/20R-1275
+- https://parts.cat.com/en/catcorp/product/20R-1306
+- https://parts.cat.com/en/catcorp/product/20R-1367
+- https://parts.cat.com/en/catcorp/product/20R-1369
+- https://parts.cat.com/en/catcorp/product/20R-1516
+- https://parts.cat.com/en/catcorp/product/20R-1626
+- https://parts.cat.com/en/catcorp/product/20R-1828
+- https://parts.cat.com/en/catcorp/product/20R-1859
+- https://parts.cat.com/en/catcorp/product/20R-2009
+- https://parts.cat.com/en/catcorp/product/20R-2284
+
+Database checkpoint: all 10 rows updated and verified. Four exact official images newly linked (20R-1275, 20R-1306, 20R-1369, 20R-1859); existing images retained for 20R-1626, 20R-1828, 20R-2009 and 20R-2284. Low-resolution/representative images omitted. Overall manual progress: 28/50 batches, 280/500 SKUs.
