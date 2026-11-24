@@ -2,7 +2,7 @@
 -- Reference-only: no customer price, stock, image, or serial-level fitment is inferred.
 insert into public.part_catalog
   (part_number,name,description,engine_models,technical_group,source_name,source_url,source_note,
-   verification_status,application_type,application_evidence,application_source_url,compatible_models,source_accessed_at)
+   verification_status,application_type,application_evidence,application_source_url,compatible_models)
 values
 ('0R-3361','مغزی خنک‌کن روغن بازسازی‌شده Cat Reman 0R-3361',
  'Cat Reman Oil Cooler Core. The official Cat listing describes Reman component warranty and qualification; compatible-model groups include 3406E/3406C/3406B and C15/C-15/C16, with Marine Engine 3406C explicitly listed.',
