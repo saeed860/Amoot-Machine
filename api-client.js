@@ -259,6 +259,9 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["9G9180","HUB",5315.48,8770.54,"۶۲ New Aftermarket"],
+ ["9M1974","WASHER-PC",0.37,0.61,"۲۱٬۵۸۰ New Aftermarket؛ ۱۱ New Genuine Surplus"],
+ ["9P6912","PIN",1809.98,2986.47,"۳۸ New Aftermarket"],
  ["8W1751","BRACKET A",2711.44,4473.88,"۱۰۱ New Aftermarket"],
  ["8X0573","PIN",1530.42,2525.19,"۶۵ New Aftermarket؛ ۱ New Genuine Surplus؛ ۱ Call For Pricing؛ ۱ Used"],
  ["8Y6671","GUARD AS",2410.53,3977.37,"۲۰ New Aftermarket"],
