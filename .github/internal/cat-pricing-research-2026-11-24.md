@@ -1959,3 +1959,34 @@ Recount after deduplication across all three discovery queues:
 - One discovery number overlaps the initial seed list. Duplicate numbers across the discovery queues are deduplicated in the unique count.
 
 Overall reviewed catalog progress at this checkpoint: 38/500 batches, 380/5,000 products. The 174 new discovery numbers remain in segregated verification queues; they have not been silently promoted into the official seed list or represented as compatible without individual verification.
+
+
+## Batch 39/500 — SKUs 381–390 (226-2826 through 238-0473)
+
+All ten Supabase rows were queried and ten Cat product pages opened; detailed fitment/specification sections were readable for seven. Verified database updates:
+- 231-5127: Cat engine oil pump. Official fitment includes SPF743 pumper; SR5/SR4B/SR4BHV generators; 3516C/G3520/3516B gen-set families; XQ2280/XQC1600/PM3516 power modules; 3500-series marine/auxiliary/industrial/petroleum/locomotive applications; 3512E and 2016 petroleum. Expanded compatible_models to the Cat-published model list.
+- 231-6345: Cat oil-pump kit. Official marine fitment 3508B/3512B/3512C; marine auxiliary 3512C/3512B; industrial 3512B; engine 3512C; petroleum engine 3512B. Added Cat BOM component 8N-6152 Engine Oil Pump Group ×1 to specifications.
+- 232-1811: Cat C15 basic turbocharger group. Confirmed Truck Engine C15; dimensions 14.6 in length × 15.9 in height; material Ductile (Spheroidal) Iron. Updated specifications and fitment.
+- 237-2719: Cat 12.58mm ID fuel-filter tube assembly. Official compatible applications cover SR4B, generator sets, power modules, 3500-series petrol/locomotive/marine/auxiliary/industrial/petroleum engines and LD700E. Expanded compatible_models and deduplicated the array to 15 distinct model identifiers.
+- 237-9313: Cat fuel-filter base. Official fitment C27 engine-machine, C32 marine, C27 industrial/C32B engine, C32 industrial and C32 petroleum. Added C27, C32, C27 INDUSTRIAL and C32B. Added material “Sealants / Adhesives Adhesive” and filter type Spin-On.
+- 238-0472: Cat track bolt, M18 × 1.5, 59mm long. Official fitment D6K2/D5K/D6K/D4/D3 track tractors and PL61 pipelayer. Added model list and Cat specifications: 2.323in length, 0.984in grip, 0.7086in bolt size, RH thread, oil/corrosion-inhibitor coating, Boron Steel coating fluid, Cat/ISO 898-1 Class 11.9.
+- 238-0473: Cat square track nut, M18 × 1.5. Same D6K2/D5K/D6K/D4/D3 and PL61 fitment. Added 0.748in thickness, RH fine thread, square type, carbon steel/coating fluid, oil/corrosion-inhibitor coating, ISO 898-2 Class 12, 1.102in drive.
+Other records:
+- 226-2826: Cat brake friction disc; product page confirms 874.5mm outside-diameter title, but detail/specification fetch timed out; no additional claims added.
+- 230-6368: Cat 12V 65 BCI battery; Cat page confirms 850 CCA and maintenance-free battery; existing DB says 12V/65 BCI/850 CCA, no change.
+- 235-5974: Cantilever carrier roller, standard application, 199.5mm tread diameter; official D6 family, PL72 and 963/973 track-loader fitment matches DB. Existing detailed undercarriage specifications retained.
+- 221-0132 and 237-9313 source partials were not used to infer beyond readable Cat fitment sections.
+
+Official Cat pages checked:
+- https://parts.cat.com/en/catcorp/product/226-2826
+- https://parts.cat.com/en/catcorp/product/230-6368
+- https://parts.cat.com/en/catcorp/product/231-5127
+- https://parts.cat.com/en/catcorp/product/231-6345
+- https://parts.cat.com/en/catcorp/product/232-1811
+- https://parts.cat.com/en/catcorp/product/235-5974
+- https://parts.cat.com/en/catcorp/product/237-2719
+- https://parts.cat.com/en/catcorp/product/237-9313
+- https://parts.cat.com/en/catcorp/product/238-0472
+- https://parts.cat.com/en/catcorp/product/238-0473
+
+Database checkpoint: all ten rows queried; updates for 231-5127, 231-6345, 232-1811, 237-2719, 237-9313, 238-0472 and 238-0473 were re-queried successfully. Overall reviewed progress: 39/500 batches, 390/5,000 products.
