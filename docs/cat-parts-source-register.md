@@ -336,3 +336,85 @@ Official Cat pages:
 - https://parts.cat.com/en/catcorp/product/8T-0328
 
 The exact K-Part diagram usage/quantity remains third-party evidence; Cat model-class lists alone do not prove that the fastener is installed in every SDN/RSD arrangement. No sellable catalog, price or inventory was changed.
+
+
+## Consolidated OEM verification batch — remaining C32 SDN/RSD component rows (24 Nov 2026)
+
+To reduce fragmented reviews, exact-number checks were run as a single batch against public Cat Parts Store product pages. Only the compatible-model list on an exact official product page is treated as model-class evidence; generic descriptions and related-parts carousels do not establish C32 marine fitment.
+
+### Positive Cat model-class matches
+
+| Part number | K-Part group / description | Cat compatible-model evidence | Application |
+|---|---|---|---|
+| 108-1478 | SDN 361-1283 — aftercooler drain valve | C32 MARINE appears under Engine/Marine Engine and C32/C32B under Marine Auxiliary | BOTH |
+| 586-1389 | RSD 586-1380 — heat-exchanger bonnet | Cat compatible-model list explicitly shows Marine Engine C32 | MARINE |
+| 331-3521 | RSD 586-1380 — O-ring seal | Generator Set C32 and Marine Engine C32/C32B | BOTH |
+| 353-9036 | SDN 353-9049 — heat-exchanger bonnet | Generator Set C32 and Marine Engine C32/C32B | BOTH |
+| 289-4232 | SDN/RSD heat-exchanger fastener | Compatible list includes Marine Engine C32/C32B and Generator Set C32, as well as land equipment | BOTH |
+| 8T-9377 | SDN 361-1283 — aftercooler bolt | Cat lists Marine Engine C32/C32B, Marine Auxiliary C32/C32B and Generator Set C32, alongside land classes | BOTH |
+| 202-9897 | SDN 305-8921 — alternator bearing | Cat lists Marine Engine C32/C32B and Marine Auxiliary C32/C32B, plus non-marine classes | BOTH |
+| 202-8647 | SDN 305-8921 — alternator stator | Cat lists Marine Engine C32/C32B, Marine Auxiliary C32/C32B and Generator Set C32, plus land classes | BOTH |
+| 100-6531 | SDN 305-8921 — alternator fan | Cat lists C32 Marine Auxiliary, but the returned list does not show Marine Engine C32 | MARINE at published model-class level; confirm exact SDN assembly fitment |
+
+Official product pages:
+- https://parts.cat.com/en/catcorp/product/108-1478
+- https://parts.cat.com/en/catcorp/product/586-1389
+- https://parts.cat.com/en/catcorp/product/331-3521
+- https://parts.cat.com/en/catcorp/product/353-9036
+- https://parts.cat.com/en/catcorp/product/289-4232
+- https://parts.cat.com/en/catcorp/product/8T-9377
+- https://parts.cat.com/en/catcorp/product/202-9897
+- https://parts.cat.com/en/catcorp/product/202-8647
+- https://parts.cat.com/en/catcorp/product/100-6531
+
+### Exact Cat pages found, but C32 marine class not established
+
+| Part number | K-Part context | Cat page finding | Decision |
+|---|---|---|---|
+| 202-2783 | SDN alternator plate | Compatible list includes C32 in Industrial Engine, not a marine C32 class | No marine tag |
+| 7D-1649 | SDN aftercooler washer | Compatible list excerpt does not show C32 marine | No marine tag |
+| 8F-8544 | SDN aftercooler bolt | Returned compatible list does not establish C32 marine | No marine tag |
+| 0L-1352 | SDN aftercooler bolt | Exact page found, but returned compatible-model evidence was insufficient | Unconfirmed |
+| 0S-1571 | SDN aftercooler bolt | Returned excerpt did not establish a marine C32 class | Unconfirmed |
+| 8T-4171 | SDN alternator bolt | C32 machine/engine listings without explicit marine class in returned evidence | No marine tag |
+| 1T-0720 | SDN aftercooler bolt | Returned compatible-model evidence did not show C32 marine | No marine tag |
+| 8T-0328 | SDN alternator washer | C32 industrial/petroleum classes, but no explicit C32 Marine Engine / Marine Auxiliary class | No marine tag |
+| 238-5081 | SDN aftercooler O-ring | Returned compatible-model list did not include C32 marine | No marine tag |
+| 6V-3535 | SDN aftercooler dowel | Returned compatible-model list did not include C32 marine | No marine tag |
+| 360-3693 | SDN aftercooler plug | Exact page found; no C32 marine class established in returned excerpt | Unconfirmed |
+| 5C-2874 | SDN alternator nut | No C32 marine compatible-model evidence in returned excerpt | No marine tag |
+| 3K-0360 | SDN aftercooler O-ring | Returned model list did not establish C32 marine; a C13 Marine listing is not evidence for C32 | No marine tag |
+| 9S-2390 | SDN alternator retainer | Exact page evidence did not establish C32 marine | Unconfirmed |
+| 202-2708 | SDN alternator diode | Exact Cat page lists Marine Engine C32/C32B and Marine Auxiliary C32/C32B, plus generator/land | BOTH |
+| 202-2703 | SDN alternator coil | Exact Cat page lists C32/C32B marine classes; description paragraph appears inconsistent with product title | BOTH; identity requires SIS/dealer validation before sale |
+| 202-7713 | SDN alternator frame | Exact Cat page lists C32 Marine Engine and C32B Marine Auxiliary plus Generator Set C32 | BOTH |
+| 347-8906 | RSD heat-exchanger spacer | Cat description explicitly says it is used in the seawater heat exchanger; C32 Marine Engine and Generator Set C32 listed | BOTH |
+| 365-4457 | SDN aftercooler seal | Cat describes an aftercooler seal; C32/C32B Marine Engine and Generator Set C32 listed | BOTH |
+
+Official product pages for this section:
+- https://parts.cat.com/en/catcorp/product/202-2783
+- https://parts.cat.com/en/catcorp/product/7D-1649
+- https://parts.cat.com/en/catcorp/product/8F-8544
+- https://parts.cat.com/en/catcorp/0L-1352
+- https://parts.cat.com/en/catcorp/product/0S-1571
+- https://parts.cat.com/en/catcorp/product/8T-4171
+- https://parts.cat.com/en/catcorp/product/1T-0720
+- https://parts.cat.com/en/catcorp/product/8T-0328
+- https://parts.cat.com/en/catcorp/product/238-5081
+- https://parts.cat.com/en/catcorp/product/6V-3535
+- https://parts.cat.com/en/catcorp/product/360-3693
+- https://parts.cat.com/en/catcorp/product/5C-2874
+- https://parts.cat.com/en/catcorp/product/3K-0360
+- https://parts.cat.com/en/catcorp/product/9S-2390
+- https://parts.cat.com/en/catcorp/product/202-2708
+- https://parts.cat.com/en/catcorp/product/202-2703
+- https://parts.cat.com/en/catcorp/product/202-7713
+- https://parts.cat.com/en/catcorp/product/347-8906
+- https://parts.cat.com/en/catcorp/product/365-4457
+
+### No usable exact official product page in this search batch
+
+The following extracted numbers did not return a usable exact Cat product page in this pass; retain their K-Part group/diagram/quantity as third-party candidate evidence only:
+226-5613, 358-8879, 358-9051, 361-1263, 362-0734, 366-4700, 147-0323, 7B-3235, 9X-6458, 131-3983, 353-9034, 376-0526, 586-1397, 313-8953, 313-8951, 313-9206, 315-3574, 315-5495.
+
+**Reconciliation note:** Cat compatible-model lists support model-class application, while K-Part supplies the observed assembly, diagram and quantity. Neither alone certifies a particular engine serial/Arrangement. Final order fitment still requires SIS/Cat serial-specific lookup. No row in this batch was promoted to sellable inventory; no price or stock quantity was created.
