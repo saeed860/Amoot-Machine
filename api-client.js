@@ -259,6 +259,11 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["2721889","ALTERNATOR",1772.15,2924.05,"۲۰ New Aftermarket"],
+ ["2726955","PUMP GP-2P",18866.71,31130.07,"۹ New Aftermarket"],
+ ["2730178","GEAR SIDE",3287.38,5424.18,"۱ New Genuine Surplus؛ ۱۱ New Aftermarket"],
+ ["2776918","ACTUATOR",1310.51,2162.34,"۲۳ New Aftermarket"],
+ ["2807374","PUMP GP-WA",1748.81,2885.54,"۳۵۳ New Aftermarket"],
  ["2612208","CONTROL GP",1442.07,2379.42,"۱۳۳ New Aftermarket"],
  ["2635055","HEAD GP BA",10115.35,16690.33,"۱۵ New Aftermarket؛ ۱ Used"],
  ["2652299","DRIVE GP-F",31464.31,51916.11,"۲ New Aftermarket؛ ۱ Call For Pricing؛ ۵ Rebuilt"],
