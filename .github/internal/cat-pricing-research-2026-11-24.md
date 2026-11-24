@@ -1500,3 +1500,35 @@ Official Cat pages checked:
 - https://parts.cat.com/en/catcorp/product/1W-6316
 
 Database checkpoint: all ten rows queried; the 1W-1052 exact official image update was verified by a follow-up query. No fallback image was assigned to 1W-4674. Overall reviewed progress: 25/500 batches, 250/5,000 products.
+
+
+## Batch 26/500 — SKUs 251–260 (1W-8922 through 20R-0582)
+
+All ten official Cat Parts Store pages were opened and reviewed; all ten Supabase rows were queried. The official kit contents, specifications, and fitment were checked against existing records. The 202-4296 idler group record was expanded with all ten structured official dimensional/application fields and a more complete description; the update was verified by a follow-up query.
+
+| SKU | Official identity / verified detail | Image treatment |
+|---|---|---|
+| 1W-8922 | Cat Piston Ring Kit; official Parts Included lists 134-3761 (137 mm gauge-diameter piston ring) ×1, 2P-2817 (2.97 mm thick intermediate piston ring) ×1 and 7N-7078 (137.16 mm OD oil piston ring) ×1; page dimensions 5.9 × 5.9 in; broad 3400-series, marine, generator, dozer, scraper, loader and excavator fitment | Cat image depicts a ring component rather than clearly showing the complete kit; no image assigned |
+| 200-5272 | Cat Fuel Transfer Pump Cap; 4.5 in length × 0.9 in height; compatible gen-set engines 3406C/3412/3512/3512B/3508B/3516/3516B/3508/3412C, PM3508/PM3516/PM3412/PM3512 and G3516 | Existing exact Cat image retained |
+| 202-2175 | Cat Auxiliary Water Pump Install Kit; includes gaskets and seals to reinstall main water pump and attaching lines; Cat identifies kit contents category as gaskets/seals; compatible SPF343, 3512B/3508B/3516B/G3516B, SR4B/SR4BHV, PMG3516, marine, industrial, locomotive and petroleum applications | Official image was only available as a tiny thumbnail; no image assigned |
+| 202-2783 | Cat Alternator Plate; Cat provides no descriptive function or structured specifications; official compatible list includes pumper, generator, AD55, truck-engine, power-module, off-highway truck, grader, skidder, tractor, paver, marine/industrial engine, mining excavator, petroleum package and loader families | Cat page uses fallback image; no image assigned |
+| 202-4296 | Cat Standard-Application Idler Group; 189.8 mm rim width, 545 mm (21.457 in) conventional tread diameter, interchangeable, HDXL; 23.346 in center-flange diameter, 3.681 in center-flange width, 14.646 in shaft length, 1.985 in shaft protrusion, 7.472 in idler-rim width and 4.241 in shaft OD; D6R/D6T family | Existing exact Cat image retained |
+| 20R-0268 | Cat Reman C15/C18 Variable Valve Actuator, 12V Cat Brake; official fitment 740/735, C15/C18 industrial and petroleum engines, 772/770 trucks, 834H wheel dozer, 24M grader and 988H loader; same-as-new 12-month Reman warranty | Existing exact Cat image retained |
+| 20R-0271 | Cat Reman Variable Valve Actuator, C15/C18, 12V Cat Brake; official fitment specifically C15 truck engine and C18 industrial engine; Cat publishes no structured specifications; same-as-new 12-month Reman warranty | Existing image retained; official gallery only exposed 80px thumbnail |
+| 20R-0272 | Cat Reman C15/C18 Variable Valve Actuator, 24V Brake; official fitment C15 truck engine and C18 industrial engine; no structured specifications published; same-as-new 12-month Reman warranty | Existing exact Cat image retained |
+| 20R-0505 | Cat Reman G3500 Water Pump; 15.9 in length × 14.6 in height; material listed Plastic/Oil Fluid; official fitment includes G3520/G3516C/G3516E/G3516H, 3512E/3516E, 2016, 789G, 994K, 785G/793D/797/797B and related genset/marine/industrial families | Existing exact Cat image retained |
+| 20R-0582 | Cat Reman 3500C HD Cylinder Pack, 14.7:1 compression ratio; Cat publishes no structured specifications; compatible 3516C/3516B/3512C/3512B generator-set, marine, industrial, truck, petroleum and locomotive applications | Existing exact Cat image retained |
+
+Official Cat pages checked:
+- https://parts.cat.com/en/catcorp/product/1W-8922
+- https://parts.cat.com/en/catcorp/product/200-5272
+- https://parts.cat.com/en/catcorp/product/202-2175
+- https://parts.cat.com/en/catcorp/product/202-2783
+- https://parts.cat.com/en/catcorp/product/202-4296
+- https://parts.cat.com/en/catcorp/product/20R-0268
+- https://parts.cat.com/en/catcorp/product/20R-0271
+- https://parts.cat.com/en/catcorp/product/20R-0272
+- https://parts.cat.com/en/catcorp/product/20R-0505
+- https://parts.cat.com/en/catcorp/product/20R-0582
+
+Database checkpoint: all ten rows queried; 202-4296's complete official specifications and description were updated and re-queried. No fallback or unverified kit image was assigned. Overall reviewed progress: 26/500 batches, 260/5,000 products.
