@@ -1606,3 +1606,35 @@ Database checkpoint: all ten rows queried; updates to 20R-1275, 20R-1516 and 20R
 - Off Road public pages: https://offroadeq.com/parts ; https://offroadeq.com/search ; https://offroadeq.com/
 - Useful overlap validation: the Off Road 500-popular list includes 1R0749, 1R0762, 1342679 and 1342680, which are already in the current Cat SKU list. This is an independent inventory/discovery source, not proof of Cat official fitment or current availability. Keep its unverified surplus/aftermarket items out of the genuine-Cat catalog until each number is checked against Cat SIS/Parts Store and the seller's condition/brand is confirmed.
 - The 500-item Off Road popular list is a discovery queue; do not add all 500 as genuine Cat products without item-level validation.
+
+
+## Batch 29/500 — SKUs 281–290 (20R-2447 through 20R-3321)
+
+All ten official Cat Parts Store pages were opened; all ten Supabase rows were queried. Official compatibility was newly populated for 20R-2447 and 20R-3317 through 20R-3321, then verified by a follow-up query. Existing detailed kit data for 20R-2647 was checked against Cat's published 49.75 × 15.0 in dimensions and official model list.
+
+| SKU | Official identity / verified detail | Image treatment |
+|---|---|---|
+| 20R-2447 | Cat Reman 3400-series Valve Lifter; Cat publishes no structured dimensions; official compatible gen-set/gas-engine applications POWER SYS, G3412C, CG137-12/CG137-08, G3406, G3412, G3408C/G3408B/G3408 and XQG400 power module | No high-resolution image confirmed; no image assigned |
+| 20R-2647 | Cat Remanufactured Cylinder Head Assembly Kit; 21 component lines; 49.75 in length × 15.0 in height; official compatibility includes XQP500/XQP550/SR4 generators, AD30/AD45/AD55, C15/C16/C18/3406E, R2900/R3000H LHD, 772/770/773GC trucks, 24M grader, 6015/6018/6030 shovels, D8/D9 tractors, MD6200 drill, 587T/583T/PL83/PL87 pipelayers, 374/385/390 excavators and several petroleum powertrain applications | Existing exact Cat image retained |
+| 20R-2734 | Cat Reman Turbocharger; 15.6 × 17.0 in; official compatible model Marine Engine C18; Cat Reman 12-month warranty | Existing exact Cat image retained |
+| 20R-2861 | Cat C9 Reman Short Block, 9.3L Tier 4; includes block, crankshaft, pistons and connecting rods; official compatible D6T XW/LGP/XL, D7E, 627H, 586C, 336E/568 FM excavator variants, 12M 2/160M 2/140M 2 graders, 336E mobile hydraulic power units and 966K/972K/966K XE loaders | Existing exact Cat image retained |
+| 20R-3163 | Cat Reman Turbocharger; 15.1 × 15.9 in; official compatible gen-set engines 3408B/3408C/3408, marine engines 3408B/3408/3412 and gas engines G3408C/G3408/G3408B | Existing exact Cat image retained |
+| 20R-3317 | Cat Reman Valve Rocker Arm; official fitment includes C15 truck engine, C32 power module/marine, 631K/637K/657 wheel tractors, R2900 LHD, 777G, MH3295, 24M, 6030-series shovel, D8/D9/D10/D11 tractor variants, MD6200 drill, PL83/PL87 pipelayers, 374F/390F excavators, C18/C27/C32 genset and petroleum applications, 740/740B ejector trucks, RM500B, 825K, 834/824/854/844 dozers, 836K/826K landfill compactors and 986/988/990/992 loaders | Existing exact Cat image retained |
+| 20R-3318 | Cat Reman C15 Valve Rocker Arm; official compatible list includes XQP500/SR4, AD30, C15/C16/C18/3406E, PM3456/C32/C18, 631K/637K, R2900/R3000H, 773GC, 24M, 6015/6018, D8/D9/D10/D11, MD6200 and marine C15/C18/C32 applications | Existing image field was null; no new image assigned |
+| 20R-3319 | Cat Reman Unit Injector Rocker Arm; official compatible SR5, C27/C32 genset/petroleum, 631K/637K, C15, 740/740B, 834H/834K/854K/844H/844K, 24M/24, 6015B/6040/6020B/6030, 993K/988/992/986/990 loaders and D10/D11 tractor variants | Existing exact Cat image retained |
+| 20R-3320 | Cat Reman Valve Rocker Arm; official compatibility includes SR4, AD30, C15/C16/C18/3406E, PM3456, D8/D9, 583T/587T, 385C/5090B excavators, 623/621/651/657/627/631/637 wheel tractors and related applications | Existing exact Cat image retained |
+| 20R-3321 | Cat Reman Valve Rocker Arm; Cat's official fitment list matches the published 20R-3320 model families in the accessible section, including SR4, AD30, C15/C16/C18/3406E, PM3456, D8/D9, 583T/587T, 385C/5090B and 623/621/651/657/627/631/637 wheel tractors | Existing exact Cat image retained |
+
+Official Cat pages checked:
+- https://parts.cat.com/en/catcorp/product/20R-2447
+- https://parts.cat.com/en/catcorp/product/20R-2647
+- https://parts.cat.com/en/catcorp/product/20R-2734
+- https://parts.cat.com/en/catcorp/product/20R-2861
+- https://parts.cat.com/en/catcorp/product/20R-3163
+- https://parts.cat.com/en/catcorp/product/20R-3317
+- https://parts.cat.com/en/catcorp/product/20R-3318
+- https://parts.cat.com/en/catcorp/product/20R-3319
+- https://parts.cat.com/en/catcorp/product/20R-3320
+- https://parts.cat.com/en/catcorp/product/20R-3321
+
+Database checkpoint: all ten rows queried; fitment updates for 20R-2447 and 20R-3317–20R-3321 were re-queried successfully. Overall reviewed progress: 29/500 batches, 290/5,000 products.
