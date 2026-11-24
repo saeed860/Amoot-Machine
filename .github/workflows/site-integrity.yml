@@ -76,7 +76,7 @@ jobs:
           const context = { window: {} };
           vm.runInNewContext(fs.readFileSync('offroad-catalog.js', 'utf8'), context);
           const rows = context.window.AMOOT_OFFROAD_CATALOG;
-          if (!Array.isArray(rows) || rows.length < 500) throw new Error('Off Road catalog has fewer than 500 products');
+          if (!Array.isArray(rows) || rows.length < 500) throw new Error('Off Road catalog has fewer than 500 priced products');
           const seen = new Set();
           for (const p of rows) {
             const sku = String(p.sku || '').replace(/[^A-Z0-9]/gi, '').toUpperCase();
