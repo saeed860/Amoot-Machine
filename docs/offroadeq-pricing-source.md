@@ -162,3 +162,42 @@ The 8H9789 inventory values were consolidated from the public exact/alternative-
 A direct public detail-page attempt for 305-8921, 207-2422, 353-9049, 362-0801, 438-5385, 258-0794, 197-5987, 242-5336 and 245-3777 did not return accessible public detail records in this review. Their OEM benchmark prices and Off Road inventory remain **not established**; do not substitute prices from other parts or infer unavailability. The public top-500 list is only a discovery index, not the complete inventory.
 
 No Amoot live price, public catalog price, stock quantity or sellable SKU was changed by this documentation pass.
+
+
+## Additional public Off Road batch — exact detail pages and related variants (24 Nov 2026)
+
+A further public search batch located three additional exact detail pages with visible OEM list prices. Actual Off Road unit prices remain login-gated. Calculations below use the owner-approved provisional factor of 1.65 and are OEM-list-based benchmarks, not Off Road acquisition costs.
+
+| Part number | Description | OEM benchmark USD | Provisional reference USD (×1.65) | Public inventory snapshot | Source |
+|---|---|---:|---:|---|---|
+| 0816876 | BOLT-PC | 27.35 | 45.13 | Exact 0816876: no inventory found | https://www.offroadeq.com/parts/0816876 |
+| 4619930 | GEAR-RING | 2,145.59 | 3,540.22 | 54 New Aftermarket | https://offroadeq.com/parts/4619930 |
+| 1886126 | GASKET | 1.18 | 1.95 | 47 New Genuine Surplus; 2,320 New Aftermarket | https://offroadeq.com/parts/1886126 |
+
+### Related alternatives — kept separate from exact-number records
+
+| Related part number | Description | OEM benchmark USD | Provisional reference USD (×1.65) | Public inventory snapshot | Relationship |
+|---|---|---:|---:|---|---|
+| 2H1618 | BOLT-PC | 27.35 | 45.13 | 485 New Aftermarket; 1 New Genuine Surplus | Listed as alternative to 0816876; exact 0816876 itself not found |
+| 7X0445 | BOLT-ZC | 29.78 | 49.14 | 15 New Aftermarket | Listed on 0816876 page as alternative |
+| 1364188 | BOLT-PC | 28.60 | 47.19 | 337 New Aftermarket | Listed on 0816876 page as alternative |
+| 3356121 | GEAR-RING | 2,051.49 | 3,384.96 | 32 New Aftermarket | Alternative to 4619930 |
+| 9G8639 | GEAR-RING | 2,051.49 | 3,384.96 | Exact alternative inventory not found | Alternative to 4619930 |
+| 4923491 | CLASSIC | 793.15 | 1,308.70 | Exact alternative inventory not found | Alternative to 4619930; different listed variant |
+| 0T0225 | GASKET | 3.32 | 5.48 | 108 New Genuine Surplus; 882 New Aftermarket | Alternative to 1886126 |
+| 9Y3595 | GASKET | 1.13 | 1.86 | 14 New Genuine Surplus | Alternative to 1886126 |
+
+Source pages:
+- https://www.offroadeq.com/parts/0816876
+- https://offroadeq.com/parts/4619930
+- https://offroadeq.com/parts/1886126
+
+The 0816876 page explicitly says the exact part was not found; its alternatives must not be treated as interchangeable without Cat/SIS verification. The 4619930 and 1886126 inventory figures are public supplier snapshots, not Amoot-owned stock. The 1886126 alternatives carry different OEM list prices and remain separate candidate numbers. Do not publish any alternative as a replacement solely because Off Road lists it as a related option.
+
+### Price and inventory interpretation
+
+- All provisional figures are calculated as visible OEM List Price multiplied by 1.65, rounded to USD cents.
+- The supplier's actual unit price remains “Login to view”; these are not supplier quotes or landed costs.
+- No shipping, customs, tax, currency conversion or payment fees have been added.
+- Recheck stock, condition and price with the supplier before quotation or purchase.
+- No live Amoot product price, stock, or sellable SKU was changed in this research pass.
