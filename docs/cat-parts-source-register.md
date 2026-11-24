@@ -161,3 +161,25 @@ The collector also attempted four further group titles (two in each book), but t
 - RSD: 562-4336 marine communication installation group
 
 The extracted rows include source quantities and diagram references. Repeated part numbers across different prefixes/groups are retained as separate evidence scopes. No component has been promoted into sellable `part_catalog`, and no prices or inventory have been set. The workflow artifact is retained in GitHub Actions run [45357078431](https://github.com/saeed860/Amoot-Machine/actions/runs/45357078431) for seven days. Next review should match candidate part numbers to Cat Parts Store and, for serial fitment, SIS with full serial and Arrangement.
+
+
+### Cat Parts Store OEM cross-check — C32 marine candidates (24 Nov 2026)
+
+Public Cat Parts Store product pages were checked for the four exact part/group numbers surfaced by the C32 SDN/RSD work:
+
+| Part number | Cat Parts Store result | Published compatible application | Handling |
+|---|---|---|---|
+| **353-9049** | Exact product page found; description is EXCHANGER GP | Marine Engine C32 + Generator Set C32 | OEM model-class evidence supports **BOTH**; still serial/arrangement-specific |
+| **207-2422** | Exact product page found; FILTER-SEPAR | Marine Engine (including C32/C32B and other marine models), Marine Auxiliary C32, Generator Set C32, plus land equipment | OEM model-class evidence supports **BOTH** |
+| **305-8921** | Exact product page found; 24 V 75 A Charging Alternator | Marine Engine C32/C32B, Marine Auxiliary C32B, Generator Set C32, plus RC7 | OEM model-class evidence supports **BOTH**; note Cat's displayed Marine Auxiliary list is C32B, not C32 |
+| **116-1980** | Exact product page found; Oil Pump Group; explicitly marked **Discontinued** | Marine Engine C30/C32/3412C/3412E and Marine Auxiliary C32, plus multiple land/industrial classes | OEM model-class evidence supports **BOTH**; Cat displays 0R-8210 as a Cat Reman alternative, not a universal supersession guarantee |
+
+Official product pages:
+- https://parts.cat.com/en/catcorp/product/353-9049
+- https://parts.cat.com/en/catcorp/product/207-2422
+- https://parts.cat.com/en/catcorp/product/305-8921
+- https://parts.cat.com/en/catcorp/product/116-1980
+
+**Not yet OEM-cross-checked:** the internal K-Part component-table scopes for **361-1283 AFTERCOOLER GP-RAW WATER** (SDN) and **586-1380 HEAT EXCHANGER GP-SEA WATER** (RSD). Searches for those exact group numbers did not return a matching Cat Parts Store product page in this pass. Keep their component rows as K-Part CANDIDATE evidence only; do not infer marine fitment from the group title or prefix alone. The same caution applies to the remaining 54 component rows from the 58-row extraction unless each exact part number receives its own OEM check.
+
+This cross-check confirms published Cat model/application classes for the four exact numbers above; it does not replace SIS lookup using the complete engine serial number and Arrangement. No sellable SKU, price, stock or blanket fitment was created.
