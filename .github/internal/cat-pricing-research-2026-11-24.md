@@ -835,3 +835,35 @@ Official Cat sources checked:
 - https://parts.cat.com/en/catcorp/product/184-4396
 
 Database checkpoint: all 10 records updated and verified. Two exact official images newly linked (167-1751, 170-4007); existing exact images retained for 163-9366, 165-6170, 169-7372, 169-7373, 184-4395 and 184-4396. Two misleading images removed (169-8373, 177-9343). Overall manual progress: 23/50 batches, 230/500 SKUs.
+
+
+## Batch 24/50 — SKUs 231–240 (184-6305 through 1M-9011)
+
+All ten official Cat product pages were reviewed; all ten Supabase records were updated and query-verified.
+
+| SKU | Official identity / captured detail | Image / fitment treatment |
+|---|---|---|
+| 184-6305 | Cat Single-Flange D11 Track Roller; 11.299 in tread, 19.219 in mounting width, 25.276 in shaft, 16.063 in outside link spread, 5.697 in inside spread; carrier-roller compatible | Existing exact official image retained; D11N/R/T/XE/D11 |
+| 184-6306 | Cat Double-Flange D11 Track Roller; 10.906 in tread, 19.219 in mounting width, 25.276 in shaft, 13.56 in outside link spread; not carrier-roller compatible | Existing exact official image retained; D11N/R/T/XE/D11 |
+| 185-3630 | Cat Filter Strap Wrench; service tool for loosening/removing spin-on filters; no machine fitment published | Existing exact official tool image retained |
+| 186-2002 | Cat 101.6 mm ID Hump Hose; material Other Hose; broad large-engine marine/generator/industrial/petroleum applications | Existing exact official image retained; 26 engine/model identifiers stored |
+| 187-3298 | Cat Hardened-Steel Undercarriage Roller Guide; D11N/R/T/XE/D11 | Existing exact official image retained |
+| 189-3032 | Cat Wear Strip, Rear Position, Both Sides; structural steel; D6R/D6T variants and PL72 | Existing exact official image retained |
+| 193-1468 | Cat Auxiliary Water Pump Install Kit; 12 components with exact part numbers/quantities (including O-rings, water-pump seal, water-lines gasket, retaining rings and lip seal); 3508B/SR4B/3516B/3512B/3512C/PM3508/PM3516/PM3512 and related trucks/tractors | Cat page lists component images but no single kit image verified; no image assigned |
+| 1L-5011 | Cat Valve; Cat publishes no function/specifications; broad generator-set, generator, marine, truck, industrial, petroleum and gas-engine fitment | Fallback image omitted; 54 model identifiers stored |
+| 1M-8747 | Cat Class C Duo-Cone Seal; 96.38 mm assembled OD, 72.81 mm seal-ring ID, 32 mm axial width; extensive track-loader, D5–D8 tractor, Challenger, paver, ripper, pipelayer and excavator compatibility | Existing exact official image retained; 140 model identifiers stored |
+| 1M-9011 | Cat 224.90 mm ID NBR Toric Seal; 12.7 mm cross section, -40 to 212 °F; fuel/LPG/hydraulic/power-steering/radiator applications and broad equipment fitment | Existing exact official image retained; 140 model identifiers stored |
+
+Official Cat sources checked:
+- https://parts.cat.com/en/catcorp/product/184-6305
+- https://parts.cat.com/en/catcorp/product/184-6306
+- https://parts.cat.com/en/catcorp/product/185-3630
+- https://parts.cat.com/en/catcorp/product/186-2002
+- https://parts.cat.com/en/catcorp/product/187-3298
+- https://parts.cat.com/en/catcorp/product/189-3032
+- https://parts.cat.com/en/catcorp/product/193-1468
+- https://parts.cat.com/en/catcorp/product/1L-5011
+- https://parts.cat.com/en/catcorp/product/1M-8747
+- https://parts.cat.com/en/catcorp/product/1M-9011
+
+Database checkpoint: all 10 rows updated and verified. Existing exact official images retained for 184-6305, 184-6306, 185-3630, 186-2002, 187-3298, 189-3032, 1M-8747 and 1M-9011. No unverified kit/valve image assigned. Overall manual progress: 24/50 batches, 240/500 SKUs.
