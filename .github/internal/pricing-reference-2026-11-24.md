@@ -59,13 +59,13 @@
 
 ## تکمیل قیمت‌گذاری Off Road — بررسی تکمیلی
 
-آخرین تکمیل: ۲۴ نوامبر ۲۰۲۶. مبالغ عمومی فروشگاه به دلار آمریکا ثبت می‌شوند. قیمت آموت برای هر ردیف برابر قیمت منبع پس از تبدیل به USD (در صورت نیاز) × ۱٫۶۵ است. قیمت‌های مستقل، OEM List و افترمارکت به‌عنوان یک نوع کالا با هم ادغام نشده‌اند. موجودی فروشنده، موجودی متعلق به آموت نیست.
+آخرین تکمیل: ۲۴ نوامبر ۲۰۲۶. قیمت آموت برابر قیمت منبع پس از تبدیل به USD (در صورت نیاز) × ۱٫۶۵ است. همه مبالغ عمومی فروشگاه به USD نمایش داده می‌شوند. وضعیت‌های OEM، افترمارکت، Reman و Used با هم ادغام نشده‌اند. موجودی فروشنده، موجودی متعلق به آموت نیست.
 
 
-تعداد ردیف‌های دارای قیمت: 499؛ تعداد SKU یکتای قیمت‌گذاری‌شده: 499؛ از ۵۰۰ SKU فهرست عمومی Off Road، 493 مورد قیمت مرجع قابل استناد دارند.
+ردیف‌های قیمت‌گذاری‌شده: 499؛ SKU یکتای قیمت‌گذاری‌شده: 499؛ پوشش فهرست عمومی Off Road: 493 از 500.
 
 
-| SKU | شرح | منبع | مبنای قیمت | قیمت منبع | ارز منبع | قیمت آموت USD | وضعیت/شرط | لینک داخلی منبع |
+| SKU | شرح | منبع | مبنای قیمت | قیمت منبع | ارز | قیمت آموت USD | وضعیت/شرط | منبع داخلی |
 |---|---|---|---:|---:|---|---:|---|---|
 | 1P3703 | RECTANGULAR SEAL | Allegheny York | Independent seller listing · replacement nitrile D-ring | 2.19 | USD | 3.61 | Available 617 at time of listing | https://www.alleghenyyork.com/wps/portal/c/seal-components/ |
 | 4P2942 | CAMSHAFT KIT | Woodline Parts | Independent seller listing · NEW aftermarket PAI kit | 407.08 | USD | 671.68 | Typically ships same to next business day | https://www.woodlineparts.com/products/pai-391905-caterpillar-4p2942-camshaft-kit-3306-1n4407-5s3972-9y1222 |
@@ -134,7 +134,7 @@
 | 6031668 | WATER PUMP | Aftermarket Supply | Independent seller listing · NEW AFTERMARKET | 491.36 | USD | 810.74 | NEW AFTERMARKET · in stock at time of listing | https://aftermarket.supply/caterpillar/6031668 |
 | 1H9696 | O-RING | FinditParts | Independent seller listing · replacement part | 0.17 | USD | 0.28 | In stock at time of listing | https://www.finditparts.com/products/6634188/caterpillar-replacement-1h9696 |
 | 1P0436 | GASKET | Maxim Inc. | Independent seller listing · condition not specified | 4.19 | USD | 6.91 | ۱۰ available at time of listing | https://www.maximinc.com/part-101277-gasket-1p0436 |
-| 1G8878 | HYDRAULIC FILTER | KMP Brand | Independent seller listing · NEW AFTERMARKET | 36.10 | USD | 59.56 | Low Stock · GBP 27.68 ex VAT converted at 1.3040 USD/GBP | https://storeuk.kmpbrand.com/products/filter-hydraulic-1g8878-caterpillar.html |
+| 1G8878 | HYDRAULIC FILTER | KMP Brand | Independent seller listing · NEW AFTERMARKET | 36.10 | USD | 59.57 | Low Stock · GBP 27.68 ex VAT converted at 1.3040 USD/GBP | https://storeuk.kmpbrand.com/products/filter-hydraulic-1g8878-caterpillar.html |
 | 1375541 | FUEL PRIMING PUMP | FinditParts | Independent seller listing · replacement part | 40.49 | USD | 66.81 | In stock at time of listing | https://www.finditparts.com/products/6632593/caterpillar-replacement-1375541 |
 | 2477133 | THERMOSTAT & GASKET KIT | Reliable Aftermarket Parts | Independent seller listing · NEW AFTERMARKET · GBP 101.00 × 1.3040 USD/GBP | 131.70 | USD | 217.30 | SOLD OUT at source | https://www.reliableaftermarketparts.co.uk/products/2477133-gskts-kit |
 | 2485513 | REGULATOR-TE | FinditParts | Independent seller listing · condition not specified | 103.99 | USD | 171.58 | In stock at time of listing | https://www.finditparts.com/products/982866/caterpillar-2485513 |
@@ -143,7 +143,7 @@
 | 3261644 | FUEL WATER SEPARATOR | AMT Equipment Parts | Independent seller listing · NEW AFTERMARKET | 27.30 | USD | 45.05 | NEW · stock check required | https://www.amtequipmentparts.com/filters/oil-fuel-filters/3261644-fuel-water-separator/ |
 | 3497059 | LOCKING FUEL CAP | AMT Equipment Parts | Independent seller listing · NEW AFTERMARKET | 24.57 | USD | 40.54 | NEW · stock check required | https://www.amtequipmentparts.com/miscellaneous-components/3497059-caterpillar-locking-fuel-cap/ |
 | 1004095 | CARTRIDGE GP-TURBO | Reliable Aftermarket Parts | Independent seller listing · NEW AFTERMARKET · sold out | 759.97 | USD | 1,253.95 | NEW AFTERMARKET · SOLD OUT at source | https://www.reliableaftermarketparts.com/products/1004095-cartridge-fits-caterpillar-models |
-| 1299452 | GASKET | Peterbilt Parts | Independent seller listing · condition not specified | 5.70 | USD | 9.40 | listed price; availability recheck | https://peterbiltparts.com/products/caterpillar-inc-gasket-1299452 |
+| 1299452 | GASKET | Peterbilt Parts | Independent seller listing · condition not specified | 5.70 | USD | 9.41 | listed price; availability recheck | https://peterbiltparts.com/products/caterpillar-inc-gasket-1299452 |
 | 1425868 | SEAL GP-CSHF | Aftermarket Supply | Independent seller listing · NEW AFTERMARKET | 26.68 | USD | 44.02 | NEW AFTERMARKET · in stock at time of listing | https://aftermarket.supply/caterpillar/1425868 |
 | 3752647 | FUEL PUMP GROUP | AMT Equipment Parts | Independent seller listing · NEW AFTERMARKET | 3,135.51 | USD | 5,173.59 | NEW · stock check required | https://www.amtequipmentparts.com/fuel-injection-system/3752647-fuel-pump-group/ |
 | 3793436 | CORE AS-OIL COOLER | Aftermarket Express | Independent seller listing · NEW AFTERMARKET | 736.14 | USD | 1,214.63 | NEW AFTERMARKET · in stock at time of listing | https://aftermarket.express/caterpillar/3793436 |
@@ -567,8 +567,8 @@
 | 4619930 | Gear-Ring | Off Road Equipment | OEM List Price | 2,145.59 | USD | 3,540.22 | ۵۴ New Aftermarket | https://offroadeq.com/parts/4619930 |
 | 1886126 | Gasket | Off Road Equipment | OEM List Price | 1.18 | USD | 1.95 | ۴۷ New Genuine Surplus؛ ۲٬۳۲۰ New Aftermarket | https://offroadeq.com/parts/1886126 |
 
-## SKUهای بدون قیمت قابل تأیید
-برای این موارد در منابع عمومی بررسی‌شده قیمت دقیق قابل اتکا پیدا نشد یا قیمت فروشنده پشت ورود/استعلام است. قیمت حدسی درج نشود و تا دریافت پیش‌فاکتور با «نیازمند استعلام» نمایش داده شوند.
+## SKUهای بدون قیمت عمومی قابل تأیید
+قیمت این موارد در منابع عمومی بررسی‌شده در دسترس نبود، یا فقط از طریق ورود به حساب/استعلام فروشنده قابل دریافت است. قیمت حدسی درج نشود و تا دریافت پیش‌فاکتور با «نیازمند استعلام» نمایش داده شوند.
 - 813967 — نیازمند استعلام قیمت دقیق
 - 1727767 — نیازمند استعلام قیمت دقیق
 - 1930980 — نیازمند استعلام قیمت دقیق
@@ -577,8 +577,8 @@
 - 2S4078 — نیازمند استعلام قیمت دقیق
 - 7X7700 — نیازمند استعلام قیمت دقیق
 
-## محصولات مستقل قیمت‌گذاری‌شده
-| SKU | فروشنده | قیمت اولیه | ارز | ضریب تبدیل به USD | قیمت آموت USD | وضعیت | منبع |
+## محصولات مستقل فروشگاه
+| SKU | فروشنده | قیمت اولیه | ارز اولیه | FX→USD | قیمت آموت USD | وضعیت | منبع |
 |---|---|---:|---|---:|---:|---|---|
 | 151-7737 | L&S Engineers | 57.20 | GBP | 1.304 | 123.07 | Back-order | https://www.lsengineers.co.uk/air-filter-for-cat-c15-3412c-de400sgc-engines-replaces-oem-no-151-7737.html |
 | 136-3742 | KMP Brand | 0.84 | GBP | 1.304 | 1.81 | Low stock | https://storeuk.kmpbrand.com/products/filter-136-3742-caterpillar.html |
@@ -587,8 +587,7 @@
 | D1VW001CNJW | RS Components | 303.92 | GBP | 1.304 | 653.91 | In stock | https://uk.rs-online.com/web/p/hydraulic-directional-control-valves/1346967 |
 
 ## قواعد انتشار
-- قیمت مرجع عمومی فقط به صورت «قیمت: [مبلغ] دلار آمریکا» نمایش داده شود.
-- نام منبع، مبلغ اولیه و ضریب محاسبه در کارت عمومی نمایش داده نشود؛ این موارد فقط در اسناد داخلی باقی بمانند.
-- اگر قیمت قابل اتکا موجود نیست، «نیازمند استعلام» نمایش داده شود؛ قیمت حدسی درج نشود.
-- وضعیت‌های OEM، New Aftermarket، Reman، Used و Sold Out تفکیک شوند؛ موجودی فروشنده به‌عنوان موجودی آموت نمایش داده نشود.
-- نرخ‌های تبدیل ثبت‌شده در این نسخه: GBP/USD = 1.3040 و EUR/USD = 1.0915؛ نرخ و موجودی باید پیش از سفارش مجدداً بررسی شوند.
+- کارت عمومی فقط مبلغ آموت را به دلار آمریکا نمایش دهد؛ نام منبع، مبلغ اولیه و ضریب در کارت عمومی نباشد.
+- در نبود قیمت قابل اتکا، «نیازمند استعلام» نمایش داده شود؛ قیمت حدسی درج نشود.
+- وضعیت و کیفیت قطعه به‌صورت دقیق تفکیک شود؛ موجودی فروشنده به‌عنوان موجودی آموت معرفی نشود.
+- نرخ‌های تبدیل ثبت‌شده: GBP/USD = 1.3040 و EUR/USD = 1.0915؛ نرخ و موجودی پیش از سفارش مجدداً بررسی شود.
