@@ -8,44 +8,60 @@ on:
       - "data/cat-official-part-numbers.txt"
       - ".github/workflows/cat-official-page-enrichment.yml"
   workflow_dispatch:
+    inputs:
+      batch_start:
+        description: "Zero-based offset in the 787-part official list"
+        required: true
+        default: "0"
+      batch_size:
+        description: "Parts to process in this run (maximum 150)"
+        required: true
+        default: "100"
 
 permissions:
   contents: write
+
+concurrency:
+  group: cat-official-enrichment
+  cancel-in-progress: true
 
 jobs:
   enrich:
     runs-on: ubuntu-latest
     timeout-minutes: 40
+    env:
+      CAT_BATCH_START: ${{ github.event.inputs.batch_start || '0' }}
+      CAT_BATCH_SIZE: ${{ github.event.inputs.batch_size || '100' }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Restore Cat enrichment checkpoint
+      - name: Restore this batch checkpoint
         uses: actions/cache@v4
         with:
-          path: artifacts/cat-official-enrichment-checkpoint.json
-          key: cat-official-enrichment-v1-${{ github.run_id }}
+          path: artifacts/cat-official-enrichment-checkpoint-${{ env.CAT_BATCH_START }}.json
+          key: cat-official-enrichment-v2-${{ env.CAT_BATCH_START }}-${{ github.run_id }}
           restore-keys: |
-            cat-official-enrichment-v1-
+            cat-official-enrichment-v2-${{ env.CAT_BATCH_START }}-
       - run: npm install --no-save playwright
       - run: npx playwright install --with-deps chromium
       - name: Extract public Cat Parts product metadata (no account prices)
         run: node scripts/enrich-cat-official-pages.mjs
-      - name: Commit reviewed source metadata migration
+      - name: Commit batch metadata migration
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add supabase/migrations/*_enrich_cat_official_page_metadata.sql artifacts/cat-official-enrichment.json
-          if git diff --cached --quiet; then echo "No Cat metadata updates"; exit 0; fi
-          git commit -m "catalog: enrich official Cat part descriptions and fitment metadata"
+          git add supabase/migrations/*_enrich_cat_official_page_metadata_batch_*.sql artifacts/cat-official-enrichment.json
+          if git diff --cached --quiet; then echo "No new Cat metadata updates"; exit 0; fi
+          git commit -m "catalog: enrich official Cat metadata batch ${CAT_BATCH_START}"
           git push
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: cat-official-page-enrichment
+          name: cat-official-enrichment-batch-${{ env.CAT_BATCH_START }}
           path: |
             artifacts/cat-official-enrichment.json
-            artifacts/cat-official-enrichment-checkpoint.json
+            artifacts/cat-official-enrichment-checkpoint-${{ env.CAT_BATCH_START }}.json
           if-no-files-found: warn
-          retention-days: 14
+          retention-days: 30
