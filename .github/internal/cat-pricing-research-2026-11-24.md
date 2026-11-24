@@ -2035,3 +2035,35 @@ Official Cat pages checked:
 - https://parts.cat.com/en/catcorp/product/254-0224
 
 Database checkpoint: all ten rows queried; corrections for 243-6652, 244-3114, 248-2857, 249-0709, 250-1306, 251-8364, 253-4646 and 254-0224 were re-queried successfully. Overall reviewed progress: 40/500 batches, 400/5,000 products.
+
+
+## Batch 41/500 — SKUs 401–410 (255-0902 through 265-6619)
+
+All ten Supabase rows were queried and all ten Cat product URLs opened. Cat's detailed fitment/specification sections were readable for eight; 255-0902 and 261-6857 pages were partially loaded, but 261-6857's C-15 fitment was readable.
+Verified updates:
+- 255-6451: Cat harness assembly. Official fitment Generator Set C18 and Marine Engine C18; updated compatible_models to C18.
+- 258-9955: Cat flange; official material Ductile (Spheroidal) Iron. Added material; no fitment inferred.
+- 258-9959: Cat connection. Official material Ductile (Spheroidal) Iron/Carbon Steel; fitment C175-16/C175-16GENSET/C175-20, marine/industrial/petroleum/locomotive C175-16, truck 797F/797/793F/795F AC/794 AC/795F XQ/793F CMD/793F OEM/797B and off-highway 796 AC/798 AC. Added 15 model identifiers and material.
+- 261-6857: Cat basic turbocharger group. Official Truck Engine C-15; dimensions 17.2in × 15.7in. DB now records the exact C-15 fitment and dimensions.
+- 261-8287: Cat undercarriage minor bogie. Official fitment D11N/D11R/D11T/D11 XE/D11; material Microalloy Steel. Added model list and material.
+- 264-6416: Cat fuel priming pump base. Official fitment across 3500-series gen-set, marine, marine auxiliary, industrial and petroleum engine families. Existing six distinct model identifiers match; retained.
+- 264-8859: Cat 12.58mm ID secondary fuel-filter tube assembly, 37-degree single-flare nut and sleeve, 1000kPa pressure capability. Expanded fitment to gen-set engines, generator sets, marine, power module, marine auxiliary, industrial, petroleum and locomotive families (nine distinct model identifiers).
+- 265-6618: Cat standard-efficiency cabin air filter. Added 92 distinct model identifiers spanning 535D/545D/555D/525D skidder, multi-terrain and compact-track loaders, asphalt/pneumatic/vibratory compactors, C32, knuckleboom loaders, skid-steer loaders, wheel feller bunchers and site-prep tractors. Added dimensions 12.756in length × 5.906in width × 2.244in height with seal / 1.85in without seal; Urethane Panel, standard media; material Other Mixed Metal-Nonmetal/Carbon Steel/Urethane Rubber.
+- 265-6619: Cat standard-efficiency cabin air filter. Added 61 distinct compatible models across multi-terrain loaders, compact-track loaders, skid-steer loaders and 794 AC/798 AC/796 AC trucks. Added dimensions 10.63in length × 4.764in width × 2.205in height with seal / 1.819in without seal; Urethane Panel, standard media; material Carbon Steel/Other Mixed Metal-Nonmetal.
+- 250-1306: Cat page explicitly marks fuel injector group discontinued. Set is_active=false and recorded availability_status=Discontinued; its fitment and 14.75in × 3.0in/material details were already updated in this batch.
+
+Additional related-parts discovery: appended 13 more candidate numbers to `data/cat-linked-parts-discovery.txt`: 8C-3076, 6V-9028, 311-1300, 187-3298, 3P-2482, 306-9457, 3T-9075, 110-6326, 110-6331, 348-1862, 363-5819, 377-6969 and 541-6956. They were surfaced on Cat pages for 258-9959, 261-8287 and 265-6618; each needs its own product verification.
+
+Official Cat pages checked:
+- https://parts.cat.com/en/catcorp/product/255-0902
+- https://parts.cat.com/en/catcorp/product/255-6451
+- https://parts.cat.com/en/catcorp/product/258-9955
+- https://parts.cat.com/en/catcorp/product/258-9959
+- https://parts.cat.com/en/catcorp/product/261-6857
+- https://parts.cat.com/en/catcorp/product/261-8287
+- https://parts.cat.com/en/catcorp/product/264-6416
+- https://parts.cat.com/en/catcorp/product/264-8859
+- https://parts.cat.com/en/catcorp/product/265-6618
+- https://parts.cat.com/en/catcorp/product/265-6619
+
+Database checkpoint: all ten rows queried; updates for 255-6451, 258-9955, 258-9959, 261-6857, 261-8287, 264-8859, 265-6618 and 265-6619 were re-queried; 250-1306 discontinuation was separately re-queried. Overall reviewed progress: 41/500 batches, 410/5,000 products.
