@@ -1091,3 +1091,35 @@ Official Cat sources checked:
 - https://parts.cat.com/en/catcorp/product/20R-4292
 
 Database checkpoint: all 10 records updated and verified. Seven exact official images newly linked (20R-4195, 20R-4263, 20R-4264, 20R-4266, 20R-4267, 20R-4277, 20R-4292); existing exact images retained for 20R-3666, 20R-3915 and 20R-4147. Overall manual progress: 31/50 batches, 310/500 SKUs.
+
+
+## Batch 32/50 — SKUs 311–320 (20R-4306 through 20R-5379)
+
+All ten official Cat pages were reviewed; all ten Supabase rows were updated and query-verified.
+
+| SKU | Official identity / captured detail | Image / fitment treatment |
+|---|---|---|
+| 20R-4306 | Cat Reman C9 Cylinder Pack; 17.0:1, 9.3L, Tier 4; compatible SR4B, C9.3 genset, 627K/637K, PM312/313/310, 140M/150/12M/160M graders, 966M/972M, D6T/D7E, 725C, PL72, 336F excavators, MHPU and 973 | Image link returned a connecting rod, not the cylinder pack; omitted; 42 model identifiers stored |
+| 20R-4505 | Cat Reman C13 Unit Injector Rocker Arm (Tier 4); pushrod/camshaft valve actuation; core cleaning/inspection and 12-month warranty; no separate compatible-model list | Exact official Scene7 rocker-arm image newly linked |
+| 20R-4602 | Cat C175 Reman Crankshaft Damper (Gen II); C175-16/20 generator sets, C175-16 marine/industrial/petroleum, 793F/795F/794 AC trucks and 798/796 AC off-highway trucks | Existing exact official damper image retained; 13 model identifiers stored |
+| 20R-4700 | Cat Reman Crankshaft Damper; compatible Vibratory Compactor CP-563C and Motor Grader 120H ES | Exact official Scene7 damper image newly linked |
+| 20R-5005 | Cat Reman C18 Turbocharger Cartridge; compatible POWER SYS gen-set engine, C18 generator set, C18 marine engine and C18 petroleum package | Exact official Scene7 turbocharger-cartridge image newly linked |
+| 20R-5075 | Cat Reman Common-Rail Fuel Injector (CR350, C9); low-sulfur/low-lubricity fuel capability, coated plungers, reliability testing and engineering updates; no separate Compatible Models list | Existing exact official injector image retained; C9 kept as engine designation only |
+| 20R-5152 | Cat Reman Fuel Injection Pump; compatible SR4, 3408B/3408/3406 truck engines, 621/639D/627B/657E/637D/623B/631D/633D/651E tractors, 825C/824C/834B/826C/992C, 3406/3408/3412 gen-set/marine/industrial engines, 769C/773B, 245, 772B/768C and 834U/834S/824S/825 | Image link returned an O-ring, not the pump; omitted; 44 model identifiers stored |
+| 20R-5191 | Cat Reman Auxiliary Sea-Water Pump (3500); compatible gen-set engines 3508/3512/3516, 3512B generator set, 3500-series marine/marine-auxiliary/industrial engines and G3512/G3516 gas engines | Exact official Scene7 sea-water-pump image newly linked; 13 model identifiers stored |
+| 20R-5199 | Cat C175-16 Reman Upgrade-to-New Bare Block; new bare block at reduced cost; compatible C175-16 generator/marine/engine/industrial/petroleum/locomotive, 793F/795F trucks and 798/794/796 AC off-highway trucks; U.S. core return/destruction requirement | Only 80px engine thumbnail; omitted; remains active—Cat page does not state discontinued |
+| 20R-5379 | Cat C9 Reman Complete Long Block (4-valve, HEUI-B, ATAAC, Tier 3, HEP10, ADEM4); includes block/crankshaft/cylinder packs/head/camshaft/valve mechanism/front housing/gears/fuel transfer pump/lifting eyes; oil cooler/oil pump shipped loose; U.S. core return/destruction requirement | Image resolved to generic Cat logo; omitted; no compatible-model list published |
+
+Official Cat sources checked:
+- https://parts.cat.com/en/catcorp/product/20R-4306
+- https://parts.cat.com/en/catcorp/product/20R-4505
+- https://parts.cat.com/en/catcorp/product/20R-4602
+- https://parts.cat.com/en/catcorp/product/20R-4700
+- https://parts.cat.com/en/catcorp/product/20R-5005
+- https://parts.cat.com/en/catcorp/product/20R-5075
+- https://parts.cat.com/en/catcorp/product/20R-5152
+- https://parts.cat.com/en/catcorp/product/20R-5191
+- https://parts.cat.com/en/catcorp/product/20R-5199
+- https://parts.cat.com/en/catcorp/product/20R-5379
+
+Database checkpoint: all 10 rows updated and verified. Four exact official images newly linked (20R-4505, 20R-4700, 20R-5005, 20R-5191); existing exact images retained for 20R-4602 and 20R-5075. Incorrect, low-resolution and generic images omitted. Overall manual progress: 32/50 batches, 320/500 SKUs.
