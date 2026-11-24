@@ -636,3 +636,14 @@
 | CAT-423-8521 | Baumashop24 | Original Caterpillar | EUR 94.16 | 102.73 | 169.50 | ناموجود در زمان مشاهده | https://www.baumashop24.com/products/caterpillar-4238521 |
 
 نرخ تبدیل EUR به USD برابر ۱٫۰۹۱۰ و ضریب آموت ۱٫۶۵ است. قیمت فروشنده ناموجود فقط مرجع قیمت است و به‌عنوان موجودی قابل فروش نمایش داده نمی‌شود.
+
+
+## قیمت‌های تکمیلی محصولات فعال — بررسی فروشندگان، ۲۴ نوامبر ۲۰۲۶ (بخش چهارم)
+
+| SKU | فروشنده | نوع / مبنای قیمت | قیمت منبع USD | قیمت آموت USD | وضعیت | منبع داخلی |
+|---|---|---|---:|---:|---|---|
+| CAT-131-5453 | Novi Group | Genuine Caterpillar | 5,458.53 | 9,006.57 | استعلام موجودی | https://novi.com.tr/caterpillar-131-5453 |
+| CAT-7W-5313 | FinditParts | Caterpillar | 90.49 | 149.31 | موجودی محدود در زمان مشاهده | https://www.finditparts.com/products/1957973/caterpillar-7w5313 |
+| CAT-8H-7202 | Pete Truck Parts | Case assembly listing | 88.91 | 146.70 | ۲ عدد در زمان مشاهده | https://petetruckparts.com/product/case-as-fuel-filter-8h7202/ |
+
+ضریب قیمت آموت ۱٫۶۵ است. قیمت‌های با موجودی محدود یا نیازمند استعلام، موجودی قطعی آموت محسوب نمی‌شوند.
