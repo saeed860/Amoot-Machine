@@ -259,6 +259,10 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["3E7577","ALTERNATOR G",1555.23,2566.13,"۶۴ New Aftermarket؛ ۱ Core؛ ۱ Call For Pricing؛ ۱ Used"],
+ ["3G4768","PUMP G",2547.12,4202.75,"۴۱ New Aftermarket"],
+ ["3G5868","PUMP G",3653.77,6028.72,"۲۱ New Aftermarket؛ ۱ Call For Pricing"],
+ ["3J1907","SEAL",1.36,2.24,"۸۰ New Genuine Surplus؛ ۱۱۶٬۸۳۴ New Aftermarket"],
  ["2W4088","CRANKSHAFT",15732.62,25958.82,"۴ New Aftermarket"],
  ["2W6587","CORE A",4746.20,7831.23,"۲۳ New Aftermarket؛ ۳ Call For Pricing"],
  ["2W6593","CORE A",4687.99,7735.18,"۱۳ New Aftermarket؛ ۱ Call For Pricing"],
