@@ -259,6 +259,11 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["2120403","CONT GP-XMSN",1509.33,2490.39,"۱۲ New Aftermarket"],
+ ["2125024","CONE",1791.15,2955.40,"۱ New Genuine Surplus؛ ۳۵ New Aftermarket"],
+ ["2128177","PUMP GP-WA",2281.11,3763.83,"۷۲ New Aftermarket؛ ۴ Call For Pricing"],
+ ["2135268","MOTOR G",3660.01,6039.02,"۲ New Aftermarket؛ ۳ Call For Pricing"],
+ ["2145097","STEERING CYL",1247.99,2059.18,"۶ New Aftermarket"],
  ["2065889","A/C CONDEN",1487.33,2454.09,"۲۵ New Aftermarket"],
  ["2071517","MOTOR G",1519.79,2507.65,"۹۷ New Aftermarket"],
  ["2071556","MOTOR GP-ELE",1552.19,2561.11,"۴۵ New Aftermarket؛ ۱ Used"],
