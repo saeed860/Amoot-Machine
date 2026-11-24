@@ -259,6 +259,8 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["6255917","SUSP GP-PE",14819.55,24452.26,"۵۱ New Aftermarket"],
+ ["0S1585","BOLT-PC",1.30,2.15,"۲۰٬۹۴۵ New Aftermarket"],
  ["5845631","DISPLAY GP",2811.57,4639.09,"۳ New Genuine Surplus"],
  ["5912386","PUMP GP-DEF",1800.62,2971.02,"۱ Call For Pricing"],
  ["6072611","CONTROL GP",4139.63,6830.39,"۱ New Genuine Surplus"],
