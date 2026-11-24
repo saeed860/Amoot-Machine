@@ -147,3 +147,34 @@ Official source pages checked:
 - https://parts.cat.com/en/catcorp/category/hw-seals-consumables-foam-insulation-liners
 
 Database checkpoint: 10/10 rows verified in `public.part_catalog`; official specifications stored for 8 rows, 2 rows have no published specifications; all 10 have empty compatible-model arrays because Cat's public pages state that compatibility is unavailable. No image URL or fitment was invented. The generic Scene7 fallback URL already present on these records was not changed in this batch.
+
+
+### Batch 002/010 — completed (10/10)
+| Part number | Official Cat identity | Official data captured | Compatible models |
+|---|---|---|---|
+| 000-5596 | Stud | Cat page publishes no specifications | Not published |
+| 000-5677 | Retainer | Alloy Mixed: Metal | Not published |
+| 000-5678 | Spring | Alloy Mixed: Metal | Not published |
+| 000-5683 | Bushing | Sleeve ID 1.22 in; OD 1.502 in; overall length 1.203 in; alloy mixed metal / bronze; no cross holes; no unique features | Not published |
+| 000-5710 | Stud | No specifications exposed in retrieved product page | Not published |
+| 000-5732 | Gasket | Product page retrieved; no technical data or compatibility exposed in returned content | Not published |
+| 036-1865 | Zinc Plated Heat Exchanger Radiator Cap | Cat cap for radiators/hydraulic oil coolers; direct OEM replacement; gasket diameter 36.85 (unit not stated); official product photo | 163 model identifiers captured from Cat's public list |
+| 095-0670 | M12-1.75 × 45 mm Hex Socket Head Bolt | RH; alloy steel/alloy zinc; 0.207 in grip; socket head; ISO 898-1 Class 12.9; 1.772 in length; Cat matched-fastener system description | Extensive list not fully captured; no new fitment list inserted |
+| 097-7404 | DM Bulk Tube | Material: Other Hose | 41 model identifiers; 29 engine-model identifiers |
+| 0R-0916 | Cat 3408 Reman Connecting Rod (Wide Taper) | Cat Reman; core inspection/cleaning, new rod bushings and load test described by Cat; official product photo | 90 model identifiers; 14 engine-model identifiers |
+
+Official Cat sources checked:
+- https://parts.cat.com/en/catcorp/product/000-5596
+- https://parts.cat.com/en/catcorp/product/000-5677
+- https://parts.cat.com/fr/catcorp/product/000-5678
+- https://parts.cat.com/en/catcorp/product/000-5683
+- https://parts.cat.com/en/catcorp/product/000-5710
+- https://parts.cat.com/en/catcorp/product/000-5732
+- https://parts.cat.com/en/catcorp/product/036-1865
+- https://parts.cat.com/en/catcorp/product/095-0670
+- https://parts.cat.com/en/catcorp/product/097-7404
+- https://parts.cat.com/en/catcorp/product/0R-0916
+- https://parts.cat.com/en/catcorp/category/hw-seals-consumables-hardware
+- https://parts.cat.com/en/catcorp/category/pins-dowel
+
+Database checkpoint: all 10 rows updated in `public.part_catalog`; 036-1865, 095-0670 and 0R-0916 have verified Cat product photos captured from official Scene7 image links; no image was fabricated. 095-0670's public compatible-model list is unusually long and remains unmodified rather than storing a partial list. 0R-0916 remains clearly classified as Cat Reman, not standard new Cat; core-return requirements must be disclosed at order time. All imported rows remain REFERENCE pending serial-specific SIS confirmation.
