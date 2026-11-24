@@ -531,7 +531,7 @@
         inventory:price[4],observedAt:'2026-11-24'
       }:null
     };
-  }).filter(x=>x.sku&&x.description);
+  }).filter(x=>x.sku&&x.description&&x.priceReference);
   const priceOnly=offRoadPriceRows.filter(p=>!rows.some(r=>r.sku.replace(/[^A-Z0-9]/g,'')===p[0].replace(/[^A-Z0-9]/g,''))).map(p=>{
     const [category,technicalGroup,image]=classifyOffRoadPart(p[1]);
     return {
