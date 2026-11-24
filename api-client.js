@@ -259,6 +259,10 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["7W5455","CORE A",5203.16,8585.21,"۳ New Aftermarket"],
+ ["7Y1508","MUFFLER",1307.39,2157.19,"۲ New Aftermarket؛ ۲ Used"],
+ ["8E2748","HUB",2512.16,4145.06,"۶۳ New Aftermarket"],
+ ["8E2837","SHAFT",21634.29,35696.58,"۳۰ New Aftermarket؛ ۱ Call For Pricing"],
  ["7W0491","CORE A",3942.88,6505.75,"۱۰ New Aftermarket؛ ۲ Used"],
  ["7W2203","HEAD GP",7264.89,11987.07,"۱۹ New Aftermarket"],
  ["7W2243","HEAD A 3412",4467.26,7370.98,"۱ New Aftermarket - Less Than Perfect؛ ۱۲ New Aftermarket"],
