@@ -1307,3 +1307,35 @@ Official Cat pages checked:
 - https://parts.cat.com/en/catcorp/product/128-8614
 
 Database checkpoint: all 10 rows verified. Existing exact official images retained for 8 products; the adapter and exhaust-kit fallback images were deliberately omitted. Overall manual progress: 19/50 batches, 190/500 SKUs.
+
+
+## Batch 20/50 — SKUs 191–200 (130-5789 through 140-9545)
+
+All ten official Cat product pages were opened and reviewed; all ten Supabase rows were query-verified. One record (135-9349) was further enriched with the full official cutting-edge specifications and source note. Images were not added where Cat exposed only a fallback or 80px thumbnail.
+
+| SKU | Official identity / verified detail | Image treatment |
+|---|---|---|
+| 130-5789 | Cat Fuel Injection Pump; 24.0 × 9.2 in; computer-tested at 20 quality points, 12-month warranty; 3406B/C, SM-350, RM-350 and PM-465 | Gallery link resolves to 80px image; omitted |
+| 131-5459 | Cat Control Assembly; Cat publishes no description/specs; fitment includes 3512/3512B, 3508/3508B, 3516/3516B, 3412C, SR4, PP3516, marine auxiliary and G3612/G3616/G3406 | Fallback image; omitted |
+| 134-2679 | Cat Front Bogie Assembly; alloy/structural steel; D9T/D9/D9R/D9N/D9 GC, ripper 9, bulldozer 9SU/9U and winch 59N/58/58L/59L | Existing exact official image retained |
+| 134-2680 | Cat Rear Bogie; alloy/structural steel; same D9-family, ripper, bulldozer and winch application list | Existing exact official image retained |
+| 134-5402 | Cat Engine Turbocharger; A/R 0.81, 111 mm turbine wheel, 118 mm compressor wheel; 15.9 × 14.3 in; 3508/3512/3516 and SR4/G3512 applications | Existing exact official image retained |
+| 135-9349 | Cat 1216.8 mm Flat Cutting Edge for Motor Grader 24H/24M/24; DH2 boron steel, 2.362 in thick, 47.906 in long, 15.984 in wide, 9 bolt holes, 6 in spacing | Existing exact official image retained; full spec set updated in DB |
+| 139-2016 | Cat Upper Track Roller Frame Guard; reduces material flow around idler through link-roller system; D11R/D11T/D11 XE/D11 | Existing exact official image retained |
+| 139-2019 | Cat Rubber Idler Front Guard; rubber with steel plating, 11.84 × 15.75 × 1.57 in, 0.98 in thick; D11R/D11T/D11 XE/D11 | Existing exact official image retained |
+| 140-4238 | Cat Radiator Coolant Recovery Tank Cap; 2.185 in long, 6.122 in high, 0.37 in tube diameter; mini hydraulic excavators and compact wheel loaders | Existing exact official image retained |
+| 140-9545 | Cat Fuel Cooler Core; cools fuel before engine, improves density/combustion and helps prevent vapor lock; C18 generator set, C18/3406E marine and C18 petroleum package | Existing exact official image retained |
+
+Official Cat pages checked:
+- https://parts.cat.com/en/catcorp/product/130-5789
+- https://parts.cat.com/en/catcorp/product/131-5459
+- https://parts.cat.com/en/catcorp/product/134-2679
+- https://parts.cat.com/en/catcorp/product/134-2680
+- https://parts.cat.com/en/catcorp/product/134-5402
+- https://parts.cat.com/en/catcorp/product/135-9349
+- https://parts.cat.com/en/catcorp/product/139-2016
+- https://parts.cat.com/en/catcorp/product/139-2019
+- https://parts.cat.com/en/catcorp/product/140-4238
+- https://parts.cat.com/en/catcorp/product/140-9545
+
+Database checkpoint: all 10 rows verified; 135-9349 full specifications and source evidence updated. Existing exact images retained for seven records; no fallback/low-resolution images assigned for 130-5789 or 131-5459. Overall manual progress: 20/50 batches, 200/500 SKUs.
