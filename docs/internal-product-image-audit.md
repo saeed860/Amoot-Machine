@@ -33,3 +33,14 @@
 3. تصاویر عمومی موجود تا زمان یافتن تصویر دقیق، صرفاً نقش تصویر گروه قطعه را دارند.
 4. تصویر فروشنده، وضعیت موجودی، اصالت کالا یا سازگاری فنی را اثبات نمی‌کند.
 5. برای توسعه نگاشت تصاویر، ابتدا منابع رسمی Cat و سپس فروشندگان تخصصی با شماره فنی دقیق بررسی شوند.
+
+
+## Homepage hero carousel image sources (2026-11-24)
+
+The homepage hero keeps the existing local image `assets/hero-excavator.jpg` as slide 1. Other slides use source-hosted optimized image variants; these are not yet vendored into the repository because binary downloads were unavailable in this editing session.
+
+- Slide 2 — Iran Khazar jack-up drilling rig, Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Jack-up-rig-in-the-caspian-sea.JPG — CC BY-SA 3.0 (and GFDL notice on file page); attribution to the source as documented there. Resized Wikimedia thumbnail used.
+- Slide 3 — OSV Cape Cod, Wikimedia Commons: https://commons.wikimedia.org/wiki/File:OSV_Cape_Cod.jpg — CC0 1.0, author GuavaTrain. Wikimedia file delivery with width parameter used.
+- Slide 4 — Cat 3516 industrial diesel engine, official Caterpillar Scene7 media: https://www.cat.com/en_GB/products/new/power-systems/industrial/industrial-diesel-engines/18397893.html and https://s7d2.scene7.com/is/image/Caterpillar/C831222 — official product image delivered as constrained WebP.
+
+The carousel fades between slides and retains its 5.5-second automatic rotation plus manual controls. External image delivery still depends on the source hosts; for fully self-hosted operation, obtain and commit the licensed image binaries with their attribution records.
