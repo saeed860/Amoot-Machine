@@ -1670,3 +1670,57 @@ Official Cat pages checked:
 - https://parts.cat.com/en/catcorp/product/20R-3623
 
 Database checkpoint: all ten rows queried; nine official fitment field updates were re-queried successfully. Overall reviewed progress: 30/500 batches, 300/5,000 products.
+
+
+## Batch 31/500 — SKUs 301–310 (20R-3666 through 20R-4292)
+
+All ten Cat Parts Store product pages were opened and all ten Supabase rows were queried. Official model-compatibility data was checked against the page-level Compatible Models sections. Two database corrections were made and re-queried:
+- 20R-4147: added official compatible model 3412E (Marine Engine). The Cat page also confirms dimensions 14.2 in length × 5.3 in height.
+- 20R-4195: replaced the empty compatible-model array with the official model list: C18 GEN SE, C18 GENSET, C18, 657E, 631K, 651E, 657, 637K, 740, PM620, PM622, PM820, PM825, PM822, MH3295, 834K, 836K, 988K XE, 988K, D9T, POWER SYS, 745C, 745, 740C, MD6200, 772G, 772G OEM, 390F, 390F L, CX31-C18I, CX35-C18I. Cat page does not publish structured dimensions/specifications for this part.
+- 20R-3666: official Cat page confirms kit component 582-7467 ×1 and a large fitment list across wheel tractors/scrapers, LHD, graders, loaders, track tractors, articulated trucks, pipelayers, industrial engines, excavators, petroleum packages and mobile hydraulic power units. Existing DB fitment was reviewed against this page.
+- 20R-3915: official compatible models include D1500, 775G/775F/773G/773F/777G/777F, 854K/844K, 24, 990K/993K/992K/992.
+- 20R-4263/4264: C175-16 common-rail fuel rail RH/LH. Official applications include C175-16 generator, truck 793F/795F AC/794 AC variants, off-highway 796 AC/798 AC; 4264 additionally lists marine and industrial engine applications.
+- 20R-4266/4267: C175-20 common-rail fuel rail RH/LH; official fitment C175-20 generator set and 797F/797/797B trucks.
+- 20R-4277: 3406C reman complete long block; Cat fitment D8R/D8R II, 621E/F, 623E/F/B, 627E/F, 825G, 824G/824G II, 826G/826G II, 980G/980G II.
+- 20R-4292: G3306 auxiliary fresh-water pump; official fitment G3306 generator set, XQG135 power module, G3304/G3306B/G3306 gas engines and G3306B petroleum gen set.
+- 20R-4147: Cat Reman basic injector for 3408/3412; Cat's actual Compatible Models section lists Marine Engine 3412E only. Kept engine family separately and added only the published compatible model.
+
+Official Cat pages checked:
+- https://parts.cat.com/en/catcorp/product/20R-3666
+- https://parts.cat.com/en/catcorp/product/20R-3915
+- https://parts.cat.com/en/catcorp/product/20R-4147
+- https://parts.cat.com/en/catcorp/product/20R-4195
+- https://parts.cat.com/en/catcorp/product/20R-4263
+- https://parts.cat.com/en/catcorp/product/20R-4264
+- https://parts.cat.com/en/catcorp/product/20R-4266
+- https://parts.cat.com/en/catcorp/product/20R-4267
+- https://parts.cat.com/en/catcorp/product/20R-4277
+- https://parts.cat.com/en/catcorp/product/20R-4292
+
+Database checkpoint: all ten rows queried; corrections for 20R-4147 and 20R-4195 were re-queried successfully. Overall reviewed progress: 31/500 batches, 310/5,000 products.
+
+## Additional part-number discovery sources and source policy
+
+The search strategy is now explicitly multi-source; sources below are for discovering candidate numbers and cross-references, not automatic proof of genuine Cat status or machine fitment.
+
+1. Off Road Equipment — https://offroadeq.com/parts
+   - Public page advertises 500 frequently searched Caterpillar part numbers and links to its full inventory search. It describes its inventory as a mix of genuine surplus OEM and aftermarket parts; its legal/about pages state it is not an authorized Caterpillar dealer. Use the public 500 list and individual item details as independent discovery leads only. Full inventory search is gated behind account/login.
+   - Search page: https://offroadeq.com/search (supports batch import/search; access requires login).
+2. Tractorparts.com Cat interchange database — https://www.tractorparts.com/interchanges.php?table=Cat_Part
+   - Independent Cat part-number/interchange lookup. The site explicitly says its database is in a test phase and warns that entries can contain errors. Use as an unverified cross-reference lead, not fitment authority.
+3. ConEquip parts books — https://www.conequip.com/parts-books
+   - Independent parts-book/diagram assistance covering Caterpillar and other heavy-equipment makes; useful to discover OEM reference numbers from illustrated assemblies and equipment breakdowns.
+4. Cat public Parts Reference Guides — https://www.cat.com/en_US/support/maintenance/parts-reference-guides.html
+   - Model-family reference guides can seed candidate part numbers by equipment family.
+5. Cat Parts Store cross-reference — https://parts.cat.com/en/catcorp/cat-parts-cross-reference
+   - Official cross-reference for competitor filter numbers to Cat equivalents; use when building filter replacement/cross-reference records.
+6. Cat SIS / Parts Manuals — https://sis2.cat.com/ and https://parts.cat.com/en/catcorp/parts-diagram
+   - High-authority parts diagrams and serial-number-based lookup. Access to detailed SIS content may require account/dealer access.
+
+Source-status rules:
+- Preserve a source URL, retrieval date, source class and confidence for every discovered candidate.
+- A part number found only on an independent reseller or interchange database remains `independent_candidate` / `needs_verification`.
+- Verify genuine Cat identity against Cat Parts Store, Cat parts books/SIS or a Cat dealer source before marking `cat_verified`.
+- Verify compatibility against exact model/serial-number configuration; do not infer compatibility from a broad engine-family mention.
+- Keep aftermarket, surplus, used, rebuilt and Cat Reman conditions distinct. Never convert seller inventory into an assertion of new genuine Cat stock.
+- Do not import seller prices as authoritative Cat pricing; record seller, condition, currency, date and source if later captured.
