@@ -269,7 +269,7 @@
   ];
   const supplierMapped=mapped.map(p=>{const r=supplierPriceRows.find(x=>x.sku.toUpperCase()===String(p.sku||'').toUpperCase());return r?{...p,priceReference:{source:r.source,sourceUrl:r.sourceUrl,basis:r.basis,amount:r.amount,currency:r.currency,amootAmount:r.amootAmount,amootCurrency:'USD',fxToUsd:r.fxToUsd,fxDate:r.fxDate,sourceAmountUsd:r.sourceAmountUsd,factor:1.65,availability:r.availability,observedAt:'2026-11-24'}}:p});
 
-  const offRoadCatalogText = \`
+  const offRoadCatalogText = `
 813967|(see details)
 1003259|PUMP G
 1004095|CARTRIDG
@@ -770,8 +770,8 @@
 9W1723|PUMP G
 9W7095|CONE
 9W9310|PUMP G
-\`;
-  const offRoadCatalogRows=offRoadCatalogText.trim().split('\\n').map(line=>{const [sku,...name]=line.split('|');return {sku:sku.trim(),description:name.join('|').trim()}}).filter(x=>x.sku&&x.description);
+`;
+  const offRoadCatalogRows=offRoadCatalogText.trim().split('\n').map(line=>{const [sku,...name]=line.split('|');return {sku:sku.trim(),description:name.join('|').trim()}}).filter(x=>x.sku&&x.description);
   const classifyOffRoadPart=(d)=>{
    const x=String(d).toUpperCase();
    if(/FILTER|ELEMENT FU|GASKET|SEAL|RING|WASHER|BOLT|NUT|STUD|FITTING|SPRING/.test(x))return ['فیلتر و مصرفی','قطعات مصرفی و اتصالات','./assets/product-filter.jpg'];
