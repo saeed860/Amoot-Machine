@@ -323,7 +323,7 @@ Official Cat sources checked:
 - https://parts.cat.com/en/catcorp/product/0R-9200
 - https://parts.cat.com/en/catcorp/category/water-pumps-components-sea-water-pumps
 
-Database checkpoint: all 10 rows checked; 8 were enriched with verified public Cat details and 2 discontinued records (0R-7895, 0R-7904) deactivated. Five exact official product images linked (0R-7892, 0R-8210, 0R-8385, 0R-8787, 0R-9043, 0R-9200 = 6 image links); 0R-8200 image thumbnail was too small/ambiguous and 0R-8502 returned fallback only, so neither was assigned an image. 0R-7904 English page was inaccessible, but Cat's official Italian page confirmed retired status, recommended C32 and compatibility list. All Cat Reman core and warranty terms remain dealer-confirmation items. Model data remains catalog reference, not serial-number-confirmed fitment.
+Database checkpoint: all 10 rows checked; 8 were enriched with verified public Cat details and 2 discontinued records (0R-7895, 0R-7904) deactivated. Six exact official product images linked (0R-7892, 0R-8210, 0R-8385, 0R-8787, 0R-9043, 0R-9200 = 6 image links); 0R-8200 image thumbnail was too small/ambiguous and 0R-8502 returned fallback only, so neither was assigned an image. 0R-7904 English page was inaccessible, but Cat's official Italian page confirmed retired status, recommended C32 and compatibility list. All Cat Reman core and warranty terms remain dealer-confirmation items. Model data remains catalog reference, not serial-number-confirmed fitment.
 
 
 ### Batch 008/010 — completed (10/10)
@@ -707,3 +707,35 @@ Official Cat sources checked:
 - https://parts.cat.com/en/catcorp/product/128-8614
 
 Database checkpoint: all 10 records updated and verified. Two exact official images newly linked (121-2630, 127-2176); existing exact images retained for 126-1768, 126-8588, 128-4414, 128-7256 and 128-8614. No fallback kit/adapter images assigned. Overall manual progress: 19/50 batches, 190/500 SKUs.
+
+
+## Batch 20/50 — SKUs 191–200 (130-5789 through 140-9545)
+
+All ten official Cat product pages were reviewed; all ten Supabase rows were updated and query-verified.
+
+| SKU | Official identity / captured detail | Image / fitment treatment |
+|---|---|---|
+| 130-5789 | Cat Fuel Injection Pump Group; 24.0 × 9.2 in; compatible 3406B/3406C, SM-350, RM-350 and PM-465 | Gallery resolved to a cylinder-head asset, not a verified pump; no image assigned |
+| 131-5459 | Cat Control Assembly; no function/specification published; 3512/3508/3516/3412C generator, SR4, PP3516, marine auxiliary and G3612/G3616/G3406 gas-engine applications | Fallback image omitted |
+| 134-2679 | Cat Undercarriage Front Bogie Assembly; D9T/D9/D9R/D9N/D9 GC, ripper 9, bulldozer 9SU/9U and winch 59N/58/58L/59L | Existing exact official image retained |
+| 134-2680 | Cat Undercarriage Rear Bogie; alloy/structural steel; same D9-family, ripper, bulldozer and winch applications | Existing exact official image retained |
+| 134-5402 | Cat Engine Turbocharger; A/R 0.81, turbine 111 mm, compressor 118 mm; 15.9 × 14.3 in; 3508/3512/3516 generator, marine and industrial applications | Existing exact official image retained |
+| 135-9349 | Cat 1216.8 mm Cutting Edge; compatible Motor Grader 24H/24M/24 | Existing exact official image retained |
+| 139-2016 | Cat Upper Track Roller Frame Guard around idler; compatible D11R/D11T/D11 XE/D11 | Existing exact official image retained |
+| 139-2019 | Cat Rubber Idler Front Guard; rubber with steel plating and black topcoat; 11.84 × 15.75 × 1.57 in, 0.98 in thick; D11R/D11T/D11 XE/D11 | Existing exact official image retained |
+| 140-4238 | Cat Radiator Coolant Recovery Tank Cap; seals coolant recovery tank and prevents coolant loss; compatible mini excavators and compact wheel loaders | Existing exact official image retained; earlier dimensions retained but not republished on current Cat page |
+| 140-9545 | Cat Fuel Cooler Core; cools fuel before engine; C18 generator set, C18/3406E marine engines and C18 petroleum package | Exact official Scene7 image newly linked |
+
+Official Cat sources checked:
+- https://parts.cat.com/en/catcorp/product/130-5789
+- https://parts.cat.com/en/catcorp/product/131-5459
+- https://parts.cat.com/en/catcorp/product/134-2679
+- https://parts.cat.com/en/catcorp/product/134-2680
+- https://parts.cat.com/en/catcorp/product/134-5402
+- https://parts.cat.com/en/catcorp/product/135-9349
+- https://parts.cat.com/en/catcorp/product/139-2016
+- https://parts.cat.com/en/catcorp/product/139-2019
+- https://parts.cat.com/en/catcorp/product/140-4238
+- https://parts.cat.com/en/catcorp/product/140-9545
+
+Database checkpoint: all 10 records updated and verified. One exact official product image newly linked (140-9545); existing exact images retained for 134-2679, 134-2680, 134-5402, 135-9349, 139-2016, 139-2019 and 140-4238. No fallback or mismatched images assigned. Overall manual progress: 20/50 batches, 200/500 SKUs. This is the first 200-SKU milestone; next checkpoint is 300 SKUs.
