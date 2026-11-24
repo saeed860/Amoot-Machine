@@ -259,6 +259,10 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["6N1030","PUMP G OIL",2203.67,3636.06,"۲۱ New Aftermarket؛ ۶ Call For Pricing"],
+ ["6N7960","CARTRIDGE",2653.42,4378.14,"۱۶ New Aftermarket"],
+ ["6N9294","ALTERNATOR G",1396.18,2303.70,"۳۹ New Aftermarket"],
+ ["6T6147","PUMP GP",6242.88,10300.75,"۱۱ New Aftermarket"],
  ["6E5024","CYLIND",4776.07,7880.52,"۱۵ New Aftermarket؛ ۱ Call For Pricing؛ ۱ Rebuilt"],
  ["6E6477","CARTRIDG",2702.88,4459.75,"۲۶ New Aftermarket"],
  ["6N0957","CORE A RAD",5385.94,8886.80,"موجودی دقیق فروشنده یافت نشد؛ قیمت OEM List موجود است"],
