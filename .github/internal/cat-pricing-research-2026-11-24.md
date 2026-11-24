@@ -1404,3 +1404,35 @@ Official Cat pages checked:
 - https://parts.cat.com/en/catcorp/product/162-7864
 
 Database checkpoint: all 10 matching rows queried and verified. Exact official images retained for nine products; fallback-only image omitted for 160-8765. Overall reviewed progress: 22/500 batches, 220/5,000 products. Current source list contains 787 unique Cat part numbers, so after exhausting that list, additional official Cat part numbers must be discovered and validated before the 5,000-product target can be met.
+
+
+## Batch 23/500 — SKUs 221–230 (163-9366 through 184-4396)
+
+All ten official Cat product pages were opened; detailed compatibility/specification sections were checked where published. All ten matching Supabase records were queried. Two records were materially enriched from the current official pages: 163-9366 gained full brake-plate dimensions, material and fitment; 165-6170 gained Cat's rubber-material specification and a 74-model verified compatibility subset. The remaining records were verified against the official descriptions and existing database values. No fallback image was introduced.
+
+| SKU | Official identity / verified detail | Image treatment |
+|---|---|---|
+| 163-9366 | Cat 2.413 mm thick outer brake separator plate; carbon steel, 144-tooth external spline, 21.25 in ID, 29.144 in OD, 0.095 in thickness; broad truck/tractor fitment including D10R, 785/773/775/789/777 families, 776/784 tractors and 992D | Exact Cat image retained; DB spec and compatible models updated |
+| 165-6170 | Cat 24.13 mm OD non-threaded engine-oil-level-gauge plug; direct OEM replacement; nitrile/NBR/HNBR/XNBR rubber; Cat publishes extensive compatibility across generator, engine, scraper, tractor, excavator, loader, dozer, truck, marine and track-type tractor families | Exact Cat image retained; DB updated with 74 verified compatible-model examples |
+| 167-1751 | Cat turbocharger water-lines tube; routes coolant through turbocharger; 0.75 in OD, steel; 3516B/3516 marine, 3516B industrial and locomotive engine applications | Exact Cat image retained |
+| 169-7372 | Cat pet ribbed round fluid-sampling bottle; 200 C-PET bottles, 4 oz each; 3/4 fill mark; polyethylene plastic, 2 in diameter, 3.5 in high, 0.046 lb; 3126/C-10/C-12/3176 engines and 637K/825H/824H/826H applications | Exact Cat image retained |
+| 169-7373 | Cat pet ribbed round fluid-sampling bottle; 200 C-PET bottles, 2.5 oz each; PVC plastic, 1.53 in diameter, 2.7 in high; Cat currently publishes no compatible-model data | Exact Cat image retained |
+| 169-8373 | Cat bottle set for non-pressurized compartment fluid sampling; 300 four-ounce bottle assemblies plus 500 cap-and-probe sets; also accepts 2.5 oz bottles; compatible Challenger, truck-engine, scraper, compactor, excavator, dozer and loader applications | No image assigned pending exact image verification |
+| 170-4007 | Cat fuel transfer pump assembly; transfers fuel from tank to engine; 7 in length and 7 in height; compatible 3406C/3412/3512/3512B/3508B/3516/3516B/3508/3412C genset engines, PM3508/PM3516/PM3412/PM3512 power modules and G3516 gas engine | Exact Cat image retained |
+| 177-9343 | Cat probe and cap set for fluid sampling from non-pressurized compartments; bottles not included; compatible with 4 oz and 2.5 oz bottles; two tapered cap holes and clear probe tube; Cat-listed 3126/C-10/C-12/3176, 637K, 825H, 824H and 826H applications | No image assigned pending exact image verification |
+| 184-4395 | Cat short-center roller guard; both sides of frame and both-side position; boron/low-alloy steel; HDXL/HD undercarriage systems; D8/D9 track-type tractors, 3508B genset and PL83/PL87/583/587 pipelayers | Exact Cat image retained |
+| 184-4396 | Cat steel undercarriage roller guide; D10N/D10R/D10T2/D10/D10T and 589 pipelayer | Exact Cat image retained |
+
+Official Cat pages checked:
+- https://parts.cat.com/en/catcorp/product/163-9366
+- https://parts.cat.com/en/catcorp/product/165-6170
+- https://parts.cat.com/en/catcorp/product/167-1751
+- https://parts.cat.com/en/catcorp/product/169-7372
+- https://parts.cat.com/en/catcorp/product/169-7373
+- https://parts.cat.com/en/catcorp/product/169-8373
+- https://parts.cat.com/en/catcorp/product/170-4007
+- https://parts.cat.com/en/catcorp/product/177-9343
+- https://parts.cat.com/en/catcorp/product/184-4395
+- https://parts.cat.com/en/catcorp/product/184-4396
+
+Database checkpoint: all 10 rows queried; 163-9366 and 165-6170 updated and re-queried successfully. Exact official images retained for eight products; no unverified image assigned for 169-8373 or 177-9343. Overall reviewed progress: 23/500 batches, 230/5,000 products.
