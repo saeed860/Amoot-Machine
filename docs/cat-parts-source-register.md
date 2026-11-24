@@ -17,6 +17,15 @@ See [Off Road Equipment pricing-source assessment](offroadeq-pricing-source.md) 
 | [engine.od.ua CAT manuals](https://engine.od.ua/cat-download-free) | Public sample contents pages for CAT parts manuals, technical documents and engine/system references | Third-party library/host. Samples are excerpts, not complete catalogs. Preserve media number, edition/date, serial scope, page and group; verify fitment against Cat sources before promotion |
 | [BinUnlock Caterpillar manual library](https://binunlock.com/r/caterpillar-engines-and-machines-service-manual-library.418/) | Discovery of candidate parts manuals, prefix-specific wiring diagrams, marine/generator service manuals and technical references across C7/C9/C15/C18/C32/3400/3500 families and machines | Third-party forum archive; download requires sign-in and files are hosted on external cloud links. The post disclaims authorship/ownership and does not independently establish document provenance, revision, completeness or permission to redistribute. Treat every file as unverified until its publication number, revision, serial scope and contents are inspected; do not bulk-copy or republish manuals |
 | [MashinYar](https://mashinyarco.ir/) | Persian-language repair training, diagnostics and expert/technical context | Not a public CAT parts catalog; do not harvest part-number fitment from course descriptions |
+| [Off Road Equipment](https://offroadeq.com/) | Supplier lead and public popular-parts index (500 part numbers); detail pages expose OEM list-price benchmarks and inventory-condition labels | Actual unit prices are hidden behind login. Do not treat OEM list price as supplier sale price or calculate the 65% margin from it. Use authorized supplier quotations/exports; record condition, currency, quantity and timestamp separately |
+
+
+
+See [Off Road Equipment pricing-source assessment](offroadeq-pricing-source.md) and [price-import template](../offroadeq-price-import-template.csv). Tested public overlap: 116-1980. Public page showed OEM List Price USD 2,024.61 but hid actual unit prices for New Aftermarket, Call For Pricing and Used inventory. No price or stock was imported.
+
+## Off Road Equipment pricing-source assessment (24 Nov 2026)
+
+See the dedicated [pricing-source assessment](offroadeq-pricing-source.md). The public 1161980 detail page reports OEM List Price USD 2,024.61, while supplier unit prices are login-gated. This value is not the supplier price and must not be marked up by 65% as though it were. No live prices or inventory were changed.
 
 ## BinUnlock library assessment (24 Nov 2026)
 
