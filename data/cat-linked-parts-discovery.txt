@@ -723,3 +723,28 @@ Source pages:
 253-1752 | 5.73mm Thick Crankshaft Thrust Plate | Cat Parts Store frequently bought together with 4W-7019 injector nozzle | cat_linked_candidate; needs_individual_verification
 4N-7253 | 4.8mm Thick Cylinder Head Chamber Gasket | Cat Parts Store frequently bought together with 4W-7019 injector nozzle | cat_linked_candidate; needs_individual_verification
 317-8766 | 131.29mm OD Steel Backed Copper Lead Main Bearing | Cat Parts Store frequently bought together with 4W-7019 injector nozzle | cat_linked_candidate; needs_individual_verification
+
+20R-3163 | Cat Reman Turbocharger | Cat Parts Store Compare Alternate Parts for 4W-7637 turbocharger | cat_linked_candidate; needs_individual_verification
+580-5439 | Standard Efficiency Cabin Air Filter | Cat Parts Store frequently bought together with 500-0957 cabin filter | cat_linked_candidate; needs_individual_verification
+523-4987 | Element-Separator | Cat Parts Store related item for 500-0957 cabin filter | cat_linked_candidate; needs_individual_verification
+505-4010 | Advansys 110 Heavy Penetration Loader Bucket Tip | Cat Parts Store related part for 505-4113 bucket tip | cat_linked_candidate; needs_individual_verification
+505-4012 | Advansys 110 Heavy-Duty Loader Bucket Tip | Cat Parts Store related part for 505-4113 bucket tip | cat_linked_candidate; needs_individual_verification
+505-4110 | Advansys 110 Wide Excavator Bucket Tip | Cat Parts Store related part for 505-4113 bucket tip | cat_linked_candidate; needs_individual_verification
+505-4114 | Advansys 110 Spike Excavator Bucket Tip | Cat Parts Store related part for 505-4113 bucket tip | cat_linked_candidate; needs_individual_verification
+505-4115 | Advansys 110 Double Spike Excavator Bucket Tip | Cat Parts Store related part for 505-4113 bucket tip | cat_linked_candidate; needs_individual_verification
+505-4116 | Advansys 110 General Purpose Excavator Bucket Tip | Cat Parts Store related part for 505-4113 bucket tip | cat_linked_candidate; needs_individual_verification
+505-4160 | Advansys 110 Bucket Adapter | Cat Parts Store parts diagram for 505-4113 bucket tip | cat_linked_candidate; needs_individual_verification
+505-4161 | Advansys 110 Bucket Adapter | Cat Parts Store parts diagram for 505-4113 bucket tip | cat_linked_candidate; needs_individual_verification
+505-4162 | Advansys 110 Bucket Adapter | Cat Parts Store parts diagram for 505-4113 bucket tip | cat_linked_candidate; needs_individual_verification
+456-7043 | Capsure Retainer Lock | Cat Parts Store parts diagram for 505-4113 bucket tip | cat_linked_candidate; needs_individual_verification
+322-3155 | Advanced Efficiency Lube Filter Assembly | Cat Parts Store related item for 509-5694 secondary fuel filter | cat_linked_candidate; needs_individual_verification
+479-8989 | Primary Ultra High Efficiency Engine Air Filter | Cat Parts Store related item for 509-5694 secondary fuel filter | cat_linked_candidate; needs_individual_verification
+479-8991 | Secondary Standard Efficiency Engine Air Filter | Cat Parts Store related item for 509-5694 secondary fuel filter | cat_linked_candidate; needs_individual_verification
+6V-8260 | 123.42mm Inside Diameter Seal-O-Ring | Cat Parts Store frequently bought together with 511-7975 fuel injection pump | cat_linked_candidate; needs_individual_verification
+214-7568 | STOR O-Ring Seal (SAE 9/16-18) | Cat Parts Store frequently bought together with 511-7975 fuel injection pump | cat_linked_candidate; needs_individual_verification
+214-7567 | 1.83 x 10.52mm 90A FKM O-Ring | Cat Parts Store frequently bought together with 511-7975 fuel injection pump | cat_linked_candidate; needs_individual_verification
+238-5080 | 2.21 x 16.36mm 90A FKM O-Ring | Cat Parts Store frequently bought together with 511-7975 fuel injection pump | cat_linked_candidate; needs_individual_verification
+251-7757 | Track Seal | Cat Parts Store frequently bought together with 516-2634 track bolt | cat_linked_candidate; needs_individual_verification
+257-3604 | Track Pin | Cat Parts Store frequently bought together with 516-2634 track bolt | cat_linked_candidate; needs_individual_verification
+609-0880 | Link Assembly | Cat Parts Store frequently bought together with 516-2634 track bolt | cat_linked_candidate; needs_individual_verification
+250-3998 | Track Seal | Cat Parts Store frequently bought together with 516-2634 track bolt | cat_linked_candidate; needs_individual_verification
