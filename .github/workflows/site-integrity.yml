@@ -55,7 +55,7 @@ jobs:
           grep -q "api('/api/me/password'" api-client.js
           grep -q "const serverRows=Array.isArray(rows)?rows:[]" app.js
           grep -q "seed.filter(p=>!known.has(p.sku||String(p.id)))" app.js
-          grep -q "const seed=(window.AMOOT_OFFROAD_CATALOG||\[\])" app.js
+          grep -Fq "const seed=(window.AMOOT_OFFROAD_CATALOG||[])" app.js
           grep -q "category=document.querySelector('.cat.active')" api-client.js
           grep -q "String(z.id)===String(x.productId)" cart.js
           grep -q "price:p.priceIrr===null?0:Number(p.priceIrr)/10" api-client.js
