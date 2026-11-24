@@ -259,6 +259,11 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["1494915","COMPR GP-B",2884.96,4760.18,"۲۶ New Aftermarket"],
+ ["1507585","PUMP GP-GR",1951.11,3219.33,"۱۱ New Aftermarket"],
+ ["1515911","MANIFOLD A",3953.28,6522.91,"در صفحه عمومی موجودی دقیق یافت نشد"],
+ ["1519385","MONITOR GP",3804.27,6277.05,"۹ New Aftermarket؛ ۱ Used"],
+ ["1539624","PUMP GP-PS",7781.23,12839.03,"۲ New Aftermarket"],
  ["1417916","CARTRIDGE",2045.66,3375.34,"۱۰ New Aftermarket"],
  ["1440725","ROD AS",2372.57,3914.74,"۱۳۹ New Aftermarket؛ ۱۲ Used"],
  ["1484644","DRIVE GP",19197.19,31675.36,"۱۳ New Aftermarket"],
