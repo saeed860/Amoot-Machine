@@ -259,6 +259,9 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["6E5024","CYLIND",4776.07,7880.52,"۱۵ New Aftermarket؛ ۱ Call For Pricing؛ ۱ Rebuilt"],
+ ["6E6477","CARTRIDG",2702.88,4459.75,"۲۶ New Aftermarket"],
+ ["6N0957","CORE A RAD",5385.94,8886.80,"موجودی دقیق فروشنده یافت نشد؛ قیمت OEM List موجود است"],
  ["5P8247","WASHER-PC",1.30,2.15,"۲۹ New Genuine Surplus؛ ۴۹٬۴۶۹ New Aftermarket"],
  ["6E3524","PUMP G",2965.13,4892.46,"۲۸ New Aftermarket"],
  ["5N5692","ALTERNATOR G",1435.95,2369.32,"۱ New Genuine Surplus؛ ۷۳ New Aftermarket"],
