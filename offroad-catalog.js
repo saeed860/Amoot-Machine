@@ -524,7 +524,8 @@ const verifiedPartImages={
 const rows=offRoadCatalogText.trim().split('\n').map(line=>{
     const [sku,...name]=line.split('|');
     const description=name.join('|').trim();
-    const [category,technicalGroup,defaultImage]=classifyOffRoadPart(description);\n    const image=verifiedPartImages[sku.trim().replace(/[^A-Z0-9]/g,'')]||defaultImage;
+    const [category,technicalGroup,defaultImage]=classifyOffRoadPart(description);
+    const image=verifiedPartImages[sku.trim().replace(/[^A-Z0-9]/g,'')]||defaultImage;
     const price=offRoadPriceRows.find(x=>x[0].replace(/[^A-Z0-9]/g,'')===sku.trim().replace(/[^A-Z0-9]/g,''));
     return {
       sku:sku.trim(),description,category,technicalGroup,image,
@@ -533,7 +534,8 @@ const rows=offRoadCatalogText.trim().split('\n').map(line=>{
     };
   }).filter(x=>x.sku&&x.description&&x.priceReference);
   const priceOnly=offRoadPriceRows.filter(p=>!rows.some(r=>r.sku.replace(/[^A-Z0-9]/g,'')===p[0].replace(/[^A-Z0-9]/g,''))).map(p=>{
-    const [category,technicalGroup,defaultImage]=classifyOffRoadPart(p[1]);\n    const image=verifiedPartImages[p[0].replace(/[^A-Z0-9]/g,'')]||defaultImage;
+    const [category,technicalGroup,defaultImage]=classifyOffRoadPart(p[1]);
+    const image=verifiedPartImages[p[0].replace(/[^A-Z0-9]/g,'')]||defaultImage;
     return {
       sku:p[0],description:p[1],category,technicalGroup,image,
       offRoadCatalog:true,
