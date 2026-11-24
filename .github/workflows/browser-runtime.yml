@@ -111,6 +111,7 @@ jobs:
             await searchPage.waitForSelector('.part-detail-card',{timeout:5000});
             const searchState = await searchPage.evaluate(() => ({title:document.title,results:document.querySelectorAll('.part-detail-card').length,shown:document.querySelector('.part-number')?.textContent,availability:document.querySelector('.stock-state')?.textContent,hasInquiry:!!document.querySelector('[data-open-quote]'),image:document.querySelector('.part-image')?.src,dimensions:document.querySelector('.part-spec-grid')?.textContent||''}));
             checks.push({mode:'parts-search',state:searchState,queries:searched,errors:searchErrors});
+            console.log('Parts search diagnostic',JSON.stringify({searchState,queries:searched,errors:searchErrors}));
             if (searchState.results!==1 || !searchState.shown.includes('392-0217') || !searchState.availability.includes('کاتالوگ') || !searchState.hasInquiry || !searchState.image.includes('caterpillar.scene7.com') || !searchState.dimensions.includes('14.8') || searched[0]!=='3512CB' || searchErrors.length) throw new Error('Parts search inventory card failed runtime test');
             let quotePayload=null;
             await searchPage.route('**/functions/v1/store-api/api/quotes',async route=>{
