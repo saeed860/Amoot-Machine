@@ -21,8 +21,10 @@ for (const row of checkpoint) {
 }
 const completedFromCheckpoint = results.filter(Boolean).length;
 console.log(`Cat batch ${batchStart + 1}-${batchStart + partNumbers.length}/${allPartNumbers.length}; resuming ${completedFromCheckpoint}/${partNumbers.length}`);
-const browser = await chromium.launch({ headless: true, args: ["--disable-http2", "--disable-quic"] });
+const browser = await chromium.launch({ headless: true });
 let cursor = 0;
+let consecutiveNavigationFailures = 0;
+let abortBatch = false;
 let saved = 0;
 let saveChain = Promise.resolve();
 async function saveCheckpoint() {
@@ -106,10 +108,10 @@ function updateSql(row) {
 
 async function worker() {
   const page = await browser.newPage({ viewport: { width: 1365, height: 1000 } });
-  page.setDefaultNavigationTimeout(15000);
+  page.setDefaultNavigationTimeout(45000);
   while (true) {
     const i = cursor++;
-    if (i >= partNumbers.length) break;
+    if (i >= partNumbers.length || abortBatch) break;
     if (results[i]) continue;
     const sku = partNumbers[i];
     const url = "https://parts.cat.com/en/catcorp/product/" + encodeURIComponent(sku);
@@ -120,21 +122,22 @@ async function worker() {
       // requests open and previously caused every page navigation to time out.
       let response = null;
       let lastError = null;
-      for (let attempt = 1; attempt <= 2; attempt++) {
+      for (let attempt = 1; attempt <= 3; attempt++) {
         try {
-          console.log(`[NAV] ${sku} attempt ${attempt}/2`);
-          response = await page.goto(url, { waitUntil: "commit", timeout: 12000 });
-          if (response && response.status() >= 500 && attempt < 2) {
-            await page.waitForTimeout(800 * attempt);
+          console.log(`[NAV] ${sku} attempt ${attempt}/3`);
+          response = await page.goto(url, { waitUntil: "commit", timeout: 45000 });
+          if (response && response.status() >= 500 && attempt < 3) {
+            await page.waitForTimeout(1500 * attempt);
             continue;
           }
           break;
         } catch (e) {
           lastError = e;
-          if (attempt < 2) await page.waitForTimeout(1000 * attempt);
+          if (attempt < 3) await page.waitForTimeout(2500 * attempt);
         }
       }
       if (!response && lastError) throw lastError;
+      consecutiveNavigationFailures = 0;
       row.httpStatus = response?.status() ?? null;
       await page.locator("body").waitFor({ state: "attached", timeout: 10000 });
       // Allow the client-rendered product metadata to hydrate after the initial response.
@@ -149,7 +152,16 @@ async function worker() {
         Object.assign(row, parsed);
         row.status = row.httpStatus === 200 ? "PAGE_OK" : "HTTP_ERROR";
       }
-    } catch (e) { row.error = e.message; }
+    } catch (e) {
+      row.error = e.message;
+      if (/page\.goto: Timeout|net::ERR_|ERR_CONNECTION|ERR_TUNNEL|ERR_NAME_NOT_RESOLVED/i.test(row.error)) {
+        consecutiveNavigationFailures++;
+        if (consecutiveNavigationFailures >= 3) {
+          abortBatch = true;
+          console.error(`[CIRCUIT BREAKER] ${consecutiveNavigationFailures} consecutive navigation/network failures; stopping batch to avoid 100 identical failures.`);
+        }
+      }
+    }
     results[i] = row;
     saveChain = saveChain.then(saveCheckpoint);
     await saveChain;
@@ -157,7 +169,7 @@ async function worker() {
   }
   await page.close();
 }
-try { await Promise.all(Array.from({ length: 2 }, () => worker())); }
+try { await Promise.all(Array.from({ length: 1 }, () => worker())); }
 finally { await browser.close(); }
 
 const enriched = results.filter(r => r.status === "PAGE_OK" && (r.description || Object.keys(r.specifications).length || r.compatibleModels.length || r.imageUrl || r.name));
@@ -177,6 +189,7 @@ const diagnostics = {
 };
 await writeFile("artifacts/cat-official-enrichment.json", JSON.stringify(diagnostics, null, 2));
 console.log("Cat extraction diagnostics", JSON.stringify(diagnostics, null, 2));
+if (abortBatch || results.some(x => !x)) throw new Error(`Cat batch stopped incomplete after network failures; no partial SQL migration will be generated. Completed ${results.filter(Boolean).length}/${partNumbers.length}.`);
 if (enriched.length < 1) throw new Error(`No official Cat pages yielded metadata in batch: ${batchStart}-${batchStart + partNumbers.length - 1}`);
 const stamp = new Date().toISOString().replace(/[-:TZ.]/g, "").slice(0,14);
 const migrationPath = `supabase/migrations/${stamp}_enrich_cat_official_page_metadata_batch_${batchStart}.sql`;
