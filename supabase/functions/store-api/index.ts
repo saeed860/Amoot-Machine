@@ -121,9 +121,10 @@ Deno.serve(async (req) => {
           if (/^[A-Z0-9]{2,20}$/i.test(modelQuery)) {
             const candidates=familyModelCandidates(modelQuery);
             searches.push(basePartsQuery().overlaps("engine_models",candidates));
+            searches.push(basePartsQuery().overlaps("compatible_models",candidates));
           }
         }
-        if (model) searches.push(basePartsQuery().overlaps("engine_models",familyModelCandidates(requestedModel)));
+        if (model) { const candidates=familyModelCandidates(requestedModel); searches.push(basePartsQuery().overlaps("engine_models",candidates)); searches.push(basePartsQuery().overlaps("compatible_models",candidates)); }
         const results=await Promise.all(searches);
         const failed=results.find(x=>x.error && x.error.code!=="42P01");
         if(failed)return fail(500,"PART_CATALOG_FAILED","جستجوی کاتالوگ پارت‌نامبر ناموفق بود.");
