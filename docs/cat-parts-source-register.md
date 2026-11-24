@@ -537,3 +537,8 @@ Exact Cat Parts Store pages confirm C18 MARINE ENGINE model-class evidence for *
 ## C18 fuel-system Off Road public-index check (24 Nov 2026)
 
 The Off Road public 500-part popular-parts index was checked for **361-5093**, **448-4451** and **448-4452**; none appears in that subset. The full supplier search remains login-gated, so no conclusion about full inventory, actual supplier price or availability is made. No Amoot price, stock or sellable SKU was changed. See [Off Road pricing-source assessment](offroadeq-pricing-source.md).
+
+
+## C18 lubrication-system official Cat follow-up (24 Nov 2026)
+
+Exact Cat Parts Store pages add model-class references for **226-1191** (one-section gear engine oil pump), **161-4113** (one-section engine oil gear pump), **20R-4330** (Cat Reman gear pump), **6I-4575** (oil-pump drive gear) and **258-9978** (engine-oil filter tube line). Each retrieved exact page lists C18 under MARINE ENGINE; all are BOTH at published model-class level. Keep 20R-4330 REMAN separate and do not assume interchangeability among pump assemblies. Full evidence and official URLs: [C18 marine source expansion](marine-engine-source-expansion.md#c18-lubrication-system-cat-parts-store-extraction--24-nov-2026). No public Cat customer prices, stock or sellable SKUs were established.
