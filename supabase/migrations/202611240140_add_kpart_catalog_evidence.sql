@@ -13,7 +13,7 @@ create table if not exists public.kpart_catalog_evidence (
   diagram_ref text,
   quantity integer check (quantity is null or quantity between 1 and 100000),
   source_name text not null default 'K-Part (third-party)',
-  source_url text not null check (source_url ~ '^https://([^/]+\\.)?k-part\\.com(/|$)'),
+  source_url text not null check ((source_url like 'https://k-part.com/%' or source_url like 'https://www.k-part.com/%')),
   source_note text,
   review_state text not null default 'CANDIDATE'
     check (review_state in ('CANDIDATE','CHECKED','REJECTED')),
