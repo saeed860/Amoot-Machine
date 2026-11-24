@@ -49,3 +49,12 @@ For an actual supplier-price batch, use a supplier quotation/export or authentic
 - Tested part 1161980: https://offroadeq.com/parts/1161980
 - Pricing/process overview: https://offroadeq.com/process
 - Company states it is not an authorized Caterpillar dealer: https://offroadeq.com/
+
+
+## Public top-500 cross-check against existing C32 marine references
+
+The public popular-parts index was checked for normalized exact matches against selected previously reviewed marine/C32 numbers:
+- **116-1980** — present; detail page examined.
+- **305-8921, 207-2422, 353-9049, 362-0801, 438-5385** — not present in the public top-500 list at the time of review.
+
+This is only a check of the public popular-parts list, not the full supplier inventory. The full inventory search is gated by sign-in; absence from the top-500 list must not be interpreted as supplier non-availability.
