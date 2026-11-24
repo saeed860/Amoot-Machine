@@ -418,3 +418,12 @@ The following extracted numbers did not return a usable exact Cat product page i
 226-5613, 358-8879, 358-9051, 361-1263, 362-0734, 366-4700, 147-0323, 7B-3235, 9X-6458, 131-3983, 353-9034, 376-0526, 586-1397, 313-8953, 313-8951, 313-9206, 315-3574, 315-5495.
 
 **Reconciliation note:** Cat compatible-model lists support model-class application, while K-Part supplies the observed assembly, diagram and quantity. Neither alone certifies a particular engine serial/Arrangement. Final order fitment still requires SIS/Cat serial-specific lookup. No row in this batch was promoted to sellable inventory; no price or stock quantity was created.
+
+
+## Additional marine engine coverage — C18 / C15 (24 Nov 2026)
+
+The OEM C18/C15 discovery pass and exact Cat Parts Store model-class findings are documented in [marine-engine-source-expansion.md](marine-engine-source-expansion.md). The public C18 Marine Engine parts-diagram entry point is available; C15 Marine Engine entry point is published but returned a temporary technical error in this pass. Exact Cat product pages confirm multiple C18/C15 Marine Engine model-class matches, but serial/Arrangement-specific fitment remains mandatory. The note also records title/model mismatches to prevent false C15 tagging.
+
+## K-Part C32 candidate artifact reconciliation (24 Nov 2026)
+
+The retained GitHub Actions artifact kpart-c32-marine-groups (run [45357078431](https://github.com/saeed860/Amoot-Machine/actions/runs/45357078431), artifact ID 14903007171) was downloaded and independently recounted: **58 numbered rows**, **57 unique part numbers**, across four successfully loaded component tables (SDN 361-1283: 27; SDN 207-2422: 2; SDN 305-8921: 27; RSD 207-2422: 2). Part **175-7060** occurs twice in separate SDN/RSD evidence scopes and must remain two records. Four other requested groups timed out and contributed zero rows. All 58 remain third-party K-Part CANDIDATE evidence; no database ingestion, sellable SKU, price or stock update is claimed.
