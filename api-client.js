@@ -259,6 +259,10 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["8W1751","BRACKET A",2711.44,4473.88,"۱۰۱ New Aftermarket"],
+ ["8X0573","PIN",1530.42,2525.19,"۶۵ New Aftermarket؛ ۱ New Genuine Surplus؛ ۱ Call For Pricing؛ ۱ Used"],
+ ["8Y6671","GUARD AS",2410.53,3977.37,"۲۰ New Aftermarket"],
+ ["9G8638","GEAR",1848.44,3049.93,"۱ New Aftermarket - Less Than Perfect؛ ۱۲۸ New Aftermarket"],
  ["8R7036","SPIDER G",1887.40,3114.21,"۳ New Genuine Surplus؛ ۵۱ New Aftermarket؛ ۱ Used"],
  ["6V5839","WASHER",0.54,0.89,"۲۴٬۷۹۰ New Genuine Surplus؛ ۶٬۳۵۱ New Aftermarket"],
  ["3W6551","SHAFT",1398.87,2308.14,"۳۴ New Aftermarket"],
