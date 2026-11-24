@@ -2810,3 +2810,38 @@ Additional Cat-linked discovery candidates:
 033-6031, 132-6469, 3S-9643, 4W-3027, 214-7568, 232-3226, 248-5513, 253-1752, 1R-1808, 317-8766, 509-5694, 322-3155, 479-8989, 479-8991, 500-0957, 580-5439, 107-7330, 144-5695, 7N-4782, 127-5400, 377-6969, 415-2592, 1G-7206, 363-5819, 156-1200, 500-0483, 496-9841, 496-9842. Candidate links are related/commonly bought items only; they do not prove fitment or interchangeability.
 
 Overall reviewed progress: 62/500 batches = 620/5,000 product target (12.4%). Original Cat seed list has 167 SKUs remaining (products 621–787).
+
+## Batch 63/500 — products 621–630 (2026-11-25)
+
+SKUs: 528-9753, 529-5780, 529-5790, 529-5791, 532-9206, 532-9208, 533-6299, 535-2508, 536-6756, 538-5051. All ten Cat pages retrieved; item-level compatible models and technical specifications inspected. All ten DB rows re-queried and model arrays deduplicated.
+
+Verified updates:
+- 528-9753: Cat Engine Turbocharger. Confirmed Marine Engine 3516B/3516C/3512B/3512C/3516 and Marine Auxiliary 3512C. Compressor wheel 151mm, turbine wheel 138mm. Cat material field: Anti-Sieze Compound Mixed: Metal and Ductile (Spheroidal) Iron. Cat Reman alternative 20R-8321; not assumed universal interchange.
+- 529-5780: Cat PC305 cold planer for CTL 285XE/285/253/275/265/255/275XE, skid steers 250/270/260/270XE and PC305. Specs: 17.7in working width, 6.7in max cut, high-flow hydraulics, 73.1in width, 49.1in length, 36.6in height, 1869.5lb, 98–125L/min flow, 230–280bar pressure, 149rpm drum, 42 conical bits, 8° tilt, 29.5in side shift; optional 80/150/300mm drum widths.
+- 529-5790: Cat PC306 cold planer without water tank. Same CTL/skid-steer families and PC306. Specs: 23.6in working width, 6.7in max cut, high-flow, 73.1in width, 49.1in length, 36.6in height, 2107.6lb, 98–125L/min flow, 230–280bar pressure, 149rpm, 54 conical bits, 8° tilt, 29.5in side shift; optional drum widths 80–600mm.
+- 529-5791: Cat PC306 cold planer with water tank. Same CTL/skid-steer families and PC306. Specs: 23.6in working width, 6.7in max cut, 73.1in width, 56.4in length, 36.6in height, 2685.2lb, 42.3US-gal water tank, 98–125L/min flow, 230–280bar pressure, 149rpm, 54 conical bits, 8° tilt, 29.5in side shift; optional drum widths 80–600mm.
+- 532-9206: Cat B6s hydraulic hammer for demolition/construction/road work. Fitment: CTL 285XE/285/253/275/265/255/275XE; mini excavator 306; B6 hammer class; skid steer 250/270/260/270XE/265; backhoe loaders 416/444/434/420; backhoe BH150/BH160. Specs 610.7lb with tool, 501.5ft·lbf energy, 2.7in tool shaft, 500–900bpm, min 1775psi, 40–70L/min flow, 12.4in width, 17.3in length, 53.9in height, 124dB, Large bracket.
+- 532-9208: Cat B8s hydraulic hammer. Fitment: CTL 285XE/285/253/275/265/255/275XE; B8 hammer class; skid steer 250/270/260/270XE; backhoe loaders 426/416/444/434/424/440/430/420. Specs 758.4lb with tool, 848.2ft·lbf energy, 3in tool shaft, 400–800bpm, min 1704.1psi, 50–90L/min flow, 12.4in width, 17.3in length, 55.2in height, 129dB, Large bracket.
+- 533-6299: Cat 500mm nominal-width regular-joint track shoe with bonded rubber pad. Fitment: excavators 315 GC/313 GC/313F L/313F LGC/315/313/315F LCR/311F LRR. Specs GD/HD, no ARM, 19.685in shoe width, 1.969in plate thickness, M16 track-bolt thread, 0.709in bolt hole, not clipped, steel/rubber. Cat description separately lists 490 ×130mm pad dimensions; these are preserved separately from the 500mm nominal shoe width.
+- 535-2508: Cat fuel-tank breather assembly filter cap, complete-package service only, integral 10-micron filter, 3 3/8-12 UN thread, 22.4mm square drive. Fitment Shovel 6040 and Hydraulic Shovel 6060/6040. Specs 1.58in ID, 3.66in OD, 2.26in length, thermoplastic.
+- 536-6756: Cat Diesel Exhaust Fluid Tank Filter Assembly. Added 53 distinct model labels across generator LC31XX, generator set XQP115, soil compactors CS/CP families, backhoe loaders 416/420/428/430/432/434/444, material handlers MH3022/MH3024, grader 120 GC, TH/TL telehandlers, compact wheel loaders 910/914/920 and D1/D2/D3/D4 track tractors. Material Plastic and Corrosion Preventative Fluid.
+- 538-5051: Cat Communication Adapter Tool for diagnostic-port communications between equipment and diagnostic software. Weight 5.606lb, Polyurethane Plastic and Phenolic Plastic. Cat page does not publish compatible-model list; fitment remains empty.
+
+Cat pages:
+- https://parts.cat.com/en/catcorp/product/528-9753
+- https://parts.cat.com/en/catcorp/product/529-5780
+- https://parts.cat.com/en/catcorp/product/529-5790
+- https://parts.cat.com/en/catcorp/product/529-5791
+- https://parts.cat.com/en/catcorp/product/532-9206
+- https://parts.cat.com/en/catcorp/product/532-9208
+- https://parts.cat.com/en/catcorp/product/533-6299
+- https://parts.cat.com/en/catcorp/product/535-2508
+- https://parts.cat.com/en/catcorp/product/536-6756
+- https://parts.cat.com/en/catcorp/product/538-5051
+
+Post-update verification returned all ten rows. Distinct compatible-model counts: 528-9753=5; 529-5780=12; 529-5790=12; 529-5791=12; 532-9206=19; 532-9208=20; 533-6299=8; 535-2508=2; 536-6756=53; 538-5051=0. No customer prices or current stock inferred.
+
+Additional Cat-linked discovery candidates:
+20R-8321, 426-6548, 489-2200, 9W-0852, 9W-0844, 246-2641, 5P-8500, 357-7477, 533-6298, 586-3118, 589-5985, 378-3187, 540-5119, 471-7003, 461-9110, 507-1011. These are Cat Reman, related or diagram-linked leads only; not universal fitment/interchange claims.
+
+Overall reviewed progress: 63/500 batches = 630/5,000 product target (12.6%). Original Cat seed list has 157 SKUs remaining (products 631–787).
