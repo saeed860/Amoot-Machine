@@ -49,3 +49,15 @@ These are generator-set sample references only; do not assign marine application
 3. Mark sample-derived records as CANDIDATE until the current Cat Parts Store or an appropriate serial-specific OEM catalog confirms the exact part and application.
 4. Application tags remain only MARINE, LAND, or BOTH in the customer UI. Use MARINE only when a marine-specific Cat model/application or marine system is explicit; BOTH only when both marine and non-marine classes are explicitly supported.
 5. Never convert a generator-set model into a marine-engine fitment claim. Do not infer supersessions, interchangeability, current stock or price from sample PDFs.
+
+## C32 public catalog navigation result (K-Part)
+
+A live Chromium session submitted the model query **C32** and received 34 selectable serial-prefix books:
+
+`132, B2C, BT4, DSJ, JAZ, JSJ, K7C, KNM, MED, NRC, NST, PEF, PEK, PHT, RNC, RND, RNE, RNF, RNR, RNX, RNY, RNZ, RPM, RSD, RTK, RXB, SDK, SDN, SLT, SMP, SXC, T3T, TLD, TZJ, WDR`.
+
+This confirms the CAT catalog model lookup and serial-prefix selection are live. It does **not** identify which prefix corresponds to a specific C32 marine installation; prefix-to-application mapping must come from the engine dataplate, OEM publication scope or explicit catalog evidence. Do not label all 34 as marine.
+
+The guest UI reported a shared allowance of 50 actions, with 50 remaining at session start; registration does not reset that shared allowance. Keep testing economical and use the browser's normal public UI only. No CAPTCHA, login, rate-limit or access-control bypass is permitted.
+
+The C32 query returned model/prefix choices only. A selected book must still be opened, then system/group contents and the parts table captured with its prefix scope before any part is staged. No part rows are inferred from this list.
