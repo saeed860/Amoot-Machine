@@ -89,3 +89,19 @@ A public UI session opened the **C32 / B2C** book successfully. It returned 11 s
 - Power train, frame/guards/enclosure and undercarriage
 
 The catalog selection consumed one of the shared guest actions (allowance changed from 50/50 to 49/50). The book did not return an OEM-confirmed marine application for prefix B2C. Therefore this tree is retained as a navigation test only; **no B2C part is to be tagged MARINE or imported as marine fitment**. The next targeted books are SDN (OEM-confirmed marine propulsion) and RSD (OEM-confirmed marine auxiliary/genset).
+
+### K-Part C32 SDN / RSD catalog-tree results
+
+The live public catalog collector successfully opened both OEM-mapped marine books:
+- **C32 / SDN** — 10 section-tree entries. Key counts: Lubrication 38 groups, Cooling 60, Air inlet/exhaust 62, Fuel 44, Electrical/electronics 144.
+- **C32 / RSD** — 10 section-tree entries. Key counts: Lubrication 38 groups, Cooling 74, Air inlet/exhaust 57, Fuel 38, Electrical/electronics 165.
+
+The group tree is an assembly index, not the internal parts table. A group title beginning with a Cat number is an assembly/group reference; it is not proof of the individual components inside that assembly. Do not claim complete component-level extraction from the tree alone.
+
+Cross-checked catalog-group examples now stored as REFERENCE-only rows in `part_catalog`:
+- **355-0325** — Auxiliary Sea Water Pump Group. Listed in both SDN and RSD Cooling System trees. Cat Parts Store lists Marine Engine C32 only → **MARINE**.
+- **353-9049** — Sea Water Heat Exchanger Group. Listed in SDN Cooling System. Cat Parts Store lists Marine Engine C32 and Generator Set C32 → **BOTH**.
+- **116-1980** — Engine Oil Pump Group. Listed in SDN and RSD Lubrication System. Cat Parts Store lists Marine Engine C32 and Marine Auxiliary C32 plus non-marine equipment; it is marked discontinued and shows 0R-8210 as a Cat Reman alternative → **BOTH**.
+- **207-2422** — Fuel/Water Separator Filter Group. Listed in SDN and RSD Fuel System. Cat Parts Store lists marine, generator-set and land applications → **BOTH**.
+
+No prices, stock quantities, or universal serial fitment were created. The full engine serial and arrangement remain necessary for final fitment.
