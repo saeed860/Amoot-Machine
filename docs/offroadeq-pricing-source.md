@@ -323,3 +323,8 @@ Sources:
 - https://offroadeq.com/process
 
 No Amoot database price, public catalog price, stock quantity or sellable SKU was changed by this documentation update.
+
+
+## C18 fuel-system part-number public-index check (24 Nov 2026)
+
+Following the Cat Parts Store extraction, the public Off Road Equipment 500-part popular-parts index was checked for **361-5093**, **448-4451** and **448-4452**. None appears in that public index. This is only a limited public-index result; it does not establish absence from Off Road's full inventory. The full search interface says users must be logged in to shop and expose price/availability, so no exact Off Road unit price, condition, quantity or supplier availability could be recorded for these numbers in this pass. Do not calculate a ×1.65 supplier-price reference without an actual displayed supplier unit price or an applicable OEM list benchmark. The public Off Road search page advertises batch import, but its results remain login-gated: https://www.offroadeq.com/search . No price or inventory was changed on Amoot.
