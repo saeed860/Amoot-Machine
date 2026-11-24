@@ -76,3 +76,16 @@ OEM references:
 - Caterpillar C32 marine repair/order matrix: https://s7d2.scene7.com/is/content/Caterpillar/CM20170109-54307-34066
 
 The official guide documents marine-specific cooling, sea-water pump, exhaust, fuel, lubrication and starting-system sections. This is useful for organizing the parts intake taxonomy, but the project guide is not a substitute for a serial-specific parts book.
+
+### K-Part C32 / B2C catalog-tree probe (navigation only)
+
+A public UI session opened the **C32 / B2C** book successfully. It returned 11 section-tree entries, including:
+- Basic engine (two catalog branches)
+- Lubrication system — 32 listed assembly/group entries
+- Cooling system — 53 entries, including Auxiliary Sea Water lines/pumps and Sea Water heat-exchanger groups
+- Air inlet and exhaust — 50 entries, including raw-water aftercooler groups and water-cooled exhaust manifold
+- Fuel system — 25 entries
+- Electrical and electronics — 109 entries
+- Power train, frame/guards/enclosure and undercarriage
+
+The catalog selection consumed one of the shared guest actions (allowance changed from 50/50 to 49/50). The book did not return an OEM-confirmed marine application for prefix B2C. Therefore this tree is retained as a navigation test only; **no B2C part is to be tagged MARINE or imported as marine fitment**. The next targeted books are SDN (OEM-confirmed marine propulsion) and RSD (OEM-confirmed marine auxiliary/genset).
