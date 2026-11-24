@@ -259,6 +259,11 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["2357133","ALTERNATOR",1506.03,2484.95,"۵۸ New Aftermarket؛ ۱ New Aftermarket - Less Than Perfect"],
+ ["2357636","PIN AS",1977.13,3262.26,"۱۳۷ New Aftermarket؛ ۲ New Genuine Surplus"],
+ ["2357642","PIN AS",1607.57,2652.49,"۱۹ New Aftermarket"],
+ ["2371962","MOTOR GP-E",1638.98,2704.32,"۸ New Aftermarket"],
+ ["2373655","CONT GP",2109.08,3479.98,"۲ New Genuine Surplus"],
  ["2270844","CYL GP-010",7543.33,12446.49,"۱ New Aftermarket"],
  ["2307132","PUMP GP-GR",3719.50,6137.18,"۱۵ New Aftermarket"],
  ["2335220","PUMP GP-BE",1633.01,2694.47,"۳۲۱ New Aftermarket؛ ۲ Used"],
