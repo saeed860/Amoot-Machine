@@ -259,6 +259,11 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["1795922","TURBO GP-BAS",5433.02,8964.48,"۵ New Aftermarket"],
+ ["1835296","HEAD GP-CY",10065.28,16607.71,"۲۵۴ New Aftermarket"],
+ ["1851016","RADIATOR G",2307.84,3807.94,"۲ New Aftermarket"],
+ ["1855294","ALTERNATOR G",1515.46,2500.51,"۶۵ New Aftermarket؛ ۱ New Genuine Surplus"],
+ ["1857593","DRIVE GP-FIN",56113.50,92587.27,"۲ New Aftermarket"],
  ["1727766","PUMP GP-WT",1603.90,2646.43,"۲۸۰ New Aftermarket"],
  ["1738612","CYLINDER G",20144.33,33238.14,"۲ New Aftermarket"],
  ["1774651","BAR GP",17513.33,28896.99,"۱۳ New Aftermarket"],
