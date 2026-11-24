@@ -259,6 +259,7 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["1678130","DAMPER AS",1550.96,2559.08,"۶ New Aftermarket؛ ۹ Used"],
  ["8T4133","NUT-ZC",0.47,0.78,"۸٬۵۷۱ New Genuine Surplus؛ ۲٬۷۲۹ New Aftermarket؛ ۲ Used"],
  ["8T4224","WASHER-ZC",0.47,0.78,"۲۵۳٬۸۷۴ New Genuine Surplus؛ ۵٬۲۶۷ New Aftermarket"],
  ["8S7717","MANIFOLD",1309.89,2161.32,"۳۲ New Aftermarket"],
