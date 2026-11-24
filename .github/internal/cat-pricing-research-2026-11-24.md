@@ -899,3 +899,35 @@ Official Cat sources checked:
 - https://parts.cat.com/en/catcorp/product/1W-6316
 
 Database checkpoint: all 10 records updated and verified. Three exact official images newly linked (1W-2447, 1W-6312, 1W-6316); existing exact images retained for 1P-1120, 1R-0749, 1R-0762, 1U-5516 and 1U-5517. Representative/fallback images not assigned. Overall manual progress: 25/50 batches, 250/500 SKUs.
+
+
+## Batch 26/50 — SKUs 251–260 (1W-8922 through 20R-0582)
+
+All ten official Cat product pages were reviewed; all ten Supabase rows were updated and query-verified.
+
+| SKU | Official identity / captured detail | Image / fitment treatment |
+|---|---|---|
+| 1W-8922 | Cat Piston Ring Kit; includes 134-3761 ×1, 2P-2817 ×1, 7N-7078 ×1; broad 3406/3408/3412 engine and associated machine fitment | Single-ring image did not represent the 3-ring kit; omitted; 93 model identifiers stored |
+| 200-5272 | Cat Fuel Transfer Pump Cap; 4.5 × 0.9 in; generator-set engines 3406C/3412/3512/3512B/3508B/3516/3516B/3508/3412C, PM3508/PM3516/PM3412/PM3512 and G3516 | Exact official Scene7 cap image newly linked |
+| 202-2175 | Cat Auxiliary Water Pump Installation Kit; 13 components including O-rings, water-pump seal, water-lines gaskets, retaining ring and lip seal; 3512B/3508B/3516B/G3516B, SR4B/SR4BHV, PMG3516, marine/industrial/locomotive/petroleum fitment | No single exact kit image verified; omitted |
+| 202-2783 | Cat Alternator Plate; Cat publishes no functional description/specifications; broad generator, engine, pumper, marine, truck, grader, paver, mining, petroleum and loader fitment | Image resolved to generic Cat logo; omitted; 221 model identifiers stored |
+| 202-4296 | Cat Standard-Application Idler Group; 189.8 mm rim width, interchangeable, 545 mm conventional tread; D6R/D6T variants | Existing exact official image retained |
+| 20R-0268 | Cat Reman C15/C18 Variable Valve Actuator (12V Cat Brake); engine braking control; compatible 740/735, 772/770, 834H, 24M and 988H | Existing exact official image retained |
+| 20R-0271 | Cat Reman C15/C18 Variable Valve Actuator (12V Cat Brake); C15 truck engine and C18 industrial engine | Exact official Scene7 actuator image newly linked |
+| 20R-0272 | Cat Reman C15/C18 Variable Valve Actuator (24V Brake); C15 truck engine and C18 industrial engine | Existing exact official image retained |
+| 20R-0505 | Cat Reman G3500 Water Pump; 15.9 × 14.6 in; stainless shaft, durable impeller, new bearings and improved seals; G3520/G3516C/E/H, 3512E, 789G, 994K and related applications | Exact official Scene7 water-pump image newly linked |
+| 20R-0582 | Cat Reman 3500C HD Cylinder Pack; 14.7:1; preassembled liner/piston/rings/pin/retainers/rod/seals; 3516C/B, 3512C, XQC1200/1600, 789D/785D and related applications | Existing exact official Scene7 cylinder-pack image retained |
+
+Official Cat sources checked:
+- https://parts.cat.com/en/catcorp/product/1W-8922
+- https://parts.cat.com/en/catcorp/product/200-5272
+- https://parts.cat.com/en/catcorp/product/202-2175
+- https://parts.cat.com/en/catcorp/product/202-2783
+- https://parts.cat.com/en/catcorp/product/202-4296
+- https://parts.cat.com/en/catcorp/product/20R-0268
+- https://parts.cat.com/en/catcorp/product/20R-0271
+- https://parts.cat.com/en/catcorp/product/20R-0272
+- https://parts.cat.com/en/catcorp/product/20R-0505
+- https://parts.cat.com/en/catcorp/product/20R-0582
+
+Database checkpoint: all 10 records updated and verified. Three exact official images newly linked (200-5272, 20R-0271, 20R-0505); existing exact images retained for 202-4296, 20R-0268, 20R-0272 and 20R-0582. Single-component, generic-logo and unverified kit images omitted. Overall manual progress: 26/50 batches, 260/500 SKUs.
