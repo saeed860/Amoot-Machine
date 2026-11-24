@@ -626,3 +626,13 @@
 | CAT-513-4490 | Motortec | فهرست Caterpillar-branded؛ قیمت با VAT | EUR 97.97 | 106.89 | 176.37 | ارسال همان‌روز در صورت موجودی؛ موجودی مجدداً کنترل شود | https://motortecpower.com/product/fuel-water-separator-513-4490/ |
 
 نرخ تبدیل EUR به USD برابر ۱٫۰۹۱۰ و ضریب آموت ۱٫۶۵ است. کیفیت جایگزین افترمارکت و فهرست Caterpillar-branded جدا نگه داشته شده‌اند.
+
+
+## قیمت‌های تکمیلی محصولات فعال — بررسی فروشندگان، ۲۴ نوامبر ۲۰۲۶ (بخش سوم)
+
+| SKU | فروشنده | نوع / مبنای قیمت | قیمت منبع | قیمت منبع USD | قیمت آموت USD | وضعیت | منبع داخلی |
+|---|---|---|---:|---:|---:|---|---|
+| CAT-9M-2342 | Sadler Powertrain | CAT OEM | USD 16.20 | 16.20 | 26.73 | ۱۸ عدد آماده ارسال در زمان مشاهده | https://sadlerpowertrain.com/products/9m2342-cat-fuel-filter-screen.html |
+| CAT-423-8521 | Baumashop24 | Original Caterpillar | EUR 94.16 | 102.73 | 169.50 | ناموجود در زمان مشاهده | https://www.baumashop24.com/products/caterpillar-4238521 |
+
+نرخ تبدیل EUR به USD برابر ۱٫۰۹۱۰ و ضریب آموت ۱٫۶۵ است. قیمت فروشنده ناموجود فقط مرجع قیمت است و به‌عنوان موجودی قابل فروش نمایش داده نمی‌شود.
