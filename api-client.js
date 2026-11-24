@@ -259,6 +259,8 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["8T4133","NUT-ZC",0.47,0.78,"۸٬۵۷۱ New Genuine Surplus؛ ۲٬۷۲۹ New Aftermarket؛ ۲ Used"],
+ ["8T4224","WASHER-ZC",0.47,0.78,"۲۵۳٬۸۷۴ New Genuine Surplus؛ ۵٬۲۶۷ New Aftermarket"],
  ["8S7717","MANIFOLD",1309.89,2161.32,"۳۲ New Aftermarket"],
  ["8T4121","WASHER-ZC",0.65,1.07,"۵۰٬۲۸۰ New Genuine Surplus؛ ۱۶٬۴۶۸ New Aftermarket"],
  ["8T4122","WASHER-ZC",1.63,2.69,"۵ New Genuine Surplus؛ ۱۰٬۵۰۰ New Aftermarket"],
