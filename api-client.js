@@ -259,6 +259,11 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["3968375","HEAD GP-CY",10112.23,16685.18,"۱۵ New Aftermarket"],
+ ["4152432","SENSOR GP-",1239.63,2045.39,"۱۰ New Genuine Surplus؛ ۴۳ New Aftermarket"],
+ ["4152433","SENSOR GP-",1239.63,2045.39,"۹ New Aftermarket"],
+ ["4160610","PUMP GP-WA",2385.74,3936.47,"۹ New Aftermarket"],
+ ["4170582","CYLINDER G",4499.69,7424.49,"۶ New Aftermarket؛ ۱ New Genuine Surplus"],
  ["3850937","COMPRESSOR",3213.32,5301.98,"۱ New Genuine Surplus؛ ۱۹ New Aftermarket"],
  ["3874367","CORE AS",1664.64,2746.66,"۵۲ New Aftermarket"],
  ["3900788","MOTOR GP-E",1602.33,2643.84,"۴ New Aftermarket"],
