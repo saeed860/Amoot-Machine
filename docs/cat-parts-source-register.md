@@ -229,3 +229,21 @@ Official product pages:
 - https://parts.cat.com/en/catcorp/product/3T-6354
 
 The official pages substantiate Cat's published compatible-model classes for these part numbers. They do not, by themselves, certify that every listed item is present in every SDN/RSD serial-specific assembly or establish order quantity. The K-Part diagram remains scoped third-party evidence; final fitment still requires the full engine serial and Arrangement in SIS/Cat's serial-specific diagram. Continue to retain these as reference/evidence, not automatically sellable stock.
+
+
+#### Third component cross-check pass — C32 heat-exchanger internals
+
+Additional exact-number Cat Parts Store pages found:
+
+| Part number | K-Part diagram context | Cat page result | Application classification |
+|---|---|---|---|
+| **353-9033** | SDN sea-water heat exchanger housing | Official Cat description explicitly identifies a water-jacket housing transferring seawater through the engine heat-exchanger system; compatible classes include C32/C32B Marine Engine and Generator Set C32 | **BOTH**; marine-system function explicitly documented |
+| **135-2654** | SDN sea-water heat exchanger O-ring | Cat compatible classes include C32/C32B Marine Engine, Generator Set C32 and land engine models | **BOTH** |
+| **111-4374** | SDN and RSD sea-water heat exchanger vent-line valve | Cat page compatible classes include C32/C32 Marine Engine and multiple marine auxiliary/engine/generator classes, alongside land applications | **BOTH** |
+
+Official pages:
+- https://parts.cat.com/en/catcorp/product/353-9033
+- https://parts.cat.com/en/catcorp/product/135-2654
+- https://parts.cat.com/en/catcorp/product/111-4374
+
+These are official part-number/model-class matches. For 353-9033, the marine seawater function is explicitly stated in Cat's description. For 135-2654 and 111-4374, the broad compatible-model lists establish both application classes, but do not independently prove the precise assembly usage/quantity in each SDN/RSD book. Maintain the K-Part assembly reference and quantity as third-party evidence pending serial-specific SIS confirmation.
