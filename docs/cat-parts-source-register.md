@@ -183,3 +183,21 @@ Official product pages:
 **Not yet OEM-cross-checked:** the internal K-Part component-table scopes for **361-1283 AFTERCOOLER GP-RAW WATER** (SDN) and **586-1380 HEAT EXCHANGER GP-SEA WATER** (RSD). Searches for those exact group numbers did not return a matching Cat Parts Store product page in this pass. Keep their component rows as K-Part CANDIDATE evidence only; do not infer marine fitment from the group title or prefix alone. The same caution applies to the remaining 54 component rows from the 58-row extraction unless each exact part number receives its own OEM check.
 
 This cross-check confirms published Cat model/application classes for the four exact numbers above; it does not replace SIS lookup using the complete engine serial number and Arrangement. No sellable SKU, price, stock or blanket fitment was created.
+
+
+#### Additional component-level OEM matches from the 58-row extraction
+
+Exact Cat Parts Store pages were also found for three component numbers inside the K-Part tables:
+
+| Part number | K-Part scope | Cat Parts Store evidence | Application / status |
+|---|---|---|---|
+| **316-9954** | SDN fuel-water separator group | Exact Cat page; compatible classes include Marine Engine C32/3412E, Marine Auxiliary C32 and Generator Set C32 | **BOTH**; Cat marks the part **Discontinued**. Do not offer as current new stock or imply a direct replacement without dealer confirmation |
+| **438-5385** | RSD fuel-water separator group | Exact Cat page; compatible classes include Marine Engine C32/C32B and Marine Auxiliary C32, plus Generator Set and land equipment | **BOTH**; page shows alternative 438-5386, but do not assume it is a universal supersession |
+| **362-0801** | SDN raw-water aftercooler group | Exact Cat page; compatible classes include Marine Engine C32/C32B, Marine Auxiliary C32B and Generator Set C32 | **BOTH**; the published Marine Auxiliary class is C32B, not C32 |
+
+Official product pages:
+- https://parts.cat.com/en/catcorp/product/316-9954
+- https://parts.cat.com/en/catcorp/product/438-5385
+- https://parts.cat.com/en/catcorp/product/362-0801
+
+These matches verify the exact component numbers and published model classes at Cat Parts Store level. They do not prove the exact SDN/RSD assembly inclusion/quantity for every engine serial; retain K-Part diagram/quantity as scoped candidate evidence and use SIS with complete serial + Arrangement for order-level fitment. Other component rows remain unverified until individually checked.
