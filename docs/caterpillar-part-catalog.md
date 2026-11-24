@@ -1016,3 +1016,20 @@ Migration `202611240030_expand_verified_c280_c32_turbo_parts.sql` adds 10 additi
 | 552-8508 | C32 / C32B | Tube / fluid routing | Marine + land |
 
 The `MARINE` / `BOTH` distinction follows the classes explicitly listed by Cat on each linked Compatible Models page. In particular, Generator Set, Petroleum Engine, Gas Engine, Locomotive and Industrial Engine are treated as non-marine applications for this catalog label. Model-family matches do not replace serial-number and Arrangement verification.
+
+
+## C15 / 3406 Cat Reman, bearing and piston-cooling references (2026-11-24)
+
+Migration `202611240170_add_c15_cat_reman_bearing_oiljet_references.sql` adds five official Cat Parts Store reference records. These remain reference-only: Cat customer pricing requires dealer sign-in, and no stock or sale price is inferred.
+
+| Part number | Official description | Engine family | Application |
+|---|---|---|---|
+| 10R-1503 | Cat Reman cylinder pack, C15, 16.6:1 | C15 | Land |
+| 0R-9942 | Cat Reman cylinder pack, C15 low HP, 18:1 | C15 | Land |
+| 328-5573 | Connecting rod bearing | C15 / 3406 | Marine + land |
+| 277-3076 | Oil jet brazed tube | C15 / 3406 | Marine + land |
+| 0R-9449 | Cat Reman 3406E one-section oil pump | C15 / C18 / 3406 / 3408 / 3412 | Marine + land |
+
+Application labels follow the compatible equipment classes shown on each official Cat product page. They are family-level catalog evidence, not serial-number-specific fitment guarantees. Verify engine serial number and Arrangement before accepting an order.
+
+Official Cat sources: https://parts.cat.com/en/catcorp/product/10R-1503, https://parts.cat.com/en/catcorp/product/0R-9942, https://parts.cat.com/en/catcorp/product/328-5573, https://parts.cat.com/en/catcorp/product/277-3076, https://parts.cat.com/en/catcorp/product/0R-9449.
