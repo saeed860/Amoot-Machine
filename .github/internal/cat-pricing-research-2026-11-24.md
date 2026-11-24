@@ -1943,3 +1943,19 @@ Official Cat pages checked:
 - https://parts.cat.com/en/catcorp/product/223-9250
 
 Database checkpoint: all ten rows queried; corrections for 212-8174, 216-7815, 221-0129, 222-5152 and 223-9250 plus injector-group material attributes were applied and re-queried. Overall reviewed progress: 38/500 batches, 380/5,000 products.
+
+
+## Further Cat-origin discovery from BOM and cross-links
+
+The 222-5152 official rebuild-kit page exposes an 11-line component BOM. Additional Cat pages also expose related/alternate parts and frequently-bought-together numbers. Appended 27 new entries to `data/cat-linked-parts-discovery.txt`, including BOM components 0S-1618, 166-4374, 212-8180, 212-8184, 271-4926, 3D-2824, 416-0603, 4N-5834, 7N-4758, 8C-5236 and 9M-1974; replacement/alternate 10R-9598 and 10R-0823; and related numbers such as 425-6526, 230-3728, 450-9233, 130-3212, 242-4100, 448-3228 and 210-1470. The BOM confirms kit membership; related panels are leads only and do not independently prove compatibility.
+
+Recount after deduplication across all three discovery queues:
+- Off Road queue: 91 rows.
+- Independent supplier/technical-reference queue: 44 rows.
+- Cat-linked BOM/related-parts queue: 43 rows.
+- Total queue entries: 178.
+- Unique numbers across queues: 175.
+- Unique numbers not present in the original 787-number seed list: 174.
+- One discovery number overlaps the initial seed list. Duplicate numbers across the discovery queues are deduplicated in the unique count.
+
+Overall reviewed catalog progress at this checkpoint: 38/500 batches, 380/5,000 products. The 174 new discovery numbers remain in segregated verification queues; they have not been silently promoted into the official seed list or represented as compatible without individual verification.
