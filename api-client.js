@@ -259,6 +259,11 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["3050324","COMPRESSOR",1377.77,2273.32,"۴۶ New Aftermarket"],
+ ["3050325","COMPRESSOR",1377.77,2273.32,"۱ New Genuine Surplus؛ ۱۸۳ New Aftermarket"],
+ ["3050617","HEAD GP-CY",8064.47,13306.38,"۴۵ New Aftermarket"],
+ ["3058141","BLOCK GP-C",8677.41,14317.73,"۱ New Aftermarket"],
+ ["3073063","PUMP GP-PS",4076.87,6726.84,"۹ New Aftermarket"],
  ["2979275","SPRING GP-",7321.76,12080.90,"در موجودی دقیق فروشنده یافت نشد؛ قیمت OEM List موجود است"],
  ["2979546","SEAL GP DU",1842.18,3039.60,"۴ New Genuine Surplus"],
  ["2995204","PISTON AS",1685.66,2781.34,"۲۵۴ New Aftermarket؛ ۱۴ Used"],
