@@ -532,3 +532,8 @@ The official Sea Water Pumps category shows 33 products. Exact product-page chec
 ## C18 fuel-system official Cat follow-up (24 Nov 2026)
 
 Exact Cat Parts Store pages confirm C18 MARINE ENGINE model-class evidence for **361-5093** (fuel priming pump), **448-4451** and **448-4452** (fuel transfer pump kits). The kits have distinct included pump assemblies (384-8612 and 388-7286 respectively); do not merge them or infer interchangeability. Cat C18 marine specification sheets confirm the gear-driven fuel transfer pump and manual priming-pump architecture. Customer pricing remains login-gated. The same sheets identify a gear-driven oil pump, but this pass did not establish a serial-specific oil-pump part number. **1R-1808** is not assigned a marine tag because the retrieved exact Cat compatible-model list did not show an explicit MARINE ENGINE C18 class. Full evidence and official URLs: [C18 marine source expansion](marine-engine-source-expansion.md#c18-fuel-system-cat-parts-store-extraction--24-nov-2026). No prices, stock or sellable SKUs were created.
+
+
+## C18 fuel-system Off Road public-index check (24 Nov 2026)
+
+The Off Road public 500-part popular-parts index was checked for **361-5093**, **448-4451** and **448-4452**; none appears in that subset. The full supplier search remains login-gated, so no conclusion about full inventory, actual supplier price or availability is made. No Amoot price, stock or sellable SKU was changed. See [Off Road pricing-source assessment](offroadeq-pricing-source.md).
