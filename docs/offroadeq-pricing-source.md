@@ -295,3 +295,31 @@ These are public third-party retail/market offers, **not Off Road quotes and not
 - 315-8339 is independently shown as a component in a C9 Marine parts-manual extract for aftercooler group 242-5336, quantity 1. This third-party manual extract is useful assembly context, but the Cat Parts Store compatible-model list and full serial/Arrangement lookup remain the controlling fitment checks.
 
 No supplier quote was obtained, no Off Road price was inferred, no ×1.65 Amoot price was calculated from these third-party retail offers, and no public catalog price or stock was changed.
+
+
+## Owner clarification — Off Road prices are accepted sourcing evidence (24 Nov 2026)
+
+The project owner explicitly confirmed that prices shown by Off Road Equipment are accepted as valid price evidence for Amoot, whether the listing is OEM/genuine or another category (aftermarket, rebuilt/remanufactured, used, etc.). This approval supersedes earlier wording in this file that broadly characterized Off Road prices as unverified or unusable.
+
+Apply these distinctions:
+- If an exact Off Road listing exposes a supplier unit price, accept and record that displayed amount as the Off Road supplier-price reference, with currency, brand, condition/category, quantity, observation time and exact URL.
+- If the page exposes only OEM List Price, accept it as an OEM benchmark, not as the Off Road acquisition price. The previously approved fallback is OEM List Price × 1.65, clearly labeled provisional and not an acquisition-cost quote.
+- Apply ×1.65 to an actual displayed supplier unit price when available, separately for each condition and currency. Preserve the original amount and calculation.
+- Keep New Genuine Surplus, New Genuine - Less Than Perfect, New Aftermarket, Rebuilt, Used and Call For Pricing as distinct records. Do not average or merge conditions.
+- Do not calculate on Call For Pricing, blank or invalid/zero prices. Do not add freight, tax, duties, FX or fees without separate source evidence.
+- Off Road availability and quantity are accepted as supplier-reported snapshots at observation time, not Amoot-owned inventory; recheck before order confirmation.
+- Sourcing prices remain admin-only until approved for customer publication. Source approval does not itself create Amoot stock or a sellable SKU.
+
+## Follow-up public access check (24 Nov 2026)
+
+The current public Off Road pages were rechecked. The public popular-parts index still exposes 500 frequently searched numbers and links to the separate full-inventory search. Off Road's FAQ states that an account/login can be created to view price and availability; no account credentials were supplied for this research pass, and no login-gated prices were accessed. The FAQ also confirms the supplier carries genuine, aftermarket, used and rebuilt parts and describes a 90-day warranty for new and rebuilt parts. These source statements support recording the listing's exact condition rather than treating every listing as OEM.
+
+Targeted public detail URL checks for the marine references 3539049, 3058921, 2072422, 4939456, 1503141 and 2470825 did not return accessible public detail pages in this pass. No new Off Road amount or quantity was therefore recorded for those exact numbers. Their absence from the 500-part index or an inaccessible detail URL is not proof of full-inventory non-availability.
+
+Sources:
+- https://offroadeq.com/parts
+- https://offroadeq.com/search
+- https://surpluscatparts.com/faq/
+- https://offroadeq.com/process
+
+No Amoot database price, public catalog price, stock quantity or sellable SKU was changed by this documentation update.
