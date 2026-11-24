@@ -259,6 +259,10 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["3579784","CYL GP-016",19381.46,31979.41,"۱ New Aftermarket"],
+ ["3579794","ROD AS",7385.26,12185.68,"۹ New Aftermarket"],
+ ["3584920","TURBO GP-B",3220.48,5313.79,"۲۵ New Aftermarket"],
+ ["3590936","HEAD GP-CY",10112.23,16685.18,"۵ New Aftermarket"],
  ["3522077","PUMP GP-WA",1446.64,2386.96,"۷۱ New Aftermarket"],
  ["3530611","DRIVE GP-F",22695.19,37447.06,"۱ New Aftermarket؛ ۱ Rebuilt"],
  ["3545671","MOTOR GP-E",1655.23,2731.13,"در موجودی دقیق فروشنده یافت نشد؛ قیمت OEM List موجود است"],
