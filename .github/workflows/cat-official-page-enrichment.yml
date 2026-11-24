@@ -37,6 +37,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - name: Validate extractor syntax
+        run: node --check scripts/enrich-cat-official-pages.mjs
+
       - name: Restore this batch checkpoint
         uses: actions/cache@v4
         with:
