@@ -643,3 +643,35 @@ Official Cat sources checked:
 - https://parts.cat.com/de/catcorp/product/11R-0025
 
 Database checkpoint: all 10 rows updated and verified. Three exact official images newly linked (111-7785, 115-5674, 115-5699); existing exact image for 115-2422 retained. Representative, mismatched, fallback and low-resolution images were not assigned. Overall manual progress: 17/50 batches, 170/500 SKUs.
+
+
+## Batch 18/50 — SKUs 171–180 (11R-1405 through 11R-2442)
+
+All ten official Cat pages were reviewed and all ten Supabase records were updated and query-verified.
+
+| SKU | Official identity / captured detail | Image / fitment treatment |
+|---|---|---|
+| 11R-1405 | Cat 3512 Tier 4 Reman NWC Bare Block; ready to build into engine; acceptable core exchange; U.S. replacement-engine core return/destruction requirement recorded | Exact official bare-block image newly linked; 3512 retained as engine designation only |
+| 11R-1406 | Cat 3516 Tier 4 Reman NWC Bare Block; official compatible list 3516E engine and 994K wheel loader | Exact official bare-block image newly linked |
+| 11R-2060 | Cat Reman NWC Prechamber; 3.701 in grip length and 5.118 in bolt length; no compatible-model list published | Exact official Scene7 image newly linked; no fitment inferred |
+| 11R-2061 | Cat Reman NWC Prechamber (G3600); G3600 application identified by title; no compatible-model list published | Exact official Scene7 image newly linked |
+| 11R-2113 | Cat Reman Stator (D6 GEN); Cat 12-month Reman warranty; no compatible-model list published | Page image was NWC promotional artwork, not the stator; omitted |
+| 11R-2194 | Cat NWC Group 31 HD maintenance-free wet battery; 12V, 1000 CCA, USA only; compatible Generator Set C4.4 | Existing exact official battery image retained |
+| 11R-2387 | Cat Reman NWC Valve Lifter (3500A); compatible Generator Set G3512 | Exact official Scene7 image newly linked |
+| 11R-2388 | Cat Reman NWC Valve Lifter (3500B); Cat page does not publish compatible-model list | Exact official Scene7 image newly linked; no fitment inferred |
+| 11R-2389 | Cat Reman NWC Valve Lifter (G3600); compatible Gas Engine G3608 | Exact official Scene7 image newly linked |
+| 11R-2442 | Cat Reman NWC Valve Rocker Arm; valve-train opening/closing function; no compatible-model list published | Exact official Scene7 image newly linked; previous unsupported C27 fitment removed |
+
+Official Cat sources checked:
+- https://parts.cat.com/en/catcorp/product/11R-1405
+- https://parts.cat.com/en/catcorp/product/11R-1406
+- https://parts.cat.com/en/catcorp/product/11R-2060
+- https://parts.cat.com/en/catcorp/product/11R-2061
+- https://parts.cat.com/en/catcorp/product/11R-2113
+- https://parts.cat.com/en/catcorp/product/11R-2194
+- https://parts.cat.com/en/catcorp/product/11R-2387
+- https://parts.cat.com/en/catcorp/product/11R-2388
+- https://parts.cat.com/en/catcorp/product/11R-2389
+- https://parts.cat.com/en/catcorp/product/11R-2442
+
+Database checkpoint: all 10 records updated and query-verified. Eight exact official product images newly linked (11R-1405, 11R-1406, 11R-2060, 11R-2061, 11R-2387, 11R-2388, 11R-2389, 11R-2442); existing exact battery image retained for 11R-2194. 11R-2113 promotional artwork deliberately not assigned. Overall manual progress: 18/50 batches, 180/500 SKUs.
