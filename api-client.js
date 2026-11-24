@@ -259,6 +259,10 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["4N1101","PUMP G",2344.74,3868.82,"۲۱ New Aftermarket"],
+ ["4N6765","HEAD A D343",11313.40,18667.11,"۱۲ New Aftermarket؛ ۶ New Aftermarket Loaded"],
+ ["4N7692","CRANKSHAFT A",7929.57,13083.79,"۱ New Genuine Surplus؛ ۴۳ New Aftermarket"],
+ ["4N7693","CRANKSHAFT A",8857.60,14615.04,"۴۸ New Aftermarket"],
  ["4J7533","SEAL O RING",1.07,1.77,"۱۴٬۹۴۸ New Aftermarket"],
  ["3P1465","SPRING",2682.21,4425.65,"۴۷ New Aftermarket"],
  ["3P7958","PUMP GRPGE",2224.78,3670.89,"۱۰ New Aftermarket"],
