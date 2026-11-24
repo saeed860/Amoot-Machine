@@ -259,6 +259,11 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["4302593","CRANKSHAFT",10175.90,16790.23,"۲۰ New Aftermarket"],
+ ["4333677","HEAD AS-CO",2853.76,4708.70,"۱ New Genuine Surplus"],
+ ["4401616","COMPRESSOR",6132.57,10118.74,"۴ New Aftermarket"],
+ ["4410038","PIN AS",2576.12,4250.60,"۳۳ New Aftermarket"],
+ ["4414771","BAR GP-EQU",13469.04,22223.92,"۱ New Aftermarket"],
  ["4210049","CAMSHAFT",3404.52,5617.46,"۸ New Aftermarket"],
  ["4210071","CAMSHAFT",3404.52,5617.46,"۱۰ New Aftermarket"],
  ["4211808","PUMP GP-PS",12716.62,20982.42,"۶ New Aftermarket"],
