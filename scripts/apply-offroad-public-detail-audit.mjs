@@ -18,7 +18,7 @@ const details = valid.map(r => {
   const escaped = sku.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   const descMatch = r.text.match(new RegExp("(?:^|\\s)" + escaped + "(?:,|\\s+)(.*?)\\s+Weight Per Unit:", "i"));
   const description = (descMatch?.[1] || descriptions.get(sku.replace(/[^A-Z0-9]/g, "")) || "").trim();
-  const weightMatch = r.text.match(/Weight Per Unit:\\s*([\\d,.]+)\\s*lbs/i);
+  const weightMatch = r.text.match(/Weight Per Unit:\s*([\d,.]+)\s*lbs/i);
   const weight = weightMatch ? Number(weightMatch[1].replace(/,/g, "")) : null;
   const oem = Number(r.oemListPriceUsd);
   const amoot = Math.round((oem * 1.65 + Number.EPSILON) * 100) / 100;
@@ -57,8 +57,9 @@ const newLocal = 'offRoadCatalog:true,priceReference:p.priceReference,specificat
 if (search.includes(oldLocal)) search = search.replace(oldLocal, newLocal);
 else if (!search.includes(newLocal)) throw new Error("Could not add Off Road weight specifications to search mapping");
 const oldLabels = 'const specLabels={length:"طول",height:"ارتفاع",width:"عرض",weight:"وزن",diameter:"قطر",thread:"رزوه",voltage:"ولتاژ",material:"جنس"};';
-const newLabels = 'const specLabels={length:"طول",height:"ارتفاع",width:"عرض",weight:"وزن",diameter:"قطر",thread:"رزوه",voltage:"ولتاژ",material:"جنس"};';
-if (!search.includes(oldLabels) && !search.includes(newLabels)) throw new Error("Specification labels anchor missing");
+const newLabels = 'const specLabels={length:"طول",height:"ارتفاع",width:"عرض",weight:"وزن هر واحد",diameter:"قطر",thread:"رزوه",voltage:"ولتاژ",material:"جنس"};';
+if (search.includes(oldLabels)) search = search.replace(oldLabels, newLabels);
+else if (!search.includes(newLabels)) throw new Error("Specification labels anchor missing");
 await writeFile(searchPath, search, "utf8");
 
 const auditPath = "docs/internal-offroad-price-audit.md";
