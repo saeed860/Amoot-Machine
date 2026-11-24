@@ -289,3 +289,25 @@ Official Cat pages:
 - https://parts.cat.com/en/catcorp/product/8T-0328
 
 This pass adds seven further exact Cat model-class matches (including the heat-exchanger spacer and six alternator internals) while explicitly withholding marine classification from the other eight numbers. Exact assembly presence/quantity remains sourced to the third-party K-Part diagrams and must be checked in SIS against full serial number + Arrangement before order-level fitment. No candidate was promoted to sellable inventory and no price/stock was created.
+
+
+#### Fifth exact-number OEM pass — C32 heat exchanger and alternator subcomponents (24 Nov 2026)
+
+The next Cat Parts Store lookup pass returned five more exact component matches:
+
+| Part number | K-Part table scope | Official Cat compatible-model evidence | Application |
+|---|---|---|---|
+| **347-8906** | RSD 586-1380 sea-water heat exchanger | Cat description explicitly identifies the spacer as used in the seawater heat exchanger; compatible models include C32/C32B Marine Engine and Generator Set C32 | **BOTH** |
+| **202-2708** | SDN 305-8921 charging alternator | Cat lists C32/C32B Marine Engine and C32/C32B Marine Auxiliary, alongside Generator Set and land models | **BOTH** |
+| **202-2703** | SDN 305-8921 charging alternator | Cat lists C32/C32B Marine Engine and C32/C32B Marine Auxiliary, alongside Generator Set and land models | **BOTH**; note Cat's descriptive paragraph appears mismatched to the product title, so validate identity through dealer/SIS before sale |
+| **202-7713** | SDN 305-8921 charging alternator | Cat lists C32 Marine Engine, C32B Marine Auxiliary and Generator Set C32, plus land models | **BOTH** |
+| **365-4457** | SDN 361-1283 raw-water aftercooler | Cat description identifies an aftercooler press-in-place seal; compatible models include C32/C32B Marine Engine and Generator Set C32 | **BOTH** |
+
+Official Cat pages:
+- https://parts.cat.com/en/catcorp/product/347-8906
+- https://parts.cat.com/en/catcorp/product/202-2708
+- https://parts.cat.com/en/catcorp/product/202-2703
+- https://parts.cat.com/en/catcorp/product/202-7713
+- https://parts.cat.com/en/catcorp/product/365-4457
+
+These are exact part-number/model-class matches only. They do not certify every serial-specific SDN/RSD assembly relationship or quantity. K-Part remains the source for the observed group/diagram/quantity, and Cat/SIS with full serial + Arrangement remains the final fitment authority. No price, stock or sellable product was created.
