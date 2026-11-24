@@ -771,3 +771,35 @@ Official Cat sources checked:
 - https://parts.cat.com/en/catcorp/product/153-2994
 
 Database checkpoint: all 10 records updated and verified. No new exact images were added; existing exact images retained for 142-8937, 147-5331, 147-5332, 149-1912 and 150-8355. The non-exact/reference-only 153-2994 image was removed. Overall manual progress: 21/50 batches, 210/500 SKUs.
+
+
+## Batch 22/50 — SKUs 211–220 (153-5710 through 162-7864)
+
+All ten official Cat product pages were reviewed; all ten Supabase records were updated and query-verified.
+
+| SKU | Official identity / captured detail | Image / fitment treatment |
+|---|---|---|
+| 153-5710 | Cat 12V 4D BCI maintenance-free wet battery; 1400 CCA, 200 Ah, 425-min reserve, 19.3 × 8.6 × 9.9 in, SAE posts, polypropylene casing, calcium-lead grid; broad Cat fitment | Existing exact official image retained; 295 model identifiers stored |
+| 153-5720 | Cat 12V 8D BCI maintenance-free wet battery; 1500 CCA, 210 Ah, 465-min reserve, 20.5 × 10.8 × 8.7 in, 1800 CA; generator, C175, truck, shovel and other applications | Existing exact official image retained; 63 model identifiers stored |
+| 155-2260 | Cat 3-pin sealed nylon plug connector kit; 155-2266 ×1, 155-2276 ×1, 169-8670 ×1; black connector/green wedge lock | Existing exact official image retained; 127 model identifiers stored |
+| 155-2270 | Cat 2-pin sealed V-0 flame-resistant nylon plug connector kit; 155-2261 ×1, 155-2269 ×1; black connector/green wedge lock | Existing exact official image retained; 142 model identifiers stored |
+| 155-9879 | Cat Duo-Cone metal-face seal; 137.57 mm assembled OD, 33 mm axial width; compatible D11N/D11R/D11T/D11 XE/D11 | Existing exact official image retained |
+| 156-4208 | Cat right-side minor bogie, 0.3°; boron/microalloy steel; compatible D10R/D10T | Existing exact official image retained |
+| 156-4209 | Cat left-side minor bogie, 0.3°; microalloy/boron steel; compatible D10R/D10T | Existing exact official image retained |
+| 160-8765 | Cat Fitting Assembly; Cat does not publish function/specification; D11R, 3508/3516 generator, marine, locomotive, industrial, mining and 854G/992G applications | Fallback image omitted |
+| 162-7863 | Cat Duo-Cone metal-face seal; 106.18 mm assembled OD, 35.6 mm axial width; D8/D9/D10 track tractors and PL83/PL87/583/587 pipelayers | Existing exact official image retained |
+| 162-7864 | Cat Duo-Cone metal-face seal; 113.75 mm assembled OD, 35.6 mm axial width; D10/D11 track tractors | Existing exact official image retained |
+
+Official Cat sources checked:
+- https://parts.cat.com/en/catcorp/product/153-5710
+- https://parts.cat.com/en/catcorp/product/153-5720
+- https://parts.cat.com/en/catcorp/product/155-2260
+- https://parts.cat.com/en/catcorp/product/155-2270
+- https://parts.cat.com/en/catcorp/product/155-9879
+- https://parts.cat.com/en/catcorp/product/156-4208
+- https://parts.cat.com/en/catcorp/product/156-4209
+- https://parts.cat.com/en/catcorp/product/160-8765
+- https://parts.cat.com/en/catcorp/product/162-7863
+- https://parts.cat.com/en/catcorp/product/162-7864
+
+Database checkpoint: all 10 rows updated and verified. Existing exact official images retained for 153-5710, 153-5720, 155-2260, 155-2270, 155-9879, 156-4208, 156-4209, 162-7863 and 162-7864. No image assigned to 160-8765 because Cat page exposed only fallback. Overall manual progress: 22/50 batches, 220/500 SKUs.
