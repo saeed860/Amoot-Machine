@@ -111,3 +111,39 @@ Direct bulk navigation to parts.cat.com remains unreliable because the storefron
 4. supplier catalogs only as supplier references, not OEM fitment proof.
 
 Keep all imported Cat records at REFERENCE unless serial-specific Cat SIS/SIS2GO evidence exists. Do not bypass logins, scrape authenticated SIS sessions, infer fitment from family names, or republish manuals. For serial-specific fitment, require serial number, Arrangement and document/illustration reference.
+
+
+## Manual Cat Parts enrichment checkpoints — 24 November 2026
+
+### Batch 001/010 — completed (10/10)
+Method: manually inspect publicly indexed official Cat Parts Store product pages and category listings; do not use authenticated customer pricing or infer model fitment. Supabase rows remain `REFERENCE`; source evidence is recorded per row.
+
+| Part number | Official Cat identity | Official data captured | Compatible models |
+|---|---|---|---|
+| 000-5242 | Screw | Hex head; 2.625 in bolt length; 1.5 in grip; coarse 1/2-13 RH thread; alloy mixed metal; hole-in-head locking feature | Not published |
+| 000-5251 | Washer | Spring-conical; alloy mixed metal; 0.06 in thickness; 0.877 in ID; 1.97 in OD | Not published |
+| 000-5252 | Rivet | Alloy mixed metal | Not published |
+| 000-5253 | Stud | No public specifications | Not published |
+| 000-5265 | Dowel | Alloy mixed metal | Not published |
+| 000-5562 | Guide | No public specifications exposed | Not published |
+| 000-5564 | Pin-Eng (engine pin) | Alloy mixed metal | Not published |
+| 000-5571 | Nut | Alloy mixed metal | Not published |
+| 000-5585 | Gasket | No public specifications | Not published |
+| 000-5595 | Nut | RH thread; hex; alloy mixed metal; 0.328 in thickness; 0.012 in thread size as displayed; 0.5 in drive | Not published |
+
+Official source pages checked:
+- https://parts.cat.com/en/catcorp/product/000-5242
+- https://parts.cat.com/en/catcorp/product/000-5251
+- https://parts.cat.com/en/catcorp/product/000-5252
+- https://parts.cat.com/en/catcorp/product/000-5253
+- https://parts.cat.com/en/catcorp/product/000-5265
+- https://parts.cat.com/en/catcorp/product/000-5562
+- https://parts.cat.com/en/catcorp/product/000-5564
+- https://parts.cat.com/en/catcorp/product/000-5571
+- https://parts.cat.com/en/catcorp/product/000-5585
+- https://parts.cat.com/en/catcorp/product/000-5595
+- https://parts.cat.com/en/catcorp/category/hw-seals-consumables-hardware
+- https://parts.cat.com/en/catcorp/category/pins-dowel
+- https://parts.cat.com/en/catcorp/category/hw-seals-consumables-foam-insulation-liners
+
+Database checkpoint: 10/10 rows verified in `public.part_catalog`; official specifications stored for 8 rows, 2 rows have no published specifications; all 10 have empty compatible-model arrays because Cat's public pages state that compatibility is unavailable. No image URL or fitment was invented. The generic Scene7 fallback URL already present on these records was not changed in this batch.
