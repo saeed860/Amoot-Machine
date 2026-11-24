@@ -1371,3 +1371,36 @@ Official Cat pages checked:
 - https://parts.cat.com/en/catcorp/product/153-2994
 
 Database checkpoint: all 10 rows verified. Existing exact official images retained for 6 products; no fallback/reference-only images assigned to 141-7015, 144-0503, 150-3141, 151-5565 or 153-2994. Overall manual progress: 21/50 batches, 210/500 SKUs.
+
+
+
+## Batch 22/500 — SKUs 211–220 (153-5710 through 162-7864)
+
+The checkpoint target was expanded by user instruction from 500 to 5,000 products: 500 batches of 10. This batch reviewed all ten official Cat Parts Store pages and queried all ten matching Supabase records. All ten rows were present and verified; no unsupported fitment or replacement data was added.
+
+| SKU | Official identity / verified detail | Image treatment |
+|---|---|---|
+| 153-5710 | Cat 12V heavy-duty maintenance-free accessible wet battery, 4D BCI, 1,400 CCA, 200 Ah, 425-minute reserve capacity; 19.3 × 8.6 × 9.9 in; polypropylene case, calcium-lead-alloy grid, SAE posts; extensive construction, mining, power, truck, generator and engine fitment | Exact Cat image retained |
+| 153-5720 | Cat 12V heavy-duty maintenance-free accessible wet battery, 8D BCI, 1,500 CCA; 210 Ah, 465-minute reserve capacity, 1,800 CA; 20.5 × 10.8 × 8.7 in; generator, C175, mining truck, planer, grader, shovel and loader fitment | Exact Cat image retained |
+| 155-2260 | Cat 3-pin plug connector kit; nylon; Cat compatible-model list includes integrated toolcarriers, wheel harvesters, power packs, rotary drills, mini hydraulic excavators, feller bunchers and harvesters | Exact Cat image retained |
+| 155-2270 | Cat 2-pin plug connector kit used to connect harness wires; nylon; Cat compatible-model list includes integrated toolcarriers, wheel harvesters, power packs, military gensets, mini hydraulic excavators, rotary drills and feller bunchers | Exact Cat image retained |
+| 155-9879 | Cat Duo-Cone seal group; 137.57 mm assembled OD, 33 mm axial width; D11N/D11R/D11T/D11 XE/D11 | Exact Cat image retained |
+| 156-4208 | Cat right-hand minor bogie, 0.3°; boron steel and microalloy steel; suspended undercarriage shock absorption; D10R/D10T | Exact Cat image retained |
+| 156-4209 | Cat left-hand minor bogie, 0.3°; microalloy steel and boron steel; suspended undercarriage shock absorption; D10R/D10T | Exact Cat image retained |
+| 160-8765 | Cat Fitting Assembly; Cat publishes no functional description/specifications; listed fitment includes D11R, 3508/3508B/3516/3516B genset engines, PP3516, 3516/3508 marine, 5230B/5230 mining excavators, 854G and 992G | Fallback image only; omitted |
+| 162-7863 | Cat Duo-Cone metal-face seal; 106.18 mm assembled OD, 35.6 mm axial width; prevents oil loss and dirt entry in idlers/rollers; D8/D9/D10 track-type tractors and PL83/589/PL87/583/587 pipelayers | Exact Cat image retained |
+| 162-7864 | Cat Duo-Cone metal-face seal; 113.75 mm assembled OD, 35.6 mm axial width; prevents oil loss and dirt entry in idlers/rollers; D10/D11 track-type tractors | Exact Cat image retained |
+
+Official Cat pages checked:
+- https://parts.cat.com/en/catcorp/product/153-5710
+- https://parts.cat.com/en/catcorp/product/153-5720
+- https://parts.cat.com/en/catcorp/product/155-2260
+- https://parts.cat.com/en/catcorp/product/155-2270
+- https://parts.cat.com/en/catcorp/product/155-9879
+- https://parts.cat.com/en/catcorp/product/156-4208
+- https://parts.cat.com/en/catcorp/product/156-4209
+- https://parts.cat.com/en/catcorp/product/160-8765
+- https://parts.cat.com/en/catcorp/product/162-7863
+- https://parts.cat.com/en/catcorp/product/162-7864
+
+Database checkpoint: all 10 matching rows queried and verified. Exact official images retained for nine products; fallback-only image omitted for 160-8765. Overall reviewed progress: 22/500 batches, 220/5,000 products. Current source list contains 787 unique Cat part numbers, so after exhausting that list, additional official Cat part numbers must be discovered and validated before the 5,000-product target can be met.
