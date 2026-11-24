@@ -125,3 +125,40 @@ Source detail pages:
 This batch proves the public pages are useful for **OEM list-price benchmarks, condition segmentation and displayed inventory quantities**, but not for Off Road's actual buy price. The list-price values must not be used as supplier acquisition cost and must not be multiplied by 1.65 to create Amoot's selling price. The sourcing-price field stays empty until an authenticated supplier quote or authorized price response is obtained. Public inventory snapshots are not Amoot-owned stock and are not an order confirmation.
 
 The public top-500 list includes 1161980, but the checked C32/C9 numbers 3058921, 2072422, 3539049, 3620801, 4385385, 2580794, 1975987, 2425336 and 2453777 did not produce public detail-page price records in this pass. Their full-inventory availability and supplier prices remain unknown; absence from the public top-500 list is not proof of non-availability.
+
+
+## User-approved OEM fallback pricing policy (24 Nov 2026)
+
+The project owner explicitly approved using the public **OEM List Price** when Off Road's actual supplier unit price is hidden behind login. This supersedes the earlier rule that left the Amoot reference price blank whenever only OEM List Price was visible.
+
+Handling:
+- Store the visible OEM List Price as the **OEM benchmark price (USD)** and preserve the source URL and observation date.
+- For a provisional Amoot reference/suggested price, apply the existing 1.65 factor to that OEM benchmark (65% markup). Keep the calculation transparent and label it **provisional — based on OEM list, not Off Road acquisition cost**.
+- Do not describe the OEM benchmark as Off Road's selling price, purchase cost, quote, or guaranteed market price.
+- Do not convert currency or add freight, duties, tax, FX or fees without sourced values.
+- Keep supplier condition and displayed quantity in separate fields. A quantity shown on the public page is a dated supplier snapshot, not Amoot-owned stock and not a confirmed order.
+- If a part page has no visible OEM price, do not invent one; leave price blank and continue to the next item.
+- No price should be published as a firm offer until an admin approves it and current availability/condition is rechecked.
+
+### Public detail-page batch with OEM fallback
+
+| Part number | Description | OEM benchmark USD | Provisional Amoot reference USD (×1.65) | Public inventory snapshot | Detail page |
+|---|---|---:|---:|---|---|
+| 116-1980 | PUMP GP-EN / Engine Oil Pump | 2,024.61 | 3,340.61 | 15 New Aftermarket; 2 Call For Pricing (page snapshot also previously showed 1 Used) | https://offroadeq.com/parts/1161980 |
+| 5J1193 | BEARING | 91.15 | 150.40 | 162 New Aftermarket | https://offroadeq.com/parts/5J1193 |
+| 5P1948 | CONE | 2,557.93 | 4,220.58 | 12 New Aftermarket; 1 New Genuine Surplus; 4 Used | https://offroadeq.com/parts/5P1948 |
+| 2807856 | MOTOR GP-P | 5,081.35 | 8,384.23 | 7 New Aftermarket | https://offroadeq.com/parts/2807856 |
+| 2V7390 | SHIM PACK | 60.12 | 99.20 | 28 New Genuine Surplus; 20 New Aftermarket | https://offroadeq.com/parts/2V7390 |
+| 1R0751 | FILTER AS | 25.46 | 42.01 | 365 New Aftermarket | https://offroadeq.com/parts/1R0751 |
+| 2681900 | PUMP GP F | 943.36 | 1,556.54 | 2 Used | https://offroadeq.com/parts/2681900 |
+| 8H9789 | BEARING | 39.16 | 64.61 | 670 New Genuine Surplus; 1,484 New Aftermarket | https://offroadeq.com/parts/8H9789 |
+| 6R4385 | WHEEL A | 1,430.22 | 2,359.86 | Exact part not found; alternative variants listed | https://offroadeq.com/parts/6R4385 |
+| 2P0220 | GASKET | 6.67 | 11.01 | Alternative 3982927: 12 New Genuine Surplus; exact part not shown | https://offroadeq.com/parts/2P0220 |
+
+The 8H9789 inventory values were consolidated from the public exact/alternative-bearing detail pages; recheck before quoting. All actual Off Road unit prices remain login-gated. The provisional figures above are mathematical estimates from the OEM list-price benchmark only, not supplier-cost-plus-65% quotes. The 1R0751 alternative P551315 displays OEM List Price USD 0.00 and is excluded from pricing.
+
+### C32/C9 exact-number batch outcome
+
+A direct public detail-page attempt for 305-8921, 207-2422, 353-9049, 362-0801, 438-5385, 258-0794, 197-5987, 242-5336 and 245-3777 did not return accessible public detail records in this review. Their OEM benchmark prices and Off Road inventory remain **not established**; do not substitute prices from other parts or infer unavailability. The public top-500 list is only a discovery index, not the complete inventory.
+
+No Amoot live price, public catalog price, stock quantity or sellable SKU was changed by this documentation pass.
