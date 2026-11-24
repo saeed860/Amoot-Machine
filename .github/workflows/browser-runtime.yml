@@ -138,7 +138,9 @@ jobs:
             await offRoadMergePage.goto('http://127.0.0.1:4173/search.html?q=1003259',{waitUntil:'domcontentloaded',timeout:8000});
             await offRoadMergePage.waitForSelector('.part-detail-card .part-number',{timeout:8000});
             const mergedOffRoad = await offRoadMergePage.locator('.part-detail-card').innerText();
-            if (!mergedOffRoad.includes('1003259') || !mergedOffRoad.includes('6E5280') || !mergedOffRoad.includes('lb') || !mergedOffRoad.includes('دلار آمریکا')) throw new Error('Off Road pricing/weight/alternate references did not merge into Cat search result');
+            const offRoadDiag = await offRoadMergePage.evaluate(() => ({catalogCount:window.AMOOT_OFFROAD_CATALOG?.length,entry:window.AMOOT_OFFROAD_CATALOG?.find(x=>x.sku==='1003259'),card:document.querySelector('.part-detail-card')?.innerText}));
+            console.log('Off Road merge diagnostic',JSON.stringify(offRoadDiag));
+            if (!mergedOffRoad.includes('1003259') || !mergedOffRoad.includes('6E5280') || !mergedOffRoad.includes('lb') || !mergedOffRoad.includes('دلار آمریکا')) throw new Error('Off Road pricing/weight/alternate references did not merge into Cat search result: '+JSON.stringify(offRoadDiag));
             await offRoadMergePage.close();
 
             const offRoadAltPage = await browser.newPage();
