@@ -259,6 +259,9 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["3751722","CYL GP-017",25575.94,42200.30,"در موجودی دقیق فروشنده یافت نشد؛ قیمت OEM List موجود است"],
+ ["3789567","DRIVE GP-F",29597.06,48835.15,"۶ New Aftermarket"],
+ ["3793504","CYL GP-090",4422.84,7297.69,"در موجودی دقیق فروشنده یافت نشد؛ قیمت OEM List موجود است"],
  ["3628488","CYL GP-021",45378.13,74873.91,"۲ New Aftermarket"],
  ["3634457","KIT-SEAL",2276.79,3756.70,"۳۹ New Aftermarket"],
  ["3654920","SEAL GP DU",2067.70,3411.71,"۳۳ New Aftermarket"],
