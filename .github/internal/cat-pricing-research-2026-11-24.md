@@ -2067,3 +2067,34 @@ Official Cat pages checked:
 - https://parts.cat.com/en/catcorp/product/265-6619
 
 Database checkpoint: all ten rows queried; updates for 255-6451, 258-9955, 258-9959, 261-6857, 261-8287, 264-8859, 265-6618 and 265-6619 were re-queried; 250-1306 discontinuation was separately re-queried. Overall reviewed progress: 41/500 batches, 410/5,000 products.
+
+
+## Batch 42/500 — SKUs 411–420 (265-8575 through 284-1087)
+
+All ten Supabase rows were queried and ten Cat pages opened. Detailed model/specification sections were readable for nine. Verified changes:
+- 265-8575: Cat lockable vented fuel cap. Official fitment spans 54 mini hydraulic excavator/compact wheel-loader identifiers including 301.5/301.6/301.8, 302/303/304/305/308 families, 901C/902C/903C/903D. Added the Cat model list.
+- 272-1272: 7.04mm ID fuel-line tube. Official Marine Engine C32; existing DB matched.
+- 272-6009: Cat 215.9mm-pitch, 44-section SALT link assembly with 5-tooth master. Official fitment D8T/D8R/D8R II/D8GC/D8 GC/D8/D8 XE; added models and specs including 0.914in bolt-hole diameter, 8.5in track pitch, 2.028in rail-to-pin-boss OD, 0.875in track/master bolt thread, 8.035in shoe-bolt spacing, 9.654in pin length and 5.906in link height; no wear sensor.
+- 273-3286: Cat 12.58mm ID fuel-line tube assembly, 37-degree single-flare connector. Expanded compatible_models to the official generator-set, marine, marine-auxiliary, industrial, engine, petroleum and locomotive applications (10 distinct model identifiers).
+- 277-3076: Cat 4.76mm OD oil-jet brazed tube. Expanded fitment to 73 distinct identifiers across SR4/SR4B generators, AD55/AD30 underground trucks, C15/C16/3406 engine families, PM3456, R2900, D8 tractors, 583R/578 pipelayers, 5080/5090B shovels, 375/385 excavators, 627/623/651 wheel tractors, 3456 gen sets, RM reclaimers, 825 compactors, 740/D400E II ejector trucks, 834/824 dozers, 836/826 landfill compactors, 980/988 loaders, Challenger tractors and industrial/petroleum engines. Added 68.5 cutoff length, 4.5in length, 1.4in height, Carbon Steel/Alloy Copper material.
+- 279-5369: 1730mm (68in) general-purpose bucket/bolt-on cutting-edge assembly. Added 95 compatible models across multi-terrain loaders, compact-track loaders and skid-steer loaders; width 68.1in, capacity 0.52yd³, weight 551.2lb, height 16.8in, length 27.9in, base/cutting-edge thickness 0.7/0.6in, skid-steer coupler interface.
+- 279-5373: 1883mm (74in) bucket assembly. Same 95-model family; width 74.1in, capacity 0.58yd³, weight 597.5lb; same height/length/edge thickness/interface. The 304.5E2 mini excavator was not listed for this SKU and was explicitly removed from its array.
+- 279-5377: 2036mm (80in) bucket assembly. 96 models; includes 304.5E2 mini excavator in addition to multi-terrain, compact-track and skid-steer loaders. Width 80.2in, capacity 0.63yd³, weight 630.5lb; height 16.8in, length 27.9in, base/cutting-edge thickness 0.7/0.6in, skid-steer coupler interface.
+- 282-5199: Cat auxiliary water-pump kit. Added published fitment for marine engine/auxiliary, engine, industrial, petroleum and gas applications, including G3512 and G3516. Cat BOM identifies 8N-8466 Auxiliary Pump Group - S ×1; recorded in discovery queue pending own SKU verification.
+- 284-1087: Cat auxiliary water-pump impeller. Official fitment across 3500-series gen-set, marine, marine auxiliary, industrial, engine and petroleum families. Added 9 distinct model identifiers and specifications: 9.5in length, 3.3in height, stainless steel.
+
+Additional discovery: appended 16 Cat-linked candidate numbers from the 282-5199 BOM and related-parts panels for 277-3076/279-5377 to `data/cat-linked-parts-discovery.txt`: 8N-8466, 328-5573, 151-5925, 6I-4421, 0R-9449, 177-1990, 219-7706, 353-1697, 426-6548, 479-8086, 481-3668, 489-2001, 489-2200, 5P-8500, 8T-4999 and 377-5466.
+
+Official Cat pages checked:
+- https://parts.cat.com/en/catcorp/product/265-8575
+- https://parts.cat.com/en/catcorp/product/272-1272
+- https://parts.cat.com/en/catcorp/product/272-6009
+- https://parts.cat.com/en/catcorp/product/273-3286
+- https://parts.cat.com/en/catcorp/product/277-3076
+- https://parts.cat.com/en/catcorp/product/279-5369
+- https://parts.cat.com/en/catcorp/product/279-5373
+- https://parts.cat.com/en/catcorp/product/279-5377
+- https://parts.cat.com/en/catcorp/product/282-5199
+- https://parts.cat.com/en/catcorp/product/284-1087
+
+Database checkpoint: all ten rows queried; updates for 265-8575, 272-6009, 273-3286, 277-3076, 279-5369/5373/5377, 282-5199 and 284-1087 were re-queried. Fitment arrays for 279-5369 and 279-5373 were corrected to exclude 304.5E2, which Cat lists only for 279-5377. Overall reviewed progress: 42/500 batches, 420/5,000 products.
