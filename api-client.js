@@ -259,6 +259,7 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["6V0444","BEARING A",1722.82,2842.65,"۱۰۳ New Aftermarket"],
  ["6N1030","PUMP G OIL",2203.67,3636.06,"۲۱ New Aftermarket؛ ۶ Call For Pricing"],
  ["6N7960","CARTRIDGE",2653.42,4378.14,"۱۶ New Aftermarket"],
  ["6N9294","ALTERNATOR G",1396.18,2303.70,"۳۹ New Aftermarket"],
