@@ -109,3 +109,27 @@ The official Cat Sea Water Pumps category also exposes a public list of 33 items
 **Price status:** the retrieved Cat product pages did not expose a public customer price (some explicitly require sign-in). No price is inferred from the part number, description or other models. This pass adds OEM reference/model-class evidence only; no Off Road quote, Amoot price, stock or sellable SKU was created.
 
 **Fitment limit:** these published model-class matches do not establish serial/Arrangement-specific fitment or prove inclusion in every C18 cooling arrangement. Confirm the full engine serial number and Arrangement in SIS/Cat before order-level fitment.
+
+
+## C18 seawater-pump assembly expansion — official Cat Parts Store (24 Nov 2026)
+
+A targeted exact-number pass on Cat's Sea Water Pumps category and product pages identified the following additional C18 marine cooling references:
+
+| Part number | Official Cat description | Published model/application evidence | Customer application | Condition / note |
+|---|---|---|---|---|
+| **524-3160** | Sea Water Auxiliary Pump | Compatible-model classes include MARINE ENGINE C18/C18 MARINE, GENERATOR SET C18 and PETROLEUM PACKAGE C18 | **BOTH** | Cat new/genuine listing; customer price requires sign-in |
+| **20R-7175** | Cat Reman Auxiliary Sea Water Pump | Compatible-model classes include MARINE ENGINE C18, GENERATOR SET C18 and PETROLEUM PACKAGE C18 | **BOTH** | **REMAN**; Cat page recommends 3406E/C18 and states marine seawater cooling use; price requires sign-in |
+| **524-3157** | BODY-HALF / Water Pump Body | Compatible-model classes include MARINE ENGINE C18/C18 MARINE, GENERATOR SET C18 and PETROLEUM PACKAGE C18 | **BOTH** | Cat product page; water-pump body component |
+| **524-3154** | Water Pump Shaft | Compatible-model classes include MARINE ENGINE C18/C18 MARINE and C15/3406E, plus generator/petroleum classes | **BOTH** | Cat product page; stainless-steel shaft; page application text names C18/C15/3406E |
+
+Official Cat pages:
+- https://parts.cat.com/en/catcorp/product/524-3160
+- https://parts.cat.com/en/catcorp/product/20R-7175
+- https://parts.cat.com/en/catcorp/product/524-3157
+- https://parts.cat.com/en/catcorp/product/524-3154
+
+Cat also exposes 524-3159 (PUMP GP-AUX) with C18 in its MARINE ENGINE model class, but the retrieved public page has sparse description and no useful assembly detail. Keep it as a discovery lead pending serial-specific diagram/group confirmation rather than treating it as a confirmed component relationship.
+
+The public Sea Water Pumps category currently displays 33 items; only exact product pages with compatible-model evidence were promoted into this reference table. Cat customer pricing remains login-gated on the reviewed pages. No Off Road price, Amoot selling price, stock, or sellable SKU was created from this OEM-only pass.
+
+**Fitment limit:** model-class compatibility is not serial/Arrangement confirmation. Confirm the full engine serial number, Arrangement and pump configuration in Cat SIS / the serial-specific parts diagram before quoting or accepting an order. Keep the Reman condition of 20R-7175 distinct from new Cat parts.
