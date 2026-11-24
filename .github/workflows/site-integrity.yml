@@ -89,12 +89,19 @@ jobs:
             if (Object.keys(r).some(k => !['amootAmount','amootCurrency'].includes(k))) throw new Error('Internal pricing metadata leaked into public catalog: ' + p.sku);
           }
           const audit = fs.readFileSync('docs/internal-offroad-price-audit.md', 'utf8');
-          const audited = [...audit.matchAll(/^\| ([^|]+) \| [^|]* \| ([0-9.]+) \| ([0-9.]+) \|/gm)].map(m => ({sku:m[1],base:Number(m[2]),final:Number(m[3])}));
-          if (audited.length !== 505) throw new Error('Internal pricing audit must contain 505 rows; found ' + audited.length);
+          const baseAudit = audit.split('## Off Road public detail audit — 2026-11-24')[0];
+          const audited = [...baseAudit.matchAll(/^\\| ([^|]+) \\| [^|]* \\| ([0-9.]+) \\| ([0-9.]+) \\|/gm)].map(m => ({sku:m[1],base:Number(m[2]),final:Number(m[3])}));
+          if (audited.length !== 505) throw new Error('Independent-seller pricing audit must contain 505 rows; found ' + audited.length);
           for (const row of audited) {
-            if (Math.abs(row.base * 1.65 - row.final) > 0.0051) throw new Error('Incorrect 1.65x price formula: ' + row.sku);
+            if (Math.abs(row.base * 1.65 - row.final) > 0.0051) throw new Error('Incorrect independent-seller 1.65x price formula: ' + row.sku);
           }
-          console.log('Verified', rows.length, 'public USD prices and', audited.length, 'internal 1.65x calculations.');
+          const liveAudit = audit.split('## Off Road public detail audit — 2026-11-24')[1] || '';
+          const liveRows = [...liveAudit.matchAll(/^\\| ([^|]+) \\| [^|]* \\| (?:[0-9.]+|—) \\| ([0-9.]+) \\| ([0-9.]+) \\|/gm)].map(m => ({sku:m[1],base:Number(m[2]),final:Number(m[3])}));
+          if (liveRows.length < 450) throw new Error('Expected at least 450 current Off Road OEM references; found ' + liveRows.length);
+          for (const row of liveRows) {
+            if (Math.abs(row.base * 1.65 - row.final) > 0.0051) throw new Error('Incorrect live Off Road 1.65x price formula: ' + row.sku);
+          }
+          console.log('Verified', rows.length, 'public USD prices,', audited.length, 'independent references and', liveRows.length, 'current Off Road OEM references.');
           NODE
       - name: Verify local page assets
         run: |
