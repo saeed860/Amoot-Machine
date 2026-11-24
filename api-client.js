@@ -259,6 +259,11 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["3161079","FRAME AS",3168.26,5227.63,"۵۱ New Aftermarket"],
+ ["3167251","ALTERNATOR",1674.51,2762.94,"۲۴ New Aftermarket؛ ۸ Call For Pricing"],
+ ["3172440","HEAD GP-CY",2815.49,4645.56,"۱۱ New Aftermarket؛ ۱ New Genuine Surplus؛ ۱۲ New Genuine - Less Than Perfect"],
+ ["3178021","PUMP GP FU",3945.46,6510.01,"۱۰ New Aftermarket"],
+ ["3178766","BEARING -",75.33,124.29,"۵٬۳۲۵ New Aftermarket؛ ۱ New Genuine Surplus؛ ۱۷ Call For Pricing"],
  ["3144126","SEAL GP-DU",1436.31,2369.91,"۱۴ New Aftermarket"],
  ["3144128","SEAL GP-DU",1338.45,2208.44,"۲۳ New Aftermarket"],
  ["3144130","SEAL GP-DU",2646.78,4367.19,"۷۱ New Aftermarket"],
