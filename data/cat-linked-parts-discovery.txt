@@ -1212,3 +1212,19 @@ Source pages:
 311-1298 | Bogie Pin Assembly Cartridge | Cat Parts Store frequently bought together with 7T-5420 minor bogie | cat_linked_candidate; needs_individual_verification
 131-1651 | Track Roller Cap | Cat Parts Store frequently bought together with 7T-5420 minor bogie | cat_linked_candidate; needs_individual_verification
 9W-4481 | 67.96mm Inside Diameter Suspension Bogie Insert | Cat Parts Store frequently bought together with 7T-5420 minor bogie | cat_linked_candidate; needs_individual_verification
+
+0R-5362 | Cat Reman Turbocharger Cartridge | Cat Parts Store Compare Alternate Parts for 7W-0489 | cat_linked_candidate; needs_individual_verification
+20R-0524 | Cat Reman 3408 Direct Injection I Type Cylinder Head | Cat Parts Store Compare Alternate Parts for 7W-2225 | cat_linked_candidate; needs_individual_verification
+360-8960 | Engine Fuel Filter Element | Cat Parts Store frequently bought together with 7W-2326 engine oil filter | cat_linked_candidate; needs_individual_verification
+479-4133 | Ultra High Efficiency Fuel Water Separator | Cat Parts Store frequently bought together with 7W-2326 engine oil filter | cat_linked_candidate; needs_individual_verification
+346-6688 | Air Cleaner Secondary Element | Cat Parts Store frequently bought together with 7W-2326 engine oil filter | cat_linked_candidate; needs_individual_verification
+528-0585 | Engine Air Filter | Cat Parts Store frequently bought together with 7W-2326 engine oil filter | cat_linked_candidate; needs_individual_verification
+471-7003 | Transmission Hydraulic Filter | Cat Parts Store frequently bought together with 7W-2326 engine oil filter | cat_linked_candidate; needs_individual_verification
+5P-8500 | Machine Ignition Key | Cat Parts Store frequently bought together with 8F-9866 grease gun | cat_linked_candidate; needs_individual_verification
+9G-2758 | Switch Lockout | Cat Parts Store frequently bought together with 8F-9866 grease gun | cat_linked_candidate; needs_individual_verification
+8T-8729 | 3.30mm Outer Diameter Brass Connector Pin | Cat Parts Store frequently bought together with 8F-9866 grease gun | cat_linked_candidate; needs_individual_verification
+8N-0420 | Turbocharger Water Lines Tube | Cat Parts Store frequently bought together with 8N-0419 water line | cat_linked_candidate; needs_individual_verification
+8N-8953 | Turbocharger Water Lines Tube | Cat Parts Store frequently bought together with 8N-0419 water line | cat_linked_candidate; needs_individual_verification
+8N-8955 | 25.40mm Inner Diameter Tube | Cat Parts Store frequently bought together with 8N-0419 water line | cat_linked_candidate; needs_individual_verification
+7N-7415 | 1in Straight Adapter | Cat Parts Store frequently bought together with 8N-0419 water line | cat_linked_candidate; needs_individual_verification
+7L-4773 | 23.16mm Inside Diameter Seal-O-Ring | Cat Parts Store frequently bought together with 8N-0419 water line | cat_linked_candidate; needs_individual_verification
