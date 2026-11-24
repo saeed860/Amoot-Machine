@@ -259,6 +259,10 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["2394322","SPRING G",6971.47,11502.93,"۲۷ New Aftermarket؛ ۲ Used"],
+ ["2399988","TURBO GP-B",5536.98,9136.02,"۴۰ New Aftermarket"],
+ ["2418686","PUMP GP",1929.16,3183.11,"۷ New Aftermarket"],
+ ["2420673","CAMSHAFT A",2102.96,3469.88,"۹ New Aftermarket"],
  ["2357133","ALTERNATOR",1506.03,2484.95,"۵۸ New Aftermarket؛ ۱ New Aftermarket - Less Than Perfect"],
  ["2357636","PIN AS",1977.13,3262.26,"۱۳۷ New Aftermarket؛ ۲ New Genuine Surplus"],
  ["2357642","PIN AS",1607.57,2652.49,"۱۹ New Aftermarket"],
