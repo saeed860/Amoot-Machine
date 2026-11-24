@@ -259,6 +259,7 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["2512552","PIN AS",1496.02,2468.43,"۱۱ New Aftermarket"],
  ["1979322","LINER",225.80,372.57,"۶۰ New Aftermarket؛ ۵ Used"],
  ["1981508","PUMP GP-EO 2",2644.35,4363.18,"۲۰ New Aftermarket"],
  ["1995525","LINK AS.-TRA",15021.33,24785.19,"۶ New Aftermarket"],
