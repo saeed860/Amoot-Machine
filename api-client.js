@@ -259,6 +259,11 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["2065889","A/C CONDEN",1487.33,2454.09,"۲۵ New Aftermarket"],
+ ["2071517","MOTOR G",1519.79,2507.65,"۹۷ New Aftermarket"],
+ ["2071556","MOTOR GP-ELE",1552.19,2561.11,"۴۵ New Aftermarket؛ ۱ Used"],
+ ["2071560","MOTOR G",1485.78,2451.54,"۷۰ New Aftermarket"],
+ ["2114987","MOUNT-SUSP",1517.33,2503.59,"۳۲ New Aftermarket؛ ۲ New Genuine Surplus؛ ۶ Used"],
  ["2024304","IDLER G TRAC",1629.25,2688.26,"۷ New Aftermarket"],
  ["2044995","PUMP GP-GR",2699.69,4454.49,"۸ New Aftermarket"],
  ["2045462","TURBO GP-B",10778.43,17784.41,"۱۱ New Aftermarket"],
