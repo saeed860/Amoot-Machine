@@ -259,6 +259,9 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["3231170","IDLER GP-T",2382.20,3930.63,"در موجودی دقیق فروشنده یافت نشد؛ قیمت OEM List موجود است"],
+ ["3238674","GEAR-WORM",2103.74,3471.17,"۶۱ New Aftermarket"],
+ ["3240532","PUMP GP-FU",3965.16,6542.51,"در موجودی دقیق فروشنده یافت نشد؛ قیمت OEM List موجود است"],
  ["3161079","FRAME AS",3168.26,5227.63,"۵۱ New Aftermarket"],
  ["3167251","ALTERNATOR",1674.51,2762.94,"۲۴ New Aftermarket؛ ۸ Call For Pricing"],
  ["3172440","HEAD GP-CY",2815.49,4645.56,"۱۱ New Aftermarket؛ ۱ New Genuine Surplus؛ ۱۲ New Genuine - Less Than Perfect"],
