@@ -1,0 +1,1 @@
+UPDATE public.products SET price_usd=9006.57, price_irr=NULL WHERE sku='131-5453';
