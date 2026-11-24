@@ -1,0 +1,102 @@
+# Off Road Equipment — independent Caterpillar part-number discovery queue
+
+Source: https://offroadeq.com/parts
+Retrieved: 2026-11-24
+Source class: independent reseller / surplus and aftermarket inventory discovery
+Page states: 500 frequently searched Caterpillar part numbers. Brand column is blank for the entries below. The seller describes its inventory as a mix of genuine surplus OEM and aftermarket parts and is not an authorized Caterpillar dealer.
+Purpose: candidate discovery only. None of these rows is asserted here as genuine Cat, new, in stock, or compatible with any machine.
+Status for every row: independent_candidate; needs Cat catalog/SIS/dealer verification.
+Do not merge into data/cat-official-part-numbers.txt until independently verified.
+
+Format: part_number | source_description | source_brand | verification_status
+813967 | (see details) | not stated | independent_candidate; needs_verification
+1003259 | PUMP G | not stated | independent_candidate; needs_verification
+1004095 | CARTRIDG | not stated | independent_candidate; needs_verification
+1005047 | ALTERNATOR | not stated | independent_candidate; needs_verification
+1007408 | CAMSHAFT A | not stated | independent_candidate; needs_verification
+1041752 | PUMP GP | not stated | independent_candidate; needs_verification
+1052140 | PUMP GP-PS&V | not stated | independent_candidate; needs_verification
+1052508 | PUMP AS | not stated | independent_candidate; needs_verification
+1053196 | MOTOR GRP | not stated | independent_candidate; needs_verification
+1053635 | PUMP GP | not stated | independent_candidate; needs_verification
+1061792 | STUD TAPER | not stated | independent_candidate; needs_verification
+1069872 | PUMP GP | not stated | independent_candidate; needs_verification
+1075007 | JOINT G-SL | not stated | independent_candidate; needs_verification
+1080850 | SHAFT A. | not stated | independent_candidate; needs_verification
+1090077 | SEAL O RIN | not stated | independent_candidate; needs_verification
+1115059 | CORE AS AF | not stated | independent_candidate; needs_verification
+1116841 | PUMP GP | not stated | independent_candidate; needs_verification
+1118010 | REGULATOR | not stated | independent_candidate; needs_verification
+1118181 | CYL GP-LIF | not stated | independent_candidate; needs_verification
+1125060 | BRACKET AS | not stated | independent_candidate; needs_verification
+1150637 | PUMP | not stated | independent_candidate; needs_verification
+1154517 | CORE A | not stated | independent_candidate; needs_verification
+1159899 | PUMP GP | not stated | independent_candidate; needs_verification
+1161980 | PUMP GP-EN | not stated | independent_candidate; needs_verification
+1166562 | CORE AS-O. | not stated | independent_candidate; needs_verification
+1167885 | PAN OIL | not stated | independent_candidate; needs_verification
+1168046 | BEARING AS | not stated | independent_candidate; needs_verification
+1197698 | PUMP G-PS | not stated | independent_candidate; needs_verification
+1245142 | CORE A | not stated | independent_candidate; needs_verification
+1253537 | IDLER GP | not stated | independent_candidate; needs_verification
+1275537 | CORE AS | not stated | independent_candidate; needs_verification
+1291908 | CYL GP | not stated | independent_candidate; needs_verification
+1299452 | GASKET EXH. | not stated | independent_candidate; needs_verification
+1330125 | CORE AS | not stated | independent_candidate; needs_verification
+1331149 | PUMP GP | not stated | independent_candidate; needs_verification
+1331403 | PUMP GP-GE | not stated | independent_candidate; needs_verification
+1340467 | (see details) | not stated | independent_candidate; needs_verification
+1342679 | BOGIE AS | not stated | independent_candidate; needs_verification
+1342680 | BOGIE AS-R | not stated | independent_candidate; needs_verification
+1362422 | SEE 2394321 | not stated | independent_candidate; needs_verification
+1362462 | (see details) | not stated | independent_candidate; needs_verification
+1363965 | PUMP GP | not stated | independent_candidate; needs_verification
+1375541 | PUMP AS | not stated | independent_candidate; needs_verification
+1392383 | PUMP GP | not stated | independent_candidate; needs_verification
+1409699 | BAR GP-EQU | not stated | independent_candidate; needs_verification
+1414109 | CORE A | not stated | independent_candidate; needs_verification
+1417916 | CARTRIDGE | not stated | independent_candidate; needs_verification
+1425867 | SEAL GP-CSHA | not stated | independent_candidate; needs_verification
+1425868 | (see details) | not stated | independent_candidate; needs_verification
+1440725 | ROD AS | not stated | independent_candidate; needs_verification
+1484644 | DRIVE GP | not stated | independent_candidate; needs_verification
+1494915 | COMPR GP-B | not stated | independent_candidate; needs_verification
+1507585 | PUMP GP-GR | not stated | independent_candidate; needs_verification
+1515911 | MANIFOLD A | not stated | independent_candidate; needs_verification
+1519385 | MONITOR GP | not stated | independent_candidate; needs_verification
+1539624 | PUMP GP-PS | not stated | independent_candidate; needs_verification
+1592950 | SEAT GP-SU | not stated | independent_candidate; needs_verification
+1614110 | PUMP GP-EO | not stated | independent_candidate; needs_verification
+1614111 | PUMP GP-EO | not stated | independent_candidate; needs_verification
+1614113 | PUMP GP-EO | not stated | independent_candidate; needs_verification
+1616634 | PUMP GP-PS | not stated | independent_candidate; needs_verification
+1632478 | SEAL-VALVE | not stated | independent_candidate; needs_verification
+1643692 | SENSOR GP- | not stated | independent_candidate; needs_verification
+1658633 | CYL GP-0121- | not stated | independent_candidate; needs_verification
+1661494 | SEAL | not stated | independent_candidate; needs_verification
+1661495 | SEAL-LIP TYP | not stated | independent_candidate; needs_verification
+1678130 | DAMPER AS | not stated | independent_candidate; needs_verification
+1727766 | PUMP GP-WT | not stated | independent_candidate; needs_verification
+1727767 | PUMP | not stated | independent_candidate; needs_verification
+1738612 | CYLINDER G | not stated | independent_candidate; needs_verification
+1774651 | BAR GP | not stated | independent_candidate; needs_verification
+1779953 | ALTERNATOR G | not stated | independent_candidate; needs_verification
+1795922 | TURBO GP-BAS | not stated | independent_candidate; needs_verification
+1835296 | HEAD GP-CY | not stated | independent_candidate; needs_verification
+1851016 | RADIATOR G | not stated | independent_candidate; needs_verification
+1855294 | ALTERNATOR G | not stated | independent_candidate; needs_verification
+1857593 | DRIVE GP-FIN | not stated | independent_candidate; needs_verification
+1873523 | CORE AS | not stated | independent_candidate; needs_verification
+1879090 | PUMP GP-PS-B | not stated | independent_candidate; needs_verification
+1883865 | TC GP-W/TDR | not stated | independent_candidate; needs_verification
+1888697 | BEARING | not stated | independent_candidate; needs_verification
+1898777 | (see details) | not stated | independent_candidate; needs_verification
+1908609 | VALVE FILL | not stated | independent_candidate; needs_verification
+1930980 | PUMP GP FR | not stated | independent_candidate; needs_verification
+1941252 | SPRING GP- | not stated | independent_candidate; needs_verification
+1956617 | PUMP GP-ME | not stated | independent_candidate; needs_verification
+1967795 | BRG AS SPL | not stated | independent_candidate; needs_verification
+1978820 | ALTERNATOR | not stated | independent_candidate; needs_verification
+1979322 | LINER | not stated | independent_candidate; needs_verification
+1981508 | PUMP GP-EO 2 | not stated | independent_candidate; needs_verification
+1995525 | LINK AS.-TRA | not stated | independent_candidate; needs_verification
