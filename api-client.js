@@ -259,6 +259,11 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["7T2732","PUMP G",5019.32,8281.88,"۲ New Aftermarket"],
+ ["7T5417","BOGIE A",10914.13,18008.31,"۸ New Aftermarket؛ ۱ Rebuilt؛ ۱۳ Used"],
+ ["7T8001","SPINDLE",5806.31,9580.41,"۱۳ New Aftermarket"],
+ ["7V8702","CYLINDER G",2717.52,4483.91,"۲۳ New Aftermarket"],
+ ["7W0443","MOUNT A",1347.86,2223.97,"۲ New Aftermarket؛ ۱ Used"],
  ["7N3486","MANIFOLD",1693.33,2793.99,"۸۴ New Aftermarket"],
  ["7N4651","TURBO G",1602.10,2643.46,"۱۷۴ New Aftermarket؛ ۱ Rebuilt"],
  ["7N7748","TURBO G",1802.98,2974.92,"۱۰ New Aftermarket"],
