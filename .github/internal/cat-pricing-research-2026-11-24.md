@@ -1883,3 +1883,32 @@ Official Cat sources checked:
 - https://parts.cat.com/en/catcorp/product/20R-9480
 
 Database checkpoint: all ten rows queried; updates for 20R-9045 compatible_models and 20R-9124 material were re-queried successfully. Overall reviewed progress: 36/500 batches, 360/5,000 products.
+
+
+## Batch 37/500 — SKUs 361–370 (20R-9564 through 211-2660)
+
+All ten Supabase rows were queried. Eight Cat product pages were readable; 20R-9564 and 20R-9566 could not be fetched. Two compatibility corrections were applied and re-queried:
+- 20R-9565: Cat Reman transfer gear; official compatible articulated trucks 725 and 725C2. Added both.
+- 20R-9567: Cat Reman transfer gear; official compatible articulated truck 735B. Added.
+Other records:
+- 20R-9564 and 20R-9566: transfer gear records; official page fetch unavailable; no compatibility or technical data inferred.
+- 20R-9654: Cat Reman C175 valve lifter; official fitment C175-16 engine, 795F XQ/795F AC trucks, 798 AC off-highway truck. Existing DB values match.
+- 20R-9847: Cat Reman water pump; official D450GC/D500GC generator sets and C15 truck engine. Existing DB values match.
+- 20R-9976: Cat Reman engine water pump; dimensions 8.22 in H × 10.27 in L × 8.43 in W; compatible articulated truck 730 and industrial engine C13. Existing DB values match.
+- 210-1471: Cat fuel-pump priming tube assembly; 12.58 mm ID, 37-degree single-flared nuts both ends, carbon steel; fitment includes 3500-series gen sets, marine, marine auxiliary, industrial and petroleum engines. Existing DB fitment/specs reviewed and retained.
+- 210-2535: Cat fuel-injection line tube assembly; 12.58 mm ID, 37-degree single-flared nuts, fitment across 3500-series generator, marine, marine auxiliary, industrial, locomotive, off-highway truck and petroleum engine applications. Existing DB reviewed and retained.
+- 211-2660: Cat standard-efficiency cabin air filter; official dimensions height 1.398 in with seal / 1.004 in without, width 6.457 in, length 15.748 in; Urethane Panel, standard media; broad official fitment for 415F2 IL, 775G/773G/777G trucks, backhoe loaders and motor graders. Existing DB fitment/specs reviewed and retained.
+
+Official Cat pages checked:
+- https://parts.cat.com/en/catcorp/product/20R-9564 (inaccessible)
+- https://parts.cat.com/en/catcorp/product/20R-9565
+- https://parts.cat.com/en/catcorp/product/20R-9566 (inaccessible)
+- https://parts.cat.com/en/catcorp/product/20R-9567
+- https://parts.cat.com/en/catcorp/product/20R-9654
+- https://parts.cat.com/en/catcorp/product/20R-9847
+- https://parts.cat.com/en/catcorp/product/20R-9976
+- https://parts.cat.com/en/catcorp/product/210-1471
+- https://parts.cat.com/en/catcorp/product/210-2535
+- https://parts.cat.com/en/catcorp/product/211-2660
+
+Database checkpoint: all ten rows queried; 20R-9565 and 20R-9567 compatible_models corrections were re-queried successfully. Overall reviewed progress: 37/500 batches, 370/5,000 products.
