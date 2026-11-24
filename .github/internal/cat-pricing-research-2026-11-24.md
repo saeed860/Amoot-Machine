@@ -9,15 +9,16 @@ Only exact-match, publicly visible supplier listings were priced. Public product
 | CAT-7W-0009 | Aftermarket Express; NEW AFTERMARKET; seller lists Florida stock | $1,955.00 | **$3,225.75** | Public price entered; brand set to Aftermarket; shipping excluded |
 | CAT-5N-4504 | Aftermarket Express; NEW AFTERMARKET; seller lists Florida stock | $264.52 | **$436.46** | Public price entered; brand set to Aftermarket; shipping excluded |
 | CAT-8T-6765 | Heavy Duty Pros; seller-listed replacement part, OEM authenticity not established | $1.05 | **$1.73** | Public price entered; brand set to Replacement (OEM status unverified) |
+| CAT-4N-1114 | PartSell; Caterpillar listing, condition not specified; seller showed 6 units | RUB 3,969 (USD 48.34 at 0.01218) | **$79.76** | Public price entered; currency conversion uses 24 Nov 2026 mid-market rate; reconfirm condition and stock |
 
 Sources:
 - https://aftermarket.express/caterpillar/7w0009 — explicitly states NEW AFTERMARKET, USD 1,955, OEM benchmark USD 4,118.78, and seller disclaimer that it is not an authorized Caterpillar dealer.
 - https://aftermarket.express/caterpillar/5n4504 — explicitly states NEW AFTERMARKET, USD 264.52, OEM benchmark USD 331.63, and seller disclaimer that it is not an authorized Caterpillar dealer.
 - https://www.heavydutypros.com/caterpillar-3126-6jk-engine-parts-engine-parts.aspx — lists replacement 8T6765 at USD 1.05; do not represent as Cat genuine without confirmation.
 
-All three products remain stock quantity 0 / quote-first. Source shipping, handling, taxes and international freight are not included. Supplier price and availability must be reconfirmed at order time.
+All four products remain stock quantity 0 / quote-first. Source shipping, handling, taxes and international freight are not included. Supplier price and availability must be reconfirmed at order time.
 
-## Remaining 22 of the original 25 items
+## Remaining 21 of the original 25 items
 
 No public price was inserted for the remaining items because exact price, currency, condition or SKU match was not sufficiently established:
 - 0S-0699
@@ -39,12 +40,14 @@ No public price was inserted for the remaining items because exact price, curren
 - CAT-30R-0084
 - CAT-321-6970
 - CAT-453-1607
-- CAT-4N-1114
 - CAT-593-5344
 - CAT-9X-3406
 
+Additional source:
+- https://partsell.ru/catalog/4n-1114 — seller listing for Caterpillar 4N-1114 at RUB 3,969 and 6 units shown. Listing condition is not explicit. Currency converted at 1 RUB = USD 0.01218 (mid-market reference on 2026-11-24); shipping and payment spread excluded.
+
 Important excluded leads:
-- 4N-1114: a surfaced USD 27.28 listing was used/second-hand, not a verified new part price.
+- 4N-1114: a surfaced USD 27.28 listing was used/second-hand and excluded; the separate PartSell listing at RUB 3,969 is now used as a seller-reference price, but condition remains unconfirmed.
 - 1L-9049: a surfaced listing was in CNY, not USD; no FX basis was approved for conversion.
 - 202-2785: a public procurement document surfaced an amount but did not establish a comparable currency/market/condition basis for the Amoot product.
 - 20R-5367: a WesTrac amount included a 60-month/10,000-hour protection program, not a clean engine-only price.
@@ -65,13 +68,13 @@ Before this pass:
 
 After this pass:
 - **787 rows**
-- **781 descriptions** (+12)
+- **782 descriptions** (+13)
 - **423 images** (unchanged; no image URL was fabricated)
-- **405 rows with compatible-model associations** (+15)
+- **406 rows with compatible-model associations** (+16)
 - **415 rows with engine-model associations** (unchanged)
-- **203 rows with structured specifications** (+11)
+- **204 rows with structured specifications** (+12)
 
-The remaining six rows without descriptions are 127-2176, 1L-5011, 238-3262, 397-4971, 3T-2160 and 447-8618. Public Cat pages identify these products and, where available, publish model/specification data, but do not provide substantive descriptions. Their source names, source URLs, verification status and any explicit compatible-model/specification data were retained or enriched; no generic fitment or invented technical description was added.
+The remaining five rows without descriptions are 1L-5011, 238-3262, 397-4971, 3T-2160 and 447-8618. The 127-2176 description and its published specifications/model associations were added from the official Cat Parts Store page. Public Cat pages identify these products and, where available, publish model/specification data, but do not provide substantive descriptions. Their source names, source URLs, verification status and any explicit compatible-model/specification data were retained or enriched; no generic fitment or invented technical description was added.
 
 Enrichment used indexed public Cat Parts Store product pages, not authenticated SIS sessions. Examples of the newly checked public pages:
 - https://parts.cat.com/en/catcorp/product/100-3878
