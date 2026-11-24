@@ -259,6 +259,10 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["4621014","CONT GP-XM",1413.76,2332.70,"۵۵ New Aftermarket"],
+ ["4621016","CONT GP-XM",1413.76,2332.70,"۹۶ New Aftermarket"],
+ ["4656884","PUMP AS",3059.65,5048.42,"موجودی Off Road ندارد؛ قیمت OEM List عمومی"],
+ ["4685119","CRANKSHAFT",13329.12,21993.05,"۱۹ New Aftermarket"],
  ["4583867","SHAFT-CIRC",1574.50,2597.92,"۶۲ New Aftermarket"],
  ["4592220","CONT GP",4196.43,6924.11,"۲ New Genuine Surplus"],
  ["4452672","PUMP GP-GR",6403.84,10566.34,"۵ New Aftermarket"],
