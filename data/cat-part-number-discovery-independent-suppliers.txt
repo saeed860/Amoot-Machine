@@ -1,0 +1,63 @@
+# Independent Cat part-number discovery candidates — supplier catalogs and technical references
+
+Retrieved: 2026-11-24
+This queue aggregates independent supplier catalogs, aftermarket technical references, and scanned parts-manual material. These are leads, not proof of Cat authenticity or current applicability.
+Important: some rows are cross-references, supersessions, aftermarket interchange numbers, kit numbers, or subcomponents—not necessarily standalone Cat orderable SKUs.
+No candidate is represented as new genuine Cat stock or fitment-confirmed.
+Status for every row: independent_candidate; needs_verification.
+Format: part_number | source_description | source_document_or_site | status
+
+1038264 | Gear pump; listed for Cat 316/320/322/325; cross references 854923 and 874738 | EMS PUMPS PDF | independent_candidate; needs_verification
+1192924 | Engine oil pump; listed for Cat 3114/3116 and 320/322/325/938F/950F/960F; cross reference 2W8625 | EMS PUMPS PDF | independent_candidate; needs_verification
+1164624 | Transmission charge pump; listed for 824C/825C/826C; cross reference 6P7788 | EMS PUMPS PDF | independent_candidate; needs_verification
+1217385 | Gear pump; listed for 416C/426C/428C/436C | EMS PUMPS PDF | independent_candidate; needs_verification
+1150637 | Scavenge pump; listed for D7F/G, D8K, D9H; cross references 2P9239/1131526 | EMS PUMPS PDF | independent_candidate; needs_verification
+1003259 | Hydraulic piston pump; listed for 416B/426B/428B/436B; cross reference 6E5280 | EMS PUMPS PDF | independent_candidate; needs_verification
+1125041 | 24V 50A alternator; listed for 3406/C, 3408/E, 3412, 3116 and several machine families | Costex alternators catalog | independent_candidate; needs_verification
+1693345 | 24V 60A alternator; listed for 3406C/C15/C7/C13/3412E and machine families | Costex alternators catalog | independent_candidate; needs_verification
+2035492 | 12V 110A alternator; listed for 3044C/C3.4/3046/3034 and compact equipment | Costex alternators catalog | independent_candidate; needs_verification
+2128622 | 24V 50A alternator; listed for 3064/3066 and 311C U/320C-L | Costex alternators catalog | independent_candidate; needs_verification
+2128561 | 24V 54A alternator; listed for C6.4/3066 and 323D/320D | Costex alternators catalog | independent_candidate; needs_verification
+1005047 | 24V 50A alternator; listed for 3406/C, 3408/E, 3306, 3116 and grader/scraper families | Costex alternators catalog | independent_candidate; needs_verification
+7C7691 | Turbocharger for 3406/3406B/3406C; OE cross-references include 0R6333 and 7C3171 | Rivtron turbocharger listing | independent_candidate; needs_verification
+0R6333 | Turbocharger cross-reference / alternate OE number for 7C7691 | Rivtron turbocharger listing | independent_candidate; needs_verification
+7C3171 | Turbocharger cross-reference / alternate OE number for 7C7691 | Rivtron turbocharger listing | independent_candidate; needs_verification
+1U0532 | Hydraulic pump cartridge; listed under Caterpillar brand | Jereh Powertech hydraulic pump catalog | independent_candidate; needs_verification
+1U2652 | Pump cartridge; listed under Caterpillar brand | Jereh Powertech hydraulic pump catalog | independent_candidate; needs_verification
+1U2664 | Pump cartridge; listed under Caterpillar brand | Jereh Powertech hydraulic pump catalog | independent_candidate; needs_verification
+1U2665 | Pump cartridge; listed under Caterpillar brand | Jereh Powertech hydraulic pump catalog | independent_candidate; needs_verification
+1U2666 | Pump cartridge; listed under Caterpillar brand | Jereh Powertech hydraulic pump catalog | independent_candidate; needs_verification
+1U2667 | 30 GPM cartridge group; listed under Caterpillar brand | Jereh Powertech hydraulic pump catalog | independent_candidate; needs_verification
+1U2668 | Pump cartridge; listed under Caterpillar brand | Jereh Powertech hydraulic pump catalog | independent_candidate; needs_verification
+1U2669 | Pump cartridge; listed under Caterpillar brand | Jereh Powertech hydraulic pump catalog | independent_candidate; needs_verification
+1U2670 | Pump cartridge; listed under Caterpillar brand | Jereh Powertech hydraulic pump catalog | independent_candidate; needs_verification
+1U2671 | Pump cartridge; listed under Caterpillar brand | Jereh Powertech hydraulic pump catalog | independent_candidate; needs_verification
+1U3519 | Pump cartridge; listed under Caterpillar brand | Jereh Powertech hydraulic pump catalog | independent_candidate; needs_verification
+1U3840 | Pump; listed under Caterpillar brand | Jereh Powertech hydraulic pump catalog | independent_candidate; needs_verification
+1U3952 | Pump cartridge; listed under Caterpillar brand | Jereh Powertech hydraulic pump catalog | independent_candidate; needs_verification
+1U3953 | 38 GPM cartridge group; listed under Caterpillar brand | Jereh Powertech hydraulic pump catalog | independent_candidate; needs_verification
+1342679K | Complete front bogie assembly kit; component 1342679 identified as major bogie, for D9N/D9R/D9T | DMC Wear Parts bogie application chart | independent_candidate; needs_verification
+1342680K | Complete rear bogie assembly kit; component 1342680 identified as major bogie, for D9N/D9R/D9T | DMC Wear Parts bogie application chart | independent_candidate; needs_verification
+7T5420 | Minor bogie; listed for D9N/D9R/D9T | BDI Wear Parts / DMC Wear Parts | independent_candidate; needs_verification
+7T9307 | Bogie pin; listed as component of D9 bogie assembly kits | DMC Wear Parts bogie application chart | independent_candidate; needs_verification
+1979322CSWS | Cylinder liner kit with seals; IPD reference for 3400/C15 5.4-inch bore engines | IPD liner technical note | independent_candidate; needs_verification
+6E5280 | Hydraulic pump cross-reference / supersession for 1003259 | EMS PUMPS PDF | independent_candidate; needs_verification
+854923 | Gear-pump cross-reference for 1038264 | EMS PUMPS PDF | independent_candidate; needs_verification
+874738 | Gear-pump cross-reference for 1038264 | EMS PUMPS PDF | independent_candidate; needs_verification
+2W8625 | Engine oil-pump cross-reference for 1192924 | EMS PUMPS PDF | independent_candidate; needs_verification
+9T5976 | Gerotor pump cross-reference for 1053196 | EMS PUMPS PDF | independent_candidate; needs_verification
+8J5407 | Gerotor pump cross-reference for 1053196 | EMS PUMPS PDF | independent_candidate; needs_verification
+2P9239 | Scavenge pump cross-reference for 1150637 | EMS PUMPS PDF | independent_candidate; needs_verification
+1131526 | Scavenge pump cross-reference for 1150637 | EMS PUMPS PDF | independent_candidate; needs_verification
+6P7788 | Transmission charge-pump cross-reference for 1164624 | EMS PUMPS PDF | independent_candidate; needs_verification
+7C5567 | Pulley attachment listed for 1005047 alternator | Numeralkod scanned Cat 3116 parts manual | independent_candidate; needs_verification
+
+Source URLs:
+- https://www.emspares.com.au/wp-content/uploads/2012/07/EMS-PUMPS.pdf
+- https://www.costex.com/alternators
+- https://www.rivtron.com/products/7c7691-turbocharger-for-3406-engine-caterpillar-826g-826c/
+- https://www.jereh-powertech.com/Hydraulic/HydraulicPump
+- https://dmcwearparts.com/wp-content/uploads/2021/06/Complete-Bogie-Assy-Caterpillar.pdf
+- https://bdiwearparts.com/pages/undercarriage-frame-body
+- https://www.ipdparts.com/literature/understanding-the-benefits-to-ipds-latest-innovation-the-raised-edge-liner-for-caterpillar-3400-and-c15-series-5-4-bore-engines/
+- https://www.numeralkod.com/cross/archivemanuals/caterpillar/3116%20industrial%20engine%20parts%20manual%20sebp2462/part%204.pdf
