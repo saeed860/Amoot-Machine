@@ -259,6 +259,8 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["9W7095","CONE",1729.80,2854.17,"۴ New Aftermarket"],
+ ["9W9310","PUMP G",5553.66,9163.54,"۷ New Aftermarket؛ ۱ Call For Pricing؛ ۱ Used"],
  ["9T7468","PUMP G",7846.35,12946.48,"۴ New Aftermarket؛ ۱ New Genuine Surplus"],
  ["9T8346","PUMP GP",7334.72,12102.29,"۴ New Genuine Surplus؛ ۵ New Aftermarket؛ ۱ Call For Pricing"],
  ["9U9558","BEARING",1262.23,2082.68,"۱۳۰ New Aftermarket؛ ۱ New Genuine Surplus"],
