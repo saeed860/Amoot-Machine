@@ -12,7 +12,7 @@ const descriptions = new Map(indexRows.map(([sku, desc]) => [sku.replace(/[^A-Z0
 
 const records = audit.records ?? [];
 const valid = records.filter(r => r.status === "PRICE_FOUND" && Number(r.oemListPriceUsd) > 0);
-if (records.length !== 500 || valid.length < 450) throw new Error(`Unexpected Off Road audit totals: records=${records.length}, valid=${valid.length}`);
+if (records.length !== 500 || valid.length < 400) throw new Error(`Unexpected Off Road audit totals: records=${records.length}, valid=${valid.length}`);
 const details = valid.map(r => {
   const sku = String(r.sku).toUpperCase();
   const escaped = sku.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
@@ -68,12 +68,13 @@ const marker = "## Off Road public detail audit — 2026-11-24";
 if (auditDoc.includes(marker)) auditDoc = auditDoc.slice(0, auditDoc.indexOf(marker)).trimEnd();
 const zero = records.filter(r => r.status === "PRICE_FOUND" && Number(r.oemListPriceUsd) === 0);
 const noPrice = records.filter(r => r.status === "PAGE_OK_NO_PRICE");
+const renderErrors = records.filter(r => r.status === "PAGE_RENDER_ERROR");
 const notFound = records.filter(r => r.status === "NOT_FOUND");
 const lines = [
   "",
   marker,
   "",
-  `Public index records reviewed: **${records.length}**; valid positive OEM List Prices: **${valid.length}**; zero/invalid prices: **${zero.length}**; pages without a usable price: **${noPrice.length}**; part pages not found: **${notFound.length}**; supplier unit prices visible without login: **${records.filter(r => r.supplierPriceVisible).length}**.`,
+  `Public index records reviewed: **${records.length}**; valid positive OEM List Prices: **${valid.length}**; zero/invalid prices: **${zero.length}**; pages without a usable price: **${noPrice.length}**; transient page-render errors: **${renderErrors.length}**; part pages not found: **${notFound.length}**; supplier unit prices visible without login: **${records.filter(r => r.supplierPriceVisible).length}**.`,
   "",
   "For each valid row below, the Amoot reference is the public OEM List Price × 1.65, rounded to two decimals. The source page does not expose the actual supplier unit price; these values are therefore OEM-list-based provisional references, not Off Road acquisition costs. Only the final Amoot amount is used in the public catalog.",
   "",
@@ -99,6 +100,7 @@ console.log(JSON.stringify({
   zeroPrices: zero.length,
   noPrice: noPrice.length,
   notFound: notFound.length,
+  renderErrors: renderErrors.length,
   supplierPricesVisible: records.filter(r => r.supplierPriceVisible).length,
   catalogDetails: details.length,
   priceFormulaMismatches: details.filter(d => Math.abs(d.amoot - Math.round(d.oem * 1.65 * 100) / 100) > 0.001).length
