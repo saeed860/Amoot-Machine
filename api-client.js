@@ -259,6 +259,11 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["2024304","IDLER G TRAC",1629.25,2688.26,"۷ New Aftermarket"],
+ ["2044995","PUMP GP-GR",2699.69,4454.49,"۸ New Aftermarket"],
+ ["2045462","TURBO GP-B",10778.43,17784.41,"۱۱ New Aftermarket"],
+ ["2061556","HEAD GP-CY",3033.42,5005.14,"۲۲ New Aftermarket؛ ۱۲ Call For Pricing"],
+ ["2065214","SHAFT",27588.46,45520.96,"۳ New Aftermarket"],
  ["1941252","SPRING GP-",10101.24,16667.05,"۱۶ New Aftermarket"],
  ["1956617","PUMP GP-ME",1989.45,3282.59,"۳ New Aftermarket"],
  ["1967795","BRG AS SPL",10764.70,17761.76,"۶ New Aftermarket"],
