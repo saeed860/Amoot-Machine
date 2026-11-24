@@ -141,3 +141,23 @@ A subsequent public-UI run opened the internal parts tables for two specific sea
 | 586-1397 | SEAL | 1 |
 
 The UI also returned a non-part source note in the SDN table; it is intentionally excluded from part rows. These observations should be staged as K-Part **CANDIDATE** evidence with the exact model, prefix, assembly, diagram page, quantity and source URL. They must not be promoted to OEM-verified or sellable catalog records solely from this extraction. Reconcile the exact part numbers against Cat Parts Store/SIS and the full engine serial/Arrangement before confirming fitment. No price or inventory was added.
+
+
+### Expanded C32 marine candidate extraction (K-Part public UI, 24 Nov 2026)
+
+The completed Playwright run `45357078431` opened component tables in the selected C32 books. It returned **58 numbered component rows** across three fully loaded groups; all three tables reported `parts_complete=true`. These remain third-party **CANDIDATE** observations, not OEM-confirmed fitment.
+
+| C32 prefix | Assembly/group | Diagram reference | Numbered rows |
+|---|---|---|---:|
+| SDN | 361-1283 AFTERCOOLER GP-RAW WATER | SEBP61470236 | 27 |
+| SDN | 207-2422 FILTER GP-WATER SEP & FUEL | SEBP61470305 | 2 |
+| SDN | 305-8921 ALTERNATOR GP-CHARGING | SEBP61470344 | 27 |
+| RSD | 207-2422 FILTER GP-WATER SEP & FUEL | SEBP64650304 | 2 |
+
+The collector also attempted four further group titles (two in each book), but the public UI did not expose those exact rows; they are **not** counted as extracted:
+- SDN: 418-9241 water-cooled exhaust plug group
+- RSD: 418-8363 auxiliary sea-water pump group
+- RSD: 344-3387 sea-water pressure sensor group
+- RSD: 562-4336 marine communication installation group
+
+The extracted rows include source quantities and diagram references. Repeated part numbers across different prefixes/groups are retained as separate evidence scopes. No component has been promoted into sellable `part_catalog`, and no prices or inventory have been set. The workflow artifact is retained in GitHub Actions run [45357078431](https://github.com/saeed860/Amoot-Machine/actions/runs/45357078431) for seven days. Next review should match candidate part numbers to Cat Parts Store and, for serial fitment, SIS with full serial and Arrangement.
