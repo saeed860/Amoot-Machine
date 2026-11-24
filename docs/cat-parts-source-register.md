@@ -467,3 +467,10 @@ The retained GitHub Actions artifact kpart-c32-marine-groups (run [45357078431](
 The C9 and legacy 3400-family research is recorded in [marine-engine-c9-3400-expansion.md](marine-engine-c9-3400-expansion.md). It includes the Logan Marine C9 system-group discovery list, exact Cat Parts Store checks for C9 components, dedicated Cat 3406/3406C Marine Engine diagram entry points, and model-class checks for 3406/3408/3412-family parts. C9 exact Cat matches include 6L-2280, 2N-0178 and 294-2787; 190-3562 is explicitly withheld from marine classification because Cat's returned compatible-model list does not show C9 under Marine Engine. 3400 examples with published marine and non-marine classes include 4W-6412, 4W-4901, 6N-7421 and 3N-8455. These are model-class references only, not serial/Arrangement fitment or sellable stock.
 
 The C15 evidence in [marine-engine-source-expansion.md](marine-engine-source-expansion.md) now also includes exact Cat Parts Store pages for 3N-6059, 4N-0933 and 105-5081, each listing C15 under Marine Engine and at least one non-marine class. All are BOTH at published model-class level; serial/Arrangement confirmation remains mandatory.
+
+
+## C9 exact Cat page follow-up and Off Road recheck (24 Nov 2026)
+
+The C9 marine evidence document now includes exact Cat Parts Store checks for **149-3239** (fuel-cooler hose), **315-8339** (aftercooler core), **113-1110** (auxiliary seawater-pump cam), and **170-6116** (auxiliary pump group). Cat's published model classes support BOTH for all four; **170-6116 is discontinued** and must not be treated as currently orderable. Exact serial/Arrangement fitment remains unverified. Logan Marine still supplies discovery group context, not OEM proof: [C9 expansion](marine-engine-c9-3400-expansion.md).
+
+Off Road Equipment's public /parts page was rechecked and still lists 500 popular parts; its login page publishes parts@offroadeq.com and +1 865-379-7895 and states it is not an authorized Caterpillar dealer. Actual supplier unit prices remain gated. See [updated pricing-source assessment](offroadeq-pricing-source.md). No Amoot selling prices or stock quantities were changed.
