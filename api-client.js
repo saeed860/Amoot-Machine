@@ -259,6 +259,10 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["8J6730","PUMP GRP",11304.21,18651.95,"۸ New Aftermarket"],
+ ["8N1187","HEAD A 3306",3614.55,5964.01,"۲۴ New Genuine Surplus؛ ۲۷ New Aftermarket؛ ۲۹ New Aftermarket Loaded"],
+ ["8N1188","CYL HEAD GRP",3549.08,5855.98,"۵۷ New Aftermarket؛ ۲۷ New Aftermarket Loaded"],
+ ["8N6796","HEAD GRP S",4100.27,6765.45,"۳ New Genuine Surplus؛ ۴۲ New Aftermarket؛ ۱ New Genuine - Less Than Perfect؛ ۵۱ New Aftermarket Loaded"],
  ["8E2900","SHAFT PI",34744.49,57328.41,"۱ New Aftermarket؛ ۱ Rebuilt"],
  ["8E6709","PUMP G",3944.38,6508.23,"۱۳ New Aftermarket"],
  ["8E6758","CONNECTO",2153.05,3552.53,"۶۴ New Aftermarket؛ ۱ New Genuine Surplus؛ ۱ Used"],
