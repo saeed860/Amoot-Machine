@@ -1736,7 +1736,7 @@ Beyond Off Road's public 500-popular-parts index, additional independent catalog
 - Search results confirmed useful independent technical evidence: EMS lists pump applications and cross-references; Costex lists alternator part numbers with engine/machine application columns; DMC/BDI show bogie assembly/component numbers by D9 model; IPD documents 1979322 and its liner kit form; Rivtron cross-references 7C7691 with other turbo numbers. These sources do not establish Cat authorization or new genuine stock.
 - Direct Cat Parts Store product URLs for the initial 12 candidates did not return readable records through the public page fetch, so those rows remain unverified. The next verification path is Cat Parts Store search, SIS/parts manuals or dealer confirmation; no candidates were promoted to the official SKU list.
 
-Discovery queue totals created in this pass: 91 Off Road candidates + 44 independent supplier/technical-reference candidates = 135 new leads, all segregated from the 787-item initial Cat source list and all marked for verification.
+Discovery queue totals created in this pass: 91 Off Road rows + 44 independent supplier/technical-reference rows = 135 entries. Three numbers overlap across the queues (1003259, 1005047, 1150637), so the combined set contains 132 unique candidate numbers, all segregated from the 787-item initial Cat source list and marked for verification.
 
 
 ## Batch 32/500 — SKUs 311–320 (20R-4306 through 20R-5379)
