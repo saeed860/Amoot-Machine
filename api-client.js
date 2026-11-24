@@ -259,6 +259,11 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["2270844","CYL GP-010",7543.33,12446.49,"۱ New Aftermarket"],
+ ["2307132","PUMP GP-GR",3719.50,6137.18,"۱۵ New Aftermarket"],
+ ["2335220","PUMP GP-BE",1633.01,2694.47,"۳۲۱ New Aftermarket؛ ۲ Used"],
+ ["2356501","PUMP GP-GR",1396.47,2304.18,"۱۳۰ New Aftermarket؛ ۱ Used"],
+ ["2356823","CYL GP-011",6076.84,10026.79,"۱ Rebuilt"],
  ["2237962","CORE AS.",1853.84,3058.84,"۲۶۸ New Aftermarket"],
  ["2239250","HEAD GP-CY",10065.28,16607.71,"۶۴ New Aftermarket"],
  ["2244122","FRAME AS",14832.96,24474.38,"۱ New Aftermarket"],
