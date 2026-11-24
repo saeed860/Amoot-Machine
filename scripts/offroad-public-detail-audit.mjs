@@ -22,16 +22,24 @@ async function worker(workerId) {
     try {
       const response = await page.goto(url, { waitUntil: "domcontentloaded", timeout: 35000 });
       row.httpStatus = response?.status() ?? null;
-      await page.waitForTimeout(900);
+      await page.waitForTimeout(700);
       row.title = await page.title();
       row.text = (await page.locator("body").innerText({ timeout: 10000 })).replace(/\s+/g, " ").trim().slice(0, 12000);
+      if (/Unexpected Application Error|Unexpected token '<'/.test(row.text)) {
+        await page.waitForTimeout(1400);
+        await page.reload({ waitUntil: "domcontentloaded", timeout: 35000 });
+        await page.waitForTimeout(1000);
+        row.title = await page.title();
+        row.text = (await page.locator("body").innerText({ timeout: 10000 })).replace(/\s+/g, " ").trim().slice(0, 12000);
+        row.httpStatus = 200;
+      }
       const priceMatch = row.text.match(/OEM\s+List\s+Price\s*(?:USD|\$)?\s*\$?\s*([\d,]+\.\d{2})/i)
         || row.text.match(/OEM\s+List\s+Price[^\d]{0,40}([\d,]+\.\d{2})/i);
       if (priceMatch) row.oemListPriceUsd = Number(priceMatch[1].replace(/,/g, ""));
       row.supplierPriceVisible = !/login\s+to\s+view/i.test(row.text) && /unit\s+price|our\s+price|your\s+price/i.test(row.text);
       const inventoryPattern = /(\d[\d,]*)\s+(New Genuine Surplus|New Aftermarket|Reman(?:ufactured)?|Used|Call For Pricing)/gi;
       for (const m of row.text.matchAll(inventoryPattern)) row.inventory.push({ quantity: Number(m[1].replace(/,/g, "")), condition: m[2] });
-      row.status = row.httpStatus === 200 && row.oemListPriceUsd !== null ? "PRICE_FOUND" : row.httpStatus === 200 ? "PAGE_OK_NO_PRICE" : "HTTP_ERROR";
+      row.status = row.httpStatus === 200 && row.oemListPriceUsd !== null ? "PRICE_FOUND" : /Unexpected Application Error|Unexpected token '<'/.test(row.text) ? "PAGE_RENDER_ERROR" : row.httpStatus === 200 ? "PAGE_OK_NO_PRICE" : "HTTP_ERROR";
       if (/not found|no part found|page not found/i.test(row.text)) row.status = "NOT_FOUND";
     } catch (e) { row.error = e.message; }
     results[i] = row;
@@ -40,7 +48,7 @@ async function worker(workerId) {
   await page.close();
 }
 try {
-  await Promise.all(Array.from({ length: 5 }, (_, i) => worker(i)));
+  await Promise.all(Array.from({ length: 3 }, (_, i) => worker(i)));
 } finally { await browser.close(); }
 await mkdir("artifacts", { recursive: true });
 const summary = {
