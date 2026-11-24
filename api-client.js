@@ -259,6 +259,11 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["3522077","PUMP GP-WA",1446.64,2386.96,"۷۱ New Aftermarket"],
+ ["3530611","DRIVE GP-F",22695.19,37447.06,"۱ New Aftermarket؛ ۱ Rebuilt"],
+ ["3545671","MOTOR GP-E",1655.23,2731.13,"در موجودی دقیق فروشنده یافت نشد؛ قیمت OEM List موجود است"],
+ ["3577398","HEAD AS-CY",6793.35,11209.03,"در موجودی دقیق فروشنده یافت نشد؛ قیمت OEM List موجود است"],
+ ["3579766","CYLINDER G",15290.64,25229.56,"۶ New Aftermarket؛ ۱ Call For Pricing"],
  ["3520203","PUMP GP-WATE",1539.62,2540.37,"۴۵۲ New Aftermarket؛ ۱ New Genuine Surplus"],
  ["3520205","PUMP AS-WA",1272.37,2099.41,"۱۰۳ New Aftermarket"],
  ["3520206","PUMP G",1378.17,2273.98,"۱ New Genuine Surplus؛ ۲۳۹ New Aftermarket"],
