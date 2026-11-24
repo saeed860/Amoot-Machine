@@ -259,6 +259,10 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["5845631","DISPLAY GP",2811.57,4639.09,"۳ New Genuine Surplus"],
+ ["5912386","PUMP GP-DEF",1800.62,2971.02,"۱ Call For Pricing"],
+ ["6072611","CONTROL GP",4139.63,6830.39,"۱ New Genuine Surplus"],
+ ["6187079","HEAD GP-CY",3018.52,4980.56,"در موجودی دقیق فروشنده یافت نشد؛ قیمت OEM List موجود است"],
  ["4793060","ACTUATOR A",2294.37,3785.71,"۱۶۶ New Aftermarket"],
  ["4897195","RECOIL GP-",6338.09,10457.85,"موجودی Off Road ندارد؛ قیمت OEM List عمومی"],
  ["5133691","CYL GP-019",31689.70,52288.00,"۳ New Aftermarket"],
