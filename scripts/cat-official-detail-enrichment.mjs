@@ -37,8 +37,9 @@ async function worker() {
         const match = section.match(/Description:\s*([\s\S]*?)(?=\nAttributes:|\nView More|\nWarning:|$)/i);
         if (match) row.description = clean(match[1]).slice(0, 5000);
       }
-      if (specHeading >= 0 && modelHeading > specHeading) {
-        const lines = body.slice(specHeading, modelHeading).split(/\r?\n/).map(clean).filter(Boolean);
+      if (specHeading >= 0) {
+        const specEnd = modelHeading > specHeading ? modelHeading : body.indexOf("Compare Alternate Parts", specHeading);
+        const lines = body.slice(specHeading, specEnd > specHeading ? specEnd : specHeading + 5000).split(/\r?\n/).map(clean).filter(Boolean);
         for (let j = 1; j < lines.length - 1; j++) {
           const label = lines[j];
           const next = lines[j + 1];
