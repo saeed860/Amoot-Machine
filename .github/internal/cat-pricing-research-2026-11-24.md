@@ -2676,3 +2676,32 @@ Additional Cat-linked discovery candidates:
 109-0077, 125-0434, 126-4935, 167-4407, 214-7566, 214-7568, 238-5084, 2P-3760, 2P-4305, 3D-2824, 3J-1907, 3J-7354, 3K-0360, 5K-9090, 6V-3908, 7M-8485, 8C-3445, 8C-5230, 8L-2786, 248-5513, 144-6142, 261-3450, 456-0025, 456-0026, 456-0024, 456-0028, 167-4407, 11R-1956, 30R-0250, 1R-0756, 1R-0726, 3S-9643, 7N-4927, 245-4907, 4J-0527, 477-7938, 1P-3705, 590-0196, 3K-0360, 3J-1907, 6V-9746, 3D-2824, 1R-1804, 7W-2326, 528-0585, 346-6688, 471-7003, 20R-5077, 260-0113, 557-9567, 388-0546, 274-1639, 282-2785. These are kit components, alternatives or related items; none is automatically a fitment/interchange claim.
 
 Overall reviewed progress: 58/500 batches = 580/5,000 product target (11.6%). Original Cat seed list has 207 SKUs remaining (products 581–787).
+
+## Batch 59/500 — products 581–590 (2026-11-25) — blocked / pending verification
+
+SKUs attempted: 468-6720, 469-1935, 469-1971, 469-1982, 469-1986, 469-1987, 469-1988, 469-1989, 469-1990, 469-1991.
+
+- All ten Cat Parts Store item URLs returned access/internal errors in this review.
+- A Supabase query confirmed that none of these ten part numbers currently has a row in public.part_catalog (also checked normalized part_number values). No placeholder rows were inserted and no fitment, price, availability, image or specification was invented.
+- Public cross-reference search identified 469-1989 as a piston-pin alternate/reference associated with 180-7350 / 524-5565 in independent aftermarket listings. This is not proof of genuine Cat stock, Cat supersession or universal interchange; added only to the independent-supplier discovery queue.
+- A scan of the Cat C18 Industrial Engine Parts Book (SEBP8111-71) shows 469-1990 under available engine repair kits. Added as a Cat-linked discovery candidate only; exact kit scope and applicability still need verification.
+- Search result 469-1935 was an NSN cross-reference (warning light) and is not treated as Cat part evidence.
+
+No database changes made. Batch 59 remains pending; verified progress remains 58/500 batches = 580/5,000 products (11.6%). Original Cat seed list has 197 SKUs after this attempted group, but these ten are not counted as completed research until item-level verification and catalog rows are established.
+
+Cat item URLs attempted:
+- https://parts.cat.com/en/catcorp/product/468-6720
+- https://parts.cat.com/en/catcorp/product/469-1935
+- https://parts.cat.com/en/catcorp/product/469-1971
+- https://parts.cat.com/en/catcorp/product/469-1982
+- https://parts.cat.com/en/catcorp/product/469-1986
+- https://parts.cat.com/en/catcorp/product/469-1987
+- https://parts.cat.com/en/catcorp/product/469-1988
+- https://parts.cat.com/en/catcorp/product/469-1989
+- https://parts.cat.com/en/catcorp/product/469-1990
+- https://parts.cat.com/en/catcorp/product/469-1991
+
+Independent source leads:
+- https://www.highwayandheavyparts.com/product/1807350-caterpillar-c15-piston-pin-new-5245565/
+- https://www.reliableaftermarketparts.com/products/1807350-pin-piston-fits-caterpillar-models
+- https://www.scribd.com/document/430948533/C18-Industrial-Engine-sn-WJH-WRH-Part-book-pdf
