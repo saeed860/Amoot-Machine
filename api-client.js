@@ -259,6 +259,10 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["1873523","CORE AS",3123.08,5153.08,"۲۱ New Aftermarket؛ ۱ Used"],
+ ["1879090","PUMP GP-PS-B",2163.16,3569.21,"۲۳ New Aftermarket؛ ۱ Used"],
+ ["1883865","TC GP-W/TDR",10015.50,16525.58,"۷ New Aftermarket"],
+ ["1888697","BEARING",1846.96,3047.48,"۳۹۹ New Aftermarket؛ ۴ New Genuine Surplus"],
  ["1795922","TURBO GP-BAS",5433.02,8964.48,"۵ New Aftermarket"],
  ["1835296","HEAD GP-CY",10065.28,16607.71,"۲۵۴ New Aftermarket"],
  ["1851016","RADIATOR G",2307.84,3807.94,"۲ New Aftermarket"],
