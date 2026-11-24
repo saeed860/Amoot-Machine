@@ -1638,3 +1638,35 @@ Official Cat pages checked:
 - https://parts.cat.com/en/catcorp/product/20R-3321
 
 Database checkpoint: all ten rows queried; fitment updates for 20R-2447 and 20R-3317–20R-3321 were re-queried successfully. Overall reviewed progress: 29/500 batches, 290/5,000 products.
+
+
+## Batch 30/500 — SKUs 291–300 (20R-3322 through 20R-3623)
+
+All ten official Cat Parts Store pages were opened and all ten Supabase rows queried. Official compatibility fields were completed/corrected for 20R-3323, 20R-3324, 20R-3440, 20R-3441, 20R-3442, 20R-3543, 20R-3545, 20R-3549 and 20R-3623; the updates were re-queried. 20R-3322's existing broad official fitment was reviewed and retained.
+
+| SKU | Official identity / verified detail | Image treatment |
+|---|---|---|
+| 20R-3322 | Cat Reman Unit Injector Rocker Arm; official extensive fitment includes SR4/XQP500, AD30, 3406E/C15/C16/C18, PM3456, R2900/R3000H, 773GC, 24M, 6015/6018 shovels, D8/D9 tractors, MD6200, 583T/587T/PL83/PL87, 374F/390D/385C excavators, C18/C15/C9/3456/C27 generator/petroleum applications, 631/623/651/657/621/627/637 tractor-scrapers, RM500B/RM-500, 825, 834/824, 826/836 compactors, 986/980/988 loaders, Challenger MT/MTC series, 735/770G/772G and related truck applications | Existing exact Cat image retained |
+| 20R-3323 | Cat Reman C15 Unit Injector Rocker Arm; official fitment D8T, POWER SYS, 651E/657E wheel tractors, C27 generator set/industrial engine, C15 truck engine, PM620/PM622/PM820/PM825/PM822 cold planers, 854K dozer, 826K compactor, 6015B/6030 T4/6030 shovel and 988K/993K loaders | No image assigned |
+| 20R-3324 | Cat Reman Valve Rocker Arm; official Compatible Models explicitly lists Truck Engine C15 only | Existing exact Cat image retained |
+| 20R-3440 | Cat 3508 Reman Bare Block; official fitment SR4B, 3508/G3508/3508B gen sets, PM3508, 3508C/3508B petroleum and locomotive engines, 854G, 992G, D11R/D11N, 5130/5130B mining excavators, 777-series trucks, G3508B/G3508J gas engines and 776D/776C tractors | Existing Cat image retained |
+| 20R-3441 | Cat 3512 Reman Bare Block, service 12-cylinder; official fitment SPF343/SPF343C, SR4B, G3512E/3512/G3512/3512C/3512B, XQC1200/PM3512, MD6540C, 785/797/785C/777D/785D/797B/785B trucks, CAT WDS, G3512B and 784C tractor | Existing Cat image retained |
+| 20R-3442 | Cat 3516 Reman Bare Block; official compatible Power Module 3516B/3516C and Gas Engine G3516B | Existing Cat image retained |
+| 20R-3543 | Cat Reman D3500B Cylinder Head, shot-peened; official fitment includes 3508/3516B/3516C/3508B/3512C/3512B generator and power modules, 854G, 992G/994F/994D/994H loaders, D11N/D11R, 5230B/5130B mining excavators, 785/789/797/793/777/785C/777D/797B trucks and 776D/784C tractors | Existing exact Cat image retained |
+| 20R-3545 | Cat Reman D3500C Cylinder Head, nitrided valve seats; official fitment includes 3508/3516C/3516B/3508B/3512C/3512B, PM3516/PM3512/XQC1200/XQC1600/PP3516/PM3508, TH48-E80/TH48-E70, MD6540C, D11N/D11R, 5230B/5130B, 785/789/797/793D/777/789C/789D/777C/777B/789B/785C/777D/785D/797B/785B and 776D/784C | Existing exact Cat image retained |
+| 20R-3549 | Cat Reman G3500 Cylinder Head, 3-angle valve seat; 11.55 in width × 16.55 in length × 10.1 in height; 106.9 lb; official G3516B/G3516/G3512 gen-set, SR4B generator, PMG3516 and gas engines G3516B/G3508B/G3520B/G3508/G3516J/G3508J/G3512B/G3512/G3520J/G3512J | Existing exact Cat image retained |
+| 20R-3623 | Cat Reman 3500-series Turbocharger; Cat publishes no structured dimensions; official fitment gen-set engines 3512/3516/3508, G3512 generator set, marine 3508/3516/3512, industrial 3512/3508 and G3512 gas engine | No exact high-resolution image confirmed; no image assigned |
+
+Official Cat pages checked:
+- https://parts.cat.com/en/catcorp/product/20R-3322
+- https://parts.cat.com/en/catcorp/product/20R-3323
+- https://parts.cat.com/en/catcorp/product/20R-3324
+- https://parts.cat.com/en/catcorp/product/20R-3440
+- https://parts.cat.com/en/catcorp/product/20R-3441
+- https://parts.cat.com/en/catcorp/product/20R-3442
+- https://parts.cat.com/en/catcorp/product/20R-3543
+- https://parts.cat.com/en/catcorp/product/20R-3545
+- https://parts.cat.com/en/catcorp/product/20R-3549
+- https://parts.cat.com/en/catcorp/product/20R-3623
+
+Database checkpoint: all ten rows queried; nine official fitment field updates were re-queried successfully. Overall reviewed progress: 30/500 batches, 300/5,000 products.
