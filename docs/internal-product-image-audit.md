@@ -21,6 +21,8 @@
 | 100-5047 | آلترناتور 24V/50A | https://wdpart.com/cdn/shop/products/2021-06-02163227.jpg?v=1622704795 | عکس فروشنده؛ صفحه Cat وضعیت این شماره را Discontinued نشان می‌دهد، این عکس تأیید موجودی نیست |
 | 6I-1346 | پمپ روغن موتور | https://www.heavydutypros.com/images/products/detail/6I1346_2.jpg | عکس فروشنده؛ شماره فنی در عنوان صفحه منبع آمده است |
 | 202-4304 | گروه آیدلر زیربندی | https://caterpillar.scene7.com/is/image/Caterpillar/CM20220428-22ce0-ede45 | تصویر رسمی Caterpillar |
+| 179-5922 | توربوشارژر | https://www.hydraulicbreakerhammer.com/photo/pt204183860-turbocharger_1795922_for_excavator_cat_980c_980g_part_number_179_5922.jpg | عکس فروشنده با شماره فنی دقیق در عنوان صفحه |
+| 223-9250 | مجموعه سرسیلندر | https://industriemarine.com/images/thumbs/008/0088680_45135_510.jpeg | عکس فروشنده با تطبیق شماره فنی در عنوان صفحه |
 
 ## سیاست ادامه کار
 
