@@ -2147,3 +2147,38 @@ Additional Cat-linked discovery leads from Cat 290-2041 frequently-bought-togeth
 143-2878, 6I-4545, 159-3219, 227-2902, 288-0948, 613-5951, 288-0947, 396-7353. Each is a candidate only; verify its own item page before promotion.
 
 Overall reviewed progress: 43/500 batches = 430/5,000 product target (8.6%). Original Cat seed list still has 357 SKUs remaining (products 431–787).
+
+## Batch 44/500 — products 431–440 (2026-11-24)
+
+SKUs: 292-8125, 293-4068, 294-3342, 297-9545, 299-3521, 299-5204, 2A-6946, 2W-6290, 2W-9726, 300-4545. All ten Cat product pages were opened and database rows were re-queried after updates.
+
+Verified updates:
+- 292-8125: Cat 7.04mm-ID fuel-line tube. Confirmed C18 generator-set, marine-engine and petroleum-package applications; added 0.37in OD and steel/mixed-metal material.
+- 293-4068: Cat C9 fuel injector group explicitly marked discontinued. Set is_active=false. Cat page displays 20R-8062 Cat Reman Fuel Injector as an alternate; this is a dealer/serial-number-dependent replacement lead, not a universal interchange.
+- 294-3342: Spring-lock radiator cap. Added 48 Cat model identifiers across integrated toolcarriers, scraper, off-highway trucks, material handler, grader, track tractors, asphalt compactors and pavers. Added 93.6mm length between tabs.
+- 297-9545: Toric seal ring, 498.63mm ID. Added 39 Cat model labels spanning 3516E, haul trucks, quarry trucks, tractors, off-highway trucks and RC20 rotary cutter. Cat page says further specifications are still being added; retained existing ID only.
+- 299-3521: Cat engine cylinder head. Added published generator/pumper, 3500-series power, marine, petroleum, industrial and 785D truck fitment labels, plus Cat-listed anti-seize mixed-metal material. The Cat application paragraph also mentions 5200/6060/6060X excavators, MD6380/MD6540/MD6540C drills, Cement (Truck) and TH55 powertrain; because these do not all appear in the explicit Compatible Models block, they were not promoted to compatible_models.
+- 299-5204: 170mm-bore piston, 14:1 compression ratio. Cat page confirms 9.36in length, 9.1in height and Alloy Copper/Alloy Steel. Expanded fitment with Cat-listed pumper, generator, gen-set, power-module, engine, petroleum, locomotive, wheel-dozer, wheel-loader, track-tractor and marine labels.
+- 2A-6946: Steering link group. Added 793-series truck/off-highway-truck fitment and 69.15in overall length, 2-1/4-12 (2X) thread, anti-seize mixed metal/carbon steel.
+- 2W-6290: 15.88mm OD secondary fuel-filter tube. Expanded Cat fitment across generator-set, marine, marine auxiliary, industrial, petroleum, off-highway truck and LD700E; Cat page currently says specifications are still being added, so no dimensions/material inferred.
+- 2W-9726: Cat Water Pump Group. Expanded fitment across generator, gen-set, truck engine, power module, petroleum, locomotive, military gen-set, marine, mining excavator, industrial, truck, gas-engine and tractor categories. Added Cat-published Oil Fluid material.
+- 300-4545: Cantilever carrier roller, 160mm tread. Expanded fitment to 60 Cat labels across 3512B generator set, 336MHPU, excavator and mobile hydraulic power-unit families. Confirmed 2.945in shaft mounting length, 7.638in outside spread, 2.165in inside spread, HD/Heavy Duty, cantilever mount, 1.874in shaft OD, 7.402in flange OD and 6.299in tread OD.
+
+Cat pages:
+- https://parts.cat.com/en/catcorp/product/292-8125
+- https://parts.cat.com/en/catcorp/product/293-4068
+- https://parts.cat.com/en/catcorp/product/294-3342
+- https://parts.cat.com/en/catcorp/product/297-9545
+- https://parts.cat.com/en/catcorp/product/299-3521
+- https://parts.cat.com/en/catcorp/product/299-5204
+- https://parts.cat.com/en/catcorp/product/2A-6946
+- https://parts.cat.com/en/catcorp/product/2W-6290
+- https://parts.cat.com/en/catcorp/product/2W-9726
+- https://parts.cat.com/en/catcorp/product/300-4545
+
+Post-update verification returned all ten records. 293-4068 is inactive; the other nine remain active. 289-8490 from prior batch remains fitment-unresolved because Cat's public page did not expose its model list.
+
+Additional Cat-linked discovery leads from official alternate/frequently-bought-together panels:
+20R-8062, 2W-6289, 2W-6667, 214-7568, 7C-7677, 6V-5048, 449-2274, 6Y-5685, 136-2422, 357-7540, 1R-1808. These are candidate links only, not fitment/interchangeability proof.
+
+Overall reviewed progress: 44/500 batches = 440/5,000 target products (8.8%). Original Cat seed list has 347 SKUs remaining (products 441–787).
