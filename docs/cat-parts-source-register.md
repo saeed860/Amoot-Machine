@@ -9,7 +9,36 @@ Last reviewed: 2026-11-24
 | [Cat Parts Store](https://parts.cat.com/) | Current part description, published compatible-model classes, replacement/product metadata where displayed | Primary public reference for fitment checks; exact machine serial/arrangement may still be required |
 | [K-Part CAT catalog](https://k-part.com/catalog/caterpillar/) | Independent model + serial-prefix navigation, parts diagrams and assembly tables when the interactive catalog returns them | Third-party source. Record model, prefix, group and diagram reference. Never infer serial fitment from model name alone |
 | [engine.od.ua CAT manuals](https://engine.od.ua/cat-download-free) | Public sample contents pages for CAT parts manuals, technical documents and engine/system references | Third-party library/host. Samples are excerpts, not complete catalogs. Preserve media number, edition/date, serial scope, page and group; verify fitment against Cat sources before promotion |
+| [BinUnlock Caterpillar manual library](https://binunlock.com/r/caterpillar-engines-and-machines-service-manual-library.418/) | Discovery of candidate parts manuals, prefix-specific wiring diagrams, marine/generator service manuals and technical references across C7/C9/C15/C18/C32/3400/3500 families and machines | Third-party forum archive; download requires sign-in and files are hosted on external cloud links. The post disclaims authorship/ownership and does not independently establish document provenance, revision, completeness or permission to redistribute. Treat every file as unverified until its publication number, revision, serial scope and contents are inspected; do not bulk-copy or republish manuals |
 | [MashinYar](https://mashinyarco.ir/) | Persian-language repair training, diagnostics and expert/technical context | Not a public CAT parts catalog; do not harvest part-number fitment from course descriptions |
+
+## BinUnlock library assessment (24 Nov 2026)
+
+The public resource page lists a multi-document archive and requires a forum sign-in before download. The page was created 17 Nov 2025 and shows last update 17 Nov 2025. At the time of review it displayed 32 downloads, 3,235 views and one 5-star rating; these are page counters, not a technical quality audit.
+
+Useful items explicitly named in its file inventory include:
+
+- **Parts manuals:** C9 Marine Auxiliary and Gen Set Engine Parts Manual; C9 Industrial Engine Parts Manual; C15 Engine Parts Manual; C15 Standby Generator Set Parts Manual; 3406 Engine Parts Manual; 3406C Generator Set Parts Manual; D6R tractor, 416E backhoe, 773D haul truck, 938G II wheel loader and other machine parts manuals.
+- **Marine / engine service references:** 3408C and 3412C Marine Generator Sets Service Manual; C18 maintenance manual; C27/C32 Generator Set troubleshooting and service manuals; Marine Controls Installation Guide; 3600/C280 fluids recommendation.
+- **Prefix-specific wiring:** multiple 3126B/3126E, 3406E, C10/C12/C13/C15/C7/C9 entries, including serial-prefix and serial-range variants.
+- **Other technical material:** diagnostic flash codes, ET/CCM PC manuals, engine control-system references and training slides.
+
+### Source decision
+
+**Useful for discovery and candidate document acquisition — not yet a verified catalog source.** Its strongest project value is locating:
+1. C9 Marine Auxiliary parts manual;
+2. C15 engine parts manual (application must be determined from the document's actual title page and serial scope; the listed C15 standby-generator manual is not marine evidence);
+3. 3406 engine and 3406C generator-set parts manuals;
+4. prefix-specific wiring diagrams for C7/C9/C15 and related families;
+5. 3408C/3412C marine-generator service documentation.
+
+The listed archive is heterogeneous: marine, generator, industrial, on-highway and machine documents are mixed together. A filename containing an engine family is not enough to establish marine fitment. In particular, do not label a C9/C15/C32 component MARINE merely because a similarly named engine or generator manual appears in the archive.
+
+### Required validation before using any downloaded file
+
+For each file, capture the document title page and publication metadata: Cat media/publication number (SEBP/RENR/LEBM/LEBM etc.), revision/date, engine or machine model, full serial-number range/prefix, arrangement scope, and whether it is a parts catalog, service manual, O&M manual or wiring schematic. For parts manuals, record group/diagram/page, part number, description and quantity. Cross-check exact part numbers and compatible application against Cat Parts Store; use SIS with full serial number and Arrangement for final fitment.
+
+The resource page says files are collected from public/open internet sources, disclaims authorship/ownership and points to third-party cloud hosting. Therefore provenance and redistribution rights are not established. Use only lawfully accessible copies for internal research; do not automate around login, cloud-provider controls or access limits, and do not republish the archive or complete manuals. No file was downloaded or independently inspected in this review, and no part rows were imported from BinUnlock.
 
 ## Confirmed public CAT sample parts catalogs on engine.od.ua
 
@@ -106,7 +135,6 @@ Cross-checked catalog-group examples now stored as REFERENCE-only rows in `part_
 
 No prices, stock quantities, or universal serial fitment were created. The full engine serial and arrangement remain necessary for final fitment.
 
-
 ### K-Part component-table extraction — C32 marine heat exchangers
 
 A subsequent public-UI run opened the internal parts tables for two specific sea-water heat-exchanger assemblies. These are **third-party catalog observations scoped to the selected book/prefix**, not independent Cat Parts Store compatibility confirmation and not a claim of fitment to every C32.
@@ -142,7 +170,6 @@ A subsequent public-UI run opened the internal parts tables for two specific sea
 
 The UI also returned a non-part source note in the SDN table; it is intentionally excluded from part rows. These observations should be staged as K-Part **CANDIDATE** evidence with the exact model, prefix, assembly, diagram page, quantity and source URL. They must not be promoted to OEM-verified or sellable catalog records solely from this extraction. Reconcile the exact part numbers against Cat Parts Store/SIS and the full engine serial/Arrangement before confirming fitment. No price or inventory was added.
 
-
 ### Expanded C32 marine candidate extraction (K-Part public UI, 24 Nov 2026)
 
 The completed Playwright run `45357078431` opened component tables in the selected C32 books. It returned **58 numbered component rows** across three fully loaded groups; all three tables reported `parts_complete=true`. These remain third-party **CANDIDATE** observations, not OEM-confirmed fitment.
@@ -161,7 +188,6 @@ The collector also attempted four further group titles (two in each book), but t
 - RSD: 562-4336 marine communication installation group
 
 The extracted rows include source quantities and diagram references. Repeated part numbers across different prefixes/groups are retained as separate evidence scopes. No component has been promoted into sellable `part_catalog`, and no prices or inventory have been set. The workflow artifact is retained in GitHub Actions run [45357078431](https://github.com/saeed860/Amoot-Machine/actions/runs/45357078431) for seven days. Next review should match candidate part numbers to Cat Parts Store and, for serial fitment, SIS with full serial and Arrangement.
-
 
 ### Cat Parts Store OEM cross-check — C32 marine candidates (24 Nov 2026)
 
@@ -184,7 +210,6 @@ Official product pages:
 
 This cross-check confirms published Cat model/application classes for the four exact numbers above; it does not replace SIS lookup using the complete engine serial number and Arrangement. No sellable SKU, price, stock or blanket fitment was created.
 
-
 #### Additional component-level OEM matches from the 58-row extraction
 
 Exact Cat Parts Store pages were also found for three component numbers inside the K-Part tables:
@@ -201,7 +226,6 @@ Official product pages:
 - https://parts.cat.com/en/catcorp/product/362-0801
 
 These matches verify the exact component numbers and published model classes at Cat Parts Store level. They do not prove the exact SDN/RSD assembly inclusion/quantity for every engine serial; retain K-Part diagram/quantity as scoped candidate evidence and use SIS with complete serial + Arrangement for order-level fitment. Other component rows remain unverified until individually checked.
-
 
 #### Further Cat Parts Store matches — C32 aftercooler, heat-exchanger and alternator components
 
@@ -230,7 +254,6 @@ Official product pages:
 
 The official pages substantiate Cat's published compatible-model classes for these part numbers. They do not, by themselves, certify that every listed item is present in every SDN/RSD serial-specific assembly or establish order quantity. The K-Part diagram remains scoped third-party evidence; final fitment still requires the full engine serial and Arrangement in SIS/Cat's serial-specific diagram. Continue to retain these as reference/evidence, not automatically sellable stock.
 
-
 #### Third component cross-check pass — C32 heat-exchanger internals
 
 Additional exact-number Cat Parts Store pages found:
@@ -247,7 +270,6 @@ Official pages:
 - https://parts.cat.com/en/catcorp/product/111-4374
 
 These are official part-number/model-class matches. For 353-9033, the marine seawater function is explicitly stated in Cat's description. For 135-2654 and 111-4374, the broad compatible-model lists establish both application classes, but do not independently prove the precise assembly usage/quantity in each SDN/RSD book. Maintain the K-Part assembly reference and quantity as third-party evidence pending serial-specific SIS confirmation.
-
 
 #### Fourth Cat Parts Store exact-number pass — aftercooler and alternator internals (24 Nov 2026)
 
@@ -290,7 +312,6 @@ Official Cat pages:
 
 This pass adds seven further exact Cat model-class matches (including the heat-exchanger spacer and six alternator internals) while explicitly withholding marine classification from the other eight numbers. Exact assembly presence/quantity remains sourced to the third-party K-Part diagrams and must be checked in SIS against full serial number + Arrangement before order-level fitment. No candidate was promoted to sellable inventory and no price/stock was created.
 
-
 #### Fifth exact-number OEM pass — C32 heat exchanger and alternator subcomponents (24 Nov 2026)
 
 The next Cat Parts Store lookup pass returned five more exact component matches:
@@ -311,7 +332,6 @@ Official Cat pages:
 - https://parts.cat.com/en/catcorp/product/365-4457
 
 These are exact part-number/model-class matches only. They do not certify every serial-specific SDN/RSD assembly relationship or quantity. K-Part remains the source for the observed group/diagram/quantity, and Cat/SIS with full serial + Arrangement remains the final fitment authority. No price, stock or sellable product was created.
-
 
 #### Sixth Cat Parts Store pass — C32 fasteners and alternator hardware (24 Nov 2026)
 
@@ -336,7 +356,6 @@ Official Cat pages:
 - https://parts.cat.com/en/catcorp/product/8T-0328
 
 The exact K-Part diagram usage/quantity remains third-party evidence; Cat model-class lists alone do not prove that the fastener is installed in every SDN/RSD arrangement. No sellable catalog, price or inventory was changed.
-
 
 ## Consolidated OEM verification batch — remaining C32 SDN/RSD component rows (24 Nov 2026)
 
@@ -393,9 +412,9 @@ Official product pages:
 
 Official product pages for this section:
 - https://parts.cat.com/en/catcorp/product/202-2783
+- https://parts.cat.com/en/catcorp/0L-1352
 - https://parts.cat.com/en/catcorp/product/7D-1649
 - https://parts.cat.com/en/catcorp/product/8F-8544
-- https://parts.cat.com/en/catcorp/0L-1352
 - https://parts.cat.com/en/catcorp/product/0S-1571
 - https://parts.cat.com/en/catcorp/product/8T-4171
 - https://parts.cat.com/en/catcorp/product/1T-0720
@@ -418,7 +437,6 @@ The following extracted numbers did not return a usable exact Cat product page i
 226-5613, 358-8879, 358-9051, 361-1263, 362-0734, 366-4700, 147-0323, 7B-3235, 9X-6458, 131-3983, 353-9034, 376-0526, 586-1397, 313-8953, 313-8951, 313-9206, 315-3574, 315-5495.
 
 **Reconciliation note:** Cat compatible-model lists support model-class application, while K-Part supplies the observed assembly, diagram and quantity. Neither alone certifies a particular engine serial/Arrangement. Final order fitment still requires SIS/Cat serial-specific lookup. No row in this batch was promoted to sellable inventory; no price or stock quantity was created.
-
 
 ## Additional marine engine coverage — C18 / C15 (24 Nov 2026)
 
