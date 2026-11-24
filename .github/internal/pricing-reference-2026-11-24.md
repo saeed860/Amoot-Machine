@@ -573,6 +573,18 @@
 | 4619930 | Gear-Ring | Off Road Equipment | OEM List Price | 2,145.59 | 3,540.22 | ۵۴ New Aftermarket | https://offroadeq.com/parts/4619930 |
 | 1886126 | Gasket | Off Road Equipment | OEM List Price | 1.18 | 1.95 | ۴۷ New Genuine Surplus؛ ۲٬۳۲۰ New Aftermarket | https://offroadeq.com/parts/1886126 |
 
+## محصولات مستقل فروشگاه
+| SKU | فروشنده | مبنای منبع | قیمت منبع | ارز منبع | FX→USD | قیمت آموت USD | وضعیت | منبع داخلی |
+|---|---|---|---:|---|---:|---:|---|---|
+| 151-7737 | L&S Engineers | New genuine OEM · GBP 57.20 ex VAT | 57.20 | GBP | 1.3040 | 123.07 | Back-order | https://www.lsengineers.co.uk/air-filter-for-cat-c15-3412c-de400sgc-engines-replaces-oem-no-151-7737.html |
+| 136-3742 | KMP Brand | New aftermarket · GBP 0.84 ex VAT | 0.84 | GBP | 1.3040 | 1.81 | Low stock | https://storeuk.kmpbrand.com/products/filter-136-3742-caterpillar.html |
+| CDQ2B32-25DZ | SMC Pneumatics | New · USD 45.00 | 45.00 | USD | 1.0000 | 74.25 | 107 available to ship | https://www.smcpneumatics.com/CDQ2B32-25DZ.html |
+| SY5120-5LZ-01N | Motion | New · USD 54.36 | 54.36 | USD | 1.0000 | 89.69 | Factory order / in stock | https://www.motion.com/products/sku/09776092 |
+| D1VW001CNJW | RS Components | New · GBP 303.92 ex VAT | 303.92 | GBP | 1.3040 | 653.91 | In stock | https://uk.rs-online.com/web/p/hydraulic-directional-control-valves/1346967 |
+
+## توضیح SKU بدون قیمت
+- 813967: فهرست عمومی Off Road شرح قطعه را «see details» نشان می‌دهد و صفحه جزئیات، هویت/قیمت قابل اتکا ارائه نمی‌کند. نتایج مستقل برای 813967 به قطعات Volvo Penta با کاربرد متفاوت اشاره دارند؛ بنابراین قیمت آن‌ها به این SKU نسبت داده نشده است. تا دریافت استعلام دقیق، «نیازمند استعلام» باقی بماند.
+
 ## SKUهای بدون قیمت عمومی قابل تأیید
 برای این موارد قیمت دقیق قابل استناد در منابع عمومی پیدا نشد یا فقط با ورود/استعلام فروشنده قابل دریافت است. تا دریافت پیش‌فاکتور، وضعیت «نیازمند استعلام» حفظ شود و قیمت حدسی درج نشود.
 - 813967 — نیازمند استعلام قیمت دقیق
