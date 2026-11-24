@@ -10,7 +10,7 @@ permissions:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -18,7 +18,7 @@ jobs:
           node-version: 22
       - run: npm install --no-save playwright
       - run: npx playwright install --with-deps chromium
-      - name: Capture C32 SDN/RSD sea-water heat-exchanger group detail through public UI
+      - name: Capture marine C32 assembly component tables through public K-Part UI
         run: |
           mkdir -p artifacts
           node --input-type=module <<'NODE'
@@ -27,7 +27,21 @@ jobs:
           const browser=await chromium.launch({headless:true});
           const page=await browser.newPage({viewport:{width:1440,height:1100}});
           const books=[];
-          async function collect(prefix,groupTitle){
+          const targets={
+            SDN:[
+              {section:'Air inlet and exhaust',title:'361-1283 AFTERCOOLER GP-RAW WATER'},
+              {section:'Fuel system',title:'207-2422 FILTER GP-WATER SEP & FUEL'},
+              {section:'Electrical and electronics',title:'305-8921 ALTERNATOR GP-CHARGING'},
+              {section:'Air inlet and exhaust',title:'418-9241 PLUG GP-EXHAUST -WATER COOLED'}
+            ],
+            RSD:[
+              {section:'Cooling system',title:'418-8363 PUMP GP-AUXILIARY SEA WATER'},
+              {section:'Fuel system',title:'207-2422 FILTER GP-WATER SEP & FUEL'},
+              {section:'Electrical and electronics',title:'344-3387 SENSOR GP-PRESSURE -SEA WATER'},
+              {section:'Electrical and electronics',title:'562-4336 INSTALLATION AR-COMMUNICATION -MARINE'}
+            ]
+          };
+          async function collectBook(prefix){
             const responses=[];
             const handler=async res=>{
               if(!res.url().includes('/komatsu/komatsu/aiChatProxy')) return;
@@ -35,55 +49,60 @@ jobs:
               try { const j=await res.json(); if(j?.ok && j.card) responses.push({url:res.url(),json:j}); } catch {}
             };
             page.on('response',handler);
-            let error=null,detail=null,tree=null,book=null;
-            try {
+            let fatal=null,tree=[];
+            const groups=[];
+            try{
               await page.goto('https://k-part.com/chat?catalog_brand=cat',{waitUntil:'domcontentloaded',timeout:45000});
-              await page.waitForTimeout(2500);
+              await page.waitForTimeout(2200);
               const accept=page.getByRole('button',{name:'Accept',exact:true});
               if(await accept.count()) await accept.first().click().catch(()=>{});
-              await page.waitForTimeout(1000);
+              await page.waitForTimeout(700);
               await page.locator('input[name="message"]').fill('C32');
               await page.getByRole('button',{name:'Send',exact:true}).first().click();
               await page.getByRole('button',{name:`C32 / ${prefix}`,exact:true}).waitFor({timeout:45000});
               await page.getByRole('button',{name:`C32 / ${prefix}`,exact:true}).click();
               await page.getByRole('button',{name:'Cooling system',exact:true}).first().waitFor({timeout:45000});
-              await page.waitForTimeout(2000);
+              await page.waitForTimeout(1800);
               const base=[...responses].reverse().find(x=>x.json.card?.cat_snp===prefix && x.json.card?.section_tree);
-              book=base?.json.card?.book||`C32 / ${prefix}`;
               tree=base?.json.card?.section_tree||[];
-              await page.getByRole('button',{name:'Cooling system',exact:true}).first().click();
-              await page.waitForTimeout(1000);
-              const target=page.getByText(groupTitle,{exact:true}).first();
-              await target.waitFor({timeout:20000});
-              const before=responses.length;
-              await target.click();
-              await page.waitForTimeout(5000);
-              const hit=[...responses.slice(before)].reverse().find(x=>Array.isArray(x.json.card?.parts)&&x.json.card.parts.length>0);
-              detail=hit?.json?.card||null;
-              if(!detail) error='Clicked group but no parts table response was captured';
-            } catch(e) { error=e.message; }
-            const visibleText=await page.locator('body').innerText().catch(()=> '');
-            books.push({model:'C32',serialPrefix:prefix,book,groupTitle,error,sectionCount:tree?.length||0,sections:(tree||[]).map(s=>({section:s.title,count:(s.children||[]).length})),groupDetail:detail,visibleText:visibleText.slice(-9000)});
+              for(const t of targets[prefix]){
+                const entry={section:t.section,title:t.title,error:null,detail:null};
+                try{
+                  const section=page.getByRole('button',{name:t.section,exact:true}).first();
+                  await section.waitFor({timeout:12000});
+                  await section.click();
+                  await page.waitForTimeout(700);
+                  const target=page.getByText(t.title,{exact:true}).first();
+                  await target.waitFor({timeout:12000});
+                  const before=responses.length;
+                  await target.click();
+                  await page.waitForTimeout(3500);
+                  const hit=[...responses.slice(before)].reverse().find(x=>Array.isArray(x.json.card?.parts)&&x.json.card.parts.length>0);
+                  entry.detail=hit?.json?.card||null;
+                  if(!entry.detail) entry.error='No component table response captured after visible group selection';
+                }catch(e){entry.error=e.message;}
+                groups.push(entry);
+              }
+            }catch(e){fatal=e.message;}
+            books.push({model:'C32',serialPrefix:prefix,fatal,sectionCount:tree.length,sections:tree.map(s=>({section:s.title,count:(s.children||[]).length})),groups});
             page.removeListener('response',handler);
           }
-          let fatal=null;
-          try {
-            await collect('SDN','353-9049 HEAT EXCHANGER GP-SEA WATER');
-            await collect('RSD','586-1380 HEAT EXCHANGER GP-SEA WATER');
-          } catch(e) { fatal=e.message; }
-          await writeFile('artifacts/kpart-c32-marine-groups.json',JSON.stringify({fatal,books,generatedAt:new Date().toISOString()},null,2));
-          await browser.close();
-          console.log(JSON.stringify({fatal,books:books.map(b=>({prefix:b.serialPrefix,group:b.groupTitle,error:b.error,parts:b.groupDetail?.parts?.length||0,complete:b.groupDetail?.parts_complete??null}))},null,2));
+          try{await collectBook('SDN');await collectBook('RSD');}
+          finally{
+            await writeFile('artifacts/kpart-c32-marine-groups.json',JSON.stringify({books,generatedAt:new Date().toISOString()},null,2));
+            await browser.close();
+          }
+          console.log(JSON.stringify(books.map(b=>({prefix:b.serialPrefix,fatal:b.fatal,groups:b.groups.map(g=>({title:g.title,error:g.error,parts:g.detail?.parts?.filter(p=>p.number)?.length||0}))})),null,2));
           NODE
-      - name: Validate group detail responses
+      - name: Validate captured component tables
         run: |
           node --input-type=module <<'NODE'
           import {readFile} from 'node:fs/promises';
           const d=JSON.parse(await readFile('artifacts/kpart-c32-marine-groups.json','utf8'));
-          if(d.fatal) throw new Error(d.fatal);
-          if(!d.books.some(x=>x.serialPrefix==='SDN')) throw new Error('SDN missing');
-          if(!d.books.some(x=>x.serialPrefix==='RSD')) throw new Error('RSD missing');
-          console.log('PASS: both OEM-mapped marine prefixes processed; part detail rows:',d.books.map(x=>x.serialPrefix+':'+(x.groupDetail?.parts?.length||0)).join(', '));
+          if(!d.books.some(b=>b.serialPrefix==='SDN')||!d.books.some(b=>b.serialPrefix==='RSD')) throw new Error('Marine books missing');
+          const found=d.books.flatMap(b=>b.groups||[]).filter(g=>g.detail?.parts?.some(p=>p.number));
+          if(!found.length) throw new Error('No component rows captured');
+          console.log('PASS: public K-Part UI returned component tables for '+found.length+' groups; rows='+found.reduce((n,g)=>n+g.detail.parts.filter(p=>p.number).length,0));
           NODE
       - uses: actions/upload-artifact@v4
         if: always()
