@@ -519,7 +519,9 @@ const verifiedPartImages={
   '1R1808':'https://i.ebayimg.com/images/g/YqIAAOSwmjZlRPWz/s-l1200.jpg',
   '1005047':'https://wdpart.com/cdn/shop/products/2021-06-02163227.jpg?v=1622704795',
   '6I1346':'https://www.heavydutypros.com/images/products/detail/6I1346_2.jpg',
-  '2024304':'https://caterpillar.scene7.com/is/image/Caterpillar/CM20220428-22ce0-ede45'
+  '2024304':'https://caterpillar.scene7.com/is/image/Caterpillar/CM20220428-22ce0-ede45',
+  '1795922':'https://www.hydraulicbreakerhammer.com/photo/pt204183860-turbocharger_1795922_for_excavator_cat_980c_980g_part_number_179_5922.jpg',
+  '2239250':'https://industriemarine.com/images/thumbs/008/0088680_45135_510.jpeg'
 };
 const rows=offRoadCatalogText.trim().split('\n').map(line=>{
     const [sku,...name]=line.split('|');
