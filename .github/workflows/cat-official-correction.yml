@@ -18,7 +18,7 @@ jobs:
       - name: Validate researched Cat price migration
         shell: bash
         run: |
-          files=(supabase/migrations/*researched_cat_part_prices.sql)
+          files=(supabase/migrations/*researched_cat_part_prices_20261124.sql)
           test "${#files[@]}" -gt 0
           for file in "${files[@]}"; do
             grep -q "UPDATE public.products" "$file" || {
