@@ -192,6 +192,7 @@ const summary = {
   generatedAt: new Date().toISOString(),
   source: "Cat Parts Store public product pages",
   requested: partNumbers.length,
+  batchStart, batchSize, totalOfficial: allPartNumbers.length,
   pageOk: results.filter(x => x.status === "PAGE_OK").length,
   notFound: results.filter(x => x.status === "NOT_FOUND").length,
   errors: results.filter(x => x.status === "ERROR" || x.status === "HTTP_ERROR").length,
