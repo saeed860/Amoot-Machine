@@ -1912,3 +1912,34 @@ Official Cat pages checked:
 - https://parts.cat.com/en/catcorp/product/211-2660
 
 Database checkpoint: all ten rows queried; 20R-9565 and 20R-9567 compatible_models corrections were re-queried successfully. Overall reviewed progress: 37/500 batches, 370/5,000 products.
+
+
+## Batch 38/500 — SKUs 371–380 (211-3022 through 223-9250)
+
+All ten Supabase rows were queried and all ten Cat product pages were readable. Four major DB updates plus supporting specification corrections were applied and re-queried:
+- 211-3022 / 211-3023 / 211-3026: Cat fuel injector groups. Official page data confirms dimensions 14.8 in length × 3.0 in height and material “Grease (Lanolin, Silicone) Fluid”. Added the material to each specifications JSON; fitment already matched.
+- 212-8174: Cat water pump group is explicitly discontinued and no longer available. Cat page shows 10R-9598 as the alternative Cat Reman auxiliary seawater pump. Set is_active=false and recorded availability_status=Discontinued and replacement_part_number=10R-9598.
+- 216-7815: Cat turbocharger group. Official fitment is C-9 engine-machine, C-9 industrial engine, 637G/637D wheel scrapers, 330C L/330C LN excavators and 330C mobile hydraulic power unit. Updated compatible_models accordingly; 15.6 in length × 17.0 in height already present.
+- 221-0129: Cat engine prelubrication pump. Official fitment includes gen-set engines 3612/3608/3606/3616, marine engines C280-16/3616/3618/3612/C280-12/C280-6/C280-8, and petroleum engine C280-12. Updated compatible_models to the full published list.
+- 222-5152: Cat Main Water Pump Rebuild Kit. Expanded compatible_models from a small engine-only subset to Cat's published machine/application list across generator/power modules, 3500-series engine families, petroleum and locomotive engines, 994/980K loaders, mining excavators, trucks, marine, industrial, spray, excavator, tractor and petroleum-package applications. Captured the official 11-line kit BOM in specifications: 0S-1618 ×2, 166-4374 ×1, 212-8180 ×1, 212-8184 ×1, 271-4926 ×1, 3D-2824 ×1, 416-0603 ×1, 4N-5834 ×2, 7N-4758 ×1, 8C-5236 ×1, 9M-1974 ×2. Re-query confirms 11 component lines.
+- 223-9250: Cat Basic Engine Cylinder Head with valve mechanism components. Expanded compatible_models from four engine names to the complete Cat page model list covering SR4/XQP500, AD55/AD30, C15/C16/C18/3406E, PM3456, R2900G, 773GC, 24M, D8/D9, marine, pipelayers, excavators/front shovels, generator sets, wheel tractors/scrapers, road reclaimers, compactors, loaders, dozers, articulated trucks, drills, industrial and petroleum applications. Existing 50.0 in length × 11.0 in height retained.
+Other records:
+- 211-3022: official Truck Engine fitment C-15/3406E; DB already matched.
+- 211-3023: official Truck Engine fitment C-15/C-16/3406E; DB already matched.
+- 211-3026: official Gen Set Engine 3456, Truck Engine C-18, Marine Engine 3406E; DB already matched.
+- 221-0132: Cat page loaded only a partial product shell in this pass; existing C280-family record retained without inferred additional fitment.
+- 223-8225: official Generator Set C18 and Marine Engine C18/3412E/3126; DB matched.
+
+Official Cat pages checked:
+- https://parts.cat.com/en/catcorp/product/211-3022
+- https://parts.cat.com/en/catcorp/product/211-3023
+- https://parts.cat.com/en/catcorp/product/211-3026
+- https://parts.cat.com/en/catcorp/product/212-8174
+- https://parts.cat.com/en/catcorp/product/216-7815
+- https://parts.cat.com/en/catcorp/product/221-0129
+- https://parts.cat.com/en/catcorp/product/221-0132
+- https://parts.cat.com/en/catcorp/product/222-5152
+- https://parts.cat.com/en/catcorp/product/223-8225
+- https://parts.cat.com/en/catcorp/product/223-9250
+
+Database checkpoint: all ten rows queried; corrections for 212-8174, 216-7815, 221-0129, 222-5152 and 223-9250 plus injector-group material attributes were applied and re-queried. Overall reviewed progress: 38/500 batches, 380/5,000 products.
