@@ -47,6 +47,23 @@ Official product pages:
 - https://parts.cat.com/en/catcorp/product/488-1675
 - https://parts.cat.com/en/catcorp/product/4N-4387
 
+## Additional exact C15 OEM model-class checks (24 Nov 2026)
+
+A separate exact-number search found three further Cat Parts Store pages that explicitly include C15 in the **MARINE ENGINE** compatible-model class:
+
+| Part number | Cat page title | Compatible-model evidence | Application |
+|---|---|---|---|
+| **3N-6059** | SHAFT | C15 under MARINE ENGINE, with non-marine model classes also listed | **BOTH** |
+| **4N-0933** | GASKET | C15 under MARINE ENGINE and Industrial Engine / Generator Set classes | **BOTH** |
+| **105-5081** | Air Starting Motor | C15 under MARINE ENGINE; Cat's description says air starters are generally applied to large industrial and marine engines | **BOTH** |
+
+Official pages:
+- https://parts.cat.com/en/catcorp/product/3N-6059
+- https://parts.cat.com/en/catcorp/product/4N-0933
+- https://parts.cat.com/en/catcorp/product/105-5081
+
+These pages strengthen the published C15 marine model-class evidence. They do not prove fitment to all C15 serial prefixes or Arrangements; confirm in SIS before quoting. Note that **4N-0933** is a generic gasket page, not a C15 marine-specific kit.
+
 ## Handling and next extraction step
 
 1. These exact pages are OEM model-class evidence, not serial-specific fitment. Keep them in the reference/evidence layer.
