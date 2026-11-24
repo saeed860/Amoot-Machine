@@ -2182,3 +2182,38 @@ Additional Cat-linked discovery leads from official alternate/frequently-bought-
 20R-8062, 2W-6289, 2W-6667, 214-7568, 7C-7677, 6V-5048, 449-2274, 6Y-5685, 136-2422, 357-7540, 1R-1808. These are candidate links only, not fitment/interchangeability proof.
 
 Overall reviewed progress: 44/500 batches = 440/5,000 target products (8.8%). Original Cat seed list has 347 SKUs remaining (products 441–787).
+
+## Batch 45/500 — products 441–450 (2026-11-24)
+
+SKUs: 301-2299, 301-3043, 303-2504, 304-3885, 306-6820, 307-3245, 309-4499, 309-7678, 309-7679, 30R-0090. Cat pages opened for all ten; 309-7679's page timed out and selected sections on 303-2504/304-3885/30R-0090 could not be fully read. Only evidence-supported changes were applied and then re-queried.
+
+Verified updates:
+- 301-2299: Track bolt M24 ×1.5, 70mm long. Added Cat fitment across MD6200/MD6250/MD6310/MD6420 drills, 3512 gen set, forestry/feller bunchers, excavators and mobile hydraulic power units. Added 2.756in length, 1.26in grip, RH thread, 0.9448in bolt size, zinc-phosphate/oil coating, boron steel/alloy zinc/coating fluid, Cat/ISO 898-1 class 11.9.
+- 301-3043: Valve-seat insert. Existing C280-12 Marine Engine/Petroleum Engine fitment matched Cat page; no update.
+- 303-2504: Slip joint group. Page opened, but compatible-model/specification section timed out; no speculative changes.
+- 304-3885: Cat 10-micron vented fuel cap. Main page confirms title and vented-cap function; details sections timed out, so no unverified fitment/spec changes.
+- 306-6820: Fuel-system gasket kit. Existing 3516B Gen Set Engine/Marine Engine/Marine Auxiliary fitment matched. Cat kit page explicitly lists included quantities: 136-7227 ×8, 1H-9696 ×1, 214-7568 ×34, 238-5080 ×1, 5D-5957 ×2, 6V-5048 (quantity line visible). These components were added as linked discovery leads, not interpreted as full fitment or full kit BOM.
+- 307-3245: Lubricant injector for lube distribution valve. Added Cat model fitment across LHD R1700, off-highway trucks, wheel dozers, graders, shovels, loaders, electric rope shovels, D10/D11 tractors and rotary drills. Added steel/carbon steel, 8.72 ×1.18 ×1.2in, 1.4mL max and 0.25mL min output per cycle.
+- 309-4499: Support. Cat page confirms C32 generator-set, marine auxiliary and marine engine fitment; existing C32 entry matched.
+- 309-7678: Double-flange 268mm track roller, 412.16mm mounting width. Added D10N/D10R/D10T2/D10/D10 fitment and Cat geometry: 10.551in tread, 16.227in mounting width, standard application, HD undercarriage, 21.102in shaft, not carrier-roller compatible, 12.157in outside spread, 4.933in inside spread, 2.677in shaft OD and 12.283in outer flange.
+- 309-7679: Cat page timed out; existing record left unchanged. Cat's 309-7678 page lists it in frequently-bought-together and shows 278mm tread/412.16mm mounting width from catalog data, but its own fitment/specification page still requires review.
+- 30R-0090: Official Cat Reman Cylinder Head, G3500 no-swirl. Page confirms Cat Reman brand and warranty framing; own compatible-model/spec sections timed out. Existing G3512/G3516 labels were not changed.
+
+Cat pages:
+- https://parts.cat.com/en/catcorp/product/301-2299
+- https://parts.cat.com/en/catcorp/product/301-3043
+- https://parts.cat.com/en/catcorp/product/303-2504
+- https://parts.cat.com/en/catcorp/product/304-3885
+- https://parts.cat.com/en/catcorp/product/306-6820
+- https://parts.cat.com/en/catcorp/product/307-3245
+- https://parts.cat.com/en/catcorp/product/309-4499
+- https://parts.cat.com/en/catcorp/product/309-7678
+- https://parts.cat.com/en/catcorp/product/309-7679
+- https://parts.cat.com/en/catcorp/product/30R-0090
+
+Additional linked discovery leads from the 306-6820 kit contents, 307-3245 frequently-bought-together panel and 309-7678 related-parts panel:
+136-7227, 1H-9696, 5D-5957, 6V-5048, 6V-8398, 8X-1106, 131-1650, 184-4396, 9W-4489. Candidate leads only; each needs its own item-level verification.
+
+Post-update verification: all ten SKUs re-queried. Only 301-2299, 307-3245 and 309-7678 changed; 301-3043, 306-6820 and 309-4499 already matched the Cat fitment; 303-2504, 304-3885, 309-7679 and 30R-0090 were left untouched due to incomplete page evidence. No unsupported pricing, stock, or interchange claims added.
+
+Overall reviewed progress: 45/500 batches = 450/5,000 target products (9.0%). Original Cat seed list has 337 SKUs remaining (products 451–787).
