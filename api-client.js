@@ -259,6 +259,11 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["3348389","CRANKSHAFT",8521.82,14061.00,"۱۵۰ New Aftermarket؛ ۱ Used"],
+ ["3356220","HEAD GP-CY",2886.52,4762.76,"۲ New Genuine Surplus؛ ۱ New Aftermarket"],
+ ["3356352","SUSPENSION",60580.91,99958.50,"۲ New Aftermarket؛ ۱ New Genuine Surplus؛ ۲ Call For Pricing"],
+ ["3362213","PUMP GP-WA",1748.81,2885.54,"۸ New Aftermarket"],
+ ["3365750","DRIVE GP-F",44524.81,73465.94,"۶ New Aftermarket؛ ۱ Rebuilt"],
  ["3320045","TURBO GP-B",5257.97,8675.65,"۷ New Aftermarket؛ ۱ Call For Pricing"],
  ["3320046","TURBO GP-B",5257.97,8675.65,"۲ New Aftermarket؛ ۱ Call For Pricing"],
  ["3327297","CAMSHAFT",2467.04,4070.62,"۵۰ New Aftermarket"],
