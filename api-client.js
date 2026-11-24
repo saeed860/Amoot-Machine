@@ -259,6 +259,10 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["7C3039","CORE AS",1882.01,3105.32,"۱۹۹ New Aftermarket؛ ۳ Used"],
+ ["7C3372","MOTOR G",4875.64,8044.81,"۹ New Aftermarket"],
+ ["7E7739","COMPRESSOR G",2277.15,3757.30,"۱۳ New Aftermarket"],
+ ["7G1958","SLEEVE WEA",3059.27,5047.80,"۴۹ New Aftermarket"],
  ["6W9744","SEAT G-BAS",6872.34,11339.36,"موجودی دقیق فروشنده یافت نشد؛ قیمت OEM List موجود است"],
  ["6Y6712","PUMP G",1690.84,2789.89,"۱ New Aftermarket"],
  ["6Y8764","PUMP",3116.60,5142.39,"۱۷ New Aftermarket"],
