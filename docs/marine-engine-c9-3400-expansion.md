@@ -141,3 +141,24 @@ The 3400 engine family is not a single fitment scope: 3406/3406C, 3408/3408C, 34
 3. Check the exact part number against Cat Parts Store; record Cat's compatible-model class separately from third-party assembly evidence.
 4. Use full engine serial and Arrangement in SIS before declaring order-level fitment.
 5. Keep all these rows in the reference/evidence layer until reviewed; do not create price, stock or public sellable SKUs from catalog evidence alone.
+
+
+## C9 additional system candidates and application caveats (24 Nov 2026)
+
+A further C9 marine discovery pass used the Logan Marine and Asil Trading public C9 reference lists to identify additional candidates. These are third-party discovery sources, not Cat OEM confirmation:
+
+| Part number | Listed description | System | Evidence status |
+|---|---|---|---|
+| **258-0794** | Cooler Group-Fuel | Fuel | Third-party C9 list candidate; exact Cat compatible-model evidence not established in this pass |
+| **197-5987** | Manifold Group-Exhaust (Water Cooled) | Air/exhaust | Third-party C9 list candidate; exact Cat compatible-model evidence not established in this pass |
+| **242-5336** | Aftercooler Group | Air/aftercooler | Third-party C9 list candidate; exact Cat compatible-model evidence not established in this pass |
+| **245-3777** | Pump Group-Auxiliary Sea Water | Sea-water cooling | Third-party EPC listing says Type 2, for keel-cooled options only; it explicitly says it cannot be used with heat-exchanger options |
+
+The third-party EPC page for 245-3777 shows 170-6116 as a component, while the separate Cat Parts Store check already recorded above marks 170-6116 discontinued. This is not evidence that the discontinued pump group is currently orderable or that 245-3777 is its universal replacement. Preserve the application note and require serial/Arrangement confirmation.
+
+Sources:
+- Asil Trading C9 list: https://asiltrading.com/parts/cat-c9/
+- Logan Marine C9 list: https://loganmarine.co.uk/cat-c9/
+- Third-party 245-3777 EPC detail: https://www.partsdic.com/CAT-OEM-Part-2453777-PUMP-GP-AUXILIARY-SEA-WATER_i2941242.html
+
+No new row is promoted to sellable inventory, and no serial-specific fitment is claimed.
