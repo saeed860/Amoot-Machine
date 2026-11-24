@@ -67,9 +67,9 @@ const newSpecs = 'const specs=Object.entries(p.specifications||{}).filter(([k,v]
 if (search.includes(oldSpecs)) search = search.replace(oldSpecs, newSpecs);
 else if (!search.includes(newSpecs)) throw new Error("Could not add alternative part numbers to result card");
 const oldLocalSearch = 'const local=offRoadLocal.filter(p=>queries.some(q=>norm(p.sku)===norm(q)||norm(p.description).includes(norm(q))||norm(p.name).includes(norm(q))));';
-const newLocalSearch = 'const local=offRoadLocal.filter(p=>queries.some(q=>norm(p.sku)===norm(q)||p.alternativePartNumbers.some(x=>norm(x.sku)===norm(q))||norm(p.description).includes(norm(q))||norm(p.name).includes(norm(q))));';
+const newLocalSearch = 'const local=offRoadLocal.filter(p=>queries.some(q=>norm(p.sku)===norm(q)||p.alternativePartNumbers.some(x=>norm(x.sku)===norm(q))||norm(p.description).includes(norm(q))||norm(p.name).includes(norm(q))));for(const p of local){const existing=allRows.find(x=>norm(x.sku)===norm(p.sku));if(existing){existing.offRoadCatalog=true;existing.priceReference=p.priceReference;existing.alternativePartNumbers=p.alternativePartNumbers||[];existing.specifications={...(existing.specifications||{}),...(!existing.specifications?.weight&&p.specifications?.weight?{weight:p.specifications.weight}:{})};if(!existing.imageUrl)existing.imageUrl=p.imageUrl;if(!existing.description)existing.description=p.description;if(!existing.technicalGroup)existing.technicalGroup=p.technicalGroup}else allRows.push(p)}';
 if (search.includes(oldLocalSearch)) search = search.replace(oldLocalSearch, newLocalSearch);
-else if (!search.includes(newLocalSearch)) throw new Error("Could not add alternative part-number search");
+else if (!search.includes(newLocalSearch)) throw new Error("Could not add Off Road price/detail merge and alternative search");
 await writeFile("search.js", search, "utf8");
 
 const auditPath = "docs/internal-offroad-price-audit.md";
