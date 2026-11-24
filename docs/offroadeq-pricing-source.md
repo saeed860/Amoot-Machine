@@ -241,3 +241,33 @@ Sources checked:
 - Third-party 3058921 cross-reference example: https://www.robertsandson.com/alternators/alternators/240-36485.html
 
 No additional OEM benchmark or provisional ×1.65 value was created in this pass because no new exact Off Road detail page with a visible OEM List Price was established. No Amoot price, inventory, or sellable SKU was changed.
+
+
+## C18/C15 and 3400-family Off Road public-index batch (24 Nov 2026)
+
+A second marine-engine batch checked normalized exact numbers from the previously documented C18, C15 and 3400-family Cat model-class research against the same public 500-part index. None of these 18 target numbers appeared in the visible index:
+
+| Part number | Research context | Public index result | Off Road exact price / stock |
+|---|---|---|---|
+| 493-9456 | C18 housing | Not listed | Not established |
+| 150-3141 | C18/C15 cover group | Not listed | Not established |
+| 247-0825 | C18/C15 harness | Not listed | Not established |
+| 323-7317 | C18 electronic control | Not listed | Not established |
+| 229-8568 | C18/C15 block assembly | Not listed | Not established |
+| 109-5326 | C18/C15 bolt | Not listed | Not established |
+| 222-2886 | C18/C15 hose assembly | Not listed | Not established |
+| 241-5732 | C18/C15 adapter-damper | Not listed | Not established |
+| 279-9884 | C18/C15 water-pump housing | Not listed | Not established |
+| 488-1675 | C18 cartridge/sleeve bearing | Not listed | Not established |
+| 4N-4387 | C18 case | Not listed | Not established |
+| 3N-6059 | C15 shaft | Not listed | Not established |
+| 4N-0933 | C15 gasket | Not listed | Not established |
+| 105-5081 | C15 air-starting motor | Not listed | Not established |
+| 4W-6412 | 3400-family marine component | Not listed | Not established |
+| 4W-4901 | 3400-family marine component | Not listed | Not established |
+| 6N-7421 | 3400-family marine component | Not listed | Not established |
+| 3N-8455 | 3400-family marine component | Not listed | Not established |
+
+As with the previous batch, this result describes only the public popular-parts index. It does not establish that Off Road does not carry these parts; the complete inventory search remains separate and login-gated. No OEM List Price or provisional ×1.65 reference was added because no exact public Off Road detail record with a visible OEM List Price was located for these numbers. Do not infer an alternative or price from a similarly described part.
+
+Source: https://offroadeq.com/parts (500 frequently searched parts; full inventory search: https://offroadeq.com/search).
