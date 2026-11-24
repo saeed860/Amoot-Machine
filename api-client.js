@@ -259,6 +259,11 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["3320045","TURBO GP-B",5257.97,8675.65,"۷ New Aftermarket؛ ۱ Call For Pricing"],
+ ["3320046","TURBO GP-B",5257.97,8675.65,"۲ New Aftermarket؛ ۱ Call For Pricing"],
+ ["3327297","CAMSHAFT",2467.04,4070.62,"۵۰ New Aftermarket"],
+ ["3327298","CAMSHAFT",2467.04,4070.62,"۵۴ New Aftermarket؛ ۱ Used"],
+ ["3331184","ALTERNATOR",1535.35,2533.33,"۸ New Aftermarket"],
  ["3231170","IDLER GP-T",2382.20,3930.63,"در موجودی دقیق فروشنده یافت نشد؛ قیمت OEM List موجود است"],
  ["3238674","GEAR-WORM",2103.74,3471.17,"۶۱ New Aftermarket"],
  ["3240532","PUMP GP-FU",3965.16,6542.51,"در موجودی دقیق فروشنده یافت نشد؛ قیمت OEM List موجود است"],
