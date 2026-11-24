@@ -259,6 +259,11 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["4210049","CAMSHAFT",3404.52,5617.46,"۸ New Aftermarket"],
+ ["4210071","CAMSHAFT",3404.52,5617.46,"۱۰ New Aftermarket"],
+ ["4211808","PUMP GP-PS",12716.62,20982.42,"۶ New Aftermarket"],
+ ["4232091","SEAL GP DU",1967.74,3246.77,"۵ New Aftermarket"],
+ ["4243629","PUMP GP-AU",3002.52,4954.16,"۱۴ New Aftermarket"],
  ["3968375","HEAD GP-CY",10112.23,16685.18,"۱۵ New Aftermarket"],
  ["4152432","SENSOR GP-",1239.63,2045.39,"۱۰ New Genuine Surplus؛ ۴۳ New Aftermarket"],
  ["4152433","SENSOR GP-",1239.63,2045.39,"۹ New Aftermarket"],
