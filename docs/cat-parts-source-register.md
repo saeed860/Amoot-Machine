@@ -2,6 +2,12 @@
 
 Last reviewed: 2026-11-24
 
+
+| [Off Road Equipment](https://offroadeq.com/) | Supplier lead and public popular-parts index (500 part numbers); detail pages expose OEM list-price benchmarks and inventory-condition labels | Actual unit prices are hidden behind login. Do not treat OEM list price as supplier sale price or calculate the 65% margin from it. Use authorized supplier quotations/exports; record condition, currency, quantity and timestamp separately. |
+
+See [Off Road Equipment pricing-source assessment](offroadeq-pricing-source.md) and [price-import template](../offroadeq-price-import-template.csv). Tested public overlap: 116-1980. Public page showed OEM List Price USD 2,024.61 but hid actual unit prices for New Aftermarket, Call For Pricing and Used inventory. No price or stock was imported.
+
+
 ## Source roles
 
 | Source | Useful for | Limits / handling |
