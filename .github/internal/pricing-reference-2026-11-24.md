@@ -642,7 +642,7 @@
 
 | SKU | فروشنده | نوع / مبنای قیمت | قیمت منبع USD | قیمت آموت USD | وضعیت | منبع داخلی |
 |---|---|---|---:|---:|---|---|
-| CAT-131-5453 | Novi Group | Genuine Caterpillar | 5,458.53 | 9,006.57 | استعلام موجودی | https://novi.com.tr/caterpillar-131-5453 |
+| 131-5453 | Novi Group | Genuine Caterpillar | 5,458.53 | 9,006.57 | استعلام موجودی | https://novi.com.tr/caterpillar-131-5453 |
 | CAT-7W-5313 | FinditParts | Caterpillar | 90.49 | 149.31 | موجودی محدود در زمان مشاهده | https://www.finditparts.com/products/1957973/caterpillar-7w5313 |
 | CAT-8H-7202 | Pete Truck Parts | Case assembly listing | 88.91 | 146.70 | ۲ عدد در زمان مشاهده | https://petetruckparts.com/product/case-as-fuel-filter-8h7202/ |
 
