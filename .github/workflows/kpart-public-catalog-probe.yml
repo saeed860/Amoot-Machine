@@ -1,0 +1,78 @@
+name: K-Part Public Catalog Probe
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/kpart-public-catalog-probe.yml"
+workflow_dispatch:
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm install --no-save playwright
+      - run: npx playwright install --with-deps chromium
+      - name: Inspect public K-Part catalog pages
+        run: |
+          mkdir -p artifacts
+          node --input-type=module <<'NODE'
+          import { chromium } from 'playwright';
+          import { writeFile } from 'node:fs/promises';
+          const targets = [
+            'https://k-part.com/chat?catalog_brand=cat&catalog_model=m325b-bgn',
+            'https://k-part.com/chat?catalog_brand=cat',
+            'https://k-part.com/catalog/caterpillar/c7/',
+            'https://k-part.com/catalog/caterpillar/c9/'
+          ];
+          const browser = await chromium.launch({headless:true});
+          const results = [];
+          try {
+            for (const url of targets) {
+              const page = await browser.newPage({viewport:{width:1440,height:1000}});
+              const requests = [];
+              const responses = [];
+              page.on('request', req => {
+                const u = new URL(req.url());
+                if (u.hostname === 'k-part.com' || u.hostname.endsWith('.k-part.com')) {
+                  requests.push({method:req.method(),url:req.url(),resourceType:req.resourceType()});
+                }
+              });
+              page.on('response', async res => {
+                const u = new URL(res.url());
+                if (!(u.hostname === 'k-part.com' || u.hostname.endsWith('.k-part.com'))) return;
+                const headers = res.headers();
+                const type = headers['content-type'] || '';
+                const item = {url:res.url(),status:res.status(),contentType:type};
+                if (/json|text\//i.test(type) && Number(headers['content-length']||0) < 1000000) {
+                  try { item.body=(await res.text()).slice(0,250000); } catch {}
+                }
+                responses.push(item);
+              });
+              let navigationError = null;
+              try { await page.goto(url,{waitUntil:'domcontentloaded',timeout:45000}); await page.waitForTimeout(18000); }
+              catch(e) { navigationError=e.message; }
+              const dom = await page.evaluate(() => ({
+                title:document.title,
+                url:location.href,
+                text:(document.body?.innerText||'').slice(0,30000),
+                links:[...document.querySelectorAll('a[href]')].slice(0,300).map(a=>({text:(a.innerText||a.getAttribute('aria-label')||'').trim().slice(0,180),href:a.href})),
+                controls:[...document.querySelectorAll('input,button,select,[role=button]')].slice(0,200).map(x=>({tag:x.tagName,type:x.type||'',text:(x.innerText||x.getAttribute('aria-label')||'').trim().slice(0,120),placeholder:x.placeholder||'',name:x.name||'',value:x.value||''}))
+              })).catch(e=>({error:e.message}));
+              results.push({requestedUrl:url,navigationError,dom,requests,responses});
+              await page.close();
+            }
+          } finally { await browser.close(); }
+          await writeFile('artifacts/kpart-public-probe.json',JSON.stringify(results,null,2));
+          console.log(JSON.stringify(results.map(x=>({url:x.requestedUrl,error:x.navigationError,title:x.dom?.title,textLength:x.dom?.text?.length,requests:x.requests?.length,responses:x.responses?.length})),null,2));
+          NODE
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: kpart-public-probe
+          path: artifacts/kpart-public-probe.json
+          if-no-files-found: warn
+          retention-days: 7
