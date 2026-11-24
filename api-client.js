@@ -259,6 +259,9 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["8S7717","MANIFOLD",1309.89,2161.32,"۳۲ New Aftermarket"],
+ ["8T4121","WASHER-ZC",0.65,1.07,"۵۰٬۲۸۰ New Genuine Surplus؛ ۱۶٬۴۶۸ New Aftermarket"],
+ ["8T4122","WASHER-ZC",1.63,2.69,"۵ New Genuine Surplus؛ ۱۰٬۵۰۰ New Aftermarket"],
  ["8J6730","PUMP GRP",11304.21,18651.95,"۸ New Aftermarket"],
  ["8N1187","HEAD A 3306",3614.55,5964.01,"۲۴ New Genuine Surplus؛ ۲۷ New Aftermarket؛ ۲۹ New Aftermarket Loaded"],
  ["8N1188","CYL HEAD GRP",3549.08,5855.98,"۵۷ New Aftermarket؛ ۲۷ New Aftermarket Loaded"],
