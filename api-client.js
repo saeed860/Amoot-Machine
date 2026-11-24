@@ -259,6 +259,10 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["2237962","CORE AS.",1853.84,3058.84,"۲۶۸ New Aftermarket"],
+ ["2239250","HEAD GP-CY",10065.28,16607.71,"۶۴ New Aftermarket"],
+ ["2244122","FRAME AS",14832.96,24474.38,"۱ New Aftermarket"],
+ ["2267683","ALTERNATOR",1563.04,2579.02,"۲۹ New Genuine Surplus؛ ۴۴ New Aftermarket"],
  ["2226926","BAR GP-EQU",12873.57,21241.39,"۸ New Aftermarket؛ ۱ Rebuilt"],
  ["2229219","SPINDLE",7014.40,11573.76,"۹ New Aftermarket"],
  ["2231608","PUMP GP-BE",1656.37,2733.01,"۶۸ New Aftermarket؛ ۱ Used"],
