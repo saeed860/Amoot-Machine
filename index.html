@@ -14,7 +14,7 @@
 <div class="topline"><div class="wrap top-inner"><div class="top-left"><button type="button" class="account-entry" id="accountEntry" onclick="openAuth('login')">♙ ورود / ثبت‌نام</button><button type="button" class="admin-entry" onclick="openAdmin()">ورود مدیریت</button><button type="button" class="cart-entry" onclick="openCart()">▣ سبد خرید <b id="cartCount">۰</b></button><span>☎ 021-12345678</span></div><div class="top-right">تأمین تخصصی قطعات و ماشین‌آلات صنعتی <b></b></div></div></div>
 <header class="header"><div class="wrap header-main"><a class="brand" href="#home"><span class="brand-mark"><img src="./assets/amoot-logo.png" alt="نشان آموت ماشین"></span><span class="brand-name">آموت ماشین<small>AMOOT MACHINE</small></span></a><nav class="main-nav"><a class="selected" href="#home">خانه</a><a href="#products">محصولات⌄</a><a href="./search.html">جستجوی قطعات</a><a href="#catalog">دسته‌بندی‌ها</a><a href="#about">درباره ما</a><a href="#contact">تماس با ما</a></nav><form class="header-search" id="quickSearchForm" action="./search.html" method="get" role="search"><input id="search" name="q" type="search" autocomplete="off" placeholder="پارت‌نامبر، نام قطعه یا مدل موتور را جستجو کنید..." required><button type="submit" aria-label="جستجو در کاتالوگ قطعات">⌕</button></form><button class="category-entry" onclick="document.querySelector('#catalog').scrollIntoView({behavior:'smooth'})">☰ دسته‌بندی محصولات</button><button class="hamb" aria-label="باز کردن منو" onclick="document.querySelector('.main-nav').classList.toggle('show')">☰</button></div></header>
 <main id="home">
-<section class="hero"><div class="hero-photo"></div><div class="hero-shade"></div><div class="wrap hero-content"><div class="hero-copy"><div class="eyebrow"><i></i> مرجع تخصصی قطعات ماشین‌آلات سنگین</div><h1>قدرت ماشین‌آلات شما،<br><em>با قطعات مطمئن</em></h1><p>مرجع تخصصی جستجو و تأمین قطعات یدکی، ماشین‌آلات سنگین و تجهیزات صنعتی از برندهای معتبر جهانی.</p><div class="hero-points"><span>◆ ضمانت اصالت کالا</span><span>◆ ارسال سریع</span><span>◆ مشاوره تخصصی</span></div><a class="hero-cta" href="#products">مشاهده محصولات <b>←</b></a></div></div><div class="hero-stripe"></div></section>
+<section class="hero"><div class="hero-photo" id="heroPhoto" role="img" aria-label="ماشین‌آلات سنگین"></div><div class="hero-shade"></div><div class="wrap hero-content"><div class="hero-copy"><div class="eyebrow"><i></i> مرجع تخصصی قطعات ماشین‌آلات سنگین</div><h1>قدرت ماشین‌آلات شما،<br><em>با قطعات مطمئن</em></h1><p>مرجع تخصصی جستجو و تأمین قطعات یدکی، ماشین‌آلات سنگین و تجهیزات صنعتی از برندهای معتبر جهانی.</p><div class="hero-points"><span>◆ ضمانت اصالت کالا</span><span>◆ ارسال سریع</span><span>◆ مشاوره تخصصی</span></div><a class="hero-cta" href="#products">مشاهده محصولات <b>←</b></a></div></div><div class="hero-slides" aria-label="انتخاب تصویر بنر"><button type="button" class="hero-arrow prev" aria-label="تصویر قبلی">‹</button><div class="hero-dots" id="heroDots"><button type="button" class="active" aria-label="تصویر ۱"></button><button type="button" aria-label="تصویر ۲"></button><button type="button" aria-label="تصویر ۳"></button><button type="button" aria-label="تصویر ۴"></button></div><button type="button" class="hero-arrow next" aria-label="تصویر بعدی">›</button></div><div class="hero-stripe"></div></section>
 <section class="category-section" id="catalog"><div class="wrap categories">
 <button class="cat" data-cat="قطعات برقی"><img src="./assets/cat-electrical.jpg" alt="قطعات برقی"><span><b>قطعات برقی</b><small>استارت، دینام، سنسور</small></span><i>←</i></button>
 <button class="cat" data-cat="فیلتر و مصرفی"><img src="./assets/cat-filters.jpg" alt="فیلتر و مصرفی"><span><b>فیلتر و مصرفی</b><small>فیلتر هوا، روغن و سوخت</small></span><i>←</i></button>
@@ -36,4 +36,27 @@
 <div id="modal" class="modal" onclick="if(event.target===this)closeModal()"><div class="modal-card"><button class="close" onclick="closeModal()">×</button><div id="modalBody"></div></div></div><div id="toast" class="toast"></div>
 <script src="./offroad-catalog.js?v=20261124verifiedphotos3"></script><script src="./app.js?v=20261124amootproducts1"></script><script src="./api-config.js?v=20261122h"></script><script src="./api-client.js?v=20261124pricing7"></script><script src="./cart.js?v=20261122m"></script>
 <script>(function(){const f=document.getElementById("quickSearchForm");if(!f)return;f.addEventListener("submit",function(e){const input=f.querySelector('input[name="q"]');const q=(input?.value||"").trim();if(!q){e.preventDefault();input?.focus();return;}e.preventDefault();window.location.href="./search.html?q="+encodeURIComponent(q);});})();</script>
+<script>
+(function(){
+ const photo=document.getElementById('heroPhoto'), hero=document.querySelector('.hero');
+ const dots=[...document.querySelectorAll('#heroDots button')];
+ if(!photo||dots.length!==4)return;
+ const slides=[
+  {src:'./assets/hero-excavator.jpg',alt:'ماشین‌آلات سنگین - تصویر اصلی آموت ماشین'},
+  {src:'https://www.deltahospitalityltd.com/constrain/1024/1024/uploads/gallery/jackup_6418c193ddf5d.jpg',alt:'Offshore self elevating drilling rig'},
+  {src:'https://7270841.fs1.hubspotusercontent-na1.net/hub/7270841/hubfs/personnel-on-board-list.jpg?name=personnel-on-board-list.jpg&width=1750',alt:'Offshore supply boat'},
+  {src:'https://s7d2.scene7.com/is/image/Caterpillar/C831222',alt:'Caterpillar 3516 industrial diesel engine'}
+ ];
+ let current=0,timer;
+ function show(n){current=(n+slides.length)%slides.length;photo.style.backgroundImage='url("'+slides[current].src+'")';photo.setAttribute('aria-label',slides[current].alt);dots.forEach((d,k)=>{d.classList.toggle('active',k===current);d.setAttribute('aria-pressed',k===current?'true':'false')});}
+ function start(){clearInterval(timer);timer=setInterval(()=>show(current+1),5500)}
+ dots.forEach((d,k)=>d.addEventListener('click',()=>{show(k);start()}));
+ document.querySelector('.hero-arrow.prev')?.addEventListener('click',()=>{show(current-1);start()});
+ document.querySelector('.hero-arrow.next')?.addEventListener('click',()=>{show(current+1);start()});
+ hero?.addEventListener('mouseenter',()=>clearInterval(timer));
+ hero?.addEventListener('mouseleave',start);
+ document.addEventListener('visibilitychange',()=>document.hidden?clearInterval(timer):start());
+ show(0);start();
+})();
+</script>
 </body></html>
