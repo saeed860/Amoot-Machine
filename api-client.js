@@ -259,6 +259,11 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["3368670","HUB AS.",8099.28,13363.81,"۳۲ New Aftermarket"],
+ ["3383454","MOTOR GP-E",1714.16,2828.36,"۱۲۰ New Aftermarket"],
+ ["3383456","MOTOR GP-E",1714.16,2828.36,"۳۹ New Aftermarket"],
+ ["3410597","FRAME AS",5266.66,8689.99,"۱ New Aftermarket"],
+ ["3412182","CYL GP-SEA",13147.50,21693.38,"۱ New Aftermarket"],
  ["3348389","CRANKSHAFT",8521.82,14061.00,"۱۵۰ New Aftermarket؛ ۱ Used"],
  ["3356220","HEAD GP-CY",2886.52,4762.76,"۲ New Genuine Surplus؛ ۱ New Aftermarket"],
  ["3356352","SUSPENSION",60580.91,99958.50,"۲ New Aftermarket؛ ۱ New Genuine Surplus؛ ۲ Call For Pricing"],
