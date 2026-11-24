@@ -259,6 +259,9 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["1417916","CARTRIDGE",2045.66,3375.34,"۱۰ New Aftermarket"],
+ ["1440725","ROD AS",2372.57,3914.74,"۱۳۹ New Aftermarket؛ ۱۲ Used"],
+ ["1484644","DRIVE GP",19197.19,31675.36,"۱۳ New Aftermarket"],
  ["1003259","PUMP G",4813.76,7942.70,"۲۰ New Aftermarket"],
  ["1005047","ALTERNATOR",695.99,1148.38,"۱ New Genuine Surplus؛ ۱۲ New Aftermarket؛ ۱ Used"],
  ["1007408","CAMSHAFT A",2672.77,4410.07,"۱۰۷ New Aftermarket؛ ۱ Used"],
