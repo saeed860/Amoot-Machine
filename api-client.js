@@ -259,6 +259,10 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["1727766","PUMP GP-WT",1603.90,2646.43,"۲۸۰ New Aftermarket"],
+ ["1738612","CYLINDER G",20144.33,33238.14,"۲ New Aftermarket"],
+ ["1774651","BAR GP",17513.33,28896.99,"۱۳ New Aftermarket"],
+ ["1779953","ALTERNATOR G",1559.51,2573.19,"۲ New Aftermarket؛ ۱ New Genuine Surplus"],
  ["1643692","SENSOR GP-",1248.73,2060.40,"۴ New Genuine Surplus؛ ۶۹ New Aftermarket؛ ۲ Used"],
  ["1658633","CYL GP-0121-",10825.16,17861.51,"در موجودی دقیق فروشنده یافت نشد؛ قیمت OEM List موجود است"],
  ["1592950","SEAT GP-SU",3506.56,5785.82,"۲ New Aftermarket"],
