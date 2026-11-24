@@ -503,3 +503,10 @@ A targeted public-index cross-check covered C32/C9 numbers 305-8921, 207-2422, 3
 ## C18/C15 and 3400-family Off Road public-index batch (24 Nov 2026)
 
 The public Off Road 500-part index was cross-checked against 18 additional C18/C15/3400-family part numbers: 493-9456, 150-3141, 247-0825, 323-7317, 229-8568, 109-5326, 222-2886, 241-5732, 279-9884, 488-1675, 4N-4387, 3N-6059, 4N-0933, 105-5081, 4W-6412, 4W-4901, 6N-7421 and 3N-8455. None appeared in the public index; this is not a full-inventory availability check. No exact Off Road OEM list prices or stock quantities were established, and no fallback prices were calculated. See [the detailed Off Road pricing assessment](offroadeq-pricing-source.md). No Amoot price or stock was changed.
+
+
+## Independent market-price leads — 6L-2280 and 315-8339 (24 Nov 2026)
+
+Public third-party price observations are recorded separately from Off Road supplier data and Cat OEM list prices. For 6L-2280, observed retail references include Tecnoseal aftermarket equivalent GBP 7.93 (Anode Outlet), Cat-branded listing EUR 16.52 VAT included (Motortec), and a Lancing Marine price-book line GBP 8.60 (tax/stock details not stated). For 315-8339, Advanced Truck Parts lists a Caterpillar-branded offer at USD 4,152.91 but marks it sold out; DeedParts lists a new aftermarket “For CAT” offer at USD 1,750.32 and says in stock; a Made-in-China supplier listing shows USD 825 MOQ 1 without independently established brand/certification. These are not directly comparable and are not Off Road quotes. See [price-source assessment](offroadeq-pricing-source.md).
+
+Official Cat pages reconfirm the model-class context for 6L-2280, 315-8339, 305-8921, 207-2422, 353-9049, 149-3239, 113-1110, 493-9456 and 247-0825. Cat customer prices remain login-gated in the retrieved pages. A C9 Marine parts-manual extract places 315-8339 as a quantity-1 core in aftercooler group 242-5336; this is third-party document evidence and does not replace serial/Arrangement fitment. No price or stock was changed in Amoot.
