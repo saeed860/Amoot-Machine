@@ -1,0 +1,30 @@
+# Cat Parts Store linked-parts discovery queue
+
+Retrieved: 2026-11-24
+Source class: official Cat Parts Store product pages and their related-parts / frequently-bought-together panels.
+These are discovery leads only. A related-parts panel is not proof of fitment, interchangeability, or inclusion in the primary product assembly. Verify each item on its own Cat page and with equipment serial-number configuration before publishing fitment.
+Status: cat_linked_candidate; needs_individual_verification.
+
+part_number | displayed_name_or_description | source_context | verification_status
+7W-8580 | Lifter valve guide spring | Cat Parts Store frequently bought together with 20R-8981 | cat_linked_candidate; needs_individual_verification
+1W-2473 | Valve lifter guide spring | Cat Parts Store frequently bought together with 20R-8981 | cat_linked_candidate; needs_individual_verification
+0R-9668 | Cat Reman valve lifter | Cat Parts Store related-parts listing for 20R-8981 | cat_linked_candidate; needs_individual_verification
+143-2878 | Cylinder head gasket | Cat Parts Store related-parts listing for 20R-8981 | cat_linked_candidate; needs_individual_verification
+3S-9643 | Rotating shaft lip-type seal | Cat Parts Store frequently bought together with 20R-9045 | cat_linked_candidate; needs_individual_verification
+5D-5957 | 104.37 mm ID seal O-ring | Cat Parts Store frequently bought together with 20R-9045 | cat_linked_candidate; needs_individual_verification
+9Y-9842 | Oil line regulator housing gasket | Cat Parts Store related-parts listing for 20R-9045 | cat_linked_candidate; needs_individual_verification
+485-4705 | Engine oil filter lube element | Cat Parts Store related-parts listing for 20R-9045 | cat_linked_candidate; needs_individual_verification
+6V-7701 | 240.67 mm ID seal O-ring | Cat Parts Store frequently bought together with 20R-9124 | cat_linked_candidate; needs_individual_verification
+6V-3955 | 15.24 mm ID seal O-ring | Cat Parts Store frequently bought together with 20R-9124 | cat_linked_candidate; needs_individual_verification
+6V-6809 | 139.07 mm ID seal O-ring | Cat Parts Store related-parts listing for 20R-9124 | cat_linked_candidate; needs_individual_verification
+4W-7749 | 0.8 mm thick circular engine gasket | Cat Parts Store related-parts listing for 20R-9124 | cat_linked_candidate; needs_individual_verification
+355-8509 | Connecting-rod bearing | Cat Parts Store related-parts listing for 20R-9480 | cat_linked_candidate; needs_individual_verification
+20R-9427 | Cat Reman 3512E UTN cylinder head | Cat Parts Store related-parts listing for 20R-9480 | cat_linked_candidate; needs_individual_verification
+167-4407 | 3.53 × 69.44 mm EPDM O-ring | Cat Parts Store related-parts listing for 20R-9480 | cat_linked_candidate; needs_individual_verification
+275-2604 | Advanced-efficiency engine oil filter | Cat Parts Store related-parts listing for 20R-9480 | cat_linked_candidate; needs_individual_verification
+
+Source pages:
+- https://parts.cat.com/en/catcorp/product/20R-8981
+- https://parts.cat.com/en/catcorp/product/20R-9045
+- https://parts.cat.com/en/catcorp/product/20R-9124
+- https://parts.cat.com/en/catcorp/product/20R-9480
