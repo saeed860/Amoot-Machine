@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   audit:
@@ -24,6 +24,16 @@ jobs:
       - run: npx playwright install --with-deps chromium
       - name: Audit public Off Road detail pages (no login or gated endpoints)
         run: node scripts/offroad-public-detail-audit.mjs
+      - name: Apply verified Off Road descriptions, weights and OEM-list pricing
+        run: node scripts/apply-offroad-public-detail-audit.mjs
+      - name: Commit catalog and internal price audit updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add offroad-catalog.js search.js docs/internal-offroad-price-audit.md
+          if git diff --cached --quiet; then echo "No catalog changes"; exit 0; fi
+          git commit -m "catalog: apply verified Off Road OEM reference pricing"
+          git push
       - uses: actions/upload-artifact@v4
         if: always()
         with:
