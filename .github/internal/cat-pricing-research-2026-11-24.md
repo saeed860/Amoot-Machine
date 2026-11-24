@@ -3020,3 +3020,38 @@ Additional Cat-linked discovery candidates:
 119-9443, 125-1372, 133-1774, 135-2651, 144-5692, 153-8455, 179-2960, 198-6067, 272-0757, 272-0758, 2J-0157, 2W-0752, 3J-7354, 420-0652, 420-0653, 591-7736, 5P-0840, 5P-6718, 5P-7204, 6V-5101, 6V-9769, 7E-3772, 7E-4127, 7N-5089, 033-6031, 105-8901, 109-2332, 109-3203, 111-1349, 111-3820, 116-1365, 121-4345, 121-5736, 122-8856, 136-7227, 153-1810, 166-2903, 180-8424, 1R-0726, 204-9598, 214-7568, 216-7485, 227-4147, 228-7097, 230-1072, 237-7623, 238-5082, 238-6646, 247-7133, 250-2343, 259-4598, 259-4600, 593-2028, 566-5491, 566-5490, 566-5489, 598-0497, 316-6138, 274-5696, 1P-3704, 1P-3705, 304-1916, 110-6326, 110-6331, 377-6969, 265-6619. Kit components and related products are discovery leads only, not universal fitment/interchange claims.
 
 Overall reviewed progress: 68/500 batches = 680/5,000 product target (13.6%). Original Cat seed list has 107 SKUs remaining (products 681–787).
+
+## Batch 69/500 — products 681–690 (2026-11-25)
+
+SKUs: 5N-2618, 5N-9021, 5N-9022, 5P-5422, 5P-7665, 5T-5045, 600-3535, 601-8313, 602-0406, 603-1668. Nine pages provided usable item-level evidence; 601-8313 returned an access/internal error and was left unchanged. All ten DB rows were re-queried.
+
+Verified updates:
+- 5N-2618: Cat Auxiliary Sea Water Pump Impeller. Added 27 distinct labels across generator-set engines 3508/D379B/3412/3408/3512, SR4 generator, 3400/3500 marine and marine auxiliary engines, industrial engines D379/D398/D399 and petroleum engines 3512/3512B. Specs 7.5in length ×2.2in height, Alloy Copper.
+- 5N-9021: Cat 32-Vane Auxiliary Sea Water Pump Bronze Impeller. Added 12 distinct labels across SR4 generator, 3512/3516 gen-set engines, 3516B/3508B/3512B generator sets and 3500-family marine/marine auxiliary/industrial/petroleum engines. Specs 11.5in length ×3.4in height, Alloy Copper, 32 vanes.
+- 5N-9022: Cat Auxiliary Sea Water Pump Port Plate. Added the same 12 Cat model labels as 5N-9021. Material Nickel Aluminum Bronze, Bronze, Alloy Aluminum and Alloy Copper. Cat describes the port plate as directing seawater into the auxiliary pump for marine-engine cooling.
+- 5P-5422: Cat Hex Head Track Bolt, 1in thread size, 14mm pitch, 92.48mm (3.641in) long. Added 24 distinct labels across D10 track tractors, articulated/ejector trucks, ripper, bulldozers and winches. Specs 2.46in grip, RH, Carbon Steel, Cat/ASTM F2882 170 Ksi. Cat's numeric thread-size field is malformed (0.039); 1in/14mm comes from product title.
+- 5P-7665: Cat Hex Head Track Bolt, 0.750in thread size, 16mm pitch, 63.5mm (2.5in) long. Added 37 distinct labels across D7/D8 tractors, generator set 3508B, ripper, pipelayers, water-fording tractor, bulldozers and winches. Specs 1.563in grip, RH, Carbon Steel/Alloy Zinc, Cat/ASTM F2882 170 Ksi. Cat's numeric thread-size field is malformed (0.03); 0.750in/16mm comes from product title.
+- 5T-5045: Cat Lubrication Injector. Added 76 distinct model labels across underground articulated trucks, wheel tractors/scrapers, mining excavators, haul/quarry/off-highway trucks, LHD machines, tractors, graders, wheel loaders and electric rope shovels. Specs 7.06in length ×2in height ×2in width, 1.18in OD, 1/8-27 NPT fitting, Steel/Carbon Steel/Alloy Mixed Metal.
+- 600-3535: Cat Basic Water Pump for certain C15/C18 engines. Added 41 distinct model labels across SR4B/XQP550 generators, C18/C15 gen sets, wheel tractors/scrapers, TR43-C18L power module, 825 compactors, R2900 XE LHD, articulated/ejector trucks, 824 wheel dozers, 826 landfill compactors, D8/D9 tractors, MD6200 drill, PL83/PL87 pipelayers, C15/C18 industrial/petroleum engines and CX35/CX31 petroleum packages. Cat compares alternate 20R-9849 Cat Reman Water Pump; confirm serial-number applicability.
+- 601-8313: Cat product page inaccessible; no changes.
+- 602-0406: Cat D11R/D11T/D11 track sprocket segment. Specs eight bolts, six teeth, 12.5in pitch, 23.166in pitch-circle diameter, 23.425in tip radius, 2.264in bushing radius, 5.118in tooth width, 18.268in bolt circle, 0.079in backlash, 40° pocket angle, 1-1/8in bolt thread, offset heavy-duty segment, Alloy/Tough Steel.
+- 603-1668: Cat Basic Water Pump for certain C15/C18 engines. Added 49 distinct labels across SR4/SR4B generators, AD45 underground truck, C15/C18 gen sets, 631K/637K wheel tractors, C15 truck/petroleum/industrial engines, RM500B mixer/reclaimer, BS3GII track loader, 740/740B trucks, 773GC off-highway truck, D9/D9T tractors, 385C family excavators, TH48-E80 petroleum package and mobile hydraulic power units. Cat compares alternate 20R-9847 Cat Reman Water Pump; confirm serial-number applicability.
+
+Cat pages:
+- https://parts.cat.com/en/catcorp/product/5N-2618
+- https://parts.cat.com/en/catcorp/product/5N-9021
+- https://parts.cat.com/en/catcorp/product/5N-9022
+- https://parts.cat.com/en/catcorp/product/5P-5422
+- https://parts.cat.com/en/catcorp/product/5P-7665
+- https://parts.cat.com/en/catcorp/product/5T-5045
+- https://parts.cat.com/en/catcorp/product/600-3535
+- https://parts.cat.com/en/catcorp/product/601-8313
+- https://parts.cat.com/en/catcorp/product/602-0406
+- https://parts.cat.com/en/catcorp/product/603-1668
+
+Post-update verification returned all ten rows. Distinct fitment counts: 5N-2618=27; 5N-9021=12; 5N-9022=12; 5P-5422=24; 5P-7665=37; 5T-5045=76; 600-3535=41; 601-8313=0 (unchanged); 602-0406=3; 603-1668=49. No prices/current stock inferred.
+
+Additional Cat-linked discovery candidates:
+5N-6055, 5N-2902, 3N-8463, 3N-8462, 4M-6107, 5N-9006, 5N-9013, 5N-9017, 3K-0360, 2R-0098, 2S-4078, 8D-4771, 3J-1907, 5P-8500, 1P-3705, 6V-9746, 20R-9849, 20R-9847, 602-0405. These are pump components, seals, bolt-associated items and Cat Reman alternatives only; no universal interchange claims inferred.
+
+Overall reviewed progress: 69/500 batches = 690/5,000 product target (13.8%). Original Cat seed list has 97 SKUs remaining (products 691–787).
