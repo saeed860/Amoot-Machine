@@ -1027,3 +1027,35 @@ Official Cat sources checked:
 - https://parts.cat.com/en/catcorp/product/20R-3321
 
 Database checkpoint: all 10 rows updated and verified. Four exact official images newly linked (20R-2734, 20R-2861, 20R-3163, 20R-3317); existing exact images retained for 20R-2647, 20R-3319, 20R-3320 and 20R-3321. Low-resolution lifter images omitted. Overall manual progress: 29/50 batches, 290/500 SKUs.
+
+
+## Batch 30/50 — SKUs 291–300 (20R-3322 through 20R-3623)
+
+All ten official Cat pages were reviewed; all ten Supabase rows were updated and query-verified.
+
+| SKU | Official identity / captured detail | Image / fitment treatment |
+|---|---|---|
+| 20R-3322 | Cat Reman Unit Injector Rocker Arm; official fitment includes SR4/XQP500, AD30, 3406E/C15/C16/C18, PM3456, R2900/R3000H, D8/D9, 6015/6018, 385C/5090B, 623/637/657, 825H, 834/824, 826/836, 986/988 and many more | Only 80px images; omitted; 141 model identifiers stored |
+| 20R-3323 | Cat Reman C15 Unit Injector Rocker Arm; core cleaning/inspection and same-as-new 12-month warranty; Cat publishes no separate compatible-model list | Only 80px images; omitted; C15 retained as engine designation only |
+| 20R-3324 | Cat Reman C15 Valve Rocker Arm; Compatible Models explicitly lists Truck Engine C15 | Existing exact official image retained |
+| 20R-3440 | Cat 3508 Reman Bare Block; cleaned/inspected, deck resurfaced, standard crankshaft bores and new main-cap bolts; U.S. core return/destruction requirement; 3508, 3508B/C, G3508, D11N/R, 854G, 992G, 5130/5130B, 777 variants and more | Exact official Scene7 bare-block image newly linked; 29 model identifiers stored; remains active—Cat page does not state discontinued |
+| 20R-3441 | Cat 3512 Reman Bare Block (Service, 12-cylinder); U.S. core return/destruction requirement; 3512/3512B/C/E, G3512, XQC1200/PM3512, MD6540C, 785/797 trucks, 784C and more | Exact official Scene7 bare-block image newly linked; 35 model identifiers stored; remains active |
+| 20R-3442 | Cat 3516 Reman Bare Block; recommended 3516; compatible Power Module 3516B/3516C and Gas Engine G3516B; U.S. core return/destruction requirement | Exact official Scene7 bare-block image newly linked; remains active |
+| 20R-3543 | Cat Reman D3500B Cylinder Head (Shot-Peened); core disassembly/inspection, deck resurfacing, engineering updates and original-spec testing; 3512B/3516B | Existing exact official image retained |
+| 20R-3545 | Cat Reman D3500C Cylinder Head (Nitrided Seats); same reman inspection/process; 3512B/3512C/3516B/3516C | Existing exact official image retained |
+| 20R-3549 | Cat Reman G3500 Cylinder Head (3-Angle); 11.55 × 16.55 × 10.1 in, 106.9 lb; G3516B/G3516/G3512/G3512B | Existing exact official image retained |
+| 20R-3623 | Cat Reman Turbocharger; Cat describes center-housing seal-integrity testing and dynamic balancing; no compatible-model list or structured specifications published | Only 80px image; omitted; no fitment inferred |
+
+Official Cat sources checked:
+- https://parts.cat.com/en/catcorp/product/20R-3322
+- https://parts.cat.com/en/catcorp/product/20R-3323
+- https://parts.cat.com/en/catcorp/product/20R-3324
+- https://parts.cat.com/en/catcorp/product/20R-3440
+- https://parts.cat.com/en/catcorp/product/20R-3441
+- https://parts.cat.com/en/catcorp/product/20R-3442
+- https://parts.cat.com/en/catcorp/product/20R-3543
+- https://parts.cat.com/en/catcorp/product/20R-3545
+- https://parts.cat.com/en/catcorp/product/20R-3549
+- https://parts.cat.com/en/catcorp/product/20R-3623
+
+Database checkpoint: all 10 rows updated and verified. Three exact official images newly linked (20R-3440, 20R-3441, 20R-3442); existing exact images retained for 20R-3324, 20R-3543, 20R-3545 and 20R-3549. Low-resolution images omitted. Important correction: 20R-3440/3441/3442 remain active; Cat's “Replaced” key label is not a discontinuation notice. Overall manual progress: 30/50 batches, 300/500 SKUs.
