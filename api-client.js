@@ -259,6 +259,10 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["2525165","TURBO GP-B",3171.01,5232.17,"۴۴ New Aftermarket"],
+ ["2527086","MOUNTING AS-",6611.33,10908.69,"۳ New Aftermarket"],
+ ["2531752","PLATE-THRU",51.40,84.81,"۲۱۸ New Aftermarket"],
+ ["2543025","LINK AS-BR",5827.84,9615.94,"۵ New Aftermarket؛ ۱ Used"],
  ["2507700","TURBO GP-B",4293.96,7085.03,"۲۸ New Aftermarket"],
  ["2512557","PIN",1605.88,2649.70,"۱۴ New Genuine Surplus؛ ۳۲ New Aftermarket؛ ۲ Used"],
  ["2512652","LINK AS-BR",7430.08,12259.63,"۱۵ New Aftermarket"],
