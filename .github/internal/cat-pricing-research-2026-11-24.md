@@ -2641,3 +2641,38 @@ Additional Cat-linked discovery candidates:
 30R-0355, 3K-0360, 9M-5894, 309-7679, 8D-4771, 10R-4134, 20R-2528, 436-1914, 436-1105, 436-1108, 436-1106, 436-1107, 033-6031, 101-1198, 109-7411, 111-4374, 114-5477, 116-1365, 122-8856, 127-5400, 136-7227, 153-9963, 154-6389, 175-6618, 1J-9671, 1R-0726, 1R-0756, 214-7568, 219-3240, 235-3546, 238-5080, 238-5081, 248-5513, 271-4926, 2W-1635, 2W-1969, 355-0776, 3S-9643, 423-9461, 426-0447, 435-3163, 457-6112, 4W-0530, 3J-1907, 3B-8489, 114-3361, 228-7089, 030-0167, 434-3378, 1R-1808, 1R-0755, 3J-7354, 348-8779, 230-2520, 423-4277, 223-6361, 7N-2046. Candidate BOM/related/alternate leads only; not proof of fitment or interchangeability.
 
 Overall reviewed progress: 57/500 batches = 570/5,000 product target (11.4%). Original Cat seed list has 217 SKUs remaining (products 571–787).
+
+## Batch 58/500 — products 571–580 (2026-11-25)
+
+SKUs: 453-2315, 456-0027, 457-5312, 457-9635, 458-7790, 458-9582, 460-0310, 460-8213, 464-9911, 467-5333. All ten Cat item pages were retrieved; item-level model/spec/kit sections inspected. All ten rows were re-queried and compatible-model arrays deduplicated.
+
+Verified updates:
+- 453-2315: Cat Oil Cooler and Lines Gasket Kit, Marine Bundled Repair Solution for C18 overhaul. Cat fitment: Generator SR4, Gen Set Engine POWER SYS, Generator Set C18, Marine Engine C18. Recorded all 19 displayed kit components and quantities: 109-0077 ×2; 125-0434 ×1; 126-4935 ×1; 167-4407 ×1; 214-7566 ×2; 214-7568 ×4; 238-5084 ×6; 2P-3760 ×2; 2P-4305 ×4; 3D-2824 ×4; 3J-1907 ×2; 3J-7354 ×1; 3K-0360 ×1; 5K-9090 ×1; 6V-3908 ×3; 7M-8485 ×1; 8C-3445 ×1; 8C-5230 ×4; 8L-2786 ×1. Cat says specifications are still being added.
+- 456-0027: Cat Fuel Injection Pump Line. Confirmed Pumper SPF743, Engine 3512E and Petroleum Engine 3512E. Material Carbon Steel. Cat parts diagram shows related lines 456-0025/456-0026/456-0024/456-0028 and 167-4407; these are candidates only.
+- 457-5312: Cat Fuel Pump Injector. Confirmed Marine Engine 3516E/3512E, Engine 3512E/3516E, Industrial Engine 3512E and Locomotive Engine 3512E. Weight 6.76lb. Cat Reman alternatives 11R-1956 NWC and 30R-0250; Cat page also shows commonly purchased 1R-0756/1R-0726/3S-9643/7N-4927/245-4907.
+- 457-9635: Cat Track Roller Group, 466mm OD/422mm hub width. Cat explicitly marks it discontinued; corrected is_active=false. Confirmed Shovel 6040 and Hydraulic Shovel 6060/6030/6040. Specs 5.472in width, 9.849in mounting-bolt traverse spacing, adhesive, HD undercarriage, carrier-roller compatible, 7.092in bushing/bore ID, 18.346in OD, 14.803in hub diameter, 24.472in axial spacing, 16.614in hub width. Dealer must confirm any replacement.
+- 458-7790: Cat Track Group for D9T/D9/D9R/D9 GC. 5-tooth master, single grouser, 43 sections, PPR, SALT, ES shoe, 610mm shoe width, 240mm pitch, 4.528in sprocket inside spread, 9.449in pitch, GD undercarriage, 1in track/master bolt, GLT grease-track type, 3.346in bushing ID, no RBT/ARM/clipping/wear sensor.
+- 458-9582: Cat standard-performance primer-yellow, 12oz (340g) aerosol can, yellow, Carbon Steel. No compatible-model list published.
+- 460-0310: Cat Advanced High Efficiency Fuel Water Separator, spin-on. Added 30 distinct Cat model labels across D6K2/D6N tractors, C13 MARINE/MG630, C4.4, soil/vibratory compactors, backhoe loaders, compact wheel loaders and wheel loaders. Specs 4.252in diameter ×6.181in length, Corrosion Preventative Fluid, Advanced High Efficiency, Spin-On. Cat describes acrylic beads, spiral roving, nylon center tube and molded end caps.
+- 460-8213: Cat Common Rail Fuel Injector for C9/C9.3. Added ten labels: SR4B, C9.3 generator set/marine engine, PL72 pipelayer, PM312/PM313/PM310 cold planers, 972M/972L/966L/966M wheel loaders. Material Fuel Fluid. Cat alternative: 20R-5077 Cat Reman Common Rail Fuel Injector (CR350/C9).
+- 464-9911: Cat 619mm (24in) heavy-duty mini-excavator bucket, 130L (4.6ft³), 45mm (1.8in) pin-on interface. Confirmed 306/305 CR/305E2/305.5E2. Specs 24.4in width, 233.7lb, 0.8in base edge, 30.9in tip radius. Cat page describes use in abrasive mixed dirt, clay and rock.
+- 467-5333: Cat Cylinder Head Installation Kit. Confirmed eight labels: Challenger MT865/MTC865; Truck Engine C-18; Industrial Engine C18/C15; Cold Planers PM620/PM622; Hydraulic Shovel 6018 FS. Cat explicitly says no parts are currently associated with this kit; no BOM inferred.
+
+Cat pages:
+- https://parts.cat.com/en/catcorp/product/453-2315
+- https://parts.cat.com/en/catcorp/product/456-0027
+- https://parts.cat.com/en/catcorp/product/457-5312
+- https://parts.cat.com/en/catcorp/product/457-9635
+- https://parts.cat.com/en/catcorp/product/458-7790
+- https://parts.cat.com/en/catcorp/product/458-9582
+- https://parts.cat.com/en/catcorp/product/460-0310
+- https://parts.cat.com/en/catcorp/product/460-8213
+- https://parts.cat.com/en/catcorp/product/464-9911
+- https://parts.cat.com/en/catcorp/product/467-5333
+
+Post-update verification returned all ten SKUs. Distinct fitment counts: 453-2315=3; 456-0027=2; 457-5312=2; 457-9635=3 (inactive); 458-7790=4; 458-9582=0; 460-0310=30; 460-8213=10; 464-9911=4; 467-5333=8. No customer prices or current stock inferred.
+
+Additional Cat-linked discovery candidates:
+109-0077, 125-0434, 126-4935, 167-4407, 214-7566, 214-7568, 238-5084, 2P-3760, 2P-4305, 3D-2824, 3J-1907, 3J-7354, 3K-0360, 5K-9090, 6V-3908, 7M-8485, 8C-3445, 8C-5230, 8L-2786, 248-5513, 144-6142, 261-3450, 456-0025, 456-0026, 456-0024, 456-0028, 167-4407, 11R-1956, 30R-0250, 1R-0756, 1R-0726, 3S-9643, 7N-4927, 245-4907, 4J-0527, 477-7938, 1P-3705, 590-0196, 3K-0360, 3J-1907, 6V-9746, 3D-2824, 1R-1804, 7W-2326, 528-0585, 346-6688, 471-7003, 20R-5077, 260-0113, 557-9567, 388-0546, 274-1639, 282-2785. These are kit components, alternatives or related items; none is automatically a fitment/interchange claim.
+
+Overall reviewed progress: 58/500 batches = 580/5,000 product target (11.6%). Original Cat seed list has 207 SKUs remaining (products 581–787).
