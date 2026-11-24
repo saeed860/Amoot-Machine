@@ -1436,3 +1436,35 @@ Official Cat pages checked:
 - https://parts.cat.com/en/catcorp/product/184-4396
 
 Database checkpoint: all 10 rows queried; 163-9366 and 165-6170 updated and re-queried successfully. Exact official images retained for eight products; no unverified image assigned for 169-8373 or 177-9343. Overall reviewed progress: 23/500 batches, 230/5,000 products.
+
+
+## Batch 24/500 — SKUs 231–240 (184-6305 through 1M-9011)
+
+All ten official Cat Parts Store pages were reviewed and all ten Supabase rows queried. Official compatibility and dimensional data matched the existing catalog entries. The official image for 193-1468 was opened at 960×960, visually matched to the auxiliary water-pump installation kit, then saved to the database and re-queried. No fallback image was assigned to 1L-5011.
+
+| SKU | Official identity / verified detail | Image treatment |
+|---|---|---|
+| 184-6305 | Cat single-flange track roller group; standard HD application; 287 mm tread diameter, 488.16 mm mounting width, 25.276 in shaft length, 16.063 in link outside spread, 5.697 in inside spread, 5.365 in shaft OD, 12.638 in outer flange diameter; carrier-roller compatible; D11N/D11R/D11T/D11 XE/D11 | Exact Cat image retained |
+| 184-6306 | Cat double-flange track roller group; standard HD application; 277 mm tread diameter, 488.16 mm mounting width, 25.276 in shaft length, 13.56 in link outside spread, 5.365 in shaft OD, 12.638 in outer flange diameter; not carrier-roller compatible; D11 family | Exact Cat image retained |
+| 185-3630 | Cat filter strap wrench assembly for tightening/loosening spin-on oil and fuel filters; no dimensions or machine fitment published | Exact Cat image retained |
+| 186-2002 | Cat 101.6 mm ID air-line hump hose; material listed as Other Hose; broad fitment across AD45, scraper/tractor, 3508B genset, R1700, 770/772/773/775/777 trucks, D8/D9/D10/D11 tractors and pipelayers | Exact Cat image retained |
+| 187-3298 | Cat hardened-steel undercarriage roller guide; D11N/D11R/D11T/D11 XE/D11 | Exact Cat image retained |
+| 189-3032 | Cat rear-position wear strip, left/right sides; structural steel, HDXL undercarriage; D6R/D6T variants and PL72 pipelayer | Exact Cat image retained |
+| 193-1468 | Cat auxiliary water-pump installation kit; 12 component types including O-rings, water-pump seal, water-lines gasket, retaining rings, flange gasket and lip seal; existing DB kit contents retained | Exact 960×960 Cat image verified and added to DB |
+| 1L-5011 | Cat Valve; official page publishes no functional description or structured specifications; existing DB retains model applications, but valve type/function remain unverified | Fallback image only; omitted |
+| 1M-8747 | Cat Class C Duo-Cone seal; 96.38 mm assembled OD, 72.81 mm seal-ring ID, 32 mm axial width; broad track-loader, D5–D8 tractor, Challenger, paver, ripper and pipelayer fitment | Exact Cat image retained |
+| 1M-9011 | Cat 224.90 mm ID toric sealing ring; 12.7 mm (0.5 in) cross-section; NBR 60; -40 to 212 °F; compatible with petroleum and alpha-olefin lubricants, ethylene glycol, silicone oils/greases and water-based coolants; not compatible with brake fluids, high ozone, ketones, phosphate esters or UV exposure | Exact Cat image retained |
+
+Official Cat pages checked:
+- https://parts.cat.com/en/catcorp/product/184-6305
+- https://parts.cat.com/en/catcorp/product/184-6306
+- https://parts.cat.com/en/catcorp/product/185-3630
+- https://parts.cat.com/en/catcorp/product/186-2002
+- https://parts.cat.com/en/catcorp/product/187-3298
+- https://parts.cat.com/en/catcorp/product/189-3032
+- https://parts.cat.com/en/catcorp/product/193-1468
+- https://parts.cat.com/en/catcorp/product/1L-5011
+- https://parts.cat.com/en/catcorp/product/1M-8747
+- https://parts.cat.com/en/catcorp/product/1M-9011
+
+Database checkpoint: all ten rows queried and verified; 193-1468 image updated and re-queried. Exact official images retained for nine products; fallback-only 1L-5011 image omitted. Overall reviewed progress: 24/500 batches, 240/5,000 products.
