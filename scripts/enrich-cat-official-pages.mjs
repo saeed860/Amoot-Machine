@@ -102,7 +102,7 @@ function updateSql(row) {
 
 async function worker() {
   const page = await browser.newPage({ viewport: { width: 1365, height: 1000 } });
-  page.setDefaultNavigationTimeout(18000);
+  page.setDefaultNavigationTimeout(30000);
   while (true) {
     const i = cursor++;
     if (i >= partNumbers.length) break;
@@ -111,13 +111,28 @@ async function worker() {
     const url = "https://parts.cat.com/en/catcorp/product/" + encodeURIComponent(sku);
     let row = { sku, url, status: "ERROR", title: "", description: "", specifications: {}, compatibleModels: [], engineModels: [], imageUrl: null, error: null };
     try {
-      let response = await page.goto(url, { waitUntil: "domcontentloaded", timeout: 18000 });
-      if (!response || response.status() >= 500) {
-        await page.waitForTimeout(500);
-        response = await page.goto(url, { waitUntil: "domcontentloaded", timeout: 18000 });
+      // Do not wait for DOMContentLoaded: Cat's storefront can keep long-running
+      // requests open and previously caused every page navigation to time out.
+      let response = null;
+      let lastError = null;
+      for (let attempt = 1; attempt <= 3; attempt++) {
+        try {
+          response = await page.goto(url, { waitUntil: "commit", timeout: 30000 });
+          if (response && response.status() >= 500 && attempt < 3) {
+            await page.waitForTimeout(800 * attempt);
+            continue;
+          }
+          break;
+        } catch (e) {
+          lastError = e;
+          if (attempt < 3) await page.waitForTimeout(1000 * attempt);
+        }
       }
+      if (!response && lastError) throw lastError;
       row.httpStatus = response?.status() ?? null;
-      await page.waitForTimeout(250);
+      await page.locator("body").waitFor({ state: "attached", timeout: 10000 });
+      // Allow the client-rendered product metadata to hydrate after the initial response.
+      await page.waitForTimeout(1800);
       row.title = await page.title();
       const body = await page.locator("body").innerText({ timeout: 10000 });
       const html = await page.content();
