@@ -647,3 +647,12 @@
 | CAT-8H-7202 | Pete Truck Parts | Case assembly listing | 88.91 | 146.70 | ۲ عدد در زمان مشاهده | https://petetruckparts.com/product/case-as-fuel-filter-8h7202/ |
 
 ضریب قیمت آموت ۱٫۶۵ است. قیمت‌های با موجودی محدود یا نیازمند استعلام، موجودی قطعی آموت محسوب نمی‌شوند.
+
+
+## قیمت تکمیلی محصول فعال — بررسی فروشنده، ۲۴ نوامبر ۲۰۲۶ (بخش پنجم)
+
+| SKU | فروشنده | نوع / مبنای قیمت | قیمت منبع USD | قیمت آموت USD | وضعیت | منبع داخلی |
+|---|---|---|---:|---:|---|---|
+| CAT-6N-6071 | FinditParts | Caterpillar | 90.49 | 149.31 | موجود در زمان مشاهده | https://www.finditparts.com/t/190/manufacturer/caterpillar/categories/air-and-fuel-delivery/filters/engine-air-filter/ |
+
+قیمت آموت با ضریب ۱٫۶۵ محاسبه شده است.
