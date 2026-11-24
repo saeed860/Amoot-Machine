@@ -83,7 +83,7 @@
 | 2602160 | MONITOR GP | 3,277.02 | 5,407.08 | ۴ New Aftermarket | https://offroadeq.com/parts/2602160 |
 | 2602289 | LINK AS-BR | 3,483.97 | 5,748.55 | ۳۱ New Aftermarket | https://offroadeq.com/parts/2602289 |
 | 2606642 | SPINDLE | 5,730.57 | 9,455.44 | ۴ New Aftermarket | https://offroadeq.com/parts/2606642 |
-| 2606650 | DRIVE GP-F | 30,180.50 | 49,797.82 | ۲ New Aftermarket؛ ۵ Rebuilt | https://offroadeq.com/parts/2606650 |
+| 2606650 | DRIVE GP-F | 30,180.50 | 49,797.83 | ۲ New Aftermarket؛ ۵ Rebuilt | https://offroadeq.com/parts/2606650 |
 | 2606655 | DRIVE GP-F | 29,770.37 | 49,121.11 | ۳ New Aftermarket؛ ۱ Rebuilt | https://offroadeq.com/parts/2606655 |
 | 2525165 | TURBO GP-B | 3,171.01 | 5,232.17 | ۴۴ New Aftermarket | https://offroadeq.com/parts/2525165 |
 | 2527086 | MOUNTING AS- | 6,611.33 | 10,908.69 | ۳ New Aftermarket | https://offroadeq.com/parts/2527086 |
