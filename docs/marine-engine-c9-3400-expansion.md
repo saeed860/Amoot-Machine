@@ -40,6 +40,27 @@ Useful marine-system candidates surfaced in the public list:
 
 The Logan page lists many additional C9 components. Do not promote every listed row to marine fitment without exact Cat compatible-model or serial-specific evidence.
 
+## Additional exact C9 OEM cross-checks (24 Nov 2026)
+
+The following Logan Marine C9-list candidates were checked against exact Cat Parts Store pages:
+
+| Part number | Cat Parts Store result | Application / handling |
+|---|---|---|
+| **149-3239** | Fuel cooler hose; compatible models include C9 under MARINE ENGINE and C9 under GENERATOR SET | **BOTH** at published model-class level |
+| **315-8339** | Aftercooler core; compatible models include C9 under MARINE ENGINE, GENERATOR SET and PETROLEUM ENGINE | **BOTH** at published model-class level |
+| **113-1110** | Auxiliary seawater-pump cam; compatible models include C9 under MARINE ENGINE and GENERATOR SET, plus other marine/industrial models | **BOTH** at published model-class level; explicit seawater-pump function |
+| **170-6116** | Auxiliary pump group; Cat lists C9 under MARINE ENGINE and GENERATOR SET, but marks the part **DISCONTINUED** | Historical **BOTH** model-class evidence only; do not offer as current new stock or price without verified replacement |
+ 
+Official Cat pages:
+- https://parts.cat.com/en/catcorp/product/149-3239
+- https://parts.cat.com/en/catcorp/product/315-8339
+- https://parts.cat.com/en/catcorp/product/113-1110
+- https://parts.cat.com/en/catcorp/product/170-6116
+
+The exact Cat pages confirm model-class evidence. The Logan Marine list separately places 149-3239 in Fuel System, 315-8339 in Air/Exhaust & Turbocharger, and 113-1110 / 170-6116 in Pumps. The public Logan list is a third-party discovery source; it does not establish the precise serial-specific assembly or current supplier stock. For 170-6116, Cat's discontinued status overrides any assumption of current availability.
+
+**Not confirmed in this pass:** 258-0794, 197-5987, 242-5336, 245-3777. They remain third-party candidates until an exact Cat page and serial-specific diagram establish the required fitment.
+
 ## C9 — exact Cat Parts Store checks
 
 | Part number | Cat Parts Store finding | Model-class handling |
