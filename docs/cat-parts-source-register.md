@@ -3,9 +3,9 @@
 Last reviewed: 2026-11-24
 
 
-| [Off Road Equipment](https://offroadeq.com/) | Supplier lead and public popular-parts index (500 part numbers); detail pages expose OEM list-price benchmarks and inventory-condition labels | Actual unit prices are hidden behind login. Do not treat OEM list price as supplier sale price or calculate the 65% margin from it. Use authorized supplier quotations/exports; record condition, currency, quantity and timestamp separately. |
+| [Off Road Equipment](https://offroadeq.com/) | Public popular-parts index (500 part numbers), exact detail pages, OEM List Price benchmark, displayed condition and supplier-reported quantities | Owner-approved fallback: when the actual Off Road unit price is hidden behind login, use the displayed valid OEM List Price × 1.65 as a provisional Amoot USD reference price. Keep it explicitly classified as OEM-list-based, never as supplier acquisition cost. If a supplier unit price is legitimately visible or supplied by quote/export, prefer it and calculate separately by condition. |
 
-See [Off Road Equipment pricing-source assessment](offroadeq-pricing-source.md) and [price-import template](../offroadeq-price-import-template.csv). Tested public overlap: 116-1980. Public page showed OEM List Price USD 2,024.61 but hid actual unit prices for New Aftermarket, Call For Pricing and Used inventory. No price or stock was imported.
+See [Off Road Equipment pricing-source assessment](offroadeq-pricing-source.md) and [price-import template](../offroadeq-price-import-template.csv). Public page 116-1980 showed OEM List Price USD 2,024.61 and hid actual New Aftermarket / Used unit prices. Under the owner's later approved fallback, the OEM benchmark may be multiplied by 1.65 and stored as a provisional reference, with source type preserved.
 
 
 ## Source roles
@@ -25,7 +25,7 @@ See [Off Road Equipment pricing-source assessment](offroadeq-pricing-source.md) 
 
 ## Off Road Equipment pricing-source assessment (24 Nov 2026)
 
-See the dedicated [pricing-source assessment](offroadeq-pricing-source.md). The public 1161980 detail page reports OEM List Price USD 2,024.61, while supplier unit prices are login-gated. This value is not the supplier price and must not be marked up by 65% as though it were. No live prices or inventory were changed.
+See the dedicated [pricing-source assessment](offroadeq-pricing-source.md). The public 1161980 detail page reports OEM List Price USD 2,024.61 while supplier unit prices are login-gated. Per the owner's approved fallback, OEM List Price × 1.65 may be used as a provisional Amoot USD reference, but must not be described as Off Road's supplier unit price.
 
 ## BinUnlock library assessment (24 Nov 2026)
 
