@@ -72,3 +72,40 @@ These pages strengthen the published C15 marine model-class evidence. They do no
 4. Use C18/C15 marine engine serial + Arrangement in Cat Parts Store/SIS before associating any component with an order.
 5. Next extraction should target C18 marine parts diagrams by system (fuel, lubrication, jacket-water/sea-water cooling, air/exhaust, electrical/controls), then C15 once its parts-diagram route responds. Record exact diagram/group, serial scope, part number and quantity separately from Cat model-class evidence.
 6. Do not add prices, stock or sellable SKUs from these reference pages.
+
+
+## C18 marine diagram and seawater-cooling parts — public Cat Parts Store pass (24 Nov 2026)
+
+The official C18 Marine Engine parts-diagram route is publicly reachable and exposes system navigation (including Air Inlet and Exhaust System and Basic Engine). The page requests the engine serial number for exact diagrams:
+- https://parts.cat.com/en/catcorp/equipment/marine-engine/C18-47/parts-diagram
+- Serial-specific diagram guidance: https://parts.cat.com/en/catcorp/parts-diagram
+
+Exact Cat product pages/search-index records reviewed in this pass:
+
+| Part number | Cat description | Published compatible-model evidence | Application tag | Evidence note |
+|---|---|---|---|---|
+| **495-3931** | Sea Water Heat Exchanger | Generator Set C18; Marine Engine C18; Petroleum Package C18 | **BOTH** | Official page explicitly describes a seawater heat exchanger |
+| **495-3930** | Heat Exchanger Frame | Generator Set C18; Marine Engine C18; Petroleum Package C18 | **BOTH** | Official description says it supports seawater heat exchange |
+| **342-1616** | Auxiliary Sea Water Pump Impeller Kit | Marine Engine C18 | **MARINE** | Official application text explicitly describes seawater circulation through engine cooling |
+| **364-8252** | Heat Exchanger Housing | Generator Set C18/C18 Marine GS; Marine Engine C18/C18 Marine; Petroleum Package C18 | **BOTH** | Official description identifies an aluminum seawater heat-exchanger housing |
+| **364-8247** | Heat Exchanger Housing | Generator Set C18/C18 Marine GS; Marine Engine C18/C18 Marine; Petroleum Package C18 | **BOTH** | Official description identifies an aluminum seawater heat-exchanger housing |
+| **586-1378** | Heat Exchanger Bonnet | Generator Set C18/C18 Marine GS; Marine Engine C18/C18 Marine | **BOTH** | Official description identifies seawater inlet/outlet bonnet; mentions C18 engine and generator applications |
+| **586-1377** | Heat Exchanger Bonnet | Generator Set C18/C18 Marine GS; Marine Engine C18/C18 Marine | **BOTH** | Official description identifies seawater heat-exchanger bonnet |
+| **202-7531** | Heat Exchanger Channel Plate | Generator Set C18; Marine Engine C18 and C32; Petroleum Package C18 | **BOTH** | Official description says seawater cools engine jacket water; model list includes C18/C32 Marine Engine |
+
+Official product pages:
+- https://parts.cat.com/en/catcorp/product/495-3931
+- https://parts.cat.com/en/catcorp/product/495-3930
+- https://parts.cat.com/en/catcorp/product/342-1616
+- https://parts.cat.com/en/catcorp/product/364-8252
+- https://parts.cat.com/en/catcorp/product/364-8247
+- https://parts.cat.com/en/catcorp/product/586-1378
+- https://parts.cat.com/en/catcorp/product/586-1377
+- https://parts.cat.com/en/catcorp/product/202-7531
+
+The official Cat Sea Water Pumps category also exposes a public list of 33 items and includes descriptions naming C18 among certain pump/reman listings, but category cards alone are not sufficient to assign exact C18 fitment. Those items are discovery leads only until their exact product pages and compatible-model lists are checked:
+- https://parts.cat.com/en/catcorp/category/water-pumps-components-sea-water-pumps
+
+**Price status:** the retrieved Cat product pages did not expose a public customer price (some explicitly require sign-in). No price is inferred from the part number, description or other models. This pass adds OEM reference/model-class evidence only; no Off Road quote, Amoot price, stock or sellable SKU was created.
+
+**Fitment limit:** these published model-class matches do not establish serial/Arrangement-specific fitment or prove inclusion in every C18 cooling arrangement. Confirm the full engine serial number and Arrangement in SIS/Cat before order-level fitment.
