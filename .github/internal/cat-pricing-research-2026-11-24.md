@@ -2326,3 +2326,38 @@ Additional Cat-linked discovery candidates (each requires its own item-level ver
 314-2692, 314-2693, 123-2941, 9X-7307, 7D-7519, 6M-5218, 30R-1361, 8C-3076, 228-7100, 360-8960, 523-4987, 509-5694, 479-4131, 5I-8670, 106-4572, 6I-2435, 3J-1907, 3K-0360, 1R-1808, 1R-0749, 1R-0755, 142-1340, 571-5253.
 
 Overall reviewed progress: 48/500 batches = 480/5,000 product target (9.6%). Original Cat seed list has 307 SKUs remaining (products 481–787).
+
+## Batch 49/500 — products 481–490 (2026-11-25)
+
+SKUs: 327-6618, 328-5573, 336-6684, 338-3454, 339-1048, 339-5148, 346-3791, 349-7059, 350-2155, 350-2167. All ten Cat item pages were retrieved; relevant fitment/specification or kit-content sections inspected. All ten database rows were re-queried after updates and compatible-model arrays deduplicated.
+
+Verified updates:
+- 327-6618: Standard Efficiency Cabin Air Filter. Added 156 distinct Cat compatible model labels across generator sets, mini/wheeled excavators, rotary/track drills, forestry, expanded mining, excavators, material handlers, MHPUs and hydraulic shovels. Specs 10.039in length ×7.48in width ×2.598in height (with/without seal), ABS plastic panel, standard media.
+- 328-5573: 97.20mm OD connecting-rod bearing, steel-backed copper-lead. Added 90 distinct Cat fitment labels spanning HT400 pumper, SR4/SR4B generators, AD55/AD30 underground trucks, 3406/C15/C16 engine families, PM3456, R2900 LHD, graders, D8 tractors, marine, pipelayers, stabilizer mixers, front shovels, excavators, wheel tractors, generator sets, reclaimers, compactors, petroleum, ejector/articulated trucks, wheel dozers/loaders, cold planers, landfill compactors, industrial engines, wheel scrapers and Challenger tractors. Specs 4.4in length ×4.6in height; steel-backed copper-lead bearing.
+- 336-6684: 24V color rear-view camera with 115-degree view and instrument-panel wiring harness. Added 147 distinct Cat model labels across site-prep tractors, material handlers, off-highway trucks, graders, rotary cutters, hydraulic shovels, track tractors, mini excavators, marine engines, excavators, MHPUs, petroleum packages, MTL/CTL and wheeled excavators. Material alloy aluminum/polycarbonate plastic. Related-parts leads captured separately.
+- 338-3454: Heavy-duty 24V electric starting motor. Added 312 distinct Cat-compatible labels across generators, truck engines, power packs, drills, feller bunchers, excavators, tractors, loaders, petroleum/gas/industrial engines, quarry trucks, pavers, shovels, LHDs, off-highway trucks and more. Specs: 115A, carbon steel, electric starting, 6/8 pinion pitch, SAE No. 3 nose housing, 11/12 pinion teeth, marine approved. Cat page explicitly displays 10R-9815 Cat Reman Electric Starting Motor as an alternative; this is an alternative listing, not a universal serial-number interchange.
+- 339-1048: Cat Breather Filter Element Kit for closed crankcase ventilation. Added 250 distinct compatible model labels across material handlers, graders, track tractors, skidders, asphalt compactors, knuckleboom loaders, pavers, marine engines, forestry, pipelayers, excavators, vibratory compactors, MHPUs, gen sets, backhoe loaders, wheel loaders, compact wheel loaders, wheeled excavators and industrial engines. Material Glass Filled Nylon Plastic/Corrosion Preventative Fluid. Cat kit component display includes 362-2915 Breather Cover Seal ×1.
+- 339-5148: Engine Oil Filter Cover. Added Cat-compatible generator, gen-set, power module, engine, locomotive, petroleum, off-highway truck, marine, industrial and gas-engine fitment (47 distinct model labels). Material Ductile (Spheroidal) Iron.
+- 346-3791: Heavy Duty Precious Metals Silver Overhaul Kit. Confirmed Cat Compatible Models lists 3406E truck engine. Cat's kit display lists six each of 132-6663 piston skirts, 160-9874 single-cylinder liner gasket kits, 176-5749 intermediate piston rings, 177-7496 top rings, 180-7352 piston crowns, 189-9771 oil rings, 524-5613 piston pins and 586-3377 cylinder block liners, plus 603-6646 in-frame overhaul kit. Cat says additional specifications are still being added.
+- 349-7059: Vented fuel cap. Added 308 distinct Cat compatible labels across integrated toolcarriers, wheel tractor-scrapers, track/wheel skidders, asphalt compactors, rotary drills, mini excavators, feller bunchers, forestry, underground articulated trucks, excavators, tractors, rotary mixers, track loaders, soil/landfill compactors, backhoe loaders and wheel dozers. Specs: 101.6mm overall size, metallic black exterior, vented, 4-micron filtration, no debris boot, nickel alloy/stainless steel/aluminum alloy.
+- 350-2155: 3512 Tier 1 Engine Upgrade Kit. Cat explicitly lists Marine Engine 3512. Current public Cat page says there are no parts associated with this kit and directs customers to a dealer; removed the previously stored unverified listed_contents rather than presenting it as a confirmed BOM. Cat page describes upgrading 2W-8868 to 232-2513 engine arrangement, to be used with an overhaul.
+- 350-2167: 3512 Tier 2 Engine Upgrade Kit. Cat explicitly lists Marine Engine 3512. Replaced the previous component list with the nine item lines currently displayed on Cat's page: 283-5732 camshaft ×1, 308-5353 camshaft ×1, 245-4622 aftercooler core ×1, 283-5738 camshaft ×1, 528-8390 turbocharger ×2, 335-6220 cylinder head ×12, 392-0220 fuel pump injector ×12, 308-5355 camshaft ×1 and 374-2082 piston ×12. Cat page has no additional specifications.
+
+Cat pages:
+- https://parts.cat.com/en/catcorp/product/327-6618
+- https://parts.cat.com/en/catcorp/product/328-5573
+- https://parts.cat.com/en/catcorp/product/336-6684
+- https://parts.cat.com/en/catcorp/product/338-3454
+- https://parts.cat.com/en/catcorp/product/339-1048
+- https://parts.cat.com/en/catcorp/product/339-5148
+- https://parts.cat.com/en/catcorp/product/346-3791
+- https://parts.cat.com/en/catcorp/product/349-7059
+- https://parts.cat.com/en/catcorp/product/350-2155
+- https://parts.cat.com/en/catcorp/product/350-2167
+
+Post-update verification returned all ten records. Compatible-model counts after de-duplication: 327-6618=156; 328-5573=90; 336-6684=147; 338-3454=312; 339-1048=250; 339-5148=47; 346-3791=1; 349-7059=308; 350-2155=1; 350-2167=1. No customer prices, current stock or unsupported interchangeability claims added.
+
+Additional Cat-linked discovery candidates (not fitment or interchange proof):
+363-9402, 360-8960, 5I-8670, 479-4131, 093-7521, 317-8766, 253-1752, 109-0078, 109-0072, 110-6326, 377-6969, 265-6619, 110-6331, 9Y-6089, 1R-1808, 214-7568, 3J-1907, 3K-0360, 10R-9815, 4W-6960, 5D-5957, 6V-3907, 8T-6762, 1R-0726, 362-2915, 132-6663, 160-9874, 176-5749, 177-7496, 180-7352, 189-9771, 524-5613, 586-3377, 603-6646, 283-5732, 308-5353, 245-4622, 283-5738, 528-8390, 335-6220, 392-0220, 308-5355, 374-2082.
+
+Overall reviewed progress: 49/500 batches = 490/5,000 product target (9.8%). Original Cat seed list has 297 SKUs remaining (products 491–787).
