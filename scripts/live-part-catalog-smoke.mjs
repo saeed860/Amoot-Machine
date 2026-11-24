@@ -749,6 +749,11 @@ const tests = [
   { q: "353-9049", sku: "353-9049", kind: "PART_REFERENCE", sourceRequired: true, applicationType: "BOTH" },
   { q: "116-1980", sku: "116-1980", kind: "PART_REFERENCE", sourceRequired: true, applicationType: "BOTH" },
   { q: "207-2422", sku: "207-2422", kind: "PART_REFERENCE", sourceRequired: true, applicationType: "BOTH" },
+  { q: "10R-1503", sku: "10R-1503", kind: "PART_REFERENCE", sourceRequired: true, applicationType: "LAND" },
+  { q: "0R-9942", sku: "0R-9942", kind: "PART_REFERENCE", sourceRequired: true, applicationType: "LAND" },
+  { q: "328-5573", sku: "328-5573", kind: "PART_REFERENCE", sourceRequired: true, applicationType: "BOTH" },
+  { q: "277-3076", sku: "277-3076", kind: "PART_REFERENCE", sourceRequired: true, applicationType: "BOTH" },
+  { q: "0R-9449", sku: "0R-9449", kind: "PART_REFERENCE", sourceRequired: true, applicationType: "BOTH" },
 ];
 let failed = false;
 let cursor = 0;
