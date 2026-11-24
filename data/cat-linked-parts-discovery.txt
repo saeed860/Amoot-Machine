@@ -341,3 +341,22 @@ Source pages:
 356-9946 | 17.1:1 Compression Ratio Piston Body | Cat Parts Store component listed in 356-1448 Silver kit, quantity 6 | cat_linked_candidate; needs_individual_verification
 524-5565 | 59.975mm Diameter Piston Pin | Cat Parts Store component listed in 356-1448 Silver kit, quantity 6 | cat_linked_candidate; needs_individual_verification
 586-3377 | 137.185mm Inner Diameter Cylinder Block Liner | Cat Parts Store component listed in 356-1448 Silver kit, quantity 6 | cat_linked_candidate; needs_individual_verification
+
+358-5259 | Bogie Assembly | Cat Parts Store frequently bought together with 362-3566 rear bogie assembly | cat_linked_candidate; needs_individual_verification
+7T-5959 | Bogie Suspension Resilient Pad | Cat Parts Store frequently bought together with 362-3566 rear bogie assembly | cat_linked_candidate; needs_individual_verification
+327-6618 | Cabin Air Filter | Cat Parts Store frequently bought together with 360-8960 fuel filter | cat_linked_candidate; needs_individual_verification
+5I-8670 | Advanced Efficiency Hydraulic Filter | Cat Parts Store frequently bought together with 360-8960 fuel filter and 363-9402 cabin filter | cat_linked_candidate; needs_individual_verification
+479-4131 | Water Separator Element | Cat Parts Store frequently bought together with 360-8960 fuel filter | cat_linked_candidate; needs_individual_verification
+1R-1808 | Engine Oil Filter | Cat Parts Store frequently bought together with 360-8960 fuel filter | cat_linked_candidate; needs_individual_verification
+1R-0749 | Secondary Fuel Filter | Cat Parts Store frequently bought together with 360-8960 fuel filter | cat_linked_candidate; needs_individual_verification
+322-3155 | Advanced Efficiency Lube Filter Assembly | Cat Parts Store frequently bought together with 360-8960 fuel filter | cat_linked_candidate; needs_individual_verification
+093-7521 | Hydraulic/Transmission Oil Filter | Cat Parts Store related part for 363-9402 cabin filter | cat_linked_candidate; needs_individual_verification
+337-1943 | 11.13mm Inner Diameter Rectangular Seal | Cat Parts Store related part for 365-4922 Duo Cone Seal | cat_linked_candidate; needs_individual_verification
+9X-7307 | 492.50mm Inner Diameter Seal Ring | Cat Parts Store related part for 365-4922 Duo Cone Seal | cat_linked_candidate; needs_individual_verification
+123-2941 | 454.00mm Purple Color Ring Seal | Cat Parts Store related part for 365-4922 Duo Cone Seal | cat_linked_candidate; needs_individual_verification
+7D-7519 | 3.53 x 523.47mm 75A NBR O-Ring | Cat Parts Store related part for 365-4922 Duo Cone Seal | cat_linked_candidate; needs_individual_verification
+341-8543 | 399.69mm Assembled Outside Diameter Duo Cone Seal | Cat Parts Store related part for 365-4922 Duo Cone Seal | cat_linked_candidate; needs_individual_verification
+364-9371 | Fuel Hose Assembly | Cat Parts Store frequently bought together with 364-9372 hose assembly | cat_linked_candidate; needs_individual_verification
+375-0296 | 10.92mm Inner Diameter Fuel Return Hose | Cat Parts Store frequently bought together with 364-9372 hose assembly | cat_linked_candidate; needs_individual_verification
+228-7090 | 1.78 x 12.47mm 90A FKM O-Ring | Cat Parts Store frequently bought together with 364-9372 hose assembly | cat_linked_candidate; needs_individual_verification
+364-5898 | Fuel Lines Hose | Cat Parts Store frequently bought together with 364-9372 hose assembly | cat_linked_candidate; needs_individual_verification
