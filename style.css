@@ -376,3 +376,14 @@
 .marine-model-chip b{font-size:13px;direction:ltr;text-align:right}
 .marine-model-chip span{font-size:10px;color:#28739a}
 @media(max-width:700px){.marine-engine-grid{grid-template-columns:1fr}.marine-engine-group{padding:13px}.marine-model-chip{min-width:82px}}
+
+
+/* Image presentation repair: preserve full product/category photos without cropping. */
+.cat{min-width:0}
+.cat img{display:block;flex:0 0 40%;width:40%;height:72px;max-width:40%;object-fit:contain;object-position:center;padding:4px;background:transparent;border-radius:6px;mix-blend-mode:normal;image-rendering:auto}
+.product-img{height:184px;padding:12px;overflow:hidden;background:#f8f9fa;}
+.product-img img{display:block;width:100%;height:100%;max-width:100%;max-height:100%;object-fit:contain;object-position:center;padding:3px;mix-blend-mode:normal;image-rendering:auto;}
+.detail-image{min-width:0;overflow:hidden}
+.detail-image img{display:block;width:100%;max-width:100%;height:300px;max-height:55vh;object-fit:contain;object-position:center;image-rendering:auto}
+@media(max-width:720px){.cat img{flex-basis:38%;width:38%;max-width:38%;height:68px;padding:3px;object-fit:contain}.product-img{height:154px;padding:9px}.product-img img{padding:2px}.detail-image img{height:220px;max-height:42vh}}
+@media(max-width:390px){.product-img{height:140px;padding:7px}}
