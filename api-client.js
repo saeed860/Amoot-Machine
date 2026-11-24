@@ -259,6 +259,11 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["2226926","BAR GP-EQU",12873.57,21241.39,"۸ New Aftermarket؛ ۱ Rebuilt"],
+ ["2229219","SPINDLE",7014.40,11573.76,"۹ New Aftermarket"],
+ ["2231608","PUMP GP-BE",1656.37,2733.01,"۶۸ New Aftermarket؛ ۱ Used"],
+ ["2237263","HEAD AS",6842.03,11289.35,"۳۴ New Aftermarket؛ ۸ New Aftermarket Loaded"],
+ ["2237468","CAMSHAFT A",3209.05,5294.93,"۴۳ New Aftermarket؛ ۱ Call For Pricing"],
  ["2195847","HEAD GP-CY",5000.52,8250.86,"۱۹ New Aftermarket؛ ۱ Used"],
  ["2223676","BAR GP",24587.40,40569.21,"۱۰ New Aftermarket"],
  ["2225152","KIT-REBUIL",1314.13,2168.31,"۱۵ New Aftermarket"],
