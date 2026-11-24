@@ -3160,3 +3160,38 @@ Additional Cat-linked discovery candidates:
 160-9874, 250-2940, 306-4014, 306-4016, 310-4188, 325-9492, 524-5565, 586-3377, 606-0909, 125-3537, 167-1946, 525-1082, 615-6360, 523-2224, 620-6403, 620-6405, 346-8243, 389-1079, 6V-8398, 344-0004, 380-8941, 310-3954, 8H-7521, 167-4407, 1R-1808, 214-7566, 11R-2486. Kit components, alternate rollers and pump accessories are candidate leads only; not universal fitment/interchange claims.
 
 Overall reviewed progress: 72/500 batches = 720/5,000 product target (14.4%). Original Cat seed list has 67 SKUs remaining (products 721–787).
+
+## Batch 73/500 — products 721–730 (2026-11-25)
+
+SKUs: 638-4572, 638-4575, 638-6694, 643-4218, 647-0750, 651-9069, 653-9562, 655-7611, 656-1505, 659-8663. Six pages provided substantive details; 638-6694 was a short title shell, 655-7611/656-1505 were inaccessible. 643-4218 was verified against Cat and already matched DB. All ten rows re-queried.
+
+Verified updates:
+- 638-4572: Cat Idler Group, Standard Application, 338mm rim width, interchangeable machine side, 892mm/35.118in conventional tread. Fitment D11N/D11R/D11T/D11 XE/D11. Specs center flange width 5.886in, diameter 36.693in, HD, shaft length 24.921in, protrusion 2.851in, rim width 13.307in, shaft OD 6.389in.
+- 638-4575: Cat Idler Group, Standard Application, 257mm rim width, interchangeable, 720mm/28.346in conventional tread. Fitment D9T/D9/D9R/D9 GC. Specs center flange diameter 29.921in, width 4.37in, HD, shaft length 19.488in, protrusion 2.339in, rim width 10.118in, shaft OD 4.99in.
+- 638-6694: Cat Operator Coaching for Excavators. Page returned only a short title shell; existing description retained, no fitment/specification inferred.
+- 643-4218: Cat Triple-Flange Track Idler Wheel. Existing 22-model fitment across CTL families and skid steer 262D was already correct. Cat confirms Triple Flange and HD undercarriage; related idlers 609-3712 single flange and 609-3715 double flange.
+- 647-0750: Cat Engine Fuel Injector, 5.09lb. Expanded fitment to 50 distinct labels across SR500/SR5 generators, AD30 underground truck, R3000H/R2900 LHD, 770/777 off-highway trucks, RC7 cutter, 6040/6020/6030 shovels, D8/D11/D6 tractors, C32/C18 marine, PL83/583T pipelayers, CX31-C15I/TH48-E70 petroleum packages, C27/C32 generator sets, 657G/621G wheel tractors, 825H compactor, 854 wheel dozer, 993/980/992 wheel loaders, MD6290 drill, 777 trucks/quarry and 776C tractor. Cat Reman alternate 30R-0003 C15 Fuel Injector; serial applicability must be checked.
+- 651-9069: Cat 44-joint Link Assembly, 5-tooth master, PPR, SALT, 215.9mm/8.5in pitch, wear sensor. Fitment D8T/D8R/D8 GC/D8/D8 XE. Specs 3.905in sprocket-side spread, 4.35in roller-side spread, 1.697in rail-to-bushing OD, 9.024in outside spread, 3.297in bushing OD, 0.914in bolt hole, 0.875in track/master bolt thread, 9.653in pin, 5.906in link height, HD, no RBT, wear sensor present. Compare alternate 650-8530; related links 272-6009/272-6010/627-7997.
+- 653-9562: Cat Natural Color Pop-Up Wiper Dispenser with 100 natural-fiber cleaning wipers for dirt/oil/grease/solvent removal. Cat says specifications are still being added; no fitment list published.
+- 655-7611: Cat Cylinder Head Valve Sleeve page inaccessible; existing G3516K/G3512K/G3520K/G3520 fitment retained unchanged.
+- 656-1505: Cat TRS8 Tiltrotator, S45/S45 interface, 7–10 ton mini excavator class, per existing product title. Page inaccessible; no further fitment/specs added.
+- 659-8663: Cat PL542V3 Cellular Radio Kit for remote monitoring of location, utilization, fuel consumption and fault codes. Recorded four kit components: 230-1340 Warning Film Label ×1; 230-1341 Product Link Warning Film ×1; 307-0047 40mm Product Link Film ×1; 3S-2093 202mm Cable Strap ×4. Cat says specifications are still being added. Added 223 distinct model labels across IT62G, 320D2/330F OEM, engine and locomotive families, track loaders, ejector/articulated trucks, material handlers, graders, wheel loaders, track tractors, asphalt pavers, wheeled excavators, pipelayers, industrial engines, trucks, excavators and MHPUs.
+
+Cat pages:
+- https://parts.cat.com/en/catcorp/product/638-4572
+- https://parts.cat.com/en/catcorp/product/638-4575
+- https://parts.cat.com/en/catcorp/product/638-6694
+- https://parts.cat.com/en/catcorp/product/643-4218
+- https://parts.cat.com/en/catcorp/product/647-0750
+- https://parts.cat.com/en/catcorp/product/651-9069
+- https://parts.cat.com/en/catcorp/product/653-9562
+- https://parts.cat.com/en/catcorp/product/655-7611
+- https://parts.cat.com/en/catcorp/product/656-1505
+- https://parts.cat.com/en/catcorp/product/659-8663
+
+Post-update verification returned all ten rows. Distinct compatible-model counts: 638-4572=5; 638-4575=4; 638-6694=0 (unchanged); 643-4218=22 (existing verified); 647-0750=50; 651-9069=5; 653-9562=0; 655-7611=4 (unchanged); 656-1505=0 (unchanged); 659-8663=223. No prices/current stock inferred.
+
+Additional Cat-linked discovery candidates:
+638-4574, 125-3537, 187-1484, 245-9947, 245-9950, 292-8090, 520-0979, 521-0809, 9W-4481, 196-9954, 306-9445, 306-9443, 609-3712, 609-3715, 304-1916, 110-6326, 110-6331, 377-6969, 265-6619, 265-6618, 30R-0003, 1R-1808, 214-7568, 238-5080, 248-5513, 650-8530, 272-6009, 272-6010, 627-7997, 177-9343, 3J-1907, 1R-0749, 238-8648, 230-1340, 230-1341, 307-0047, 3S-2093. These are idler/roller variants, Cat Reman alternatives, filter/accessory leads and cellular-kit contents; no universal fitment/interchange claims.
+
+Overall reviewed progress: 73/500 batches = 730/5,000 product target (14.6%). Original Cat seed list has 57 SKUs remaining (products 731–787).
