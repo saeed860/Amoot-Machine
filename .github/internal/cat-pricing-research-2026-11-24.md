@@ -1468,3 +1468,35 @@ Official Cat pages checked:
 - https://parts.cat.com/en/catcorp/product/1M-9011
 
 Database checkpoint: all ten rows queried and verified; 193-1468 image updated and re-queried. Exact official images retained for nine products; fallback-only 1L-5011 image omitted. Overall reviewed progress: 24/500 batches, 240/5,000 products.
+
+
+## Batch 25/500 — SKUs 241–250 (1P-1120 through 1W-6316)
+
+All ten official Cat Parts Store product pages were opened and reviewed; all ten existing Supabase rows were queried. The official compatibility lists and available specifications were checked against the catalog. One exact 960×960 official image was visually verified and added for 1W-1052; the update was re-queried successfully.
+
+| SKU | Official identity / verified detail | Image treatment |
+|---|---|---|
+| 1P-1120 | Cat Turbocharger Cartridge Seal Ring; cartridge seal ring supports turbocharger airflow/efficiency; 4.5 in length × 0.1 in height; extensive official generator, truck-engine, skidder, excavator, tractor/scraper, loader, industrial, marine and track-type tractor fitment | Existing exact Cat image retained |
+| 1R-0749 | Cat Secondary Fuel Filter / Advanced High Efficiency Fuel Filter; official page confirms compatible generator, truck-engine, wheel-tractor-scraper, special excavator-based solution and power-pack applications; public page did not expose structured dimensions in the accessible content | Existing Cat image retained; page thumbnails are low-resolution |
+| 1R-0762 | Cat Advanced-Efficiency Engine Fuel Filter; 3.681 in diameter × 10.504 in length; out-to-in flow, spin-on, mixed metal/nonmetal and carbon-steel construction; Advanced High Efficiency; broad underground truck, generator, grader, tractor, excavator, compactor, paver, drill, loader and engine fitment | Existing exact Cat image retained |
+| 1U-5516 | Cat 2 in Aluminum Oxide Surface Conditioning Disc, Type A-Coarse; gasket removal, deburring, cleaning and rust removal; R-style quarter-turn positive fastener; max 25,000 RPM, optimum 18,000 RPM. Cat description says 50.8 mm (2 in), while structured specification reports 1.0 in; discrepancy preserved explicitly | Exact 960×960 Cat disc image visually verified |
+| 1U-5517 | Cat 3 in Aluminum Oxide Surface Conditioning Disc, Type A-Coarse; 76.2 mm diameter; R-style quarter-turn fastener; max 18,000 RPM, optimum 15,000 RPM | Exact 960×960 Cat disc image visually verified |
+| 1W-1052 | Cat Turbocharger Group; matched and performance-tested for engine; 13.6 in length × 17.0 in height; compatible 3406C/3406/3406B gen-set engines, SR4 generator, 3406C generator set and 3406 industrial engine; 12-month warranty already recorded in catalog | Exact 960×960 turbocharger image visually verified and added to DB |
+| 1W-2447 | Cat 118mm Long Oil Cooler Outlet Adapter; connects oil cooler to engine-oil lines; grey/cast iron; 28.5 in length × 1.5 in height × 3.78 in width; 13.49 lb; official broad marine, generator, power-module, truck, shovel, drill, petroleum, industrial and loader fitment | Existing exact Cat image retained; title's 118mm descriptor retained as Cat-published title despite the 28.5 in listed length |
+| 1W-4674 | Cat Pump Group Kit; Cat publishes no description or structured specifications; official compatible applications include 3512/3516 generator-set and industrial engines, SR4, marine, petroleum and G-series gas engines | Cat page uses fallback image; no image assigned |
+| 1W-6312 | Cat Fuel Injection Line No. 2; double-walled cylinder No. 2; high-pressure precision fuel delivery; 15.3 in length × 4.0 in height; compatible 3408B/3408C/3408 gen-set, machine, generator-set, marine and industrial applications | Existing exact Cat image retained |
+| 1W-6316 | Cat Fuel Injection Line No. 6; double-walled cylinder No. 6; high-pressure precision fuel delivery; 22.3 in length × 3.0 in height; same official 3408B/3408C/3408 application families | Existing exact Cat image retained |
+
+Official Cat pages checked:
+- https://parts.cat.com/en/catcorp/product/1P-1120
+- https://parts.cat.com/en/catcorp/product/1R-0749
+- https://parts.cat.com/en/catcorp/product/1R-0762
+- https://parts.cat.com/en/catcorp/product/1U-5516
+- https://parts.cat.com/en/catcorp/product/1U-5517
+- https://parts.cat.com/en/catcorp/product/1W-1052
+- https://parts.cat.com/en/catcorp/product/1W-2447
+- https://parts.cat.com/en/catcorp/product/1W-4674
+- https://parts.cat.com/en/catcorp/product/1W-6312
+- https://parts.cat.com/en/catcorp/product/1W-6316
+
+Database checkpoint: all ten rows queried; the 1W-1052 exact official image update was verified by a follow-up query. No fallback image was assigned to 1W-4674. Overall reviewed progress: 25/500 batches, 250/5,000 products.
