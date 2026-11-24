@@ -596,11 +596,10 @@
 - نرخ‌های تبدیل مورد استفاده در این نسخه: GBP/USD = 1.3040 و EUR/USD = 1.0915؛ پیش از سفارش باید مجدداً بررسی شوند.
 
 
-## قیمت‌های تکمیلی محصولات فعال آموت — ۲۴ نوامبر ۲۰۲۶
+## قیمت تکمیلی محصول فعال — ۲۴ نوامبر ۲۰۲۶
 
 | SKU | فروشنده | مبنای قیمت | قیمت منبع USD | قیمت آموت USD | وضعیت/شرط | منبع داخلی |
 |---|---|---|---:|---:|---|---|
-| 6J-2680 | Aftermarket Express | New aftermarket · USD 0.36 | 0.36 | 0.59 | موجودی Texas طبق صفحه فروشنده؛ افترمارکت، نه OEM | https://aftermarket.express/caterpillar/6j2680 |
-| AC30A-03-D | Accio supplier listing | SMC Original listing · USD 14.70 | 14.70 | 24.26 | حداقل سفارش ۱؛ فروشنده مستقل | https://www.accio.com/plp/filter-regulator-lubricator-symbol |
+| 6J-2680 | Aftermarket Express | New aftermarket · USD 0.36 | 0.36 | 0.59 | موجودی Texas در زمان مشاهده؛ افترمارکت، نه OEM | https://aftermarket.express/caterpillar/6j2680 |
 
-محاسبه با ضریب ۱٫۶۵ انجام شده است. قیمت‌های افترمارکت با OEM ادغام نشده‌اند و وضعیت موجودی فروشنده، موجودی آموت محسوب نمی‌شود.
+قیمت با ضریب ۱٫۶۵ محاسبه شده است. موجودی فروشنده، موجودی آموت محسوب نمی‌شود.
