@@ -1221,3 +1221,35 @@ Official Cat sources checked:
 - https://parts.cat.com/cs/catcorp/product/20R-8390
 
 Database checkpoint: all 10 rows updated and verified. One exact official image newly linked (20R-8060). Fallback and unavailable fan-clutch images omitted. All eight fan-clutch records remain active because Cat does not explicitly state that they are no longer available; the “Replaced” key alone is not treated as a discontinuation notice. Overall manual progress: 35/50 batches, 350/500 SKUs.
+
+
+## Batch 36/50 — SKUs 351–360 (20R-8403 through 20R-9480)
+
+All ten catalog entries were reviewed; all ten Supabase rows were updated and query-verified.
+
+| SKU | Official identity / captured detail | Image / fitment treatment |
+|---|---|---|
+| 20R-8403 | Cat Reman Fan Clutch; Cat page inaccessible and catalog provides no description, specifications or compatible models | No image or fitment inferred |
+| 20R-8406 | Cat Reman Fan Clutch; Cat explicitly provides no description, specifications or compatible models | Fallback image only; omitted |
+| 20R-8418 | Cat Reman Fan Clutch; Cat explicitly provides no description, specifications or compatible models | Fallback image only; omitted |
+| 20R-8517 | Cat Reman Valve Rocker Arm (Additional Lube Supply); compatible D10T tractor, D1500 generator set, C32 marine engine, C27 locomotive engine and 24 grader | Existing exact official rocker-arm image retained; 5 model identifiers stored |
+| 20R-8812 | Cat Reman Auxiliary Fresh-Water Pump; stainless shaft, hardened bearing retainer, core inspection and 12-month warranty; compatible SR4B, 3500-series generator sets, power modules, petroleum/marine/industrial/locomotive engines, 789D, 854G, 994/992 loaders, 5230B/5130 mining excavators, CAT WDS and 776D/776C/784C tractors | Only 80px official image; omitted; 81 model identifiers stored |
+| 20R-8981 | Cat Reman 3600-Series Valve Lifter; recommended 3600; compatible G3606B industrial engine and G3608/G3612/G3606/G3616 gas engines | Cat explicitly states part is no longer available; record deactivated; only 80px images omitted |
+| 20R-9045 | Cat Reman Gear Pump (Counterclockwise); hydraulic oil flow/pressure, high-capacity bearings/bushings, high-pressure seals, qualifying core return and 12-month warranty; no compatible-model list | Exact official Scene7 gear-pump image newly linked |
+| 20R-9122 | Cat Reman 3600-Series Water Pump (Standard Rotation); stainless shaft, durable impeller, hardened retainers, 100% bearing replacement and improved seals; recommended application 3600, no fitment list | Exact official Scene7 water-pump image newly linked |
+| 20R-9124 | Cat Reman 3600-Series Water Pump (Standard Rotation); same published 3600 application and pump features; no compatible-model list | Exact official Scene7 water-pump image newly linked |
+| 20R-9480 | Cat Reman 3512E DGB Cylinder Pack; Tier 4, Monotherm piston; preassembled liner/piston/rings/pin/retainers/rod/seals; compatible Engine 3512E | Exact official Scene7 cylinder-pack image newly linked; 1 model identifier stored |
+
+Official Cat sources checked:
+- https://parts.cat.com/en/catcorp/product/20R-8403
+- https://parts.cat.com/en/catcorp/product/20R-8406
+- https://parts.cat.com/en/catcorp/product/20R-8418
+- https://parts.cat.com/en/catcorp/product/20R-8517
+- https://parts.cat.com/en/catcorp/product/20R-8812
+- https://parts.cat.com/en/catcorp/product/20R-8981
+- https://parts.cat.com/en/catcorp/product/20R-9045
+- https://parts.cat.com/en/catcorp/product/20R-9122
+- https://parts.cat.com/en/catcorp/product/20R-9124
+- https://parts.cat.com/en/catcorp/product/20R-9480
+
+Database checkpoint: all 10 rows updated and verified. Four exact official images newly linked (20R-9045, 20R-9122, 20R-9124, 20R-9480); existing exact image retained for 20R-8517. Low-resolution/fallback images omitted. 20R-8981 deactivated based on Cat's explicit “Part is no longer available” notice. Overall manual progress: 36/50 batches, 360/500 SKUs.
