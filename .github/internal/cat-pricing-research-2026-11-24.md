@@ -1564,3 +1564,45 @@ Official Cat pages checked:
 - https://parts.cat.com/en/catcorp/product/20R-1270
 
 Database checkpoint: all ten rows queried; the four official fitment/specification corrections were updated and re-queried successfully. Overall reviewed progress: 27/500 batches, 270/5,000 products.
+
+
+## Batch 28/500 — SKUs 271–280 (20R-1275 through 20R-2284)
+
+All ten official Cat Parts Store product pages were opened; all ten existing Supabase rows were queried. Three records were updated from the current official Cat source and re-queried: 20R-1275 received the official material field and dimensions; 20R-1516 received the complete official compatible-model list; 20R-2284 received its previously missing dimensions, material and official compatible-model list. The 20R-2284 public page confirms 14.8 in length × 3.0 in height and fitment spanning C27 generator-set, 621/627/637 wheel tractors, C15/C32 petroleum engines, TH48-E70/CX35-P800 transmissions, 825C/826C compactors, 824C/854K wheel dozers, 6040-series shovels, 980H/992K loaders, 735/770G/777 trucks, 657E scraper and 374D L excavator.
+
+| SKU | Official identity / verified detail | Image treatment |
+|---|---|---|
+| 20R-1275 | Cat Reman Electronic Fuel Injector; 14.8 in length × 3.0 in height; official material field Grease (Lanolin, Silicone) Fluid; marine engines 3508B/3516B/3512B/3508/3512, marine auxiliary 3512B, industrial 3508B/3512B/3516B and locomotive 3512B/3516B/3508B | Existing Cat image retained at 384px |
+| 20R-1306 | Cat Reman MEUI-C 10mm Fuel Injector, Tier 4 Interim; 12.3 × 4.8 in; C15 industrial and petroleum engines | Existing Cat image retained at 384px |
+| 20R-1367 | Cat C18 Reman Long Block, complete ACERT DI-T ATAAC industrial, MEUI, ADEM 4, Tier 3; official fitment 657G wheel tractor and C18 industrial engine; Cat says specifications are not yet published | No image assigned pending confirmation of exact high-resolution asset |
+| 20R-1369 | Cat C-15 Reman Long Block, complete ACERT DI-T ATAAC industrial, MEUI, ADEM 4, Tier 3 (C/D/E tier); Cat explicitly says no compatible-model information is currently available | Existing Cat image retained |
+| 20R-1516 | Cat Reman Engine Oil Pump; official fitment includes SR5, AD63, C32/C27, 777G, 844H/854K/844K, 24, 6015B/6020B/6030, 993K/990K/990H/992K, MD6250/MD6310, 773E/777E/775G/773D/775F/773G/773F and variants, TH48 | No exact high-resolution image confirmed; no image assigned |
+| 20R-1626 | Cat Reman 3500-series Valve Lifter; official fitment covers pumper, 3508/3516C/3516B/3508B/3512B gen sets, PM3516/PM3512/PP3516/PM3508, petroleum, locomotive, 854G/992G/994D, D11N/D11R, marine, mining excavators, industrial engines, 785/797/793C/777/789C/777B/785C/777D/797B trucks and 776D/784C tractors | Existing exact Cat image retained |
+| 20R-1828 | Cat Reman 3400-series Valve Lifter; extensive official fitment includes 3406/3408/3412 engines, D8/D9/D10 tractors, 24H/16H/16G graders, C30/C32/3408/3412 marine engines, AD40, 589/587R/583R pipelayers, 5110B mining excavator, 375-A/245 excavators, 623/627/631/637/651/657 wheel tractors, RM-250C/RM-350B/RM-350, 825/844/834/814/824, PR/PM cold planers, 836/826 landfill compactors and 988/990/980/992 loaders | Existing exact Cat image retained |
+| 20R-1859 | Cat Reman C27/C32 Water Pump; 17.5 × 9.9 in; official fitment AD63, C27/C32 genset/locomotive/petroleum/industrial, 777G, 854K/844K, 24, 6015B/6030/6020B, 993K/990K/992K, D11T/D10T2/D11, MD6250/MD6310 and 775G/773G/777G truck variants | Existing Cat image retained at 384px |
+| 20R-2009 | Cat Reman Double Piston Pump, variable displacement; 48.6 × 23.0 in; official compatible model Hydraulic Shovel 6060 | Existing exact 960px Cat image retained |
+| 20R-2284 | Cat Reman Fuel Injector; 14.8 × 3.0 in; official compatible list includes C27 gen set, wheel tractors 621B/627E/637D/623B/627F/621E/631D/621F/623E/633D/623F, C15/C32 petroleum, TH48-E70/CX35-P800, 825C/826C compactors, 824C/854K wheel dozers, 6040/6020B/6030 shovels, 980H/992K loaders, 735/770G/777C/777B/777G trucks, 657E scraper and 374D L excavator | Existing exact Cat image retained |
+
+Official Cat pages checked:
+- https://parts.cat.com/en/catcorp/product/20R-1275
+- https://parts.cat.com/en/catcorp/product/20R-1306
+- https://parts.cat.com/en/catcorp/product/20R-1367
+- https://parts.cat.com/en/catcorp/product/20R-1369
+- https://parts.cat.com/en/catcorp/product/20R-1516
+- https://parts.cat.com/en/catcorp/product/20R-1626
+- https://parts.cat.com/en/catcorp/product/20R-1828
+- https://parts.cat.com/en/catcorp/product/20R-1859
+- https://parts.cat.com/en/catcorp/product/20R-2009
+- https://parts.cat.com/en/catcorp/product/20R-2284
+
+Database checkpoint: all ten rows queried; updates to 20R-1275, 20R-1516 and 20R-2284 were verified. Overall Cat-list progress: 28/500 batches, 280/5,000 products.
+
+## External catalog discovery — Off Road Equipment and Cat SIS (2026-11-24)
+
+- Cat SIS 2.0 catalog scale: Fabick Cat, a Caterpillar dealer, describes SIS 2.0 as containing over 2 million service graphics, 1.5 million part numbers and 44,000 parts/service documents. This supports the approximate prior claim of a 1.6-million-scale Cat parts database, but the verified public figure is 1.5 million, not 1.6 million. SIS is a technical parts/service information system, not a public 1.5-million-item storefront; full desktop SIS has paid access, while basic parts lookup is described as free after linking a Cat account.
+- Official reference: https://www.fabickcat.com/online-tools/sis/
+- Cat SIS portal: https://sis2.cat.com/
+- Off Road Equipment Parts (offroadeq.com) publishes a 500-row popular Cat surplus-parts list and a searchable full-inventory entry point. Its homepage advertises batch import of up to 1,000 SKUs; public search requires login to shop. The business describes thousands of genuine surplus OEM parts; its associated site advertises 100,000+ genuine surplus parts in-house plus a supplier network. It explicitly states it is not an authorized Caterpillar dealer and also sells aftermarket, used and rebuilt goods.
+- Off Road public pages: https://offroadeq.com/parts ; https://offroadeq.com/search ; https://offroadeq.com/
+- Useful overlap validation: the Off Road 500-popular list includes 1R0749, 1R0762, 1342679 and 1342680, which are already in the current Cat SKU list. This is an independent inventory/discovery source, not proof of Cat official fitment or current availability. Keep its unverified surplus/aftermarket items out of the genuine-Cat catalog until each number is checked against Cat SIS/Parts Store and the seller's condition/brand is confirmed.
+- The 500-item Off Road popular list is a discovery queue; do not add all 500 as genuine Cat products without item-level validation.
