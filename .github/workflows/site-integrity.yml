@@ -89,7 +89,7 @@ jobs:
             if (Object.keys(r).some(k => !['amootAmount','amootCurrency'].includes(k))) throw new Error('Internal pricing metadata leaked into public catalog: ' + p.sku);
           }
           const audit = fs.readFileSync('docs/internal-offroad-price-audit.md', 'utf8');
-          const audited = [...audit.matchAll(/^\\| ([^|]+) \\| [^|]* \\| ([0-9.]+) \\| ([0-9.]+) \\|/gm)].map(m => ({sku:m[1],base:Number(m[2]),final:Number(m[3])}));
+          const audited = [...audit.matchAll(/^\| ([^|]+) \| [^|]* \| ([0-9.]+) \| ([0-9.]+) \|/gm)].map(m => ({sku:m[1],base:Number(m[2]),final:Number(m[3])}));
           if (audited.length !== 505) throw new Error('Internal pricing audit must contain 505 rows; found ' + audited.length);
           for (const row of audited) {
             if (Math.round(row.base * 1.65 * 100) / 100 !== row.final) throw new Error('Incorrect 1.65x price formula: ' + row.sku);
