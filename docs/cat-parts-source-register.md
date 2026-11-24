@@ -311,3 +311,28 @@ Official Cat pages:
 - https://parts.cat.com/en/catcorp/product/365-4457
 
 These are exact part-number/model-class matches only. They do not certify every serial-specific SDN/RSD assembly relationship or quantity. K-Part remains the source for the observed group/diagram/quantity, and Cat/SIS with full serial + Arrangement remains the final fitment authority. No price, stock or sellable product was created.
+
+
+#### Sixth Cat Parts Store pass — C32 fasteners and alternator hardware (24 Nov 2026)
+
+This pass reviewed further exact numbers from the SDN/RSD candidate tables. Cat's published compatible-model lists support the following classifications:
+
+| Part number | K-Part context | Cat Parts Store compatible-model evidence | Handling |
+|---|---|---|---|
+| **8F-1434** | SDN alternator lockwasher | Marine Auxiliary C32/C32B, Power Package C32 and multiple generator-set classes are explicitly listed | **BOTH** at published model-class level; the page excerpt does not itself show Marine Engine C32 |
+| **0S-1594** | SDN aftercooler bolt | Marine Engine includes C32 MARINE and C32; Engine category also includes C32 MARINE | **BOTH** |
+| **0S-1571** | SDN aftercooler bolt | Exact Cat page found; the available excerpt includes C32 in equipment/model listings but did not expose a clear marine-specific class in the returned section | Keep application unconfirmed pending a full compatible-model check |
+| **8T-4171** | SDN alternator bolt | Cat lists C32 under ENGINE - MACHINE, but the returned compatible list does not explicitly identify Marine Engine or Marine Auxiliary C32 | Do not infer marine application |
+| **1T-0720** | SDN alternator bolt | Returned compatible-model list does not show C32 marine classes | Do not classify as C32 marine |
+| **8T-0328** | SDN alternator washer | Returned compatible-model list includes C32 in Petroleum Engine / Industrial Engine classes, but no explicit C32 Marine Engine or Marine Auxiliary entry | Do not infer marine application |
+| **8F-1434** | SDN alternator lockwasher | Cat's page is a generic fastener page, but its compatible-model data explicitly includes C32 Marine Auxiliary | Retain model-class evidence; verify exact assembly usage in SIS |
+
+Official Cat pages:
+- https://parts.cat.com/en/catcorp/product/8F-1434
+- https://parts.cat.com/en/catcorp/product/0S-1594
+- https://parts.cat.com/en/catcorp/product/0S-1571
+- https://parts.cat.com/en/catcorp/product/8T-4171
+- https://parts.cat.com/en/catcorp/product/1T-0720
+- https://parts.cat.com/en/catcorp/product/8T-0328
+
+The exact K-Part diagram usage/quantity remains third-party evidence; Cat model-class lists alone do not prove that the fastener is installed in every SDN/RSD arrangement. No sellable catalog, price or inventory was changed.
