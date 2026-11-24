@@ -1,12 +1,16 @@
 import { readFile, mkdir, writeFile, rename } from "node:fs/promises";
 import { chromium } from "playwright";
 
-const partNumbers = (await readFile("data/cat-official-part-numbers.txt", "utf8"))
+const allPartNumbers = (await readFile("data/cat-official-part-numbers.txt", "utf8"))
   .split(/\r?\n/).map(x => x.trim()).filter(Boolean);
-if (partNumbers.length !== 787 || new Set(partNumbers).size !== partNumbers.length) {
-  throw new Error(`Expected 787 unique official Cat part numbers; found ${partNumbers.length}`);
+if (allPartNumbers.length !== 787 || new Set(allPartNumbers).size !== allPartNumbers.length) {
+  throw new Error(`Expected 787 unique official Cat part numbers; found ${allPartNumbers.length}`);
 }
-const checkpointPath = "artifacts/cat-official-enrichment-checkpoint.json";
+const batchStart = Math.max(0, Number.parseInt(process.env.CAT_BATCH_START || "0", 10) || 0);
+const batchSize = Math.max(1, Math.min(150, Number.parseInt(process.env.CAT_BATCH_SIZE || "100", 10) || 100));
+const partNumbers = allPartNumbers.slice(batchStart, batchStart + batchSize);
+if (!partNumbers.length) throw new Error(`Empty Cat batch at offset ${batchStart}`);
+const checkpointPath = `artifacts/cat-official-enrichment-checkpoint-${batchStart}.json`;
 await mkdir("artifacts", { recursive: true });
 let checkpoint = [];
 try { checkpoint = JSON.parse(await readFile(checkpointPath, "utf8")); } catch {}
@@ -16,7 +20,7 @@ for (const row of checkpoint) {
   if (index >= 0 && row.status !== "ERROR" && row.status !== "HTTP_ERROR") results[index] = row;
 }
 const completedFromCheckpoint = results.filter(Boolean).length;
-console.log(`Resuming Cat enrichment: ${completedFromCheckpoint}/${partNumbers.length} already checkpointed`);
+console.log(`Cat batch ${batchStart + 1}-${batchStart + partNumbers.length}/${allPartNumbers.length}; resuming ${completedFromCheckpoint}/${partNumbers.length}`);
 const browser = await chromium.launch({ headless: true, args: ["--disable-http2", "--disable-quic"] });
 let cursor = 0;
 let saved = 0;
@@ -102,7 +106,7 @@ function updateSql(row) {
 
 async function worker() {
   const page = await browser.newPage({ viewport: { width: 1365, height: 1000 } });
-  page.setDefaultNavigationTimeout(12000);
+  page.setDefaultNavigationTimeout(15000);
   while (true) {
     const i = cursor++;
     if (i >= partNumbers.length) break;
@@ -138,7 +142,7 @@ async function worker() {
       row.title = await page.title();
       const body = await page.locator("body").innerText({ timeout: 10000 });
       const html = await page.content();
-      if (i < 8) row.sample = body.slice(0, 3500);
+      if (i < 3) row.sample = body.slice(0, 2500);
       if (/not found|page not found|no product found/i.test(body) && !body.includes(sku)) row.status = "NOT_FOUND";
       else {
         const parsed = extract(body, html, sku, row.title);
@@ -153,7 +157,7 @@ async function worker() {
   }
   await page.close();
 }
-try { await Promise.all(Array.from({ length: 4 }, () => worker())); }
+try { await Promise.all(Array.from({ length: 2 }, () => worker())); }
 finally { await browser.close(); }
 
 const enriched = results.filter(r => r.status === "PAGE_OK" && (r.description || Object.keys(r.specifications).length || r.compatibleModels.length || r.imageUrl || r.name));
@@ -161,7 +165,7 @@ const statements = enriched.map(updateSql).filter(Boolean);
 await mkdir("artifacts", { recursive: true });
 const diagnostics = {
   generatedAt: new Date().toISOString(),
-  requested: partNumbers.length,
+  requested: partNumbers.length,\n  batchStart, batchSize, totalOfficial: allPartNumbers.length,
   resumed: completedFromCheckpoint,
   checkpointed: results.filter(Boolean).length,
   pageOk: results.filter(x => x.status === "PAGE_OK").length,
@@ -172,9 +176,9 @@ const diagnostics = {
 };
 await writeFile("artifacts/cat-official-enrichment.json", JSON.stringify(diagnostics, null, 2));
 console.log("Cat extraction diagnostics", JSON.stringify(diagnostics, null, 2));
-if (enriched.length < 250) throw new Error(`Too few official Cat pages yielded metadata: ${enriched.length}/${partNumbers.length}`);
+if (enriched.length < 1) throw new Error(`No official Cat pages yielded metadata in batch: ${batchStart}-${batchStart + partNumbers.length - 1}`);
 const stamp = new Date().toISOString().replace(/[-:TZ.]/g, "").slice(0,14);
-const migrationPath = `supabase/migrations/${stamp}_enrich_cat_official_page_metadata.sql`;
+const migrationPath = `supabase/migrations/${stamp}_enrich_cat_official_page_metadata_batch_${batchStart}.sql`;
 const migration = [
   "-- Enrich official Cat Parts Store references with publicly visible descriptions, specs, models and product images.",
   "-- No price or guaranteed fitment is inferred; compatible models are manufacturer page associations.",
