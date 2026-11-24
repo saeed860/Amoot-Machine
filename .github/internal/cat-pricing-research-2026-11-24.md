@@ -1852,3 +1852,34 @@ Pages checked:
 - https://parts.cat.com/en/catcorp/product/20R-8390 (inaccessible)
 
 Database checkpoint: all ten rows queried; no DB changes required because accessible pages confirmed existing data or explicitly supplied no compatibility data. Overall reviewed progress: 35/500 batches, 350/5,000 products.
+
+
+## Batch 36/500 — SKUs 351–360 (20R-8403 through 20R-9480)
+
+All ten Supabase rows were queried. Cat Parts Store pages were read for nine entries; 20R-8403 remained inaccessible. Findings and DB updates:
+- 20R-8403: source page inaccessible; DB has no technical claims; retained unchanged.
+- 20R-8406: official Cat page identifies CLUTCH-FAN, Cat brand, Remanufactured/Non-Returnable/Kit/Replaced; page explicitly says no description, specifications or compatibility information. DB correctly remains empty for those fields.
+- 20R-8418: official Cat page identifies CLUTCH-FAN and says it has no compatibility information; DB has no unsupported fitment.
+- 20R-8517: Cat Reman valve rocker arm (additional lube supply). Official fitment is D10T, D1500, C32 MARINE, C27 locomotive and motor grader 24. Existing DB data reviewed; compatible_models contains the Cat model list and engine_models C32/C27.
+- 20R-8812: Cat Reman auxiliary fresh-water pump. Cat page confirms extensive fitment across SR4B, 3500-series gen sets and power modules, 789D, 854G, 994/992G/994F/994D/994H, 5230B/5130/5130B, marine, industrial, gas-engine and 776D/776C/784C families. Existing DB fitment reviewed and retained.
+- 20R-8981: 3600-series valve lifter. Cat page confirms G3606B industrial and G3608/G3612/G3606/G3616 gas-engine fitment and explicitly marks it discontinued/no longer available. DB already has these compatible models and is_active=false; retained.
+- 20R-9045: Cat Reman counterclockwise gear pump. Cat page explicitly lists C280-6 marine engine, G3606B industrial engine, and G3608/G3612/G3616 gas engines. Added these five compatible-model values to DB and re-queried.
+- 20R-9122: 3600-series standard-rotation water pump. Cat page says no compatibility information; DB correctly keeps compatible_models empty.
+- 20R-9124: 3600-series standard-rotation water pump. Cat page says no compatibility information, but publishes material “Oil Fluid, Plastic Plastic”. Added this material to specifications and re-queried; no fitment inferred.
+- 20R-9480: 3512E DGB Tier 4 Monotherm cylinder pack. Cat page confirms compatible Engine 3512E; DB already contains 3512E.
+
+Additional discovery: Cat Parts Store pages expose related-parts / frequently-bought-together references. Created `data/cat-linked-parts-discovery.txt` with 16 linked candidate rows from 20R-8981, 20R-9045, 20R-9124 and 20R-9480. These are not assumed interchangeable or fitment-compatible; each needs its own product-page and serial-number verification. Fifteen of the listed numbers are new relative to the original 787-item list; one is already present there.
+
+Official Cat sources checked:
+- https://parts.cat.com/en/catcorp/product/20R-8403 (inaccessible)
+- https://parts.cat.com/en/catcorp/product/20R-8406
+- https://parts.cat.com/en/catcorp/product/20R-8418
+- https://parts.cat.com/en/catcorp/product/20R-8517
+- https://parts.cat.com/en/catcorp/product/20R-8812
+- https://parts.cat.com/en/catcorp/product/20R-8981
+- https://parts.cat.com/en/catcorp/product/20R-9045
+- https://parts.cat.com/en/catcorp/product/20R-9122
+- https://parts.cat.com/en/catcorp/product/20R-9124
+- https://parts.cat.com/en/catcorp/product/20R-9480
+
+Database checkpoint: all ten rows queried; updates for 20R-9045 compatible_models and 20R-9124 material were re-queried successfully. Overall reviewed progress: 36/500 batches, 360/5,000 products.
