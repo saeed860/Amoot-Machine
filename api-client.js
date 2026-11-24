@@ -259,6 +259,9 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["20R4179","INJ GP FUE",2621.29,4325.13,"۱۱ New Genuine Surplus"],
+ ["20R8575","HEAD AS-CO",1997.66,3296.14,"۳ New Aftermarket؛ ۲ Call For Pricing"],
+ ["2A4429","LOCK",1.09,1.80,"۲۵ New Genuine Surplus؛ ۸۷٬۹۸۰ New Aftermarket"],
  ["1W4879","CORE A",4374.74,7218.32,"۲۰ New Aftermarket"],
  ["1W5009","CRANKSHAFT",14277.77,23558.32,"۷ New Aftermarket؛ ۱ Rebuilt"],
  ["1W6473","COMPRESSOR G",2769.87,4570.29,"۷۲ New Aftermarket"],
