@@ -2361,3 +2361,38 @@ Additional Cat-linked discovery candidates (not fitment or interchange proof):
 363-9402, 360-8960, 5I-8670, 479-4131, 093-7521, 317-8766, 253-1752, 109-0078, 109-0072, 110-6326, 377-6969, 265-6619, 110-6331, 9Y-6089, 1R-1808, 214-7568, 3J-1907, 3K-0360, 10R-9815, 4W-6960, 5D-5957, 6V-3907, 8T-6762, 1R-0726, 362-2915, 132-6663, 160-9874, 176-5749, 177-7496, 180-7352, 189-9771, 524-5613, 586-3377, 603-6646, 283-5732, 308-5353, 245-4622, 283-5738, 528-8390, 335-6220, 392-0220, 308-5355, 374-2082.
 
 Overall reviewed progress: 49/500 batches = 490/5,000 product target (9.8%). Original Cat seed list has 297 SKUs remaining (products 491–787).
+
+## Batch 50/500 — products 491–500 (2026-11-25)
+
+SKUs: 350-2168, 350-2178, 350-2537, 350-7735, 351-8204, 353-1697, 353-5058, 354-5833, 356-1448, 358-1398. All ten Cat product pages were retrieved and fitment/specification/kit sections inspected. All ten rows were re-queried after updates; model arrays were deduplicated and the empty fitment array for 350-2168 preserved as an empty array.
+
+Verified updates:
+- 350-2168: Cat 3512 Tier 1 to Tier 2 upgrade kit, converting 2W-8862 to 282-9664 for use with an overhaul. Cat explicitly states no compatible-model information is available and specifications are still being added. Updated its nine displayed kit components: 245-4622 aftercooler core ×1, 283-5732 camshaft ×1, 283-5738 camshaft ×1, 308-5353 camshaft ×1, 308-5355 camshaft ×1, 335-6220 cylinder head ×12, 374-2082 piston ×12, 392-0220 fuel pump injector ×12, 519-8019 turbocharger ×2. compatible_models and engine_models remain empty.
+- 350-2178: Cat 3512B Tier 1 to Tier 2 upgrade kit. Confirmed Marine Engine 3512B fitment. Conversion from arrangement 180-9193 to 320-0276; Cat page says no kit parts currently associated and additional specs are not published.
+- 350-2537: Cat Engine Water Pump for Industrial Engine C-9 only. Confirmed 12.1in length ×9.4in height. Cat page displays 20R-0260 Cat C9 Reman Water Pump as an alternative listing, not a guaranteed interchangeable replacement.
+- 350-7735: Cat Fuel Cap Filter Kit, 4-micron filter cartridge to prevent water penetration. Added 341 distinct Cat model labels across integrated toolcarriers, scrapers, harvesters, skidders, mini excavators, drills, feller bunchers, forestry, excavators, wheel tractors, compact/track loaders, mixers, graders, tractors, wheel loaders, compactors, backhoe loaders, MHPUs, gen sets and related machine groups. Cat materials: polyamide plastic, carbon steel and acetal plastic. Current Cat page lists no associated kit parts; no BOM was inferred.
+- 351-8204: Cat spherical Panhard-rod bushing for articulated/ejector trucks. Confirmed 735C/740 GC/735B/740/740C/745/735 OEM/740B/745C/735 fitment. Specs 4.13in OD, 7.68in overall length, two 0.98in holes, 5.98in center-to-center, M24 or 1in hardware; Cat explicitly says material is not specified.
+- 353-1697: Cat 1220mm (48in) pallet forks, Class II, skid-steer coupler. Added 86 compatible labels across multi-terrain loaders, compact track loaders and skid-steer loaders. Specs: carriage 36.8in high ×45.8in wide, 211.6lb; tines 48 ×3.9 ×21.3in, 1.6in thick, 105.8lb; operating weight 429.9lb; overall length 58.3in. Additional related accessory listings are discovery candidates only.
+- 353-5058: Cat cab air recirculation filter, lower-restriction urethane panel. Confirmed ten wheel-loader labels: 930/938K/938M/926/924K/926M/938/930K/924/930M. Specs 15.906in length ×6.409in width, 2.213in with seal /1.827in without, carbon steel/mixed metal-nonmetal.
+- 354-5833: Cat oil-filter-housing drain kit, used to replace a failed housing drain. Added 203 distinct compatible labels across generator, material handler, grader, track tractors, knuckleboom loaders, feller bunchers, forestry, MHPU, pipelayers, excavators, generator sets, compactors, wheel dozers/loaders, planers, reclaimers, articulated trucks and wheeled excavators. Cat material: FKM rubber, PPA plastic and polyamide plastic. Cat page currently shows no kit parts associated; no kit BOM was inferred.
+- 356-1448: Cat Heavy Duty Precious Metals Silver in-frame overhaul kit for C15 truck engine, 600–625 hp. Cat's current kit display lists 160-9874 liner gasket kit ×6, 237-0194 top ring ×6, 238-0294 oil ring ×6, 238-4737 intermediate ring ×6, 250-2940 pin retainer ×12, 356-9946 piston body ×6, 524-5565 piston pin ×6, 586-3377 cylinder liner ×6 and 606-0909 Bronze Overhaul Kit ×1. Description confirms Silver includes Bronze kit plus six pistons, liners, wrist pins, rings, retainers and rod-less unassembled cylinder pack; no core charge.
+- 358-1398: Cat Suspension Link for 797F and 797B trucks. Specs port 1/8-27 PTF; Cat material field says Sealants/Adhesives Adhesive.
+
+Cat pages:
+- https://parts.cat.com/en/catcorp/product/350-2168
+- https://parts.cat.com/en/catcorp/product/350-2178
+- https://parts.cat.com/en/catcorp/product/350-2537
+- https://parts.cat.com/en/catcorp/product/350-7735
+- https://parts.cat.com/en/catcorp/product/351-8204
+- https://parts.cat.com/en/catcorp/product/353-1697
+- https://parts.cat.com/en/catcorp/product/353-5058
+- https://parts.cat.com/en/catcorp/product/354-5833
+- https://parts.cat.com/en/catcorp/product/356-1448
+- https://parts.cat.com/en/catcorp/product/358-1398
+
+Post-update verification returned all ten rows. Distinct fitment counts: 350-2168=0; 350-2178=1; 350-2537=1; 350-7735=341; 351-8204=10; 353-1697=86; 353-5058=10; 354-5833=203; 356-1448=1; 358-1398=2. No prices, stock or guaranteed interchangeability inferred.
+
+Additional Cat-linked discovery candidates (not fitment/interchange proof):
+20R-0260, 2M-4453, 4J-0525, 037-2448, 280-6794, 248-5513, 155-3537, 343-2873, 554-8864, 228-4947, 301-6948, 5P-8500, 8T-4999, 561-0644, 219-7706, 231-8601, 285-6110, 426-6548, 475-2760, 479-8086, 481-3668, 365-7606, 462-1171, 222-9020, 6I-4421, 247-6130, 0R-9449, 9Y-3368, 606-0909, 160-9874, 237-0194, 238-0294, 238-4737, 250-2940, 356-9946, 524-5565, 586-3377.
+
+Overall reviewed progress: 50/500 batches = 500/5,000 product target (10.0%). Original Cat seed list has 287 SKUs remaining (products 501–787).
