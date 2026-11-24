@@ -202,3 +202,18 @@ Source pages:
 131-1650 | Track Roller Cap | Cat Parts Store frequently bought together with 309-7678 track roller | cat_linked_candidate; needs_individual_verification
 184-4396 | Steel Undercarriage Roller Guide | Cat Parts Store related-parts panel for 309-7678 track roller | cat_linked_candidate; needs_individual_verification
 9W-4489 | 73.98mm Inner Diameter Suspension Bogie Insert | Cat Parts Store related-parts panel for 309-7678 track roller | cat_linked_candidate; needs_individual_verification
+
+620-7314 | Exhaust Bypass Wastegate Housing | Cat Parts Store alternate displayed on 30R-0132 Cat Reman exhaust bypass page | cat_linked_candidate; needs_individual_verification
+7E-0701 | 1.97mm Thick Gasket | Cat Parts Store frequently bought together with 30R-0132/30R-0133 | cat_linked_candidate; needs_individual_verification
+485-4705 | Engine Oil Filter Lube Element | Cat Parts Store frequently bought together with 30R-0132/30R-0133 | cat_linked_candidate; needs_individual_verification
+1G-8878 | Hydraulic/Transmission Oil Filter | Cat Parts Store frequently bought together with 30R-0132 | cat_linked_candidate; needs_individual_verification
+159-3219 | Combustion Sensor | Cat Parts Store frequently bought together with 30R-0132/30R-0133 | cat_linked_candidate; needs_individual_verification
+3S-9643 | Rotating Shaft Lip Type Seal | Cat Parts Store frequently bought together with 30R-0132/30R-0133 | cat_linked_candidate; needs_individual_verification
+622-1438 | VALVE AS-BYP | Cat Parts Store alternate displayed on 30R-0133 Cat Reman exhaust bypass page | cat_linked_candidate; needs_individual_verification
+1S-5772 | 0.8mm Thick Gasket | Cat Parts Store frequently bought together with 30R-0133 | cat_linked_candidate; needs_individual_verification
+20R-6825 | Cat Reman Power Generator (Traction) | Cat Parts Store alternate displayed on 30R-0417 generator rotor page | cat_linked_candidate; needs_individual_verification
+20R-6359 | Cat Reman Power Generator (Electric Drive) | Cat Parts Store alternate displayed on 30R-0484 generator stator page | cat_linked_candidate; needs_individual_verification
+368-8179 | 144.705mm Outer Diameter Piston Body | Cat Parts Store alternate displayed on 30R-0927 C18 Reman cylinder pack page | cat_linked_candidate; needs_individual_verification
+261-3450 | 104.50mm Outer Diameter Connecting Rod Bearing | Cat Parts Store frequently bought together with 30R-0927 | cat_linked_candidate; needs_individual_verification
+253-1752 | 5.73mm Thick Crankshaft Thrust Plate | Cat Parts Store frequently bought together with 30R-0927 | cat_linked_candidate; needs_individual_verification
+317-8766 | 131.29mm OD Steel Backed Copper Lead Main Bearing | Cat Parts Store frequently bought together with 30R-0927 | cat_linked_candidate; needs_individual_verification
