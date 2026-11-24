@@ -478,7 +478,7 @@ Deno.serve(async (req) => {
         let parsed:URL|null = null;
         try { parsed = new URL(sourceUrl); } catch (_) {}
         if (!partNumber || !name || !modelName || !serialPrefix || !groupName ||
-            !parsed || parsed.protocol !== "https:" || !/(^|\\.)k-part\\.com$/i.test(parsed.hostname) ||
+            !parsed || parsed.protocol !== "https:" || !/^(?:www\.)?k-part\.com$/i.test(parsed.hostname) ||
             (quantityRaw !== null && (!Number.isInteger(quantityRaw) || quantityRaw < 1 || quantityRaw > 100000)) ||
             seen.has(key))
           return fail(400,"INVALID_KPART_ROW","پارت‌نامبر، نام، مدل، پیشوند سریال، گروه، نشانی معتبر K-Part یا تعداد معتبر نیست.");
