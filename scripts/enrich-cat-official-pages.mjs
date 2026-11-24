@@ -72,8 +72,8 @@ function extract(pageText, html, sku, title) {
     ))].slice(0, 250);
   }
   const engineModels = compatibleModels.filter(engineLike);
-  const imageMatch = html.match(/https?:\\?\/\\?\/caterpillar\\.scene7\\.com\\?\/is\\?\/image\\?\/Caterpillar\\?\/[^"'\\s<>]+/i)
-    || html.match(/https?:\/\/caterpillar\.scene7\.com\/is\/image\/Caterpillar\/[^"'\s<>]+/i);
+  const imageMatch = html.match(/https?:\\?\/\\?\/(?:caterpillar|s\\d+d\\d*)\\.scene7\\.com\\?\/is\\?\/image\\?\/Caterpillar\\?\/[^"'\\s<>]+/i)
+    || html.match(/https?:\/\/(?:caterpillar|s\d+d\d*)\.scene7\.com\/is\/image\/Caterpillar\/[^"'\s<>]+/i);
   const imageUrl = imageMatch ? imageMatch[0].replace(/\\u0026|&amp;/g, "&").replace(/\\\//g, "/") : null;
   let name = "";
   const titleMatch = String(title || "").match(/^\s*([A-Z0-9-]+):\s*(.*?)\s*(?:\||$)/i);
