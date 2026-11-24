@@ -671,3 +671,5 @@ Source pages:
 388-0546 | Fuel Injection Pump Quill | Cat Parts Store frequently bought together with 460-8213 common rail injector | cat_linked_candidate; needs_individual_verification
 274-1639 | 13.94mm Inner Diameter Fuel System Seal | Cat Parts Store frequently bought together with 460-8213 common rail injector | cat_linked_candidate; needs_individual_verification
 282-2785 | Bucket Mounting Pin | Cat Parts Store related part for 464-9911 bucket | cat_linked_candidate; needs_individual_verification
+
+469-1990 | Engine Repair Kit (C18 Industrial Engine) | Scribd scan of Cat C18 Industrial Engine Parts Book (SEBP8111-71) shows 469-1990 under available repair kits; Cat Parts Store item page not accessible and exact kit scope/fitment not confirmed | cat_linked_candidate; needs_individual_verification
