@@ -382,3 +382,34 @@ Official Cat sources checked:
 - https://parts.cat.com/en/catcorp/product/102-0297
 
 Database checkpoint: all 10 records updated and query-verified. Six exact official Cat images linked (0R-9943, 100-4095, 102-0290, 102-0294, 102-0296, 102-0297). Images for 0R-9952, 0R-9983, 0R-9986 and 100-3878 were only 80px thumbnails and were not assigned. Cat Reman parts remain separately identified from standard Cat products; core and warranty conditions require dealer confirmation.
+
+
+### Batch 010/010 — completed (10/10)
+| Part number | Official Cat identity | Specifications / evidence | Compatible models |
+|---|---|---|---|
+| 102-0299 | Cat Turbocharger Group | 15.1 × 15.9 in | 3512, 3516 |
+| 102-8802 | Cat 2-Pin Receptacle Connector Kit | Nylon receptacle + lock wedge; components 3E-3364 and 3E-3365; no structured specs | 35 identifiers captured |
+| 106-0933 | Cat Universal Joint Assembly (10C) | Steel; Lube-for-Life; pilot dia 8.375 in and swing dia 8.879 in after installation; dust shields, spider, seals and bearings | 48 identifiers captured |
+| 107-0266 | Cat Standard-Efficiency Cab Air Duct Filter | 2.185 in height with seal; 1.791 in without; 10.748 in width; 11.811 in length; urethane panel, standard media | 104 identifiers captured |
+| 107-7330 | Cat 144.45mm OD Connecting Rod Bearing | 6.4 × 3.6 in; steel-backed aluminum bearing | 49 identifiers; 15 engine-family identifiers |
+| 108-6630 | Cat Fuel Injection Pump | 6.1 × 2.6 in; computer-tested at 20 quality points; 12-month Cat warranty | 3406B, 3406C, 3412 |
+| 109-5738 | Cat Polycarbonate Interface Film | Polycarbonate plastic; no usable image or detailed description | 52 identifiers; 40 engine-family identifiers |
+| 10R-0482 | Cat Reman Water Pump (3406 family) | 13.1 × 8.0 in; stainless shaft, durable impeller, hardened bearing retainers, new bearings and improved seals | 41 identifiers |
+| 10R-0484 | Cat Reman Water Pump with Mounting Gasket Kit (C15/C16) | 13.1 × 8.0 in; adhesive material; recommended C15/C16 | 78 identifiers |
+| 10R-0707 | Cat Reman Crankshaft Damper | Viscous damper absorbs torsional vibration; sampling port for fluid analysis; no structured specs | 45 identifiers |
+
+Official Cat sources checked:
+- https://parts.cat.com/en/catcorp/product/102-0299
+- https://parts.cat.com/en/catcorp/product/102-8802
+- https://parts.cat.com/en/catcorp/product/106-0933
+- https://parts.cat.com/en/catcorp/product/107-0266
+- https://parts.cat.com/en/catcorp/product/107-7330
+- https://parts.cat.com/en/catcorp/product/108-6630
+- https://parts.cat.com/en/catcorp/product/109-5738
+- https://parts.cat.com/en/catcorp/product/10R-0482
+- https://parts.cat.com/en/catcorp/product/10R-0484
+- https://parts.cat.com/ar/catcorp/product/10R-0707
+- https://parts.cat.com/de/catcorp/product/10R-0707
+- https://parts.cat.com/en/catcorp/category/reman-products-crankshaft-dampers
+
+Database checkpoint: all 10 rows updated and query-verified. Four exact official Cat images linked (102-0299, 108-6630, 10R-0482, 10R-0484). 102-8802, 106-0933, 107-0266 and 107-7330 only exposed 80px thumbnails and were not assigned; 109-5738 and 10R-0707 exposed fallback images only and were not assigned. Cat Reman water pumps and crankshaft damper remain separately identified; qualifying core returns and application-specific warranty terms require dealer confirmation.
