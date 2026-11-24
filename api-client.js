@@ -259,6 +259,9 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["7W0491","CORE A",3942.88,6505.75,"۱۰ New Aftermarket؛ ۲ Used"],
+ ["7W2203","HEAD GP",7264.89,11987.07,"۱۹ New Aftermarket"],
+ ["7W2243","HEAD A 3412",4467.26,7370.98,"۱ New Aftermarket - Less Than Perfect؛ ۱۲ New Aftermarket"],
  ["7T2732","PUMP G",5019.32,8281.88,"۲ New Aftermarket"],
  ["7T5417","BOGIE A",10914.13,18008.31,"۸ New Aftermarket؛ ۱ Rebuilt؛ ۱۳ Used"],
  ["7T8001","SPINDLE",5806.31,9580.41,"۱۳ New Aftermarket"],
