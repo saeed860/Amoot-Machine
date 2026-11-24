@@ -774,13 +774,13 @@
   const offRoadCatalogRows=offRoadCatalogText.trim().split('\\n').map(line=>{const [sku,...name]=line.split('|');return {sku:sku.trim(),description:name.join('|').trim()}}).filter(x=>x.sku&&x.description);
   const classifyOffRoadPart=(d)=>{
    const x=String(d).toUpperCase();
-   if(/FILTER|ELEMENT FU|GASKET|SEAL|RING|WASHER|BOLT|NUT|STUD|FITTING|SPRING/.test(x))return ['فیلتر، آب‌بندی و مصرفی','قطعات مصرفی و اتصالات','./assets/product-filter.jpg'];
-   if(/ALTERNATOR|SENSOR|SWITCH|MONITOR|DISPLAY|REGULATOR|MOTOR GP-ELE|A\\/C CONDEN/.test(x))return ['قطعات برقی و کنترلی','استارت، دینام و کنترل الکترونیکی','./assets/product-alternator.jpg'];
-   if(/BOGIE|IDLER|WHEEL|RIM|SPINDLE|DRIVE GP|BAR GP|FRAME|SUSP|HUB|GUARD|CARRIER|RECOIL|TRACK/.test(x))return ['قطعات زیربندی و انتقال قدرت','چرخ، رولیک، شاسی و انتقال قدرت','./assets/product-roller.jpg'];
-   if(/VALVE|PUMP|MANIFOLD|CYL|ACTUATOR|ACCUMULATO|PRESSURE|CONTROL|STEERING|CARTRIDG/.test(x))return ['قطعات هیدرولیک و کنترل','پمپ، شیر، سیلندر و کنترل','./assets/cat-hydraulic.jpg'];
-   if(/TURBO|CAMSHAFT|CRANKSHAFT|HEAD|INJECTOR|INJ GP|LINER|PISTON|CYLINDER|COMPRESSOR|RADIATOR|MUFFLER|MOTOR|CORE|PAN OIL/.test(x))return ['قطعات موتور و سوخت‌رسانی','موتور، توربو، سرسیلندر و سوخت‌رسانی','./assets/cat-engine.jpg'];
-   if(/BEARING|CONE|GEAR|SHAFT|PINION|COUPLING|GEAR SET|PIN AS|PIN$/.test(x))return ['یاتاقان، چرخ‌دنده و شفت','بلبرینگ، دنده و اجزای انتقال نیرو','./assets/product-pump.jpg'];
-   return ['قطعات عمومی کاترپیلار','قطعات عمومی ماشین‌آلات کاترپیلار','./assets/cat-loader.jpg'];
+   if(/FILTER|ELEMENT FU|GASKET|SEAL|RING|WASHER|BOLT|NUT|STUD|FITTING|SPRING/.test(x))return ['فیلتر و مصرفی','قطعات مصرفی و اتصالات','./assets/product-filter.jpg'];
+   if(/ALTERNATOR|SENSOR|SWITCH|MONITOR|DISPLAY|REGULATOR|MOTOR GP-ELE|A\\/C CONDEN/.test(x))return ['قطعات برقی','استارت، دینام و کنترل الکترونیکی','./assets/product-alternator.jpg'];
+   if(/BOGIE|IDLER|WHEEL|RIM|SPINDLE|DRIVE GP|BAR GP|FRAME|SUSP|HUB|GUARD|CARRIER|RECOIL|TRACK/.test(x))return ['قطعات زیربندی','چرخ، رولیک، شاسی و انتقال قدرت','./assets/product-roller.jpg'];
+   if(/VALVE|PUMP|MANIFOLD|CYL|ACTUATOR|ACCUMULATO|PRESSURE|CONTROL|STEERING|CARTRIDG/.test(x))return ['قطعات هیدرولیک','پمپ، شیر، سیلندر و کنترل','./assets/cat-hydraulic.jpg'];
+   if(/TURBO|CAMSHAFT|CRANKSHAFT|HEAD|INJECTOR|INJ GP|LINER|PISTON|CYLINDER|COMPRESSOR|RADIATOR|MUFFLER|MOTOR|CORE|PAN OIL/.test(x))return ['قطعات موتور','موتور، توربو، سرسیلندر و سوخت‌رسانی','./assets/cat-engine.jpg'];
+   if(/BEARING|CONE|GEAR|SHAFT|PINION|COUPLING|GEAR SET|PIN AS|PIN$/.test(x))return ['قطعات انتقال قدرت','بلبرینگ، دنده و اجزای انتقال نیرو','./assets/product-pump.jpg'];
+   return ['قطعات عمومی','قطعات عمومی ماشین‌آلات کاترپیلار','./assets/cat-loader.jpg'];
   };
 
   const priceReferences=offRoadPriceRows.map((r,i)=>({id:9100000+i,kind:'PRODUCT',sourceUrl:'https://offroadeq.com/parts/'+r[0].replace(/-/g,''),sku:r[0],name:r[1]+' · '+r[0],brand:'Caterpillar',category:'قطعات کاترپیلار',technicalGroup:'قطعات موتور و ماشین‌آلات',machine_model:'نیازمند تطبیق سریال و آرایش',description:r[4]+'. تطبیق شماره سریال و پیکربندی دستگاه پیش از سفارش الزامی است.',applicationType:'UNVERIFIED',applicationEvidence:'کاربری/سازگاری در این رکورد قیمت تأیید نشده است.',price:0,price_irr:null,stock:0,image:'',priceReference:{source:'Off Road Equipment',basis:'OEM List Price',amount:r[2],currency:'USD',amootAmount:r[3],amootCurrency:'USD',factor:1.65,inventory:r[4],observedAt:'2026-11-24',sourceUrl:'https://offroadeq.com/parts/'+r[0].replace(/-/g,'')}}));
