@@ -72,3 +72,14 @@ The same login page states that Off Road Equipment Parts, Inc. is **not an autho
 This recheck did not reveal anonymous supplier unit prices or a public downloadable price export. The previous 1161980 detail-page test remains the only exact public price/inventory example in this project: its visible OEM List Price is not the supplier unit price, and actual unit prices remain login-gated. No price, availability or stock was changed in Amoot.
 
 **Recommended supplier request:** ask Off Road Equipment for an authorized quote/export containing exact part number, description, brand, condition (NEW OEM / NEW AFTERMARKET / REMAN / USED), supplier unit price, currency, quantity available, lead time, quote date/expiry and shipping origin. The +65% calculation should be applied only to the supplier's actual unit price, separately for each condition and currency.
+
+
+## Off Road search-page test and C9 candidate check (24 Nov 2026)
+
+The full inventory search page was opened and rechecked: https://offroadeq.com/search. It exposes the part-number search and batch-import interface, but its public page explicitly states **“You must be logged in to shop.”** The page does not expose anonymous search results, supplier quantities or unit prices. No authentication, private endpoint or access-control bypass was attempted.
+
+The public popular-parts index (https://offroadeq.com/parts) still exposes a 500-part list. The C9 discovery candidates **258-0794, 197-5987, 242-5336 and 245-3777** were not found in that public top-500 index. This is not a negative stock check: the full inventory is separate and login-gated. Therefore their Off Road availability and actual supplier prices remain **unknown**, not “unavailable.”
+
+For these and future C9 candidates, use the supplier search only through an authorized account or quote/export. Capture exact part number, brand, description, condition, actual supplier unit price, currency, available quantity, lead time and observation date. Apply Amoot's 1.65 multiplier only to the actual supplier unit price. Do not calculate from Cat OEM List Price or infer a price from the public popular-parts index.
+
+No Amoot price, inventory quantity or public SKU was changed in this pass.
