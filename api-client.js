@@ -259,6 +259,11 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["3412814","CYL GP-SEA",10834.17,17876.38,"در موجودی دقیق فروشنده یافت نشد؛ قیمت OEM List موجود است"],
+ ["3418543","SEAL GP",1236.57,2040.34,"۱ New Genuine Surplus؛ ۶۹ New Aftermarket"],
+ ["3434268","WHEEL AS",1448.87,2390.64,"۱۷ New Aftermarket"],
+ ["3442149","HEAD GP-CY",6270.10,10345.67,"۴ New Aftermarket"],
+ ["3477109","CAMSHAFT A",2505.91,4134.75,"۱ New Aftermarket"],
  ["3368670","HUB AS.",8099.28,13363.81,"۳۲ New Aftermarket"],
  ["3383454","MOTOR GP-E",1714.16,2828.36,"۱۲۰ New Aftermarket"],
  ["3383456","MOTOR GP-E",1714.16,2828.36,"۳۹ New Aftermarket"],
