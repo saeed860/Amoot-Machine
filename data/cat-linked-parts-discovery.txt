@@ -1123,3 +1123,29 @@ Source pages:
 230-1341 | Product Link Warning Film | Cat Parts Store component in 659-8663 PL542V3 radio kit, quantity 1 | cat_linked_candidate; needs_individual_verification
 307-0047 | 40mm Long Product Link Film | Cat Parts Store component in 659-8663 PL542V3 radio kit, quantity 1 | cat_linked_candidate; needs_individual_verification
 3S-2093 | 202mm Long Cable Strap | Cat Parts Store component in 659-8663 PL542V3 radio kit, quantity 4 | cat_linked_candidate; needs_individual_verification
+
+3J-1907 | 1.98 x 11.89mm 90A NBR O-Ring | Cat Parts Store related item for 6I-0036 fuel injector line | cat_linked_candidate; needs_individual_verification
+6V-5048 | 1.83 x 8.92mm 75A FKM O-Ring | Cat Parts Store related item for 6I-0036 fuel injector line | cat_linked_candidate; needs_individual_verification
+2J-0157 | 15.47mm Inside Diameter Seal-O-Ring | Cat Parts Store related item for 6I-0036 fuel injector line | cat_linked_candidate; needs_individual_verification
+2S-4078 | 3 x 37.47mm 90A NBR O-Ring | Cat Parts Store related item for 6I-0036 fuel injector line | cat_linked_candidate; needs_individual_verification
+3S-2093 | 202mm Long Cable Strap | Cat Parts Store related item for 6K-0806 cable tie | cat_linked_candidate; needs_individual_verification
+3S-2094 | Cable Strap | Cat Parts Store related item for 6K-0806 cable tie | cat_linked_candidate; needs_individual_verification
+3S-2095 | Cable Strap | Cat Parts Store related item for 6K-0806 cable tie | cat_linked_candidate; needs_individual_verification
+238-8648 | Extended Life Coolant 50/50 Premix (1 Gallon) | Cat Parts Store related item for 6L-8617 radiator cap | cat_linked_candidate; needs_individual_verification
+1R-1808 | Engine Oil Filter | Cat Parts Store related item for 6L-8617 radiator cap | cat_linked_candidate; needs_individual_verification
+7G-4332 | Track Bolt | Cat Parts Store frequently bought together with 6T-1140 track bolt | cat_linked_candidate; needs_individual_verification
+6Y-0473 | 6.35mm Diameter Clear Plug for Track Idler | Cat Parts Store frequently bought together with 6T-1140 track bolt | cat_linked_candidate; needs_individual_verification
+6V-0937 | Track Bolt | Cat Parts Store related item for 6T-1140/6T-1382 undercarriage hardware | cat_linked_candidate; needs_individual_verification
+125-3537 | Idler Group | Cat Parts Store related item for 6T-1382 minor bogie | cat_linked_candidate; needs_individual_verification
+167-1946 | Idler Group for Landfill Compactor | Cat Parts Store related item for 6T-1382 minor bogie | cat_linked_candidate; needs_individual_verification
+245-9947 | Arctic Application Idler Group | Cat Parts Store related item for 6T-1382 minor bogie | cat_linked_candidate; needs_individual_verification
+245-9950 | Arctic Track Idler | Cat Parts Store related item for 6T-1382 minor bogie | cat_linked_candidate; needs_individual_verification
+214-7568 | STOR O-Ring Seal (SAE 9/16-18) | Cat Parts Store related item for 6V-3965 quick disconnect nipple | cat_linked_candidate; needs_individual_verification
+238-5080 | 2.21 x 16.36mm 90A FKM O-Ring | Cat Parts Store related item for 6V-3965 quick disconnect nipple | cat_linked_candidate; needs_individual_verification
+238-5081 | 2.46 x 19.18mm 90A FKM O-Ring | Cat Parts Store related item for 6V-3965 quick disconnect nipple | cat_linked_candidate; needs_individual_verification
+2H-3928 | 107.54mm Inside Diameter O-Ring Seal | Cat Parts Store related item for 6V-7238 shutoff valve | cat_linked_candidate; needs_individual_verification
+5H-6734 | 3.53 x 113.89mm 75A NBR O-Ring | Cat Parts Store related item for 6V-7238 shutoff valve | cat_linked_candidate; needs_individual_verification
+6V-6809 | 139.07mm Inside Diameter Seal-O-Ring | Cat Parts Store related item for 6V-7238 shutoff valve | cat_linked_candidate; needs_individual_verification
+310-3954 | 5.33 x 123.19mm 75A FKM O-Ring | Cat Parts Store related item for 6V-7238 shutoff valve | cat_linked_candidate; needs_individual_verification
+8H-7521 | 3.53 x 91.67mm 75A NBR O-Ring | Cat Parts Store related item for 6V-7238 shutoff valve | cat_linked_candidate; needs_individual_verification
+167-4407 | 3.53 x 69.44mm 70A EPDM O-Ring | Cat Parts Store related item for 6V-7238 shutoff valve | cat_linked_candidate; needs_individual_verification
