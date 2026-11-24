@@ -1,0 +1,79 @@
+name: Diagnose Cat Parts Network Access
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/cat-network-diagnostic.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Check DNS resolution
+        shell: bash
+        run: |
+          set +e
+          for host in parts.cat.com caterpillar.scene7.com www.cat.com; do
+            echo "===== DNS $host ====="
+            getent ahosts "$host" | head -n 8
+            echo "DNS_EXIT=$?"
+          done
+      - name: Check TCP and TLS
+        shell: bash
+        run: |
+          set +e
+          for host in parts.cat.com caterpillar.scene7.com www.cat.com; do
+            echo "===== TLS $host:443 ====="
+            timeout 12 openssl s_client -connect "$host:443" -servername "$host" -brief </dev/null 2>&1 | head -n 18
+            echo "TLS_PIPE_EXIT=${PIPESTATUS[0]}"
+          done
+      - name: Check HTTP response and redirects
+        shell: bash
+        run: |
+          set +e
+          for url in \
+            "https://parts.cat.com/en/catcorp/product/000-5242" \
+            "https://parts.cat.com/es/catcorp/product/000-5242" \
+            "https://www.cat.com/"; do
+            echo "===== CURL $url ====="
+            curl -sSIL --connect-timeout 8 --max-time 18 --max-redirs 5 \
+              -A "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/131 Safari/537.36" \
+              -w '\\nCURL_HTTP=%{http_code} REMOTE_IP=%{remote_ip} TLS_VERIFY=%{ssl_verify_result} TOTAL=%{time_total} REDIRECTS=%{num_redirects}\\n' \
+              "$url" 2>&1 | tail -n 35
+            echo "CURL_EXIT=${PIPESTATUS[0]}"
+          done
+      - name: Check Node fetch independently
+        shell: bash
+        run: |
+          node --input-type=module <<'NODE'
+          import dns from 'node:dns/promises';
+          import tls from 'node:tls';
+          const host = 'parts.cat.com';
+          try { console.log('NODE_DNS', JSON.stringify(await dns.lookup(host, {all:true}))); }
+          catch (e) { console.log('NODE_DNS_ERROR', e.code, e.message); }
+          await new Promise(resolve => {
+            const socket = tls.connect({host, port:443, servername:host, timeout:10000}, () => {
+              console.log('NODE_TLS_OK', JSON.stringify({authorized:socket.authorized, protocol:socket.getProtocol(), cipher:socket.getCipher()?.name}));
+              socket.end(); resolve();
+            });
+            socket.on('timeout', () => { console.log('NODE_TLS_TIMEOUT'); socket.destroy(); resolve(); });
+            socket.on('error', e => { console.log('NODE_TLS_ERROR', e.code, e.message); resolve(); });
+          });
+          const controller = new AbortController();
+          const timer = setTimeout(() => controller.abort(), 15000);
+          try {
+            const response = await fetch('https://parts.cat.com/en/catcorp/product/000-5242', {
+              method:'GET', redirect:'manual', signal:controller.signal,
+              headers:{'user-agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/131 Safari/537.36'}
+            });
+            console.log('NODE_FETCH', JSON.stringify({status:response.status, statusText:response.statusText, location:response.headers.get('location'), contentType:response.headers.get('content-type')}));
+            await response.body?.cancel();
+          } catch (e) { console.log('NODE_FETCH_ERROR', e.name, e.cause?.code, e.message); }
+          finally { clearTimeout(timer); }
+          NODE
