@@ -159,3 +159,27 @@
 .parts-search-page .part-image,.parts-search-page .part-image-placeholder{width:144px;height:132px;flex:0 0 144px;padding:8px;object-fit:contain;object-position:center;background:#fff;image-rendering:auto}
 .parts-search-page .part-image{display:block;max-width:144px;max-height:132px}
 @media(max-width:600px){.parts-search-page .part-detail-top{align-items:flex-start}.parts-search-page .part-image,.parts-search-page .part-image-placeholder{width:94px;height:94px;flex-basis:94px;padding:5px}.parts-search-page .part-image{max-width:94px;max-height:94px}}
+
+
+/* Keep complete part reference photos visible at every viewport. */
+.parts-search-page .part-image{
+ display:block;
+ width:144px!important;
+ height:132px!important;
+ max-width:144px!important;
+ max-height:132px!important;
+ flex:0 0 144px;
+ padding:5px!important;
+ object-fit:contain!important;
+ object-position:center!important;
+ background:#fff;
+}
+@media(max-width:600px){
+ .parts-search-page .part-image{
+  width:100px!important;
+  height:100px!important;
+  max-width:100px!important;
+  max-height:100px!important;
+  flex-basis:100px;
+ }
+}
