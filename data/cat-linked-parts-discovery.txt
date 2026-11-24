@@ -1239,3 +1239,29 @@ Source pages:
 3J-1907 | 1.98 x 11.89mm 90A NBR O-Ring | Cat Parts Store frequently bought together with 9D-2734 fuel pump/governor gasket | cat_linked_candidate; needs_individual_verification
 8M-5661 | 3.53 x 47.22mm 70A VMQ O-Ring | Cat Parts Store frequently bought together with 9D-2734 fuel pump/governor gasket | cat_linked_candidate; needs_individual_verification
 0R-5382 | Cat Reman Turbocharger | Cat Parts Store Compare Alternate Parts for 9N-6753 turbocharger | cat_linked_candidate; needs_individual_verification
+
+3J-1907 | 1.98 x 11.89mm 90A NBR O-Ring | Cat Parts Store O-ring seal for 9S-8004 hex-drive plug | cat_linked_candidate; needs_individual_verification
+3K-0360 | 2.21 x 16.36mm 90A NBR O-Ring | Cat Parts Store O-ring seal for 9S-8005 hex-drive plug | cat_linked_candidate; needs_individual_verification
+6Y-0473 | 6.35mm Diameter Clear Plug for Track Idler | Cat Parts Store frequently bought together with 9W-4264 track seal | cat_linked_candidate; needs_individual_verification
+7G-4332 | 21.2mm OD Track Roller Rubber Stopper | Cat Parts Store frequently bought together with 9W-4264 track seal | cat_linked_candidate; needs_individual_verification
+252-6329 | Track Seal Set | Cat Parts Store frequently bought together with 9W-4264 track seal | cat_linked_candidate; needs_individual_verification
+239-5509 | Track Link Ring Set | Cat Parts Store frequently bought together with 9W-4264 track seal | cat_linked_candidate; needs_individual_verification
+6V-5048 | 1.83 x 8.92mm 75A FKM O-Ring | Cat Parts Store related item for 9S-8004/9X-3402 connector socket | cat_linked_candidate; needs_individual_verification
+2R-0098 | 5.33 x 456.06mm 75A NBR O-Ring | Cat Parts Store frequently bought together with 9S-8005 hex-drive plug | cat_linked_candidate; needs_individual_verification
+2S-4078 | 3 x 37.47mm 90A NBR O-Ring | Cat Parts Store frequently bought together with 9S-8005 hex-drive plug | cat_linked_candidate; needs_individual_verification
+6V-9746 | 1.78 x 18.94mm 90A NBR O-Ring | Cat Parts Store frequently bought together with 9S-8005 hex-drive plug | cat_linked_candidate; needs_individual_verification
+3S-2093 | 202mm Long Cable Strap | Cat Parts Store frequently bought together with 9X-3402 connector socket | cat_linked_candidate; needs_individual_verification
+3S-2094 | Cable Strap | Cat Parts Store frequently bought together with 9X-3402 connector socket | cat_linked_candidate; needs_individual_verification
+3S-2095 | Cable Strap | Cat Parts Store frequently bought together with 9X-3402 connector socket | cat_linked_candidate; needs_individual_verification
+1R-1808 | Engine Oil Filter | Cat Parts Store frequently bought together with 9X-3404 battery | cat_linked_candidate; needs_individual_verification
+360-8960 | Engine Fuel Filter Element | Cat Parts Store frequently bought together with 9X-3404 battery | cat_linked_candidate; needs_individual_verification
+479-4133 | Ultra High Efficiency Fuel Water Separator | Cat Parts Store frequently bought together with 9X-3404 battery | cat_linked_candidate; needs_individual_verification
+346-6688 | Air Cleaner Secondary Element | Cat Parts Store frequently bought together with 9X-3404 battery | cat_linked_candidate; needs_individual_verification
+528-0585 | Engine Air Filter | Cat Parts Store frequently bought together with 9X-3404 battery | cat_linked_candidate; needs_individual_verification
+471-7003 | Transmission Hydraulic Filter | Cat Parts Store frequently bought together with 9X-3404 battery | cat_linked_candidate; needs_individual_verification
+5N-6055 | Water Pump Seal | Cat Parts Store related component for 9Y-5068 impeller | cat_linked_candidate; needs_individual_verification
+5N-2902 | 90mm Outer Diameter Lip Seal | Cat Parts Store related component for 9Y-5068 impeller | cat_linked_candidate; needs_individual_verification
+3N-8463 | Bearing-Spherical Roller | Cat Parts Store related component for 9Y-5068 impeller | cat_linked_candidate; needs_individual_verification
+3N-8462 | 184.3mm Inside Diameter Seal O Ring | Cat Parts Store related component for 9Y-5068 impeller | cat_linked_candidate; needs_individual_verification
+4M-6107 | 50mm Minimum Internal Diameter Bearing | Cat Parts Store related component for 9Y-5068 impeller | cat_linked_candidate; needs_individual_verification
+1P-3705 | 44.70mm Rubber Rectangular Seal | Cat Parts Store related item for 9Y-9236 sight gauge body | cat_linked_candidate; needs_individual_verification
