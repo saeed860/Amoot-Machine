@@ -259,6 +259,11 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["1W4879","CORE A",4374.74,7218.32,"۲۰ New Aftermarket"],
+ ["1W5009","CRANKSHAFT",14277.77,23558.32,"۷ New Aftermarket؛ ۱ Rebuilt"],
+ ["1W6473","COMPRESSOR G",2769.87,4570.29,"۷۲ New Aftermarket"],
+ ["1W9771","CRANKSHAFT",5486.85,9053.30,"۷ New Aftermarket"],
+ ["20R0849","INJ GP FUE",1350.50,2228.32,"۲ New Aftermarket؛ ۱ Call For Pricing"],
  ["1U5470","PRESSURE G",1941.52,3203.51,"۲ New Aftermarket"],
  ["1U8846","GASKET MAKER",20.64,34.06,"۹۰۸ New Aftermarket"],
  ["1R1807","FILTER A",23.87,39.39,"۱٬۱۲۶ New Aftermarket؛ ۳ New Genuine Surplus"],
