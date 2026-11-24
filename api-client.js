@@ -259,6 +259,11 @@
   const data=await api('/api/products?'+params.toString(),{auth:false});
   const rows=Array.isArray(data.items)?data.items:[];
   const offRoadPriceRows=[
+ ["2979275","SPRING GP-",7321.76,12080.90,"در موجودی دقیق فروشنده یافت نشد؛ قیمت OEM List موجود است"],
+ ["2979546","SEAL GP DU",1842.18,3039.60,"۴ New Genuine Surplus"],
+ ["2995204","PISTON AS",1685.66,2781.34,"۲۵۴ New Aftermarket؛ ۱۴ Used"],
+ ["2995344","YOKE",3600.43,5940.71,"۳ New Aftermarket"],
+ ["2995840","CONT GP-XM",1345.02,2219.28,"۲ New Aftermarket"],
  ["2929964","PUMP GP",4842.40,7989.96,"۲۶ New Aftermarket؛ ۱ Call For Pricing؛ ۱ Used"],
  ["2935712","CYL GP-065",1468.07,2422.32,"۲۷ New Aftermarket"],
  ["2976876","KIT-GASKET",2354.18,3884.40,"۱۱ New Aftermarket"],
