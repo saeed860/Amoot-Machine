@@ -21,6 +21,11 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - name: Restore Cat enrichment checkpoint
+        uses: actions/cache@v4
+        with:
+          path: artifacts/cat-official-enrichment-checkpoint.json
+          key: cat-official-enrichment-v1
       - run: npm install --no-save playwright
       - run: npx playwright install --with-deps chromium
       - name: Extract public Cat Parts product metadata (no account prices)
