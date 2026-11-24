@@ -498,3 +498,8 @@ Three more exact public Off Road detail pages were found: **0816876**, **4619930
 ## Marine-engine Off Road index batch (24 Nov 2026)
 
 A targeted public-index cross-check covered C32/C9 numbers 305-8921, 207-2422, 353-9049, 362-0801, 438-5385, 258-0794, 197-5987, 242-5336, 245-3777, 6L-2280, 149-3239, 315-8339 and 113-1110. None appeared in the public 500-part index; this is not a full-inventory stock check and does not establish non-availability. Exact Off Road OEM prices and quantities remain unknown for this batch. The index does include 4619930, whose exact page was already documented. Third-party retail/cross-reference observations for 4385385, 6L2280 and 3058921 are kept separate and are not Off Road quotes or Cat-confirmed supersessions. See [the detailed Off Road pricing-source assessment](offroadeq-pricing-source.md). No Amoot price, stock or sellable SKU was changed.
+
+
+## C18/C15 and 3400-family Off Road public-index batch (24 Nov 2026)
+
+The public Off Road 500-part index was cross-checked against 18 additional C18/C15/3400-family part numbers: 493-9456, 150-3141, 247-0825, 323-7317, 229-8568, 109-5326, 222-2886, 241-5732, 279-9884, 488-1675, 4N-4387, 3N-6059, 4N-0933, 105-5081, 4W-6412, 4W-4901, 6N-7421 and 3N-8455. None appeared in the public index; this is not a full-inventory availability check. No exact Off Road OEM list prices or stock quantities were established, and no fallback prices were calculated. See [the detailed Off Road pricing assessment](offroadeq-pricing-source.md). No Amoot price or stock was changed.
