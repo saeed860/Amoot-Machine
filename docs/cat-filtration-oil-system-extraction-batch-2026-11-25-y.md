@@ -55,6 +55,7 @@ This checkpoint contains 50 distinct CAT part numbers, added across sub-batches 
 47. [5S-6051](https://parts.cat.com/en/catcorp/product/5S-6051)
 48. [2W-4561](https://parts.cat.com/en/catcorp/product/2W-4561)
 49. [7F-7590](https://parts.cat.com/en/catcorp/product/7F-7590)
+50. [9Y-6860](https://parts.cat.com/en/catcorp/product/9Y-6860)
 
 ## Classification notes
 
