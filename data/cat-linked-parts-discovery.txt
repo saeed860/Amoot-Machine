@@ -2093,3 +2093,26 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 245-9750 | 50mm Length Tapered Stud | 4 | Cat 422-9391 C13 In-Frame Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
 
 Source page: https://parts.cat.com/en/catcorp/product/422-9391
+
+
+## Additional Cat W330B/330B L/966-series silver overhaul-kit BOM candidates — batch 119
+
+Source: official Cat Parts Store product page 398-0452, Engine Overhaul Kit - Silver. Compatible models explicitly shown: WHEELED EXCAVATOR W330B; EXCAVATOR 330-A, 330B L, 330B, 330 L, 330-A L; WHEEL LOADER 966D, 966F, 966E, 966G, 972G, 966F II. Eighteen other first-page items were already in the discovery queue or original seed list and are not duplicated. The fourteen new rows below are BOM references only; standalone orderability, inventory, price, and exact serial/arrangement fitment remain unconfirmed.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+0L-0364 | Engine Oil Lines Lock | 2 | Cat 398-0452 Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+111-8010 | Water Temperature Regulator | 1 | Cat 398-0452 Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+117-3035 | Sealing Washer | 12 | Cat 398-0452 Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+134-0641 | 3/8in ID Steel Flat Washer | 1 | Cat 398-0452 Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+168-4531 | 73.91mm Compression Height Piston | 6 | Cat 398-0452 Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+208-4836 | Gasket (WP) Kit | 1 | Cat 398-0452 Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+2W-1707 | 120.65mm Outer Diameter Piston Ring | 6 | Cat 398-0452 Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+2W-1708 | 120.65mm Outer Diameter Intermediate Piston Ring | 6 | Cat 398-0452 Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+2W-9162 | Engine Crankcase Breather | 1 | Cat 398-0452 Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+392-0164 | Oil Cooler and Lines Gasket Kit | 1 | Cat 398-0452 Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+392-4638 | Single Cylinder Head Gasket Kit | 1 | Cat 398-0452 Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+392-5434 | Gasket (FS) Kit | 1 | Cat 398-0452 Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+392-5441 | Block and Oil Pan Gaskets Kit - Central Lower Structure | 1 | Cat 398-0452 Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+393-1165 | Turbocharger Install Gasket Kit | 1 | Cat 398-0452 Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+
+Source page: https://parts.cat.com/en/catcorp/product/398-0452
