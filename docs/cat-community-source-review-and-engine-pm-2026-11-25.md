@@ -2500,3 +2500,11 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - https://parts.cat.com/en/catcorp/product/625-7420
 
 این قطعه به فیتمنت 287B تعمیم داده نشد. پیش از سفارش، قطر شفت، طول sleeve، bearing interface و cylinder arrangement با PIN و Parts Diagram تطبیق داده شود.
+
+
+## دور ۸۷ — 25 Nov 2026
+
+- 229-5468 — COUPLING-MAL؛ صفحه رسمی Cat Parts Store مدل‌های 287B و 297C را صریحاً در Compatible Models فهرست می‌کند. شماره جدید به Master و CSV رسمی 287B افزوده شد.
+- جنس درج‌شده Alloy Steel است؛ چون صفحه Cat ابعاد/شرح دقیق ندارد، نوع اتصال، رزوه/اینترفیس و قطعه مادگی جفت‌شونده باید از Parts Diagram کنترل شود.
+- منبع رسمی: https://parts.cat.com/en/catcorp/product/229-5468
+- شمارنده هدف دور: 4344 شماره یکتا؛ Mirror و Workflow با Master همگام شدند.
