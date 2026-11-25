@@ -1265,3 +1265,6 @@ Source pages:
 3N-8462 | 184.3mm Inside Diameter Seal O Ring | Cat Parts Store related component for 9Y-5068 impeller | cat_linked_candidate; needs_individual_verification
 4M-6107 | 50mm Minimum Internal Diameter Bearing | Cat Parts Store related component for 9Y-5068 impeller | cat_linked_candidate; needs_individual_verification
 1P-3705 | 44.70mm Rubber Rectangular Seal | Cat Parts Store related item for 9Y-9236 sight gauge body | cat_linked_candidate; needs_individual_verification
+
+2H-3932 | 28.17mm Inner Diameter O-Ring Seal | Cat Parts Store frequently bought together with 362-3566 rear bogie assembly | cat_linked_candidate; needs_individual_verification
+5P-3092 | 215.27mm Inner Diameter O-Ring Seal | Cat Parts Store frequently bought together with 362-3566 rear bogie assembly | cat_linked_candidate; needs_individual_verification
