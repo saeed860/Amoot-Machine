@@ -43,26 +43,21 @@ function setServerProducts(rows){db.products=(Array.isArray(rows)?rows:[]);db.ca
 // API bridge setter: update the shared catalog without invoking loadProducts (the API client wraps it).
 window.setApiProducts = function(rows){db.products=Array.isArray(rows)?rows:[];db.catalog_source='server';save();populateModelFilter();};
 window.setServerProducts=setServerProducts;
+const FILTER_SUBCATEGORIES=['فیلتر هوا','فیلتر روغن و روانکاری','فیلتر سوخت و جداکننده آب','فیلتر هیدرولیک و انتقال قدرت','فیلتر آب و خنک‌کاری','فیلتر کابین و تهویه','فیلتر DPF و پس‌پالایش','پایه، محفظه و قطعات مجموعه فیلتر'];
 function categoryInfo(p){
  const raw=String(p.category||'').trim(),name=String(p.name||'').toLowerCase(),description=String(p.description||'').toLowerCase(),technical=String(p.technicalGroup||p.technical_group||'').toLowerCase();
- if(name.includes('filter')||name.includes('فیلتر'))return {parent:'فیلترها',sub:'سایر فیلترها'};
- const t=(name+' '+raw+' '+description+' '+technical).replace(/[_-]+/g,' ');
+ const extra=[p.group,p.type,p.applicationType,p.application_type,p.sourceName,p.source_name].filter(Boolean).join(' ').toLowerCase();
+ const t=(name+' '+raw+' '+description+' '+technical+' '+extra).replace(/[_-]+/g,' ');
  const filterPattern=/فیلتر|filter|هواکش|breather|جداکننده.?آب|water.?separator|suction.?screen|filter.?screen|screen.?assembly|strainer|air.?cleaner|pre.?cleaner|precleaner|after.?treatment|aftertreatment|dpf|diesel.?particulate|def.?filter|diesel.?exhaust.?fluid|coolant.?conditioner|water.?spray.?filter|oil.?filter|fuel.?filter|hydraulic.?filter|cabin.?filter|lube.?filter|separator.?filter|filter.?base|filter.?housing|filter.?element/.test(t);
  if(filterPattern){
-  let sub='سایر فیلترها';
-  if(/کابین|cabin/.test(t))sub='فیلتر کابین';
-  else if(/\bdef\b|diesel exhaust fluid|urea|اگزوز دیزل/.test(t))sub='فیلتر DEF و پس‌پالایش';
-  else if(/\bdpf\b|diesel particulate|soot filter|فیلتر دوده|aftertreatment/.test(t))sub='فیلتر DPF و پس‌پالایش';
-  else if(/water separator|جداکننده.?آب/.test(t)&&/fuel|سوخت/.test(t))sub='فیلتر سوخت و جداکننده آب';
-  else if(/سوخت|fuel/.test(t))sub='فیلتر سوخت';
-  else if(/هیدرولیک|hydraulic|transmission/.test(t))sub='فیلتر هیدرولیک و انتقال قدرت';
-  else if(/روغن|lube|lubrication|oil/.test(t))sub='فیلتر روغن و روانکاری';
-  else if(/water spray|آب.?پاش/.test(t))sub='فیلتر سیستم آب‌پاش';
-  else if(/air conditioner|a\/c|تهویه|کولر/.test(t))sub='فیلتر تهویه و کولر';
-  else if(/خنک.?کاری|coolant|cooling|فیلتر آب/.test(t))sub='فیلتر آب و سیستم خنک‌کاری';
-  else if(/breather|vent filter|case vent|crankcase|fumes disposal|هواکش|تنفسی/.test(t))sub='هواکش و فیلتر تنفسی';
-  else if(/هوا|air cleaner|pre.?cleaner|هوای موتور/.test(t))sub='فیلتر هوا و هواکش ورودی';
-  else if(/filter base|filter housing|filter assembly|پایه فیلتر|محفظه فیلتر|مجموعه فیلتر/.test(t))sub='پایه، محفظه و مجموعه فیلتر';
+  let sub=FILTER_SUBCATEGORIES[7];
+  if(/\bcabin\b|کابین|air.?condition|a\/c|تهویه|کولر/.test(t))sub=FILTER_SUBCATEGORIES[5];
+  else if(/\bdpf\b|diesel.?particulate|soot|def.?filter|diesel.?exhaust.?fluid|after.?treatment|aftertreatment|اگزوز دیزل|پس.?پالایش|دوده/.test(t))sub=FILTER_SUBCATEGORIES[6];
+  else if(/water.?separator|جداکننده.?آب|fuel|سوخت/.test(t))sub=FILTER_SUBCATEGORIES[2];
+  else if(/hydraulic|transmission|هیدرولیک|انتقال قدرت/.test(t))sub=FILTER_SUBCATEGORIES[3];
+  else if(/coolant|cooling|water.?spray|فیلتر آب|خنک.?کاری|آب.?پاش/.test(t))sub=FILTER_SUBCATEGORIES[4];
+  else if(/oil|lube|lubrication|روغن|روانکاری/.test(t))sub=FILTER_SUBCATEGORIES[1];
+  else if(/air|هوا|breather|vent|هواکش|تنفسی|pre.?cleaner|air.?cleaner/.test(t))sub=FILTER_SUBCATEGORIES[0];
   return {parent:'فیلترها',sub};
  }
  if(/برقی|electrical|alternator|starter|sensor|switch/.test(t))return {parent:'قطعات برقی',sub:/استارت|starter/.test(t)?'استارت':/دینام|alternator/.test(t)?'دینام و شارژ':'سنسورها و کنترل الکترونیکی'};
@@ -95,7 +90,7 @@ function renderProducts(){
  grid.classList.add('product-category-groups');
  grid.innerHTML=parents.map((parent,index)=>{
   const items=products.filter(p=>categoryInfo(p).parent===parent);
-  const subs=[...new Set(items.map(p=>categoryInfo(p).sub))].sort((a,b)=>a.localeCompare(b,'fa'));
+  const subs=parent==='فیلترها'?FILTER_SUBCATEGORIES:[...new Set(items.map(p=>categoryInfo(p).sub))].sort((a,b)=>a.localeCompare(b,'fa'));
   const subMarkup=subs.map(sub=>{const subItems=items.filter(p=>categoryInfo(p).sub===sub);return '<div class="product-subcategory"><div class="product-subcategory-head"><h4>'+esc(sub)+'</h4><button type="button" class="subcategory-view-all" onclick="showSubcategoryProducts(\''+esc(parent)+'\',\''+esc(sub)+'\')">مشاهده همه ('+subItems.length.toLocaleString('fa-IR')+') ←</button></div><div class="product-grid">'+subItems.slice(0,4).map(productCardHtml).join('')+'</div></div>'}).join('');
   return '<section class="product-category-section"><div class="product-category-heading"><div><span class="category-kicker">AMOOT MACHINE · GROUP '+String(index+1).padStart(2,'0')+'</span><h3>'+esc(parent)+'</h3><small>'+items.length.toLocaleString('fa-IR')+' محصول · '+subs.length.toLocaleString('fa-IR')+' زیردسته</small></div><button type="button" class="category-view-all" onclick="showCategoryProducts(\''+esc(parent)+'\')">مشاهده همه '+esc(parent)+' <b>←</b></button></div>'+subMarkup+'</section>';
  }).join('');
