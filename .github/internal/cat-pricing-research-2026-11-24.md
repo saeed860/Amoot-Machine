@@ -5181,3 +5181,37 @@ Post-update verification: all ten SKUs exist with Cat official item-page evidenc
 Six related leads added: 5P-3092, 8T-1981, 5H-6734, 1J-2890, 4J-3342 and 6P-7577. They remain candidates pending individual verification.
 
 Overall reviewed progress: 94/500 batches = 940/5,000 product target (18.8%). Original Cat seed list 787/787 complete; discovery-derived products individually verified/updated: 173. Remaining target: 4,060 products.
+
+## Batch 95/500 — Cat-linked discovery candidates 151–160 (2026-11-25)
+
+Ten candidates were checked against official Cat Parts Store pages. Eight new rows were inserted; existing 360-8960 and 523-4987 rows were refreshed with current page content. All ten were re-queried and compatible-model arrays deduplicated.
+
+Verified:
+- 6Y-2590 — Track Link, 215.9mm pitch. Cat hardened-steel track link. Specs: overall height 4.882in, bore-to-rail 2.694in, crown height 0, boron/carbon steel, press-fit, HD UC, steel spec 1E0669, pin-end strap 1.654in, bushing-end strap 1.063in, bolt hole 0.906in, track-pin bore 1.799in, pin-end boss thickness 0.846in, pitch 8.5in/215.9mm, rail-to-pin-boss OD 1.433in, no wear sensor, M22 master bolt, bushing bore 2.661in. Fitment across forestry feller bunchers, MD6240/MD6290 drills, broad 330/336/340 excavators and MHPU variants (74 labels).
+- 314-2692 — 280mm OD Intermediate Piston Ring for D3600. Length 15in, height 0.25in, ductile/spheroidal iron. Fitment genset 3608/3606/C280-16/3616, marine 3616/3612/C280-16/C280-12/C280-6/C280-8, petroleum C280-12, locomotive 3612 and military genset 3608 (9 labels including engine arrangement labels).
+- 314-2693 — 280mm OD Oil Piston Ring for D3600. Length 15in, height 1.5in, gray flake iron. Same listed D3600 family applications (9 labels).
+- 123-2941 — 454.00mm Purple Color Ring Seal. Rectangular cross-section ring, width 0.11in, height 0.17in, ID 17.87in, rubber. Cat notes dimensions/material for reference only and color may differ. Fitment AD60/AD55/AD55B/AD63, 785/789/773/777/775 trucks, quarry trucks, 776/772/784 tractors, off-highway trucks and RC20 (31 labels).
+- 9X-7307 — 492.50mm ID PTFE Rectangular Seal Ring. ID 19.39in, cross-section width 0.16in, height 0.08in, PTFE plastic, primary sealing material plastic. Cat notes dimensions/material for reference only. Fitment truck/quarry truck/tractor/off-highway truck families and RC20 (27 labels).
+- 7D-7519 — 3.53 ×523.47mm 75A NBR O-Ring. Cross-section 0.139in, ID 20.609in/523.47mm, NBR 75. Fitment D6K family, AE40/AD45/AD40 underground trucks, D40D/D400D, PL61, 953/963 track loaders, 785/789/775/773/777/769 trucks, quarry trucks, R1700 II LHD, 772/776/784 tractors and RC20 (56 labels).
+- 6M-5218 — 440.69mm ID 75A NBR O-Ring. Cross-section 0.21in, ID 17.35in/440.69mm, NBR 75. Fitment AE40/AD45/AD60/AD55/AD63, 637G/637K, 740/D400E II, 789/777/775/773/793 truck families, 14H/14G graders, 56/56H winches, RC20, D6H, 735, D10R, 6A/6S/6SU and TH43-C18 (87 labels).
+- 30R-1361 — Cat Reman Auxiliary Water Pump. Reman brand/condition preserved. Fitment genset 3508 and marine engine 3512B; Cat warranty same-as-new 12 months subject to limitations. Compare alternate 318-2579 Auxiliary Sea Water Pump; not asserted interchangeable.
+- 360-8960 — Existing Engine Fuel Filter Element refreshed. Cat descriptive copy says Ultra High Efficiency and details one-piece can, non-metallic nylon center tube, acrylic beads, spiral roving and molded end caps; specification panel says Advanced High Efficiency. Conflict flagged; dimensions 3.209in diameter ×6.102in length, Out-to-In, cartridge. Existing 381 fitment labels retained.
+- 523-4987 — Existing Element Separator refreshed. Cat description says Ultra High Efficiency Fuel Water Separator, meltblown media, glass-filled nylon end caps, fiberglass/epoxy roving and 250.3mm/9.85in length; specification panel says 10.169in length, diameter 4.043in, Out-to-In, polyamide, UHE, cartridge. Length discrepancy flagged; existing 57 fitment labels retained.
+
+Cat item pages:
+- https://parts.cat.com/en/catcorp/product/6Y-2590
+- https://parts.cat.com/en/catcorp/product/314-2692
+- https://parts.cat.com/en/catcorp/product/314-2693
+- https://parts.cat.com/en/catcorp/product/123-2941
+- https://parts.cat.com/en/catcorp/product/9X-7307
+- https://parts.cat.com/en/catcorp/product/7D-7519
+- https://parts.cat.com/en/catcorp/product/6M-5218
+- https://parts.cat.com/en/catcorp/product/30R-1361
+- https://parts.cat.com/en/catcorp/product/360-8960
+- https://parts.cat.com/en/catcorp/product/523-4987
+
+Post-update verification: all ten SKUs exist with Cat official item-page evidence and REFERENCE status. Eight inserted, two existing rows updated. Fitment counts after de-duplication: 6Y-2590=74; 314-2692=9; 314-2693=9; 123-2941=31; 9X-7307=27; 7D-7519=56; 6M-5218=87; 30R-1361=2; 360-8960=381; 523-4987=57. Two source discrepancies flagged: 360-8960 efficiency category and 523-4987 length. Cat Reman condition preserved. No prices, stock or interchange guarantees added.
+
+Twenty-four further leads added: 482-1221, 482-1222, 513-0097, 513-0098, 516-2629, 516-2630, 610-4679, 610-4680, 610-6261, 610-6262, 620-6849, 620-6850, 6Y-2589, 314-2691, 175-5060, 123-7271, 5P-4076, 124-3520, 318-2579, 479-4131, 462-1171, 322-3155, 7W-2326, 479-4133 and 509-5694. They remain candidates pending individual verification.
+
+Overall reviewed progress: 95/500 batches = 950/5,000 product target (19.0%). Original Cat seed list 787/787 complete; discovery-derived products individually verified/updated: 183. Remaining target: 4,050 products.
