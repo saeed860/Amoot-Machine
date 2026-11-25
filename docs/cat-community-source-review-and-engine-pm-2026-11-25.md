@@ -1899,3 +1899,17 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - https://parts.cat.com/en/catcorp/product/264-4297
 
 برای cap، قطر دهانه، thread، آب‌بندی و non-vented بودن؛ برای breather، عملکرد تنفسی و اندازه رزوه؛ و برای sensor، thread، 2-pin DT و نوع خروجی باید با tank group و PIN دستگاه تطبیق داده شود. قطعه 258-2829 به فیتمنت 287B تعمیم داده نشد.
+
+## دور ۶۳ — breather و fuel tube رسمی Cat (25 Nov 2026)
+
+سه شماره از صفحات رسمی Cat Parts Store تکمیل شدند:
+- 305-8044 — AC Breather Kit؛ Compatible Models شامل 297C است اما 287B را ندارد؛ به Master و CSV مستقل 297C-only افزوده شد. صفحه کیت اجزایی مانند 305-8048 Air Conditioner Breather Tube، 348-3485 Air Cleaner Vacuator Valve و 7X-2031 Push On Nut را نشان می‌دهد؛ این اجزا بدون بررسی مستقل فیتمنت جداگانه ثبت نشدند.
+- 258-2988 — Fuel Tube Assembly؛ Compatible Models شامل 297C است اما 287B را ندارد؛ به Master و CSV مستقل 297C-only افزوده شد.
+- 235-4931 — 9mm Inner Diameter Breather Hose؛ Compatible Models صریحاً 287B و 297C را شامل می‌شود؛ به Master و CSV رسمی 287B اضافه شد.
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/product/305-8044
+- https://parts.cat.com/en/catcorp/product/258-2988
+- https://parts.cat.com/en/catcorp/product/235-4931
+
+برای AC Breather Kit، گزینه HVAC و اجزای kit؛ برای fuel tube، tee adapter و مسیر supply/return؛ و برای breather hose، قطر داخلی، طول و مسیر اتصال crankcase باید با PIN و engine arrangement تطبیق داده شود. 305-8044 و 258-2988 به فیتمنت 287B تعمیم داده نشدند.
