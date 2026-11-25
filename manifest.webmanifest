@@ -1,0 +1,22 @@
+{
+  "id": "./",
+  "name": "آموت ماشین | AMOOT MACHINE",
+  "short_name": "آموت ماشین",
+  "description": "مرجع تخصصی تأمین قطعات ماشین‌آلات سنگین و تجهیزات صنعتی",
+  "lang": "fa",
+  "dir": "rtl",
+  "start_url": "./index.html?source=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#ffffff",
+  "theme_color": "#202326",
+  "icons": [
+    {
+      "src": "./assets/amoot-logo.png",
+      "sizes": "640x640",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
