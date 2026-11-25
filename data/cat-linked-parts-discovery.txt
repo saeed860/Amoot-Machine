@@ -1834,3 +1834,30 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 593-7750 | Water Temperature Regulator | 2 | Cat 436-2788 3412C overhaul kit BOM; compatible-model label Generator Set | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
 
 Source page: https://parts.cat.com/en/catcorp/product/436-2788
+
+
+## Additional Cat 3412 top-end overhaul-kit BOM candidates — batch 107
+
+Source: official Cat Parts Store product page 460-9788, Engine Overhaul (Top End) Kit. The page labels this an Electric Power Engine Repair Solution / 3412 Engine Overhaul, but the compatibility section explicitly says Cat currently has no compatibility information for this product. Therefore no engine model fitment is assigned here. Fourteen other displayed items were already recorded and are not duplicated. BOM quantities are not standalone orderability, stock, price, or compatibility confirmation.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+114-8718 | 26.64mm Inner Diameter Fuel System O-Ring Seal | 12 | Cat 460-9788 Electric Power 3412 Top-End Overhaul Kit BOM; product page has no compatibility data | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+126-2702 | Edge Bonded Seal Gasket | 2 | Cat 460-9788 Electric Power 3412 Top-End Overhaul Kit BOM; product page has no compatibility data | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+142-1699 | Main Water Pump Install Kit | 1 | Cat 460-9788 Electric Power 3412 Top-End Overhaul Kit BOM; product page has no compatibility data | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+198-6068 | 1.71mm Thickness Edge Bonded Seal Gasket | 2 | Cat 460-9788 Electric Power 3412 Top-End Overhaul Kit BOM; product page has no compatibility data | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+1S-0004 | 5.33 x 18.42mm 70A VMQ O-Ring | 2 | Cat 460-9788 Electric Power 3412 Top-End Overhaul Kit BOM; product page has no compatibility data | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+272-2583 | 2.62 x 53.64mm 75A FKM O-Ring | 5 | Cat 460-9788 Electric Power 3412 Top-End Overhaul Kit BOM; product page has no compatibility data | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+459-9781 | Oil Cooler and Lines Gasket Kit | 1 | Cat 460-9788 Electric Power 3412 Top-End Overhaul Kit BOM; product page has no compatibility data | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+460-0780 | Gasket (SCH) Kit | 2 | Cat 460-9788 Electric Power 3412 Top-End Overhaul Kit BOM; product page has no compatibility data | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+460-2324 | Aftercooler and Lines Install Kit | 1 | Cat 460-9788 Electric Power 3412 Top-End Overhaul Kit BOM; product page has no compatibility data | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+4F-7390 | 53.34mm Inner Diameter Seal O-Ring | 1 | Cat 460-9788 Electric Power 3412 Top-End Overhaul Kit BOM; product page has no compatibility data | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+4N-1104 | 0.79mm Thick Fuel Line Gasket | 1 | Cat 460-9788 Electric Power 3412 Top-End Overhaul Kit BOM; product page has no compatibility data | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+4N-1868 | 0.8mm Thick Governor Adapter Gasket | 1 | Cat 460-9788 Electric Power 3412 Top-End Overhaul Kit BOM; product page has no compatibility data | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+5F-9144 | 1.78 x 7.65mm 75A NBR O-Ring | 1 | Cat 460-9788 Electric Power 3412 Top-End Overhaul Kit BOM; product page has no compatibility data | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+7B-4910 | 0.793mm Thick Water Lines Gasket | 1 | Cat 460-9788 Electric Power 3412 Top-End Overhaul Kit BOM; product page has no compatibility data | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+7M-7273 | 2.05mm Thick Turbocharger Gasket | 2 | Cat 460-9788 Electric Power 3412 Top-End Overhaul Kit BOM; product page has no compatibility data | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+8L-3873 | Hydromechanical Fuel Shutoff System Flange Gasket | 2 | Cat 460-9788 Electric Power 3412 Top-End Overhaul Kit BOM; product page has no compatibility data | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+9X-7378 | 1.83 x 8.92mm 78A HNBR O-Ring | 3 | Cat 460-9788 Electric Power 3412 Top-End Overhaul Kit BOM; product page has no compatibility data | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+9Y-2988 | Engine Crankcase Breather | 2 | Cat 460-9788 Electric Power 3412 Top-End Overhaul Kit BOM; product page has no compatibility data | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+
+Source page: https://parts.cat.com/en/catcorp/product/460-9788
