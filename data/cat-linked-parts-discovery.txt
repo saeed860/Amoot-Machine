@@ -3143,3 +3143,40 @@ Source page: https://parts.cat.com/en/catcorp/product/562-8197
 - Coverage has expanded beyond engine overhaul BOMs into marine transmission, drivetrain and torque-converter bearings, final-drive bearings, hydraulic accumulators, fuel-system gaskets, fastener bins and power-module hardware.
 - Independent supplier file also now holds separately tagged aftermarket price and fitment leads; none are treated as confirmed OEM cost or stock.
 - Continue at batch 186. 185 is a progress marker only, not a stopping point; the requested target remains 5,000 checkpoints.
+
+
+## Additional Cat marine transmission lock-and-sealing sub-kit BOM candidates — batch 186
+
+Source: official Cat Parts Store product page 3N-8943, KIT-LOCK & SEALING. Compatible models explicitly shown: MARINE ENGINE / 3406B, D334, 3406, 3306, D333C. This is the lock/sealing sub-kit referenced as one component in Cat 3N-8942 Marine Transmission Kit (batch 177). The shared 0L-0364 engine-oil-lines lock was already recorded and is not duplicated. The 28 new rows below add marine transmission gaskets, rings, seals and piston-carrier components. Confirm exact transmission model and serial configuration.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+1L-9393 | Gasket | 1 | Cat 3N-8943 Marine Transmission Lock & Sealing Sub-Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+1L-9394 | Gasket | 2 | Cat 3N-8943 Marine Transmission Lock & Sealing Sub-Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+277-8996 | 108.10mm Outer Diameter Lip Type Seal | 2 | Cat 3N-8943 Marine Transmission Lock & Sealing Sub-Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+2H-6234 | Ring | 2 | Cat 3N-8943 Marine Transmission Lock & Sealing Sub-Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+2L-1388 | Gasket | 1 | Cat 3N-8943 Marine Transmission Lock & Sealing Sub-Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+2L-5895 | 0.08in Thick Oil Return Pipe Gasket | 1 | Cat 3N-8943 Marine Transmission Lock & Sealing Sub-Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+3N-6915 | 6in Inner Diameter Piston Carrier Seal | 2 | Cat 3N-8943 Marine Transmission Lock & Sealing Sub-Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+4H-8101 | Seal | 1 | Cat 3N-8943 Marine Transmission Lock & Sealing Sub-Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+4L-9748 | Marine Transmission Cover Plate Gasket | 1 | Cat 3N-8943 Marine Transmission Lock & Sealing Sub-Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+4L-9757 | Marine Transmission Piston Ring | 1 | Cat 3N-8943 Marine Transmission Lock & Sealing Sub-Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+4L-9758 | Ring | 1 | Cat 3N-8943 Marine Transmission Lock & Sealing Sub-Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+4L-9760 | Gasket | 1 | Cat 3N-8943 Marine Transmission Lock & Sealing Sub-Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+4L-9761 | Gasket | 1 | Cat 3N-8943 Marine Transmission Lock & Sealing Sub-Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+4L-9762 | Gasket | 1 | Cat 3N-8943 Marine Transmission Lock & Sealing Sub-Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+4L-9763 | 0.03in Thick Marine Transmission Housing Gasket | 1 | Cat 3N-8943 Marine Transmission Lock & Sealing Sub-Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+4L-9764 | Transmission Housing Gasket | 1 | Cat 3N-8943 Marine Transmission Lock & Sealing Sub-Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+4L-9765 | Gasket | 1 | Cat 3N-8943 Marine Transmission Lock & Sealing Sub-Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+4L-9767 | Gasket | 1 | Cat 3N-8943 Marine Transmission Lock & Sealing Sub-Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+4L-9783 | 2.25in Outer Diameter Transmission Piston Ring | 2 | Cat 3N-8943 Marine Transmission Lock & Sealing Sub-Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+4L-9820 | Ring | 2 | Cat 3N-8943 Marine Transmission Lock & Sealing Sub-Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+4M-8610 | 85.73mm Outer Diameter Piston Ring | 2 | Cat 3N-8943 Marine Transmission Lock & Sealing Sub-Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+6L-2194 | Ring | 2 | Cat 3N-8943 Marine Transmission Lock & Sealing Sub-Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+6L-5209 | 0.03in Thick Marine Transmission Housing Gasket | 1 | Cat 3N-8943 Marine Transmission Lock & Sealing Sub-Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+6L-6565 | Ring | 2 | Cat 3N-8943 Marine Transmission Lock & Sealing Sub-Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+7L-2175 | 3.53 x 37.69mm 75A ACM O-Ring | 1 | Cat 3N-8943 Marine Transmission Lock & Sealing Sub-Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+7L-2180 | 15.54mm Internal Diameter O-Ring Seal | 1 | Cat 3N-8943 Marine Transmission Lock & Sealing Sub-Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+7L-4090 | 3.53 x 129.77mm 75A ACM O-Ring | 1 | Cat 3N-8943 Marine Transmission Lock & Sealing Sub-Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+9G-6414 | 0.79mm Thick Gasket | 1 | Cat 3N-8943 Marine Transmission Lock & Sealing Sub-Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+
+Source page: https://parts.cat.com/en/catcorp/product/3N-8943
