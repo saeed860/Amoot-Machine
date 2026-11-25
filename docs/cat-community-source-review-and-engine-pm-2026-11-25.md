@@ -2423,3 +2423,13 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - https://parts.cat.com/en/catcorp/product/238-7712
 
 برای frame assembly، سمت چپ/راست، weldment revision، mounting bosses و PIN range باید با chassis و track frame دستگاه تطبیق داده شود. شماره‌های RH/LH با یکدیگر قابل جایگزینی فرض نمی‌شوند.
+
+
+## دور ۸۱ — 25 Nov 2026
+
+- دو شماره جدید از صفحات رسمی Cat Parts Store با فیتمنت صریح 287B ثبت شد:
+  - 233-5680 — FILM؛ فیتمنت 287B؛ جنس PVC/PET؛ شرح Cat خالی است و محل دقیق فیلم باید از Parts Diagram همان PIN تأیید شود.
+  - 224-8645 — Warning Film Label؛ فیتمنت 287B و 297C؛ ابعاد 31.55 × 42.41 × 3.14 اینچ؛ محل نصب و revision متن ایمنی باید تطبیق داده شود.
+- هر دو شماره به Master و CSV رسمی 287B افزوده شدند.
+- منابع رسمی: https://parts.cat.com/en/catcorp/product/233-5680 ؛ https://parts.cat.com/en/catcorp/product/224-8645
+- شمارنده هدف دور: 4335 شماره یکتا؛ Mirror و Workflow با Master همگام شدند.
