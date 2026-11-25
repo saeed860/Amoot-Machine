@@ -1,16 +1,10 @@
-name: Enrich Official Cat Parts Metadata
+name: Experimental - Cat Parts Page Enrichment (Manual Only)
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - "scripts/enrich-cat-official-pages.mjs"
-      - "data/cat-official-part-numbers.txt"
-      - ".github/workflows/cat-official-page-enrichment.yml"
   workflow_dispatch:
     inputs:
       batch_start:
-        description: "Zero-based offset in the 787-part official list"
+        description: "Zero-based offset in the official Cat part-number list (currently 848)"
         required: true
         default: "0"
       batch_size:
@@ -23,8 +17,10 @@ permissions:
 
 concurrency:
   group: cat-official-enrichment
-  cancel-in-progress: true
+  cancel-in-progress: false
 
+# Experimental only: parts.cat.com page navigation repeatedly timed out at the initial product URLs.
+# Curated official Cat pages/PDF guides and separately attributed cross-reference files are the active path.
 jobs:
   enrich:
     runs-on: ubuntu-latest
