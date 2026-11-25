@@ -1761,3 +1761,41 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 198-1517 | 1.2mm Thick Cylinder Block Cover Gasket | 1 | Cat 396-2338 D8N Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
 
 Source page: https://parts.cat.com/en/catcorp/product/396-2338
+
+
+## Additional Cat motor-grader overhaul-kit BOM candidates — batch 105
+
+Source: official Cat Parts Store product page 398-0451, Engine Overhaul Kit - Silver. Compatible models shown: MOTOR GRADER 12H NA, 140H NA, 12G, 160H, 140H, 140G, 160H ES, 143H, 160H NA, 14G, 12H ES, and 140H ES. The page describes Silver-level additions and the Bronze kit contents; the 29 references below are first-page listed kit components not already in the discovery queue or original 787-number seed list. BOM quantities are not standalone orderability, price, stock, or serial-specific fitment confirmation.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+1M-7643 | 18.21mm Thickness Steel Spacer | 1 | Cat 398-0451 Motor Grader Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+1R-0750 | Advanced Efficiency Secondary Fuel Filter | 1 | Cat 398-0451 Motor Grader Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+196-9988 | Bearing Sleeve | 1 | Cat 398-0451 Motor Grader Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+391-8256 | Single Cylinder Head Install Kit | 1 | Cat 398-0451 Motor Grader Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+371-5941 | Cylinder Liner | 6 | Cat 398-0451 Motor Grader Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+221-9941 | 1.78 x 20.35mm 75A FKM O-Ring | 1 | Cat 398-0451 Motor Grader Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+9H-1113 | 16.46mm Free Diameter External Retaining Ring | 2 | Cat 398-0451 Motor Grader Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+6I-2002 | 0.8mm Thick Engine Oil Filter Gasket | 1 | Cat 398-0451 Motor Grader Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+6V-1426 | 70mm Length Fully Threaded Stud | 9 | Cat 398-0451 Motor Grader Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+6V-2982 | Flywheel Housing Gasket Kit - Rear Structure | 1 | Cat 398-0451 Motor Grader Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+7L-6443 | 3/8-16 x 2 1/4 Hex Head Bolt | 2 | Cat 398-0451 Motor Grader Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+9S-3029 | 3.15mm Thick Piston Top Ring | 6 | Cat 398-0451 Motor Grader Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+8M-7145 | 10.2mm Inner Diameter Washer | 11 | Cat 398-0451 Motor Grader Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+061-9458 | 28mm Inner Diameter Fluorocarbon O-Ring Seal | 1 | Cat 398-0451 Motor Grader Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+4J-7533 | 1.63 x 6.07mm 90A NBR O-Ring | 2 | Cat 398-0451 Motor Grader Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+4M-8303 | 20.29mm Inside Diameter Seal-O-Ring | 1 | Cat 398-0451 Motor Grader Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+7N-9520 | 0.8mm Thick Secondary Fuel Filter Gasket | 1 | Cat 398-0451 Motor Grader Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+7M-4046 | 65.17mm Outside Diameter Straight Sleeve Bearing | 4 | Cat 398-0451 Motor Grader Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+6V-3508 | 12.07mm Outside Diameter Non-Threaded Cup-Plug | 2 | Cat 398-0451 Motor Grader Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+6I-0497 | Oil Piston Ring | 6 | Cat 398-0451 Motor Grader Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+1S-9543 | Retainer Piston | 12 | Cat 398-0451 Motor Grader Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+195-0302 | Bearing Sleeve | 1 | Cat 398-0451 Motor Grader Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+116-7577 | Water Temperature Regulator | 1 | Cat 398-0451 Motor Grader Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+1R-1807 | Advanced Efficiency Engine Oil Filter | 1 | Cat 398-0451 Motor Grader Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+281-0029 | Single Fuel Injector Install Gasket Kit | 6 | Cat 398-0451 Motor Grader Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+328-5572 | 83.46mm Outer Diameter Connecting Rod Bearing | 6 | Cat 398-0451 Motor Grader Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+392-7187 | Oil Cooler and Lines Gasket Kit | 1 | Cat 398-0451 Motor Grader Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+393-1181 | Turbocharger Install Gasket Kit | 1 | Cat 398-0451 Motor Grader Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+3E-6914 | 3/8-16 x 7/8 Hex Head Bolt | 6 | Cat 398-0451 Motor Grader Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+
+Source page: https://parts.cat.com/en/catcorp/product/398-0451
