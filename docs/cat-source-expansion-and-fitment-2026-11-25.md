@@ -100,7 +100,7 @@
 - شمارش جاری پس از ادغام Motor Grader و CTL/MTL: **1276 شماره یکتا**.
 - در مرحله تکمیلی موتورهای C18، ده شماره در صفحات رسمی Cat تأیید و به master افزوده شد.
 - شمارش جاری `data/cat-official-part-numbers.txt`: **1286 شماره یکتا**.
-- فایل `data/data/offroad-batch-import-cat-1369.txt` دقیقاً با master یکسان است: **1286 ردیف، بدون تکرار**.
+- فایل `data/data/data/offroad-batch-import-cat-1442.txt` دقیقاً با master یکسان است: **1286 ردیف، بدون تکرار**.
 
 ## قواعد داده و سطح اطمینان
 
@@ -161,3 +161,13 @@ Workflow شماره 45574758840 در صفحه‌های اولیه Cat چند tim
 - منبع PDF رسمی Cat: https://s7d2.scene7.com/is/content/Caterpillar/CM20240126-65173-3d80f
 - منبع رسمی Cat Parts Store برای کیت 539-2619: https://parts.cat.com/en/catcorp/product/539-2619
 - Master و فایل Offroad پس از ادغام: 1369 شماره یکتا.
+
+
+## قطعات سایشی گریدر و GraderBit2
+
+- فایل: `data/cat-motor-grader-drawbar-get-graderbit2-2026-11-25.csv`
+- تعداد رکوردها: 89؛ شماره‌های جدید افزوده‌شده به Master: 73.
+- شامل Standard Drawbar، Top Adjust 4/6-shoe، 14 Motor Grader و GraderBit2 (adapter boards، bits، angling plates، BoreSaver و قطعات نگهدارنده).
+- منبع: https://s7d2.scene7.com/is/content/Caterpillar/CM20240126-65173-3d80f، صفحات 32 تا 39 کاتالوگ رسمی Cat Motor Grader Rig Out.
+- قطعات drawbar و GET بسته به نوع drawbar، تعداد shoe، عرض moldboard و جنس قطعه متفاوت‌اند؛ فیتمنت عمومی فرض نشده است.
+- تعداد Master و فایل Offroad: 1442 شماره یکتا.
