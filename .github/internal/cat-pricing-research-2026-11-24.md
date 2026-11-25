@@ -5215,3 +5215,37 @@ Post-update verification: all ten SKUs exist with Cat official item-page evidenc
 Twenty-four further leads added: 482-1221, 482-1222, 513-0097, 513-0098, 516-2629, 516-2630, 610-4679, 610-4680, 610-6261, 610-6262, 620-6849, 620-6850, 6Y-2589, 314-2691, 175-5060, 123-7271, 5P-4076, 124-3520, 318-2579, 479-4131, 462-1171, 322-3155, 7W-2326, 479-4133 and 509-5694. They remain candidates pending individual verification.
 
 Overall reviewed progress: 95/500 batches = 950/5,000 product target (19.0%). Original Cat seed list 787/787 complete; discovery-derived products individually verified/updated: 183. Remaining target: 4,050 products.
+
+## Batch 96/500 — Cat-linked discovery candidates 161–170 (2026-11-25)
+
+Ten candidates were checked against official Cat Parts Store pages. Six new rows were inserted; four existing rows (509-5694, 479-4131, 571-5253 and 363-9402) were refreshed with current item-page evidence. All ten were re-queried and model arrays deduplicated.
+
+Verified:
+- 509-5694 — Secondary Fuel Filter Element. Cat calls it Ultra High Efficiency. Diameter 3.484in, length 6.654in, Out-to-In, cartridge, polyamide. 53 compatible labels across material handlers, forestry loaders, graders, compact/wheel loaders and excavators.
+- 479-4131 — Water Separator Element, Ultra High Efficiency. Diameter 3.209in, length 8.902in, In-to-Out, cartridge, polyamide. 131 compatible labels across C7.1/C6.6 gensets, XQ230/XQP200, 963/953 track loaders, 815/814 compactors, MH3022/MH3024, graders, loaders, skidders, D5/D6N tractors, AP pavers and excavators.
+- 5I-8670 — Advanced Efficiency Hydraulic Filter. Diameter 3.268in, length 4.764in, Out-to-In, Advanced High Efficiency, cartridge, polyamide. 168 compatible labels across 308/307 mini excavators, 3512 gensets, TK/forestry feller bunchers, 345C shovel logger, M325C/W345C material handlers, 352F OEM/320E/330F OEM, 558 forestry, 385C/5090B shovels and broad 300-series excavators.
+- 106-4572 — 6.35mm ID Radiator Hose. Coolant hose, overall height 0.65in, width 2.5in, length 3.1in. 52 fitment labels across 623/633/621/639/627/631/637 wheel tractors, 3508B genset, 825/815 soil compactors, 834/844/854/824/814 wheel dozers, 24H grader, 836/826 landfill compactors and wheel loaders.
+- 6I-2435 — 80mm ID Radiator Spacer. EPDM rubber, thickness 1in, ID 3.14in, OD 4.25in. Same 52 compatible models as Cat 106-4572.
+- 3K-0360 — 2.21 ×16.36mm 90A NBR O-ring, STOR dash 908. Cross-section 0.087in, ID 0.644in, 3/4–16 fitting, NBR/PTFE, hardness 90A. Cat fluid compatibility includes abrasion, alpha-olefin synthetic lubricants, ethylene glycol, hydrocarbon fuels, petroleum/silicone oils and water/coolants. 104 compatible labels across IT toolcarriers, 550/570/580 harvesters, PP120, 3608 genset, G315B grapple, MD6310 drill, mini excavators, forestry, wheeled excavators, material handlers and CTL/MTL.
+- 142-1340 — Primary Ultra High Efficiency Engine Air Filter. Round primary, 12.323in width/height ×20.079in depth, media type Standard. Title identifies UHE; “Standard” is Cat’s media-type field, not an efficiency category, so both source fields are retained without conflating them. 54 compatible labels including AD60, XQ425/XQ375/XQ350, C9/C13/3406C/3512 gensets, 345C, 352F OEM, 2864C/586C, 740/730 articulated trucks, PM312/313/310, 24M, forestry, material handlers, excavators and MHPUs.
+- 571-5253 — Transmission Filter Element Assembly. Existing row refreshed. Transmission filter, 4.74in diameter ×10.689in length, Out-to-In, Advanced High Efficiency, cartridge, polyamide. 163 compatible labels across SPF743, TR43 power modules, wheel tractor-scrapers, 772/770/777/775/773/789 trucks, graders, D6/D8/D9 tractors, PL83/PL87/PL72 pipelayers, compactors, wheel loaders and articulated trucks.
+- 363-9402 — Cabin Air Filter. Existing row refreshed. Standard media, plastic panel, polypropylene, 8.15in length ×7.402in width, 0.669in height with/without seal. 84 compatible labels across MD5150C, 330F/352F/320E, LD350, 300-series excavators, 6015/6015B and MHPU variants.
+- 093-7521 — Hydraulic/Transmission Oil Filter. Diameter 3.709in, length 6.992in, Out-to-In, Spin-On, mixed metal/nonmetal and carbon steel. Cat marketing description says high efficiency but no explicit efficiency category appears in the specification panel; no category inferred. 78 compatible labels across 3512 gensets, 345C, RC20/RC30, 352F OEM/320E/330F OEM, harvesters, material handlers, mulchers, rotary cutters, forwarders and feller bunchers.
+
+Cat item pages:
+- https://parts.cat.com/en/catcorp/product/509-5694
+- https://parts.cat.com/en/catcorp/product/479-4131
+- https://parts.cat.com/en/catcorp/product/5I-8670
+- https://parts.cat.com/en/catcorp/product/106-4572
+- https://parts.cat.com/en/catcorp/product/6I-2435
+- https://parts.cat.com/en/catcorp/product/3K-0360
+- https://parts.cat.com/en/catcorp/product/142-1340
+- https://parts.cat.com/en/catcorp/product/571-5253
+- https://parts.cat.com/en/catcorp/product/363-9402
+- https://parts.cat.com/en/catcorp/product/093-7521
+
+Post-update verification: all ten SKUs exist with Cat official item-page evidence and REFERENCE status. Six inserted, four existing rows updated. Fitment counts after de-duplication: 509-5694=53; 479-4131=131; 5I-8670=168; 106-4572=52; 6I-2435=52; 3K-0360=104; 142-1340=54; 571-5253=163; 363-9402=84; 093-7521=78. No prices, stock or interchange guarantees added.
+
+Ten additional filter/radiator leads added: 6I-2431, 179-9806, 479-8989, 479-8991, 500-0957, 142-1403, 326-1643, 500-0483, 436-3443 and 525-6206. They remain candidates pending individual verification.
+
+Overall reviewed progress: 96/500 batches = 960/5,000 product target (19.2%). Original Cat seed list 787/787 complete; discovery-derived products individually verified/updated: 193. Remaining target: 4,040 products.
