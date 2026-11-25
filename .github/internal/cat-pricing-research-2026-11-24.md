@@ -3890,3 +3890,44 @@ Additional Cat-linked discovery candidates from official Cat related/frequently-
 These are candidate leads only; individual item-level verification is required before catalog promotion.
 
 Overall reviewed progress: 61/500 batches = 610/5,000 product target (12.2%). Original Cat seed list has 177 SKUs remaining (products 611–787).
+
+## Batch 62/500 — products 611–620 (2026-11-25)
+
+SKUs: 519-6373, 519-7297, 520-2924, 523-3387, 523-4987, 523-8663, 525-7148, 527-2809, 528-1699, 528-8101. Eight Cat pages opened successfully; 519-6373 and 528-1699 were inaccessible in this run, so their existing sparse records were left untouched. The remaining eight were checked for specifications, fitment and related parts. DB rows were re-queried after updates.
+
+Verified:
+- 519-6373: Cat Water Pump Shaft page inaccessible. Existing DB has no verified dimensions, fitment or specifications; no unsupported changes made.
+- 519-7297: Cat 212.5mm Diameter Spacer Plate used in cylinder head. Specs: height 0.72in, length 14.23in, width 10.24in, diameter 8.37in, Gray Iron Casting/Gray (Flake) Iron. Cat compatible model list spans pumpers, generators, off-highway trucks, rotary cutters, hydraulic shovels, D11 tractors, rotary drills, marine/marine auxiliary, mining excavators, petroleum packages/engines/transmissions, gen sets, wheel dozers/loaders, engine-machine/industrial, trucks, spray and tractors. Added three missing labels (2016, G3520, CAT WDS); final count 67. Engine model array populated with 20 explicit engine-family labels.
+- 520-2924: Cat Engine Oil Pump. Cat describes lubrication circulation, reducing friction/wear; 40°C oil temperature and 300kPa pressure. Cat says specifications are still being added. Replaced incomplete fitment with 56 distinct Cat labels across generators, power modules, grader 24H, rotary cutter RC7, hydraulic shovels 6030/6040, rotary drills, marine engines/auxiliary, petroleum packages, wheel tractors, gen sets, engines, locomotive, petroleum engines, wheel dozers/loaders, gen set engines, engine-machine/industrial, quarry/off-highway trucks, scrapers and tractors. Engine models C32/C27/3412E retained.
+- 523-3387: Cat Sprocket Group/Kit, Plain Steel, 18 bolts, 21 teeth, 190mm pitch. Cat explicitly marks discontinued and no longer available; contact dealer for replacement options. Compatible model Excavator 320D2 FM. DB already marks inactive and preserves specs: 18 bolts, 21 teeth, M20 thread, 190mm/7.48in pitch, symmetric mounting, HD undercarriage. No substitute claimed.
+- 523-4987: Cat Ultra High Efficiency Element Separator cartridge. Specs: 4.043in diameter ×10.169in length, Out-to-In flow, Polyamide Plastic, Ultra High Efficiency. 55 distinct compatible labels across wheeled excavators, forestry, OEM/MHPU, excavators, material handlers, mobile hydraulic power units, graders and wheel loaders. DB matches.
+- 523-8663: Cat 170.025mm ID non-cuffed Cylinder Block Liner. Cat says specifications are still being added; no material or other dimensions inferred. Added the missing G3516C and G3516J compatible labels and engine tags. Final count 87 unique compatible labels across pumpers, generators, power modules, off-highway trucks, D11 tractors, rotary drills, 3500-family marine/marine auxiliary/gen-set/petroleum/industrial/gas engines, mining excavators, wheel dozers/loaders, trucks, locomotive and tractors.
+- 525-7148: Cat Fuel Tube Assembly. Cat Compatible Models: Generator Set C32; Marine Auxiliary C32B; Marine Engine C32B/C32 MARINE/C32; Engine C32 MARINE. Three unique labels. Material Alloy Mixed Metal and Carbon Steel. DB matches.
+- 527-2809: Cat Heavy Duty Black Rubber Track, 400mm wide, 72.5mm pitch, 76 sections, block tread, HD undercarriage. Cat fitment: Mini Hydraulic Excavator 305/305E/305.5E2 CR/306/305.5 CR/305 CR/304C CR/305C CR/305D CR/305E2 CR/305.5E; Excavator 305.5 CR (11 unique labels). DB matches.
+- 528-1699: Cat SEM Cylinder Block. Page inaccessible in this run; category data says Carbon Steel, no compatible-model information. Existing DB record left unchanged.
+- 528-8101: Cat Roller Guard Short Center, center position, left and right side of track frame. Material Steel/Alloy Steel; HD undercarriage. Compatible Excavator labels 340/335/336/336 GC/345 GC/345 (6). DB matches.
+
+Cat pages:
+- https://parts.cat.com/en/catcorp/product/519-6373 (inaccessible)
+- https://parts.cat.com/en/catcorp/product/519-7297
+- https://parts.cat.com/en/catcorp/product/520-2924
+- https://parts.cat.com/en/catcorp/product/523-3387
+- https://parts.cat.com/en/catcorp/product/523-4987
+- https://parts.cat.com/en/catcorp/product/523-8663
+- https://parts.cat.com/en/catcorp/product/525-7148
+- https://parts.cat.com/en/catcorp/product/527-2809
+- https://parts.cat.com/en/catcorp/product/528-1699 (inaccessible)
+- https://parts.cat.com/en/catcorp/product/528-8101
+
+Post-update DB verification counts: 519-6373=0; 519-7297=67; 520-2924=56; 523-3387=1 (inactive); 523-4987=55; 523-8663=87; 525-7148=3; 527-2809=11; 528-1699=0; 528-8101=6. No customer prices or stock claims added.
+
+Additional Cat-linked discovery candidates from Cat related/frequently-bought-together panels:
+- 519-7297: 033-6031, 132-6469, 3S-9643, 4W-3027, 214-7568.
+- 520-2924: 232-3226, 248-5513, 253-1752, 1R-1808, 317-8766.
+- 523-8663: 107-7330, 144-5695, 7N-4782, 127-5400.
+- 523-4987: 509-5694, 322-3155, 479-8989, 500-0957, 580-5439.
+- 527-2809: 377-6969, 415-2592, 1G-7206, 363-5819, 156-1200.
+- 528-8101: 500-0483, 523-4987, 500-0957, 496-9841, 496-9842.
+Candidates remain separate from fitment claims and require individual item-page verification.
+
+Overall reviewed progress: 62/500 batches = 620/5,000 product target (12.4%). Original Cat seed list has 167 SKUs remaining (products 621–787).
