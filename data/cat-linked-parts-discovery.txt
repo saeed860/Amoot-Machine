@@ -2661,3 +2661,8 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 289-3107 | Two Hole Flange Gasket | 2 | Cat 502-5194 C7 Truck Engine Single Cylinder Head Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
 
 Source page: https://parts.cat.com/en/catcorp/product/502-5194
+
+
+## Cat 421-9847 C11 single-cylinder-head install kit — no BOM rows published (batch 159)
+
+Source: official Cat Parts Store product page https://parts.cat.com/en/catcorp/product/421-9847. Compatible model explicitly shown: TRUCK ENGINE / C11. Although the product description says it contains gaskets and seals for one cylinder head, the current official page explicitly states there are currently no parts associated with this kit and directs users to the dealer for more information. No part numbers were inferred or added.
