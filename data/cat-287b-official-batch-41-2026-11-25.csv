@@ -1,0 +1,3 @@
+batch,part_number,description,category,compatible_models,source_type,source_url,verification_status,notes
+41,234-4806,Inlet Manifold Gasket,engine air intake / inlet manifold,287B;297C;C3.4;3044C,CAT_OFFICIAL_PRODUCT_PAGE,https://parts.cat.com/en/catcorp/product/234-4806,OFFICIAL_PART_AND_287B_APPLICATION_LISTED,0.5mm air inlet manifold gasket for M8 hardware; verify inlet manifold revision and bolt pattern.
+41,5I-7689,1.4mm Thick Turbocharger Gasket,engine turbocharger / gasket,287B;3044C;C3.4;3046,CAT_OFFICIAL_PRODUCT_PAGE,https://parts.cat.com/en/catcorp/product/5I-7689,OFFICIAL_PART_AND_287B_APPLICATION_LISTED,1.4mm turbocharger gasket; verify turbocharger flange gasket thickness and engine arrangement.
