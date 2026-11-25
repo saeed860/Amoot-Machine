@@ -856,3 +856,23 @@ Mirror از Master جاری بازسازی و شمارنده Workflow با تع�
 برای محافظ سوخت، دهانه و نوع پمپ priming؛ برای پایه لرزه‌گیر، محل نصب، قطر بوش و سختی/ترکیب لاستیک؛ و برای تکیه‌گاه، موقعیت براکت و گروه سیلندر بازو باید با شماره سریال و آرایش دستگاه تطبیق داده شود. قطعه 304-3885 در همین بررسی در Compatible Models مدل 287B را نداشت؛ بنابراین به CSV فیتمنت 287B اضافه نشد.
 
 Mirror از Master جاری بازسازی و شمارنده Workflow با تعداد خطوط Master تنظیم شد.
+
+## دور سی‌ام — دستگیره کابین، صفحه quick coupler و پنل کابین (25 Nov 2026)
+
+پنج شماره جدید از صفحات رسمی Cat Parts Store با نمایش صریح 287B در Compatible Models به Master و CSV اضافه شد:
+- 258-2533 — Quick Coupler Left Hand Side Handle؛ دستگیره سمت چپ، ابعاد کلی 296.5 × 108 × 74mm، وزن 3.96lb.
+- 258-2534 — Quick Coupler Right Hand Side Handle؛ دستگیره سمت راست، ابعاد کلی مشابه 258-2533 و وزن 3.96lb.
+- 187-3211 — 3mm Thickness Cabin Plate؛ صفحه فولادی کابین.
+- 248-2171 — Push Button Handle؛ دستگیره فشاری بیرونی، قابل قفل با corporate key و نصب با پیچ M6.
+- 192-2637 — 10mm Thick Quick Coupler Plate؛ صفحه فولادی 10mm برای محدودکردن حرکت پین‌های کوپلر مکانیکی.
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/product/258-2533
+- https://parts.cat.com/en/catcorp/258-2534
+- https://parts.cat.com/en/catcorp/product/187-3211
+- https://parts.cat.com/en/catcorp/product/248-2171
+- https://parts.cat.com/en/catcorp/product/192-2637
+
+احتیاط طبقه‌بندی: صفحات Cat برای 258-2533 و 258-2534 در عنوان، آن‌ها را دستگیره چپ/راست Quick Coupler معرفی می‌کنند، اما متن توضیحی همان صفحات به «door latch handle» اشاره دارد. بنابراین fitment رسمی 287B ثبت شده، ولی دسته‌بندی نهایی و فروش باید با parts diagram و شماره سریال حل شود؛ از عنوان به‌تنهایی نوع کاربرد را قطعی نکنید. برای 192-2637، خانواده کوپلر و پین/فنر نصب کنترل شود.
+
+Mirror از Master جاری بازسازی و شمارنده Workflow با تعداد خطوط Master تنظیم شد.
