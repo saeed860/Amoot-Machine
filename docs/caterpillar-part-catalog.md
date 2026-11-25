@@ -1096,3 +1096,13 @@ Official product pages:
 - https://parts.cat.com/en/catcorp/product/1R-1807
 
 Off Road's public index lists the same raw identifiers with abbreviated descriptions and no brand value. The CAT descriptions and technical details above are based on CAT product pages. CAT comparison panels are recorded as alternate-product suggestions only, not direct interchange or supersession. No prices, stock quantities or saleable SKUs were created.
+
+
+## 1R-0716 official CAT document verification — 25 Nov 2026
+
+Off Road public index lists 1R0716 as FILTER A. No current exact Cat Parts Store product page was returned in the web search, but two official Caterpillar documents provide direct evidence:
+
+- [Cat Advanced High Efficiency Engine Oil Filters (2015)](https://s7d2.scene7.com/is/content/Caterpillar/CM20150415-45165-44935) identifies 1R-0716 as the standard-efficiency oil filter and 1R-1808 as the approved upgrade option for engines using 1R-0716.
+- [Cat preventive-maintenance kits](https://caterpillar.scene7.com/is/content/Caterpillar/CM20230906-5d3e7-f57c3) lists 1R-0716 for 3176, 3406/B/C/E, C-10, C-12, C-15 and C-16 engine families. It lists 1R-1808 in the related kit family with additional C11/C13/C15 references.
+
+The project records 1R-0716 as a CAT official-document reference, not a serial-specific fitment guarantee. The documented 1R-0716 → 1R-1808 relationship is an approved upgrade option, not an unconditional replacement instruction for every machine. Check serial number and Arrangement before fitment.
