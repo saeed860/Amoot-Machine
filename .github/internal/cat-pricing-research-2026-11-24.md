@@ -4977,3 +4977,37 @@ Post-update verification: all ten SKUs exist with Cat official item-page evidenc
 Three further related leads added: 273-9104, 9W-0844 and 9W-0852. They remain candidates pending individual item-page verification.
 
 Overall reviewed progress: 88/500 batches = 880/5,000 product target (17.6%). Original Cat seed list 787/787 complete; discovery-derived products individually verified/updated: 113. Remaining target: 4,120 products.
+
+## Batch 89/500 — Cat-linked discovery candidates 91–100 (2026-11-25)
+
+Ten candidates were checked against their own official Cat Parts Store item pages. Nine new rows were inserted; existing row 143-2878 was refreshed. All ten were re-queried and compatible-model arrays deduplicated.
+
+Verified:
+- 489-2200 — MB250 Mixing Bucket. Chain-driven auger with replaceable paddles and hydraulic chute door. Capacity 0.33yd³, width 54.7in, height 34.5in, length 32in, weight 948lb, auger speed 10–30rpm, 20in auger, 11 paddles, skid-steer coupler, overall width 63.2in, flow 60–70L/min and pressure 140–200bar. Fitment CTL 285XE/285/253/275/265/255/275XE and skid steer 250/270/260/270XE/MB250 (12 labels).
+- 5P-8500 — Machine Ignition Key. Cat description confirms ignition-key function; material fields list alloy copper, mixed alloy metal, brass and polyamide plastic. Public capture did not expose a compatible-model list or dimensions; no fitment inferred.
+- 8T-4999 — Disconnect Switch Instruction Film. Black characters on pearl-gray, 2.24in/57mm diameter, polycarbonate, pressure-sensitive adhesive. Symbols On/Start IEC 5007, Off/Stop IEC 5008, Battery Disconnect ISO 2063; located under disconnect switch. 98 compatible labels across track tractors, rippers, pipelayers, wheeled excavators, track loaders, material handlers, winches and skidders.
+- 377-5466 — High-Flow Hydraulic Connector Plug Assembly. Overall length 3.02in, diameter 0.07in, encapsulant/epoxy adhesive, weight 0.56lb. 27 compatible labels across CTLs, brush cutters, skid steers, augers, cold planers and mulching heads.
+- 143-2878 — 4mm Thick Cylinder Head Gasket. Existing row refreshed. Carbon steel, length 20in, height 0.15in; Cat compatible gas engines G3608/G3612/G3616 (3 labels).
+- 6I-4545 — 5.26 ×638.2mm 75A FKM O-ring. Cat description identifies crankshaft cylinder-block-cover seal to prevent oil leaks; specification panel confirms FKM rubber. Dimensions are present in product title only, not technical specification panel; stored with title-origin marker. 14 compatible labels across 3608/3606/C280/3616, marine/marine auxiliary, C7.1/C4.4/3508 industrial, C280-12 petroleum, 3612 locomotive and G3608/G3612/G3606 gas engines.
+- 159-3219 — Combustion Sensor. Cat page title says Combustion Sensor; product description identifies Spark Plug. 0.8in width ×0.8in height ×2.89in length; electrode gap setting 0 with manual/dealer instruction. Fitment G3608/G3612/G3616 (3 labels). Both source labels retained.
+- 227-2902 — 228.40mm OD Connecting Rod Bearing. Cat specs list sleeve ID 8.587in, sleeve OD 8.992in, length 9.7in, overall length 3.248in, height 10.4in, no cross holes and no unique features. Dimensions appear unusually large relative to product title, so values were stored verbatim with a source note, not normalized or corrected. Fitment 3608/3606/C280/3616/3612/C280-12/C280-6/C280-8 and G3608/G3612/G3616 (11 labels).
+- 288-0948 — Double-Flange High-Temperature Track Roller Group, 210mm tread, 249.54mm mounting width. Heavy-duty UC, M20 cap bolt, no carrier-roller compatibility; outside/inside spread 7.72/3.831in, tread 8.268in, traverse spacing 4.5in, cap-bolt hole 0.866in, shaft length 14.528in, shaft OD 2.341in, axial spacing 12.998in, outer flange OD 9.449in. Fitment D6R/D6R III/D6T/D6R II and 963D/963B/963C/963/963K (9 labels).
+- 613-5951 — Track Roller Group. Cat title says SINGLE FLANGE, while specification and descriptive panels say DOUBLE FLANGE; discrepancy explicitly flagged. Standard application, 210mm tread, mounting width 10.158in, inner flange diameter 8.957in, M20 cap bolt, outside/inside spread 7.654/3.898in, tread 8.268in, traverse spacing 4.5in, cap-bolt hole 0.866in, shaft length 14.508in, shaft OD 2.341in, axial spacing 13.051in, outer flange OD 9.449in. Cat compatible D6T and D6GC (2 labels).
+
+Cat item pages:
+- https://parts.cat.com/en/catcorp/product/489-2200
+- https://parts.cat.com/en/catcorp/product/5P-8500
+- https://parts.cat.com/en/catcorp/product/8T-4999
+- https://parts.cat.com/en/catcorp/product/377-5466
+- https://parts.cat.com/en/catcorp/product/143-2878
+- https://parts.cat.com/en/catcorp/product/6I-4545
+- https://parts.cat.com/en/catcorp/product/159-3219
+- https://parts.cat.com/en/catcorp/product/227-2902
+- https://parts.cat.com/en/catcorp/product/288-0948
+- https://parts.cat.com/en/catcorp/product/613-5951
+
+Post-update verification: all ten SKUs exist with Cat official item-page evidence and REFERENCE status. Nine inserted, one existing row updated. Fitment counts after de-duplication: 489-2200=12; 5P-8500=0 (no fitment published in capture); 8T-4999=98; 377-5466=27; 143-2878=3; 6I-4545=14; 159-3219=3; 227-2902=11; 288-0948=9; 613-5951=2. Conflicts/oddities on 6I-4545, 159-3219, 227-2902 and 613-5951 flagged; no guessed corrections, prices, stock or interchange claims added.
+
+Eight further related leads added: 4J-0522, 4J-5267, 6V-8398, 485-4705, 6Y-0473, 355-9850, 612-5212 and 605-9149. They remain candidates pending their own item-page checks.
+
+Overall reviewed progress: 89/500 batches = 890/5,000 product target (17.8%). Original Cat seed list 787/787 complete; discovery-derived products individually verified/updated: 123. Remaining target: 4,110 products.
