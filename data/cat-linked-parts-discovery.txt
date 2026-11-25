@@ -3504,3 +3504,8 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 6K-3461 | 1-7/8-12 Flared Port Straight Adapter | 1 | Cat 175-7858 3612 Generator Set Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
 
 Source page: https://parts.cat.com/en/catcorp/product/175-7858
+
+
+## Cat 515-7889 front-housing install-gasket kit — no current BOM rows published (batch 206)
+
+Source: official Cat Parts Store product page https://parts.cat.com/en/catcorp/product/515-7889. Compatible-model labels include C15/C18 generator and industrial engines, SR4/SR4B generators, 770/773F/770G trucks, R3000H/R2900/R2900G LHDs, 374D excavator and 374D mobile hydraulic power unit. Cat describes the kit as front-cover reinstall gaskets/seals, excluding the oil-pan gasket. The opened current official page states there are currently no parts associated with this kit; an older indexed snippet showing eight components was not imported. Frequently-bought-together parts are not kit contents.
