@@ -2269,3 +2269,14 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
   - 187-3212 — 405mm Long Plate؛ سازگاری 287B؛ ابعاد و نقاط نصب در مجموعه cab/debris barrier بررسی شود. شماره جدید Master.
 - منابع رسمی: https://parts.cat.com/en/catcorp/product/238-7710 ؛ https://parts.cat.com/en/catcorp/product/157-4835 ؛ https://parts.cat.com/en/catcorp/product/230-5407 ؛ https://parts.cat.com/en/catcorp/product/187-3212
 - وضعیت فایل‌های Master/Mirror/Workflow در زمان ثبت: 4,311 شماره یکتا؛ Mirror برابر Master؛ Workflow برابر 4311.
+
+## دور ۷۵ — کیت کنترل work tool متوقف‌شده (25 Nov 2026)
+
+- 233-5638 — KIT-WORK TOOL CONTROL & WIRING؛ صفحه رسمی Cat Compatible Models شامل 287B و 257B است، اما محصول به‌صورت DISCONTINUED نمایش داده می‌شود و صفحه برای replacement options به Dealer ارجاع می‌دهد.
+- شماره 233-5638 به Master و CSV رسمی 287B فقط برای تاریخچه افزوده شد؛ status صریحاً HISTORICAL ONLY / DISCONTINUED است و قابل سفارش به‌عنوان کالای نو نیست.
+- صفحه kit تعداد 18 جزء را نمایش می‌دهد؛ قطعاتی مانند 216-4725،225-8012 و 231-4258 در صفحات مستقل خودشان fitment دارند و باید جداگانه ارزیابی شوند. هیچ‌یک از اجزای kit صرفاً بر اساس عضویت در این kit فیتمنت 287B نگرفتند.
+
+منبع رسمی:
+- https://parts.cat.com/en/catcorp/product/233-5638
+
+برای جایگزینی کیت، فقط Cat Dealer می‌تواند replacement فعلی و compatibility آن را تأیید کند. هیچ شماره جایگزین از روی این صفحه حدس زده نشده است.
