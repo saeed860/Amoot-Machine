@@ -1,0 +1,7 @@
+part_number,description,compatible_models,source_url,verification,status_or_notes
+258-3465,21cc Gear Pump,297C;299C;272C,https://parts.cat.com/en/catcorp/product/258-3465,Official Cat Parts Store page lists 297C but not 287B,297C-only lead; verify pump displacement and hydraulic circuit group
+258-3521,Hydraulic Gear Pump,297C;299C;272C,https://parts.cat.com/en/catcorp/product/258-3521,Official Cat Parts Store page lists 297C but not 287B,297C-only lead; maximum pressure shown as 25000 kPa; verify pump group and serial number
+258-2970,Axial Piston Motor,287C;277C;297C,https://parts.cat.com/en/catcorp/product/258-2970,Official Cat Parts Store page lists 297C but not 287B,297C-only lead; verify motor group and displacement
+258-2971,2 Speed Track Drive Piston Motor,287C;277C;287C2;277C2;297C,https://parts.cat.com/en/catcorp/product/258-2971,Official Cat Parts Store page lists 297C but not 287B,297C-only lead; verify two-speed drive configuration and serial number
+258-3942,SEAL,297C;299C;272C,https://parts.cat.com/en/catcorp/product/258-3942,Official Cat Parts Store page lists 297C but not 287B,297C-only lead; application and seal dimensions not specified on page; confirm dealer parts diagram
+278-8724,GEAR Kit-SET,277D;287C;277C;297D;297D XHP;287D;297C;297D2;297D2 XHP;287C2;277C2,https://parts.cat.com/en/catcorp/product/278-8724,Official Cat Parts Store page lists 297C but not 287B,297C-only piston motor gear set kit; page lists ring seal planet gears circlips reduction assembly and sun gear
