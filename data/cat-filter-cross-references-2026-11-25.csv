@@ -1,0 +1,7 @@
+cat_part_number,other_manufacturer,other_part_number,relationship,source_class,source_url,notes
+1R-0716,MANN-FILTER,WD 13 145/1,cross_reference,manufacturer_catalogue,https://www.pecafiltros.com/pdf/mann_filter_cross_reference_list_2024_26.pdf,"MANN cross-reference catalogue hosted by distributor; retain as manufacturer catalogue lead pending direct MANN verification"
+1R-0716,MAHLE,OC 484,cross_reference,manufacturer_catalogue,https://www.mahle-aftermarket.com/media/local-media-north-america/pdfs-%26-thumbnails/catalogs-and-literature/all-products/ap-30-14.pdf,"MAHLE application catalogue lists CAT 1R0716 as OE interchange for engine code 3176; catalogue is dated"
+1R-0716,Fleetguard,LF691A,cross_reference,manufacturer_catalogue,https://www.dieselusa.com/productinfo/fleetguard_medium_and_heavy_duty_catalog.pdf,"Fleetguard catalogue listing surfaced via distributor host; verify current catalogue and exact model application"
+1R-0716,Baldwin,B99,cross_reference,independent_supplier_listing,https://www.finditparts.com/products/982603/caterpillar-1r0716,"FinditParts reseller cross-reference; candidate only"
+1R-0716,Donaldson,P554005,cross_reference,aggregator_claim,https://filterverified.com/vehicle/caterpillar/10/,"Third-party aggregator claim; do not treat as manufacturer confirmation"
+1R-0716,WIX,51792,cross_reference,aggregator_claim,https://filterverified.com/vehicle/caterpillar/10/,"Third-party aggregator claim; do not treat as manufacturer confirmation"
