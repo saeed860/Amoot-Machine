@@ -1853,3 +1853,15 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - https://parts.cat.com/en/catcorp/product/220-8161
 
 برای track belt، tread pattern، عرض، pitch و تعداد sections باید با track frame و sprocket مطابقت داده شود. برای 8S-6212 نیز طول، grade و محل اتصال با Parts Diagram کنترل شود. قطعات کیت 305-9256 به‌صورت خودکار هم‌فیت فرض نشدند؛ هر قطعه فقط با Compatible Models صفحه خودش ثبت می‌شود.
+
+## دور ۶۰ — تکمیل قطعات HVAC کابین 287B (25 Nov 2026)
+
+دو شماره جدید از صفحات رسمی Cat Parts Store به Master و CSV فیتمنت 287B افزوده شدند:
+- 231-8122 — Bottom Housing Assembly (HVAC)؛ Compatible Models شامل 287B است؛ بدنه ABS مشکی، عرض 16.3in، ارتفاع 4.1in و طول 22.2in.
+- 231-8127 — Cabin Heater Water Valve Grommet؛ Compatible Models شامل 287B است؛ گِرومت EPDM با دو سوراخ 12.7mm.
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/product/231-8122
+- https://parts.cat.com/en/catcorp/product/231-8127
+
+برای housing، نسخه HVAC، mount و insulation؛ برای grommet، قطر سوراخ‌ها، محل عبور شیلنگ و سازگاری با heater valve باید با cab configuration و PIN تطبیق داده شود.
