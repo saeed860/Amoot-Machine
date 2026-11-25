@@ -1865,3 +1865,23 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - https://parts.cat.com/en/catcorp/product/231-8127
 
 برای housing، نسخه HVAC، mount و insulation؛ برای grommet، قطر سوراخ‌ها، محل عبور شیلنگ و سازگاری با heater valve باید با cab configuration و PIN تطبیق داده شود.
+
+## دور ۶۱ — تکمیل harness و work tool برای 297C (25 Nov 2026)
+
+شش شماره جدید از صفحات رسمی Cat Parts Store به Master و CSV مستقل 297C-only اضافه شدند؛ 297C در Compatible Models وجود دارد و 287B در آن فهرست نشده است:
+- 258-4126 — Work Tool Wiring Harness.
+- 258-2881 — Work Tool Positioner Hydraulic Tube؛ قطر بیرونی 0.63in.
+- 258-4116 — Engine Harness.
+- 258-5193 — Rotating Group؛ توضیح عملکرد در صفحه رسمی محدود است.
+- 258-2449 — Bracket Assembly.
+- 258-2970 — Axial Piston Motor.
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/product/258-4126
+- https://parts.cat.com/en/catcorp/product/258-2881
+- https://parts.cat.com/en/catcorp/product/258-4116
+- https://parts.cat.com/en/catcorp/product/258-5193
+- https://parts.cat.com/en/catcorp/product/258-2449
+- https://parts.cat.com/en/catcorp/product/258-2970
+
+این قطعات در فیتمنت 287B وارد نشدند. برای harnessها، connector pinout و engine/work tool options؛ برای tube، قطر، routing، اتصالات و فشار؛ برای motor، displacement، rotation و port؛ و برای bracket، mounting pattern باید با PIN و configuration دستگاه تطبیق داده شود.
