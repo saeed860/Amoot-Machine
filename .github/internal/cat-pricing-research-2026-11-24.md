@@ -4218,3 +4218,44 @@ Additional Cat-linked discovery candidates from official Cat related/alternate p
 Candidates remain separate from fitment claims and require individual item-page verification before catalog promotion.
 
 Overall reviewed progress: 69/500 batches = 690/5,000 product target (13.8%). Original Cat seed list has 97 SKUs remaining (products 691–787).
+
+## Batch 70/500 — products 691–700 (2026-11-25)
+
+SKUs: 603-3385, 603-7963, 603-8538, 604-2039, 604-2388, 605-7481, 607-4800, 607-4803, 607-4804, 607-4805. Eight Cat item pages loaded enough to inspect fitment/specs; 603-3385 and 604-2039 returned only loading placeholders. Major fitment corrections: 603-8538 gained the Cat alias 320GX; 604-2388 expanded from 48 to 146 unique compatible labels; 605-7481 expanded from 42 to 70. All ten DB rows were re-queried.
+
+Verified:
+- 603-3385: Cat Grade with 3D for Excavators. Public page currently returns loading placeholders; no compatible-model or specification list available. DB remains without inferred fitment/specifications.
+- 603-7963: Cat Basic Auxiliary Sea Water Pump. Description: circulates seawater through marine engine cooling circuits to transfer heat and prevent overheating; designed for saltwater corrosion, pressure and temperature. Material Acrylic Adhesive/Oil Fluid. 16 compatible labels across Gen Set Engine, Marine Engine, Marine Auxiliary, Engine-Industrial, Engine, Industrial Engine, Petroleum Engine and Gas Engine. DB matches.
+- 603-8538: Cat Cantilever Carrier Roller Group, Standard Application, 120mm tread diameter. Specs: shaft mounting length 2.736in, GD undercarriage, General Duty, cantilever mount, shaft OD 1.85in, tread OD 4.724in, flange OD 5.512in, inside spread 1.929in, outside spread 6.772in. Compatible excavator labels 320/326 GC/321/320D3 GC/320 GX/323 GX/333 GC/324/320D3/322/320GX/319/320 GC (13). Added the distinct Cat label 320GX alongside 320 GX.
+- 604-2039: Cat Grade with 3D for Mini Excavators. Public page currently returns loading placeholders; no compatible-model or specification list available. DB remains without inferred fitment/specifications.
+- 604-2388: Cat Water Pump Pipe for engine cooling. Cat description says it transfers coolant/water between radiator and engine block and resists heat, pressure and corrosion. Weight 0.07lb; materials Alloy Zinc, plastic/polyamide, corrosion-preventative fluid and carbon steel. Expanded Cat-compatible model array from 48 to 146 distinct labels across generators, integrated toolcarriers, material handlers, graders, track tractors, wheel skidders, asphalt compactors/pavers, pipelayers, soil compactors, C7.1 generator sets, MHPUs, track loaders, backhoe loaders, wheel dozers, landfill/wheel/compact wheel loaders, C4.4/C6.6/C7.1 engines, transmissions, wheeled excavators, pneumatic compactors and industrial engines. Engine-model tags added: C7.1DE200E/C4.4/C6.6/C7.1/POWER SYS.
+- 605-7481: Cat Engine Cooling Water Pump. Cat explicitly says specifications are still being added. Expanded compatible models from 42 to 70 unique labels across underground trucks, C-15/C-16/C-18 truck engines, LHD, graders, hydraulic shovels, D8 tractors, marine engines, pipelayers, petroleum packages, MHPUs, wheel tractors, gensets, reclaimer mixers, petroleum engines, soil compactors, locomotives, cold planers, wheel dozers, landfill compactors, wheel loaders, road reclaimers, rotary drills, industrial engines, wheel scrapers and trucks. Engine models C18/C15/C16/3406E/3508B retained. Cat Reman alternative 10R-0484 (Water Pump) recorded as a separate alternative.
+- 607-4800: Cat Heavy Duty black bar-tread rubber track, 400mm wide, 86mm pitch, 49 sections, 15.748in belt width, Rubber & Fiber Rubber, HD undercarriage. Compatible CTL 249D/239D/249D3/239D3 (4). Cat related items 415-2592 primary air filter, 220-1523 engine oil filter, 415-2593 secondary air filter, 421-5479 hydraulic filter and 265-6619 cabin filter.
+- 607-4803: Cat Heavy Duty black block-tread rubber track, 320mm wide, 86mm pitch, 53 sections, 12.598in belt width, Rubber & Fiber Rubber, HD. Compatible CTL 259D/259B3/259D3 (3). Related 110-6326, 377-6969, 110-6331, 541-6956 and 421-5479.
+- 607-4804: Cat Heavy Duty black bar-tread rubber track, 400mm wide, 86mm pitch, 53 sections, 15.748in belt width, Rubber & Fiber Rubber, HD. Compatible CTL 259D/259B3/259D3 (3). Related panel fetch timed out; no candidates inferred from that panel.
+- 607-4805: Cat Heavy Duty black bar-tread rubber track, 450mm wide, 86mm pitch, 60 sections, 17.717in belt width, Rubber & Fiber Rubber, HD. Compatible CTL 299D3 XE/299D/299C/289C/279C/299D2/299D XHP/299D2 XHP (8). Related 304-1916 sprocket, 110-6326 primary air filter, 377-6969 oil filter, 110-6331 secondary air filter and 265-6619 cabin filter.
+
+Cat pages:
+- https://parts.cat.com/en/catcorp/product/603-3385 (loading only)
+- https://parts.cat.com/en/catcorp/product/603-7963
+- https://parts.cat.com/en/catcorp/product/603-8538
+- https://parts.cat.com/en/catcorp/product/604-2039 (loading only)
+- https://parts.cat.com/en/catcorp/product/604-2388
+- https://parts.cat.com/en/catcorp/product/605-7481
+- https://parts.cat.com/en/catcorp/product/607-4800
+- https://parts.cat.com/en/catcorp/product/607-4803
+- https://parts.cat.com/en/catcorp/product/607-4804
+- https://parts.cat.com/en/catcorp/product/607-4805
+
+Post-update DB verification counts: 603-3385=0; 603-7963=16; 603-8538=13; 604-2039=0; 604-2388=146; 605-7481=70; 607-4800=4; 607-4803=3; 607-4804=3; 607-4805=8. No price or stock claims added.
+
+Additional Cat-linked discovery candidates from Cat related/frequently-bought-together panels:
+- 603-7963: 3P-6061, 175-7904, 4F-7387, 5N-1940, 2M-4453.
+- 604-2388: 225-7738, 281-8744, 225-8019, 365-8395.
+- 605-7481: 109-0077, 122-3772, 9M-3786, 125-0434, 3S-9643; Cat Reman 10R-0484.
+- 607-4800: 415-2592, 220-1523, 415-2593, 421-5479, 265-6619.
+- 607-4803: 110-6326, 377-6969, 110-6331, 541-6956, 421-5479.
+- 607-4805: 304-1916, 110-6326, 377-6969, 110-6331, 265-6619.
+All remain candidate leads only; verify individual item pages before catalog promotion.
+
+Overall reviewed progress: 70/500 batches = 700/5,000 product target (14.0%). Original Cat seed list has 87 SKUs remaining (products 701–787).
