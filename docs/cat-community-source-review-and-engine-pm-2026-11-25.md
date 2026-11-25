@@ -2158,3 +2158,15 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - منابع رسمی: https://parts.cat.com/en/catcorp/product/219-5431 ؛ https://parts.cat.com/en/catcorp/product/218-6824 ؛ https://parts.cat.com/en/catcorp/product/219-5419
 - موارد تکراری/قبلاً ثبت‌شده از نتایج همین جستجو دوباره به Master یا CSV اضافه نشدند.
 - وضعیت پس از ثبت: Master هدف 4,295 شماره یکتا؛ Mirror برابر Master؛ Workflow برابر 4295.
+
+
+## دور ۶۸ — 25 Nov 2026
+
+- مبنای دور: Master برابر 4,295 شماره یکتا پس از دور 67؛ Mirror و Workflow همگام بودند.
+- دو شماره جدید از صفحات رسمی Cat Parts Store با فیتمنت صریح 287B به Master و CSV 287B افزوده شد:
+  - 142-8719 — M14 Engine Pump Coupling Adapter Plate؛ صفحه رسمی 287B را فهرست می‌کند؛ ابعاد/پیکربندی اتصال موتور و پمپ باید تطبیق داده شود.
+  - 151-1975 — Adapter-Straight؛ صفحه رسمی 287B را فهرست می‌کند؛ رزوه و اتصال جفت‌شونده باید کنترل شود.
+- نتایج 103-9747، 289-0850، 113-1141، 232-5877، 238-7709 و 234-4798 از قبل در Master و CSV ثبت شده بودند و دوباره درج نشدند.
+- 335-9117 صریحاً Discontinued است؛ به موجودی سفارش‌پذیر اضافه نشد.
+- منابع رسمی: https://parts.cat.com/en/catcorp/product/142-8719 ؛ https://parts.cat.com/en/catcorp/product/151-1975 ؛ https://parts.cat.com/en/catcorp/product/335-9117
+- وضعیت پس از ثبت: Master برابر 4,297 شماره یکتا؛ Mirror byte-exact؛ Workflow برابر 4297.
