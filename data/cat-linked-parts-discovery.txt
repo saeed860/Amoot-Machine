@@ -59,9 +59,9 @@ part_number | source description | source context | status
 242-4100 | Valve mechanism cover FKM seal | Related component shown on Cat 20R-9654 page | cat_item_page_verified; inserted_part_catalog; fitment_verified
 228-7100 | 9.4mm ID FKM 90A O-ring | Related component shown on Cat 20R-9654 page | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
 448-3228 | 97.90mm long floating bridge rocker arm | Related component shown on Cat 20R-9654 page | cat_item_page_verified; inserted_part_catalog; fitment_verified
-228-7089 | 1.78 × 9.27mm 90A FKM O-ring | Related component shown on Cat 20R-9654 page | cat_linked_candidate; needs_individual_verification
-210-1470 | Fuel injection line tube assembly | Related part shown on Cat 210-2535 page | cat_linked_candidate; needs_individual_verification
-1R-0726 | Cat secondary fuel filter | Related part shown on Cat 210-2535 page | cat_linked_candidate; needs_individual_verification
+228-7089 | 1.78 × 9.27mm 90A FKM O-ring | Related component shown on Cat 20R-9654 page | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
+210-1470 | 12.58mm ID fuel-priming pump tube | Related part shown on Cat 210-2535 page | cat_item_page_verified; inserted_part_catalog; fitment_verified
+1R-0726 | Standard Efficiency Engine Oil Filter | Related part shown on Cat 210-2535 page | cat_item_page_verified; existing_catalog_row_updated; fitment_verified
 
 Source pages:
 - https://parts.cat.com/en/catcorp/product/222-5152
@@ -80,13 +80,13 @@ Source pages:
 The following 14 numbers were found in Cat Parts Store official alternative, related-parts and frequently-bought-together panels. These links establish that Cat surfaces the numbers in a related context, not that they are interchangeable or fit every same machine. Each needs its own product-page and serial-number verification.
 
 part_number | displayed description | source context | status
-20R-2665 | Cat Reman engine oil pump (3500C) | Official Cat alternative shown for 231-5127 | cat_linked_candidate; needs_individual_verification
-219-3240 | Water temperature regulator | Related part shown on Cat 231-5127 page | cat_linked_candidate; needs_individual_verification
-7N-4927 | 1.6mm water-temperature regulator housing gasket | Related part shown on Cat 231-5127 page | cat_linked_candidate; needs_individual_verification
-4W-3027 | Engine crankcase breather | Related part shown on Cat 231-5127 page | cat_linked_candidate; needs_individual_verification
-1P-0436 | 1.2mm thick fuel-filter lines gasket | Related part shown on Cat 237-9313 page | cat_linked_candidate; needs_individual_verification
-137-5541 | 41.4 stroke-per-liter fuel priming pump | Related part shown on Cat 237-9313 page | cat_linked_candidate; needs_individual_verification
-214-7568 | STOR O-ring seal (SAE 9/16-18) | Related part shown on Cat 237-9313 page | cat_linked_candidate; needs_individual_verification
+20R-2665 | Cat Reman 3500C engine oil pump | Official Cat alternative shown for 231-5127 | cat_item_page_verified; inserted_part_catalog; Cat_Reman_condition_preserved; fitment_verified
+219-3240 | Water Temperature Regulator | Related part shown on Cat 231-5127 page | cat_item_page_verified; existing_catalog_row_updated; fitment_verified
+7N-4927 | 1.6mm water-temperature regulator housing gasket | Related part shown on Cat 231-5127 page | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
+4W-3027 | Engine crankcase breather | Related part shown on Cat 231-5127 page | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
+1P-0436 | 1.2mm thick fuel-filter lines gasket | Related part shown on Cat 237-9313 page | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
+137-5541 | 41.4 stroke-per-liter fuel priming pump | Related part shown on Cat 237-9313 page | cat_item_page_verified; inserted_part_catalog; fitment_not_published
+214-7568 | STOR O-ring seal (SAE 9/16-18) | Related part shown on Cat 237-9313 page | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
 1R-0755 | High-efficiency fuel filter | Related part shown on Cat 237-9313 page | cat_linked_candidate; needs_individual_verification
 238-5080 | 2.21 × 16.36mm 90A FKM O-ring | Related part shown on Cat 237-9313 page | cat_linked_candidate; needs_individual_verification
 318-2486 | Track link | Frequently bought together with Cat 238-0472/238-0473 | cat_linked_candidate; needs_individual_verification
@@ -185,7 +185,7 @@ Source pages:
 20R-8062 | Cat Reman Fuel Injector (H1315B) (C9) (2.2 SF) | Cat Parts Store alternate displayed on discontinued 293-4068 injector page | cat_linked_candidate; needs_individual_verification
 2W-6289 | Fuel Injection Lines Tube Assembly | Cat Parts Store frequently bought together with 2W-6290 | cat_linked_candidate; needs_individual_verification
 2W-6667 | 4.57mm Inner Diameter Fuel Filter Tube Assembly | Cat Parts Store frequently bought together with 2W-6290 | cat_linked_candidate; needs_individual_verification
-214-7568 | STOR O-Ring Seal (SAE 9/16-18) | Cat Parts Store frequently bought together with 2W-6290 | cat_linked_candidate; needs_individual_verification
+214-7568 | STOR O-ring seal (SAE 9/16-18) | Related part shown on Cat 237-9313 page | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
 7C-7677 | 9.52mm Outer Diameter Fuel Injection Tube | Cat Parts Store frequently bought together with 2W-6290 | cat_linked_candidate; needs_individual_verification
 6V-5048 | 1.83 x 8.92mm 75A FKM O-Ring | Cat Parts Store frequently bought together with 2W-6290 | cat_linked_candidate; needs_individual_verification
 449-2274 | Carrier Roller Group, Cantilever, Standard Application, 160mm Tread | Cat Parts Store alternate shown for 300-4545 | cat_linked_candidate; needs_individual_verification
@@ -275,7 +275,7 @@ Source pages:
 110-6331 | Secondary Standard Efficiency Engine Air Filter | Cat Parts Store frequently bought together with 336-6684 camera | cat_linked_candidate; needs_individual_verification
 9Y-6089 | 0.8mm Thick Flywheel Housing Gasket | Cat Parts Store related part for 338-3454 starter motor | cat_linked_candidate; needs_individual_verification
 1R-1808 | Engine Oil Filter | Cat Parts Store related part for 338-3454 starter motor | cat_linked_candidate; needs_individual_verification
-214-7568 | STOR O-Ring Seal (SAE 9/16-18) | Cat Parts Store related part for 338-3454 starter motor | cat_linked_candidate; needs_individual_verification
+214-7568 | STOR O-ring seal (SAE 9/16-18) | Related part shown on Cat 237-9313 page | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
 3J-1907 | 1.98 x 11.89mm 90A NBR O-Ring | Cat Parts Store related part for 338-3454 starter motor | cat_linked_candidate; needs_individual_verification
 3K-0360 | 2.21 x 16.36mm 90A NBR O-Ring | Cat Parts Store related part for 338-3454 starter motor | cat_linked_candidate; needs_individual_verification
 10R-9815 | Cat Reman Electric Starting Motor | Cat Parts Store alternate displayed for 338-3454 | cat_linked_candidate; needs_individual_verification
@@ -283,7 +283,7 @@ Source pages:
 5D-5957 | 104.37mm Inner Diameter Seal O Ring | Cat Parts Store frequently bought together with 339-5148 oil filter cover | cat_linked_candidate; needs_individual_verification
 6V-3907 | 3.53 x 183.74mm 75A FKM O-Ring | Cat Parts Store frequently bought together with 339-5148 oil filter cover | cat_linked_candidate; needs_individual_verification
 8T-6762 | 1/2-14 NPTF Thread Square Drive Plug | Cat Parts Store frequently bought together with 339-5148 oil filter cover | cat_linked_candidate; needs_individual_verification
-1R-0726 | Standard Efficiency Engine Oil Filter | Cat Parts Store frequently bought together with 339-5148 oil filter cover | cat_linked_candidate; needs_individual_verification
+1R-0726 | Standard Efficiency Engine Oil Filter | Related part shown on Cat 210-2535 page | cat_item_page_verified; existing_catalog_row_updated; fitment_verified
 362-2915 | 6mm Thick Breather Cover Seal | Cat Parts Store component listed in 339-1048 breather filter kit, quantity 1 | cat_linked_candidate; needs_individual_verification
 132-6663 | 137.065mm Bore Diameter Piston Skirt | Cat Parts Store component listed in 346-3791 overhaul kit, quantity 6 | cat_linked_candidate; needs_individual_verification
 160-9874 | Single Cylinder Liner Gasket Kit | Cat Parts Store component listed in 346-3791 overhaul kit, quantity 6 | cat_linked_candidate; needs_individual_verification
@@ -429,11 +429,11 @@ Source pages:
 248-5513 | Engine Water Temperature Regulator | Cat Parts Store frequently bought together with 392-0200 injector group | cat_linked_candidate; needs_individual_verification
 132-6469 | Cylinder Head Valve Mechanism Wiring Harness | Cat Parts Store frequently bought together with 392-0200 injector group | cat_linked_candidate; needs_individual_verification
 1R-0756 | Element Assembly | Cat Parts Store frequently bought together with 392-0200 injector group | cat_linked_candidate; needs_individual_verification
-1R-0726 | Standard Efficiency Engine Oil Filter | Cat Parts Store frequently bought together with 392-0200 injector group | cat_linked_candidate; needs_individual_verification
+1R-0726 | Standard Efficiency Engine Oil Filter | Related part shown on Cat 210-2535 page | cat_item_page_verified; existing_catalog_row_updated; fitment_verified
 20R-1268 | Cat Reman Fuel Injector | Cat Parts Store Compare Alternate Parts panel for 392-0204 | cat_linked_candidate; needs_individual_verification
 11R-0681 | Cat Reman New with Core (NWC) Fuel Injector | Cat Parts Store Compare Alternate Parts panel for 392-0205 | cat_linked_candidate; needs_individual_verification
 20R-1269 | Cat Reman Fuel Injector | Cat Parts Store Compare Alternate Parts panel for 392-0205 | cat_linked_candidate; needs_individual_verification
-219-3240 | Water Temperature Regulator | Cat Parts Store frequently bought together with 392-0205 injector | cat_linked_candidate; needs_individual_verification
+219-3240 | Water Temperature Regulator | Related part shown on Cat 231-5127 page | cat_item_page_verified; existing_catalog_row_updated; fitment_verified
 313-7770 | Fuel Transfer Pump | Cat Parts Store frequently bought together with 392-0205 injector | cat_linked_candidate; needs_individual_verification
 11R-0280 | Cat Reman New with Core (NWC) Fuel Injector | Cat Parts Store alternative for 392-0206 | cat_linked_candidate; needs_individual_verification
 20R-1270 | Cat Reman Fuel Injector | Cat Parts Store alternative for 392-0206 | cat_linked_candidate; needs_individual_verification
@@ -450,7 +450,7 @@ Source pages:
 20R-0850 | Cat Reman Fuel Injector | Cat Parts Store Compare Alternate Parts for 392-0213 | cat_linked_candidate; needs_individual_verification
 272-0760 | Valve Cover Press In Place Seal | Cat Parts Store frequently bought together with 392-0216 injector group | cat_linked_candidate; needs_individual_verification
 3S-9643 | Rotating Shaft Lip Type Seal | Cat Parts Store frequently bought together with 392-0216 injector group | cat_linked_candidate; needs_individual_verification
-7N-4927 | 1.6mm Water Temperature Regulator Housing Gasket | Cat Parts Store frequently bought together with 392-0216 injector group | cat_linked_candidate; needs_individual_verification
+7N-4927 | 1.6mm water-temperature regulator housing gasket | Related part shown on Cat 231-5127 page | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
 230-2520 | Steel Backed Aluminum Connecting Rod Bearing | Cat Parts Store frequently bought together with 392-0216 injector group | cat_linked_candidate; needs_individual_verification
 6V-1454 | 72.39mm ID EPDM 70A O-ring | Frequently bought together with Cat 210-1471 | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
 11R-0682 | Cat Reman New with Core (NWC) Fuel Injector | Cat Parts Store alternate for 392-0216 | cat_linked_candidate; needs_individual_verification
@@ -463,7 +463,7 @@ Source pages:
 11R-0286 | Cat Reman New with Core (NWC) Fuel Injector | Cat Parts Store alternate for 392-0217 | cat_linked_candidate; needs_individual_verification
 20R-1278 | Cat Reman Fuel Injector (EI800B) (3500B) (EUI) | Cat Parts Store alternate for 392-0217 | cat_linked_candidate; needs_individual_verification
 1R-0756 | Element Assembly | Cat Parts Store frequently bought together with 392-0219 injector | cat_linked_candidate; needs_individual_verification
-1R-0726 | Standard Efficiency Engine Oil Filter | Cat Parts Store frequently bought together with 392-0219 injector | cat_linked_candidate; needs_individual_verification
+1R-0726 | Standard Efficiency Engine Oil Filter | Related part shown on Cat 210-2535 page | cat_item_page_verified; existing_catalog_row_updated; fitment_verified
 8N-6309 | Engine Air Filter | Cat Parts Store frequently bought together with 392-0219 injector | cat_linked_candidate; needs_individual_verification
 5D-5957 | 104.37mm Inner Diameter Seal O Ring | Cat Parts Store frequently bought together with 392-0219 injector | cat_linked_candidate; needs_individual_verification
 11R-0665 | Cat Reman New with Core (NWC) Fuel Injector | Cat Parts Store alternate for 392-0219 | cat_linked_candidate; needs_individual_verification
@@ -473,7 +473,7 @@ Source pages:
 197-7055 | 12.70mm Long Valve Retainer Lock | Cat Parts Store frequently bought together with 392-0221 injector | cat_linked_candidate; needs_individual_verification
 20R-0863 | Cat Reman Fuel Injector | Cat Parts Store alternate for 392-0221 | cat_linked_candidate; needs_individual_verification
 154-6389 | 14.73mm Outer Diameter Rocker Arm Button | Cat Parts Store frequently bought together with 392-0222 injector | cat_linked_candidate; needs_individual_verification
-219-3240 | Water Temperature Regulator | Cat Parts Store frequently bought together with 392-0222 injector | cat_linked_candidate; needs_individual_verification
+219-3240 | Water Temperature Regulator | Related part shown on Cat 231-5127 page | cat_item_page_verified; existing_catalog_row_updated; fitment_verified
 11R-0667 | Cat Reman New with Core (NWC) Fuel Injector | Cat Parts Store alternate for 392-0222 | cat_linked_candidate; needs_individual_verification
 20R-1282 | Reman Electronic Fuel Injector | Cat Parts Store alternate for 392-0222 | cat_linked_candidate; needs_individual_verification
 395-1050 | Track Group, 1 Tooth Master, 41 Sections, 710mm Shoe Width | Cat Parts Store Compare Alternate Parts for 395-1044 | cat_linked_candidate; needs_individual_verification
@@ -506,7 +506,7 @@ Source pages:
 238-5084 | 2.95 x 29.74mm 90A FKM O-Ring | Cat Parts Store related item for 396-4129 nitrogen accumulator | cat_linked_candidate; needs_individual_verification
 228-7093 | 1.78 x 23.66mm 90A FKM O-Ring | Cat Parts Store related item for 396-4129 nitrogen accumulator | cat_linked_candidate; needs_individual_verification
 7M-8485 | 2.95 x 29.74mm 90A NBR O-Ring | Cat Parts Store related item for 396-4129 nitrogen accumulator | cat_linked_candidate; needs_individual_verification
-214-7568 | STOR O-Ring Seal (SAE 9/16-18) | Cat Parts Store related item for 396-4129 nitrogen accumulator | cat_linked_candidate; needs_individual_verification
+214-7568 | STOR O-ring seal (SAE 9/16-18) | Related part shown on Cat 237-9313 page | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
 228-7092 | 1.78 x 18.94mm 90A FKM O-Ring | Cat Parts Store related item for 396-4129 nitrogen accumulator | cat_linked_candidate; needs_individual_verification
 20R-8270 | Cat Reman Accumulator | Cat Parts Store Compare Alternate Parts for 396-4129 | cat_linked_candidate; needs_individual_verification
 4J-6750 | Sleeve Bearing (Bushing) | Cat Parts Store frequently bought together with 397-5051 throttle rod | cat_linked_candidate; needs_individual_verification
@@ -553,8 +553,8 @@ Source pages:
 7N-5057 | 0.8mm Thick Engine Oil Pump Gasket | Cat Parts Store component listed in 422-7389 external oil pump kit, quantity 1 | cat_linked_candidate; needs_individual_verification
 3S-9643 | Rotating Shaft Lip Type Seal | Cat Parts Store frequently bought together with 422-7389 oil pump kit | cat_linked_candidate; needs_individual_verification
 7N-4782 | 31.38mm Free Length Lifter Guide Spring | Cat Parts Store frequently bought together with 422-7389 oil pump kit | cat_linked_candidate; needs_individual_verification
-1R-0726 | Standard Efficiency Engine Oil Filter | Cat Parts Store frequently bought together with 422-7389 oil pump kit | cat_linked_candidate; needs_individual_verification
-4W-3027 | Engine Crankcase Breather | Cat Parts Store frequently bought together with 422-7389 oil pump kit | cat_linked_candidate; needs_individual_verification
+1R-0726 | Standard Efficiency Engine Oil Filter | Related part shown on Cat 210-2535 page | cat_item_page_verified; existing_catalog_row_updated; fitment_verified
+4W-3027 | Engine crankcase breather | Related part shown on Cat 231-5127 page | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
 033-6031 | 3.53 x 69.44mm 75A FKM O-Ring | Cat Parts Store frequently bought together with 422-7389 oil pump kit | cat_linked_candidate; needs_individual_verification
 345-6511 | Bucket Linkage Pin | Cat Parts Store parts diagram for 423-3676 lift-arm quick coupler | cat_linked_candidate; needs_individual_verification
 142-9091 | Bucket Linkage Pin | Cat Parts Store parts diagram for 423-3676 lift-arm quick coupler | cat_linked_candidate; needs_individual_verification
@@ -587,10 +587,10 @@ Source pages:
 154-6389 | 14.73mm OD Rocker Arm Button | Cat Parts Store component in 440-0216 overhaul kit, quantity 36 | cat_linked_candidate; needs_individual_verification
 175-6618 | Aftercooler & Lines Install Kit | Cat Parts Store component in 440-0216 overhaul kit, quantity 1 | cat_linked_candidate; needs_individual_verification
 1J-9671 | 1.83 x 10.52mm 90A NBR O-Ring | Cat Parts Store component in 440-0216 overhaul kit, quantity 1 | cat_linked_candidate; needs_individual_verification
-1R-0726 | Standard Efficiency Engine Oil Filter | Cat Parts Store component in 440-0216 overhaul kit, quantity 3 | cat_linked_candidate; needs_individual_verification
+1R-0726 | Standard Efficiency Engine Oil Filter | Related part shown on Cat 210-2535 page | cat_item_page_verified; existing_catalog_row_updated; fitment_verified
 1R-0756 | Element Assembly | Cat Parts Store component in 440-0216 overhaul kit, quantity 5 | cat_linked_candidate; needs_individual_verification
-214-7568 | STOR O-Ring Seal | Cat Parts Store component in 440-0216 overhaul kit, quantity 1 | cat_linked_candidate; needs_individual_verification
-219-3240 | Water Temperature Regulator | Cat Parts Store component in 440-0216 overhaul kit, quantity 2 | cat_linked_candidate; needs_individual_verification
+214-7568 | STOR O-ring seal (SAE 9/16-18) | Related part shown on Cat 237-9313 page | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
+219-3240 | Water Temperature Regulator | Related part shown on Cat 231-5127 page | cat_item_page_verified; existing_catalog_row_updated; fitment_verified
 235-3546 | 3.53 x 234.54mm 75A FKM O-Ring | Cat Parts Store component in 440-0216 overhaul kit, quantity 1 | cat_linked_candidate; needs_individual_verification
 238-5080 | 2.21 x 16.36mm 90A FKM O-Ring | Cat Parts Store component in 440-0216 overhaul kit, quantity 1 | cat_linked_candidate; needs_individual_verification
 238-5081 | 2.46 x 19.18mm 90A FKM O-Ring | Cat Parts Store component in 440-0216 overhaul kit, quantity 9 | cat_linked_candidate; needs_individual_verification
@@ -609,7 +609,7 @@ Source pages:
 3J-1907 | 1.98 x 11.89mm 90A NBR O-Ring | Cat Parts Store frequently bought together with 440-2667 suspension charging valve | cat_linked_candidate; needs_individual_verification
 3B-8489 | 1/8-27 PTF Hex Head Special Grease Fitting Adapter | Cat Parts Store frequently bought together with 440-2667 suspension charging valve | cat_linked_candidate; needs_individual_verification
 114-3361 | Rubber O-Ring Seal | Cat Parts Store frequently bought together with 440-2667 suspension charging valve | cat_linked_candidate; needs_individual_verification
-228-7089 | 1.78 x 9.27mm 90A FKM O-Ring | Cat Parts Store frequently bought together with 440-2667 suspension charging valve | cat_linked_candidate; needs_individual_verification
+228-7089 | 1.78 × 9.27mm 90A FKM O-ring | Related component shown on Cat 20R-9654 page | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
 030-0167 | 9.90mm Internal Diameter Ring | Cat Parts Store frequently bought together with 440-2667 suspension charging valve | cat_linked_candidate; needs_individual_verification
 434-3378 | 1.6mm Thick Lubrication Pump Gasket | Cat Parts Store parts diagram for 443-1047 lubrication pump | cat_linked_candidate; needs_individual_verification
 1R-1808 | Engine Oil Filter | Cat Parts Store parts diagram for 443-1047 lubrication pump | cat_linked_candidate; needs_individual_verification
@@ -627,7 +627,7 @@ Source pages:
 126-4935 | Edge Bonded Rubber Integral Seal | Cat Parts Store component in 453-2315 kit, quantity 1 | cat_linked_candidate; needs_individual_verification
 167-4407 | 3.53 x 69.44mm 70A EPDM O-Ring | Cat Parts Store component in 453-2315 kit, quantity 1 | cat_linked_candidate; needs_individual_verification
 214-7566 | 1.83 x 8.92mm 90A FKM O-Ring | Cat Parts Store component in 453-2315 kit, quantity 2 | cat_linked_candidate; needs_individual_verification
-214-7568 | STOR O-Ring Seal (SAE 9/16-18) | Cat Parts Store component in 453-2315 kit, quantity 4 | cat_linked_candidate; needs_individual_verification
+214-7568 | STOR O-ring seal (SAE 9/16-18) | Related part shown on Cat 237-9313 page | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
 238-5084 | 2.95 x 29.74mm 90A FKM O-Ring | Cat Parts Store component in 453-2315 kit, quantity 6 | cat_linked_candidate; needs_individual_verification
 2P-3760 | 0.8mm Two Bolt Flange Gasket | Cat Parts Store component in 453-2315 kit, quantity 2 | cat_linked_candidate; needs_individual_verification
 2P-4305 | 0.8mm Thick Gasket | Cat Parts Store component in 453-2315 kit, quantity 4 | cat_linked_candidate; needs_individual_verification
@@ -651,9 +651,9 @@ Source pages:
 11R-1956 | Cat Reman New with Core (NWC) Fuel Injector | Cat Parts Store alternative for 457-5312 injector | cat_linked_candidate; needs_individual_verification
 30R-0250 | Cat Reman Fuel Injector | Cat Parts Store alternative for 457-5312 injector | cat_linked_candidate; needs_individual_verification
 1R-0756 | Element Assembly | Cat Parts Store frequently bought together with 457-5312 injector | cat_linked_candidate; needs_individual_verification
-1R-0726 | Standard Efficiency Engine Oil Filter | Cat Parts Store frequently bought together with 457-5312 injector | cat_linked_candidate; needs_individual_verification
+1R-0726 | Standard Efficiency Engine Oil Filter | Related part shown on Cat 210-2535 page | cat_item_page_verified; existing_catalog_row_updated; fitment_verified
 3S-9643 | Rotating Shaft Lip Type Seal | Cat Parts Store frequently bought together with 457-5312 injector | cat_linked_candidate; needs_individual_verification
-7N-4927 | 1.6mm Water Temperature Regulator Housing Gasket | Cat Parts Store frequently bought together with 457-5312 injector | cat_linked_candidate; needs_individual_verification
+7N-4927 | 1.6mm water-temperature regulator housing gasket | Related part shown on Cat 231-5127 page | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
 245-4907 | 36.17mm Internal Diameter Rubber O-Ring Seal | Cat Parts Store frequently bought together with 457-5312 injector | cat_linked_candidate; needs_individual_verification
 4J-0527 | 3.53 x 56.74mm 90A NBR O-Ring | Cat Parts Store parts diagram for 457-9635 track roller | cat_linked_candidate; needs_individual_verification
 477-7938 | Track Roller Group | Cat Parts Store parts diagram for 457-9635 track roller | cat_linked_candidate; needs_individual_verification
@@ -676,12 +676,12 @@ Source pages:
 
 033-6031 | 3.53 x 69.44mm 75A FKM O-Ring | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 3 | cat_linked_candidate; needs_individual_verification
 136-7227 | 19.18mm ID Seal-O-Ring | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 1 | cat_linked_candidate; needs_individual_verification
-1R-0726 | Standard Efficiency Engine Oil Filter | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 3 | cat_linked_candidate; needs_individual_verification
+1R-0726 | Standard Efficiency Engine Oil Filter | Related part shown on Cat 210-2535 page | cat_item_page_verified; existing_catalog_row_updated; fitment_verified
 1R-0756 | Element Assembly | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 5 | cat_linked_candidate; needs_individual_verification
 1W-1251 | 0.82mm Thick Air Lines Gasket | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 5 | cat_linked_candidate; needs_individual_verification
 1W-1253 | 0.9mm Thick Aftercooler Gasket | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 2 | cat_linked_candidate; needs_individual_verification
 214-7566 | 1.83 x 8.92mm 90A FKM O-Ring | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 1 | cat_linked_candidate; needs_individual_verification
-214-7568 | STOR O-Ring Seal (SAE 9/16-18) | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 7 | cat_linked_candidate; needs_individual_verification
+214-7568 | STOR O-ring seal (SAE 9/16-18) | Related part shown on Cat 237-9313 page | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
 230-1072 | 0.8mm Thick Gasket | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 2 | cat_linked_candidate; needs_individual_verification
 238-5080 | 2.21 x 16.36mm 90A FKM O-Ring | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 1 | cat_linked_candidate; needs_individual_verification
 238-5081 | 2.46 x 19.18mm 90A FKM O-Ring | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 6 | cat_linked_candidate; needs_individual_verification
@@ -692,7 +692,7 @@ Source pages:
 457-6719 | Turbocharger Installation Gasket Kit | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 2 | cat_linked_candidate; needs_individual_verification
 492-0914 | Oil Cooler and Lines Gasket Kit | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 1 | cat_linked_candidate; needs_individual_verification
 4F-7226 | 7/16-14 Thread Hex Head Bolt | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 12 | cat_linked_candidate; needs_individual_verification
-4W-3027 | Engine Crankcase Breather | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 3 | cat_linked_candidate; needs_individual_verification
+4W-3027 | Engine crankcase breather | Related part shown on Cat 231-5127 page | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
 4W-3100 | 0.8mm Thick Governor Cover Gasket | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 1 | cat_linked_candidate; needs_individual_verification
 5D-5957 | 104.37mm Inner Diameter Seal O-Ring | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 3 | cat_linked_candidate; needs_individual_verification
 5P-4892 | 3.53 x 59.92mm 75A FKM O-Ring | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 4 | cat_linked_candidate; needs_individual_verification
@@ -704,7 +704,7 @@ Source pages:
 6V-9027 | 1.83 x 8.92mm 70A EPDM O-Ring | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 3 | cat_linked_candidate; needs_individual_verification
 7M-9909 | 104.37mm Inside Diameter Seal-O-Ring | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 2 | cat_linked_candidate; needs_individual_verification
 7N-4782 | 31.38mm Free Length Lifter Guide Spring | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 36 | cat_linked_candidate; needs_individual_verification
-7N-4927 | 1.6mm Water Temperature Regulator Housing Gasket | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 1 | cat_linked_candidate; needs_individual_verification
+7N-4927 | 1.6mm water-temperature regulator housing gasket | Related part shown on Cat 231-5127 page | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
 7N-6806 | 15.60mm Inner Diameter Round Seal | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 4 | cat_linked_candidate; needs_individual_verification
 290-2041 | Piston Assembly | Cat Parts Store related part for 497-5606 cylinder block liner | cat_linked_candidate; needs_individual_verification
 6I-4545 | 5.26 x 638.2mm 75A FKM O-Ring | Cat Parts Store related part for 497-5606 cylinder block liner | cat_linked_candidate; needs_individual_verification
@@ -741,7 +741,7 @@ Source pages:
 479-8989 | Primary Ultra High Efficiency Engine Air Filter | Cat Parts Store related item for 509-5694 secondary fuel filter | cat_linked_candidate; needs_individual_verification
 479-8991 | Secondary Standard Efficiency Engine Air Filter | Cat Parts Store related item for 509-5694 secondary fuel filter | cat_linked_candidate; needs_individual_verification
 6V-8260 | 123.42mm Inside Diameter Seal-O-Ring | Cat Parts Store frequently bought together with 511-7975 fuel injection pump | cat_linked_candidate; needs_individual_verification
-214-7568 | STOR O-Ring Seal (SAE 9/16-18) | Cat Parts Store frequently bought together with 511-7975 fuel injection pump | cat_linked_candidate; needs_individual_verification
+214-7568 | STOR O-ring seal (SAE 9/16-18) | Related part shown on Cat 237-9313 page | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
 214-7567 | 1.83 x 10.52mm 90A FKM O-Ring | Cat Parts Store frequently bought together with 511-7975 fuel injection pump | cat_linked_candidate; needs_individual_verification
 238-5080 | 2.21 x 16.36mm 90A FKM O-Ring | Cat Parts Store frequently bought together with 511-7975 fuel injection pump | cat_linked_candidate; needs_individual_verification
 251-7757 | Track Seal | Cat Parts Store frequently bought together with 516-2634 track bolt | cat_linked_candidate; needs_individual_verification
@@ -752,8 +752,8 @@ Source pages:
 033-6031 | 3.53 x 69.44mm 75A FKM O-Ring | Cat Parts Store frequently bought together with 519-7297 spacer plate | cat_linked_candidate; needs_individual_verification
 132-6469 | Cylinder Head Valve Mechanism Wiring Harness | Cat Parts Store frequently bought together with 519-7297 spacer plate | cat_linked_candidate; needs_individual_verification
 3S-9643 | Rotating Shaft Lip Type Seal | Cat Parts Store frequently bought together with 519-7297 spacer plate | cat_linked_candidate; needs_individual_verification
-4W-3027 | Engine Crankcase Breather | Cat Parts Store frequently bought together with 519-7297 spacer plate | cat_linked_candidate; needs_individual_verification
-214-7568 | STOR O-Ring Seal (SAE 9/16-18) | Cat Parts Store frequently bought together with 519-7297 spacer plate | cat_linked_candidate; needs_individual_verification
+4W-3027 | Engine crankcase breather | Related part shown on Cat 231-5127 page | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
+214-7568 | STOR O-ring seal (SAE 9/16-18) | Related part shown on Cat 237-9313 page | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
 232-3226 | 104.90mm Outer Diameter Connecting Rod Bearing | Cat Parts Store frequently bought together with 520-2924 oil pump | cat_linked_candidate; needs_individual_verification
 248-5513 | Engine Water Temperature Regulator | Cat Parts Store frequently bought together with 520-2924 oil pump | cat_linked_candidate; needs_individual_verification
 253-1752 | 5.73mm Thick Crankshaft Thrust Plate | Cat Parts Store frequently bought together with 520-2924 oil pump | cat_linked_candidate; needs_individual_verification
@@ -906,7 +906,7 @@ Source pages:
 5P-8500 | Machine Ignition Key | Cat Parts Store frequently bought together with 590-0195 topcoat | cat_linked_candidate; needs_individual_verification
 3J-1907 | 1.98 x 11.89mm 90A NBR O-Ring | Cat Parts Store frequently bought together with 590-0195/590-0196/590-0198 paint | cat_linked_candidate; needs_individual_verification
 238-8648 | Extended Life Coolant 50/50 Premix (1 Gallon) | Cat Parts Store frequently bought together with 590-0196 topcoat | cat_linked_candidate; needs_individual_verification
-214-7568 | STOR O-Ring Seal (SAE 9/16-18) | Cat Parts Store frequently bought together with 590-0198 paint | cat_linked_candidate; needs_individual_verification
+214-7568 | STOR O-ring seal (SAE 9/16-18) | Related part shown on Cat 237-9313 page | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
 238-5082 | 2.95 x 23.47mm 90A FKM O-Ring | Cat Parts Store frequently bought together with 590-2533 dual slack adjuster | cat_linked_candidate; needs_individual_verification
 238-5081 | 2.46 x 19.18mm 90A FKM O-Ring | Cat Parts Store frequently bought together with 590-2533 dual slack adjuster | cat_linked_candidate; needs_individual_verification
 228-7092 | 1.78 x 18.94mm 90A FKM O-Ring | Cat Parts Store frequently bought together with 590-2533 dual slack adjuster | cat_linked_candidate; needs_individual_verification
@@ -962,9 +962,9 @@ Source pages:
 179-2960 | 2mm Thick Integral Seal Gasket | Cat Parts Store component in 599-7781 kit, quantity 16 | cat_linked_candidate; needs_individual_verification
 180-8424 | 12.42mm Inside Diameter O-Ring Seal | Cat Parts Store component in 599-7781 kit, quantity 8 | cat_linked_candidate; needs_individual_verification
 198-6067 | 0.76mm Thick Edge Bonded Seal Gasket | Cat Parts Store component in 599-7781 kit, quantity 6 | cat_linked_candidate; needs_individual_verification
-1R-0726 | Standard Efficiency Engine Oil Filter | Cat Parts Store component in 599-7781 kit, quantity 3 | cat_linked_candidate; needs_individual_verification
+1R-0726 | Standard Efficiency Engine Oil Filter | Related part shown on Cat 210-2535 page | cat_item_page_verified; existing_catalog_row_updated; fitment_verified
 204-9598 | 2.03mm Thickness Edge Bonded Integral Seal Gasket | Cat Parts Store component in 599-7781 kit, quantity 16 | cat_linked_candidate; needs_individual_verification
-214-7568 | STOR O-Ring Seal (SAE 9/16-18) | Cat Parts Store component in 599-7781 kit, quantity 11 | cat_linked_candidate; needs_individual_verification
+214-7568 | STOR O-ring seal (SAE 9/16-18) | Related part shown on Cat 237-9313 page | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
 216-7485 | 2.1 x 19.4mm 70A EPDM O-Ring | Cat Parts Store component in 599-7781 kit, quantity 8 | cat_linked_candidate; needs_individual_verification
 227-4147 | Bearing Sleeve | Cat Parts Store component in 599-7781 kit, quantity 3 | cat_linked_candidate; needs_individual_verification
 228-7097 | 3 x 59.36mm 90A FKM O-Ring | Cat Parts Store component in 599-7781 kit, quantity 1 | cat_linked_candidate; needs_individual_verification
@@ -1108,7 +1108,7 @@ Source pages:
 609-3715 | Double Flange Track Idler Group | Cat Parts Store related part for 643-4218 triple-flange idler | cat_linked_candidate; needs_individual_verification
 30R-0003 | Cat Reman C15 Fuel Injector | Cat Parts Store Compare Alternate Parts for 647-0750 engine fuel injector | cat_linked_candidate; needs_individual_verification
 1R-1808 | Engine Oil Filter | Cat Parts Store related item for 647-0750 fuel injector | cat_linked_candidate; needs_individual_verification
-214-7568 | STOR O-Ring Seal (SAE 9/16-18) | Cat Parts Store related item for 647-0750 fuel injector | cat_linked_candidate; needs_individual_verification
+214-7568 | STOR O-ring seal (SAE 9/16-18) | Related part shown on Cat 237-9313 page | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
 238-5080 | 2.21 x 16.36mm 90A FKM O-Ring | Cat Parts Store related item for 647-0750 fuel injector | cat_linked_candidate; needs_individual_verification
 248-5513 | Engine Water Temperature Regulator | Cat Parts Store related item for 647-0750 fuel injector | cat_linked_candidate; needs_individual_verification
 650-8530 | Sealed and Lubricated Track Link | Cat Parts Store Compare Alternate Parts for 651-9069 link assembly | cat_linked_candidate; needs_individual_verification
@@ -1140,7 +1140,7 @@ Source pages:
 167-1946 | Idler Group for Landfill Compactor | Cat Parts Store related item for 6T-1382 minor bogie | cat_linked_candidate; needs_individual_verification
 245-9947 | Arctic Application Idler Group | Cat Parts Store related item for 6T-1382 minor bogie | cat_linked_candidate; needs_individual_verification
 245-9950 | Arctic Track Idler | Cat Parts Store related item for 6T-1382 minor bogie | cat_linked_candidate; needs_individual_verification
-214-7568 | STOR O-Ring Seal (SAE 9/16-18) | Cat Parts Store related item for 6V-3965 quick disconnect nipple | cat_linked_candidate; needs_individual_verification
+214-7568 | STOR O-ring seal (SAE 9/16-18) | Related part shown on Cat 237-9313 page | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
 238-5080 | 2.21 x 16.36mm 90A FKM O-Ring | Cat Parts Store related item for 6V-3965 quick disconnect nipple | cat_linked_candidate; needs_individual_verification
 238-5081 | 2.46 x 19.18mm 90A FKM O-Ring | Cat Parts Store related item for 6V-3965 quick disconnect nipple | cat_linked_candidate; needs_individual_verification
 2H-3928 | 107.54mm Inside Diameter O-Ring Seal | Cat Parts Store related item for 6V-7238 shutoff valve | cat_linked_candidate; needs_individual_verification
@@ -1176,7 +1176,7 @@ Source pages:
 276-1319 | Circle Wear Strip | Cat Parts Store frequently bought together with 7D-1577 cutting edge | cat_linked_candidate; needs_individual_verification
 0R-3052 | Cat Reman Electronic Power Generation Uprate Timing Retard Scroll Injector | Cat Parts Store Compare Alternate Parts for 7E-6408 fuel injector | cat_linked_candidate; needs_individual_verification
 
-214-7568 | STOR O-Ring Seal (SAE 9/16-18) | Cat Parts Store frequently bought together with 7E-6508 Unit Injector Cap | cat_linked_candidate; needs_individual_verification
+214-7568 | STOR O-ring seal (SAE 9/16-18) | Related part shown on Cat 237-9313 page | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
 3S-9643 | Rotating Shaft Lip Type Seal | Cat Parts Store frequently bought together with 7E-6508 Unit Injector Cap | cat_linked_candidate; needs_individual_verification
 248-5513 | Engine Water Temperature Regulator | Cat Parts Store frequently bought together with 7E-6508 Unit Injector Cap | cat_linked_candidate; needs_individual_verification
 238-5081 | 2.46 x 19.18mm 90A FKM O-Ring | Cat Parts Store frequently bought together with 7E-6508 Unit Injector Cap | cat_linked_candidate; needs_individual_verification
@@ -1511,3 +1511,9 @@ Source pages:
 230-3775 | 36.09mm ID Fuel System Seal | Cat Parts Store related/diagram component shown on 230-3728 page | cat_linked_candidate; needs_individual_verification
 9X-7317 | 9.60mm ID Fuel System Seal | Cat Parts Store related/diagram component shown on 230-3728 page | cat_linked_candidate; needs_individual_verification
 9X-7430 | 1.4 × 25.63mm 90A FKM O-ring | Cat Parts Store frequently bought together with 230-3728 | cat_linked_candidate; needs_individual_verification
+
+210-2535 | Fuel Injection Line Tube Assembly | Cat Parts Store related part shown on 210-1470 page | cat_linked_candidate; needs_individual_verification
+513-4493 | Water Separator and Fuel Element | Cat Parts Store frequently bought together with 1R-0726 | cat_linked_candidate; needs_individual_verification
+8T-1919 | 62.87mm ID Seal-O-Ring | Cat Parts Store related part shown on 219-3240 page | cat_linked_candidate; needs_individual_verification
+2N-0931 | 0.8mm Thick Square Gasket | Cat Parts Store frequently bought together with 7N-4927 | cat_linked_candidate; needs_individual_verification
+105-2508 | Cat fuel-system component | Cat Parts Store frequently bought together with 1P-0436 | cat_linked_candidate; needs_individual_verification
