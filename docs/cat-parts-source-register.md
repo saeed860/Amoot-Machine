@@ -542,3 +542,36 @@ The Off Road public 500-part popular-parts index was checked for **361-5093**, *
 ## C18 lubrication-system official Cat follow-up (24 Nov 2026)
 
 Exact Cat Parts Store pages add model-class references for **226-1191** (one-section gear engine oil pump), **161-4113** (one-section engine oil gear pump), **20R-4330** (Cat Reman gear pump), **6I-4575** (oil-pump drive gear) and **258-9978** (engine-oil filter tube line). Each retrieved exact page lists C18 under MARINE ENGINE; all are BOTH at published model-class level. Keep 20R-4330 REMAN separate and do not assume interchangeability among pump assemblies. Full evidence and official URLs: [C18 marine source expansion](marine-engine-source-expansion.md#c18-lubrication-system-cat-parts-store-extraction--24-nov-2026). No public Cat customer prices, stock or sellable SKUs were established.
+
+
+## Additional public catalog sources reviewed — 25 Nov 2026
+
+| Source | Role in Amoot research | Evidence handling |
+|---|---|---|
+| [Cat Parts Cross Reference](https://parts.cat.com/en/catcorp/cat-parts-cross-reference) | Official CAT lookup for competitor filter numbers; covers air, engine-oil, hydraulic/transmission and fuel filters | **A — OEM confirmation** only for exact results actually returned. Keep competitor and CAT identifiers separate; cross-reference alone does not prove machine fitment |
+| [Cat Shop by Category](https://parts.cat.com/en/catcorp/shop-all-categories) | Official taxonomy: Attachments, Cabs, Drivetrain, Electrical, Engine, Filters & Fluids, GET, Hardware/Seals, Hoses, Hydraulics, Structures, Undercarriage, Kits and Workshop Supplies | **A — OEM taxonomy**, not a part-number source by itself |
+| [Cat Parts Reference Guides](https://www.cat.com/en_US/support/maintenance/parts-reference-guides.html) | Free machine-family guides with common wear and maintenance part numbers | **A — OEM document** for exact numbers and applications shown in each guide. Record guide, model, serial scope, page and revision |
+| [Cat SIS2GO](https://www.cat.com/sis2go) | Cat-authored parts and service information tied to equipment/serial number; subscription may be required | **A — OEM source** when exact equipment/serial record is accessible. Preserve serial and arrangement scope |
+| [SF-Filter Cross Reference](https://www.sf-filter.com/en/cross-reference-list) | Provider states nearly 900,000 OEM/aftermarket filter identifiers and technical checks for dimensions, thread, seals, filtration and valve characteristics | **B — specialist filter cross-reference**. Candidate matches only until verified; preserve SF-Filter and CAT numbers separately |
+| [SF-Filter Caterpillar machine catalogue](https://www.sf-filter.com/en/products/filters-for-mobile/construction-machines?brandname=caterpillar) | Filter discovery by machine make, model and type/year/engine | **B — supplier catalogue**. Capture exact selected configuration; do not assume model-only fitment |
+| [Donaldson filter cross-reference PDF](https://dcngli4g50fhp.cloudfront.net/userfiles/ad/donaldson/documents/donaldson_p552006_catalog.pdf) | Multi-brand cross-reference tables across Donaldson, Baldwin, Fleetguard, Fram, Luber-finer and Wix | **B/C — dated catalogue lead**. The located PDF is old; use to generate candidates, then verify with current manufacturer data |
+| [Off Road Equipment public popular-parts index](https://offroadeq.com/parts) | Public index states 500 frequently searched CAT part numbers | **C — independent reseller**. Seller describes a mix of genuine surplus OEM and aftermarket parts and states it is not an authorized CAT dealer |
+| [Off Road Equipment search](https://www.offroadeq.com/search) | Public search and batch-import entry point; shopping requires login | **C — reseller search**. Do not claim access to login-only inventory, price or availability |
+
+### Data rules added
+
+1. Keep raw and normalized part numbers, identifier role, brand/manufacturer, source class, source URL, retrieval date, verification status and fitment scope separately.
+2. CAT OEM number, aftermarket MPN, seller SKU, supplier stock code, supersession and kit/component number are distinct roles. Never merge by similar strings or descriptions alone.
+3. A cross-reference confirms only the relationship explicitly stated by its source; it does not independently prove machine/engine compatibility, serial range, stock or price.
+4. For filter equivalents, compare dimensions, thread, seal, filtration rating/efficiency, bypass valve and anti-drainback specifications where applicable.
+5. Do not create saleable Amoot product rows from source directories alone. Create reference candidates first; require exact detail-page evidence and applicable approval before publishing or pricing.
+6. Off Road's public 500-number list is already represented in data/cat-part-number-discovery-offroadeq.txt. Do not append duplicate part rows.
+
+### Research checkpoint — 25 Nov 2026
+
+- Repository inspected: saeed860/Amoot-Machine, default branch main.
+- Existing CAT reference and Off Road discovery datasets were found in data/; source register and CAT catalog docs in docs/.
+- This batch documents official CAT category/cross-reference/reference-guide/SIS2GO sources and SF-Filter/Donaldson sources.
+- No new individual part number is claimed as newly extracted from these sources in this batch.
+- Off Road authenticated inventory, batch-import results and account-only supplier prices remain uninspected because no authenticated browser session is available in this chat.
+- Next: extract exact Off Road filter candidates and compare against CAT's official cross-reference and current filter-manufacturer catalogues. Keep source observations separate before deduplication.
