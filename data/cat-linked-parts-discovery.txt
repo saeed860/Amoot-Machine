@@ -1731,3 +1731,33 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 574-6249 | 0.4mm Thick Gasket | 2 | Cat 603-6650 C13 Bronze Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
 
 Source page: https://parts.cat.com/en/catcorp/product/603-6650
+
+
+## Additional Cat D8N silver overhaul-kit BOM candidates — batch 104
+
+Source: official Cat Parts Store product page 396-2338, Engine Overhaul Kit - Silver. Compatible model shown: TRACK-TYPE TRACTOR / D8N. The page describes the Silver kit as adding pistons, liners, wrist pins, rings, retainers and a rod-less cylinder pack to the Bronze kit. Eleven other listed components were already recorded in the discovery queue and were not duplicated. These are kit-component references and quantities only, not standalone orderability, stock, price, or serial-specific fitment confirmation.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+061-7539 | 20mm Inner Diameter O-Ring Seal | 2 | Cat 396-2338 D8N Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+0L-1022 | 16.84mm Outside Diameter Non-Threaded Cup-Plug | 4 | Cat 396-2338 D8N Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+108-3612 | 11.13mm Internal Diameter Steel Spacer | 11 | Cat 396-2338 D8N Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+114-2687 | 5.33 x 23.16mm 78A HNBR O-Ring | 1 | Cat 396-2338 D8N Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+114-3362 | 10.82mm Inner Diameter Fuel System O-Ring Seal | 6 | Cat 396-2338 D8N Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+114-4427 | 2.46 x 19.18mm 78A HNBR O-Ring | 2 | Cat 396-2338 D8N Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+118-5068 | 15.54mm Inside Diameter Seal-O-Ring | 1 | Cat 396-2338 D8N Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+122-3772 | 215.49mm Inside Diameter Seal-O-Ring | 1 | Cat 396-2338 D8N Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+131-7123 | 63.70mm Inner Diameter Sleeve Bearing | 1 | Cat 396-2338 D8N Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+142-5867 | 154.18mm Inner Diameter Front Crankshaft Seal | 1 | Cat 396-2338 D8N Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+142-5868 | 154.18mm Inner Diameter Crankshaft Seal | 1 | Cat 396-2338 D8N Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+147-0182 | 3.53 x 12.29mm 78A HNBR O-Ring | 1 | Cat 396-2338 D8N Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+153-5484 | 0.84mm Thick Aftercooler Lines Gasket | 2 | Cat 396-2338 D8N Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+155-5619 | Rear Cover Gasket | 1 | Cat 396-2338 D8N Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+156-5198 | 215.49mm Inside Diameter Seal-O-Ring | 1 | Cat 396-2338 D8N Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+164-4187 | 137mm Gage Diameter Piston Intermediate Ring | 6 | Cat 396-2338 D8N Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+166-9142 | 0.8mm Thick Gear Housing Gasket | 1 | Cat 396-2338 D8N Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+166-9146 | 0.8mm Thick Gasket | 1 | Cat 396-2338 D8N Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+172-3284 | 137.6mm Outer Diameter Piston Oil Ring | 6 | Cat 396-2338 D8N Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+194-8124 | Exhaust Port Sleeve | 6 | Cat 396-2338 D8N Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+198-1517 | 1.2mm Thick Cylinder Block Cover Gasket | 1 | Cat 396-2338 D8N Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+
+Source page: https://parts.cat.com/en/catcorp/product/396-2338
