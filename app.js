@@ -47,7 +47,7 @@ function categoryInfo(p){
  const raw=String(p.category||'').trim(), name=String(p.name||'').toLowerCase(), t=(name+' '+raw+' '+(p.description||'')).toLowerCase();
  const hasFilterName=/فیلتر|filter|هواکش|breather|جداکننده آب/.test(name);
  const hasFilterCategory=/فیلتر|filter|هواکش|breather|جداکننده آب/.test(raw);
- if(hasFilterName||(hasFilterCategory&&!/قطعات موتور و فیلتر/.test(raw))){
+ if(hasFilterName||hasFilterCategory){
   let sub='سایر فیلترها';
   if(/کابین|cabin/.test(t))sub='فیلتر کابین';
   else if(/سوخت|fuel|water separator|جداکننده آب/.test(t))sub='فیلتر سوخت و جداکننده آب';
