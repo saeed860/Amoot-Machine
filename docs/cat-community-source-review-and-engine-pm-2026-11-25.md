@@ -180,3 +180,32 @@ Master پس از این دور 2,106 شماره یکتا دارد. فایل Mirr
 - https://parts.cat.com/en/catcorp/product/230-3687
 
 فایل کامل بررسی این دو دور: `data/cat-287b-official-parts-verification-2026-11-25.csv`. مجموعاً 17 شماره در این دو دور به Master اضافه شد (9 + 8). تعداد فعلی Master و Mirror هر دو 2,114 شماره یکتا و دقیقاً همسان است. در این تعداد، وضعیت توقف تولید یا تکمیل‌نبودن شرح بعضی اقلام حفظ شده و به معنی موجودی یا سفارش‌پذیری نیست.
+
+
+## دور سوم استخراج رسمی 287B — هیدرولیک و کنترل اپراتور
+
+در این مرحله 10 شماره جدید از صفحات رسمی Cat Parts Store که 287B را صریحاً در Compatible Models فهرست کرده‌اند، ثبت شد:
+- 267-3766 — Hydraulic Cylinder Seal Kit؛ کاربرد کیت وابسته به شماره گروه سیلندر است.
+- 225-9521 — مجموعه کامل سیلندر هیدرولیک.
+- 177-1958 — Hydraulic Cylinder Seal Kit؛ صفحه فعلاً اقلام داخل کیت را نمایش نمی‌دهد.
+- 286-3591 — Hydraulic Cylinder Seal Kit؛ اقلام داخل کیت در صفحه نمایش داده نشده‌اند.
+- 382-6243 — Hydraulic Cylinder Seal Kit؛ سازگاری با 287B و 297C درج شده است.
+- 218-6824 — Hydraulic Cylinder Seal Kit؛ سازگاری با 287B، 287C، 277C و 297C درج شده است.
+- 158-3770 — Lever Kit برای Pilot Valve؛ شامل lever، pin و nut.
+- 154-5018 — مجموعه کامل سیلندر هیدرولیک؛ **Discontinued** و فقط برای استعلام جایگزین نزد نمایندگی.
+- 278-1970 — Hydraulic Cylinder Seal Kit؛ کاربرد وابسته به گروه سیلندر.
+- 313-6251 — Hydraulic Pilot Control Valve Joint Kit؛ صفحه Cat یک قلم 313-6656 Plate Assembly با تعداد 3 را در محتویات نشان می‌دهد.
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/product/267-3766
+- https://parts.cat.com/en/catcorp/product/225-9521
+- https://parts.cat.com/en/catcorp/product/177-1958
+- https://parts.cat.com/en/catcorp/product/286-3591
+- https://parts.cat.com/en/catcorp/product/382-6243
+- https://parts.cat.com/en/catcorp/product/218-6824
+- https://parts.cat.com/en/catcorp/product/158-3770
+- https://parts.cat.com/en/catcorp/product/154-5018
+- https://parts.cat.com/en/catcorp/product/278-1970
+- https://parts.cat.com/en/catcorp/product/313-6251
+
+فایل بررسی به 27 ردیف داده رسید: `data/cat-287b-official-parts-verification-2026-11-25.csv`. شمارنده Master و Mirror در زمان ثبت این دور، هر دو 2,209 شماره یکتا و دقیقاً همسان بودند. دو مورد 230-3687 و 154-5018 در داده حفظ شده‌اند، اما به‌علت Discontinued بودن نباید موجودی قابل سفارش تلقی شوند. برای Seal Kitها شماره گروه سیلندر، موقعیت و شماره سریال دستگاه باید قبل از پیشنهاد قطعه بررسی شود.
