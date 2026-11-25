@@ -8,7 +8,7 @@ Status: cat_linked_candidate; needs_individual_verification.
 part_number | displayed_name_or_description | source_context | verification_status
 7W-8580 | Lifter valve guide spring | Cat Parts Store frequently bought together with 20R-8981 | cat_item_page_verified; inserted_part_catalog; fitment_checked_or_unormalized
 1W-2473 | Valve lifter guide spring | Cat Parts Store frequently bought together with 20R-8981 | cat_item_page_verified; inserted_part_catalog; fitment_checked_or_unormalized
-0R-9668 | Cat Reman valve lifter | Cat Parts Store related-parts listing for 20R-8981 | cat_linked_candidate; needs_individual_verification
+0R-9668 | Cat Reman 3500 valve lifter | Cat Parts Store related-parts listing for 20R-8981 | cat_item_page_verified; existing_catalog_row_updated; Cat_Reman_condition_preserved; fitment_verified
 143-2878 | Cylinder head gasket | Cat Parts Store related-parts listing for 20R-8981 | cat_item_page_verified; inserted_part_catalog; fitment_checked_or_unormalized
 3S-9643 | Rotating shaft lip-type seal | Cat Parts Store frequently bought together with 20R-9045 | cat_item_page_verified; inserted_part_catalog; fitment_checked_or_unormalized
 5D-5957 | 104.37 mm ID seal O-ring | Cat Parts Store frequently bought together with 20R-9045 | cat_item_page_verified; inserted_part_catalog; fitment_checked_or_unormalized
@@ -50,15 +50,15 @@ part_number | source description | source context | status
 205-8421 | 12.58mm ID fuel-injection line tube | Frequently bought together with Cat 210-1471 | cat_item_page_verified; inserted_part_catalog; fitment_verified
 6V-1454 | 72.39mm ID EPDM 70A O-ring | Frequently bought together with Cat 210-1471 | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
 425-6526 | Harness assembly (EUI Integrated Jake) | Related component shown on Cat 211-3023 page | cat_item_page_verified; inserted_part_catalog; fitment_verified
-230-3728 | 32.99mm ID fuel-system seal | Related component shown on Cat 211-3023 page | cat_linked_candidate; needs_individual_verification
-10R-0823 | Cat Reman turbocharger | Official alternative shown for Cat 216-7815 | cat_linked_candidate; needs_individual_verification
-450-9233 | Gear and case group-transfer | Official alternate part shown for Cat 20R-9567 | cat_linked_candidate; needs_individual_verification
-130-3212 | Hydraulic/transmission oil filter | Related component shown on Cat 20R-9565 page | cat_linked_candidate; needs_individual_verification
-1H-6227 | 101.19mm ID seal O-ring | Related component shown on Cat 20R-9565 page | cat_linked_candidate; needs_individual_verification
-6V-9746 | 1.78 × 18.94mm 90A NBR O-ring | Related component shown on Cat 20R-9565 page | cat_linked_candidate; needs_individual_verification
-242-4100 | Valve mechanism cover seal | Related component shown on Cat 20R-9654 page | cat_linked_candidate; needs_individual_verification
-228-7100 | 9.4mm ID seal O-ring | Related component shown on Cat 20R-9654 page | cat_linked_candidate; needs_individual_verification
-448-3228 | 97.90mm long floating bridge rocker arm | Related component shown on Cat 20R-9654 page | cat_linked_candidate; needs_individual_verification
+230-3728 | 32.99mm ID FKM 90A fuel-system seal | Related component shown on Cat 211-3023 page | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
+10R-0823 | Cat Reman C-9 turbocharger | Official alternative shown for Cat 216-7815 | cat_item_page_verified; inserted_part_catalog; Cat_Reman_condition_preserved; fitment_verified
+450-9233 | Gear & case group-transfer | Official alternate part shown for Cat 20R-9567 | cat_item_page_verified; inserted_part_catalog; fitment_verified
+130-3212 | Advanced Efficiency hydraulic/transmission oil filter | Related component shown on Cat 20R-9565 page | cat_item_page_verified; inserted_part_catalog; fitment_verified
+1H-6227 | 101.19mm ID NBR 75A O-ring, dash242 | Related component shown on Cat 20R-9565 page | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
+6V-9746 | 1.78 × 18.94mm 90A NBR O-ring | Related component shown on Cat 20R-9565 page | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
+242-4100 | Valve mechanism cover FKM seal | Related component shown on Cat 20R-9654 page | cat_item_page_verified; inserted_part_catalog; fitment_verified
+228-7100 | 9.4mm ID FKM 90A O-ring | Related component shown on Cat 20R-9654 page | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
+448-3228 | 97.90mm long floating bridge rocker arm | Related component shown on Cat 20R-9654 page | cat_item_page_verified; inserted_part_catalog; fitment_verified
 228-7089 | 1.78 × 9.27mm 90A FKM O-ring | Related component shown on Cat 20R-9654 page | cat_linked_candidate; needs_individual_verification
 210-1470 | Fuel injection line tube assembly | Related part shown on Cat 210-2535 page | cat_linked_candidate; needs_individual_verification
 1R-0726 | Cat secondary fuel filter | Related part shown on Cat 210-2535 page | cat_linked_candidate; needs_individual_verification
@@ -250,7 +250,7 @@ Source pages:
 6M-5218 | 440.69mm Inner Diameter Seal O Ring | Cat Parts Store frequently bought together with 314-4118 toric ring | cat_linked_candidate; needs_individual_verification
 30R-1361 | Cat Reman Auxiliary Water Pump | Cat Parts Store alternate displayed on 318-2579 Auxiliary Sea Water Pump page | cat_linked_candidate; needs_individual_verification
 8C-3076 | 8.2mm Inside Diameter Seal-O-Ring | Cat Parts Store related parts for 322-0364 fuel connector | cat_linked_candidate; needs_individual_verification
-228-7100 | 9.4mm Inside Diameter Seal-O-Ring | Cat Parts Store related parts for 322-0364 fuel connector | cat_linked_candidate; needs_individual_verification
+228-7100 | 9.4mm ID FKM 90A O-ring | Related component shown on Cat 20R-9654 page | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
 360-8960 | Engine Fuel Filter Element | Cat Parts Store frequently bought together with 322-3155 lube filter | cat_linked_candidate; needs_individual_verification
 523-4987 | Element-Separator | Cat Parts Store frequently bought together with 322-3155 lube filter | cat_linked_candidate; needs_individual_verification
 509-5694 | Secondary Fuel Filter Element | Cat Parts Store frequently bought together with 322-3155 lube filter | cat_linked_candidate; needs_individual_verification
@@ -369,7 +369,7 @@ Source pages:
 457-6114 | Data Link Cable | Cat Parts Store frequently bought together with 370-4617 programming cable | cat_linked_candidate; needs_individual_verification
 538-5051 | Communication Adapter Tool | Cat Parts Store frequently bought together with 370-4617 programming cable | cat_linked_candidate; needs_individual_verification
 373-6967 | 54mm Diameter Quick Coupler | Cat Parts Store related part for 373-6968 38mm quick coupler | cat_linked_candidate; needs_individual_verification
-6V-9746 | 1.78 x 18.94mm 90A NBR O-Ring | Cat Parts Store related part for 373-6968 quick coupler | cat_linked_candidate; needs_individual_verification
+6V-9746 | 1.78 × 18.94mm 90A NBR O-ring | Related component shown on Cat 20R-9565 page | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
 153-2994 | 7/8in STOR Hydraulic Hoses Coupling | Cat Parts Store related part for 373-6968 quick coupler | cat_linked_candidate; needs_individual_verification
 153-2995 | 7/8-14 Thread Quick Disconnect Male Nipple | Cat Parts Store related part for 373-6968 quick coupler | cat_linked_candidate; needs_individual_verification
 5K-9090 | 1.78 x 27.22mm 90A NBR O-Ring | Cat Parts Store frequently bought together with 375-4809 tube assembly | cat_linked_candidate; needs_individual_verification
@@ -659,7 +659,7 @@ Source pages:
 477-7938 | Track Roller Group | Cat Parts Store parts diagram for 457-9635 track roller | cat_linked_candidate; needs_individual_verification
 1P-3705 | 44.70mm Rubber Rectangular Seal | Cat Parts Store parts diagram for 457-9635 track roller | cat_linked_candidate; needs_individual_verification
 590-0196 | Standard Performance Topcoat - Cat Yellow | Cat Parts Store frequently bought together with 458-9582 primer paint | cat_linked_candidate; needs_individual_verification
-6V-9746 | 1.78 x 18.94mm 90A NBR O-Ring | Cat Parts Store frequently bought together with 458-9582 primer paint | cat_linked_candidate; needs_individual_verification
+6V-9746 | 1.78 × 18.94mm 90A NBR O-ring | Related component shown on Cat 20R-9565 page | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
 1R-1804 | Standard Efficiency Fuel Water Separator | Cat Parts Store related part for 460-0310 fuel-water separator | cat_linked_candidate; needs_individual_verification
 7W-2326 | Engine Oil Filter | Cat Parts Store related part for 460-0310 fuel-water separator | cat_linked_candidate; needs_individual_verification
 528-0585 | Engine Air Filter | Cat Parts Store related part for 460-0310 fuel-water separator | cat_linked_candidate; needs_individual_verification
@@ -831,7 +831,7 @@ Source pages:
 3J-1907 | 1.98 x 11.89mm 90A NBR O-Ring | Cat Parts Store frequently bought together with 542-8380 carrier roller | cat_linked_candidate; needs_individual_verification
 366-3380 | Track Roller Group | Cat Parts Store related item for 542-8380 carrier roller | cat_linked_candidate; needs_individual_verification
 1P-3705 | 44.70mm Rubber Rectangular Seal | Cat Parts Store related item for 542-8380 carrier roller | cat_linked_candidate; needs_individual_verification
-6V-9746 | 1.78 x 18.94mm 90A NBR O-Ring | Cat Parts Store related item for 542-8380 carrier roller | cat_linked_candidate; needs_individual_verification
+6V-9746 | 1.78 × 18.94mm 90A NBR O-ring | Related component shown on Cat 20R-9565 page | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
 11R-2284 | Cat Reman New with Core (NWC) Check Valve | Cat Parts Store alternative for 546-6109 prechamber check valve | cat_linked_candidate; needs_individual_verification
 20R-3466 | Cat Reman Check Valve (Fuel) | Cat Parts Store alternative for 546-6109 prechamber check valve | cat_linked_candidate; needs_individual_verification
 228-4947 | 2.62 x 13.94mm 75A FKM O-Ring | Cat Parts Store related item for 546-6109 check valve | cat_linked_candidate; needs_individual_verification
@@ -879,7 +879,7 @@ Source pages:
 3J-1907 | 1.98 x 11.89mm 90A NBR O-Ring | Cat Parts Store related item for 572-5881 fuel priming pump | cat_linked_candidate; needs_individual_verification
 1R-0756 | Element Assembly | Cat Parts Store related item for 572-5881 fuel priming pump | cat_linked_candidate; needs_individual_verification
 5P-7815 | 3 x 37.46mm 75A FKM O-Ring | Cat Parts Store related item for 572-5881 fuel priming pump | cat_linked_candidate; needs_individual_verification
-6V-9746 | 1.78 x 18.94mm 90A NBR O-Ring | Cat Parts Store related item for 574-0991 fuel pump | cat_linked_candidate; needs_individual_verification
+6V-9746 | 1.78 × 18.94mm 90A NBR O-ring | Related component shown on Cat 20R-9565 page | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
 2H-3928 | 107.54mm Inside Diameter O-Ring Seal | Cat Parts Store related item for 574-0991 fuel pump | cat_linked_candidate; needs_individual_verification
 5H-6734 | 3.53 x 113.89mm 75A NBR O-Ring | Cat Parts Store related item for 574-0991 fuel pump | cat_linked_candidate; needs_individual_verification
 6V-6809 | 139.07mm Inside Diameter Seal-O-Ring | Cat Parts Store related item for 574-0991 fuel pump | cat_linked_candidate; needs_individual_verification
@@ -1006,7 +1006,7 @@ Source pages:
 3J-1907 | 1.98 x 11.89mm 90A NBR O-Ring | Cat Parts Store frequently bought together with 5P-5422 track bolt | cat_linked_candidate; needs_individual_verification
 5P-8500 | Machine Ignition Key | Cat Parts Store frequently bought together with 5P-5422 track bolt | cat_linked_candidate; needs_individual_verification
 1P-3705 | 44.70mm Rubber Rectangular Seal | Cat Parts Store frequently bought together with 5P-5422 track bolt | cat_linked_candidate; needs_individual_verification
-6V-9746 | 1.78 x 18.94mm 90A NBR O-Ring | Cat Parts Store frequently bought together with 5P-5422 track bolt | cat_linked_candidate; needs_individual_verification
+6V-9746 | 1.78 × 18.94mm 90A NBR O-ring | Related component shown on Cat 20R-9565 page | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
 20R-9849 | Cat Reman Water Pump | Cat Parts Store Compare Alternate Parts for 600-3535 basic water pump | cat_linked_candidate; needs_individual_verification
 20R-9847 | Cat Reman Water Pump | Cat Parts Store Compare Alternate Parts for 603-1668 basic water pump | cat_linked_candidate; needs_individual_verification
 602-0405 | Track Segment | Cat Parts Store related part for 602-0406 D11 sprocket segment | cat_linked_candidate; needs_individual_verification
@@ -1020,7 +1020,7 @@ Source pages:
 3J-1907 | 1.98 x 11.89mm 90A NBR O-Ring | Cat Parts Store frequently bought together with 603-8538 carrier roller | cat_linked_candidate; needs_individual_verification
 366-3380 | Track Roller Group | Cat Parts Store related item for 603-8538 carrier roller | cat_linked_candidate; needs_individual_verification
 1P-3705 | 44.70mm Rubber Rectangular Seal | Cat Parts Store related item for 603-8538 carrier roller | cat_linked_candidate; needs_individual_verification
-6V-9746 | 1.78 x 18.94mm 90A NBR O-Ring | Cat Parts Store related item for 603-8538 carrier roller | cat_linked_candidate; needs_individual_verification
+6V-9746 | 1.78 × 18.94mm 90A NBR O-ring | Related component shown on Cat 20R-9565 page | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
 3K-0360 | 2.21 x 16.36mm 90A NBR O-Ring | Cat Parts Store frequently bought together with 604-2388 water pump pipe | cat_linked_candidate; needs_individual_verification
 4N-7253 | 4.8mm Thick Cylinder Head Chamber Gasket | Cat Parts Store frequently bought together with 604-2388 water pump pipe | cat_linked_candidate; needs_individual_verification
 110-6326 | Air Cleaner Primary Element | Cat Parts Store frequently bought together with 607-4800/607-4803/607-4804/607-4805 rubber tracks | cat_linked_candidate; needs_individual_verification
@@ -1189,7 +1189,7 @@ Source pages:
 6V-8397 | 1.78 x 9.27mm 90A NBR O-Ring | Cat Parts Store frequently bought together with 7K-1181 cable strap | cat_linked_candidate; needs_individual_verification
 3K-0360 | 2.21 x 16.36mm 90A NBR O-Ring | Cat Parts Store frequently bought together with 7K-1181 cable strap | cat_linked_candidate; needs_individual_verification
 6V-8398 | 1.78 x 12.47mm 90A NBR O-Ring | Cat Parts Store frequently bought together with 7K-1181 cable strap | cat_linked_candidate; needs_individual_verification
-6V-9746 | 1.78 x 18.94mm 90A NBR O-Ring | Cat Parts Store frequently bought together with 7K-1181 cable strap | cat_linked_candidate; needs_individual_verification
+6V-9746 | 1.78 × 18.94mm 90A NBR O-ring | Related component shown on Cat 20R-9565 page | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
 1H-1023 | 1.78 x 9.25mm 75A NBR O-Ring | Cat Parts Store frequently bought together with 7N-9843 fuel injector nozzle | cat_linked_candidate; needs_individual_verification
 8M-4437 | 2.62 x 13.94mm 70A VMQ O-Ring | Cat Parts Store frequently bought together with 7N-9843 fuel injector nozzle | cat_linked_candidate; needs_individual_verification
 253-1752 | 5.73mm Thick Crankshaft Thrust Plate | Cat Parts Store frequently bought together with 7N-9843 fuel injector nozzle | cat_linked_candidate; needs_individual_verification
@@ -1249,7 +1249,7 @@ Source pages:
 6V-5048 | 1.83 x 8.92mm 75A FKM O-Ring | Cat Parts Store related item for 9S-8004/9X-3402 connector socket | cat_linked_candidate; needs_individual_verification
 2R-0098 | 5.33 x 456.06mm 75A NBR O-Ring | Cat Parts Store frequently bought together with 9S-8005 hex-drive plug | cat_linked_candidate; needs_individual_verification
 2S-4078 | 3 x 37.47mm 90A NBR O-Ring | Cat Parts Store frequently bought together with 9S-8005 hex-drive plug | cat_linked_candidate; needs_individual_verification
-6V-9746 | 1.78 x 18.94mm 90A NBR O-Ring | Cat Parts Store frequently bought together with 9S-8005 hex-drive plug | cat_linked_candidate; needs_individual_verification
+6V-9746 | 1.78 × 18.94mm 90A NBR O-ring | Related component shown on Cat 20R-9565 page | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
 3S-2093 | 202mm Long Cable Strap | Cat Parts Store frequently bought together with 9X-3402 connector socket | cat_linked_candidate; needs_individual_verification
 3S-2094 | Cable Strap | Cat Parts Store frequently bought together with 9X-3402 connector socket | cat_linked_candidate; needs_individual_verification
 3S-2095 | Cable Strap | Cat Parts Store frequently bought together with 9X-3402 connector socket | cat_linked_candidate; needs_individual_verification
@@ -1503,3 +1503,11 @@ Source pages:
 7N-4932 | 0.8mm Thick Water Lines Gasket | Cat Parts Store frequently bought together with 271-4926 HNBR O-ring | cat_linked_candidate; needs_individual_verification
 
 210-1471 | Fuel Injection Lines Tube Assembly | Frequently bought together with Cat 205-8421 fuel-injection line tube | cat_linked_candidate; needs_individual_verification
+
+20R-9567 | Cat Reman Transfer Gear | Cat Parts Store compare-alternate listing on 450-9233 Gear & Case Group-Transfer page | cat_linked_candidate; needs_individual_verification
+126-1814 | Ultra High Efficiency Hydraulic Filter | Cat Parts Store compare-alternate listing on 130-3212; Cat explicitly notes not for transmission applications | cat_linked_candidate; needs_individual_verification
+326-1643 | Filter Assembly | Cat Parts Store frequently bought together with 130-3212 | cat_linked_candidate; needs_individual_verification
+142-1403 | Secondary Standard Efficiency Engine Air Filter | Cat Parts Store frequently bought together with 130-3212 | cat_linked_candidate; needs_individual_verification
+230-3775 | 36.09mm ID Fuel System Seal | Cat Parts Store related/diagram component shown on 230-3728 page | cat_linked_candidate; needs_individual_verification
+9X-7317 | 9.60mm ID Fuel System Seal | Cat Parts Store related/diagram component shown on 230-3728 page | cat_linked_candidate; needs_individual_verification
+9X-7430 | 1.4 × 25.63mm 90A FKM O-ring | Cat Parts Store frequently bought together with 230-3728 | cat_linked_candidate; needs_individual_verification
