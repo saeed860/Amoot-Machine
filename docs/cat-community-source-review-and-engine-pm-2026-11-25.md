@@ -2170,3 +2170,31 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - 335-9117 صریحاً Discontinued است؛ به موجودی سفارش‌پذیر اضافه نشد.
 - منابع رسمی: https://parts.cat.com/en/catcorp/product/142-8719 ؛ https://parts.cat.com/en/catcorp/product/151-1975 ؛ https://parts.cat.com/en/catcorp/product/335-9117
 - وضعیت پس از ثبت: Master برابر 4,297 شماره یکتا؛ Mirror byte-exact؛ Workflow برابر 4297.
+
+## دور ۷۲ — ممیزی breather و کنترل ولو (25 Nov 2026)
+
+شماره‌های زیر از صفحات رسمی Cat Parts Store بررسی شدند:
+- 235-4951 — Crankcase Breather Adapter؛ Compatible Models شامل 287B و 297C؛ شماره جدید به Master و CSV رسمی 287B افزوده شد.
+- 195-8356 — Crankcase Breather Bolt؛ Compatible Models شامل 287B و 297C؛ شماره جدید به Master و CSV رسمی 287B افزوده شد.
+- 234-4837 — Crankcase Breather Clamp؛ 287B و 297C؛ در Master/CSV موجود بود.
+- 235-4937 — Crankcase Breather Hose؛ 287B و 297C؛ در Master/CSV موجود بود.
+- 320-1049 — Crankcase Breather Hose Clamp؛ 287B و 297C؛ در Master/CSV موجود بود.
+- 231-7297 — Control Valve Spool Support Spring؛ 287B و 297C؛ در Master/CSV موجود بود.
+- 336-1325 — Implement Control Valve Group؛ 297C و 287C/287C2، بدون 287B؛ از CSV 287B خارج و به CSV مستقل 297C-only منتقل شد.
+- 396-4880 — Implement Control Valve؛ 297C و 287C/287C2، بدون 287B؛ شماره جدید به Master و CSV مستقل 297C-only افزوده شد.
+- 1R-0734 — Advanced Efficiency Engine Oil Filter؛ 287B و 297C؛ در Master/CSV موجود بود.
+- 101-0745 — 600mm Long Wiper Blade؛ ردیف فیتمنت 287B در CSV تکمیل شد.
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/product/235-4951
+- https://parts.cat.com/en/catcorp/product/195-8356
+- https://parts.cat.com/en/catcorp/product/234-4837
+- https://parts.cat.com/en/catcorp/product/235-4937
+- https://parts.cat.com/en/catcorp/product/320-1049
+- https://parts.cat.com/en/catcorp/product/231-7297
+- https://parts.cat.com/en/catcorp/product/336-1325
+- https://parts.cat.com/en/catcorp/product/396-4880
+- https://parts.cat.com/en/catcorp/product/1R-0734
+- https://parts.cat.com/en/catcorp/product/101-0745
+
+برای breather، diameter، hose routing، clamp force و crankcase pressure؛ برای control valve، pressure، flow و port arrangement؛ و برای wiper، adapter و arm geometry باید با PIN و parts diagram تطبیق داده شود.
