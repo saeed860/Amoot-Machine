@@ -4875,3 +4875,37 @@ Post-update verification: all ten SKUs exist with official Cat item-page evidenc
 Nine additional related leads added: 318-2375, 107-0266, 275-2604, 9C-4937, 610-1943, 270-1528, 603-3605, 3J-0360 and 6V-3965. They remain discovery candidates until individually verified.
 
 Overall reviewed progress: 85/500 batches = 850/5,000 product target (17.0%). Original Cat seed list 787/787 complete; discovery-derived products individually verified and inserted/updated: 83. Remaining target: 4,150 products.
+
+## Batch 86/500 — Cat-linked discovery candidates 61–70 (2026-11-25)
+
+Ten leads were checked against their own official Cat Parts Store pages. Seven new rows were inserted; three existing rows (187-3298, 288-0934, 311-1300) were refreshed with official item-page evidence/specifications. All ten were re-queried and model arrays deduplicated.
+
+Verified:
+- 7M-8485 — 2.95 ×29.74mm 90A NBR O-ring. Cross-section 0.116in, ID 1.171in, fitting 1-5/16–12, NBR/PTFE. 40 visible model labels partially normalized across IT toolcarriers, wheel harvesters, 3608 military genset, PR power packs, G324/G318/G320B/G315B grapples and MD6310/6250/6200/6380 drills.
+- 318-1064 — 202.81mm SystemOne Track Link, clamp master, press-fit, abrasion. Pitch 7.985in, bore-to-rail/rail-to-pin-boss 3.071in, overall height 5.276in, track-pin/bushing bore 2.929in, M22 master bolt, boron steel 1E1287, no wear sensor. Cat explains split master links allow track removal without master pin/bushing and are reusable. Fitment D6H XL/D6R/D6T/D6R LGP/D6R II and related D6 tractors, 963 series loaders and 527 skidder (22 labels).
+- 173-0946 — 202.81mm pitch heavy-duty track segment/sprocket, 5 bolts and 5 teeth. Specs: tip radius 16.26in, pitch-circle radius 16.054in, bushing radius 1.433in, tooth width 3.071in, pitch 7.985in, backlash 0.079in, bolt-circle radius 12.953in, inner radius 12.126in, 40° pocket angle, offset mount, alloy/tough steel. Fitment D6R/D6T/D6GC and related D6 tractors plus 527 skidder (16 labels).
+- 288-0934 — Existing track roller row refreshed. Standard single-flange, heavy-duty UC system, 210mm tread diameter, 258.04mm mounting width, M20 cap bolt, outside/inside spread 9.26/3.969in, traverse spacing 4.5in, cap bolt hole 0.866in, shaft length 14.508in, shaft OD 2.341in, axial spacing 12.925in, outer flange OD 9.449in; not carrier-roller compatible. Fitment D6R/D6T/D6GC/D6XE and 963D/963C/963K/963 loaders (21 labels).
+- 2S-4078 — 3 ×37.47mm 90A NBR O-ring. Cross-section 0.118in, ID 1.475in, NBR/PTFE, dash 920. Fitment includes SR4, 3126E/3116/3126/3176/3406/C15/1693 engines, toolcarriers, 627/623/621/637/632/631 scrapers, 527/D5HTSK II skidders, 3608 military genset, 518C/535/545/525/528 skidders and MD6310 drill (53 labels).
+- 8C-3076 — 8.2mm ID FKM 90A STOR O-ring. Cross-section 0.059in, ID 0.323in, FKM/PTFE. Cat compatible fluids include diester lubricants, petroleum/phosphate ester/silicone fluids and some acids. 48 visible labels partially normalized across SPF343C, LC20XX/LC30XX/SR4/SR5/SR4B generators, PMG3516, IT toolcarriers, 613G, R1300G II, 777/793/798/789/785 trucks, graders and D5/D6/D8 tractors.
+- 6V-9028 — 9.4mm ID 90A NBR O-ring. Cross-section 0.083in, ID 0.37in, NBR/PTFE. Cat compatibility notes include alpha-olefin synthetic lubricants, ethylene glycol, hydrocarbon fuels, petroleum lubricants, silicone oils/greases, water/coolant and ORFS/STORS seals. 183 visible labels partially normalized across generators, C7/C9, toolcarriers, 627/621/637 scrapers, harvesters, skidders, C18 power packs, drills, excavators, compactors and C175/3500-series petroleum engines.
+- 311-1300 — Existing Bogie Pin Assembly Cartridge row refreshed. Standard heavy-duty oil-lubricated major/minor bogie cartridge; length 6.417in, OD outer 4.772in and inner 4.746in, steel/oil fluid. Fitment D11N/D11R/D11T/D11 XE/D11 (5 labels).
+- 187-3298 — Existing hardened-steel undercarriage roller guide row refreshed; Cat page explicitly specifies Boron Steel, correcting the previous generic Hardened Steel material. Fitment D11N/D11R/D11T/D11 XE/D11 (5 labels).
+- 3P-2482 — 57.6mm Wide Resilient Pad. Cat specs 15 ×15 ×2.46in, four 0.75in holes, steel/rubber. Fitment D11R/D11T/D11N/D10/D11 XE/D11, ripper 11/10, bulldozer 10S/10U/11SU/11U/10C (13 labels).
+
+Cat item pages:
+- https://parts.cat.com/en/catcorp/product/7M-8485
+- https://parts.cat.com/en/catcorp/product/318-1064
+- https://parts.cat.com/en/catcorp/product/173-0946
+- https://parts.cat.com/en/catcorp/product/288-0934
+- https://parts.cat.com/en/catcorp/product/2S-4078
+- https://parts.cat.com/en/catcorp/product/8C-3076
+- https://parts.cat.com/en/catcorp/product/6V-9028
+- https://parts.cat.com/en/catcorp/product/311-1300
+- https://parts.cat.com/en/catcorp/product/187-3298
+- https://parts.cat.com/en/catcorp/product/3P-2482
+
+Post-update verification: all ten SKUs exist with official Cat item-page evidence and REFERENCE status. Seven inserted, three existing rows updated. Fitment counts after de-duplication: 7M-8485=40; 318-1064=22; 173-0946=16; 288-0934=21; 2S-4078=53; 8C-3076=48; 6V-9028=183; 311-1300=5; 187-3298=5; 3P-2482=13. No prices, stock or universal interchange claims added.
+
+Four further related leads added: 288-0935, 317-9080, 202-4296 and 2M-9780. They remain unverified candidates until their own item pages are checked.
+
+Overall reviewed progress: 86/500 batches = 860/5,000 product target (17.2%). Original Cat seed list 787/787 complete; discovery-derived products individually verified and inserted/updated: 93. Remaining target: 4,140 products.
