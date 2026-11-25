@@ -2399,3 +2399,14 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - هر دو شماره به Master و CSV رسمی 287B افزوده شدند.
 - منابع رسمی: https://parts.cat.com/en/catcorp/product/231-7321 ؛ https://parts.cat.com/en/catcorp/product/258-7688
 - وضعیت شمارنده: 4330 شماره یکتا؛ Mirror برابر Master؛ Workflow برابر 4330.
+
+
+## دور ۸۰ — 25 Nov 2026
+
+- چهار فیتمنت جدید/تکمیل‌نشده از صفحات رسمی Cat Parts Store به CSV رسمی 287B افزوده شد:
+  - 223-3726 — Handle-Modular؛ فیتمنت 287B؛ دسته ماژولار 12-pin با ابعاد 7.5 × 3.0 × 5.4 اینچ و سیم 13.8 اینچ؛ pinout بررسی شود. شماره جدید Master.
+  - 278-8717 — 18mm Inner Diameter Gear Motor Shaft Seal؛ فیتمنت 287B؛ قطر شفت و جهت نصب/جنس آب‌بند بررسی شود. شماره جدید Master.
+  - 278-1970 — Hydraulic Cylinder Seal Kit؛ فیتمنت 287B و 297C؛ حتماً cylinder group number و PIN پیش از سفارش تطبیق داده شود.
+  - 233-5633 — FILM؛ فیتمنت 287B؛ Cat شرح کاربرد را در صفحه پر نکرده، بنابراین محل/کاربرد دقیق باید از Parts Diagram تأیید شود.
+- منابع رسمی: https://parts.cat.com/en/catcorp/product/223-3726 ؛ https://parts.cat.com/en/catcorp/product/278-8717 ؛ https://parts.cat.com/en/catcorp/product/278-1970 ؛ https://parts.cat.com/en/catcorp/product/233-5633
+- وضعیت Master/Mirror/Workflow در زمان ثبت: 4,333 شماره یکتا؛ Mirror برابر Master؛ Workflow برابر 4333.
