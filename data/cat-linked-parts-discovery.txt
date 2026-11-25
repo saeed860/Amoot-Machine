@@ -2624,3 +2624,17 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 7W-5164 | 0.8mm Thick Cylinder Head Gasket | 3 | Cat 417-6351 815F/814F/816F Single Cylinder Head Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
 
 Source page: https://parts.cat.com/en/catcorp/product/417-6351
+
+
+## Additional Cat 777F truck single-cylinder-head install-kit BOM candidates — batch 157
+
+Source: official Cat Parts Store product page 315-1461, Single Cylinder Head Install Kit. Compatible model explicitly shown: TRUCK / 777F. The page describes the kit as a cylinder-head gasket/seal set. Twenty-seven other listed components were already in the discovery queue or original seed list and are not duplicated. The five new rows below are official BOM references only; verify engine serial/arrangement before ordering.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+106-9586 | 1.78 x 23.52mm 75A FKM O-Ring | 1 | Cat 315-1461 777F Single Cylinder Head Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+163-2478 | 8.24mm Inner Diameter Valve Stem Seal | 24 | Cat 315-1461 777F Single Cylinder Head Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+239-1388 | 1.5mm Thick Exhaust Manifold Gasket | 6 | Cat 315-1461 777F Single Cylinder Head Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+243-3565 | 71.7mm Inner Diameter O-Ring Seal | 4 | Cat 315-1461 777F Single Cylinder Head Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+8L-2746 | 15.6mm Inner Diameter O-Ring Seal | 1 | Cat 315-1461 777F Single Cylinder Head Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+
+Source page: https://parts.cat.com/en/catcorp/product/315-1461
