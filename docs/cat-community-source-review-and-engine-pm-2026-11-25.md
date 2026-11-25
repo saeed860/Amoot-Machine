@@ -1044,3 +1044,26 @@ Mirror از Master جاری بازسازی و شمارنده Workflow با تع�
 برای کیت اورهال، engine arrangement و شماره سریال و محتوای دقیق جعبه؛ برای نسخه ژاپن، محدودیت منطقه‌ای؛ برای بست، قطر بیرونی شیلنگ و محل housing؛ و برای joint kit، خانواده شیر پایلوت و اجزای واقعی باید تطبیق داده شود.
 
 Mirror از Master جاری بازسازی و شمارنده Workflow با تعداد خطوط Master تنظیم شد.
+
+## دور سی‌وششم — قطعات آب‌بندی بلوک و سرسیلندر موتور (25 Nov 2026)
+
+پنج شماره جدید از صفحات رسمی Cat Parts Store با نمایش صریح 287B در Compatible Models به Master و CSV اضافه شد:
+- 103-9277 — Front Housing Plate Gasket؛ واشر صفحه جلویی، ابعاد 11.2 × 11.9in.
+- 234-4818 — 0.8mm Thick Engine Housing Cover Gasket؛ واشر دوپیچه بین توربوشارژر و لوله، ابعاد 3.9 × 2.4 × 0.04in.
+- 299-4645 — Cylinder Head Gasket؛ ابعاد 18.66 × 7.2 × 0.06in؛ فیتمنت 287B و 297C.
+- 234-4814 — 94mm Outer Diameter Piston؛ پیستون استاندارد 94mm، ارتفاع 3.56in.
+- 310-2682 — Engine Cylinder Block Plug؛ پلاگ فولادی press-fit/threaded برای مسیر آب بلوک موتور.
+
+یک شماره موجود در Master نیز از قبل بررسی شده بود: 103-9280 — Fly Wheel Housing Gasket؛ 287B در فهرست Compatible Models دارد و دوباره به‌عنوان شماره جدید شمرده نشد.
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/103-9277
+- https://parts.cat.com/en/catcorp/234-4818
+- https://parts.cat.com/en/catcorp/product/299-4645
+- https://parts.cat.com/en/catcorp/product/234-4814
+- https://parts.cat.com/en/catcorp/product/310-2682
+- https://parts.cat.com/en/catcorp/product/103-9280
+
+برای پیستون، قطر واقعی bore، کلاس پیستون و ring set؛ برای واشر سرسیلندر، شماره سریال و ضخامت/نسخه سرسیلندر؛ برای plug، قطر سوراخ و روش نگهداری؛ و برای واشرهای housing، نسخه و سطوح اتصال موتور باید تطبیق داده شود. قطعاتی که فقط برای مدل «287» و نه «287B» فهرست شده‌اند، همچنان از این فیتمنت حذف می‌شوند.
+
+Mirror از Master جاری بازسازی و شمارنده Workflow با تعداد خطوط Master تنظیم شد.
