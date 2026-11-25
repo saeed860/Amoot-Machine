@@ -686,7 +686,7 @@ Master برابر 2,718 شماره یکتا، Mirror دقیقاً همسان، C
 - 142-9320 — Rocker Switch Assembly (12V, Illuminated, Parking Brake)؛ 287B؛ دوحالته، LED سبز و چهار ترمینال.
 - 215-3277 — Hydraulic Valve O-Ring Seal؛ 287B؛ قطر داخلی 0.437in و مقطع 0.07in.
 
-دو قلم دیگر در صفحات Cat نیز تأیید شدند و قبلاً در Master/CSV موجود بودند: 142-9328 — Switch Assembly و 289-3765 — Hydraulic Lift Cylinder Tube Assembly (قطر داخلی 12.58mm). این دو دوباره به‌عنوان ردیف جدید شمرده نشدند.
+دو قلم دیگر در صفحات Cat نیز تأیید شدند و از قبل در Master وجود داشتند، اما در بازبینی نهایی مشخص شد در CSV ردیف نداشتند؛ بنابراین به CSV افزوده شدند: 142-9328 — Switch Assembly و 289-3765 — Hydraulic Lift Cylinder Tube Assembly (قطر داخلی 12.58mm). این دو به‌عنوان شماره جدید Master شمرده نشدند.
 
 منابع رسمی:
 - https://parts.cat.com/en/catcorp/product/218-5805
