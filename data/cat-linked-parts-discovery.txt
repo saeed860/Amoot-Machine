@@ -1403,3 +1403,7 @@ Source pages:
 161-8068 | 142.47mm Inner Diameter Seal O-Ring | Cat Parts Store frequently bought together with 599-7781 major overhaul kit | cat_linked_candidate; needs_individual_verification
 2G-6303 | 30mm Internal Diameter Circular Seal | Cat Parts Store frequently bought together with 599-7781 major overhaul kit | cat_linked_candidate; needs_individual_verification
 141-7116 | 1093mm Long Ribbed Serpentine Belt | Cat Parts Store frequently bought together with 599-7781 major overhaul kit | cat_linked_candidate; needs_individual_verification
+
+107-0266 | Grease Injector | Cat Parts Store frequently bought together with 5T-5045 lubrication injector | cat_linked_candidate; needs_individual_verification
+5T-5012 | Lubrication Injector | Cat Parts Store frequently bought together with 5T-5045 lubrication injector | cat_linked_candidate; needs_individual_verification
+341-1429 | Water Pump Seal Kit | Cat Parts Store frequently bought together with 600-3535 basic water pump | cat_linked_candidate; needs_individual_verification
