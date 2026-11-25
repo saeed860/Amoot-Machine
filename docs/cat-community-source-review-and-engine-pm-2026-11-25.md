@@ -2198,3 +2198,13 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - https://parts.cat.com/en/catcorp/product/101-0745
 
 برای breather، diameter، hose routing، clamp force و crankcase pressure؛ برای control valve، pressure، flow و port arrangement؛ و برای wiper، adapter و arm geometry باید با PIN و parts diagram تطبیق داده شود.
+
+
+## دور ۶۹ — 25 Nov 2026
+
+- دو شماره جدید از صفحات رسمی Cat Parts Store با فیتمنت صریح 287B و 297C به Master و CSV رسمی 287B افزوده شد:
+  - 119-9631 — 12 Volt Direct Current Thermo Switch؛ سازگاری 287B و 297C در صفحه رسمی ثبت شده است؛ connector، رزوه و آستانه دما باید تطبیق داده شود.
+  - 7T-6092 — Holder Assembly-Brush؛ سازگاری 287B و 297C در صفحه رسمی ثبت شده است؛ کاربرد دقیق مجموعه الکتریکی/استارتر/آلترناتور باید کنترل شود.
+- نتایج دیگر جستجو در این مرحله از قبل در Master/CSV ثبت بودند؛ قطعات Discontinued وارد سفارش‌پذیرها نشدند.
+- منابع رسمی: https://parts.cat.com/en/catcorp/product/119-9631 ؛ https://parts.cat.com/en/catcorp/product/7T-6092
+- شمارنده هدف این دور: 4302 شماره یکتا؛ Mirror و Workflow با Master همگام شدند.
