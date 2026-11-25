@@ -2782,3 +2782,8 @@ Source page: https://parts.cat.com/en/catcorp/product/440-0841
 ## Cat 440-0840 C15/C18/C9.3/C13 connector kit — no current BOM rows published (batch 167)
 
 Source: official Cat Parts Store product page https://parts.cat.com/en/catcorp/product/440-0840. Compatible models explicitly shown: ENGINE / C15, C18; INDUSTRIAL ENGINE / C18, C9.3, C13, C15. The opened current official page states “There are currently no parts associated with this kit.” A search-index snippet displayed a 19-item list, but the current page contradicts it, so none of those components are accepted as current BOM evidence. No part numbers inferred or added; dealer confirmation required.
+
+
+## Cat 512-0842 3516C/793D central-lower gasket kit — no current BOM rows published (batch 168)
+
+Source: official Cat Parts Store product page https://parts.cat.com/en/catcorp/product/512-0842. Compatible models explicitly shown: MARINE ENGINE / 3516C; TRUCK / 793D. The product description identifies a central/lower engine gasket kit, but the opened current official page states there are currently no parts associated with this kit. Search-index snippets showing a 29-item list were not used because the current product page contradicts them. Frequently-bought-together parts are not treated as kit contents. No component part numbers were inferred or added.
