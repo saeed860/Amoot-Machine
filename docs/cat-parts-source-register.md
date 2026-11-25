@@ -587,3 +587,8 @@ The Off Road discovery queue is now synchronized to all **500** rows embedded in
 Exact Cat Parts Store Compatible Models sections were checked for all 12 filter identifiers. Marine Engine categories are explicitly present for 1R-0716, 1R-0739, 1R-0749, 1R-0750, 1R-0751, 1R-1807, 1R-1808, 326-1644, 360-8960 and 7W-2326. 1R-0762 lists land machine/engine groups without a Marine Engine group. 1G-8878 has a C13 MARINE string under Paving Compactor but no distinct Marine Engine category; it remains UNVERIFIED rather than being tagged marine.
 
 Ten new sellable catalogue rows were added with exact CAT product images, source URLs, stock zero and price NULL pending source price-type validation. Existing CAT-1R-0749 and CAT-1R-1808 rows were retained and their application tags corrected to BOTH. This adds images and official product descriptions without inventing prices or Amoot-owned stock.
+
+
+## Off Road fuel-system batch — 25 Nov 2026
+
+Eight more public Off Road candidate identifiers were checked against exact Cat Parts Store pages: 134-0467, 8N-7005, 392-0206, 20R-0849, 20R-4179, 324-0532, 375-2647 and 591-2386. Seven were added as catalogue products with official CAT Scene7 images. 134-0467 is retained as a reference-only row because its current CAT page returned a fallback image. Marine tags are based only on explicit CAT Marine Engine / Marine Auxiliary groups; Cat Reman condition is retained as a distinct brand identity. No price or Amoot stock was inferred.
