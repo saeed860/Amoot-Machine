@@ -2535,3 +2535,11 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - هر سه شماره به Master و CSV رسمی 287B افزوده شدند.
 - منابع رسمی: https://parts.cat.com/en/catcorp/product/193-8385 ؛ https://parts.cat.com/en/catcorp/product/227-4315 ؛ https://parts.cat.com/en/catcorp/product/218-6006
 - شمارنده هدف دور: 4355 شماره یکتا؛ Mirror و Workflow با Master همگام شدند.
+
+
+## دور ۹۱ — 25 Nov 2026
+
+- 117-7248 — 0.6mm Thick Piston Pump Rotating Barrel Shim؛ صفحه رسمی Cat Parts Store مدل 287B را صریحاً در Compatible Models فهرست می‌کند. شماره جدید به Master و CSV رسمی 287B افزوده شد.
+- ضخامت درج‌شده 0.6mm است؛ stack شیم، گروه پمپ و تلرانس clearance/preload باید مطابق مشخصات پمپ بررسی شود.
+- منبع رسمی: https://parts.cat.com/en/catcorp/product/117-7248
+- شمارنده هدف دور: 4356 شماره یکتا؛ Mirror و Workflow با Master همگام شدند.
