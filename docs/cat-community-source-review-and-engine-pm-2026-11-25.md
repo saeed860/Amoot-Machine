@@ -1913,3 +1913,41 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - https://parts.cat.com/en/catcorp/product/235-4931
 
 برای AC Breather Kit، گزینه HVAC و اجزای kit؛ برای fuel tube، tee adapter و مسیر supply/return؛ و برای breather hose، قطر داخلی، طول و مسیر اتصال crankcase باید با PIN و engine arrangement تطبیق داده شود. 305-8044 و 258-2988 به فیتمنت 287B تعمیم داده نشدند.
+
+## دور ۶۴ — تکمیل قطعات شیلنگ، تهویه و خنک‌کاری (25 Nov 2026)
+
+بررسی صفحات رسمی Cat Parts Store، ۱۲ فیتمنت جدید برای دو مدل هدف را تأیید کرد:
+
+**287B و 297C (در CSV فیتمنت 287B):**
+- 287-6015 — Crankcase Breather Hose؛ هر دو مدل در Compatible Models.
+- 177-1912 — Hose Assembly؛ هر دو مدل در Compatible Models.
+- 159-4537 — Hose Assembly؛ هر دو مدل در Compatible Models.
+- 207-9756 — Hose Assembly؛ هر دو مدل در Compatible Models.
+- 279-5418 — Hose Assembly؛ هر دو مدل در Compatible Models.
+- 161-0190 — HOSE A؛ هر دو مدل در Compatible Models.
+- 036-1865 — Zinc Plated Heat Exchanger Radiator Cap؛ هر دو مدل در فهرست Compatible Models.
+- 234-4802 — Engine Oil Cooler Cover؛ هر دو مدل در Compatible Models.
+- 166-9312 — HOSE A؛ هر دو مدل در Compatible Models.
+- 156-5508 — HOSE A؛ هر دو مدل در Compatible Models.
+
+**فیتمنت 287B:**
+- 218-6833 — Refrigerant Compressor؛ صفحه رسمی 287B را فهرست می‌کند.
+
+**فقط 297C (در CSV مستقل):**
+- 631-6270 — Cylinder Group؛ صفحه رسمی 297C را دارد اما 287B را ندارد؛ به 287B تعمیم داده نشد.
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/product/287-6015
+- https://parts.cat.com/en/catcorp/product/177-1912
+- https://parts.cat.com/en/catcorp/product/159-4537
+- https://parts.cat.com/en/catcorp/product/218-6833
+- https://parts.cat.com/en/catcorp/product/207-9756
+- https://parts.cat.com/en/catcorp/product/279-5418
+- https://parts.cat.com/en/catcorp/product/161-0190
+- https://parts.cat.com/en/catcorp/product/036-1865
+- https://parts.cat.com/en/catcorp/product/234-4802
+- https://parts.cat.com/en/catcorp/product/166-9312
+- https://parts.cat.com/en/catcorp/product/156-5508
+- https://parts.cat.com/en/catcorp/product/631-6270
+
+یادداشت سفارش: شیلنگ‌ها باید از نظر قطر داخلی، نوع تقویت، فشار، طول و مسیر با PIN و مدار واقعی تطبیق داده شوند؛ کمپرسور HVAC و cap نیز به مشخصات مبرد/اتصالات و فشار نامی نیاز دارند. برای 631-6270، محل سیلندر، کورس، قطر bore/rod و mounting باید با serial number بررسی شود. ثبت فیتمنت در فهرست مدل، جایگزین تأیید PIN و پیکربندی نیست.
