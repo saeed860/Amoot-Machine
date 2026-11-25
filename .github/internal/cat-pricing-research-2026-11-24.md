@@ -5349,3 +5349,37 @@ Cat item pages:
 Post-update verification: all ten SKUs exist with Cat official item-page evidence and REFERENCE status. Nine inserted, one existing row updated. Fitment counts after de-duplication: 110-2220=121; 142-6217=122; 142-7072=115; 9L-5854=190; 106-1792=153; 106-1793=113; 143-6642=33; 214-4150=0 (not published); 243-6718=133; 247-7133=130. No prices, stock or unsupported fitment/interchange claims added.
 
 Overall reviewed progress: 99/500 batches = 990/5,000 product target (19.8%). Original Cat seed list 787/787 complete; discovery-derived products individually verified/updated: 223. Remaining target: 4,010 products.
+
+## Batch 100/500 — Cat-linked discovery candidates 191–200 (2026-11-25)
+
+Ten candidates were checked against their own official Cat Parts Store item pages. Nine new catalog rows were inserted; existing 392-0220 was refreshed. All ten were re-queried after writes and compatible-model arrays deduplicated.
+
+Verified:
+- 245-4622 — Aftercooler Core. Fluid-to-air heat transfer; male inlet/outlet fittings, 60mm/2.4in diameter. Dimensions 279×1171×152mm (11×46×6in); Cat specs height 11in, length 46.1in, width 6in, structural steel. Fitment SR4/SR4B generators, 3512C genset/engine/petroleum, marine 3512C/3512/3516C/3512B, marine auxiliary 3512C/3512B and industrial 3512B (6 model labels).
+- 283-5738 — Engine Camshaft, 43in long. Cat describes camshaft lobes controlling intake/exhaust valves. Specs length 43in, height 4in. Fitment SPF343C pumper, SR4B, 3512C genset/engine/petroleum/locomotive, XQC1200 power module, TH48-E80 transmission, 785/785D trucks, C4.4 engine, MD6540C/MD6380 drills, 3512C/3512/3516C/3512B marine, marine auxiliary and industrial 3512B (13 labels). Compare alternate 20R-4770 is Cat Reman, not universal interchange.
+- 528-8390 — TURBO GP-BAS. Cat says product description is still being added. Material ductile/spheroidal iron and anti-seize compound mixed metal. Fitment marine engines 3516B/3516C/3512B/3512C/3516/3512 (6 labels). Compare alternate 20R-8542 Cat Reman Turbo Group; not assumed interchangeable.
+- 335-6220 — 4 Valve Basic Engine Cylinder Head. Cat identifies head with valve-mechanism components. Specs length 16.55in, height 10.1in. 51 fitment labels across SPT343/SPF343C/SPF343 pumpers, SR4/SR5/SR4B/SR4BHV generators, 3508/3516/3512 gensets, PM3516/PM3512/PP3516/PM3508 power modules, marine/auxiliary/industrial engines, D11N/D11R, 854G wheel dozer, 992G/994F/D/H loaders, 5230B/5130B mining shovels and 785/789/797/793/777 truck families. Cat Reman alternatives 10R-8618 and 20R-3545 recorded separately.
+- 392-0220 — Cat Fuel Pump Injector. Existing row refreshed from official Cat page. Dimensions length 14.8in, height 3in. Fitment SR5/SR4B generators and 3516C/3512C/3516/3512/3508C/3508B/3516B/3512B engine families (11 labels). Cat Reman alternatives 11R-0666 and 20R-1281 are separately listed, not universal interchange claims.
+- 308-5355 — Engine Camshaft, 38.5in long. Specs length 38.5in, height 5.2in. Fitment 3512C genset, XQC1200 power module, marine engines 3512C/3512/3516C/3512B, marine auxiliary 3512C/3512B, industrial 3512B/3512C, engine/petroleum/locomotive 3512C (5 distinct model labels). Compare alternate 20R-4768 is Cat Reman camshaft kit.
+- 374-2082 — 164mm OD Engine Piston. Specs OD 6.46in, overall length 6.89in, weight 17.78lb, length 9.36in, height 9.1in, alloy copper/alloy steel; minimum force to move bearing 8000N, bowl volume 183.9cm³. Fitment SR4/SR4B, 3516C/3516B/3512C gensets; marine 3512C/3516/3512/3508C/3508B/3516B/3516C/3512B; marine auxiliary, industrial, petroleum, locomotive and petroleum genset (10 labels). Compare alternate 10R-8762 is Cat Reman Cylinder Pack, not universal interchange.
+- 20R-0260 — Cat Reman C9 Water Pump. Cat Reman condition preserved; same-as-new 12-month parts warranty subject to limitations. Fitment C-9 industrial engine (1 label). Compare alternate 350-2537 Cat Engine Water Pump, no universal interchange asserted.
+- 2M-4453 — 3.53×12.29mm 75A NBR O-ring. Cross-section 0.139in, ID 0.484in, dash 206, NBR 75A. 293 compatible labels across SR4B/SR4/SR5, C7/C9/1673C/C13/3306/1693/3126, IT toolcarriers, harvesters/skidders, 320/325/330 excavators, wheel tractors, RM500B, hydraulic controls, track loaders, petroleum engines/transmissions, soil/wheel/landfill compactors, backhoe loaders, wheel loaders, telehandlers, forwarders, industrial tractors, articulated trucks and wheeled excavators.
+- 4J-0525 — 3.53×50.39mm 90A NBR O-ring. Cross-section 0.139in, ID 1.984in, dash 226, NBR 90A. Compatible fluids include abrasion, alpha-olefin synthetic lubricants, ethylene glycol, hydrocarbon fuels, petroleum lubricants, silicone oils/greases, water-based engine coolants and ORFS/STORS. 275 Cat fitment labels across SR4B, C7/C9/C12/3126E, IT toolcarriers, wheel tractors/scrapers, skidders, forestry, MHPU, broad 300-series excavators, wheel tractors, hydraulic controls, track loaders, petroleum engines, compactors, wheel dozers/loaders, landfill compactors, forwarders, articulated trucks and wheeled excavators.
+
+Cat item pages:
+- https://parts.cat.com/en/catcorp/product/245-4622
+- https://parts.cat.com/en/catcorp/product/283-5738
+- https://parts.cat.com/en/catcorp/product/528-8390
+- https://parts.cat.com/en/catcorp/product/335-6220
+- https://parts.cat.com/en/catcorp/product/392-0220
+- https://parts.cat.com/en/catcorp/product/308-5355
+- https://parts.cat.com/en/catcorp/product/374-2082
+- https://parts.cat.com/en/catcorp/product/20R-0260
+- https://parts.cat.com/en/catcorp/product/2M-4453
+- https://parts.cat.com/en/catcorp/product/4J-0525
+
+Post-update verification: all ten SKUs exist with Cat official item-page evidence and REFERENCE status. Nine inserted, one existing row updated. Fitment counts after de-duplication: 245-4622=6; 283-5738=13; 528-8390=6; 335-6220=51; 392-0220=11; 308-5355=5; 374-2082=10; 20R-0260=1; 2M-4453=293; 4J-0525=275. Cat Reman status preserved; no customer prices or stock added.
+
+Seventeen related leads added: 219-3240, 4W-3027, 6V-1454, 132-6469, 20R-4770, 10R-8618, 20R-3545, 5P-0840, 248-5513, 20R-8542, 20R-4768, 10R-8762, 11R-0666, 20R-1281, 3D-2824, 4J-0522 and 4J-0524. They remain candidates pending individual verification.
+
+Milestone: 100/500 batches = 1,000/5,000 products (20.0%). Original Cat seed list 787/787 complete; discovery-derived products individually verified/updated: 233. Remaining target: 4,000 products.
