@@ -2228,3 +2228,14 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - https://parts.cat.com/en/catcorp/product/313-6251
 
 برای 218-6813، قطر hose، طول، coupling و نوع refrigerant باید تطبیق داده شود. 261-7162 فقط سابقه کاتالوگی است و فروش/موجودی جدید برای آن فرض نمی‌شود.
+
+
+## دور ۷۰ — 25 Nov 2026
+
+- سه مورد جدید/تکمیل‌نشده از صفحات رسمی Cat Parts Store با فیتمنت صریح 287B در CSV ثبت شد:
+  - 166-2559 — BRACKET؛ فیتمنت 287B؛ محل نصب و ابعاد سوراخ‌ها باید کنترل شود.
+  - 218-0921 — Auxiliary Belt Drive Guard؛ فیتمنت 287B؛ نوع موتور و آرایش belt drive باید تطبیق داده شود.
+  - 158-6695 — Cover Assembly؛ فیتمنت 287B؛ محل دقیق پنل/کاور و سخت‌افزار نصب باید بررسی شود. این شماره به Master افزوده شد.
+- 234-0733 به علت وضعیت صریح Discontinued به فهرست سفارش‌پذیر اضافه نشد.
+- منابع رسمی: https://parts.cat.com/en/catcorp/product/166-2559 ؛ https://parts.cat.com/en/catcorp/product/218-0921 ؛ https://parts.cat.com/en/catcorp/product/158-6695 ؛ https://parts.cat.com/en/catcorp/product/234-0733
+- شمارنده هدف دور: 4305 شماره یکتا؛ Mirror و Workflow با Master همگام شدند.
