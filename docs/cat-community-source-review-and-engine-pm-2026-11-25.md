@@ -1067,3 +1067,24 @@ Mirror از Master جاری بازسازی و شمارنده Workflow با تع�
 برای پیستون، قطر واقعی bore، کلاس پیستون و ring set؛ برای واشر سرسیلندر، شماره سریال و ضخامت/نسخه سرسیلندر؛ برای plug، قطر سوراخ و روش نگهداری؛ و برای واشرهای housing، نسخه و سطوح اتصال موتور باید تطبیق داده شود. قطعاتی که فقط برای مدل «287» و نه «287B» فهرست شده‌اند، همچنان از این فیتمنت حذف می‌شوند.
 
 Mirror از Master جاری بازسازی و شمارنده Workflow با تعداد خطوط Master تنظیم شد.
+
+## دور سی‌وهفتم — واشرهای موتور و شیلنگ انژکتور (25 Nov 2026)
+
+چهار شماره جدید از صفحات رسمی Cat Parts Store با نمایش صریح 287B در Compatible Models به Master و CSV اضافه شد:
+- 234-4824 — Engine Governor Inlet Gasket؛ 8-bolt، ابعاد 14.6 × 3.3 × 0.06in؛ عنوان و توضیح صفحه Cat درباره محل کاربرد کاملاً هم‌راستا نیستند.
+- 195-8355 — 1mm Thick Fuel Lines Gasket؛ واشر 1mm خطوط سوخت.
+- 234-4809 — 2mm Thickness Washer؛ واشر فولادی با ID=11.8mm، OD=18mm و ضخامت 2mm.
+- 113-0364 — Fuel Injection Hose؛ شیلنگ بین نازل‌های تزریق سوخت.
+
+یک قطعه مرتبط دیگر، 234-4803 — Engine Oil Cooler Element، پیش‌تر در Master و CSV ثبت شده بود؛ صفحه Cat فیتمنت 287B را صریحاً نشان می‌دهد و ابعاد آن 9.9 × 3.1 × 2.0in است.
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/product/234-4824
+- https://parts.cat.com/en/catcorp/product/195-8355
+- https://parts.cat.com/en/catcorp/product/234-4809
+- https://parts.cat.com/en/catcorp/product/113-0364
+- https://parts.cat.com/en/catcorp/product/234-4803
+
+برای شیلنگ انژکتور، طول، end fitting و فشار؛ برای واشرها، محل اتصال و شماره سریال موتور؛ و برای washer، قطر پیچ و clamp stack-up باید بررسی شود. صفحه 234-4824 در عنوان «Governor Inlet» دارد ولی در توضیح، آب‌بندی exhaust manifold به cylinder head را بیان می‌کند؛ قبل از طبقه‌بندی نهایی باید diagram Cat بررسی شود.
+
+Mirror از Master جاری بازسازی و شمارنده Workflow با تعداد خطوط Master تنظیم شد.
