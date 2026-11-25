@@ -2280,3 +2280,13 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - https://parts.cat.com/en/catcorp/product/233-5638
 
 برای جایگزینی کیت، فقط Cat Dealer می‌تواند replacement فعلی و compatibility آن را تأیید کند. هیچ شماره جایگزین از روی این صفحه حدس زده نشده است.
+
+
+## دور ۷۲ — 25 Nov 2026
+
+- دو شماره جدید از صفحات رسمی Cat Parts Store با فیتمنت صریح 287B ثبت شد:
+  - 234-7731 — Bracket Assembly؛ سازگاری 287B و 297C؛ ارتفاع درج‌شده 2.58in؛ محل نصب و PIN تطبیق داده شود.
+  - 3E-9179 — Terminal-Blade؛ سازگاری 287B؛ ترمینال برای سیم 16–14 AWG؛ گیج سیم، نوع پرس و ابعاد ترمینال کنترل شود.
+- هر دو شماره به Master و CSV رسمی 287B افزوده شدند.
+- منابع رسمی: https://parts.cat.com/en/catcorp/product/234-7731 ؛ https://parts.cat.com/en/catcorp/product/3E-9179
+- وضعیت Master/Mirror/Workflow در زمان ثبت: 4,314 شماره یکتا؛ Mirror برابر Master؛ Workflow برابر 4314.
