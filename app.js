@@ -50,14 +50,14 @@ function categoryInfo(p){
  if(filterPattern){
   let sub='سایر فیلترها';
   if(/کابین|cabin/.test(t))sub='فیلتر کابین';
-  else if(/\\bdef\\b|diesel exhaust fluid|urea|اگزوز دیزل/.test(t))sub='فیلتر DEF و پس‌پالایش';
-  else if(/\\bdpf\\b|diesel particulate|soot filter|فیلتر دوده|aftertreatment/.test(t))sub='فیلتر DPF و پس‌پالایش';
+  else if(/\bdef\b|diesel exhaust fluid|urea|اگزوز دیزل/.test(t))sub='فیلتر DEF و پس‌پالایش';
+  else if(/\bdpf\b|diesel particulate|soot filter|فیلتر دوده|aftertreatment/.test(t))sub='فیلتر DPF و پس‌پالایش';
   else if(/water separator|جداکننده.?آب/.test(t)&&/fuel|سوخت/.test(t))sub='فیلتر سوخت و جداکننده آب';
   else if(/سوخت|fuel/.test(t))sub='فیلتر سوخت';
   else if(/هیدرولیک|hydraulic|transmission/.test(t))sub='فیلتر هیدرولیک و انتقال قدرت';
   else if(/روغن|lube|lubrication|oil/.test(t))sub='فیلتر روغن و روانکاری';
   else if(/water spray|آب.?پاش/.test(t))sub='فیلتر سیستم آب‌پاش';
-  else if(/air conditioner|a\\/c|تهویه|کولر/.test(t))sub='فیلتر تهویه و کولر';
+  else if(/air conditioner|a\/c|تهویه|کولر/.test(t))sub='فیلتر تهویه و کولر';
   else if(/خنک.?کاری|coolant|cooling|فیلتر آب/.test(t))sub='فیلتر آب و سیستم خنک‌کاری';
   else if(/breather|vent filter|case vent|crankcase|fumes disposal|هواکش|تنفسی/.test(t))sub='هواکش و فیلتر تنفسی';
   else if(/هوا|air cleaner|pre.?cleaner|هوای موتور/.test(t))sub='فیلتر هوا و هواکش ورودی';
