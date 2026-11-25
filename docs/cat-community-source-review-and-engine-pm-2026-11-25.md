@@ -1764,3 +1764,58 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - https://parts.cat.com/en/catcorp/product/166-0321
 
 برای 113-0693، قطر داخلی، نوع واشر و stack-up اتصال باید کنترل شود. برای 166-0321، صفحه Cat اعلام می‌کند قطعات داخل کیت در صفحه نمایش داده نشده‌اند؛ گروه کاربرد و PIN باید قبل از سفارش با فروشنده رسمی تطبیق داده شود. 166-0321 به فیتمنت 287B تعمیم داده نشد.
+
+## دور ۵۶ — زیرمجموعه‌های رسمی Undercarriage برای 297C (25 Nov 2026)
+
+۲۱ شماره جدید از صفحات رسمی Cat Parts Store در زیرمجموعه‌های undercarriage، axle، track seal، sleeve، roller و tensioner به Master افزوده شدند و در CSV مستقل 297C-only ثبت شدند؛ صفحات آن‌ها 297C را نشان می‌دهند اما 287B را در Compatible Models ندارند:
+- 258-3122 — Carriage Bolt، طول 371.48mm.
+- 258-3014 — Bearing Sleeve.
+- 258-3035 — 60mm Internal Diameter Face Seal.
+- 258-3087 — Track Seal Washer Type، قطر بیرونی 385.8mm.
+- 258-3088 — Inner Sleeve، قطر داخلی 14.22mm.
+- 258-3089 — Outer Sleeve، قطر داخلی 26.16mm.
+- 258-3026 — Idler Axle Housing.
+- 309-3303 — Front Axle Assembly LH.
+- 309-3304 — Front Axle Assembly RH.
+- 309-3306 — Rear Axle Assembly.
+- 258-3008 — Track Roller Group، قطر بیرونی 50.8mm.
+- 327-7724 — Idler Axle Group.
+- 2F-8509 — Tapered Roller Cone Bearing.
+- 258-3092 — Undercarriage Cap.
+- 258-3047 — Rubber Cushion، قطر بیرونی 25.40mm.
+- 258-3064 — Rear Axle Idler Shaft، طول 399.2mm.
+- 309-3295 — Wheel Axle، قطر بیرونی 38.10mm.
+- 258-3053 — Idler Axle Wheel (Inner)، قطر 381mm.
+- 258-3052 — Idler Axle Wheel (Outer)، قطر 381mm.
+- 258-3083 — Track Tensioner Group.
+- 372-5769 — Track Roller.
+
+شماره 6C-3241 نیز در Master موجود بود و در این دور به CSV مستقل 297C-only افزوده شد؛ Compatible Models آن 297C و 287C را دارد اما 287B را ندارد.
+شماره 3B-4508 نیز در Master موجود بود و ردیف فیتمنت 287B/297C آن به CSV رسمی 287B اضافه شد.
+
+منابع رسمی Cat:
+- https://parts.cat.com/en/catcorp/product/258-3122
+- https://parts.cat.com/en/catcorp/product/258-3014
+- https://parts.cat.com/en/catcorp/product/258-3035
+- https://parts.cat.com/en/catcorp/product/258-3087
+- https://parts.cat.com/en/catcorp/product/258-3088
+- https://parts.cat.com/en/catcorp/product/258-3089
+- https://parts.cat.com/en/catcorp/product/258-3026
+- https://parts.cat.com/en/catcorp/product/309-3303
+- https://parts.cat.com/en/catcorp/product/309-3304
+- https://parts.cat.com/en/catcorp/product/309-3306
+- https://parts.cat.com/en/catcorp/product/258-3008
+- https://parts.cat.com/en/catcorp/product/327-7724
+- https://parts.cat.com/en/catcorp/product/2F-8509
+- https://parts.cat.com/en/catcorp/product/258-3092
+- https://parts.cat.com/en/catcorp/product/258-3047
+- https://parts.cat.com/en/catcorp/product/258-3064
+- https://parts.cat.com/en/catcorp/product/309-3295
+- https://parts.cat.com/en/catcorp/product/258-3053
+- https://parts.cat.com/en/catcorp/product/258-3052
+- https://parts.cat.com/en/catcorp/product/258-3083
+- https://parts.cat.com/en/catcorp/product/372-5769
+- https://parts.cat.com/en/catcorp/product/6C-3241
+- https://parts.cat.com/en/catcorp/product/3B-4508
+
+این قطعات در فیتمنت 287B ثبت نشده‌اند. برای قطعات undercarriage، شماره گروه axle/roller، track pitch، ابعاد sleeve و seal، قطر شفت و آرایش undercarriage باید با PIN دستگاه کنترل شود.
