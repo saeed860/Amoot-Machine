@@ -3010,3 +3010,26 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 9S-1362 | 3/4-16 x 2 Hex Head Bolt | 6 | Cat 3N-8942 D334 Marine Transmission Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
 
 Source page: https://parts.cat.com/en/catcorp/product/3N-8942
+
+
+## Additional Cat D9H/583K/594H torque-converter bearing-kit BOM candidates — batch 178
+
+Source: official Cat Parts Store product page 116-9594, Torque Converter Bearing Kit. Compatible models explicitly shown: TRACK-TYPE TRACTOR / D9H; PIPELAYER / 583K, 594H, 594. Cat describes the kit as all bearings needed for a torque-converter overhaul. Three other listed components were already present in the discovery queue or original seed list and are not duplicated. The fourteen new rows below are official BOM references only; verify torque-converter serial/configuration before ordering.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+1T-0278 | 74.727mm Outside Diameter Sleeve Bearing | 2 | Cat 116-9594 D9H/583K/594H Torque Converter Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+1T-0309 | 3.136mm Thick Metal Seal Ring | 4 | Cat 116-9594 D9H/583K/594H Torque Converter Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+1T-0589 | 179.97mm Outer Diameter Cylindrical Bearing Cup | 1 | Cat 116-9594 D9H/583K/594H Torque Converter Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+1T-0610 | 110mm Internal Diameter Ball Bearing | 1 | Cat 116-9594 D9H/583K/594H Torque Converter Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+240-2020 | 85.2mm Outer Diameter Roller Bearing Race | 1 | Cat 116-9594 D9H/583K/594H Torque Converter Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+2K-5065 | 117.48mm Tapered Roller Cone Bearing | 1 | Cat 116-9594 D9H/583K/594H Torque Converter Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+2K-5253 | 45mm Inner Diameter Roller Bearing Inner Race | 1 | Cat 116-9594 D9H/583K/594H Torque Converter Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+2K-5254 | 55.57mm Minimum Internal Diameter Bearing | 1 | Cat 116-9594 D9H/583K/594H Torque Converter Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+3S-1404 | Bearing-Race and Roller Assembly | 1 | Cat 116-9594 D9H/583K/594H Torque Converter Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+5H-8985 | 12.70mm Long Chamfer End Spring Pin | 2 | Cat 116-9594 D9H/583K/594H Torque Converter Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+5P-6943 | Flat Head Semi Tubular Rivet | 5 | Cat 116-9594 D9H/583K/594H Torque Converter Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+8E-8307 | 42.90mm Inner Diameter Thrust Disc | 6 | Cat 116-9594 D9H/583K/594H Torque Converter Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+8P-1957 | 3.175mm Thick Thrust Washer | 2 | Cat 116-9594 D9H/583K/594H Torque Converter Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+608-5569 | Sleeve Bearing | 4 | Cat 116-9594 D9H/583K/594H Torque Converter Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+
+Source page: https://parts.cat.com/en/catcorp/product/116-9594
