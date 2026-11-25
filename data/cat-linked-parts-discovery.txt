@@ -1994,3 +1994,36 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 363-6420 | Flywheel Housing Gasket Kit - Rear Structure | 1 | Cat 417-9506 Motor Grader Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
 
 Source page: https://parts.cat.com/en/catcorp/product/417-9506
+
+
+## Additional Cat 3512C marine engine-parts-kit BOM candidates — batch 115
+
+Source: official Cat Parts Store product page 318-3205, Engine Parts Kit. Compatible model explicitly shown: MARINE ENGINE / 3512C. Eight other listed components were already present in the discovery queue or original seed list and are not duplicated. The 24 new entries below are kit BOM references and quantities only; they do not establish standalone orderability, stock, price, or fitment beyond the kit listing.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+101-1364 | 69 Teeth Camshaft Idler Gear | 1 | Cat 318-3205 3512C Marine Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+101-1369 | 70 Teeth Camshaft Drive Gear | 1 | Cat 318-3205 3512C Marine Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+101-1370 | 92 Teeth Crankshaft Gear | 1 | Cat 318-3205 3512C Marine Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+144-0725 | 380mm Center Distance Connecting Rod | 1 | Cat 318-3205 3512C Marine Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+218-0826 | Main Bearing | 1 | Cat 318-3205 3512C Marine Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+218-0827 | Main Bearing | 1 | Cat 318-3205 3512C Marine Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+239-6808 | 123.20mm Minimum Quick Disconnect V Band Clamp | 4 | Cat 318-3205 3512C Marine Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+253-1238 | Piston Retainer | 2 | Cat 318-3205 3512C Marine Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+263-8955 | 102.0mm Long Piston Pin | 1 | Cat 318-3205 3512C Marine Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+307-5472 | 92mm Internal Diameter Bellows | 2 | Cat 318-3205 3512C Marine Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+311-3548 | 220mm Flanged Outer Diameter Bellows | 1 | Cat 318-3205 3512C Marine Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+311-9236 | 172.00mm Minimum Internal Diameter V Band Clamp | 1 | Cat 318-3205 3512C Marine Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+448-3651 | 170mm Outer Diameter Piston Ring | 1 | Cat 318-3205 3512C Marine Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+454-9920 | 170.025mm Inner Diameter Cylinder Block Liner | 1 | Cat 318-3205 3512C Marine Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+488-9888 | 170mm Outer Diameter Piston Ring | 1 | Cat 318-3205 3512C Marine Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+516-1856 | 174.42mm Outer Diameter Piston Sleeve | 1 | Cat 318-3205 3512C Marine Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+519-8019 | Turbocharger Group - Basic | 1 | Cat 318-3205 3512C Marine Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+560-7760 | Engine Cylinder Piston | 1 | Cat 318-3205 3512C Marine Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+5B-0213 | 3/8-16 x 2 3/8 Hex Head Bolt | 2 | Cat 318-3205 3512C Marine Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+5B-7890 | 1/4-18 NPTF Thread Hex-Drive Plug | 1 | Cat 318-3205 3512C Marine Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+5M-2894 | 3/8in ID Steel Flat Washer | 2 | Cat 318-3205 3512C Marine Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+622-7454 | Cylinder Head Group | 1 | Cat 318-3205 3512C Marine Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+675-0052 | Cylinder Block Liner Seal | 1 | Cat 318-3205 3512C Marine Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+7X-7925 | 7/8-14 x 11in Hex Head Bolt | 4 | Cat 318-3205 3512C Marine Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+
+Source page: https://parts.cat.com/en/catcorp/product/318-3205
