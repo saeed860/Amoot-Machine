@@ -122,3 +122,36 @@
 - https://parts.cat.com/en/catcorp/product/164-9989
 
 نکته: صفحات Cat مدل‌های سازگار را فهرست می‌کنند، اما Cat نیز هشدار می‌دهد تغییر پیکربندی دستگاه ممکن است سازگاری را تغییر دهد. بنابراین سریال/ترتیب ساخت، شماره گروه قطعه، موقعیت (LH/RH/Center)، ابعاد و الگوی پیچ باید پیش از سفارش کنترل شوند. شماره‌های بالا OEM هستند؛ هیچ شماره aftermarket در Master ادغام نشده است.
+
+
+## تکمیل رسمی 287B و اصلاح شمارنده — 25 Nov 2026
+
+در بررسی صفحات رسمی Cat Parts Store، 9 شماره جدید با نمایش صریح 287B در بخش Compatible Models تأیید و به Master اضافه شد. شماره 289-3787 از قبل در Master وجود داشت و دوباره شمرده نشد.
+
+| Part Number | شرح رسمی | مدل‌های سازگار نمایش‌داده‌شده |
+|---|---|---|
+| 289-3765 | Hydraulic Lift Cylinder Tube Assembly | 287B، 252B3، 268B، 262B، 252B |
+| 289-3763 | Lift Cylinder Lines Tube | 287B، 252B3، 268B، 262B، 252B |
+| 233-5698 | Fluid Carrying Tube Assembly | 287B، 252B3، 268B، 262B، 252B |
+| 238-7722 | Plate | 287B، 287 |
+| 199-2129 | Cap | 277B، 267B، 287B و مدل‌های دیگر |
+| 257-7386 | 287 Series Skid Steer Loader Rear Axle | 287B |
+| 233-5479 | Camshaft | 277B، 267B، 287C، 277C، 287B، 297C و مدل‌های دیگر |
+| 230-3733 | 355.6mm Outer Diameter Idler Wheel | 277B، 267B، 287B، 267، 277، 287 |
+| 239-9257 | Warning Film | 277B، 267B، 287C، 277C، 287B، 257B، 247B، 297C |
+
+فایل بررسی: `data/cat-287b-official-parts-verification-2026-11-25.csv`
+
+منابع رسمی Cat:
+- https://parts.cat.com/en/catcorp/product/289-3765
+- https://parts.cat.com/en/catcorp/product/289-3763
+- https://parts.cat.com/en/catcorp/product/233-5698
+- https://parts.cat.com/en/catcorp/product/238-7722
+- https://parts.cat.com/en/catcorp/product/199-2129
+- https://parts.cat.com/en/catcorp/product/257-7386
+- https://parts.cat.com/en/catcorp/product/233-5479
+- https://parts.cat.com/en/catcorp/product/230-3733
+- https://parts.cat.com/en/catcorp/product/239-9257
+
+### شمارش نهایی فعلی
+Master پس از این دور 2,106 شماره یکتا دارد. فایل Mirror نیز پس از همسان‌سازی مجدد دقیقاً 2,106 شماره یکتا دارد و اختلاف مجموعه‌ای آن‌ها صفر است. شمارنده توضیحی workflow دستی نیز از 2,044 به 2,097 و سپس 2,106 به‌روز شد. این عدد تعداد شماره‌های فهرست است، نه تعداد قطعات دارای فیتمنت کامل یا موجودی قابل سفارش.
