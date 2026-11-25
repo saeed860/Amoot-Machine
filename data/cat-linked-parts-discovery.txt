@@ -1350,3 +1350,9 @@ Source pages:
 487-2960 | 5 x 98mm 70A NBR O-Ring | Cat Parts Store parts diagram for 535-2508 breather cap | cat_linked_candidate; needs_individual_verification
 417-6207 | Ultra High Efficiency Hydraulic/Transmission Filter | Cat Parts Store parts diagram for 535-2508 breather cap | cat_linked_candidate; needs_individual_verification
 468-9310 | 6.5 x 553mm 90A NBR O-Ring | Cat Parts Store parts diagram for 535-2508 breather cap | cat_linked_candidate; needs_individual_verification
+
+561-1070 | Link Assembly Clamp Master, 47 Sections | Cat Parts Store related track-link assembly for 561-1069 | cat_linked_candidate; needs_individual_verification
+653-5165 | 40 Joint Sealed Lubricated Track Link | Cat Parts Store related wear-sensor track link for 561-1069 | cat_linked_candidate; needs_individual_verification
+653-5169 | 46 Joint Sealed And Lubricated Track Link | Cat Parts Store related wear-sensor track link for 561-1069 | cat_linked_candidate; needs_individual_verification
+653-5170 | 47 Joint Sealed And Lubricated Track Link | Cat Parts Store related wear-sensor track link for 561-1069 | cat_linked_candidate; needs_individual_verification
+667-1450 | General Duty Track Link, 46 Sections | Cat Parts Store related track-link assembly for 561-1069 | cat_linked_candidate; needs_individual_verification
