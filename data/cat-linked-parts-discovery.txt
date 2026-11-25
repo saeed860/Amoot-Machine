@@ -1473,3 +1473,5 @@ Source pages:
 2W-1234 | 34.6mm Inner Diameter Turbine Seal Ring | Cat Parts Store related to 7E-0688 turbocharger seal ring | cat_linked_candidate; needs_individual_verification
 7E-0693 | Turbocharger Bearing | Cat Parts Store related to 7E-0688 turbocharger seal ring | cat_linked_candidate; needs_individual_verification
 2W-1233 | Turbocharger Bearing | Cat Parts Store related to 7E-0688 turbocharger seal ring | cat_linked_candidate; needs_individual_verification
+
+7G-9709 | 192.4mm Outside Diameter Sleeve Bearing | Cat Parts Store parts diagram for 7T-0375 middle bogie | cat_linked_candidate; needs_individual_verification
