@@ -2299,3 +2299,23 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 9L-2295 | 3/8-16 x 1 1/2 Hex Head Bolt | 12 | Cat 350-2184 3512B Tier 1-to-Tier 2 Standard Stroke Conversion Kit BOM; arrangement 232-2507 to 320-0275 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
 
 Source page: https://parts.cat.com/en/catcorp/product/350-2184
+
+
+## Additional Cat 3412 marine single-cylinder-head install-kit BOM candidates — batch 129
+
+Source: official Cat Parts Store product page 420-4888, Single Cylinder Head Install Kit. Compatible model explicitly shown: MARINE ENGINE / 3412. The page states that the kit contains gaskets and seals to rebuild and reinstall one cylinder head, includes turbo gaskets, and does not include fuel injector seals. Twenty-one other first-page components were already present in the discovery queue or seed list and are not duplicated. The eleven new rows below are kit BOM references only; order a separate injector seal kit as Cat instructs where required, and verify serial/arrangement compatibility before use.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+225-3101 | Cylinder Block Head Plate Gasket | 1 | Cat 420-4888 3412 Marine Single Cylinder Head Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+2M-1395 | 0.8mm Thick Gasket | 1 | Cat 420-4888 3412 Marine Single Cylinder Head Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+428-9129 | 3.2mm Thick Spiral Wound Gasket | 2 | Cat 420-4888 3412 Marine Single Cylinder Head Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+4N-1684 | 0.8mm Thick Gasket | 1 | Cat 420-4888 3412 Marine Single Cylinder Head Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+4N-6295 | 60.32mm Inside Diameter Water Return Sleeve | 1 | Cat 420-4888 3412 Marine Single Cylinder Head Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+4P-8881 | 1.58mm Thick Cooling System Gasket | 1 | Cat 420-4888 3412 Marine Single Cylinder Head Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+5P-5678 | Engine Ribbon Seal | 7 | Cat 420-4888 3412 Marine Single Cylinder Head Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+5P-8119 | 17.04mm Inner Diameter Seal O-Ring | 6 | Cat 420-4888 3412 Marine Single Cylinder Head Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+5P-8356 | 21.89mm Inner Diameter O-Ring Seal | 2 | Cat 420-4888 3412 Marine Single Cylinder Head Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+6V-3831 | 5.33 x 53.34mm 75A FKM O-Ring | 1 | Cat 420-4888 3412 Marine Single Cylinder Head Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+6V-6228 | 26.64mm Inside Diameter Seal-O-Ring | 1 | Cat 420-4888 3412 Marine Single Cylinder Head Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+
+Source page: https://parts.cat.com/en/catcorp/product/420-4888
