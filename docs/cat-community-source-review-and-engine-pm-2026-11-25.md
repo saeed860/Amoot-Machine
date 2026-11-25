@@ -2433,3 +2433,12 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - هر دو شماره به Master و CSV رسمی 287B افزوده شدند.
 - منابع رسمی: https://parts.cat.com/en/catcorp/product/233-5680 ؛ https://parts.cat.com/en/catcorp/product/224-8645
 - شمارنده هدف دور: 4335 شماره یکتا؛ Mirror و Workflow با Master همگام شدند.
+
+
+## دور ۸۲ — 25 Nov 2026
+
+- دو فیتمنت جدید/تکمیل‌نشده از صفحات رسمی Cat Parts Store در CSV رسمی 287B ثبت شد:
+  - 233-5698 — Fluid Carrying Tube Assembly؛ فیتمنت 287B؛ قطر بیرونی 0.37in؛ مسیر لوله، خم‌ها و اتصالات باید تطبیق داده شود. شماره از قبل در Master بود.
+  - 278-1969 — CYL GP-BASIC؛ فیتمنت 287B و 297C؛ شماره جدید Master. پیش از سفارش، bore/stroke، شماره گروه سیلندر و PIN دستگاه بررسی شود.
+- منابع رسمی: https://parts.cat.com/en/catcorp/product/233-5698 ؛ https://parts.cat.com/en/catcorp/product/278-1969
+- شمارنده هدف دور: 4336 شماره یکتا؛ Mirror و Workflow با Master همگام شدند.
