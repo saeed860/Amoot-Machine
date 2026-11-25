@@ -1680,3 +1680,44 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 
 Source page: https://parts.cat.com/en/catcorp/product/634-6936
 Evidence reviewed: https://parts.cat.com/en/catcorp/product/634-6936 (Items included; first 32 of 59 shown; compatible model C32 Marine Engine).
+
+
+## Additional Cat C18 major-overhaul-kit BOM candidates — batch 102
+
+Source: official Cat Parts Store product page for 455-1186, “KIT - ENGINE OVERHAUL (MAJOR)”. The product page identifies this as a Marine Bundled Repair Solution / C18 Engine Overhaul and lists compatible models MARINE ENGINE C18 and PETROLEUM PACKAGE C18. The listed quantities below are BOM quantities only; they do not establish standalone orderability, current inventory, price, or universal fitment. Keep each component as a candidate until its own Cat item page and engine serial/arrangement are checked.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+130-5694 | 6.99 x 88.26mm 75A FKM O-Ring | 2 | Cat 455-1186 Major Engine Overhaul Kit (C18 Marine/Petroleum) | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+205-4832 | 3.53 x 75.79mm 70A EPDM O-Ring | 2 | Cat 455-1186 Major Engine Overhaul Kit (C18 Marine/Petroleum) | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+274-7913 | Element Assembly C | 1 | Cat 455-1186 Major Engine Overhaul Kit (C18 Marine/Petroleum) | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+268-5589 | 124.30mm Outside Diameter Press in Place Seal | 1 | Cat 455-1186 Major Engine Overhaul Kit (C18 Marine/Petroleum) | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+297-1813 | 5/16-18 x 1 Rounded Pan Head Hexalobular Screw | 12 | Cat 455-1186 Major Engine Overhaul Kit (C18 Marine/Petroleum) | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+166-9144 | 0.8mm Thick Front Housing Gasket | 1 | Cat 455-1186 Major Engine Overhaul Kit (C18 Marine/Petroleum) | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+6V-3917 | 94.62mm Inside Diameter Seal-O-Ring | 2 | Cat 455-1186 Major Engine Overhaul Kit (C18 Marine/Petroleum) | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+144-6142 | 1.71mm Thick Integral Seal Gasket | 1 | Cat 455-1186 Major Engine Overhaul Kit (C18 Marine/Petroleum) | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+2N-0931 | 0.8mm Thick Square Gasket | 1 | Cat 455-1186 Major Engine Overhaul Kit (C18 Marine/Petroleum) | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+125-0434 | Two Bolt Edge Bonded Seal Gasket | 1 | Cat 455-1186 Major Engine Overhaul Kit (C18 Marine/Petroleum) | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+210-9246 | 2.62 x 37.77mm 75A FKM O-Ring | 1 | Cat 455-1186 Major Engine Overhaul Kit (C18 Marine/Petroleum) | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+1R-1808 | Engine Oil Filter | 2 | Cat 455-1186 Major Engine Overhaul Kit (C18 Marine/Petroleum) | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+109-0077 | 100.97mm Inside Diameter Seal-O-Ring | 3 | Cat 455-1186 Major Engine Overhaul Kit (C18 Marine/Petroleum) | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+238-5081 | 2.46 x 19.18mm 90A FKM O-Ring | 1 | Cat 455-1186 Major Engine Overhaul Kit (C18 Marine/Petroleum) | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+228-7089 | 1.78 x 9.27mm 90A FKM O-Ring | 5 | Cat 455-1186 Major Engine Overhaul Kit (C18 Marine/Petroleum) | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+214-7566 | 1.83 x 8.92mm 90A FKM O-Ring | 7 | Cat 455-1186 Major Engine Overhaul Kit (C18 Marine/Petroleum) | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+2A-1162 | 4.5mm Thick Flywheel Housing Gasket | 1 | Cat 455-1186 Major Engine Overhaul Kit (C18 Marine/Petroleum) | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+250-0466 | 2.62 x 32.99mm 75A FKM O-Ring | 1 | Cat 455-1186 Major Engine Overhaul Kit (C18 Marine/Petroleum) | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+157-0670 | Engine Coolant Dust Cap | 1 | Cat 455-1186 Major Engine Overhaul Kit (C18 Marine/Petroleum) | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+323-7347 | 2.62 x 17.12mm 75A FKM O-Ring | 1 | Cat 455-1186 Major Engine Overhaul Kit (C18 Marine/Petroleum) | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+6L-2280 | 41mm Long Zinc Rod | 3 | Cat 455-1186 Major Engine Overhaul Kit (C18 Marine/Petroleum) | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+6V-4367 | 2.62 x 34.59mm 75A FKM O-Ring | 1 | Cat 455-1186 Major Engine Overhaul Kit (C18 Marine/Petroleum) | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+129-5427 | 27mm Outer Diameter Seal Washer | 2 | Cat 455-1186 Major Engine Overhaul Kit (C18 Marine/Petroleum) | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+167-4407 | 3.53 x 69.44mm 70A EPDM O-Ring | 1 | Cat 455-1186 Major Engine Overhaul Kit (C18 Marine/Petroleum) | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+3K-0360 | 2.21 x 16.36mm 90A NBR O-Ring | 7 | Cat 455-1186 Major Engine Overhaul Kit (C18 Marine/Petroleum) | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+3J-1907 | 1.98 x 11.89mm 90A NBR O-Ring | 2 | Cat 455-1186 Major Engine Overhaul Kit (C18 Marine/Petroleum) | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+4N-8150 | 93.73mm Free Length Compression Spring | 3 | Cat 455-1186 Major Engine Overhaul Kit (C18 Marine/Petroleum) | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+6V-0128 | 46.50mm Long Connector Seal | 1 | Cat 455-1186 Major Engine Overhaul Kit (C18 Marine/Petroleum) | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+6V-6609 | 2.21 x 16.36mm 70A EPDM O-Ring | 7 | Cat 455-1186 Major Engine Overhaul Kit (C18 Marine/Petroleum) | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+4K-1388 | 2.95 x 26.62mm 90A NBR O-Ring | 1 | Cat 455-1186 Major Engine Overhaul Kit (C18 Marine/Petroleum) | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+5P-7530 | 28.24mm Inside Diameter Seal-O-Ring | 1 | Cat 455-1186 Major Engine Overhaul Kit (C18 Marine/Petroleum) | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+9Y-6089 | 0.8mm Thick Flywheel Housing Gasket | 2 | Cat 455-1186 Major Engine Overhaul Kit (C18 Marine/Petroleum) | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+
+Source page: https://parts.cat.com/en/catcorp/product/455-1186
