@@ -3235,3 +3235,24 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 459-7752 | Piston Wear Ring | 3 | Cat 465-6256 Hydraulic Shovel Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_specific
 
 Source page: https://parts.cat.com/en/catcorp/product/465-6256
+
+
+## Additional Cat 317-A/315-A/317N hydraulic-cylinder seal-kit BOM candidates — batch 190
+
+Source: official Cat Parts Store product page 162-4678, KIT-HYDRAULIC CYLINDER SEAL. Compatible models explicitly shown: EXCAVATOR / 317-A, 315-A, 315-A L, 317 N. Status: DISCONTINUED / part no longer available; this is historical official BOM evidence only, not a current saleable kit or stock claim. Cat notes that hydraulic seal-kit application is specific to the cylinder-group part number. All twelve listed component references were new to the discovery queue and original seed list; verify cylinder-group identity and current replacement supersessions.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+093-1479 | Packing Rod | 1 | Cat 162-4678 Discontinued 317-A/315-A Hydraulic Cylinder Seal Kit BOM | official_cat_historical_bom_verified; kit_discontinued; cylinder_group_specific; current_fitment_not_inferred
+093-1484 | Ring Buffer | 1 | Cat 162-4678 Discontinued 317-A/315-A Hydraulic Cylinder Seal Kit BOM | official_cat_historical_bom_verified; kit_discontinued; cylinder_group_specific; current_fitment_not_inferred
+095-1675 | 3.1 x 114.4mm 75A NBR O-Ring | 1 | Cat 162-4678 Discontinued 317-A/315-A Hydraulic Cylinder Seal Kit BOM | official_cat_historical_bom_verified; kit_discontinued; cylinder_group_specific; current_fitment_not_inferred
+095-1716 | 7 x 109.4mm 90A NBR O-Ring | 2 | Cat 162-4678 Discontinued 317-A/315-A Hydraulic Cylinder Seal Kit BOM | official_cat_historical_bom_verified; kit_discontinued; cylinder_group_specific; current_fitment_not_inferred
+096-1054 | 80mm Inner Diameter Backup Ring | 1 | Cat 162-4678 Discontinued 317-A/315-A Hydraulic Cylinder Seal Kit BOM | official_cat_historical_bom_verified; kit_discontinued; cylinder_group_specific; current_fitment_not_inferred
+103-8341 | Ring | 1 | Cat 162-4678 Discontinued 317-A/315-A Hydraulic Cylinder Seal Kit BOM | official_cat_historical_bom_verified; kit_discontinued; cylinder_group_specific; current_fitment_not_inferred
+105-7360 | Ring | 3 | Cat 162-4678 Discontinued 317-A/315-A Hydraulic Cylinder Seal Kit BOM | official_cat_historical_bom_verified; kit_discontinued; cylinder_group_specific; current_fitment_not_inferred
+116-3387 | Seal | 1 | Cat 162-4678 Discontinued 317-A/315-A Hydraulic Cylinder Seal Kit BOM | official_cat_historical_bom_verified; kit_discontinued; cylinder_group_specific; current_fitment_not_inferred
+143-8031 | 5.9mm Thick Hydraulic Cylinder Ring | 1 | Cat 162-4678 Discontinued 317-A/315-A Hydraulic Cylinder Seal Kit BOM | official_cat_historical_bom_verified; kit_discontinued; cylinder_group_specific; current_fitment_not_inferred
+143-8034 | 110mm OD Bucket Cylinder Piston Guide | 1 | Cat 162-4678 Discontinued 317-A/315-A Hydraulic Cylinder Seal Kit BOM | official_cat_historical_bom_verified; kit_discontinued; cylinder_group_specific; current_fitment_not_inferred
+147-5819 | 103.87mm Inner Diameter Wear Ring | 1 | Cat 162-4678 Discontinued 317-A/315-A Hydraulic Cylinder Seal Kit BOM | official_cat_historical_bom_verified; kit_discontinued; cylinder_group_specific; current_fitment_not_inferred
+9X-7301 | 110mm Bore Diameter 2-Piece Seal | 1 | Cat 162-4678 Discontinued 317-A/315-A Hydraulic Cylinder Seal Kit BOM | official_cat_historical_bom_verified; kit_discontinued; cylinder_group_specific; current_fitment_not_inferred
+
+Source page: https://parts.cat.com/en/catcorp/product/162-4678
