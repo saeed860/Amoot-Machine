@@ -914,3 +914,33 @@ Mirror از Master جاری بازسازی و شمارنده Workflow با تع�
 ### ممیزی هم‌زمانی پس از دور سی‌ودوم — 25 Nov 2026
 
 در شروع دور 32، Master از 3,657 به 3,705 شماره یکتا افزایش یافته بود؛ 48 شماره افزایش‌یافته در فاصله پس از ممیزی دور 31 و پیش از ثبت این batch اضافه شده بودند و به دور 32 نسبت داده نمی‌شوند. یک شماره مستند دور 32 افزوده شد و Master به 3,706 رسید. Mirror، شمارنده Workflow و CSV مجدداً بررسی شدند؛ CSV برابر 203 ردیف داده است.
+
+
+## دور سی‌وسوم — الکتریکی، سوخت، خنک‌کاری و فیلتر (25 Nov 2026)
+
+در این دور 6 شماره جدید پس از مشاهده صریح 287B در بخش Compatible Models صفحات رسمی Cat به Master افزوده شد:
+- 216-4725 — Harness Assembly (Work Tools)
+- 186-3362 — Harness Assembly
+- 583-9488 — Water Temperature Regulator Thermostat
+- 225-8012 — Platform Work Tool Harness
+- 242-8277 — Harness Assembly (Proportional Operator Control Handle)
+- 223-9974 — Hydraulic/Transmission Oil Filter
+
+همچنین 5 شماره که از قبل در Master بودند، با فیتمنت رسمی در CSV ثبت/تکمیل شدند: 232-5877، 202-2284، 258-4199، 228-9132 و 142-9328.
+
+منابع رسمی Cat:
+- https://parts.cat.com/en/catcorp/product/216-4725
+- https://parts.cat.com/en/catcorp/product/186-3362
+- https://parts.cat.com/en/catcorp/product/583-9488
+- https://parts.cat.com/en/catcorp/product/225-8012
+- https://parts.cat.com/en/catcorp/product/242-8277
+- https://parts.cat.com/en/catcorp/product/223-9974
+- https://parts.cat.com/en/catcorp/product/232-5877
+- https://parts.cat.com/en/catcorp/product/202-2284
+- https://parts.cat.com/en/catcorp/product/258-4199
+- https://parts.cat.com/en/catcorp/product/228-9132
+- https://parts.cat.com/en/catcorp/product/142-9328
+
+برای هارنس‌ها، سازگاری به نسل دسته کنترل، پیکربندی Work Tool، مسیر سیم‌کشی و نوع کانکتور وابسته است. برای ترموستات و فیلتر، نسخه موتور/پکیج خنک‌کاری و شماره سریال پیش از سفارش تطبیق داده شود. فیتمنت 297C فقط در مواردی که صریحاً در فهرست مدل‌ها آمده ثبت شده و به سایر شماره‌ها تعمیم داده نشده است.
+
+Master پس از این batch برابر 3712 شماره یکتا است؛ Mirror و Workflow با Master همگام شدند. CSV با 6 ردیف داده ثبت شد.
