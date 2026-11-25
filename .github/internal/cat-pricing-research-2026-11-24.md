@@ -3399,3 +3399,43 @@ Additional Cat-linked discovery candidates:
 3J-1907, 3K-0360, 6Y-0473, 7G-4332, 252-6329, 239-5509, 6V-5048, 2R-0098, 2S-4078, 6V-9746, 3S-2093, 3S-2094, 3S-2095, 1R-1808, 360-8960, 479-4133, 346-6688, 528-0585, 471-7003, 5N-6055, 5N-2902, 3N-8463, 3N-8462, 4M-6107, 1P-3705. Candidate-only related seals, plugs, link-ring sets, wiring accessories, battery/filter accessories and impeller components; no universal fitment/interchange claims.
 
 Original Cat seed list completion: 787/787 SKUs reviewed (79 batches including the final 7-item partial batch). Next batch 80 onward will draw from the separate Cat-linked, independent-supplier and Off Road discovery queues; each candidate must be individually verified before catalog promotion.
+
+## Batch 50/500 — products 491–500 (2026-11-25)
+
+SKUs: 350-2168, 350-2178, 350-2537, 350-7735, 351-8204, 353-1697, 353-5058, 354-5833, 356-1448, 358-1398. All ten Cat item pages were opened and key item-level descriptions, compatible models, specifications and kit contents checked. Database rows were re-queried after updates.
+
+Verified catalog results:
+- 350-2168: Cat 3512 Tier 1-to-Tier 2 engine upgrade kit, arrangement 2W-8862 → 282-9664, to be used with an engine overhaul. Cat explicitly has no compatible-model information and no separate specifications for this kit. Cat page lists nine kit contents: 245-4622 aftercooler core ×1; 283-5732 camshaft ×1; 283-5738 camshaft ×1; 308-5353 camshaft ×1; 308-5355 camshaft ×1; 335-6220 cylinder head ×12; 374-2082 piston ×12; 392-0220 fuel pump injector ×12; 519-8019 turbocharger ×2. Database compatible_models intentionally left empty.
+- 350-2178: Cat 3512B Tier 1-to-Tier 2 upgrade kit, arrangement 180-9193 → 320-0276. Cat Compatible Models explicitly lists Marine Engine 3512B; page says no parts associated and no specifications are published.
+- 350-2537: Cat Engine Water Pump, Industrial Engine C-9 only. Specs: 12.1in length ×9.4in height. Cat page displays 20R-0260 Cat C9 Reman Water Pump as an alternative listing; not assumed identical or a universal interchangeable replacement.
+- 350-7735: Cat Fuel Cap Filter Kit, 4-micron filter cartridge. Added/confirmed 343 unique compatible model labels across integrated toolcarriers, wheel tractor-scrapers, forestry/wheel harvesters, track/wheel skidders, mini excavators, rotary drills, track feller bunchers and a large excavator range. Cat description calls out polyurethane plastic; separate Specifications section lists polyamide plastic, carbon steel and acetal plastic. This source discrepancy is explicitly retained in the DB description, rather than silently choosing one material. No kit component BOM is published.
+- 351-8204: Cat spherical Panhard-rod bushing for front/center/rear stabilizer assemblies. Compatible models: articulated trucks 735C, 740 GC, 735B, 740, 740C, 745, 735 OEM, 740B, 745C, 735; ejector truck 740 and 740B (these overlap the same model labels). Specs: 4.13in OD, 7.68in overall length, two 0.98in holes, 5.98in hole centers; M24 or 1in hardware; material not specified. DB stores 10 unique model labels.
+- 353-1697: Cat 1220mm/48in pallet forks, skid-steer coupler, Class II. Verified 86 distinct compatible model labels: multi-terrain loaders, compact track loaders and skid-steer loaders. Specs: carriage 36.8 ×45.8in, 211.6lb; tines 48 ×3.9 ×21.3in, 1.6in thick, 105.8lb; operating weight 429.9lb; overall length 58.3in.
+- 353-5058: Cat Cab Air Recirculation Filter Element, wheel loaders 930, 938K, 938M, 926, 924K, 926M, 938, 930K, 924 and 930M (10 labels). Urethane panel, lower-restriction media; 15.906in length ×6.409in width; height 2.213in with seal /1.827in without; carbon steel/mixed metal-nonmetal.
+- 354-5833: Cat Oil Filter Housing Drain Kit, for replacing a failed drain in an oil filter housing. Cat describes a hand-operated fluid drain/sampling point and says kit includes drain, knob and O-rings; no individual BOM parts are published in the page's kit panel. Added 203 distinct compatible model labels across generators, material handlers, graders, D7/D8 tractors, knuckleboom loaders, forestry, excavators, MHPUs, gensets, reclaimers, compactors, wheel loaders, articulated trucks and wheeled excavators. Material: FKM rubber, PPA plastic and polyamide plastic.
+- 356-1448: Cat Heavy Duty Precious Metals Silver in-frame overhaul kit; Cat lists Truck Engine C15. Kit page item list verified: 160-9874 liner gasket kit ×6; 237-0194 top ring ×6; 238-0294 oil ring ×6; 238-4737 intermediate ring ×6; 250-2940 pin retainer ×12; 356-9946 piston body ×6; 524-5565 piston pin ×6; 586-3377 cylinder liner ×6; 606-0909 Bronze Overhaul Kit ×1. Cat description says it includes the Bronze kit plus six pistons, liners, wrist pins, rings, retainers and a rod-less unassembled cylinder pack; no core charge.
+- 358-1398: Cat 797 Off-Highway Truck Rear Suspension Link / upper linkage. Compatible models 797F and 797B. Specs: 1/8-27 PTF adapter and two self-aligning bearings. The page's generic material field says adhesive; preserved as the source's field, not inferred as the link's structural material.
+
+Cat product pages:
+- https://parts.cat.com/en/catcorp/product/350-2168
+- https://parts.cat.com/en/catcorp/product/350-2178
+- https://parts.cat.com/en/catcorp/product/350-2537
+- https://parts.cat.com/en/catcorp/product/350-7735
+- https://parts.cat.com/en/catcorp/product/351-8204
+- https://parts.cat.com/en/catcorp/product/353-1697
+- https://parts.cat.com/en/catcorp/product/353-5058
+- https://parts.cat.com/en/catcorp/product/354-5833
+- https://parts.cat.com/en/catcorp/product/356-1448
+- https://parts.cat.com/en/catcorp/product/358-1398
+
+Post-update DB verification: all ten records returned. Fitment counts: 350-2168=0; 350-2178=1; 350-2537=1; 350-7735=343; 351-8204=10; 353-1697=86; 353-5058=10; 354-5833=203; 356-1448=1; 358-1398=2. No customer prices or live stock claims added.
+
+Additional Cat-linked candidates from official Cat "frequently bought together"/alternative panels (leads only; not fitment or interchange proof):
+- 350-2537: 20R-0260 (Cat Reman alternative listing), 2M-4453, 4J-0525, 037-2448, 280-6794, 248-5513.
+- 350-7735: 1R-1808, 360-8960, 1R-0749, 479-4131, 322-3155.
+- 353-1697: 5P-8500, 8T-4999, 561-0644.
+- 353-5058: 365-7606, 462-1171.
+- 354-5833: 322-3155, 360-8960, 479-4131, 500-0483.
+These remain candidates and require individual item-page verification before catalog promotion.
+
+Overall reviewed progress: 50/500 batches = 500/5,000 product target (10.0%). Original Cat seed list has 287 SKUs remaining (products 501–787).
