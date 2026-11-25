@@ -2692,3 +2692,12 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - سایر شماره‌های نتایج این جستجو از قبل در Master/CSV ثبت بودند و تکرار نشدند.
 - منبع رسمی: https://parts.cat.com/en/catcorp/product/280-8302
 - شمارنده هدف پس از ثبت: 4392 شماره یکتا؛ Mirror byte-exact و Workflow برابر 4392.
+
+
+## دور ۷۴ — 25 Nov 2026
+
+- 129-8545 — 13mm Inner Diameter Glass Mount Washer از صفحه رسمی Cat Parts Store بررسی شد؛ Compatible Models شامل 277C، 277C2، 297C، 287C2 و 287C است و 287B در فهرست نیست. در Master و CSV مستقل 297C-only ثبت شد.
+- مشخصه صفحه: قطر داخلی 13mm؛ محل نصب شیشه، مجموعه واشر/فاصله‌گذار و نسخه کابین باید تطبیق داده شود.
+- سایر نتایج جستجو از قبل در Master و CSVهای مربوط ثبت بودند و تکرار نشدند.
+- منبع رسمی: https://parts.cat.com/en/catcorp/product/129-8545
+- شمارنده هدف پس از ثبت: 4393 شماره یکتا؛ Mirror byte-exact و Workflow برابر 4393.
