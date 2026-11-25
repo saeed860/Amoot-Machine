@@ -1049,3 +1049,26 @@ Migration `202611240180_add_verified_cat_c15_3500_service_references.sql` adds s
 | 20R-5462 | Cat Reman Solenoid Kit | C9 / C15 / C18 / 3406 / 3408 / 3500 family | Marine + land |
 
 The application tag follows the equipment classes explicitly listed by Cat on each official page. A family-level listing is not a serial-number-specific fitment guarantee; verify the full engine serial number and Arrangement before accepting an order. The official source URLs are stored per row in the migration.
+
+
+## Off Road filter candidates cross-checked against official Cat pages — 25 Nov 2026
+
+Five identifiers from the Off Road public popular-parts index were checked against exact Cat Parts Store product pages. These are reference records, not priced inventory.
+
+| CAT part number | Official Cat description | Public Cat evidence | Fitment handling |
+|---|---|---|---|
+| 1R-0749 | Secondary Fuel Filter; Advanced High Efficiency; spin-on; 3.689 in diameter × 10.571 in length | Compatible-model list includes C18/C15/C16/C13/C11 and 3406/3408/3176 families | Model-class reference only; exact serial/Arrangement still required |
+| 1R-1808 | Engine Oil Filter; Advanced Efficiency; spin-on; 5.346 in diameter × 12.087 in length | Compatible-model list includes C18/C15/C13/C11/C9/C7 and 3406/3408 families | C18 appears under Power Pack and C18 Marine GS generator-set results, not as a distinct Marine Engine C18 class; do not tag as C18 marine-engine fitment |
+| 326-1644 | Fuel Water Separator; Advanced Efficiency; spin-on; 4.264 in diameter × 7.323 in length | Cat explicitly lists Marine Engine 3406B and many non-marine engine/machine classes | BOTH at model-class level only; serial/Arrangement required |
+| 360-8960 | Engine Fuel Filter Element; Ultra High Efficiency; cartridge; 3.209 in diameter × 6.102 in length | Cat explicitly lists Marine Engine C7.1 and multiple non-marine classes | BOTH at model-class level only; serial/Arrangement required |
+| 7W-2326 | Engine Oil Filter; Standard Efficiency; spin-on; 3.78 in diameter × 6.717 in length | Cat lists 3054 and machine families; no Marine Engine class shown in retrieved result | No marine tag; model-class reference only |
+
+All five raw identifiers appear in the Off Road public 500-part index. The Off Road index descriptions are abbreviated and the brand column is blank; CAT authenticity and descriptions above come from the exact Cat product pages, not from the reseller's index. Off Road is not an authorized Caterpillar dealer. No prices, stock quantities, interchange claims or saleable SKUs were created.
+
+Official evidence:
+- https://parts.cat.com/en/catcorp/product/1R-0749
+- https://parts.cat.com/en/catcorp/product/1R-1808
+- https://parts.cat.com/en/catcorp/product/326-1644
+- https://parts.cat.com/en/catcorp/product/360-8960
+- https://parts.cat.com/en/catcorp/product/7W-2326
+- Off Road discovery list: https://offroadeq.com/parts
