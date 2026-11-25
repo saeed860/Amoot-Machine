@@ -537,7 +537,7 @@ const rows=offRoadCatalogText.trim().split('\n').map(line=>{
     return {
       sku:sku.trim(),description,category,technicalGroup,image,
       offRoadCatalog:true,
-      priceReference:price?{amootAmount:price[2],amootCurrency:'USD',priceBasis:'INDEPENDENT_SELLER_AUDIT'}:null,
+      priceReference:price?{amootAmount:price[2],amootCurrency:'USD'}:null,
       offRoadPriceObservation:detail?{observedAmount:detail[3],currency:'UNCONFIRMED',priceType:'UNCLASSIFIED',condition:'NOT_CAPTURED'}:null,
       weightPerUnitLbs:detail?.[2]??null,alternativePartNumbers:detail?.[4]||[]
     };
@@ -548,7 +548,7 @@ const rows=offRoadCatalogText.trim().split('\n').map(line=>{
     return {
       sku:p[0],description:p[1],category,technicalGroup,image,
       offRoadCatalog:true,
-      priceReference:{amootAmount:p[2],amootCurrency:'USD',priceBasis:'INDEPENDENT_SELLER_AUDIT'}
+      priceReference:{amootAmount:p[2],amootCurrency:'USD'}
     };
   });
   window.AMOOT_OFFROAD_CATALOG=[...rows,...priceOnly];
