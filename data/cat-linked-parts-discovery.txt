@@ -2923,3 +2923,27 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 5P-6620 | 14mm Internal Diameter O-Ring Seal | 1 | Cat 115-8244 multi-model Fuel System Gasket Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
 
 Source page: https://parts.cat.com/en/catcorp/product/115-8244
+
+
+## Additional Cat IT24F/IT18F/924F/918F single-cylinder-head gasket-kit BOM candidates — batch 175
+
+Source: official Cat Parts Store product page 165-9864, Single Cylinder Head Gasket Kit. Compatible models explicitly shown: INTEGRATED TOOLCARRIER / IT24F, IT18F; WHEEL LOADER / 924F, 918F. Cat describes the kit as gaskets and seals to rebuild/reinstall one cylinder head; turbo gaskets are included and fuel injector seals are excluded. Nine other listed components were already present in the discovery queue or original seed list and are not duplicated. The fourteen new rows below are official BOM references only; verify engine serial/arrangement and order injector seals separately as required.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+113-6200 | 2.48mm Thick Engine Head Gasket | 2 | Cat 165-9864 IT24F/IT18F/924F/918F Single Cylinder Head Gasket Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+115-4245 | 0.8mm Thick Inlet Manifold Gasket | 1 | Cat 165-9864 IT24F/IT18F/924F/918F Single Cylinder Head Gasket Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+119-2950 | Engine Cylinder Cover Gasket | 1 | Cat 165-9864 IT24F/IT18F/924F/918F Single Cylinder Head Gasket Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+156-0235 | Exhaust Manifold Lock | 2 | Cat 165-9864 IT24F/IT18F/924F/918F Single Cylinder Head Gasket Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+195-7339 | Water Temperature Regulator Gasket | 1 | Cat 165-9864 IT24F/IT18F/924F/918F Single Cylinder Head Gasket Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+2W-7212 | 0.8mm Thick Water Regulator Gasket | 1 | Cat 165-9864 IT24F/IT18F/924F/918F Single Cylinder Head Gasket Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+4L-9564 | 81.92mm Inside Diameter Seal-O-Ring | 1 | Cat 165-9864 IT24F/IT18F/924F/918F Single Cylinder Head Gasket Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+5F-7054 | 18.64mm Inner Diameter O-Ring Seal | 1 | Cat 165-9864 IT24F/IT18F/924F/918F Single Cylinder Head Gasket Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+6F-6673 | Rubber O-Ring Seal | 1 | Cat 165-9864 IT24F/IT18F/924F/918F Single Cylinder Head Gasket Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+6I-3033 | Exhaust Manifold Steel Lock | 1 | Cat 165-9864 IT24F/IT18F/924F/918F Single Cylinder Head Gasket Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+6I-4689 | Cylinder Head Gasket | 1 | Cat 165-9864 IT24F/IT18F/924F/918F Single Cylinder Head Gasket Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+7C-1151 | 1.13mm Thick Inlet Manifold Cover Gasket | 1 | Cat 165-9864 IT24F/IT18F/924F/918F Single Cylinder Head Gasket Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+7C-1159 | 0.8mm Thick Fuel Filter Gasket | 1 | Cat 165-9864 IT24F/IT18F/924F/918F Single Cylinder Head Gasket Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+7C-7431 | 1.03mm Thick Turbocharger Gasket | 1 | Cat 165-9864 IT24F/IT18F/924F/918F Single Cylinder Head Gasket Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+7E-0844 | 28.60mm Internal Diameter D Ring Seal | 1 | Cat 165-9864 IT24F/IT18F/924F/918F Single Cylinder Head Gasket Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+
+Source page: https://parts.cat.com/en/catcorp/product/165-9864
