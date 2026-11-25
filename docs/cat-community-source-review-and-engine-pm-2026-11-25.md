@@ -2758,3 +2758,13 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - 234-0733 — Bracket-Cast در Master تاریخی باقی ماند، اما صفحه رسمی Cat آن را Discontinued نشان می‌دهد؛ ردیف CSV اصلاح و صریحاً غیرقابل سفارش علامت‌گذاری شد.
 - منابع رسمی: https://parts.cat.com/en/catcorp/product/336-9857 ؛ https://parts.cat.com/en/catcorp/product/158-6694 ؛ https://parts.cat.com/en/catcorp/product/234-0733
 - شمارنده هدف پس از ثبت: 4411 شماره یکتا؛ Mirror byte-exact و Workflow برابر 4411.
+
+
+## دور ۸۳ — 25 Nov 2026
+
+- سه شماره جدید از صفحات رسمی Cat Parts Store به Master و CSV مستقل 297C-only افزوده شد:
+  - 8Y-8081 — 16.05mm Inner Diameter Convoluted Tube؛ فیتمنت 297C موجود و 287B غایب؛ مسیر، شعاع خمش و اتصالات باید تطبیق داده شود.
+  - 149-3488 — 66.93mm Outer Diameter Engine Mount؛ فیتمنت 297C موجود و 287B غایب؛ هندسه پایه، بوش bonded و آرایش موتور باید تطبیق داده شود.
+  - 280-8327 — Tube؛ فیتمنت 297C دارد اما صفحه رسمی Cat آن را Discontinued نشان می‌دهد؛ در Master تاریخی ثبت شد و در CSV با وضعیت صریح غیرقابل سفارش علامت خورد.
+- منابع رسمی: https://parts.cat.com/en/catcorp/product/8Y-8081 ؛ https://parts.cat.com/en/catcorp/product/149-3488 ؛ https://parts.cat.com/en/catcorp/product/280-8327
+- شمارنده هدف پس از ثبت: 4414 شماره یکتا؛ Mirror byte-exact و Workflow برابر 4414.
