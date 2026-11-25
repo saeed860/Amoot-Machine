@@ -2369,3 +2369,23 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - پیش از سفارش، نسل درب کابین، ابعاد شیشه، پروفیل آب‌بندی و نقاط نصب باید تطبیق داده شود.
 - منبع رسمی: https://parts.cat.com/en/catcorp/product/418-5850
 - شمارنده هدف دور: 4327 شماره یکتا؛ Mirror و Workflow با Master همگام شدند.
+
+## دور ۷۹ — seal kit پمپ و فیلتر آب‌گیر (25 Nov 2026)
+
+در بررسی صفحات رسمی Cat Parts Store:
+- 148-9363 — Seal Kit؛ Compatible Models شامل 287B و 297C؛ در Master و CSV رسمی 287B موجود بود.
+- 307-3043 — Piston Pump Seal Kit؛ Compatible Models شامل 287B و 297C؛ در Master و CSV رسمی 287B موجود بود.
+- 200-2371 — Seal Kit؛ Compatible Models شامل 287B و 297C؛ در Master و CSV رسمی 287B موجود بود.
+- 647-3710 — Cylinder Seal Kit؛ Compatible Models شامل 287B و 297C؛ در Master و CSV رسمی 287B موجود بود.
+- 278-8733 — Piston Motor Seal Kit؛ Compatible Models شامل 297C و 287C/277C است اما 287B را ندارد؛ شماره جدید به Master و CSV مستقل 297C-only اضافه شد.
+- 361-9555 — Fuel Water Separator؛ Compatible Models شامل 297C، 287C و 277C است اما 287B را ندارد؛ از CSV 287B حذف و در CSV مستقل 297C-only ثبت شد.
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/product/148-9363
+- https://parts.cat.com/en/catcorp/product/307-3043
+- https://parts.cat.com/en/catcorp/product/200-2371
+- https://parts.cat.com/en/catcorp/product/647-3710
+- https://parts.cat.com/en/catcorp/product/278-8733
+- https://parts.cat.com/en/catcorp/product/361-9555
+
+برای seal kitها، pump/cylinder group و serial range باید با PIN و Parts Diagram تطبیق داده شود. 361-9555 به فیتمنت 287B تعمیم داده نشد.
