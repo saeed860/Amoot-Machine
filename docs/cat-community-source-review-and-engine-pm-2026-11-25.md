@@ -1830,3 +1830,14 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - https://parts.cat.com/en/catcorp/product/261-6296
 
 برای 126-5701، ضخامت 10mm، الگوی سوراخ‌ها و محل نصب باید با Parts Diagram و PIN تطبیق داده شود. قطعات Discontinued از سفارش‌پذیری خارج می‌مانند.
+
+## دور ۵۸ — لوله هیدرولیک و وضعیت قطعات متوقف‌شده (25 Nov 2026)
+
+- 289-3787 — Fluid Carrying Tube Assembly؛ صفحه رسمی Cat مدل 287B را صریحاً در Compatible Models نشان می‌دهد؛ قطر بیرونی 0.63in. ردیف فیتمنت 287B در CSV تکمیل شد.
+- 272-3050 — Muffler Assembly؛ صفحه رسمی Cat مدل 287B را نشان می‌دهد، اما وضعیت DISCONTINUED دارد. شماره صرفاً برای تاریخچه کاتالوگ در Master و CSV ثبت شده و به‌صراحت غیرقابل سفارش به‌عنوان کالای نو است؛ برای replacement باید با Cat Dealer تماس گرفته شود.
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/product/289-3787
+- https://parts.cat.com/en/catcorp/product/272-3050
+
+برای 289-3787، قطر لوله، routing، اتصالات و فشار مدار با PIN دستگاه تطبیق داده شود. برای 272-3050 هیچ موجودی یا فروش جدیدی فرض نشود.
