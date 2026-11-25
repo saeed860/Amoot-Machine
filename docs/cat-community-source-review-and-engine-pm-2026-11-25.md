@@ -2776,3 +2776,12 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - صفحه جستجو ابعاد O-ring را نشان نداد؛ قطر داخلی، قطر مقطع، جنس و شیار محل نصب باید پیش از سفارش از parts diagram یا Cat Dealer تأیید شود.
 - منبع رسمی: https://parts.cat.com/en/catcorp/product/291-8148
 - شمارنده هدف پس از ثبت: 4415 شماره یکتا؛ Mirror byte-exact و Workflow برابر 4415.
+
+
+## دور ۷۰ — 25 Nov 2026
+
+- بررسی منابع رسمی Cat Parts Store یک مورد جدید با فیتمنت صریح 287B و 297C نشان داد:
+  - 161-0189 — 0.25in ID High Pressure Hose Assembly؛ قطر داخلی 0.25 اینچ، طول کلی 31.417 اینچ و ساختار 2-wire braid؛ انتهای اتصالات، مسیر نصب، فشار کاری و PIN باید کنترل شود.
+- این شماره قبلاً در Master و CSV ثبت نشده بود؛ به هر دو افزوده شد. سایر نتایج بررسی‌شده در این جستجو از قبل ثبت بودند.
+- منبع رسمی: https://parts.cat.com/en/catcorp/product/161-0189
+- Master count after batch: 4428; Mirror and workflow counter synchronized.
