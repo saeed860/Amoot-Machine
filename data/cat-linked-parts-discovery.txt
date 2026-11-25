@@ -3576,3 +3576,38 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 5P-7817 | 59.36mm Inner Diameter Seal O Ring | 1 | Cat 118-7859 3516/Gas-Engine Oil Cooler and Lines Gasket Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
 
 Source page: https://parts.cat.com/en/catcorp/product/118-7859
+
+
+## Additional Cat engine-parts-kit component BOM candidates — batch 211
+
+Source: official Cat Parts Store product page 175-2768, KIT-ENGINE PARTS. The page currently states Cat has no compatibility information and no description for this kit. It lists 57 total included items; the first 32 are exposed in the current page view. Six other first-page items were already in the queue or seed list and are not duplicated. The 26 new rows below are official kit BOM references only; no engine model or serial fitment is inferred. The remaining 25 kit rows require a separate continuation check.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+106-0735 | 3 Pin Active Temperature Sensor | 1 | Cat 175-2768 Engine Parts Kit BOM; first 32 of 57 items | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+107-0677 | 3/4in Pressure Control Solenoid Valve | 1 | Cat 175-2768 Engine Parts Kit BOM; first 32 of 57 items | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+107-7322 | Fastener Group | 3 | Cat 175-2768 Engine Parts Kit BOM; first 32 of 57 items | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+137-6500 | Valve Spring Rotocoil | 6 | Cat 175-2768 Engine Parts Kit BOM; first 32 of 57 items | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+143-3615 | Cylinder Head Assembly | 1 | Cat 175-2768 Engine Parts Kit BOM; first 32 of 57 items | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+144-5902 | 3.11mm Thick Piston Ring | 2 | Cat 175-2768 Engine Parts Kit BOM; first 32 of 57 items | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+151-2940 | Crankshaft Gear | 1 | Cat 175-2768 Engine Parts Kit BOM; first 32 of 57 items | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+155-4336 | CROWN AS-PIS | 1 | Cat 175-2768 Engine Parts Kit BOM; first 32 of 57 items | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+156-7172 | Engine Electronic Control Module | 1 | Cat 175-2768 Engine Parts Kit BOM; first 32 of 57 items | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+161-8417 | PIN-PISTON | 1 | Cat 175-2768 Engine Parts Kit BOM; first 32 of 57 items | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+161-9926 | 3-Pin Heavy-Duty 116kPa Pressure Sensor | 1 | Cat 175-2768 Engine Parts Kit BOM; first 32 of 57 items | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+163-0930 | 137.065mm Bore Diameter Piston Skirt | 1 | Cat 175-2768 Engine Parts Kit BOM; first 32 of 57 items | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+164-2542 | 41.81mm Head Diameter Exhaust Valve Stem | 4 | Cat 175-2768 Engine Parts Kit BOM; first 32 of 57 items | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+164-2543 | 44.98mm Outer Diameter Inlet Valve | 2 | Cat 175-2768 Engine Parts Kit BOM; first 32 of 57 items | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+167-1709 | Pressure Sensor | 1 | Cat 175-2768 Engine Parts Kit BOM; first 32 of 57 items | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+174-9428 | KIT-GASKET | 1 | Cat 175-2768 Engine Parts Kit BOM; first 32 of 57 items | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+174-9429 | KIT-GASKET | 1 | Cat 175-2768 Engine Parts Kit BOM; first 32 of 57 items | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+174-9479 | KIT-GASKET | 1 | Cat 175-2768 Engine Parts Kit BOM; first 32 of 57 items | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+174-9481 | KIT-GASKET | 1 | Cat 175-2768 Engine Parts Kit BOM; first 32 of 57 items | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+174-9571 | KIT-GASKET | 1 | Cat 175-2768 Engine Parts Kit BOM; first 32 of 57 items | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+174-9572 | KIT-GASKET | 1 | Cat 175-2768 Engine Parts Kit BOM; first 32 of 57 items | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+174-9573 | KIT-GASKET | 1 | Cat 175-2768 Engine Parts Kit BOM; first 32 of 57 items | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+174-9574 | KIT-GASKET | 1 | Cat 175-2768 Engine Parts Kit BOM; first 32 of 57 items | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+174-9575 | KIT-GASKET | 1 | Cat 175-2768 Engine Parts Kit BOM; first 32 of 57 items | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+174-9577 | KIT-GASKET | 1 | Cat 175-2768 Engine Parts Kit BOM; first 32 of 57 items | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+174-9581 | KIT-GASKET | 1 | Cat 175-2768 Engine Parts Kit BOM; first 32 of 57 items | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+
+Source page: https://parts.cat.com/en/catcorp/product/175-2768
