@@ -3200,3 +3200,19 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 7Y-4633 | 120.20mm Internal Diameter Backup Ring | 1 | Cat 215-9984 318C/319C Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_specific
 
 Source page: https://parts.cat.com/en/catcorp/product/215-9984
+
+
+## Additional Cat standard-size hydraulic-cylinder seal-kit BOM candidates — batch 188
+
+Source: official Cat Parts Store product page 244-2076, Hydraulic Cylinder Seal Kit - Standard Size. The page explicitly says Cat currently has no compatibility information for this kit. Cat describes the kit as a standard-nominal hydraulic-cylinder reseal set and warns that hydraulic seal-kit applicability is specific to the cylinder-group part number. All seven listed BOM references were new to the discovery queue and original seed list; no machine model is inferred. Do not order without the exact cylinder group and bore/rod measurements.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+2K-2939 | 177.39mm Inner Diameter O-Ring Seal | 1 | Cat 244-2076 Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; compatible_model_unconfirmed; cylinder_group_specific
+2K-2940 | 176.91mm Internal Diameter Rubber Backup Ring | 1 | Cat 244-2076 Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; compatible_model_unconfirmed; cylinder_group_specific
+312-4247 | 73.89mm Inner Diameter Double Lip Wiper Seal | 1 | Cat 244-2076 Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; compatible_model_unconfirmed; cylinder_group_specific
+312-4248 | 76.2mm Rod Diameter Buffer Seal | 1 | Cat 244-2076 Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; compatible_model_unconfirmed; cylinder_group_specific
+3J-7848 | 184.2mm Bore Diameter Piston Guide | 1 | Cat 244-2076 Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; compatible_model_unconfirmed; cylinder_group_specific
+421-4025 | 76.15mm Inner Diameter U-Cup Seal | 1 | Cat 244-2076 Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; compatible_model_unconfirmed; cylinder_group_specific
+5J-4993 | Hydraulic Cylinder Seal | 1 | Cat 244-2076 Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; compatible_model_unconfirmed; cylinder_group_specific
+
+Source page: https://parts.cat.com/en/catcorp/product/244-2076
