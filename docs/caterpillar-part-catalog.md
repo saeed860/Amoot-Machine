@@ -1172,3 +1172,21 @@ Official Cat pages:
 - https://parts.cat.com/en/catcorp/product/591-2386
 
 Cat Reman identifiers are kept separate from new genuine Cat items. Alternate/reman options displayed by CAT are not assumed to be universal direct replacements. Prices remain NULL and stock remains zero until a valid source price type, condition and availability are captured.
+
+
+## Off Road pump, injector and cooling batch cross-checked against Cat Parts Store — 25 Nov 2026
+
+Eight more candidates from the Off Road 500-index were checked against CAT product pages:
+
+| Part number | CAT description | Application | Project action |
+|---|---|---|---|
+| 4P-9075 | Single Port Metering Fuel Injector; 12.3 × 4.8 in | BOTH — Marine Engine 3508/3516/3512 | Product added with official image |
+| 137-5541 | 41.4 Stroke Per Liter Fuel Priming Pump; 9.0 × 1.5 in | LAND — no Marine Engine group in retrieved page | Product added with official image |
+| 352-0211 | Water Pump; 13 × 8 in | BOTH — Marine Engine C18/C15 | Product added with official image |
+| 172-7767 | Water Pump used in Engine; 12.1 × 9.4 in | LAND | Reference only; exact image not retrieved |
+| 352-0206 | Water Pump; 9.4 × 12.1 in | LAND — C11/C13 truck/industrial and equipment | Product added with official image |
+| 350-0666 | Hydraulic Piston Pump; 12.6 × 6.7 in | LAND — 414E/416E/434E/422E/428E | Product added with official image |
+| 2W-9978 | Transmission Oil Cooler Core; shell-and-tube oil-to-water | BOTH — Marine Engine 3196/C12 | Product added with official image |
+| 8J-6730 | Axial Piston Pump Fixed Displacement | LAND; CAT page marks DISCONTINUED | Reference only; no saleable product |
+
+CAT's displayed Reman alternatives (0R-3051, 10R-0484, 20R-4693, 0R-5515, 10R-2438) remain separate identifiers and are not assumed direct replacements. Prices remain NULL and stock zero for the six new products.
