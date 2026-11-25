@@ -2350,3 +2350,14 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - https://parts.cat.com/en/catcorp/product/161-2539
 
 برای سفارش، ولتاژ سیستم، محل نصب، پیچ‌های 1/4-20 و الزامات سطح صدای هشدار باید کنترل شوند.
+
+
+## دور ۷۷ — 25 Nov 2026
+
+- سه شماره جدید از صفحات رسمی Cat Parts Store با فیتمنت صریح 287B ثبت شد:
+  - 218-6389 — Control Console؛ کنسول کنترل اپراتور؛ layout، سوئیچ‌ها، کانکتور harness و PIN باید بررسی شود.
+  - 154-4233 — Interlock Control؛ کنترل الکترونیکی interlock؛ نسخه مدار ایمنی و pinout باید تطبیق داده شود.
+  - 218-6485 — Control Group-Handle؛ مجموعه دسته کنترل پایلوت سمت چپ؛ سمت joystick و سازگاری با شیر/هارنس کنترل شود.
+- هر سه شماره به Master و CSV رسمی 287B افزوده شدند.
+- منابع رسمی: https://parts.cat.com/en/catcorp/product/218-6389 ؛ https://parts.cat.com/en/catcorp/product/154-4233 ؛ https://parts.cat.com/en/catcorp/product/218-6485
+- شمارنده هدف دور: 4326 شماره یکتا؛ Mirror و Workflow با Master همگام شدند.
