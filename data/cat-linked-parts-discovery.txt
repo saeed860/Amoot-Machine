@@ -2878,3 +2878,13 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 8T-1898 | Single Hose Clip | 3 | Cat 442-8144 Blade Cushion Accumulator Kit BOM; continuation items 33-51 | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
 
 Source page: https://parts.cat.com/en/catcorp/product/442-8144
+
+
+## Additional Cat 160H/140H/163H/143H/14H single-cylinder-head install-kit BOM candidate — batch 172
+
+Source: official Cat Parts Store product page 417-8844, Single Cylinder Head Install Kit. Compatible models explicitly shown: MOTOR GRADER / 160H, 140H, 163H, 143H, 14H. Cat describes the kit as gaskets and seals for one cylinder head; turbo gaskets are included and fuel injector seals are excluded. Twenty-nine other listed items were already present in the discovery queue or original seed list and are not duplicated. The one new row below is official BOM evidence only; verify exact engine serial/arrangement and order injector seals separately as required.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+9X-6620 | M10 x 1.5mm Cone Lock Nut | 4 | Cat 417-8844 Motor Grader Single Cylinder Head Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+
+Source page: https://parts.cat.com/en/catcorp/product/417-8844
