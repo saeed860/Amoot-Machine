@@ -2463,3 +2463,11 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
   - 230-3726 — 18mm Inner Diameter Shaft Seal؛ فیتمنت 287B؛ آب‌بند NBR برای fan motor؛ قطر شفت، OD و عرض با group موتور تطبیق داده شود.
 - منابع رسمی: https://parts.cat.com/en/catcorp/product/125-9134 ؛ https://parts.cat.com/en/catcorp/product/393-3670 ؛ https://parts.cat.com/en/catcorp/product/231-7161 ؛ https://parts.cat.com/en/catcorp/product/230-3726
 - وضعیت ثبت: 4341 شماره یکتا؛ Mirror برابر Master؛ Workflow برابر 4341.
+
+
+## دور ۸۵ — 25 Nov 2026
+
+- 232-4703 — GASKET؛ صفحه رسمی Cat Parts Store مدل‌های 287B و 297C را صریحاً در Compatible Models فهرست می‌کند. شماره جدید به Master و CSV رسمی 287B افزوده شد.
+- پیش از سفارش، سطح تماس، جنس/پروفیل گسکت و موقعیت دقیق آن در Parts Diagram تأیید شود.
+- منبع رسمی: https://parts.cat.com/en/catcorp/product/232-4703
+- شمارنده هدف دور: 4342 شماره یکتا؛ Mirror و Workflow با Master همگام شدند.
