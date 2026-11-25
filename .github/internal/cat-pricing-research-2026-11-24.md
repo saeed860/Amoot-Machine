@@ -4341,3 +4341,43 @@ Additional Cat-linked discovery candidates from official Cat related/frequently-
 These remain discovery leads only and do not establish fitment/interchangeability.
 
 Overall reviewed progress: 72/500 batches = 720/5,000 product target (14.4%). Original Cat seed list has 67 SKUs remaining (products 721–787).
+
+## Batch 73/500 — products 721–730 (2026-11-25)
+
+SKUs: 638-4572, 638-4575, 638-6694, 643-4218, 647-0750, 651-9069, 653-9562, 655-7611, 656-1505, 659-8663. Cat pages for 638-4572/4575, 643-4218, 647-0750, 651-9069, 653-9562 and 659-8663 were available; 638-6694 was loading-only, and 655-7611/656-1505 returned inaccessible pages. DB was updated for engine-model field correctness and the verified PL542V3 engine list.
+
+Verified:
+- 638-4572: Cat Idler Group, Standard Application, 338mm rim width, 892mm/35.118in conventional tread, interchangeable machine side, HD. Specs: center flange width 5.886in, center flange diameter 36.693in, shaft length 24.921in, protrusion 2.851in, rim width 13.307in, shaft OD 6.389in. Compatible D11N/D11R/D11T/D11 XE/D11 (5). Related 306-9451 track idler cap, 3T-9075 suspension bogie insert, 184-6305 track roller, 306-9453 idler cap and 187-3298 hardened steel undercarriage roller guide.
+- 638-4575: Cat Idler Group, Standard Application, 257mm rim width, 720mm/28.346in conventional tread, interchangeable machine side, HD. Specs: center flange diameter 29.921in, width 4.37in, shaft length 19.488in, protrusion 2.339in, rim width 10.118in, shaft OD 4.99in. Compatible D9T/D9/D9R/D9 GC (4). Corrected schema: cleared engine_models because these are machine fitment labels, not engine families. Cat compare-alternate panel lists 167-1947 landfill, 458-7869, 628-7557/7559/7560/7561; related idlers include 111-1729/111-1730/125-3537/125-4655 and additional model-specific idler variants.
+- 638-6694: Cat Operator Coaching for Excavators. Public page contains loading placeholders only; DB has no inferred fitment/specifications.
+- 643-4218: Cat Triple-Flange Track Idler Wheel. Compatible CTL labels: 259D/285XE/299D3 XE/299D/289D/299C/279D/289C/279C/279C2/279D3/285/289C2/289D3/275/299D3/299D2/275XE/259D3/299D XHP/299D2 XHP; Skid Steer Loader 262D (22). Related 609-3712 Single-Flange Idler Group and 609-3715 Double-Flange Idler Group. Corrected schema: cleared engine_models because these are equipment model labels.
+- 647-0750: Cat Engine Fuel Injector, delivers accurately metered/atomized fuel to combustion chamber. Weight 5.09lb. 50 compatible labels across generators, underground truck AD30, LHD R3000H/R2900G/R2900, off-highway trucks 770/777, rotary cutter RC7, hydraulic shovels, D8/D11/D6 tractors, marine engines, pipelayers, petroleum packages, generator sets, wheel tractors, engine/industrial/petroleum engines, soil compactor, wheel dozer/loader, drill, truck/quarry truck, wheel scraper and tractor. Engine-model tags completed to 8 explicit engine labels. Cat Reman C15 Fuel Injector 30R-0003 is shown as an alternate, not a guaranteed interchange.
+- 651-9069: Cat Link Assembly, 5-tooth master, 44 sections, PPR, SALT, 215.9mm/8.5in pitch, wear sensor. Specs: 3.905in sprocket-side inside spread, 4.35in roller-side spread, 1.697in rail-to-bushing OD, 9.024in outside spread, 3.297in bushing OD, 0.914in bolt-hole, M22/0.875in track/master bolt thread, 9.653in pin, 5.906in link height, HD, no RBT. Compatible D8T/D8R/D8 GC/D8/D8 XE (5). Cat compare-alternate panel shows 650-8530.
+- 653-9562: Cat Natural Color Pop-Up Wiper Dispenser, 100 natural-fiber cleaning paper wipers for dirt, oil, grease and solvents. Cat says specifications are still being added; no compatible-model list. DB count100 and Natural Fibers retained.
+- 655-7611: Cat Cylinder Head Valve Sleeve. Cat page inaccessible in this run; existing DB fitment G3516K/G3512K/G3520K/G3520 (4) retained without new specs.
+- 656-1505: Cat TRS8 Tiltrotator, S45/S45 interface, 7–10 ton mini excavator class. Cat page inaccessible in this run; DB remains without compatible-model list or unsupported specifications.
+- 659-8663: Cat PL542V3 Cellular Radio Kit, aftermarket electronic module for remote monitoring of machine location, utilization, fuel consumption and fault codes across Cat/mixed fleets. Cat lists exactly four included items: 230-1340 Warning Film Label ×1; 230-1341 Product Link Warning Film ×1; 307-0047 40mm Product Link Film ×1; 3S-2093 202mm Cable Strap ×4. Cat says specifications are still being added. 223 compatible labels across integrated toolcarriers, SPL solution, engine families, track loaders/tractors, locomotive engines, ejector trucks, material handlers, graders, wheel loaders, asphalt pavers, articulated trucks, wheeled excavators, pipelayers, industrial engines, trucks, excavators and MHPUs. Populated 19 engine-family tags from Cat's Engine/Locomotive/Engine-Machine/Industrial Engine categories.
+
+Cat pages:
+- https://parts.cat.com/en/catcorp/product/638-4572
+- https://parts.cat.com/en/catcorp/product/638-4575
+- https://parts.cat.com/en/catcorp/product/638-6694 (loading only)
+- https://parts.cat.com/en/catcorp/product/643-4218
+- https://parts.cat.com/en/catcorp/product/647-0750
+- https://parts.cat.com/en/catcorp/product/651-9069
+- https://parts.cat.com/en/catcorp/product/653-9562
+- https://parts.cat.com/en/catcorp/product/655-7611 (inaccessible)
+- https://parts.cat.com/en/catcorp/product/656-1505 (inaccessible)
+- https://parts.cat.com/en/catcorp/product/659-8663
+
+Post-update DB verification counts: 638-4572=5; 638-4575=4; 638-6694=0; 643-4218=22; 647-0750=50; 651-9069=5; 653-9562=0; 655-7611=4; 656-1505=0; 659-8663=223 (4 kit lines). No customer prices or stock claims added.
+
+Additional Cat-linked discovery candidates from official Cat diagrams/alternate/related panels:
+- 638-4572: 306-9451, 3T-9075, 184-6305, 306-9453, 187-3298.
+- 638-4575: 167-1947, 458-7869, 628-7557, 628-7559, 628-7560, 628-7561; related 111-1729, 111-1730, 125-3537, 125-4655, 126-6706, 192-0220, 192-0224, 197-7754, 198-6726, 198-7309, 244-0878, 244-0879, 244-1323, 244-1324, 245-9942, 245-9947, 248-5316, 353-7116, 354-7512, 385-0957, 477-2653, 521-0809.
+- 643-4218: 609-3712, 609-3715.
+- 651-9069: 650-8530.
+- 647-0750: Cat Reman 30R-0003.
+All candidate leads remain separate from fitment claims and require item-level verification before catalog promotion.
+
+Overall reviewed progress: 73/500 batches = 730/5,000 product target (14.6%). Original Cat seed list has 57 SKUs remaining (products 731–787).
