@@ -48,8 +48,13 @@ Deno.serve(async (req) => {
       const publicAuth = createClient(url, anonKey, { auth: { persistSession: false } });
       const { data, error } = await publicAuth.auth.signInWithPassword(credentials);
       if (error || !data.user || !data.session) return fail(401, "INVALID_CREDENTIALS", "شماره/ایمیل یا رمز عبور صحیح نیست.");
-      const { data: profile } = await adminDb.from("profiles").select("*").eq("id", data.user.id).single();
-      if (!profile?.is_active) return fail(403, "ACCOUNT_DISABLED", "این حساب غیرفعال است.");
+      const { data: profile, error: profileError } = await adminDb.from("profiles").select("*").eq("id", data.user.id).maybeSingle();
+      if (profileError) {
+        console.error("[auth/login] profile lookup failed", profileError.code, profileError.message);
+        return fail(500, "PROFILE_LOOKUP_FAILED", "بررسی وضعیت حساب در پایگاه داده ناموفق بود.");
+      }
+      if (!profile) return fail(403, "ACCOUNT_PROFILE_MISSING", "پروفایل این حساب در سامانه آموت ایجاد نشده است.");
+      if (profile.is_active !== true) return fail(403, "ACCOUNT_DISABLED", "این حساب غیرفعال است.");
       return json({ token: data.session.access_token, user: userDto(profile) });
     }
 
