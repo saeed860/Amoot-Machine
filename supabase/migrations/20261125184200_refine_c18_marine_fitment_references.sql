@@ -1,0 +1,11 @@
+update public.part_catalog set verification_status='REFERENCE',application_type='MARINE',engine_models=case when 'C18'=any(engine_models) then engine_models else array_append(engine_models,'C18') end,compatible_models=case when 'C18 MARINE'=any(compatible_models) then compatible_models else array_append(compatible_models,'C18 MARINE') end,source_name='Cat Parts Store',source_accessed_at=now(),application_evidence=case part_number when '128-8557' then 'Cat Parts Store explicitly lists C18 under MARINE ENGINE; fuel filter base assembly.'
+when '1R-0749' then 'Cat Parts Store explicitly lists C18 under MARINE ENGINE; secondary fuel filter.'
+when '20R-2734' then 'Cat Parts Store explicitly lists C18 under MARINE ENGINE; Cat Reman turbocharger.'
+when '284-5565' then 'Cat Parts Store explicitly lists C18 under MARINE ENGINE; water pump rebuild kit.'
+when '352-4915' then 'Cat Parts Store explicitly lists C18 under MARINE ENGINE; water separator filter assembly used in lubrication-system fumes disposal.'
+when '455-1190' then 'Cat Parts Store labels this a Marine Bundled Repair Solution for C18 Engine Overhaul; oil cooler and lines gasket kit.'
+when '455-1850' then 'Cat Parts Store explicitly lists C18 under MARINE ENGINE; oil cooler and lines gasket kit.'
+when '9M-2342' then 'Cat Parts Store explicitly lists C18 under MARINE ENGINE; fuel filter screen assembly.' else application_evidence end,application_source_url=source_url,source_note=coalesce(source_note,'') || ' Cat Parts Store source confirms C18 marine model-family association; exact serial prefix and arrangement must still be checked in Cat SIS.',updated_at=now() where part_number in ('128-8557','1R-0749','20R-2734','284-5565','352-4915','455-1190','455-1850','9M-2342');
+
+-- These two references list C18 only in non-marine categories (e.g. truck/generator) and must not be treated as C18 Marine candidates.
+update public.part_catalog set engine_models=array_remove(engine_models,'C18'),application_type='UNVERIFIED',application_evidence='Cat Parts Store does not list C18 under MARINE ENGINE for this part; the marine category lists 3406E only. Excluded from C18 Marine fitment.',source_note=coalesce(source_note,'') || ' Excluded from C18 Marine: Cat Compatible Models lists 3406E under MARINE ENGINE, not C18.',updated_at=now() where part_number in ('10R-9787','211-3026');
