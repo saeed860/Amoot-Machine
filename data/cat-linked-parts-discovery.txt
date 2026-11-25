@@ -2899,3 +2899,27 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 393-5115 | 0.375-16 Thread High Temperature Taperlock Stud | 4 | Cat 442-0770 multi-model Single Cylinder Head Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
 
 Source page: https://parts.cat.com/en/catcorp/product/442-0770
+
+
+## Additional Cat 3306/330A/627E/3306 industrial fuel-system gasket-kit BOM candidates — batch 174
+
+Source: official Cat Parts Store product page 115-8244, Fuel System Gasket Kit. Compatible models explicitly shown: TRACK-TYPE TRACTOR / D6H XL, D6H XR, D6G SR, D7H, D6R, D6H; CHALLENGER / 70C; ARTICULATED TRUCK / D25D, D35C, D25C, D350C, D300B, D250E; WHEEL TRACTOR / 627E; INDUSTRIAL ENGINE / 3306; WHEEL SCRAPER / 637E, 627E; EXCAVATOR / 330-A, 330-A L, 350-A, 350-A L, 350 L; MOTOR GRADER / 140G; WHEEL LOADER / 966F II, 966F, 970F. Cat describes the kit as gaskets and seals for engine-mounted fuel-system components and explicitly excludes injector seals. Seventeen other displayed items were already in the discovery queue or seed list and are not duplicated. The fifteen new rows below are official BOM references only; verify engine serial/arrangement and order injector seals separately as required.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+138-9507 | 15.88mm Shaft Diameter Lip Seal | 1 | Cat 115-8244 multi-model Fuel System Gasket Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+144-0477 | 0.8mm Thick Governor and Fuel Pump Gasket | 1 | Cat 115-8244 multi-model Fuel System Gasket Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+150-3724 | 0.8mm Thick Timing Cover Gasket | 1 | Cat 115-8244 multi-model Fuel System Gasket Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+150-3726 | 0.8mm Thick Governor and Fuel Pump Gasket | 1 | Cat 115-8244 multi-model Fuel System Gasket Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+150-3727 | 0.8mm Thick Fuel Gallery Cover Gasket | 1 | Cat 115-8244 multi-model Fuel System Gasket Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+150-3728 | 0.8mm Thick Governor Control Cover Gasket | 1 | Cat 115-8244 multi-model Fuel System Gasket Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+150-3730 | 0.8mm Thick Governor Gasket | 1 | Cat 115-8244 multi-model Fuel System Gasket Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+175-7900 | 3.53 x 98.02mm 75A NBR O-Ring | 1 | Cat 115-8244 multi-model Fuel System Gasket Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+196-1804 | 2.62 x 6.02mm 75A NBR O-Ring | 1 | Cat 115-8244 multi-model Fuel System Gasket Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+271-2489 | 3.56mm Inner Diameter Washer Seal | 6 | Cat 115-8244 multi-model Fuel System Gasket Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+2D-6392 | 6.07mm Inside Diameter Seal-O-Ring | 1 | Cat 115-8244 multi-model Fuel System Gasket Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+317-0808 | 1.78 x 10.82mm 75A FKM O-Ring | 1 | Cat 115-8244 multi-model Fuel System Gasket Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+3D-2898 | 2.62 x 48.9mm 75A NBR O-Ring | 1 | Cat 115-8244 multi-model Fuel System Gasket Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+4N-0260 | 6.35mm Shaft Diameter Lip Seal | 1 | Cat 115-8244 multi-model Fuel System Gasket Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+5P-6620 | 14mm Internal Diameter O-Ring Seal | 1 | Cat 115-8244 multi-model Fuel System Gasket Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+
+Source page: https://parts.cat.com/en/catcorp/product/115-8244
