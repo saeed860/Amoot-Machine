@@ -2683,3 +2683,12 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - هیچ‌یک از این 12 شماره به فیتمنت 287B تعمیم داده نشد. موارد سیم‌کشی، براکت، لوله روغن‌خنک‌کن و نشانگر سطح باید با پیکربندی، PIN و شماره سریال دستگاه تطبیق داده شوند.
 - منابع رسمی: https://parts.cat.com/en/catcorp/product/258-4116 ؛ https://parts.cat.com/en/catcorp/product/258-2849 ؛ https://parts.cat.com/en/catcorp/product/258-4084 ؛ https://parts.cat.com/en/catcorp/product/258-4160 ؛ https://parts.cat.com/en/catcorp/product/258-4391 ؛ https://parts.cat.com/en/catcorp/product/258-2781 ؛ https://parts.cat.com/en/catcorp/product/348-4171 ؛ https://parts.cat.com/en/catcorp/product/267-8390 ؛ https://parts.cat.com/en/catcorp/product/280-8307 ؛ https://parts.cat.com/en/catcorp/product/258-3247 ؛ https://parts.cat.com/en/catcorp/product/258-4102 ؛ https://parts.cat.com/en/catcorp/product/258-3849
 - شمارنده هدف پس از ثبت: 4391 شماره یکتا؛ Mirror byte-exact و Workflow برابر 4391.
+
+
+## دور ۷۳ — 25 Nov 2026
+
+- 280-8302 — Cover Assembly (Air Cleaner Assembly) از صفحه رسمی Cat Parts Store بررسی شد؛ Compatible Models شامل 287C، 277C، 297C، 287C2 و 277C2 است و 287B در فهرست نیست. بنابراین فقط در Master کلی و CSV مستقل 297C-only ثبت شد.
+- مشخصه صفحه: Round air-cleaner cover با Dust Tube برابر 2.126in؛ گروه هواکش و آرایش تخلیه گردوغبار باید تطبیق داده شود.
+- سایر شماره‌های نتایج این جستجو از قبل در Master/CSV ثبت بودند و تکرار نشدند.
+- منبع رسمی: https://parts.cat.com/en/catcorp/product/280-8302
+- شمارنده هدف پس از ثبت: 4392 شماره یکتا؛ Mirror byte-exact و Workflow برابر 4392.
