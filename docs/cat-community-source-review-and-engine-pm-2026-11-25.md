@@ -2361,3 +2361,11 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - هر سه شماره به Master و CSV رسمی 287B افزوده شدند.
 - منابع رسمی: https://parts.cat.com/en/catcorp/product/218-6389 ؛ https://parts.cat.com/en/catcorp/product/154-4233 ؛ https://parts.cat.com/en/catcorp/product/218-6485
 - شمارنده هدف دور: 4326 شماره یکتا؛ Mirror و Workflow با Master همگام شدند.
+
+
+## دور ۷۸ — 25 Nov 2026
+
+- 418-5850 — Cabin Door Window؛ صفحه رسمی Cat Parts Store مدل 287B را صریحاً در Compatible Models فهرست می‌کند. این شماره جدید به Master و CSV رسمی 287B افزوده شد.
+- پیش از سفارش، نسل درب کابین، ابعاد شیشه، پروفیل آب‌بندی و نقاط نصب باید تطبیق داده شود.
+- منبع رسمی: https://parts.cat.com/en/catcorp/product/418-5850
+- شمارنده هدف دور: 4327 شماره یکتا؛ Mirror و Workflow با Master همگام شدند.
