@@ -3457,3 +3457,19 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 478-4178 | Cylinder Rod Wiper Seal | 1 | Cat 501-6695 Backhoe/Loader Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
 
 Source page: https://parts.cat.com/en/catcorp/product/501-6695
+
+
+## Additional Cat 302.5/302.5C mini-hydraulic-excavator cylinder seal-kit BOM candidates — batch 204
+
+Source: official Cat Parts Store product page 269-7190, Hydraulic Cylinder Seal Kit - Standard Size. Compatible models explicitly shown: MINI HYD EXCAVATOR / 302.5, 302.5C. Cat specifies standard nominal bore sizing up to 0.25mm (0.010in) max and cylinder-group-specific application. One other listed item (175-7896) was already present in the queue and is not duplicated. The seven new rows below are official BOM references only; verify cylinder group and dimensions before ordering.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+141-0713 | 44.95mm Rod Diameter Lip Seal | 1 | Cat 269-7190 302.5/302.5C Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+143-8914 | 45mm Inner Diameter U Cup Seal | 1 | Cat 269-7190 302.5/302.5C Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+150-9402 | 75mm Bore Diameter Piston Wear Ring | 1 | Cat 269-7190 302.5/302.5C Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+150-9403 | 45mm ID Hydraulic Cylinder Rod Guide | 1 | Cat 269-7190 302.5/302.5C Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+161-7146 | 59.47mm Inner Diameter Rubber Piston Seal | 1 | Cat 269-7190 302.5/302.5C Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+3E-6730 | 66.27mm Inner Diameter O-Ring Seal | 1 | Cat 269-7190 302.5/302.5C Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+6J-2420 | 66.83mm Internal Diameter Rubber Backup Ring | 1 | Cat 269-7190 302.5/302.5C Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+
+Source page: https://parts.cat.com/en/catcorp/product/269-7190
