@@ -983,3 +983,28 @@ Mirror از Master جاری بازسازی و شمارنده Workflow با تع�
 ### ممیزی هم‌زمانی تکمیلی — 25 Nov 2026
 
 در فاصله ممیزی قبلی تا این بازبینی، 47 شماره دیگر به‌صورت هم‌زمان به Master اضافه شدند. این موارد به batchهای 33 و 34 نسبت داده نمی‌شوند و تا زمان بررسی منبع/فیتمنت مستقل، صرفاً وضعیت موجود Master هستند. شمارنده Workflow از 3,716 به 3763 همگام شد؛ Mirror در بازبینی هم‌زمان با Master برابر بود.
+
+
+## دور سی‌وپنجم — کیت‌های آب‌بندی و تعمیر هیدرولیک (25 Nov 2026)
+
+هفت شماره جدید با نمایش صریح 287B در Compatible Models به Master و CSV اضافه شدند:
+- 161-2136 — Seal Kit
+- 241-9468 — Seal Kit
+- 268-9529 — Piston Pump Seal Kit
+- 1G-8732 — Serviced Seal Kit
+- 9T-9072 — Seal Kit
+- 148-9363 — Seal Kit
+- 235-8465 — Seal Kit
+
+منابع رسمی Cat:
+- https://parts.cat.com/en/catcorp/product/161-2136
+- https://parts.cat.com/en/catcorp/product/241-9468
+- https://parts.cat.com/en/catcorp/product/268-9529
+- https://parts.cat.com/en/catcorp/product/1G-8732
+- https://parts.cat.com/en/catcorp/product/9T-9072
+- https://parts.cat.com/en/catcorp/product/148-9363
+- https://parts.cat.com/en/catcorp/product/235-8465
+
+احتیاط: این اقلام کیت آب‌بندی‌اند و Compatible Models به‌تنهایی برای تعیین کاربرد دقیق کافی نیست. پیش از سفارش باید شماره گروه سیلندر/پمپ/شیر، شماره سریال، نسخه قطعه و supersession با Cat SIS یا نمایندگی تطبیق داده شود. 287B و 297C فقط در مواردی که هر دو صریحاً در فهرست آمده‌اند به‌صورت جداگانه ثبت شدند.
+
+Master پس از این batch 3770 شماره یکتا دارد؛ Mirror و Workflow با Master همگام شدند.
