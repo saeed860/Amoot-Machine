@@ -2721,3 +2721,12 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
   - 273-5914 — Seat Suspension Assembly؛ فقط 297C؛ پایه صندلی و رنج وزن اپراتور باید تطبیق داده شود.
 - منابع رسمی: https://parts.cat.com/en/catcorp/product/223-4275 ؛ https://parts.cat.com/en/catcorp/product/280-8408 ؛ https://parts.cat.com/en/catcorp/product/258-4092 ؛ https://parts.cat.com/en/catcorp/product/258-2443 ؛ https://parts.cat.com/en/catcorp/product/273-5914
 - شمارنده هدف پس از ثبت: 4401 شماره یکتا؛ Mirror byte-exact و Workflow برابر 4401.
+
+
+## دور ۷۷ — 25 Nov 2026
+
+- 223-4240 — Two Rotor Carbon Steel Latch از صفحه رسمی Cat Parts Store بررسی شد؛ Compatible Models صریحاً 287B و 297C را شامل می‌شود. شماره جدید به Master و CSV رسمی 287B اضافه شد.
+- مشخصات: latch دو روتوره برای striker bolt با قطر 17.1mm و نصب رزوه‌ای M6؛ قطر striker و هم‌راستایی درپوش موتور باید کنترل شود.
+- دیگر نتایج این مرحله از قبل در Master و CSV 287B ثبت بودند.
+- منبع رسمی: https://parts.cat.com/en/catcorp/product/223-4240
+- شمارنده هدف پس از ثبت: 4402 شماره یکتا؛ Mirror byte-exact و Workflow برابر 4402.
