@@ -286,16 +286,16 @@ Source pages:
 1R-0726 | Standard Efficiency Engine Oil Filter | Related part shown on Cat 210-2535 page | cat_item_page_verified; existing_catalog_row_updated; fitment_verified
 362-2915 | 6mm thick breather cover seal | Cat Parts Store parts-diagram group with 360-8960/479-4131/322-3155/462-1171 | cat_item_page_verified; inserted_part_catalog; fitment_verified
 132-6663 | 137.065mm bore piston skirt | Cat Parts Store parts-diagram group with 176-5749/189-9771/180-7352/177-7496/328-5573 | cat_item_page_verified; inserted_part_catalog; kit_component_lead
-160-9874 | Single Cylinder Liner Gasket Kit | Cat Parts Store component listed in 346-3791 overhaul kit, quantity 6 | cat_linked_candidate; needs_individual_verification
-176-5749 | 137mm Gage Diameter Piston Intermediate Ring | Cat Parts Store component listed in 346-3791 overhaul kit, quantity 6 | cat_linked_candidate; needs_individual_verification
-177-7496 | 138mm Gage Diameter Piston Top Ring | Cat Parts Store component listed in 346-3791 overhaul kit, quantity 6 | cat_linked_candidate; needs_individual_verification
-180-7352 | 136.98mm Diameter Piston Crown | Cat Parts Store component listed in 346-3791 overhaul kit, quantity 6 | cat_linked_candidate; needs_individual_verification
-189-9771 | 138mm Gage Diameter Piston Oil Ring | Cat Parts Store component listed in 346-3791 overhaul kit, quantity 6 | cat_linked_candidate; needs_individual_verification
-524-5613 | 25.5mm Inner Diameter Piston Pin | Cat Parts Store component listed in 346-3791 overhaul kit, quantity 6 | cat_linked_candidate; needs_individual_verification
-586-3377 | 137.185mm Inner Diameter Cylinder Block Liner | Cat Parts Store component listed in 346-3791 overhaul kit, quantity 6 | cat_linked_candidate; needs_individual_verification
-603-6646 | Engine Overhaul (In Frame) Kit | Cat Parts Store component listed in 346-3791 overhaul kit; displayed quantity not captured | cat_linked_candidate; needs_individual_verification
-283-5732 | Engine Camshaft | Cat Parts Store component listed in 350-2167 Tier 2 kit, quantity 1 | cat_linked_candidate; needs_individual_verification
-308-5353 | Engine Camshaft | Cat Parts Store component listed in 350-2167 Tier 2 kit, quantity 1 | cat_linked_candidate; needs_individual_verification
+160-9874 | Single Cylinder Liner Gasket Kit | Cat Parts Store component in 346-3791 overhaul kit; own item page lists 110-2220/142-6217/142-7072/9L-5854 each qty1 | cat_item_page_verified; inserted_part_catalog; kit_contents_verified
+176-5749 | 137mm gage diameter chrome-plated intermediate piston ring | Cat Parts Store component in 346-3791 overhaul kit, qty6 | cat_item_page_verified; inserted_part_catalog; fitment_verified
+177-7496 | 138mm gage diameter piston top ring (Cat short description says intermediate ring) | Cat Parts Store component in 346-3791 overhaul kit, qty6 | cat_item_page_verified; inserted_part_catalog; title_vs_description_conflict_flagged
+180-7352 | 136.98mm diameter piston crown | Cat Parts Store component in 346-3791 overhaul kit, qty6 | cat_item_page_verified; inserted_part_catalog; fitment_verified
+189-9771 | 138mm gage diameter piston oil ring (Cat short description says intermediate ring) | Cat Parts Store component in 346-3791 overhaul kit, qty6 | cat_item_page_verified; inserted_part_catalog; title_vs_description_conflict_flagged
+524-5613 | 25.5mm ID alloy-steel piston pin | Cat Parts Store component in 346-3791 overhaul kit, qty6 | cat_item_page_verified; inserted_part_catalog; fitment_verified
+586-3377 | 137.185mm ID cylinder block liner | Cat Parts Store component in 346-3791 overhaul kit, qty6 | cat_item_page_verified; inserted_part_catalog; specs_not_published
+603-6646 | Engine Overhaul (In Frame) Kit | Cat Parts Store official kit page lists 16 lines; 3406E compatible | cat_item_page_verified; inserted_part_catalog; kit_contents_verified
+283-5732 | 42.5in engine camshaft | Cat Parts Store component in 350-2167 Tier 2 upgrade kit, qty1 | cat_item_page_verified; inserted_part_catalog; fitment_verified
+308-5353 | 39in engine camshaft | Cat Parts Store component in 350-2167 Tier 2 upgrade kit, qty1 | cat_item_page_verified; inserted_part_catalog; fitment_verified
 245-4622 | Aftercooler Core | Cat Parts Store component listed in 350-2167 Tier 2 kit, quantity 1 | cat_linked_candidate; needs_individual_verification
 283-5738 | Engine Camshaft | Cat Parts Store component listed in 350-2167 Tier 2 kit, quantity 1 | cat_linked_candidate; needs_individual_verification
 528-8390 | Turbocharger | Cat Parts Store component listed in 350-2167 Tier 2 kit, quantity 2 | cat_linked_candidate; needs_individual_verification
@@ -333,14 +333,14 @@ Source pages:
 0R-9449 | Cat Reman 3406E one-section engine oil pump | Related part shown on Cat 277-3076 page | cat_item_page_verified; existing_catalog_row_updated; Cat_Reman_condition_preserved
 9Y-3368 | 0.822mm Thick Seat Liner Insert | Cat Parts Store related part for 356-1448 C15 Silver Overhaul Kit | cat_linked_candidate; needs_individual_verification
 606-0909 | Engine Overhaul (Bronze) Kit | Cat Parts Store component listed in 356-1448 Silver kit, quantity 1 | cat_linked_candidate; needs_individual_verification
-160-9874 | Single Cylinder Liner Gasket Kit | Cat Parts Store component listed in 356-1448 Silver kit, quantity 6 | cat_linked_candidate; needs_individual_verification
+160-9874 | Single Cylinder Liner Gasket Kit | Cat Parts Store component in 346-3791 overhaul kit; own item page lists 110-2220/142-6217/142-7072/9L-5854 each qty1 | cat_item_page_verified; inserted_part_catalog; kit_contents_verified
 237-0194 | 137mm Gage Diameter Piston Top Ring | Cat Parts Store component listed in 356-1448 Silver kit, quantity 6 | cat_linked_candidate; needs_individual_verification
 238-0294 | 137mm Gage Diameter Piston Oil Ring | Cat Parts Store component listed in 356-1448 Silver kit, quantity 6 | cat_linked_candidate; needs_individual_verification
 238-4737 | 137mm Gage Diameter Piston Intermediate Ring | Cat Parts Store component listed in 356-1448 Silver kit, quantity 6 | cat_linked_candidate; needs_individual_verification
 250-2940 | 2mm Thick Pin Retainer | Cat Parts Store component listed in 356-1448 Silver kit, quantity 12 | cat_linked_candidate; needs_individual_verification
 356-9946 | 17.1:1 Compression Ratio Piston Body | Cat Parts Store component listed in 356-1448 Silver kit, quantity 6 | cat_linked_candidate; needs_individual_verification
 524-5565 | 59.975mm Diameter Piston Pin | Cat Parts Store component listed in 356-1448 Silver kit, quantity 6 | cat_linked_candidate; needs_individual_verification
-586-3377 | 137.185mm Inner Diameter Cylinder Block Liner | Cat Parts Store component listed in 356-1448 Silver kit, quantity 6 | cat_linked_candidate; needs_individual_verification
+586-3377 | 137.185mm ID cylinder block liner | Cat Parts Store component in 346-3791 overhaul kit, qty6 | cat_item_page_verified; inserted_part_catalog; specs_not_published
 
 358-5259 | Bogie Assembly | Cat Parts Store frequently bought together with 362-3566 rear bogie assembly | cat_linked_candidate; needs_individual_verification
 7T-5959 | Bogie suspension resilient pad | Related component shown on Cat 9W-4489 page | cat_item_page_verified; inserted_part_catalog; fitment_verified
@@ -1064,14 +1064,14 @@ Source pages:
 265-6619 | Standard Efficiency Cabin Air Filter | Cat Parts Store parts-diagram group with 265-6618/110-6326/110-6331/377-6969/541-6956 | cat_item_page_verified; existing_catalog_row_updated; fitment_verified
 265-6618 | Cabin Air Filter | Cat Parts Store frequently bought together with 608-7329/608-7331 rubber tracks | cat_linked_candidate; needs_individual_verification
 
-160-9874 | Single Cylinder Liner Gasket Kit | Cat Parts Store component in 618-8046 C15 engine overhaul kit, quantity 6 | cat_linked_candidate; needs_individual_verification
+160-9874 | Single Cylinder Liner Gasket Kit | Cat Parts Store component in 346-3791 overhaul kit; own item page lists 110-2220/142-6217/142-7072/9L-5854 each qty1 | cat_item_page_verified; inserted_part_catalog; kit_contents_verified
 250-2940 | 2mm Thick Pin Retainer | Cat Parts Store component in 618-8046 kit, quantity 12 | cat_linked_candidate; needs_individual_verification
 306-4014 | 137mm Gage Diameter Oil Piston Ring | Cat Parts Store component in 618-8046 kit, quantity 6 | cat_linked_candidate; needs_individual_verification
 306-4016 | 138mm Gage Diameter Piston Intermediate Ring | Cat Parts Store component in 618-8046 kit, quantity 6 | cat_linked_candidate; needs_individual_verification
 310-4188 | 138mm Gage Diameter Piston Top Ring | Cat Parts Store component in 618-8046 kit, quantity 6 | cat_linked_candidate; needs_individual_verification
 325-9492 | Engine Piston Body | Cat Parts Store component in 618-8046 kit, quantity 6 | cat_linked_candidate; needs_individual_verification
 524-5565 | 59.975mm Diameter Piston Pin | Cat Parts Store component in 618-8046 kit, quantity 6 | cat_linked_candidate; needs_individual_verification
-586-3377 | 137.185mm Inner Diameter Cylinder Block Liner | Cat Parts Store component in 618-8046 kit, quantity 6 | cat_linked_candidate; needs_individual_verification
+586-3377 | 137.185mm ID cylinder block liner | Cat Parts Store component in 346-3791 overhaul kit, qty6 | cat_item_page_verified; inserted_part_catalog; specs_not_published
 606-0909 | Engine Overhaul Bronze Kit | Cat Parts Store component in 618-8046 kit, quantity 1 | cat_linked_candidate; needs_individual_verification
 125-3537 | Idler Group | Cat Parts Store Compare Alternate Parts for 619-9945 idler | cat_linked_candidate; needs_individual_verification
 167-1946 | Idler Group for Landfill Compactor | Cat Parts Store Compare Alternate Parts for 619-9945 idler | cat_linked_candidate; needs_individual_verification
@@ -1610,3 +1610,21 @@ Source pages:
 
 109-0076 | 50.17mm Inner Diameter Seal-O-Ring | Cat Parts Store parts-diagram component shown on 109-0078/109-0072 pages | cat_linked_candidate; needs_individual_verification
 4N-1156 | 1.2mm Thick Radiator Water Lines Gasket | Cat Parts Store parts-diagram component shown on 109-0072 page | cat_linked_candidate; needs_individual_verification
+
+110-2220 | 141mm Inner Diameter Seal-O-Ring | Cat Parts Store component in 160-9874 liner gasket kit, qty1 | cat_linked_candidate; needs_individual_verification
+142-6217 | 140.2mm Inner Diameter Seal-O-Ring | Cat Parts Store component in 160-9874 liner gasket kit, qty1 | cat_linked_candidate; needs_individual_verification
+142-7072 | 140.2mm Inner Diameter Seal-O-Ring | Cat Parts Store component in 160-9874 liner gasket kit, qty1 | cat_linked_candidate; needs_individual_verification
+106-1792 | 100mm Long Taper Lock Steel Stud | Cat Parts Store component in 603-6646 overhaul kit, qty12 | cat_linked_candidate; needs_individual_verification
+106-1793 | 60mm Length Tapered Stud | Cat Parts Store component in 603-6646 overhaul kit, qty1 | cat_linked_candidate; needs_individual_verification
+143-6642 | Engine Brake Upper Ring Seal | Cat Parts Store component in 603-6646 overhaul kit, qty3 | cat_linked_candidate; needs_individual_verification
+214-4150 | Block & Oil Pan Gaskets Kit - Central Lower Structure | Cat Parts Store component in 603-6646 overhaul kit, qty1 | cat_linked_candidate; needs_individual_verification
+243-6718 | Crankshaft Main Bearing Kit | Cat Parts Store component in 603-6646 overhaul kit, qty1 | cat_linked_candidate; needs_individual_verification
+248-1394 | Single Fuel Injector Install Gasket Kit | Cat Parts Store component in 603-6646 overhaul kit, qty6 | cat_linked_candidate; needs_individual_verification
+281-8261 | Exhaust Port Sleeve | Cat Parts Store component in 603-6646 overhaul kit, qty6 | cat_linked_candidate; needs_individual_verification
+2U-1492 | 20.32mm Inner Diameter Seal | Cat Parts Store component in 603-6646 overhaul kit, qty3 | cat_linked_candidate; needs_individual_verification
+2U-1493 | 15.70mm Inner Diameter Ring Seal | Cat Parts Store component in 603-6646 overhaul kit, qty3 | cat_linked_candidate; needs_individual_verification
+345-7238 | Cylinder Head Install Kit | Cat Parts Store component in 603-6646 overhaul kit, qty1 | cat_linked_candidate; needs_individual_verification
+391-2167 | 3/8-16 Hex Flange Nut | Cat Parts Store component in 603-6646 overhaul kit, qty12 | cat_linked_candidate; needs_individual_verification
+8S-9191 | 3/8-16 ×4in Hex Head Bolt | Cat Parts Store component in 603-6646 overhaul kit, qty6 | cat_linked_candidate; needs_individual_verification
+20R-4771 | Cat Reman Camshaft Kit with Cat Reman Valve Lifters (3512C LH) | Cat Parts Store compare-alternate for 283-5732 | cat_linked_candidate; needs_individual_verification
+20R-4767 | Cat Reman Camshaft Kit with Cat Reman Valve Lifters (3512C LH) | Cat Parts Store compare-alternate for 308-5353 | cat_linked_candidate; needs_individual_verification
