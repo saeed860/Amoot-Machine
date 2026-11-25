@@ -2324,3 +2324,24 @@ Source page: https://parts.cat.com/en/catcorp/product/420-4888
 ## Cat 420-4423 3412E single-cylinder-head kit — no component BOM published (batch 130)
 
 Source: official Cat Parts Store product page https://parts.cat.com/en/catcorp/product/420-4423. Compatible model explicitly shown: MARINE ENGINE / 3412E. The page states that there are currently no parts associated with this kit, while the description says the kit contains gaskets and seals for one cylinder head and excludes fuel injector seals. Related-product links shown elsewhere on the page are not treated as included kit components. No part numbers were added from this source; contact dealer/official SIS for the missing BOM.
+
+
+## Additional Cat 3412 marine major-overhaul-kit BOM candidates — batch 131
+
+Source: official Cat Parts Store product page 436-1747, Major Engine Overhaul Kit. Compatible model explicitly shown: MARINE ENGINE / 3412. Twenty other first-page components were already present in the discovery queue or seed list and are not duplicated. The twelve new rows below are official kit BOM references only; they do not establish standalone orderability, stock, price, or serial-specific fitment confirmation.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+6N-0977 | 39.78mm Outside Diameter Straight Sleeve Bearing | 1 | Cat 436-1747 Marine 3412 Major Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+6N-1027 | 3.16mm Thick Thrust Plate | 1 | Cat 436-1747 Marine 3412 Major Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+176-8167 | Aftercooler and Lines Install Gasket Kit | 1 | Cat 436-1747 Marine 3412 Major Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+124-1858 | 3.53 x 53.57mm 75A FKM O-Ring | 1 | Cat 436-1747 Marine 3412 Major Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+330-3517 | 3.53 x 34.52mm 75A FKM O-Ring | 1 | Cat 436-1747 Marine 3412 Major Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+420-4888 | Single Cylinder Head Install Kit | 2 | Cat 436-1747 Marine 3412 Major Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+6V-1520 | 3/8in Drain Cock | 2 | Cat 436-1747 Marine 3412 Major Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+420-0668 | Front Housing Install Gasket Kit | 1 | Cat 436-1747 Marine 3412 Major Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+420-4422 | Gasket (RS) Kit | 1 | Cat 436-1747 Marine 3412 Major Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+2P-7846 | 63.50mm Internal Diameter Straight Hose | 2 | Cat 436-1747 Marine 3412 Major Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+7W-6492 | 1/2-14 NPTF Thread Hex Drive Plug | 2 | Cat 436-1747 Marine 3412 Major Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+8T-6763 | 1/4-18 NPTF Thread Hex-Drive Plug | 4 | Cat 436-1747 Marine 3412 Major Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+
+Source page: https://parts.cat.com/en/catcorp/product/436-1747
