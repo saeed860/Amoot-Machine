@@ -78,9 +78,9 @@ function renderProducts(){
  const grid=$('#productGrid');if(!grid)return;const meta=$('#catalogMeta');
  if(meta)meta.textContent=products.length.toLocaleString('fa-IR')+' محصول یافت شد';
  if(!products.length){grid.innerHTML='<div class="empty">محصولی یافت نشد. کد فنی، برند یا مدل دستگاه را بررسی کنید یا درخواست تأمین ثبت کنید.</div>';return}
- const hasSearch=Boolean(normalizeSearch($('#search')?.value||'')),hasFilters=Boolean(activeCategory||activeSubcategory||$('#brandFilter')?.value||$('#modelFilter')?.value||$('#availabilityFilter')?.value||hasSearch);
+ const hasSearch=Boolean(normalizeSearch($('#search')?.value||'')),hasFilters=Boolean(activeSubcategory||$('#brandFilter')?.value||$('#modelFilter')?.value||$('#availabilityFilter')?.value||hasSearch);
  if(hasFilters){grid.classList.remove('product-category-groups');grid.innerHTML=products.map(productCardHtml).join('');return}
- const parents=[...new Set(products.map(p=>categoryInfo(p).parent))];
+ const parents=activeCategory?[activeCategory]:[...new Set(products.map(p=>categoryInfo(p).parent))];
  const preferred=['فیلترها','موتور و ژنراتور','قطعات برقی','قطعات هیدرولیک','قطعات پنوماتیک','قطعات زیربندی','انتقال قدرت','تجهیزات دریایی','ماشین‌آلات سنگین','قطعات عمومی'];
  parents.sort((a,b)=>preferred.indexOf(a)-preferred.indexOf(b));
  grid.classList.add('product-category-groups');
