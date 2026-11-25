@@ -3113,3 +3113,21 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 5S-0003 | 5/16-18 Hex Nut | 38 | Cat 178-2210 320 Inch-Coarse Fastener Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; 8_of_34_kit_numbers_not_exposed
 
 Source page: https://parts.cat.com/en/catcorp/product/178-2210
+
+
+## Additional Cat XQC1600 power-module parts-kit BOM candidates — batch 185
+
+Source: official Cat Parts Store product page 562-8197, Parts Kit. Compatible model explicitly shown: POWER MODULE / XQC1600. The kit lists 10 components; 8T-4121 was already present in the discovery queue and is not duplicated. The nine new rows below are official kit contents with large fastener quantities, including 862 M8 lock nuts and 410 M8 flange bolts. This is a power-module-specific kit, not a universal fastener assortment.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+112-8293 | M8-1.25 x 30mm Hex Flange Head Bolt | 118 | Cat 562-8197 XQC1600 Power Module Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+113-8129 | M8 Hexagonal Flange Head Bolt | 4 | Cat 562-8197 XQC1600 Power Module Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+208-9282 | M8-1.25 x 25mm Hex Flange Head Bolt | 110 | Cat 562-8197 XQC1600 Power Module Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+3T-0852 | M8 x 1.25mm Hex Lock Nut | 862 | Cat 562-8197 XQC1600 Power Module Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+419-6773 | Radiator Gasket | 16 | Cat 562-8197 XQC1600 Power Module Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+6I-0839 | M8 Hexagonal Flange Head Bolt | 206 | Cat 562-8197 XQC1600 Power Module Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+6I-1090 | M8 Hexagonal Flange Head Bolt | 410 | Cat 562-8197 XQC1600 Power Module Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+6I-4374 | M8 Hexagonal Flange Head Bolt | 62 | Cat 562-8197 XQC1600 Power Module Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+8T-0389 | M10 x 1.5mm Hex Lock Nut | 4 | Cat 562-8197 XQC1600 Power Module Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+
+Source page: https://parts.cat.com/en/catcorp/product/562-8197
