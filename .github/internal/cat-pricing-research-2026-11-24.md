@@ -4943,3 +4943,37 @@ Post-update verification: all ten SKUs exist with Cat official item-page evidenc
 Six further related leads added: 306-9455, 306-9451, 306-9453, 3S-1223, 416-5884 and 415-2592. They remain unverified candidates until their own item pages are checked.
 
 Overall reviewed progress: 87/500 batches = 870/5,000 product target (17.4%). Original Cat seed list 787/787 complete; discovery-derived products individually verified/updated: 103. Remaining target: 4,130 products.
+
+## Batch 88/500 — Cat-linked discovery candidates 81–90 (2026-11-25)
+
+Ten candidates were checked against their own official Cat Parts Store pages. Eight new rows were inserted; two existing rows (0R-9449 and 353-1697) were refreshed. All ten were re-queried after updates and model arrays deduplicated.
+
+Verified:
+- 151-5925 — 7/16-14 ×1 3/64in Hex Head Bolt, Cat page identifies it as an oil-jet bolt. Carbon steel, thread 7/16-14-2A, hex 0.62in. Cat spec panel says length 1.5in while product title says 1 3/64in (1.047in); discrepancy flagged, not reconciled by guess. 48 fitment labels across XQP500/SR4/SR4B generators, C-18/C-15/C-16/3406 engines, 631/637/657/651 scrapers, MD6200 drill, 374/375/385/390 excavators and related mining/truck equipment.
+- 6I-4421 — 8.585mm Thick Cylinder Block Steel Spacer Plate. Carbon steel; Cat specs length 43.55in and height 0.75in (kept distinct from title thickness). 43 compatible labels across XQP500/SR4/SR4B, AD45B/AD55/AD30/AD45, C-18/C-15/C-16/3406, PM3456, 631/637/657/651 scrapers, R2900/R3000 LHDs, 772/770/773GC trucks, 24M grader, 6018/6015 shovel and D8/D9 tractors.
+- 0R-9449 — Cat Reman 3406E Engine Oil Pump (One Section). Existing row updated; Cat Reman brand/condition preserved, not new Cat. Dimensions 14.3in length ×7.2in height; Cat lists 3406E Reman engine, C18/C15/C16/3406/3408 families, AD45B/AD30, PM3456/C18, 631K/637K/657, R2900/R3000H, 773GC, 24M, 6018/6015, D8/D9, marine engines, pipelayers and petroleum transmission groups. Cat Reman warranty is same-as-new 12 months subject to limitations. 54 model labels.
+- 177-1990 — 2134mm (84in) Angle Blade. Corrected candidate queue's earlier “general-purpose bucket” label; official Cat description identifies an angle blade. Blade width 84in, fully angled 76.7in, max angle 30°, blade height 24.2in, cutting edge width 86.5in, length 29.6in, weight 729.7lb, cutting-edge thickness 0.6in, standard-flow skid-steer coupler. 93 labels across MTL/CTL, mini excavator 304.5E2, skid steers and compact wheel loaders.
+- 219-7706 — A41 Skid Steer Coupler / Auger Drive. Cat description identifies an auger drive. Gerotor motor/single planetary reduction, torque 3037.3lb-ft, standard flow, optimal flow 42–83L/min, pressure 145–235bar, dimensions 45.4 ×23.5 ×36.8in, housing 9.9in, weight 366lb, displacement 15in³, 71rpm, 2in hex output and 4–48in cut diameter. Compatible with CTL 285XE/285/275/265/255/275XE, skid steer 250/270/260/270XE and augers A19B/A41 (12 labels).
+- 353-1697 — Existing Cat 48in Class II pallet forks rechecked and refreshed; carriage 36.8 ×45.8in, 211.6lb; tine 48 ×3.9 ×21.3in, 1.6in thick, 105.8lb; operating weight 429.9lb, overall length 58.3in. Existing 86 compatible models retained.
+- 426-6548 — 2036mm (80in) attachment. Important title/description mismatch: Cat title says “Bolt-On Cutting Edge”, but description says Multi-Purpose Bucket and technical specs include capacity/jaw opening/clam angle. Both source labels are preserved and the mismatch flagged. Specs: width 80.2in, capacity 0.52yd³, weight 1016lb, height 29.1in, length 36.2in, base/cutting edge 0.7/0.6in, pressure 3335.9psi, jaw opening 30.2in, clam angle 89°, skid-steer coupler. 61 fitment labels across MTL/CTL/skid steer groups.
+- 479-8086 — 3.05m (10ft) Straight Snow Push. Working width 120in, weight 1153lb, length 45in, moldboard height 33.6in, overall height 39.1in, overall width 124.5in, skid-steer coupler, rubber trip edge 4.7in high, two trip edges. 51 compatible labels across MTL/CTL/skid steers and compact/wheel loaders.
+- 481-3668 — 2.4m (8ft) Skid Steer Snow Plow. Width 95.9in, angled width 78.6in, weight 1106.7lb, overall height 31.5in, blade height 31.4in, length 49.1in, hydraulic angling ±35°, float ±5°, skid-steer coupler, steel trip edge 5.3in high, one trip edge. 58 compatible labels across MTL/CTL/skid steers and compact/wheel loaders.
+- 489-2001 — BB121 Box Blade. Cat describes grading/leveling work for commercial properties, roadways, parking lots and precision laser/GPS grading. Overall width 87.4in, working width 83.9in, length 81.2in, height 106.1in, weight 1999.6lb, tilt ±15°, raise 5in/lower 4in, flow 30–85L/min, pressure 140–170bar, full work-tool control, skid-steer coupler. Fitment CTL 285XE/285/253/275/265/255/275XE and skid steers 250/270/260/270XE (12 labels).
+
+Cat item pages:
+- https://parts.cat.com/en/catcorp/product/151-5925
+- https://parts.cat.com/en/catcorp/product/6I-4421
+- https://parts.cat.com/en/catcorp/product/0R-9449
+- https://parts.cat.com/en/catcorp/product/177-1990
+- https://parts.cat.com/en/catcorp/product/219-7706
+- https://parts.cat.com/en/catcorp/product/353-1697
+- https://parts.cat.com/en/catcorp/product/426-6548
+- https://parts.cat.com/en/catcorp/product/479-8086
+- https://parts.cat.com/en/catcorp/product/481-3668
+- https://parts.cat.com/en/catcorp/product/489-2001
+
+Post-update verification: all ten SKUs exist with Cat official item-page evidence and REFERENCE status. Eight inserted, two existing rows updated. Fitment counts after de-duplication: 151-5925=48; 6I-4421=43; 0R-9449=54; 177-1990=93; 219-7706=12; 353-1697=86; 426-6548=61; 479-8086=51; 481-3668=58; 489-2001=12. Source inconsistencies on 151-5925 and 426-6548 flagged; category for 177-1990 corrected. No prices, stock or universal interchange claims added.
+
+Three further related leads added: 273-9104, 9W-0844 and 9W-0852. They remain candidates pending individual item-page verification.
+
+Overall reviewed progress: 88/500 batches = 880/5,000 product target (17.6%). Original Cat seed list 787/787 complete; discovery-derived products individually verified/updated: 113. Remaining target: 4,120 products.
