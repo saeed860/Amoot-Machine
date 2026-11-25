@@ -3293,3 +3293,22 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 420-5767 | 42.6mm Inner Diameter Backup Ring | 1 | Cat 471-0276 Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; compatible_model_unconfirmed; cylinder_group_and_dimensions_required
 
 Source page: https://parts.cat.com/en/catcorp/product/471-0276
+
+
+## Additional Cat 5090B/5080/385C/312D2/365C hydraulic-cylinder seal-kit BOM candidates — batch 193
+
+Source: official Cat Parts Store product page 216-0000, Hydraulic Cylinder Seal Kit - Standard Size. Compatible models explicitly shown: FRONT SHOVEL / 5090B, 5080, 385C; EXCAVATOR / 312D2, 365C L, 312D2 L, 385C FS, 385C L, 385C L MH, 365C, 385B, 385C; MOBILE HYD POWER UNIT / 385C, 385C L. Cat specifies standard nominal bore sizing up to 0.25mm (0.010in) max and application specific to cylinder-group part number. All ten listed BOM references were new to the discovery queue and original seed list. Confirm cylinder group and actual dimensions before ordering.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+095-1733 | 5.7 x 209.3mm 90A NBR O-Ring | 1 | Cat 216-0000 Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+116-3519 | 137.50mm Outer Diameter Seal Ring | 1 | Cat 216-0000 Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+155-9157 | 220mm Outer Diameter Wear Ring Piston Guide | 2 | Cat 216-0000 Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+165-9296 | Hydraulic Cylinder Lip Type Seal | 1 | Cat 216-0000 Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+170-9853 | 149mm Inner Diameter Hydraulic Cylinder Buffer Seal | 1 | Cat 216-0000 Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+173-3414 | 211.93mm Internal Diameter Plastic Ring | 1 | Cat 216-0000 Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+215-9864 | 150mm Inner Diameter Backup Ring | 1 | Cat 216-0000 Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+216-0011 | 10mm Thick Hydraulic Cylinder U-Cup Seal | 1 | Cat 216-0000 Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+4I-6442 | 210.2mm Inner Diameter Back-Up Ring | 1 | Cat 216-0000 Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+8C-9182 | Seal Assembly | 1 | Cat 216-0000 Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+
+Source page: https://parts.cat.com/en/catcorp/product/216-0000
