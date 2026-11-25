@@ -36,7 +36,7 @@
   root.classList.remove('am-sidebar-open');
   const host=root.querySelector('#amootAdminContent');host.innerHTML='<div class="am-admin-loading"><span></span> در حال دریافت اطلاعات از سرور…</div>';
   try{
-   if(tab==='dashboard'){if(typeof window.analyticsTab==='function')await window.analyticsTab('30d');else await window.renderAdminOrders()}
+   if(tab==='dashboard'){host.innerHTML='<div id="adminContent"></div>';if(typeof window.analyticsTab==='function')await window.analyticsTab('30d');else await window.renderAdminOrders()}
    if(tab==='orders')await window.renderAdminOrders();
    if(tab==='products')await window.renderAdminProducts();
    if(tab==='customers')await window.renderAdminCustomers();
