@@ -2987,3 +2987,26 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 7S-3002 | 75mm ID Pin Lock Slot Special Ball Bearing | 1 | Cat 117-8942 815/814/950/966C Drive Train Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
 
 Source page: https://parts.cat.com/en/catcorp/product/117-8942
+
+
+## Additional Cat D334 marine-transmission kit BOM candidates — batch 177
+
+Source: official Cat Parts Store product page 3N-8942, KIT-MARINE TRANSMISSION. Compatible model explicitly shown: MARINE ENGINE / D334. Cat lists 15 included items; 4L-9825 was already captured in batch 176 and is not duplicated. The fourteen new rows below cover marine transmission bearings, races, shims, lock/sealing kit, fasteners and output-shaft bearing. Verify transmission arrangement/serial before ordering.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+1B-4207 | Nut | 6 | Cat 3N-8942 D334 Marine Transmission Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+2K-2711 | 55mm Inner Diameter Roller Bearing Inner Race | 1 | Cat 3N-8942 D334 Marine Transmission Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+3B-4512 | Support Roof Lockwasher | 6 | Cat 3N-8942 D334 Marine Transmission Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+3N-0709 | Shim | 1 | Cat 3N-8942 D334 Marine Transmission Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+3N-0710 | Marine Transmission Output Shaft Tapered Bearing | 1 | Cat 3N-8942 D334 Marine Transmission Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+3N-8943 | Kit - Lock and Sealing | 1 | Cat 3N-8942 D334 Marine Transmission Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+4L-3220 | 90mm Inner Diameter Retaining Ring Ball Bearing | 2 | Cat 3N-8942 D334 Marine Transmission Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+4L-9768 | Shim | 3 | Cat 3N-8942 D334 Marine Transmission Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+5L-7722 | Race A | 2 | Cat 3N-8942 D334 Marine Transmission Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+5L-7723 | Race | 2 | Cat 3N-8942 D334 Marine Transmission Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+6L-2319 | Roller Bearing and Outer Race | 1 | Cat 3N-8942 D334 Marine Transmission Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+6L-6563 | Race A | 2 | Cat 3N-8942 D334 Marine Transmission Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+6L-6564 | Race | 2 | Cat 3N-8942 D334 Marine Transmission Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+9S-1362 | 3/4-16 x 2 Hex Head Bolt | 6 | Cat 3N-8942 D334 Marine Transmission Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+
+Source page: https://parts.cat.com/en/catcorp/product/3N-8942
