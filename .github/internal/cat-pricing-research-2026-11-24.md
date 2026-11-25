@@ -5283,3 +5283,37 @@ Post-update verification: all ten SKUs exist with Cat official item-page evidenc
 Seven additional parts-diagram leads added: 109-0076, 109-0077, 7C-0307, 4N-1156, 1R-0756, 513-4493 and 2M-9780. They remain candidates pending individual verification.
 
 Overall reviewed progress: 97/500 batches = 970/5,000 product target (19.4%). Original Cat seed list 787/787 complete; discovery-derived products individually verified/updated: 203. Remaining target: 4,030 products.
+
+## Batch 98/500 — Cat-linked discovery candidates 181–190 (2026-11-25)
+
+Ten candidates were checked against official Cat Parts Store item pages. All ten were newly inserted into the catalog and re-queried after writes; compatible-model arrays deduplicated.
+
+Verified:
+- 160-9874 — Single Cylinder Liner Gasket Kit. Cat says kit contains gaskets/seals for installing one cylinder liner. Four components each quantity 1: 110-2220 O-ring, 142-6217 O-ring, 142-7072 O-ring and 9L-5854 filler band. 247 Cat model labels across XQP500/SR4/SR4B, C-10/C-15/3408/3406 engines, 657 scraper, G3408 power pack, MD6250, 300-series excavators, wheel tractors/scrapers, RM500B, 983B, 825 compactor, petroleum/industrial/marine engines, D8/D9/D10 tractors, wheel dozers/loaders, pipelayers, drills, articulated trucks and more.
+- 176-5749 — 137mm Gage Diameter Chrome-Plated Intermediate Piston Ring. Cat specs length 5.84in, height 0.74in; Cat description identifies chrome-plated intermediate ring. Fitment AD30, 627/623/621 scrapers, 3406E/C15, 825G II/825H/825C, RM-500, R2900, 740/D400E II, 824/826/980 wheel equipment, D8 tractors, Challenger MT/MTC and articulated trucks (50 labels).
+- 177-7496 — 138mm Gage Diameter Piston Top Ring. Cat title says top ring, but short description says “Ductile Iron Casting Intermediate Piston Ring”; conflict flagged. Specs length 5.9in, height 0.8in, ductile/spheroidal iron. Cat fitment C-15 and 3406E only (2 labels).
+- 180-7352 — 136.98mm Diameter Piston Crown. Cat says piston crown supports combustion. Specs length 7.55in, height 6.85in, microalloy steel. Cat fitment C-15 and 3406E only (2 labels).
+- 189-9771 — 138mm Gage Diameter Piston Oil Ring. Cat title says oil ring, but short description says “Chrome Plated Intermediate Piston Ring”; conflict flagged. Specs length 5.9in, height 0.8in. Fitment AD30, 627/623/621 scrapers, 3406E/C15, 825G II/825C, R2900, 740/D400E II, 824/826/980, D8 tractors, Challenger MT/MTC and articulated trucks (42 labels).
+- 524-5613 — 25.5mm ID Steel Piston Pin. Cat describes piston/wrist pin connecting piston to connecting rod; high surface hardness resists wear and withstands temperature/pressure. Material alloy steel. Fitment SR4/SR4B, 3406C genset, RM-350B/RM-350, 825G, 824G II/G, PM-465, 826C/G/G II, 980G II/C/F/G/F II, D8R/D8GC/D8N, 583R/578 pipelayers, SM-350, 3406C/B industrial engines, 5080 front shovel and 375-A excavators (29 labels).
+- 586-3377 — 137.185mm ID Cylinder Block Liner. Cat says cylinder liner is press/interference fit in engine block and specifications are still being added. 158 Cat model labels across SCT673/SPS342 pumpers, SR500/XQP500/SR4/SR5/SR4B, AD55B/AD60/AD63/AD30, C-15/3408, XQG400/PM3412, 657, R2900/R3000H, 770/775/773 trucks, 24/24H graders, 6015/6030 shovels, D8/D9/D10/D6 tractors, MD6250/MD6290, 3408/3406/3412 marine, pipelayers, 5110B, 374F/365C excavators, TH48 petroleum, DE-series gensets, 825 compactors, wheel dozers/loaders and industrial/gas engines.
+- 603-6646 — Engine Overhaul (In Frame) Kit. Cat fitment 3406E truck engine. Cat page lists 16 lines: 106-1792 stud ×12; 106-1793 stud ×1; 143-6642 engine brake upper ring seal ×3; 1R-0749 secondary fuel filter ×1; 1R-1808 engine oil filter ×1; 214-4150 block/oil-pan gasket kit ×1; 243-6718 crankshaft main bearing kit ×1; 247-7133 water temperature regulator ×2; 248-1394 injector-install gasket kit ×6; 281-8261 exhaust port sleeve ×6; 2U-1492 seal ×3; 2U-1493 ring seal ×3; 328-5573 connecting rod bearing ×6; 345-7238 cylinder-head install kit ×1; 391-2167 flange nut ×12; 8S-9191 hex bolt ×6. Cat says specifications are still being added. The first generic marketing sentence mentions fuel contamination, but the detailed description and listed components identify an overhaul kit.
+- 283-5732 — 42.5in Engine Camshaft. Cat says camshaft controls intake/exhaust valve timing. Specs length 42.5in, height 5.2in. Fitment SPF343C pumper, SR4B generator, 3512C genset/engine/petroleum/locomotive, XQC1200 power module, TH48-E80 transmission, 785/785D trucks, C4.4 machine engine, MD6540C/MD6380 drills, 3512C/3512/3516C/3512B marine and marine auxiliary, 3512B industrial (13 labels). Compare alternate 20R-4771 is a Cat Reman camshaft kit, not assumed interchangeable.
+- 308-5353 — 39in Engine Camshaft. Cat says camshaft times intake/exhaust valves. Specs length 39in, height 5.2in. Fitment 3512C genset, XQC1200 power module, 3512C/3512/3516C/3512B marine and marine auxiliary, 3512B industrial, 3512C industrial/engine/petroleum/locomotive (5 labels). Compare alternate 20R-4767 is a Cat Reman camshaft kit, not assumed interchangeable.
+
+Cat item pages:
+- https://parts.cat.com/en/catcorp/product/160-9874
+- https://parts.cat.com/en/catcorp/product/176-5749
+- https://parts.cat.com/en/catcorp/product/177-7496
+- https://parts.cat.com/en/catcorp/product/180-7352
+- https://parts.cat.com/en/catcorp/product/189-9771
+- https://parts.cat.com/en/catcorp/product/524-5613
+- https://parts.cat.com/en/catcorp/product/586-3377
+- https://parts.cat.com/en/catcorp/product/603-6646
+- https://parts.cat.com/en/catcorp/product/283-5732
+- https://parts.cat.com/en/catcorp/product/308-5353
+
+Post-update verification: all ten SKUs exist with Cat official item-page evidence and REFERENCE status. Ten inserted. Fitment counts after de-duplication: 160-9874=247; 176-5749=50; 177-7496=2; 180-7352=2; 189-9771=42; 524-5613=29; 586-3377=158; 603-6646=1; 283-5732=13; 308-5353=5. Naming conflicts for 177-7496 and 189-9771 flagged; no speculative corrections made.
+
+Nineteen additional kit/BOM leads added: 110-2220, 142-6217, 142-7072, 9L-5854, 106-1792, 106-1793, 143-6642, 214-4150, 243-6718, 247-7133, 248-1394, 281-8261, 2U-1492, 2U-1493, 345-7238, 391-2167, 8S-9191, 20R-4771 and 20R-4767. They remain candidates pending individual verification.
+
+Overall reviewed progress: 98/500 batches = 980/5,000 product target (19.6%). Original Cat seed list 787/787 complete; discovery-derived products individually verified/updated: 213. Remaining target: 4,020 products.
