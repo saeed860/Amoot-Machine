@@ -1533,3 +1533,44 @@ Mirror از Master جاری بازسازی و شمارنده Workflow با تع�
 - https://parts.cat.com/en/catcorp/product/1K-6872
 
 برای سفارش، رزوه 1/2-13 UNC، طول/Grip پیچ جفت، گشتاور و مشخصات اتصال track shoe باید بررسی شود. 3B-4508، 6C-3241 و 8S-6212 در فهرست مستقل Compatible Models خود 287B را نداشتند؛ با وجود حضور در لیست قطعات کیت زیربندی، به‌عنوان فیتمنت مستقل 287B ثبت نشدند.
+
+
+## دور ۴۶ — تکمیل فیتمنت رسمی هیدرولیک، موتور، برق و کابین (25 Nov 2026)
+
+در این دور، صفحات رسمی Cat Parts Store دوباره بررسی و داده‌های فیتمنت همگام شد. شماره‌های ثبت‌شده در این نوبت شامل 218-5841، 284-3914، 8C-9783، 258-2806 و 258-2982 هستند. هم‌زمان چندین ثبت موازی دیگر نیز به Master اضافه شد؛ بنابراین تعداد نهایی فقط از fetch نهایی محاسبه شده است.
+
+رکوردهای فیتمنت 287B در CSV تکمیل/افزوده شدند:
+- 220-8588 — Hydraulic Oil Cooler Radiator Grill
+- 218-5841 — Hydraulic Dual Flow Coupling
+- 284-3914 — Handle
+- 8C-9783 — Gasket
+- 225-8009 — Joystick Control Wiring Harness
+- 164-9989 — Film
+- 232-3586 — Bearing Kit
+- 233-5479 — Camshaft
+- 294-5520 — Stay
+- 258-7686 — Tie Rod Kit
+- 225-7999 — Panel Wiring Harness
+
+قطعات فقط 297C که در CSV مستقل ثبت شدند:
+- 258-2806 — Hydraulic Tank Group
+- 258-2982 — Hydraulic Tank Mounting Bracket
+
+منابع رسمی Cat:
+- https://parts.cat.com/en/catcorp/product/220-8588
+- https://parts.cat.com/en/catcorp/product/218-5841
+- https://parts.cat.com/en/catcorp/product/233-5479
+- https://parts.cat.com/en/catcorp/product/294-5520
+- https://parts.cat.com/en/catcorp/product/284-3914
+- https://parts.cat.com/en/catcorp/product/8C-9783
+- https://parts.cat.com/en/catcorp/product/258-7686
+- https://parts.cat.com/en/catcorp/product/225-7999
+- https://parts.cat.com/en/catcorp/product/225-8009
+- https://parts.cat.com/en/catcorp/product/164-9989
+- https://parts.cat.com/en/catcorp/product/232-3586
+- https://parts.cat.com/en/catcorp/product/258-2806
+- https://parts.cat.com/en/catcorp/product/258-2982
+
+موارد Discontinued مانند 258-3156 و 222-5728 و مورد Replaced مانند 289-3779 به سفارش‌پذیرها اضافه نشدند. برای tie rod، bearing kit، gasket و harness، کنترل serial number، group، اندازه و connector پیش از سفارش الزامی است. قطعات 297C-only به فیتمنت 287B تعمیم داده نشدند.
+
+Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Master تازه همگام شدند.
