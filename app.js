@@ -43,7 +43,7 @@ function setServerProducts(rows){db.products=(Array.isArray(rows)?rows:[]);db.ca
 // API bridge setter: update the shared catalog without invoking loadProducts (the API client wraps it).
 window.setApiProducts = function(rows){db.products=Array.isArray(rows)?rows:[];db.catalog_source='server';save();populateModelFilter();};
 window.setServerProducts=setServerProducts;
-const FILTER_SUBCATEGORIES=['فیلتر هوا','فیلتر روغن و روانکاری','فیلتر سوخت و جداکننده آب','فیلتر هیدرولیک و انتقال قدرت','فیلتر آب و خنک‌کاری','فیلتر کابین و تهویه','فیلتر DPF و پس‌پالایش','پایه، محفظه و قطعات مجموعه فیلتر'];
+const FILTER_SUBCATEGORIES=['فیلتر هوا','فیلتر روغن و روانکاری','فیلتر سوخت و جداکننده آب','فیلتر هیدرولیک و انتقال قدرت','فیلتر آب و خنک‌کاری','فیلتر کابین و تهویه','فیلتر DPF و پس‌پالایش','سایر فیلترها، پایه و قطعات مجموعه'];
 function categoryInfo(p){
  const raw=String(p.category||'').trim(),name=String(p.name||'').toLowerCase(),description=String(p.description||'').toLowerCase(),technical=String(p.technicalGroup||p.technical_group||'').toLowerCase();
  const extra=[p.group,p.type,p.applicationType,p.application_type,p.sourceName,p.source_name].filter(Boolean).join(' ').toLowerCase();
