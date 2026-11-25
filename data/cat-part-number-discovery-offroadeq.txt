@@ -119,3 +119,6 @@ The following Off Road public-index candidates now have exact Cat Parts Store pr
 - 7W2326 — CAT 7W-2326 Engine Oil Filter: https://parts.cat.com/en/catcorp/product/7W-2326
 
 Identifiers still awaiting exact CAT product-page corroboration include 1R0716 and any other Off Road candidate not listed above. Do not upgrade them based on the reseller index alone.
+
+
+- 1R0716 — CAT official technical publication identifies Standard Efficiency Engine Oil Filter; CAT lists 1R-1808 as an approved upgrade option: https://s7d2.scene7.com/is/content/Caterpillar/CM20150415-45165-44935. CAT preventive-maintenance kit document: https://caterpillar.scene7.com/is/content/Caterpillar/CM20230906-5d3e7-f57c3. No current exact Cat Parts Store product page was returned; treat as official-document reference, not a current page-level fitment confirmation.
