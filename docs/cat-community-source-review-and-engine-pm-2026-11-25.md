@@ -2524,3 +2524,14 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - ضخامت درج‌شده 2mm است؛ اندازه plug، سطح آب‌بندی کارتل و پیکربندی oil pan باید تطبیق داده شود.
 - منبع رسمی: https://parts.cat.com/en/catcorp/product/096-8482
 - شمارنده هدف دور: 4352 شماره یکتا؛ Mirror و Workflow با Master همگام شدند.
+
+
+## دور ۹۰ — 25 Nov 2026
+
+- سه شماره جدید از صفحات رسمی Cat Parts Store با فیتمنت صریح 287B ثبت شد:
+  - 193-8385 — 3mm Thick Side Panel Mounting Plate؛ فیتمنت 287B؛ جنس فولاد کربنی/سازه‌ای؛ سمت پنل و الگوی سوراخ‌ها بررسی شود.
+  - 227-4315 — Mounting Plate؛ فیتمنت 287B و 297C؛ ابعاد 45 × 254 × 93.5 میلی‌متر و وزن 3.07lb؛ محل نصب و revision براکت تطبیق داده شود.
+  - 218-6006 — Bracket Assembly؛ فیتمنت 287B؛ ابعاد 5.51 × 6.93 × 4.21in، ضخامت 0.24in و وزن 1.66lb؛ محل اتصال و hole spacing بررسی شود.
+- هر سه شماره به Master و CSV رسمی 287B افزوده شدند.
+- منابع رسمی: https://parts.cat.com/en/catcorp/product/193-8385 ؛ https://parts.cat.com/en/catcorp/product/227-4315 ؛ https://parts.cat.com/en/catcorp/product/218-6006
+- شمارنده هدف دور: 4355 شماره یکتا؛ Mirror و Workflow با Master همگام شدند.
