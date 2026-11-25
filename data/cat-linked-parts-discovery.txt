@@ -2551,3 +2551,16 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 7X-7731 | 3/4-14 NPTF Thread Square Drive Plug | 1 | Cat 321-1453 Wheel Tractor/814B Wheel Dozer Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
 
 Source page: https://parts.cat.com/en/catcorp/product/321-1453
+
+
+## Additional Cat 321-1453 wheel-tractor engine-parts kit remaining BOM rows — batch 152
+
+Source: official Cat Parts Store product page 321-1453, same kit as batch 151. The page states 36 total items; the initial page view exposed 32 and the indexed official listing exposed these remaining four components. Compatible models remain WHEEL TRACTOR / 627E, 627F, 621E, 621F, 623E, 623F and WHEEL DOZER / 814B. These four are the remainder of the same kit BOM, not a separate equipment fitment claim.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+100-2848 | 102.03mm Inner Diameter Guide Ring | 1 | Cat 321-1453 Wheel Tractor/814B Wheel Dozer Engine Parts Kit BOM; remaining items 33-36 | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+128-7794 | Bolt | 1 | Cat 321-1453 Wheel Tractor/814B Wheel Dozer Engine Parts Kit BOM; remaining items 33-36 | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+128-7796 | Bolt | 1 | Cat 321-1453 Wheel Tractor/814B Wheel Dozer Engine Parts Kit BOM; remaining items 33-36 | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+4W-2754 | 50.17mm Internal Diameter Quad Ring Lobed Seal | 1 | Cat 321-1453 Wheel Tractor/814B Wheel Dozer Engine Parts Kit BOM; remaining items 33-36 | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+
+Source page: https://parts.cat.com/en/catcorp/product/321-1453
