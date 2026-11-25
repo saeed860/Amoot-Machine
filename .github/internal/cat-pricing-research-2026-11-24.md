@@ -4555,3 +4555,45 @@ Additional Cat-linked discovery candidates from official Cat related/parts diagr
 These are discovery leads only and require item-level verification before catalog promotion.
 
 Overall reviewed progress: 76/500 batches = 760/5,000 product target (15.2%). Original Cat seed list has 27 SKUs remaining (products 761–787).
+
+## Batch 77/500 — products 761–770 (2026-11-25)
+
+SKUs: 7T-8555, 7T-9307, 7T-9309, 7W-0489, 7W-2225, 7W-2326, 8C-3445, 8C-3446, 8F-9866, 8N-0419. All ten Cat item pages opened. Added the previously missing 16-model fitment and specifications for 7T-8555, recorded Cat Reman alternatives for 7W-0489/7W-2225, and enriched the fluid cap/sampling-valve technical details while keeping their very broad Cat model lists unnormalized.
+
+Verified:
+- 7T-8555: Cat Undercarriage Minor Bogie for suspended D8–D11 track-type tractor undercarriage. Materials Boron Steel/Carbon Steel/Microalloy Steel/Low Alloy Steel; Extreme Service, Single Grouser, Trapezoidal shoe type. Compatible: D8T/D8R/D8R II/D8L/D8GC/D8N/D8 XE/D8 GC/D8; Ripper 8; Pipelayer 578; Bulldozers 8S/8U/8SU/8A; Winch 57H (16). Cat page describes bogies as reducing shock transferred to undercarriage on uneven terrain. Related 311-1298 Bogie Pin Assembly, 131-1651 Track Roller Cap, 6V-3263 O-ring and 5P-5374 seal ring.
+- 7T-9307: Cat Sleeve Bearing Cartridge (Bogie Pin). Specs: 4.134in length, 4.02in pin diameter, 3.982in ID, 4.022in OD, Standard Application, HD, Steel/Structural Steel/Oil Fluid/Alloy Steel, no puller hole. Compatible D9T/D8T/D9R/D8R/D8R II/D8L/D9N/D8N; rippers 9/8; pipelayer 578; bulldozers 9U/8S/8U/9SU/8SU/8A; winches 58/59N/58L/59L/57H (22 labels). Cat page marks discontinued; DB inactive.
+- 7T-9309: Cat Sleeve Bearing Cartridge (Bogie Pin). Specs: 5.295in length, 4.022in OD, 3.982in ID, Oil lubricant, Major/Minor Bogie, Standard Application, HD, Steel/Structural Steel/Oil Fluid/Alloy Steel. Compatible D9L/D10R/D10T2/D10T/D10N; ripper 9; pipelayer 589; bulldozers 9U/10SU/10U/9S/9C; winches 59/59N/58L/59L (16 labels). Cat page marks discontinued; DB inactive.
+- 7W-0489: Cat Turbocharger Cartridge. Specs: 10.1in length ×14.3in height; Ductile (Spheroidal) Iron/Adhesive. Compatible Gen Set Engine 3408B/3408C/3408; Marine Engine 3408B/3408; Engine G3408; Gas Engine G3408C/G3408/G3408B (6 unique labels). Cat Reman Turbocharger Cartridge 0R-5362 displayed as alternate and added to DB separately.
+- 7W-2225: Cat Cylinder Head Assembly (HEAD A 3408). Specs: 40.5in length ×11.5in height. 33 compatible labels across truck engines 3408B/3408, wheel tractors 633E II/637D/637E/631E, cold planers PR-450C/PM-565/PM-565B, wheel dozer 834B, winches, landfill compactor 836, wheel loaders 988F II/988B/988F, D9R/D9N/D8L, gen set/marine/industrial 3408 engines, ripper 9, pipelayer 589, quarry trucks 771D/771C, trucks 769D/769C, wheel scraper 657E, tractor 768C and bulldozers 9U/9SU. Cat Reman 20R-0524 (Reman 3408 Direct Injection I Type Cylinder Head) displayed as an alternate. Related 115-2367 exhaust valve, 115-2368 inlet valve, 4N-7253 chamber gasket, 253-1752 thrust plate and 7C-0307 bonnet cover gasket.
+- 7W-2326: Cat Standard Efficiency Engine Oil Filter. Specs: 3.78in diameter ×6.717in length, Out-to-In, Carbon Steel, Standard Efficiency, Spin-On. 283 distinct compatible labels across pumper SPF343C, generators, 3054 engines, ITCs, material handlers, D3/D4/D5/D6 track tractors, asphalt compactors/pavers, marine, pipelayers, excavators, vibratory/paving/pneumatic/soil compactors, generator sets, backhoe loaders, compact wheel loaders, telehandlers, forwarders, wheeled excavators and industrial engines. DB fitment283 matches. Related 360-8960 fuel filter element, 479-4133 ultra-high-efficiency fuel-water separator, 346-6688 air cleaner secondary element, 528-0585 engine air filter and 471-7003 transmission hydraulic filter.
+- 8C-3445: Cat Engine Oil Dust Cap / Fluid Carrying Connector Protective Cap. Cat says it prevents dust/debris ingress and physical damage, with color/symbol coding for fluid systems and application-specific connector design. Material description Plastic; material Chloroprene (CR) Rubber. Cat Compatible Models page lists hundreds of applications (toolcarriers, wheel harvesters, power packs, rotary drills, mini excavators, track feller bunchers, excavators and many more); not normalized into DB fitment. Related 8C-3446 fluid sampling valve, 214-7568 STOR seal, 214-7566 FKM O-ring, 238-5081 FKM O-ring and 3J-7354 NBR O-ring.
+- 8C-3446: Cat 7/16in Thread Fluid Sampling Valve. Material description Brass; materials Alloy Steel/Alloy Brass/Alloy Zinc; 1.49in overall length, 0.63in hex size. Cat Compatible Models page lists hundreds of toolcarrier, wheel harvester, power pack, rotary drill, mini excavator, track feller buncher, excavator and related applications; full model list not normalized into DB. Related 3J-7354 NBR O-ring, 214-7568 STOR seal, 3J-1907 NBR O-ring, 8C-3445 dust cap and 3K-0360 NBR O-ring.
+- 8F-9866: Cat Lever Grease Gun Assembly. Includes grease coupler, nipple and 12in hose assembly; check valve, air-bleed valve, spring-primed two-way loading. Specs: Alloy Zinc, 1/8 NPTF, operating pressure 68,948kPa, 12in hose. Cat page shows related 5P-8500 machine ignition key, 9G-2758 switch lockout and 8T-8729 brass connector pin. DB matches.
+- 8N-0419: Cat Turbocharger Water Lines Tube. Specs: Steel, 1in OD. Compatible labels Gen Set Engine 3512/3516/3508; Generator Set 3508C/3508; Marine Engine 3508/3512; Industrial Engine 3512/3508; Engine 3508PETROL; Petroleum Engine 3512; Gas Engine G3512/G3516 (7 unique labels). Corrected engine_models to include 3508PETROL, making seven explicit engine tags.
+
+Cat pages:
+- https://parts.cat.com/en/catcorp/product/7T-8555
+- https://parts.cat.com/en/catcorp/product/7T-9307
+- https://parts.cat.com/en/catcorp/product/7T-9309
+- https://parts.cat.com/en/catcorp/product/7W-0489
+- https://parts.cat.com/en/catcorp/product/7W-2225
+- https://parts.cat.com/en/catcorp/product/7W-2326
+- https://parts.cat.com/en/catcorp/product/8C-3445
+- https://parts.cat.com/en/catcorp/product/8C-3446
+- https://parts.cat.com/en/catcorp/product/8F-9866
+- https://parts.cat.com/en/catcorp/product/8N-0419
+
+Post-update DB verification counts: 7T-8555=16; 7T-9307=22 (inactive); 7T-9309=16 (inactive); 7W-0489=6 (Reman alternate 0R-5362); 7W-2225=33 (Reman alternate 20R-0524); 7W-2326=283; 8C-3445=0 (broad fitment not normalized); 8C-3446=0 (broad fitment not normalized); 8F-9866=0; 8N-0419=7 compatible/7 engine tags. No customer price or stock claims added.
+
+Additional Cat-linked discovery candidates from Cat parts/related panels:
+- 7T-8555: 311-1298, 131-1651, 6V-3263, 5P-5374.
+- 7W-0489: Cat Reman 0R-5362.
+- 7W-2225: 115-2367, 115-2368, 4N-7253, 253-1752, 7C-0307; Cat Reman 20R-0524.
+- 7W-2326: 360-8960, 479-4133, 346-6688, 528-0585, 471-7003.
+- 8C-3445: 8C-3446, 214-7568, 214-7566, 238-5081, 3J-7354.
+- 8C-3446: 3J-7354, 214-7568, 3J-1907, 8C-3445, 3K-0360.
+- 8F-9866: 5P-8500, 9G-2758, 8T-8729.
+These are discovery leads only; Reman alternatives are distinct condition categories and no universal interchangeability is implied.
+
+Overall reviewed progress: 77/500 batches = 770/5,000 product target (15.4%). Original Cat seed list has 17 SKUs remaining (products 771–787).
