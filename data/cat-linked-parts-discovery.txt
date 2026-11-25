@@ -2435,3 +2435,15 @@ Source: official Cat Parts Store product page https://parts.cat.com/en/catcorp/p
 ## Cat 318-3206 3512C marine engine-parts-kit cross-verification — batch 146
 
 Source: official Cat Parts Store product page https://parts.cat.com/en/catcorp/product/318-3206. Compatible model explicitly shown: MARINE ENGINE / 3512C. The page lists 31 BOM components. All 31 references were already present in the discovery queue or seed list, so no duplicate SKU rows were added. This source independently corroborates the 3512C engine-parts set and quantities, but does not extend fitment to 3512/3512B or other arrangements.
+
+
+## Additional Cat 3516B/3516C generator-set engine-parts-kit BOM candidates — batch 147
+
+Source: official Cat Parts Store product page 384-0499, Engine Parts Kit. Compatible models explicitly shown: GEN SET ENGINE / 3516B and GENERATOR SET / 3516C, 3516B. Ten other listed components were already present in the discovery queue or seed list and are not duplicated. The three new rows below are official BOM references only; confirm exact generator-set arrangement before ordering.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+216-2211 | 108mm To 115.8mm Diameter T-Bolt Clamp | 16 | Cat 384-0499 3516B/3516C Generator Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+262-1623 | Bellows Assembly | 4 | Cat 384-0499 3516B/3516C Generator Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+268-4743 | 101.6mm Internal Diameter Hump Hose | 4 | Cat 384-0499 3516B/3516C Generator Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+
+Source page: https://parts.cat.com/en/catcorp/product/384-0499
