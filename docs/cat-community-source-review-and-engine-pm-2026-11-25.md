@@ -2543,3 +2543,13 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - ضخامت درج‌شده 0.6mm است؛ stack شیم، گروه پمپ و تلرانس clearance/preload باید مطابق مشخصات پمپ بررسی شود.
 - منبع رسمی: https://parts.cat.com/en/catcorp/product/117-7248
 - شمارنده هدف دور: 4356 شماره یکتا؛ Mirror و Workflow با Master همگام شدند.
+
+
+## دور ۹۲ — 25 Nov 2026
+
+- دو شماره جدید از صفحات رسمی Cat Parts Store با فیتمنت صریح 287B و 297C ثبت شد:
+  - 446-1412 — Seal Kit؛ سازگاری 287B و 297C؛ گروه کاربرد، محدوده سریال و محتویات seal kit پیش از سفارش باید از Parts Diagram تأیید شود.
+  - 069-4080 — Adapter-Elbow 90°؛ سازگاری 287B و 297C؛ جنس برنج/فولاد آلیاژی و ابعاد 1.6 × 1.1 × 0.6 اینچ؛ رزوه/پورت و فشار کاری باید تطبیق داده شود.
+- هر دو شماره به Master و CSV رسمی 287B افزوده شدند؛ قطعات 258-3662، 278-8720 و 258-3537 در CSV مستقل 297C-only از قبل ثبت بودند.
+- منابع رسمی: https://parts.cat.com/en/catcorp/product/446-1412 ؛ https://parts.cat.com/en/catcorp/product/069-4080 ؛ https://parts.cat.com/en/catcorp/product/258-3662 ؛ https://parts.cat.com/en/catcorp/product/278-8720 ؛ https://parts.cat.com/en/catcorp/product/258-3537
+- شمارنده هدف دور: 4358 شماره یکتا؛ Mirror و Workflow با Master همگام شدند.
