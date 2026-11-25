@@ -2232,3 +2232,8 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 1F-7958 | 1/2-13 Hex Nut | 1 | Cat 357-1798 3512B Tier 1-to-Tier 2 Conversion Kit BOM; arrangement 232-2517 to 282-9663 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
 
 Source page: https://parts.cat.com/en/catcorp/product/357-1798
+
+
+## Cat 357-1800 3512B Tier-2 conversion kit — no BOM rows published (batch 125)
+
+Source: official Cat Parts Store product page https://parts.cat.com/en/catcorp/product/357-1800. Compatible model shown: MARINE ENGINE / 3512B. The product description identifies a Tier 1-to-Tier 2 conversion from arrangement 232-2505 to 282-9665, intended to be used with an engine overhaul. However, the current official page explicitly states “There are currently no parts associated with this kit.” No component part numbers were inferred or added. This is a source-coverage checkpoint, not a new-SKU batch.
