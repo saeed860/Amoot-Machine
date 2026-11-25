@@ -562,3 +562,19 @@ Eight additional Off Road 500-index candidates were matched to exact Cat Parts S
 - 5912386 — CAT 591-2386 24V Diesel Exhaust Fluid Pump: https://parts.cat.com/en/catcorp/product/591-2386
 
 No supplier price or stock was imported from the public Off Road index. New products have NULL price and zero Amoot stock pending price-type/condition verification.
+
+
+## CAT official-page cross-checks — pump, injector and cooling batch, 25 Nov 2026
+
+Eight more Off Road 500-index identifiers were checked against exact Cat Parts Store pages:
+
+- 4P9075 — Single Port Metering Fuel Injector; CAT Marine Engine 3508/3516/3512: https://parts.cat.com/en/catcorp/product/4P-9075
+- 1375541 — 41.4 Stroke Per Liter Fuel Priming Pump; truck-engine and land-equipment applications: https://parts.cat.com/en/catcorp/product/137-5541
+- 3520211 — Water Pump; CAT Marine Engine C18/C15 and non-marine groups: https://parts.cat.com/en/catcorp/product/352-0211
+- 1727767 — Water Pump used in Engine; generator/industrial/land groups; exact image not yet retrieved: https://parts.cat.com/en/catcorp/product/172-7767
+- 3520206 — Water Pump; C11/C13 truck/industrial and land groups: https://parts.cat.com/en/catcorp/product/352-0206
+- 3500666 — Hydraulic Piston Pump; 414E/416E/434E/422E/428E backhoe loader: https://parts.cat.com/en/catcorp/product/350-0666
+- 2W9978 — Transmission Oil Cooler Core; CAT Marine Engine 3196/C12 plus land groups: https://parts.cat.com/en/catcorp/product/2W-9978
+- 8J6730 — Axial Piston Pump; CAT marks the part DISCONTINUED and directs buyers to dealer for replacement options: https://parts.cat.com/en/catcorp/product/8J-6730
+
+Six products were added with official Cat images. 172-7767 remains reference-only until an exact image is available; 8J-6730 remains discontinued and is not published as a saleable product. No prices or stock were invented.
