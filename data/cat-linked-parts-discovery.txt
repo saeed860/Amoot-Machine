@@ -3402,3 +3402,14 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 5F-3106 | Seal-O-Ring | 1 | Cat 376-9015 Backhoe Loader Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
 
 Source page: https://parts.cat.com/en/catcorp/product/376-9015
+
+
+## Autonomous discovery checkpoint 200 — target checkpoint 5000 (2026-11-25)
+
+- Completed source checkpoints: 101–200.
+- Baseline before batch 101: 1,093 unique part-number references.
+- Current discovery file: 2,432 raw part-number rows; 2,043 unique part numbers.
+- Net unique growth since baseline: +950.
+- Original 787-number seed overlap: 86; unique references beyond the original seed: 1,957.
+- New coverage includes hydraulic-cylinder seal kits across excavators, backhoe loaders, wheel loaders, track loaders and hydraulic shovels; historical/discontinued kits are explicitly marked and not treated as current saleable kits.
+- Next batch: 201. Checkpoint 200 is not a stopping point; continue toward 5,000.
