@@ -2311,3 +2311,14 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - https://parts.cat.com/en/catcorp/product/9X-7382
 
 این قطعات در مدار تهویه و refrigerant استفاده می‌شوند؛ جهت جریان orifice، قطر شیار و سازگاری ماده HNBR با refrigerant HFC-134a باید قبل از سفارش و نصب کنترل شود.
+
+
+## دور ۷۴ — 25 Nov 2026
+
+- سه شماره جدید از صفحات رسمی Cat Parts Store با فیتمنت صریح 287B ثبت شد:
+  - 259-1107 — 28 Volt Single Pole Toggle Switch؛ فیتمنت 287B و 297C؛ کلید سه‌حالته 5/14/28V با کانکتور 3-pin DT؛ منطق مدار و pinout کنترل شود.
+  - 277-0655 — KIT-ROADING CONVERSION؛ فیتمنت 287B؛ کیت شامل 34 قلم؛ محتویات کامل و پیکربندی ماشین تطبیق داده شود.
+  - 186-3735 — CONNECTOR PIN؛ فیتمنت 287B و 297C؛ پین روکش طلا برای سیم 16–18 AWG و جریان تا 7.5A؛ cavity و retention کنترل شود.
+- هر سه شماره به Master و CSV رسمی 287B افزوده شدند.
+- منابع رسمی: https://parts.cat.com/en/catcorp/product/259-1107 ؛ https://parts.cat.com/en/catcorp/product/277-0655 ؛ https://parts.cat.com/en/catcorp/product/186-3735
+- شمارنده هدف دور: 4320 شماره یکتا؛ Mirror و Workflow با Master همگام شدند.
