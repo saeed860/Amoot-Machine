@@ -2489,3 +2489,14 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - 230-3686 — Lip Type Seal Group (Fan Motor Group)؛ صفحه رسمی Cat Parts Store مدل 287B را صریحاً در Compatible Models فهرست می‌کند. شماره از قبل در Master بود و ردیف فیتمنت آن به CSV رسمی 287B اضافه شد.
 - ابعاد صفحه: shaft diameter برابر 0.708in، ID برابر 0.7in، OD برابر 1.575in، عرض 0.264in و ضخامت 0.3in؛ گروه فن و نشیمن آب‌بند باید تطبیق داده شود.
 - منبع رسمی: https://parts.cat.com/en/catcorp/product/230-3686
+
+## دور ۸۲ — bearing سیلندر tilt 297C (25 Nov 2026)
+
+- 625-7420 — Hydraulic Tilt Cylinder Bearing؛ Compatible Models شامل 297C و 287C/277C است اما 287B را نشان نمی‌دهد.
+- مشخصات رسمی: قطر داخلی 1.504in، قطر بیرونی 1.89in و طول 1.89in؛ جنس Carbon Steel.
+- شماره به Master و CSV مستقل 297C-only افزوده شد.
+
+منبع رسمی:
+- https://parts.cat.com/en/catcorp/product/625-7420
+
+این قطعه به فیتمنت 287B تعمیم داده نشد. پیش از سفارش، قطر شفت، طول sleeve، bearing interface و cylinder arrangement با PIN و Parts Diagram تطبیق داده شود.
