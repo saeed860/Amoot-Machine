@@ -2447,3 +2447,24 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 268-4743 | 101.6mm Internal Diameter Hump Hose | 4 | Cat 384-0499 3516B/3516C Generator Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
 
 Source page: https://parts.cat.com/en/catcorp/product/384-0499
+
+
+## Additional Cat single-cylinder-head install-kit BOM candidates — batch 148
+
+Source: official Cat Parts Store product page 319-8126, Single Cylinder Head Install Kit. Cat describes the kit as gaskets and seals for rebuilding and reinstalling one cylinder head; turbo gaskets are included, fuel injector seals are not. The compatibility section explicitly states Cat currently has no compatibility information for this kit, so no engine model or serial applicability is inferred. Twenty other listed components were already present in the queue or original seed list and are not duplicated. The twelve new rows below are BOM references only; confirm the engine serial/arrangement and order injector seals separately where required.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+101-3125 | 0.82mm Thick Gasket | 1 | Cat 319-8126 Single Cylinder Head Install Kit BOM; Cat compatibility unavailable | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+109-5309 | 10.15mm Thick Valve Cover Gasket | 1 | Cat 319-8126 Single Cylinder Head Install Kit BOM; Cat compatibility unavailable | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+109-5313 | 1.6mm Thick Air Lines Gasket | 6 | Cat 319-8126 Single Cylinder Head Install Kit BOM; Cat compatibility unavailable | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+118-2797 | Coolant Lines Gasket | 4 | Cat 319-8126 Single Cylinder Head Install Kit BOM; Cat compatibility unavailable | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+187-3307 | 1.98mm Thick Cylinder Head Gasket | 1 | Cat 319-8126 Single Cylinder Head Install Kit BOM; Cat compatibility unavailable | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+2F-7761 | 0.79mm Thick Flange Gasket | 1 | Cat 319-8126 Single Cylinder Head Install Kit BOM; Cat compatibility unavailable | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+361-8205 | 25.07mm Inside Diameter Seal-O-Ring | 6 | Cat 319-8126 Single Cylinder Head Install Kit BOM; Cat compatibility unavailable | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+418-6781 | MJ10 x 1.5 Thread Taperlock Stud | 4 | Cat 319-8126 Single Cylinder Head Install Kit BOM; Cat compatibility unavailable | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+6V-5063 | 2.95 x 23.47mm 70A EPDM O-Ring | 1 | Cat 319-8126 Single Cylinder Head Install Kit BOM; Cat compatibility unavailable | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+6V-8676 | 2.62 x 48.9mm 75A FKM O-Ring | 1 | Cat 319-8126 Single Cylinder Head Install Kit BOM; Cat compatibility unavailable | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+7C-8292 | 11.50mm Inner Diameter Cylinder Head Isolator | 8 | Cat 319-8126 Single Cylinder Head Install Kit BOM; Cat compatibility unavailable | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+7E-7912 | 1.6mm Thick Engine Cooling Lines Gasket | 1 | Cat 319-8126 Single Cylinder Head Install Kit BOM; Cat compatibility unavailable | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+
+Source page: https://parts.cat.com/en/catcorp/product/319-8126
