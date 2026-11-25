@@ -1,12 +1,13 @@
 /* Amoot Machine service worker - deliberately excludes account/API data */
 'use strict';
-const CACHE_NAME = 'amoot-shell-v2';
+const CACHE_NAME = 'amoot-shell-v3';
 const SHELL_URL = new URL('./index.html', self.registration.scope).toString();
 const CORE_URLS = [
   SHELL_URL,
   new URL('./manifest.webmanifest', self.registration.scope).toString(),
   new URL('./assets/pwa-icon-192.svg', self.registration.scope).toString(),
-  new URL('./assets/pwa-icon-512.svg', self.registration.scope).toString()
+  new URL('./assets/pwa-icon-512.svg', self.registration.scope).toString(),
+  new URL('./assets/product-image-pending.svg', self.registration.scope).toString()
 ];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(CORE_URLS)).then(() => self.skipWaiting()));
