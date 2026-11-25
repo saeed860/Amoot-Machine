@@ -761,6 +761,16 @@ const tests = [
   { q: "202-2783", sku: "202-2783", kind: "PART_REFERENCE", sourceRequired: true, applicationType: "LAND" },
   { q: "10R-5488", sku: "10R-5488", kind: "PART_REFERENCE", sourceRequired: true, applicationType: "BOTH" },
   { q: "20R-5462", sku: "20R-5462", kind: "PART_REFERENCE", sourceRequired: true, applicationType: "BOTH" },
+  { q: "096-5028", sku: "096-5028", kind: "PART_REFERENCE", sourceRequired: true, imageRequired: true, applicationType: "BOTH" },
+  { q: "0R-3652", sku: "0R-3652", kind: "PART_REFERENCE", sourceRequired: true, imageRequired: true, applicationType: "LAND" },
+  { q: "0R-2741", sku: "0R-2741", kind: "PART_REFERENCE", sourceRequired: true, imageRequired: true, applicationType: "UNVERIFIED" },
+  { q: "100-4838", sku: "100-4838", kind: "PART_REFERENCE", sourceRequired: true, imageRequired: true, applicationType: "LAND" },
+  { q: "100-4841", sku: "100-4841", kind: "PART_REFERENCE", sourceRequired: true, imageRequired: true, applicationType: "LAND" },
+  { q: "100-6668", sku: "100-6668", kind: "PART_REFERENCE", sourceRequired: true, imageRequired: true, applicationType: "LAND" },
+  { q: "101-0745", sku: "101-0745", kind: "PART_REFERENCE", sourceRequired: true, imageRequired: true, applicationType: "LAND" },
+  { q: "101-3895", sku: "101-3895", kind: "PART_REFERENCE", sourceRequired: true, imageRequired: true, applicationType: "LAND" },
+  { q: "103-1912", sku: "103-1912", kind: "PART_REFERENCE", sourceRequired: true, applicationType: "LAND" },
+  { q: "106-8916", sku: "106-8916", kind: "PART_REFERENCE", sourceRequired: true, imageRequired: true, applicationType: "UNVERIFIED" },
 ];
 let failed = false;
 let cursor = 0;
