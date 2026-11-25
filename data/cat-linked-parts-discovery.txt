@@ -2237,3 +2237,24 @@ Source page: https://parts.cat.com/en/catcorp/product/357-1798
 ## Cat 357-1800 3512B Tier-2 conversion kit — no BOM rows published (batch 125)
 
 Source: official Cat Parts Store product page https://parts.cat.com/en/catcorp/product/357-1800. Compatible model shown: MARINE ENGINE / 3512B. The product description identifies a Tier 1-to-Tier 2 conversion from arrangement 232-2505 to 282-9665, intended to be used with an engine overhaul. However, the current official page explicitly states “There are currently no parts associated with this kit.” No component part numbers were inferred or added. This is a source-coverage checkpoint, not a new-SKU batch.
+
+
+## Additional Cat 3516B Tier-1-to-Tier-2 conversion-kit BOM candidates — batch 126
+
+Source: official Cat Parts Store product page 357-1805, 3516 Tier 2 Engine Upgrade Kit. The page describes a 3516B Tier 1-to-Tier 2 conversion (Long Stroke or High Displacement), upgrading arrangement 234-2795 to 282-9668, intended for use with an engine overhaul. Compatible model shown: MARINE ENGINE / 3516B. Twenty-two other first-page items were already present in the queue or seed list and are not duplicated. The ten new rows below are arrangement-specific conversion-kit components, not generic replacements.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+091-9035 | 20mm Thick Spacer Washer | 1 | Cat 357-1805 3516B Tier 1-to-Tier 2 Conversion Kit BOM; arrangement 234-2795 to 282-9668 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
+0L-1329 | 1/2-13 Threaded External Hexagonal Steel Bolt | 12 | Cat 357-1805 3516B Tier 1-to-Tier 2 Conversion Kit BOM; arrangement 234-2795 to 282-9668 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
+0L-1351 | 3/8-16 Thread Hex Head Bolt | 4 | Cat 357-1805 3516B Tier 1-to-Tier 2 Conversion Kit BOM; arrangement 234-2795 to 282-9668 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
+0L-1352 | 3/8-16 Thread Hex Head Bolt | 2 | Cat 357-1805 3516B Tier 1-to-Tier 2 Conversion Kit BOM; arrangement 234-2795 to 282-9668 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
+146-3740 | Crankshaft Damper | 1 | Cat 357-1805 3516B Tier 1-to-Tier 2 Conversion Kit BOM; arrangement 234-2795 to 282-9668 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
+157-2811 | 8.5mm Thick Thrust Washer | 2 | Cat 357-1805 3516B Tier 1-to-Tier 2 Conversion Kit BOM; arrangement 234-2795 to 282-9668 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
+180-7412 | Water Pump Adapter | 1 | Cat 357-1805 3516B Tier 1-to-Tier 2 Conversion Kit BOM; arrangement 234-2795 to 282-9668 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
+198-4780 | M16 ID Steel Flat Washer | 8 | Cat 357-1805 3516B Tier 1-to-Tier 2 Conversion Kit BOM; arrangement 234-2795 to 282-9668 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
+1C-2251 | 3/8-16 Threaded External Hexagonal Bolt | 12 | Cat 357-1805 3516B Tier 1-to-Tier 2 Conversion Kit BOM; arrangement 234-2795 to 282-9668 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
+1D-4595 | 5/8-11 Threaded External Hexagonal Headed Bolt | 8 | Cat 357-1805 3516B Tier 1-to-Tier 2 Conversion Kit BOM; arrangement 234-2795 to 282-9668 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
+
+Source page: https://parts.cat.com/en/catcorp/product/357-1805
+
+Data-quality exception: the same official page reports quantity 2,169 for part 165-3928 (3/8-16 x 1 1/4 Hex Head Bolt). This is an extreme outlier versus nearby fastener quantities and is excluded from the recorded BOM rows pending independent confirmation; the raw page value is retained here for audit, not treated as a trusted demand quantity.
