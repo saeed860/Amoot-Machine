@@ -45,11 +45,13 @@ window.setApiProducts = function(rows){db.products=Array.isArray(rows)?rows:[];d
 window.setServerProducts=setServerProducts;
 function categoryInfo(p){
  const raw=String(p.category||'').trim(), name=String(p.name||'').toLowerCase(), t=(name+' '+raw+' '+(p.description||'')).toLowerCase();
- const hasFilterName=/فیلتر|filter|هواکش|breather|جداکننده آب|suction screen|filter screen|screen assembly|strainer/.test(name);
- const hasFilterCategory=/فیلتر|filter|هواکش|breather|جداکننده آب/.test(raw);
+ const hasFilterName=/فیلتر|filter|هواکش|breather|جداکننده آب|suction screen|filter screen|screen assembly|strainer|air cleaner|precleaner|پیش.?تمیزکننده|aftertreatment|dpf|diesel particulate|def filter|diesel exhaust fluid|coolant conditioner|water spray filter/.test(name);
+ const hasFilterCategory=/فیلتر|filter|هواکش|breather|جداکننده آب|aftertreatment|dpf|def/.test(raw);
  if(hasFilterName||(hasFilterCategory&&!/قطعات موتور و فیلتر/.test(raw))){
   let sub='سایر فیلترها';
   if(/کابین|cabin/.test(t))sub='فیلتر کابین';
+  else if(/\bdef\b|diesel exhaust fluid|urea|فیلتر def|اگزوز دیزل/.test(t))sub='فیلتر DEF و پس‌پالایش';
+  else if(/\bdpf\b|diesel particulate|soot filter|فیلتر دوده|aftertreatment/.test(t))sub='فیلتر DPF و پس‌پالایش';
   else if(/water separator|جداکننده آب/.test(t)&&/lube|lubrication|روانکاری|fumes disposal/.test(t))sub='فیلتر روغن و روانکاری';
   else if(/سوخت|fuel|water separator|جداکننده آب/.test(t))sub='فیلتر سوخت و جداکننده آب';
   else if(/هیدرولیک|hydraulic|transmission/.test(t))sub='فیلتر هیدرولیک و انتقال قدرت';
@@ -57,8 +59,8 @@ function categoryInfo(p){
   else if(/water spray|آب.?پاش/.test(t))sub='فیلتر سیستم آب‌پاش';
   else if(/air conditioner|a\/c|تهویه|کولر/.test(t))sub='فیلتر تهویه و کولر';
   else if(/خنک.?کاری|coolant|cooling|water pump|فیلتر آب|آب.?پمپ/.test(t))sub='فیلتر آب و سیستم خنک‌کاری';
-  else if(/breather|vent filter|case vent|هواکش|تنفسی/.test(t))sub='هواکش و فیلتر تنفسی';
-  else if(/هوا|air cleaner|air filter|هوای موتور|two.stage/.test(t))sub='فیلتر هوا';
+  else if(/breather|vent filter|case vent|crankcase|fumes disposal|هواکش|تنفسی/.test(t))sub='هواکش و فیلتر تنفسی';
+  else if(/هوا|air cleaner|precleaner|air filter|هوای موتور|two.stage|پیش.?تمیزکننده/.test(t))sub='فیلتر هوا و هواکش ورودی';
   return {parent:'فیلترها',sub};
  }
  if(/برقی|electrical|alternator|starter|sensor|switch/.test(t))return {parent:'قطعات برقی',sub:/استارت|starter/.test(t)?'استارت':/دینام|alternator/.test(t)?'دینام و شارژ':'سنسورها و کنترل الکترونیکی'};
