@@ -238,21 +238,21 @@ Source pages:
 179-3428 | 69.4mm OD W-type grease-lubricated track seal | Cat Parts Store related track-seal alternate to 179-3426 | cat_item_page_verified; inserted_part_catalog; fitment_verified
 6Y-8180 | 850mm triple-grouser track shoe, regular joint | Cat Parts Store frequently bought together with 179-3428 | cat_item_page_verified; inserted_part_catalog; fitment_verified
 179-3426 | 68.7mm OD W-type track seal | Cat Parts Store alternate listing to 179-3428 | cat_item_page_verified; inserted_part_catalog; fitment_verified
-6Y-2590 | Track Link | Cat Parts Store frequently bought together with 311-8150 | cat_linked_candidate; needs_individual_verification
+6Y-2590 | 215.9mm pitch HD press-fit track link | Cat Parts Store related links to 482-1221/1222, 513-0097/0098, 516-2629/2630, 610-4679/4680/6261/6262 and 620-6849/6850 | cat_item_page_verified; inserted_part_catalog; fitment_verified
 6Y-5685 | Plain-steel offset track sprocket, 16 bolts, 23 teeth, 215.9mm pitch | Frequently bought together with Cat 300-4545 | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
 10R-9598 | Cat Reman auxiliary sea-water pump | Official replacement/alternate shown for discontinued Cat 212-8174 | cat_item_page_verified; existing_catalog_row_updated; Cat_Reman_condition_preserved
 
-314-2692 | Piston | Cat Parts Store frequently bought together with 314-2700 piston kit | cat_linked_candidate; needs_individual_verification
-314-2693 | Piston | Cat Parts Store frequently bought together with 314-2700 piston kit | cat_linked_candidate; needs_individual_verification
-123-2941 | 454.00mm Purple Color Ring Seal | Cat Parts Store frequently bought together with 314-4118 toric ring | cat_linked_candidate; needs_individual_verification
-9X-7307 | 492.50mm Inner Diameter Seal Ring | Cat Parts Store frequently bought together with 314-4118 toric ring | cat_linked_candidate; needs_individual_verification
-7D-7519 | 3.53 x 523.47mm 75A NBR O-Ring | Cat Parts Store frequently bought together with 314-4118 toric ring | cat_linked_candidate; needs_individual_verification
-6M-5218 | 440.69mm Inner Diameter Seal O Ring | Cat Parts Store frequently bought together with 314-4118 toric ring | cat_linked_candidate; needs_individual_verification
-30R-1361 | Cat Reman Auxiliary Water Pump | Cat Parts Store alternate displayed on 318-2579 Auxiliary Sea Water Pump page | cat_linked_candidate; needs_individual_verification
+314-2692 | 280mm OD intermediate piston ring | Frequently bought together with Cat 314-2693 and 314-2691 | cat_item_page_verified; inserted_part_catalog; fitment_verified
+314-2693 | 280mm OD oil piston ring | Frequently bought together with Cat 314-2692 and 314-2691 | cat_item_page_verified; inserted_part_catalog; fitment_verified
+123-2941 | 454.00mm purple color rectangular ring seal | Frequently bought together with Cat 9X-7307/7D-7519/6M-5218 | cat_item_page_verified; inserted_part_catalog; dimensions_reference_only
+9X-7307 | 492.50mm ID PTFE rectangular seal ring | Frequently bought together with Cat 123-2941/7D-7519/6M-5218 | cat_item_page_verified; inserted_part_catalog; dimensions_reference_only
+7D-7519 | 3.53 ×523.47mm 75A NBR O-ring | Frequently bought together with Cat 123-2941/9X-7307/6M-5218 | cat_item_page_verified; inserted_part_catalog; fitment_verified
+6M-5218 | 440.69mm ID 75A NBR O-ring | Frequently bought together with Cat 7D-7519/123-2941/9X-7307 | cat_item_page_verified; inserted_part_catalog; fitment_verified
+30R-1361 | Cat Reman Auxiliary Water Pump | Cat Parts Store compare-alternate to 318-2579 Auxiliary Sea Water Pump | cat_item_page_verified; inserted_part_catalog; Cat_Reman_condition_preserved
 8C-3076 | 8.2mm ID FKM 90A STOR O-ring | Related part shown on Cat 258-9959 C175 connection page | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
 228-7100 | 9.4mm ID FKM 90A O-ring | Related component shown on Cat 20R-9654 page | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
-360-8960 | Engine Fuel Filter Element | Cat Parts Store frequently bought together with 322-3155 lube filter | cat_linked_candidate; needs_individual_verification
-523-4987 | Element-Separator | Cat Parts Store frequently bought together with 322-3155 lube filter | cat_linked_candidate; needs_individual_verification
+360-8960 | Engine Fuel Filter Element | Cat Parts Store frequently bought together with 479-4131/462-1171/322-3155/7W-2326/479-4133 | cat_item_page_verified; existing_catalog_row_updated; description_vs_spec_efficiency_conflict_flagged
+523-4987 | Element Separator, Ultra High Efficiency Fuel Water Separator | Cat Parts Store related filter element listings | cat_item_page_verified; existing_catalog_row_updated; description_vs_spec_length_conflict_flagged
 509-5694 | Secondary Fuel Filter Element | Cat Parts Store frequently bought together with 322-3155 lube filter | cat_linked_candidate; needs_individual_verification
 479-4131 | Water Separator Element | Cat Parts Store frequently bought together with 322-3155 lube filter | cat_linked_candidate; needs_individual_verification
 5I-8670 | Advanced Efficiency Hydraulic Filter | Cat Parts Store frequently bought together with 322-3155 lube filter | cat_linked_candidate; needs_individual_verification
@@ -263,7 +263,7 @@ Source pages:
 571-5253 | Transmission Filter Element Assembly | Cat Parts Store related parts for 326-1643 fuel-water separator | cat_linked_candidate; needs_individual_verification
 
 363-9402 | Cabin Air Filter | Cat Parts Store frequently bought together with 327-6618 cabin filter | cat_linked_candidate; needs_individual_verification
-360-8960 | Engine Fuel Filter Element | Cat Parts Store frequently bought together with 327-6618 cabin filter | cat_linked_candidate; needs_individual_verification
+360-8960 | Engine Fuel Filter Element | Cat Parts Store frequently bought together with 479-4131/462-1171/322-3155/7W-2326/479-4133 | cat_item_page_verified; existing_catalog_row_updated; description_vs_spec_efficiency_conflict_flagged
 093-7521 | Hydraulic/Transmission Oil Filter | Cat Parts Store frequently bought together with 327-6618 cabin filter | cat_linked_candidate; needs_individual_verification
 317-8766 | 131.29mm OD steel-backed copper-lead main bearing | Frequently bought together with Cat 30R-0927 | cat_item_page_verified; inserted_part_catalog; fitment_verified
 253-1752 | 5.73mm thick crankshaft thrust plate | Frequently bought together with Cat 30R-0927 | cat_item_page_verified; existing_catalog_row_updated; fitment_verified
@@ -352,9 +352,9 @@ Source pages:
 322-3155 | Advanced Efficiency Lube Filter Assembly | Cat Parts Store frequently bought together with 360-8960 fuel filter | cat_linked_candidate; needs_individual_verification
 093-7521 | Hydraulic/Transmission Oil Filter | Cat Parts Store related part for 363-9402 cabin filter | cat_linked_candidate; needs_individual_verification
 337-1943 | 11.13mm Inner Diameter Rectangular Seal | Cat Parts Store related part for 365-4922 Duo Cone Seal | cat_linked_candidate; needs_individual_verification
-9X-7307 | 492.50mm Inner Diameter Seal Ring | Cat Parts Store related part for 365-4922 Duo Cone Seal | cat_linked_candidate; needs_individual_verification
-123-2941 | 454.00mm Purple Color Ring Seal | Cat Parts Store related part for 365-4922 Duo Cone Seal | cat_linked_candidate; needs_individual_verification
-7D-7519 | 3.53 x 523.47mm 75A NBR O-Ring | Cat Parts Store related part for 365-4922 Duo Cone Seal | cat_linked_candidate; needs_individual_verification
+9X-7307 | 492.50mm ID PTFE rectangular seal ring | Frequently bought together with Cat 123-2941/7D-7519/6M-5218 | cat_item_page_verified; inserted_part_catalog; dimensions_reference_only
+123-2941 | 454.00mm purple color rectangular ring seal | Frequently bought together with Cat 9X-7307/7D-7519/6M-5218 | cat_item_page_verified; inserted_part_catalog; dimensions_reference_only
+7D-7519 | 3.53 ×523.47mm 75A NBR O-ring | Frequently bought together with Cat 123-2941/9X-7307/6M-5218 | cat_item_page_verified; inserted_part_catalog; fitment_verified
 341-8543 | 399.69mm Assembled Outside Diameter Duo Cone Seal | Cat Parts Store related part for 365-4922 Duo Cone Seal | cat_linked_candidate; needs_individual_verification
 364-9371 | Fuel Hose Assembly | Cat Parts Store frequently bought together with 364-9372 hose assembly | cat_linked_candidate; needs_individual_verification
 375-0296 | 10.92mm Inner Diameter Fuel Return Hose | Cat Parts Store frequently bought together with 364-9372 hose assembly | cat_linked_candidate; needs_individual_verification
@@ -726,7 +726,7 @@ Source pages:
 
 20R-3163 | Cat Reman Turbocharger | Cat Parts Store Compare Alternate Parts for 4W-7637 turbocharger | cat_linked_candidate; needs_individual_verification
 580-5439 | Standard Efficiency Cabin Air Filter | Cat Parts Store frequently bought together with 500-0957 cabin filter | cat_linked_candidate; needs_individual_verification
-523-4987 | Element-Separator | Cat Parts Store related item for 500-0957 cabin filter | cat_linked_candidate; needs_individual_verification
+523-4987 | Element Separator, Ultra High Efficiency Fuel Water Separator | Cat Parts Store related filter element listings | cat_item_page_verified; existing_catalog_row_updated; description_vs_spec_length_conflict_flagged
 505-4010 | Advansys 110 Heavy Penetration Loader Bucket Tip | Cat Parts Store related part for 505-4113 bucket tip | cat_linked_candidate; needs_individual_verification
 505-4012 | Advansys 110 Heavy-Duty Loader Bucket Tip | Cat Parts Store related part for 505-4113 bucket tip | cat_linked_candidate; needs_individual_verification
 505-4110 | Advansys 110 Wide Excavator Bucket Tip | Cat Parts Store related part for 505-4113 bucket tip | cat_linked_candidate; needs_individual_verification
@@ -868,7 +868,7 @@ Source pages:
 523-6602 | Ultra High Efficiency Fuel Water Separator | Cat Parts Store frequently bought together with 569-8036 lube filter kit | cat_linked_candidate; needs_individual_verification
 528-0585 | Engine Air Filter | Cat Parts Store frequently bought together with 569-8036 lube filter kit | cat_linked_candidate; needs_individual_verification
 540-5119 | Element-Separator | Cat Parts Store frequently bought together with 569-8036 lube filter kit | cat_linked_candidate; needs_individual_verification
-360-8960 | Engine Fuel Filter Element | Cat Parts Store frequently bought together with 569-8036 lube filter kit | cat_linked_candidate; needs_individual_verification
+360-8960 | Engine Fuel Filter Element | Cat Parts Store frequently bought together with 479-4131/462-1171/322-3155/7W-2326/479-4133 | cat_item_page_verified; existing_catalog_row_updated; description_vs_spec_efficiency_conflict_flagged
 346-6688 | Air Cleaner Secondary Element | Cat Parts Store frequently bought together with 569-8036 lube filter kit | cat_linked_candidate; needs_individual_verification
 
 106-1618 | Track Bushing | Cat Parts Store component in 572-2683 HDXL track seal/bushing kit, quantity 46 | cat_linked_candidate; needs_individual_verification
@@ -895,7 +895,7 @@ Source pages:
 110-6326 | Air cleaner primary element | Frequently bought together with Cat 265-6618/265-6619 | cat_item_page_verified; existing_catalog_row_updated; fitment_verified
 110-6331 | Secondary standard-efficiency engine air filter | Frequently bought together with Cat 265-6618/265-6619 | cat_item_page_verified; existing_catalog_row_updated; fitment_verified
 528-0585 | Engine Air Filter | Cat Parts Store related item for 580-5439 cabin filter | cat_linked_candidate; needs_individual_verification
-523-4987 | Ultra High Efficiency Element Separator | Cat Parts Store related item for 580-5439 cabin filter | cat_linked_candidate; needs_individual_verification
+523-4987 | Element Separator, Ultra High Efficiency Fuel Water Separator | Cat Parts Store related filter element listings | cat_item_page_verified; existing_catalog_row_updated; description_vs_spec_length_conflict_flagged
 509-5694 | Ultra High Efficiency Secondary Fuel Filter | Cat Parts Store related item for 580-5439 cabin filter | cat_linked_candidate; needs_individual_verification
 
 479-5395 | Yellow Paint-Primer | Cat Parts Store frequently bought together with 590-0195 topcoat | cat_linked_candidate; needs_individual_verification
@@ -1215,7 +1215,7 @@ Source pages:
 
 0R-5362 | Cat Reman Turbocharger Cartridge | Cat Parts Store Compare Alternate Parts for 7W-0489 | cat_linked_candidate; needs_individual_verification
 20R-0524 | Cat Reman 3408 Direct Injection I Type Cylinder Head | Cat Parts Store Compare Alternate Parts for 7W-2225 | cat_linked_candidate; needs_individual_verification
-360-8960 | Engine Fuel Filter Element | Cat Parts Store frequently bought together with 7W-2326 engine oil filter | cat_linked_candidate; needs_individual_verification
+360-8960 | Engine Fuel Filter Element | Cat Parts Store frequently bought together with 479-4131/462-1171/322-3155/7W-2326/479-4133 | cat_item_page_verified; existing_catalog_row_updated; description_vs_spec_efficiency_conflict_flagged
 479-4133 | Ultra High Efficiency Fuel Water Separator | Cat Parts Store frequently bought together with 7W-2326 engine oil filter | cat_linked_candidate; needs_individual_verification
 346-6688 | Air Cleaner Secondary Element | Cat Parts Store frequently bought together with 7W-2326 engine oil filter | cat_linked_candidate; needs_individual_verification
 528-0585 | Engine Air Filter | Cat Parts Store frequently bought together with 7W-2326 engine oil filter | cat_linked_candidate; needs_individual_verification
@@ -1254,7 +1254,7 @@ Source pages:
 3S-2094 | Cable Strap | Cat Parts Store frequently bought together with 9X-3402 connector socket | cat_linked_candidate; needs_individual_verification
 3S-2095 | Cable Strap | Cat Parts Store frequently bought together with 9X-3402 connector socket | cat_linked_candidate; needs_individual_verification
 1R-1808 | Advanced Efficiency Engine Oil Filter | Related part shown on Cat 5D-5957 page | cat_item_page_verified; existing_catalog_row_updated; no_fitment_exposed_on_public_page
-360-8960 | Engine Fuel Filter Element | Cat Parts Store frequently bought together with 9X-3404 battery | cat_linked_candidate; needs_individual_verification
+360-8960 | Engine Fuel Filter Element | Cat Parts Store frequently bought together with 479-4131/462-1171/322-3155/7W-2326/479-4133 | cat_item_page_verified; existing_catalog_row_updated; description_vs_spec_efficiency_conflict_flagged
 479-4133 | Ultra High Efficiency Fuel Water Separator | Cat Parts Store frequently bought together with 9X-3404 battery | cat_linked_candidate; needs_individual_verification
 346-6688 | Air Cleaner Secondary Element | Cat Parts Store frequently bought together with 9X-3404 battery | cat_linked_candidate; needs_individual_verification
 528-0585 | Engine Air Filter | Cat Parts Store frequently bought together with 9X-3404 battery | cat_linked_candidate; needs_individual_verification
@@ -1584,3 +1584,23 @@ Source pages:
 8T-1981 | Special U-Cup Seal | Cat Parts Store related component shown on 9X-4588 page | cat_linked_candidate; needs_individual_verification
 4J-3342 | 120.70mm Bore Diameter Piston Guide | Cat Parts Store frequently bought together with 8T-2863 | cat_linked_candidate; needs_individual_verification
 6P-7577 | 161.97mm Bore Diameter Piston Guide | Cat Parts Store frequently bought together with 8T-2863 | cat_linked_candidate; needs_individual_verification
+
+482-1221 | Extended Life Grease Lubricated Track Link | Cat Parts Store related link shown on 6Y-2590 page | cat_linked_candidate; needs_individual_verification
+482-1222 | Extended Life Grease Lubricated Track Link | Cat Parts Store related link shown on 6Y-2590 page | cat_linked_candidate; needs_individual_verification
+513-0097 | 215.9mm Pitch Press-Fit Track Link | Cat Parts Store related link shown on 6Y-2590 page | cat_linked_candidate; needs_individual_verification
+513-0098 | 215.9mm Pitch Press-Fit Track Link | Cat Parts Store related link shown on 6Y-2590 page | cat_linked_candidate; needs_individual_verification
+516-2629 | 215.9mm Pitch PPR2 Track Link | Cat Parts Store related link shown on 6Y-2590 page | cat_linked_candidate; needs_individual_verification
+516-2630 | 215.9mm Pitch PPR2 Track Link | Cat Parts Store related link shown on 6Y-2590 page | cat_linked_candidate; needs_individual_verification
+610-4679 | 215.9mm Pitch Press-Fit Track Link | Cat Parts Store related link shown on 6Y-2590 page | cat_linked_candidate; needs_individual_verification
+610-4680 | 215.9mm Pitch Press-Fit Track Link | Cat Parts Store related link shown on 6Y-2590 page | cat_linked_candidate; needs_individual_verification
+610-6261 | 215.9mm Pitch PPR2 Track Link | Cat Parts Store related link shown on 6Y-2590 page | cat_linked_candidate; needs_individual_verification
+610-6262 | 215.9mm Pitch PPR2 Track Link | Cat Parts Store related link shown on 6Y-2590 page | cat_linked_candidate; needs_individual_verification
+620-6849 | 215.9mm Pitch Press-Fit Track Link | Cat Parts Store related link shown on 6Y-2590 page | cat_linked_candidate; needs_individual_verification
+620-6850 | 215.9mm Pitch Press-Fit Track Link | Cat Parts Store related link shown on 6Y-2590 page | cat_linked_candidate; needs_individual_verification
+6Y-2589 | 215.9mm Pitch Press-Fit Track Link | Cat Parts Store related link shown on 6Y-2590 page | cat_linked_candidate; needs_individual_verification
+314-2691 | 280mm OD Top Piston Ring | Cat Parts Store frequently bought together with Cat 314-2692/314-2693 | cat_linked_candidate; needs_individual_verification
+175-5060 | 279.025mm ID Cylinder Liner Sleeve | Cat Parts Store frequently bought together with Cat 314-2692/314-2693 | cat_linked_candidate; needs_individual_verification
+123-7271 | 650mm Purple Color Ring Seal | Cat Parts Store related part shown on Cat 123-2941 page | cat_linked_candidate; needs_individual_verification
+5P-4076 | 749mm Inner Diameter O-Ring Seal | Cat Parts Store frequently bought together with Cat 123-2941/9X-7307/6M-5218 | cat_linked_candidate; needs_individual_verification
+124-3520 | 437.06mm Purple Color Ring Seal | Cat Parts Store frequently bought together with Cat 7D-7519/9X-7307 | cat_linked_candidate; needs_individual_verification
+318-2579 | Auxiliary Sea Water Pump | Cat Parts Store compare-alternate listing on 30R-1361 Cat Reman Auxiliary Water Pump | cat_linked_candidate; needs_individual_verification
