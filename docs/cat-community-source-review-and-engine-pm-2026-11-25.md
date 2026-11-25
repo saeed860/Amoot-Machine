@@ -1117,3 +1117,22 @@ Master پس از این batch 3847 شماره دارد؛ Mirror و Workflow با
 ### ممیزی هم‌زمانی پس از دور سی‌وششم — 25 Nov 2026
 
 در فاصله ثبت batch و کنترل نهایی، دو شماره دیگر به‌صورت هم‌زمان به Master افزوده شدند. این دو شماره به دور 36 نسبت داده نشده‌اند و بدون تأیید مستقل منبع در CSV این دور وارد نمی‌شوند. Master اکنون 3847 شماره یکتا دارد؛ Mirror و Workflow مجدداً با Master همگام شدند.
+
+## دور سی‌وهشتم — پمپ آب، روغن‌کاری و آب‌بند موتور (25 Nov 2026)
+
+سه شماره جدید از صفحات رسمی Cat Parts Store با نمایش صریح 287B در Compatible Models به Master و CSV اضافه شد:
+- 335-9124 — Water Pump Gasket؛ واشر 8-bolt بین پمپ آب و کاور پمپ، ابعاد 7.3 × 6.3 × 0.04in.
+- 300-3988 — 2.62 × 139.37mm 70A NBR O-Ring؛ قطر داخلی 139.37mm و مقطع 2.62mm؛ Cat می‌گوید ابعاد/جنس برای مرجع‌اند و باید با شیار و سیال تطبیق شوند.
+- 233-5494 — Engine Oil Line Strainer (Suction Bell)؛ مجموعه صافی مکش روغن، نصب با M8، ابعاد کلی 11.09 × 6.54 × 5.48in.
+
+یک قطعه مرتبط از قبل در Master/CSV موجود بود: 336-9856 — Engine Oil Cooler Gasket؛ 287B در Compatible Models، ابعاد 14.57 × 7.4 × 0.08in.
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/product/335-9124
+- https://parts.cat.com/en/catcorp/product/300-3988
+- https://parts.cat.com/en/catcorp/product/233-5494
+- https://parts.cat.com/en/catcorp/product/336-9856
+
+برای واشر پمپ، cover revision و الگوی پیچ؛ برای O-ring، شیار، سیال و دما؛ و برای strainer، محل pickup و آرایش oil pan باید با شماره سریال تطبیق داده شود. شماره 239-8513 در نتایج این دور فقط در فهرست محتویات کیت‌ها/قطعات مرتبط دیده شد و صفحه مستقل Compatible Models آن برای 287B تأیید نشد؛ بنابراین به‌عنوان fitment مستقل اضافه نشد.
+
+Mirror از Master جاری بازسازی و شمارنده Workflow با تعداد خطوط Master تنظیم شد.
