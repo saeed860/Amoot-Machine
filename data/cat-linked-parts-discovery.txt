@@ -3131,3 +3131,15 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 8T-0389 | M10 x 1.5mm Hex Lock Nut | 4 | Cat 562-8197 XQC1600 Power Module Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
 
 Source page: https://parts.cat.com/en/catcorp/product/562-8197
+
+
+## Autonomous discovery checkpoint 185 — target checkpoint 5000 (2026-11-25)
+
+- Completed discovery checkpoints: 101–185 (85 checkpoints beyond the previous 100/110 stage).
+- Baseline immediately before batch 101: 1,093 unique part-number references.
+- Current file: 2,299 raw part-number rows; 1,910 unique part numbers.
+- Net unique growth since baseline: +817 part numbers.
+- Original 787-number seed overlap: 86; unique references beyond original seed: 1,824.
+- Coverage has expanded beyond engine overhaul BOMs into marine transmission, drivetrain and torque-converter bearings, final-drive bearings, hydraulic accumulators, fuel-system gaskets, fastener bins and power-module hardware.
+- Independent supplier file also now holds separately tagged aftermarket price and fitment leads; none are treated as confirmed OEM cost or stock.
+- Continue at batch 186. 185 is a progress marker only, not a stopping point; the requested target remains 5,000 checkpoints.
