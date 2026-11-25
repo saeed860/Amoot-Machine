@@ -1976,3 +1976,21 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 175-7896 | 3.53 x 75.79mm 75A NBR O-Ring | 1 | Cat 379-9131 Bronze Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
 
 Source page: https://parts.cat.com/en/catcorp/product/379-9131
+
+
+## Additional Cat 160H/140H/14H motor-grader silver overhaul-kit BOM candidates — batch 114
+
+Source: official Cat Parts Store product page 417-9506, Engine Overhaul Kit - Silver. Compatible models explicitly shown: MOTOR GRADER 160H, 140H, 163H, 143H, 14H. Twenty-three other first-page items were already in the discovery queue or original seed list and are not duplicated. The nine new entries below are kit BOM evidence only, not standalone orderability, inventory, price, or serial-specific fitment confirmation.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+109-5308 | 10.15mm Thick Oil Pan Cover Gasket | 1 | Cat 417-9506 Motor Grader Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+121-0145 | 28.17mm Inside Diameter Seal-O-Ring | 1 | Cat 417-9506 Motor Grader Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+133-7098 | 124.44mm Diameter Piston Crown | 6 | Cat 417-9506 Motor Grader Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+288-3803 | 6.35mm Inner Diameter Oil Filter Spring | 2 | Cat 417-9506 Motor Grader Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+295-5609 | 3.53 x 32.92mm 75A FKM O-Ring | 1 | Cat 417-9506 Motor Grader Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+2N-5243 | 5.33 x 53.34mm 70A EPDM O-Ring | 2 | Cat 417-9506 Motor Grader Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+315-6714 | Main Water Pump Install Kit | 1 | Cat 417-9506 Motor Grader Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+352-9796 | Gasket (OCL) Kit | 1 | Cat 417-9506 Motor Grader Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+363-6420 | Flywheel Housing Gasket Kit - Rear Structure | 1 | Cat 417-9506 Motor Grader Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+
+Source page: https://parts.cat.com/en/catcorp/product/417-9506
