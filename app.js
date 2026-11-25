@@ -45,7 +45,7 @@ window.setApiProducts = function(rows){db.products=Array.isArray(rows)?rows:[];d
 window.setServerProducts=setServerProducts;
 function categoryInfo(p){
  const raw=String(p.category||'').trim(), name=String(p.name||'').toLowerCase(), t=(name+' '+raw+' '+(p.description||'')).toLowerCase();
- const hasFilterName=/فیلتر|filter|هواکش|breather|جداکننده آب/.test(name);
+ const hasFilterName=/فیلتر|filter|هواکش|breather|جداکننده آب|suction screen|filter screen|screen assembly|strainer/.test(name);
  const hasFilterCategory=/فیلتر|filter|هواکش|breather|جداکننده آب/.test(raw);
  if(hasFilterName||(hasFilterCategory&&!/قطعات موتور و فیلتر/.test(raw))){
   let sub='سایر فیلترها';
