@@ -356,3 +356,28 @@ Master پس از این دور 2,274 شماره یکتا دارد و Mirror با
 ابعاد ثبت‌شده در صفحات Cat: 159-4536 قطر داخلی 0.375in و طول 32.52in؛ 177-1912 قطر داخلی 0.375in و طول 54.724in؛ 231-0124 قطر داخلی 0.625in و طول 79.528in؛ 258-3851 قطر داخلی 0.75in و طول 72.638in. پیش از سفارش، طول واقعی، نوع سرشیلنگ، فشار کاری و مسیر نصب کنترل شود. شماره‌های 258-3851، 258-3662 و 361-9869 به 287B تعمیم داده نمی‌شوند.
 
 در لحظه ثبت این دور، Master دارای 2,368 شماره یکتا است. Mirror، CSV و Workflow باید با شمارنده جاری کنترل شوند؛ تعداد Master ممکن است با تغییرات هم‌زمان تغییر کند.
+
+
+## دور نهم — زیربندی، سوخت و مدار هیدرولیک (25 Nov 2026)
+
+هفت شماره دیگر از صفحات رسمی Cat Parts Store ثبت شد:
+- 261-6150 — Sprocket؛ 287B و 287؛ 12 دندانه و Track Pitch برابر 3.937in.
+- 218-5838 — Hydraulic Control Lines Tube Assembly؛ مدل 287B.
+- 361-9555 — Fuel Water Separator؛ 297C در فهرست مدل‌ها.
+- 233-9856 — Fuel Water Separator؛ 287B و 297C.
+- 349-5327 — Electric Priming Fuel Filter؛ 297C در فهرست مدل‌ها.
+- 200-2371 — Seal Kit؛ 287B و 297C در فهرست مدل‌ها؛ بدون تأیید گروه/کاربرد خاص سفارش داده نشود.
+- 590-8957 — M18x1.5 Metric Flat Face Port Internal Hex Plug؛ 297C در فهرست مدل‌ها.
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/product/261-6150
+- https://parts.cat.com/en/catcorp/product/218-5838
+- https://parts.cat.com/en/catcorp/product/361-9555
+- https://parts.cat.com/en/catcorp/product/233-9856
+- https://parts.cat.com/en/catcorp/product/349-5327
+- https://parts.cat.com/en/catcorp/product/200-2371
+- https://parts.cat.com/en/catcorp/product/590-8957
+
+261-6296 در صفحه رسمی Cat به‌عنوان Track Roller برای 287B دیده شد اما وضعیت آن صریحاً Discontinued است؛ بنابراین دوباره به‌عنوان قطعه جدید یا قابل سفارش وارد Master نشد. 258-2405 نیز پمپ هیدرولیک با وضعیت Discontinued است و به همین دلیل ثبت جدید نشد. اقلام 297C-only نباید به 287B تعمیم داده شوند. برای قطعات زیربندی، گام زنجیر، نوع UC system، آرایش و شماره سریال کنترل شود.
+
+در زمان ثبت، Master دارای 2,413 شماره یکتا است. این عدد ممکن است به‌دلیل به‌روزرسانی‌های هم‌زمان تغییر کند؛ Mirror و Workflow باید دقیقاً از Master جاری همسان شوند.
