@@ -2421,3 +2421,12 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 513-4709 | Twin Turbocharger | 2 | Cat 357-1799 3512B Tier-2 Conversion Kit BOM; arrangement 173-6960 to 282-9665 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
 
 Source page: https://parts.cat.com/en/catcorp/product/357-1799
+
+
+## Cat 357-1809 3512B EUI-to-Tier-2 conversion kit cross-verification — batch 141
+
+Source: official Cat Parts Store product page https://parts.cat.com/en/catcorp/product/357-1809. Compatible model: MARINE ENGINE / 3512B. Conversion from 3512B EUI arrangement 100-8317 to Tier 2 arrangement 320-0275. All nine listed BOM components were already present in the queue or seed list from other Cat sources, so no new SKU rows were added. This confirms the same component set across a distinct arrangement conversion, but does not establish that every part fits other 3512B arrangements.
+
+## Cat 350-2167 3512 MUI-to-Tier-2 conversion kit cross-verification — batch 142
+
+Source: official Cat Parts Store product page https://parts.cat.com/en/catcorp/product/350-2167. Compatible model: MARINE ENGINE / 3512. Conversion from arrangement 2W-8868 to Tier 2 arrangement 320-0275. All nine listed BOM components were already present in the queue or seed list from other Cat sources, so no new SKU rows were added. This is a separate MUI conversion context; do not merge its arrangement mapping with the 3512B EUI kit or infer interchangeability.
