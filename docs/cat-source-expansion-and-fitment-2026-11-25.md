@@ -87,6 +87,7 @@
 | `data/cat-official-equipment-page-parts-2026-11-25.csv` | 130 | Best Sellers و Special Solution صفحات رسمی Cat |
 | `data/cat-compact-track-loader-rubber-track-fitment-2026-11-25.csv` | 45 | الگوی زنجیر لاستیکی CTL/MTL با مدل و ابعاد |
 | `data/cat-motor-grader-k-k2-maintenance-get-fitment-2026-11-25.csv` | 41 | سرویس دوره‌ای، فیلترها، قطعات زیربندی و GET گریدر K/K2 |
+| `data/cat-c18-marine-industrial-engine-official-parts-2026-11-25.csv` | 10 | صفحات رسمی Cat برای C18 Marine/Generator/Petroleum و چند موتور صنعتی |
 
 ## شمارش و ادغام
 
@@ -96,8 +97,10 @@
 - در طول همگام‌سازی، 42 شماره دیگر در commitهای هم‌زمان به master ظاهر شدند؛ این 42 مورد از فایل‌های curated این مرحله نیستند و در این گزارش تأیید مستقل برایشان ادعا نمی‌شود.
 - آخرین شمارش تأییدشده پیش از این مرحله `data/cat-official-part-numbers.txt`: **1224 شماره یکتا**.
 - در مرحله فعلی 45 ردیف Rubber Track از CTL/MTL و 41 ردیف Motor Grader ثبت شد؛ 64 شماره یکتا در این دو فایل وجود داشت و 52 شماره جدید به master افزوده شد.
-- شمارش جاری `data/cat-official-part-numbers.txt`: **1276 شماره یکتا**.
-- فایل `data/offroad-batch-import-cat-1276.txt` دقیقاً با master یکسان است: **1276 ردیف، بدون تکرار**.
+- شمارش جاری پس از ادغام Motor Grader و CTL/MTL: **1276 شماره یکتا**.
+- در مرحله تکمیلی موتورهای C18، ده شماره در صفحات رسمی Cat تأیید و به master افزوده شد.
+- شمارش جاری `data/cat-official-part-numbers.txt`: **1286 شماره یکتا**.
+- فایل `data/offroad-batch-import-cat-1286.txt` دقیقاً با master یکسان است: **1286 ردیف، بدون تکرار**.
 
 ## قواعد داده و سطح اطمینان
 
@@ -116,7 +119,7 @@ Workflow شماره 45574758840 در صفحه‌های اولیه Cat چند tim
 
 ## گام بعدی
 
-1. ادامه استخراج رسمی برای مدل‌های بیشتر excavator، backhoe، motor grader، compact track loader و موتورهای صنعتی؛ مرحله فعلی پوشش اولیه K/K2 grader و track patternهای CTL/MTL را اضافه کرد.
+1. ادامه استخراج رسمی برای مدل‌های بیشتر excavator، backhoe، motor grader، compact track loader و موتورهای صنعتی؛ پوشش اولیه K/K2 grader، track patternهای CTL/MTL و ده قلم C18 ثبت شد.
 2. تکمیل cross-reference با کاتالوگ مستقیم Donaldson، Baldwin، Fleetguard و WIX؛ اختلاف‌ها باید به‌صورت مشاهده‌های جدا ثبت شوند.
 3. کنترل موارد کاندیدا در K-Part با مدل و پیشوند سریال، سپس ثبت فقط داده‌ای که منبع و fitment آن قابل اثبات باشد.
 4. قبل از سفارش/قیمت‌گذاری، همه قطعات مدل‌محور با serial number و کاتالوگ SIS یا Cat Parts Store کنترل شوند.
