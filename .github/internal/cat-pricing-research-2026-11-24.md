@@ -4381,3 +4381,46 @@ Additional Cat-linked discovery candidates from official Cat diagrams/alternate/
 All candidate leads remain separate from fitment claims and require item-level verification before catalog promotion.
 
 Overall reviewed progress: 73/500 batches = 730/5,000 product target (14.6%). Original Cat seed list has 57 SKUs remaining (products 731–787).
+
+## Batch 74/500 — products 731–740 (2026-11-25)
+
+SKUs: 6E-4351, 6I-0036, 6K-0806, 6L-8617, 6T-1140, 6T-1382, 6V-0852, 6V-0937, 6V-3965, 6V-7238. Nine Cat pages opened; 6E-4351 remained inaccessible. Verified fitment/specifications and updated broad-application descriptions where the Cat page exposes hundreds of models that are not yet normalized in the DB.
+
+Verified:
+- 6E-4351: Cat Piston Pump Pin. Existing DB has 27 compatible labels and 7mm OD Carbon Steel. Cat page inaccessible in this run; no unsupported updates made.
+- 6I-0036: Cat 1.83mm ID Fuel Injector Line with collar and swivel nut on both ends. Specs: 24in length ×3.1in height. 36 compatible labels across SR4, 3408B/3408/3408C, 637E/631E, PR-450/PR-450C/PM-565, 834B, 59N/59L/58/58L, 836, 988B/988F, D9R/D9N/D9 GC/D8L, 3412C, rippers 9/8, pipelayer 589, industrial 3408B/3408C, quarry truck 771C, truck 769C, wheel scraper 657E, tractor 768C and bulldozer 834U/834S/8S/8U/9U/9SU/8A. DB fitment count36 and engine tags4 match. Related injector lines 6I-0038/6I-0034/6I-0031/6I-0032/6I-0033.
+- 6K-0806: Cat Nylon 6/6, 6/12, 6/6 Plastic Zip Tie. Specs: 15.35in length, 0.19in strap width, 0.05–4.33in bundle diameter. Cat Compatible Models page lists hundreds of models across toolcarriers, mini excavators, rotary drills, forestry and excavators; list is not normalized into DB compatible_models, so no machine-specific fitment claimed.
+- 6L-8617: Cat Radiator Pressure Cap, direct OEM replacement. Material Polycarbonate Plastic and Carbon Steel. Cat Compatible Models page covers broad pumper, generator, engine, toolcarrier, grader, winch, skidder, marine, excavator, compactor, petroleum package, wheel tractor/loader and related applications; full list is not normalized into DB compatible_models. Related 3J-1907, 248-5513, 3S-9643, 3K-0360 and 3J-7354.
+- 6T-1140: Cat Track Bolt, 0.875in title thread size, 9mm pitch, 87.31mm title length. Specs: 3.437in bolt length, 1.772in grip, RH, Carbon Steel, Cat/ASTM F2882 170 Ksi. Cat Specifications separately report thread size 0.034in; title says 0.875in. Both values retained as source discrepancy. 35 compatible labels across D8/D9 tractors, 3508B generator set, rippers, pipelayers, bulldozers and winches. Related 131-1651, 2K-4472, 9W-4481 and 2H-3932.
+- 6T-1382: Cat Straight Minor Bogie for suspended undercarriage D8–D11 tractors. Material Boron Steel/Microalloy Steel/Carbon Steel; shoe type Extreme Service, Single Grouser, Trapezoidal. 16 compatible labels across D8/D9/D10/D11 track tractors, track loader, ripper, winch, pipelayer, wheel dozer and bulldozer. Related 131-1650 Track Roller Cap, 9W-4489 suspension bogie insert, 7T-5959 bogie suspension resilient pad, 184-4396 steel undercarriage roller guide and 7G-1952 sleeve bearing.
+- 6V-0852: Cat Hydraulic Oil Dust Cap protects fluid-carrying connectors, diagnostic/sampling fittings and quick disconnects from dust, debris and damage. Materials Chloroprene (CR) Rubber and Thermoplastic Plastic. Cat compatible list spans hundreds of models; not normalized in DB. Related 6V-3965 quick-disconnect nipple, 3J-1907 O-ring, 214-7568 STOR seal, 3K-0360 O-ring and 7M-8485 O-ring.
+- 6V-0937: Cat Hex Head Track Bolt. Specs: 2.087in length, 1.181in grip, RH, Carbon Steel, Cat/ASTM F2882 170 Ksi. Cat Compatible Models panel normalized to 63 unique labels across D3–D6/D5–D6H/D6R/D6T tractors, rippers, PL72 pipelayer, 939/953 track loaders, 793C truck, 5/6-series bulldozers, 53/55/56 winches and 517/527 track skidders. Source discrepancy: Cat description gives 5/8-15 UNJF, while the separate specification says Thread Size 0.025in. DB now preserves both and removes a previously erroneous 18mm pitch; 5/8-15 is stored as 15 threads per inch. Related 173-0946 track segment, 235-5974 carrier roller, 6I-8077 track segment, 2S-4078 and 3K-0360 O-rings.
+- 6V-3965: Cat 9/16in Thread Quick Disconnect Nipple, straight SAE STOR-to-male quick disconnect. Plated steel; materials alloy zinc, NBR/HNBR/XNBR, alloy steel, carbon steel and FKM rubber. Cat Compatible Models page spans hundreds of applications and is not normalized in DB. Related 6V-0852 dust cap, 3J-1907 O-ring, 214-7568 STOR seal, 3K-0360 O-ring and 3D-2824 O-ring.
+- 6V-7238: Cat 3/4in Thread Shutoff Valve. Specs: 2.8in length, 1in height; brass material description, alloy brass/steel/copper. Cat compatible page spans broad generator, engine, toolcarrier, wheel tractor, skidder, compactor, mini excavator, drill, forestry, underground truck, excavator and MHPU applications; full list not normalized. Related 3K-0360, 238-5080, 3J-1907, 214-7568 and 3D-2824.
+
+Cat pages:
+- https://parts.cat.com/en/catcorp/product/6E-4351 (inaccessible)
+- https://parts.cat.com/en/catcorp/product/6I-0036
+- https://parts.cat.com/en/catcorp/product/6K-0806
+- https://parts.cat.com/en/catcorp/product/6L-8617
+- https://parts.cat.com/en/catcorp/product/6T-1140
+- https://parts.cat.com/en/catcorp/product/6T-1382
+- https://parts.cat.com/en/catcorp/product/6V-0852
+- https://parts.cat.com/en/catcorp/product/6V-0937
+- https://parts.cat.com/en/catcorp/product/6V-3965
+- https://parts.cat.com/en/catcorp/product/6V-7238
+
+Post-update DB verification counts: 6E-4351=27; 6I-0036=36; 6K-0806=0 (broad Cat list not normalized); 6L-8617=0 (broad list not normalized); 6T-1140=35; 6T-1382=16; 6V-0852=0 (broad list not normalized); 6V-0937=63; 6V-3965=0 (broad list not normalized); 6V-7238=0 (broad list not normalized). No price or stock claims added.
+
+Additional Cat-linked discovery candidates from Cat diagrams/frequently-bought-together:
+- 6I-0036: 6I-0038, 6I-0034, 6I-0031, 6I-0032, 6I-0033.
+- 6L-8617: 3J-1907, 248-5513, 3S-9643, 3K-0360, 3J-7354.
+- 6T-1140: 131-1651, 2K-4472, 9W-4481, 2H-3932.
+- 6T-1382: 131-1650, 9W-4489, 7T-5959, 184-4396, 7G-1952.
+- 6V-0852: 6V-3965, 3J-1907, 214-7568, 3K-0360, 7M-8485.
+- 6V-0937: 173-0946, 235-5974, 6I-8077, 2S-4078, 3K-0360.
+- 6V-3965: 6V-0852, 3J-1907, 214-7568, 3K-0360, 3D-2824.
+- 6V-7238: 3K-0360, 238-5080, 3J-1907, 214-7568, 3D-2824.
+These remain candidate leads only and require item-level verification before catalog promotion.
+
+Overall reviewed progress: 74/500 batches = 740/5,000 product target (14.8%). Original Cat seed list has 47 SKUs remaining (products 741–787).
