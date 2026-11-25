@@ -1228,3 +1228,40 @@ Mirror از Master جاری بازسازی و شمارنده Workflow با تع�
 ### ممیزی نهایی هم‌زمانی پس از دور 40
 
 بازخوانی نهایی بعد از اصلاح Workflow، Master را 3,904 شماره یکتا نشان داد؛ چهار شماره دیگر پس از ممیزی قبلی به‌صورت هم‌زمان اضافه شده بودند. Mirror دقیقاً برابر Master و شمارنده Workflow نیز روی 3,904 تأیید شد؛ CSV به 311 ردیف داده رسیده است. این چهار شماره نیز به دور 40 نسبت داده نمی‌شوند.
+
+
+## دور چهل‌ویکم — انتقال قدرت، پمپ هیدرواستاتیک و زیربندی (25 Nov 2026)
+
+در شروع این دور، Master برابر 3904 شماره یکتا بود؛ این مقدار نسبت به ممیزی قبلی 34 شماره افزایش هم‌زمان داشت و به دور 41 نسبت داده نمی‌شود.
+
+### موارد دارای فیتمنت رسمی 287B
+- 263-4996 — 14 Internal Spline Teeth Piston Pump Coupling Hub؛ فیتمنت 287B و 297C؛ کوپلینگ محرک پمپ هیدرواستاتیک با 14 شیار داخلی و 48 شیار خارجی.
+- 210-0825 — Track Tensioner؛ فیتمنت 287B؛ گروه کشنده زنجیر/ترک.
+- 280-7864 — Radial Piston Motor؛ فیتمنت 287B.
+- 117-3285 — GEAR؛ فیتمنت 287B و 297C.
+- 117-2827 — 46 Teeth Engine Camshaft Gear؛ فیتمنت 287B و 297C؛ چرخ‌دنده 46 دندانه میل‌بادامک.
+
+### موارد مختص 297C — جدا از فهرست 287B
+- 258-3465 — 21cc Gear Pump.
+- 258-3521 — Hydraulic Gear Pump؛ حداکثر فشار اعلام‌شده 25000 kPa.
+- 258-2970 — Axial Piston Motor.
+- 258-2971 — 2 Speed Track Drive Piston Motor.
+- 258-3942 — Seal؛ مشخصات کاربرد/ابعاد در صفحه کافی نیست.
+- 278-8724 — Gear Set Kit برای piston motor؛ صفحه Cat مدل 297C را دارد ولی 287B را ندارد.
+
+صفحه 258-2405 به‌عنوان پمپ Discontinued مشاهده شد و وارد فهرست سفارش‌پذیر نشد. 136-2840 و 7T-1662 بررسی شدند اما Compatible Models آن‌ها شامل 287B یا 297C نبود؛ بنابراین وارد Master فیتمنت این دو مدل نشدند.
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/product/263-4996
+- https://parts.cat.com/en/catcorp/product/210-0825
+- https://parts.cat.com/en/catcorp/product/280-7864
+- https://parts.cat.com/en/catcorp/product/117-3285
+- https://parts.cat.com/en/catcorp/product/117-2827
+- https://parts.cat.com/en/catcorp/product/258-3465
+- https://parts.cat.com/en/catcorp/product/258-3521
+- https://parts.cat.com/en/catcorp/product/258-2970
+- https://parts.cat.com/en/catcorp/product/258-2971
+- https://parts.cat.com/en/catcorp/product/258-3942
+- https://parts.cat.com/en/catcorp/product/278-8724
+
+برای کوپلینگ، تعداد/ابعاد شیار و گروه پمپ؛ برای کشنده ترک، آرایش زیربندی؛ برای موتورهای هیدرولیک، displacement و گروه drive؛ و برای چرخ‌دنده میل‌بادامک، خانواده موتور و timing revision باید با serial number تطبیق داده شود.
