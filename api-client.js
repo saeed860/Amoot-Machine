@@ -82,10 +82,28 @@
    host.querySelectorAll('[data-address-default]').forEach(b=>b.onclick=async()=>{b.disabled=true;try{await api('/api/addresses/'+encodeURIComponent(b.dataset.addressDefault)+'/default',{method:'PATCH',body:{}});await renderServerAddresses(host)}catch(err){window.toast(err.message);b.disabled=false}});
   }catch(err){host.innerHTML='<h3>نشانی‌های من</h3><div class="notice">'+escHtml(err.message)+'</div>'}
  }
+ const recoveryRedirect=()=>location.origin+location.pathname+'?auth=reset';
+ const authRequest=async(path,options={})=>{
+  const response=await fetch('https://mzcvmgxfcbspkyfqtjry.supabase.co/auth/v1/'+path,{...options,headers:{apikey:publicKey,'Content-Type':'application/json',...(options.headers||{})}});
+  const data=await response.json().catch(()=>({}));
+  if(!response.ok)throw new Error(data.msg||data.message||data.error_description||data.error||'درخواست احراز هویت ناموفق بود.');
+  return data;
+ };
+ const showForgot=()=>{
+  window.showModal('<div class="auth-box"><h2>بازیابی رمز عبور</h2><div class="notice">نشانی ایمیل ثبت‌شده در حساب را وارد کنید. لینک امن بازیابی برای شما ارسال می‌شود.</div><form id="apiForgotForm"><div class="field"><label>ایمیل حساب کاربری</label><input name="email" type="email" autocomplete="email" required maxlength="190" placeholder="name@example.com"></div><button class="btn yellow" type="submit" id="apiForgotSubmit">ارسال لینک بازیابی</button><p class="auth-foot" id="apiForgotMessage"></p></form><button class="text-action" type="button" onclick="openAuth(\'login\')">بازگشت به ورود</button></div>');
+  const form=document.querySelector('#apiForgotForm');
+  form.onsubmit=async e=>{e.preventDefault();const button=form.querySelector('button[type=submit]'),message=document.querySelector('#apiForgotMessage'),email=new FormData(form).get('email').trim().toLowerCase();button.disabled=true;message.textContent='در حال ارسال درخواست...';try{await authRequest('recover?redirect_to='+encodeURIComponent(recoveryRedirect()),{method:'POST',body:JSON.stringify({email})});message.textContent='اگر این ایمیل در آموت ثبت شده باشد، لینک بازیابی برای آن ارسال می‌شود. پوشه هرزنامه را نیز بررسی کنید.';form.reset()}catch(err){message.textContent=err.message;button.disabled=false}};
+ };
+ const showReset=accessToken=>{
+  window.showModal('<div class="auth-box"><h2>تعیین رمز عبور جدید</h2><div class="notice">برای امنیت حساب، رمز جدید باید حداقل ۱۰ کاراکتر باشد.</div><form id="apiResetForm"><div class="field"><label>رمز عبور جدید</label><input name="password" type="password" minlength="10" maxlength="128" autocomplete="new-password" required></div><div class="field"><label>تکرار رمز عبور جدید</label><input name="confirm" type="password" minlength="10" maxlength="128" autocomplete="new-password" required></div><button class="btn yellow" type="submit">ذخیره رمز جدید</button><p class="auth-foot" id="apiResetMessage"></p></form></div>');
+  const form=document.querySelector('#apiResetForm');
+  form.onsubmit=async e=>{e.preventDefault();const d=Object.fromEntries(new FormData(form)),button=form.querySelector('button'),message=document.querySelector('#apiResetMessage');if(d.password!==d.confirm){message.textContent='تکرار رمز عبور مطابقت ندارد.';return}button.disabled=true;message.textContent='در حال ذخیره رمز جدید...';try{const result=await authRequest('user',{method:'PATCH',headers:{Authorization:'Bearer '+accessToken},body:JSON.stringify({password:d.password})});localStorage.removeItem(TOKEN_KEY);localStorage.removeItem(USER_KEY);history.replaceState(null,'',location.pathname+location.search);message.textContent='رمز عبور با موفقیت تغییر کرد. اکنون می‌توانید وارد شوید.';form.remove();const back=document.createElement('button');back.className='btn yellow';back.textContent='ورود به حساب';back.onclick=()=>window.openAuth('login');document.querySelector('#modalBody .auth-box').append(back)}catch(err){message.textContent=err.message;button.disabled=false}};
+ };
  const legacyOpenAuth=window.openAuth;
  window.openAuth=mode=>{
-  if(mode==='forgot'){legacyOpenAuth(mode);return}
-  window.showModal('<div class="auth-box"><h2>حساب کاربری آموت ماشین</h2><div class="notice">ورود و ثبت‌نام از طریق سرور انجام می‌شود.</div><div class="auth-tabs"><button type="button" id="apiLoginTab" class="active">ورود</button><button type="button" id="apiRegisterTab">ثبت‌نام</button></div><form id="apiAuthForm"><div class="field" id="apiNameField" hidden><label>نام و نام خانوادگی</label><input name="displayName" minlength="2" maxlength="100"></div><div class="field"><label>شماره موبایل یا ایمیل</label><input name="identifier" required minlength="5" autocomplete="username"></div><div class="field"><label>رمز عبور</label><input name="password" type="password" required minlength="10" maxlength="128" autocomplete="current-password"></div><button class="btn yellow auth-submit" id="apiAuthSubmit">ورود</button><p class="auth-foot" id="apiAuthMessage">رمز عبور باید حداقل ۱۰ کاراکتر باشد.</p></form></div>');
+  if(mode==='forgot'){showForgot();return}
+  if(mode==='reset'){const params=new URLSearchParams(location.hash.slice(1)),token=params.get('access_token');if(params.get('type')!=='recovery'||!token){window.showModal('<div class="auth-box"><h2>لینک بازیابی معتبر نیست</h2><div class="notice">لینک بازیابی منقضی یا نامعتبر است. دوباره درخواست بازیابی رمز بدهید.</div><button class="btn yellow" onclick="openAuth(\'forgot\')">درخواست لینک جدید</button></div>');return}showReset(token);return}
+  window.showModal('<div class="auth-box"><h2>حساب کاربری آموت ماشین</h2><div class="notice">ورود و ثبت‌نام از طریق سرور انجام می‌شود.</div><div class="auth-tabs"><button type="button" id="apiLoginTab" class="active">ورود</button><button type="button" id="apiRegisterTab">ثبت‌نام</button></div><form id="apiAuthForm"><div class="field" id="apiNameField" hidden><label>نام و نام خانوادگی</label><input name="displayName" minlength="2" maxlength="100"></div><div class="field"><label>شماره موبایل یا ایمیل</label><input name="identifier" required minlength="5" autocomplete="username"></div><div class="field"><label>رمز عبور</label><input name="password" type="password" required minlength="10" maxlength="128" autocomplete="current-password"></div><button type="button" class="text-action" onclick="openAuth(\'forgot\')">رمز عبورم را فراموش کرده‌ام</button><button class="btn yellow auth-submit" id="apiAuthSubmit">ورود</button><p class="auth-foot" id="apiAuthMessage">رمز عبور باید حداقل ۱۰ کاراکتر باشد.</p></form></div>');
   let register=mode==='register';
   const form=document.querySelector('#apiAuthForm'),nameField=document.querySelector('#apiNameField'),submit=document.querySelector('#apiAuthSubmit'),message=document.querySelector('#apiAuthMessage');
   const setMode=v=>{register=v;nameField.hidden=!v;nameField.querySelector('input').required=v;submit.textContent=v?'ایجاد حساب':'ورود';document.querySelector('#apiLoginTab').classList.toggle('active',!v);document.querySelector('#apiRegisterTab').classList.toggle('active',v)};
@@ -99,6 +117,9 @@
   }catch(err){message.textContent=err.message==='API_NOT_CONFIGURED'?'نشانی API تنظیم نشده است.':err.message;submit.disabled=false}
   };
  };
+
+ const recoveryParams=new URLSearchParams(location.hash.slice(1));
+ if(recoveryParams.get('type')==='recovery')window.openAuth('reset');
 
  const legacyOpenQuote=window.openQuote;
  window.openQuote=(name='')=>{legacyOpenQuote(name);const form=document.querySelector('#quoteForm');if(!form)return;form.onsubmit=async e=>{e.preventDefault();const d=Object.fromEntries(new FormData(form));const button=form.querySelector('button[type=submit],button:not([type])');if(button)button.disabled=true;try{const result=await api('/api/quotes',{method:'POST',body:{name:d.name,phone:d.phone,message:d.details,productSku:(d.details.match(/کد کالا:\s*([^|]+)/)||[])[1]?.trim()}});window.closeModal();window.toast('درخواست استعلام با شماره '+result.quote.quoteNumber+' در سرور ثبت شد.')}catch(err){window.toast(err.message);if(button)button.disabled=false}}};
