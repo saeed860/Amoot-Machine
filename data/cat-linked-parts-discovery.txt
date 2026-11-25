@@ -2815,3 +2815,40 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 2H-6338 | 3.53 x 85.32mm 75A NBR O-Ring | 2 | Cat 446-8142 793D/793F Final Drive Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
 
 Source page: https://parts.cat.com/en/catcorp/product/446-8142
+
+
+## Additional Cat motor-grader blade-cushion accumulator kit BOM candidates — batch 170
+
+Source: official Cat Parts Store product page 442-8144, Blade Cushion Accumulator Kit. Compatible models explicitly shown: MOTOR GRADER / 140M 3 AWD, 140, 12M, 12M 3, 12M 2, 140M, 160M 2, 160M 3 AWD, 160M 3, 140M 3, 140M 2, 120M 2, 160M. Cat describes the kit as enabling installation of blade-lift accumulators to dampen moldboard shocks and reduce damage to the drawbar, circle and moldboard. Four other listed items were already present in the queue or seed list and are not duplicated. The 28 new rows below broaden coverage into hydraulics, hoses, accumulator groups, adapters and electrical controls; verify machine series and kit configuration before ordering.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+091-0081 | 11mm Inside Diameter Steel Spacer | 1 | Cat 442-8144 Motor Grader Blade Cushion Accumulator Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+111-9110 | Protector-Gas Valve | 1 | Cat 442-8144 Motor Grader Blade Cushion Accumulator Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+121-1344 | Hose Assembly | 1 | Cat 442-8144 Motor Grader Blade Cushion Accumulator Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+122-0450 | 23.00mm Internal Diameter Rubber Grommet | 3 | Cat 442-8144 Motor Grader Blade Cushion Accumulator Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+133-7810 | 45mm Long Taper Lock Steel Stud | 2 | Cat 442-8144 Motor Grader Blade Cushion Accumulator Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+162-7449 | Clamp For Hydraulic Accumulator | 2 | Cat 442-8144 Motor Grader Blade Cushion Accumulator Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+170-0493 | Accumulator Seal Kit | 1 | Cat 442-8144 Motor Grader Blade Cushion Accumulator Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+171-5368 | Hose Assembly | 1 | Cat 442-8144 Motor Grader Blade Cushion Accumulator Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+180-3998 | 55mm Long Straight Steel Stud | 3 | Cat 442-8144 Motor Grader Blade Cushion Accumulator Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+222-2367 | 1/2in Thread Accumulator Charging Valve | 1 | Cat 442-8144 Motor Grader Blade Cushion Accumulator Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+241-0037 | Warning Film Label | 1 | Cat 442-8144 Motor Grader Blade Cushion Accumulator Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+249-5487 | Switch Assembly-Rocker | 1 | Cat 442-8144 Motor Grader Blade Cushion Accumulator Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+250-5611 | Hose Assembly | 1 | Cat 442-8144 Motor Grader Blade Cushion Accumulator Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+251-9990 | Hose Assembly | 1 | Cat 442-8144 Motor Grader Blade Cushion Accumulator Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+300-6576 | Hose Assembly | 1 | Cat 442-8144 Motor Grader Blade Cushion Accumulator Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+320-8117 | Valve Group-Solenoid | 2 | Cat 442-8144 Motor Grader Blade Cushion Accumulator Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+330-6552 | Hydraulic Lines Mounting Plate | 1 | Cat 442-8144 Motor Grader Blade Cushion Accumulator Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+348-9258 | Accumulator Group-Service | 2 | Cat 442-8144 Motor Grader Blade Cushion Accumulator Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+4N-5091 | Washer | 2 | Cat 442-8144 Motor Grader Blade Cushion Accumulator Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+5G-3676 | 20mm ID Dual Flange Symmetrical Grommet | 4 | Cat 442-8144 Motor Grader Blade Cushion Accumulator Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+5M-3062 | 3/8-16 x 3/4 Hex Head Bolt | 2 | Cat 442-8144 Motor Grader Blade Cushion Accumulator Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+6D-4244 | 22.22mm Internal Diameter Single Tube Loop Clip | 3 | Cat 442-8144 Motor Grader Blade Cushion Accumulator Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+6D-4247 | Dual Hose P Clip | 2 | Cat 442-8144 Motor Grader Blade Cushion Accumulator Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+6V-1722 | 1-1/16-12 Hex Head Straight Adapter | 1 | Cat 442-8144 Motor Grader Blade Cushion Accumulator Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+6V-8625 | 3/4-16 x 13/16-16 Thread 90-Degree Elbow Adapter | 4 | Cat 442-8144 Motor Grader Blade Cushion Accumulator Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+6V-8639 | 22.23mm Hexagonal Plate Steel Straight Adapter | 1 | Cat 442-8144 Motor Grader Blade Cushion Accumulator Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+6V-8723 | ORFS to STOR 90 Degree Elbow Adaptor | 1 | Cat 442-8144 Motor Grader Blade Cushion Accumulator Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+6V-9837 | 13/16in Tee Adapter | 2 | Cat 442-8144 Motor Grader Blade Cushion Accumulator Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+
+Source page: https://parts.cat.com/en/catcorp/product/442-8144
