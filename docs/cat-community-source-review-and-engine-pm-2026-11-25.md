@@ -2034,3 +2034,14 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - https://parts.cat.com/en/catcorp/product/373-9662
 
 شماره 373-9662 به Master و CSV مستقل 297C-only افزوده شد؛ 216-0066 و 258-3662 از قبل در Master بودند و ردیف CSV آن‌ها تکمیل شد. هیچ‌یک به فیتمنت 287B تعمیم داده نشدند. برای 216-0066، قطر 50.8mm و اتصال turbocharger/aftercooler؛ برای 258-3662، مسیر fuel filter/water separator و اتصالات؛ و برای 373-9662، مسیر crankcase fumes و engine emissions configuration باید کنترل شوند.
+
+## دور ۶۷ — ممیزی جداسازی CSV فیتمنت (25 Nov 2026)
+
+ممیزی تطبیقی Master، CSV رسمی 287B و CSV مستقل 297C-only پنج مورد را پیدا کرد که در CSV 287B به اشتباه باقی مانده بودند، در حالی که صفحات رسمی Cat فقط 297C و مدل‌های C مرتبط را نشان می‌دادند:
+- 278-8720 — Fan Motor Group.
+- 258-2552 — 9 Blade Aftercooler Fan.
+- 258-2881 — Work Tool Positioner Hydraulic Tube.
+- 216-0066 — Air Line Hose.
+- 258-3662 — Water Separator and Fuel Filter Hose.
+
+این پنج ردیف از CSV فیتمنت 287B حذف شدند و در CSV مستقل 297C-only باقی ماندند. هیچ شماره‌ای از Master عمومی حذف نشد؛ Master فهرست شماره‌های OEM است، در حالی که CSVها مرجع فیتمنت مدل هستند. پس از این اصلاح، اشتراک این پنج شماره با CSV 287B صفر شد.
