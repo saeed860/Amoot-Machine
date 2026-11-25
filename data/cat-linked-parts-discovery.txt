@@ -1467,3 +1467,9 @@ Source pages:
 6I-0032 | 1.83mm Inner Diameter Fuel Injector Line | Cat Parts Store related fuel injector line for 6I-0036 | cat_linked_candidate; needs_individual_verification
 6I-0033 | 1.83mm Inner Diameter Fuel Injector Line | Cat Parts Store related fuel injector line for 6I-0036 | cat_linked_candidate; needs_individual_verification
 6I-8077 | Track Segment | Cat Parts Store frequently bought together with 6V-0937 track bolt | cat_linked_candidate; needs_individual_verification
+
+2W-1240 | 30.15mm Inner Diameter Compressor Seal Ring | Cat Parts Store related to 7E-0688 turbocharger seal ring | cat_linked_candidate; needs_individual_verification
+6V-6353 | 3.53 x 101.19mm 75A FKM O-Ring | Cat Parts Store related to 7E-0688 turbocharger seal ring | cat_linked_candidate; needs_individual_verification
+2W-1234 | 34.6mm Inner Diameter Turbine Seal Ring | Cat Parts Store related to 7E-0688 turbocharger seal ring | cat_linked_candidate; needs_individual_verification
+7E-0693 | Turbocharger Bearing | Cat Parts Store related to 7E-0688 turbocharger seal ring | cat_linked_candidate; needs_individual_verification
+2W-1233 | Turbocharger Bearing | Cat Parts Store related to 7E-0688 turbocharger seal ring | cat_linked_candidate; needs_individual_verification
