@@ -816,3 +816,27 @@ Mirror از Master جاری بازسازی و شمارنده Workflow با تع�
 نکته مهم: کیت‌های seal سیلندر و شیر، فیتمنت مدل را نشان می‌دهند اما شماره کیت باید با cylinder/valve group و شماره سریال تطبیق داده شود؛ برخی صفحات Cat فهرست قطعات داخل کیت را نمایش نمی‌دهند. برای شیلنگ سوخت، قطر، نوع اتصال و مسیر؛ برای درپوش صافی، رزوه/دهانه و سیستم vent باید کنترل شود. قطعه 230-3705 در نتایج Cat Discontinued بود و وارد فهرست فعال سفارش‌پذیر نشد.
 
 Mirror از Master جاری بازسازی و شمارنده Workflow با تعداد خطوط Master تنظیم شد.
+
+## دور بیست‌وهشتم — کیت‌های شیر پایلوت، relief و واشر فلایویل (25 Nov 2026)
+
+هفت شماره جدید از صفحات رسمی Cat Parts Store با نمایش صریح 287B در Compatible Models به Master و CSV اضافه شد:
+- 289-9560 — Seal Kit (Pilot Valve)؛ شامل O-ring لاستیکی، پین فولادی و پیچ مونتاژ.
+- 151-4965 — Seal Kit (Pilot Valve)؛ شامل O-ring، پین و پیچ.
+- 218-6856 — Seal Kit؛ وزن فهرست‌شده 0.18lb؛ محتویات در صفحه Cat فهرست نشده است.
+- 437-2877 — Pilot Valve Seal Kit؛ شامل O-ringها و پیچ/بولت هم‌راستاسازی طبق توضیح Cat.
+- 227-5509 — Relief Valve Seal Kit.
+- 272-6538 — Solenoid Valve Group Seal Kit.
+- 103-9280 — Fly Wheel Housing Gasket؛ ابعاد 11.1 × 8 × 0.02 اینچ.
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/product/289-9560
+- https://parts.cat.com/en/catcorp/product/151-4965
+- https://parts.cat.com/en/catcorp/product/218-6856
+- https://parts.cat.com/en/catcorp/product/437-2877
+- https://parts.cat.com/en/catcorp/product/227-5509
+- https://parts.cat.com/en/catcorp/product/272-6538
+- https://parts.cat.com/en/catcorp/product/103-9280
+
+برای هر کیت آب‌بندی، فیتمنت مدل به‌تنهایی کافی نیست: شماره گروه شیر پایلوت/relief/solenoid، شماره سریال، revision و فشار تنظیم باید تطبیق داده شود. برای واشر فلایویل نیز خانواده موتور و نسخه housing بررسی شود. شماره 141-0888 در این جست‌وجو فهرست Compatible Models قابل اتکایی برای 287B نداشت؛ بنابراین ثبت نشد.
+
+Mirror از Master جاری بازسازی و شمارنده Workflow با تعداد خطوط Master تنظیم شد.
