@@ -103,24 +103,35 @@
  let googleClient=null;
  const getGoogleClient=()=>{
   if(!window.supabase?.createClient)throw new Error('کتابخانه ورود گوگل بارگذاری نشده است. صفحه را تازه‌سازی کنید.');
-  if(!googleClient)googleClient=window.supabase.createClient('https://mzcvmgxfcbspkyfqtjry.supabase.co',publicKey,{auth:{flowType:'pkce',autoRefreshToken:true,persistSession:true,detectSessionInUrl:true,storageKey:'amoot_google_auth_v1'}});
+  if(!googleClient)googleClient=window.supabase.createClient('https://mzcvmgxfcbspkyfqtjry.supabase.co',publicKey,{auth:{flowType:'pkce',autoRefreshToken:true,persistSession:true,detectSessionInUrl:false,storageKey:'amoot_google_auth_v1'}});
   return googleClient;
  };
  const completeGoogleCallback=async()=>{
-  if(new URLSearchParams(location.search).get('auth')!=='google-callback')return;
-  const message=document.querySelector('#apiAuthMessage');
+  const params=new URLSearchParams(location.search);
+  if(params.get('auth')!=='google-callback')return;
+  let message=document.querySelector('#apiAuthMessage');
   try{
    const client=getGoogleClient();
-   const {data:{session},error}=await client.auth.getSession();
-   if(error)throw error;
-   if(!session?.access_token)throw new Error('ورود گوگل کامل نشد؛ دوباره تلاش کنید.');
+   let session=null;
+   const code=params.get('code');
+   if(code){
+    const exchanged=await client.auth.exchangeCodeForSession(code);
+    if(exchanged.error)throw exchanged.error;
+    session=exchanged.data?.session||null;
+   }else{
+    const current=await client.auth.getSession();
+    if(current.error)throw current.error;
+    session=current.data?.session||null;
+   }
+   if(!session?.access_token)throw new Error('کد بازگشت از گوگل دریافت شد، اما نشست معتبر ساخته نشد. دوباره ورود با گوگل را انجام دهید.');
    if(message)message.textContent='ورود گوگل تأیید شد؛ در حال اتصال حساب آموت...';
    const response=await fetch(base+'/api/auth/google-session',{method:'POST',headers:{apikey:publicKey,'Content-Type':'application/json',Authorization:'Bearer '+session.access_token}});
    const result=await response.json().catch(()=>({}));
    if(!response.ok)throw new Error(result?.error?.message||'اتصال حساب گوگل به آموت ناموفق بود.');
+   if(!result.token||!result.user?.id)throw new Error('پاسخ سرور آموت ناقص است؛ ورود تکمیل نشد.');
    localStorage.setItem(TOKEN_KEY,result.token);
    localStorage.setItem(USER_KEY,JSON.stringify(result.user));
-   const u={id:result.user.id,name:result.user.displayName,contact:result.user.identifier,profile:result.user.profile||{},addresses:[],favorites:[],orders:[]};
+   const u={id:result.user.id,name:result.user.displayName||session.user?.user_metadata?.full_name||session.user?.email||'کاربر آموت',contact:result.user.identifier||session.user?.email||'',profile:result.user.profile||{},addresses:[],favorites:[],orders:[]};
    if(typeof window.persistUser==='function')window.persistUser(u);
    await client.auth.signOut();
    history.replaceState(null,'',location.pathname+location.hash);
@@ -129,6 +140,9 @@
    window.accountDashboard?.();
   }catch(err){
    console.error('[Google auth]',err);
+   history.replaceState(null,'',location.pathname+location.hash);
+   window.openAuth?.('login');
+   message=document.querySelector('#apiAuthMessage');
    if(message)message.textContent=err.message||'ورود با گوگل ناموفق بود.';
    else window.toast(err.message||'ورود با گوگل ناموفق بود.');
   }
