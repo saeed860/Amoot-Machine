@@ -1388,3 +1388,18 @@ Source pages:
 139-4834 | Element Assembly | Cat Parts Store frequently bought together with 575-8723 rubber track | cat_linked_candidate; needs_individual_verification
 234-9828 | Engine Air Filter | Cat Parts Store frequently bought together with 575-8723 rubber track | cat_linked_candidate; needs_individual_verification
 572-2740 | Cat Front Housing Install Gasket Kit; 21 BOM lines; 8 compatible model labels | Official Cat item page individually checked in batch 66 | cat_linked_candidate; item_page_verified; needs_catalog_insert_and_fitment_review
+
+1P-7625 | 37 Degree to STOR 90 Degree Elbow Adaptor | Cat Parts Store frequently bought together with 595-3920 fuel hose | cat_linked_candidate; needs_individual_verification
+597-3014 | Centrifugal Oil Lines Tube | Cat Parts Store frequently bought together with 595-3920 fuel hose | cat_linked_candidate; needs_individual_verification
+7E-8860 | 183mm Long Bracket | Cat Parts Store frequently bought together with 595-3920 fuel hose | cat_linked_candidate; needs_individual_verification
+2P-7636 | 41.7mm Long Straight Adapter | Cat Parts Store frequently bought together with 595-3920 fuel hose | cat_linked_candidate; needs_individual_verification
+609-9131 | Pressure Sensor | Cat Parts Store frequently bought together with 596-1051 fuel supply valve | cat_linked_candidate; needs_individual_verification
+445-0939 | Ultra High Efficiency Fuel Filter | Cat Parts Store frequently bought together with 596-1051 fuel supply valve | cat_linked_candidate; needs_individual_verification
+368-3780 | Bucket Adapter | Cat Parts Store frequently bought together with 597-6033 bucket tip | cat_linked_candidate; needs_individual_verification
+368-3781 | Bucket Adapter | Cat Parts Store frequently bought together with 597-6033 bucket tip | cat_linked_candidate; needs_individual_verification
+368-3782 | Bucket Adapter | Cat Parts Store frequently bought together with 597-6033 bucket tip | cat_linked_candidate; needs_individual_verification
+132-0999 | Tip Pin Retainer | Cat Parts Store frequently bought together with 597-6033 bucket tip | cat_linked_candidate; needs_individual_verification
+7E-6016 | 0.8mm Thick Engine Cover Gasket | Cat Parts Store frequently bought together with 598-5827 cylinder head install kit | cat_linked_candidate; needs_individual_verification
+161-8068 | 142.47mm Inner Diameter Seal O-Ring | Cat Parts Store frequently bought together with 599-7781 major overhaul kit | cat_linked_candidate; needs_individual_verification
+2G-6303 | 30mm Internal Diameter Circular Seal | Cat Parts Store frequently bought together with 599-7781 major overhaul kit | cat_linked_candidate; needs_individual_verification
+141-7116 | 1093mm Long Ribbed Serpentine Belt | Cat Parts Store frequently bought together with 599-7781 major overhaul kit | cat_linked_candidate; needs_individual_verification
