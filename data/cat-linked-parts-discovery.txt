@@ -3089,3 +3089,27 @@ Source: official Cat Parts Store product page https://parts.cat.com/en/catcorp/p
 ## Cat 213-0942 R2900/R2900G hydraulic-cylinder seal kit — no current BOM rows published (batch 183)
 
 Source: official Cat Parts Store product page https://parts.cat.com/en/catcorp/product/213-0942. Compatible models explicitly shown: LOAD HAUL DUMP / R2900, R2900G. Cat's description says hydraulic-cylinder seal kits are application-specific to a cylinder group part number and include seals for a complete reseal. The current official page explicitly states there are currently no parts associated with this kit; the older search-index list was not imported. No part numbers inferred; obtain cylinder-group reference and dealer BOM before ordering.
+
+
+## Additional Cat 320 excavator inch-coarse fastener-kit BOM candidates — batch 184
+
+Source: official Cat Parts Store product page 178-2210, Fastener Kit - Inch Coarse. Compatible model explicitly shown: EXCAVATOR / 320. Cat describes the kit as a general-use hardware bin kit containing 5 thread sizes, 7 assorted lengths, 34 part numbers and 934 pieces, phosphate-and-oil coated, SAE J429 Grade 8. The current page exposes 26 of the 34 part numbers; eleven displayed items were already present in the discovery queue or seed list and are not duplicated. The fifteen new rows below are official kit contents, not standalone machine-specific fitment; the remaining eight kit numbers are not yet exposed by the page.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+0T-0319 | 7/16-14 x 2 Hex Head Bolt | 10 | Cat 178-2210 320 Inch-Coarse Fastener Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; 8_of_34_kit_numbers_not_exposed
+3S-1546 | 7/16-14 Hex Nut | 40 | Cat 178-2210 320 Inch-Coarse Fastener Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; 8_of_34_kit_numbers_not_exposed
+241-1855 | 1/2-13 x 2 Hex Head Bolt | 10 | Cat 178-2210 320 Inch-Coarse Fastener Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; 8_of_34_kit_numbers_not_exposed
+0T-0772 | 7/16-14 Thread Hex Head Bolt | 10 | Cat 178-2210 320 Inch-Coarse Fastener Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; 8_of_34_kit_numbers_not_exposed
+0S-1621 | 1/2-13 Hexagonal Head Bolt | 8 | Cat 178-2210 320 Inch-Coarse Fastener Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; 8_of_34_kit_numbers_not_exposed
+165-3935 | 3/8-16 x 3 Hex Head Bolt | 10 | Cat 178-2210 320 Inch-Coarse Fastener Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; 8_of_34_kit_numbers_not_exposed
+1D-4540 | 5/16-18 x 2 3/4 Hex Head Bolt | 10 | Cat 178-2210 320 Inch-Coarse Fastener Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; 8_of_34_kit_numbers_not_exposed
+4F-5192 | 7/16-14 Threaded External Hexagonal Headed Bolt | 10 | Cat 178-2210 320 Inch-Coarse Fastener Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; 8_of_34_kit_numbers_not_exposed
+5P-8244 | 7/16in ID Steel Flat Washer | 40 | Cat 178-2210 320 Inch-Coarse Fastener Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; 8_of_34_kit_numbers_not_exposed
+5P-8245 | M12 ID Steel Flat Washer | 38 | Cat 178-2210 320 Inch-Coarse Fastener Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; 8_of_34_kit_numbers_not_exposed
+1D-4703 | 7/16-14 x 2 1/2 Hex Head Bolt | 10 | Cat 178-2210 320 Inch-Coarse Fastener Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; 8_of_34_kit_numbers_not_exposed
+2B-2694 | 5/16-18 Threaded External Hexagonal Headed Bolt | 10 | Cat 178-2210 320 Inch-Coarse Fastener Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; 8_of_34_kit_numbers_not_exposed
+261-5615 | 3/8-16 x 2 1/2 Hex Head Bolt | 10 | Cat 178-2210 320 Inch-Coarse Fastener Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; 8_of_34_kit_numbers_not_exposed
+245-3804 | 3/8-16 x 3 1/2 Hex Head Bolt | 10 | Cat 178-2210 320 Inch-Coarse Fastener Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; 8_of_34_kit_numbers_not_exposed
+5S-0003 | 5/16-18 Hex Nut | 38 | Cat 178-2210 320 Inch-Coarse Fastener Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; 8_of_34_kit_numbers_not_exposed
+
+Source page: https://parts.cat.com/en/catcorp/product/178-2210
