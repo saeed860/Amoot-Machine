@@ -5011,3 +5011,37 @@ Post-update verification: all ten SKUs exist with Cat official item-page evidenc
 Eight further related leads added: 4J-0522, 4J-5267, 6V-8398, 485-4705, 6Y-0473, 355-9850, 612-5212 and 605-9149. They remain candidates pending their own item-page checks.
 
 Overall reviewed progress: 89/500 batches = 890/5,000 product target (17.8%). Original Cat seed list 787/787 complete; discovery-derived products individually verified/updated: 123. Remaining target: 4,110 products.
+
+## Batch 90/500 — Cat-linked discovery candidates 101–110 (2026-11-25)
+
+Ten pending candidates were individually checked on Cat Parts Store. All ten were newly inserted into the catalog and re-queried after insertion. The English page for 2W-6667 could not be retrieved, so the official Cat Spanish locale page was used; no supplier substitution.
+
+Verified:
+- 288-0947 — High-Temperature Single-Flange Track Roller Group, 210mm tread. Mounting width 9.824in, HDXL UC, M20 cap bolt, outside spread 8.933in, inside 3.969in, tread 8.268in, traverse spacing 4.5in, cap bolt hole 0.866in, shaft length 14.508in, shaft OD 2.341in, axial spacing 12.998in, outer flange OD 9.449in. Fitment D6R/D6R III/D6T/D6R II and 963D/963B/963C/963/963K (9 labels). Cat explicitly says SINGLE FLANGE.
+- 396-7353 — General-Duty Single-Flange Track Roller Group. Tread 8.268in, mounting width 10.159in, M20 cap bolt, outside/inside spread 9.26/3.969in, flange diameter 9.45in, width 7.44in, shaft length 14.508in, shaft OD 2.341in, outer flange 9.449in, axial spacing 12.925in, traverse spacing 4.5in, cap bolt hole 0.866in; not carrier-roller compatible. Fitment D6T/D6GC (2 labels). Cat says no kit components associated.
+- 20R-8062 — Cat Reman Fuel Injector (H1315B) (C9) (2.2 SF). Cat Reman brand/condition retained. Cat states specifications are still being added; compatible models C-9/C9 only. Same-as-new 12-month Caterpillar Parts Warranty subject to limitations.
+- 2W-6289 — 12.58mm ID Fuel Injection Lines Tube Assembly. 37-degree flared both ends, nut/sleeve fitting, carbon steel. Cat fitment includes 3508/3512/3516/3516B genset engines, SR4/SR5 generators, 3500-series generator sets, 3512C/3516/3512E/3508/3508C/3508B/3516B/3516C/3512B/3516E marine engines, marine auxiliary, industrial and petroleum applications (17 normalized labels).
+- 2W-6667 — 4.57mm ID Fuel Filter Tube Assembly. Cat description says it withstands 1000kPa and is engineered for secure, leak-free fuel connection. Specifications are still being added. Verified through official Cat Spanish locale page; fitment includes SR4, 3508B off-highway truck, 3500-series marine/marine auxiliary engines, gensets, industrial and petroleum engines (16 normalized labels).
+- 7C-7677 — 9.52mm OD Fuel Injection Tube. Length 12in, height 2in, carbon steel; Cat says fuel-injection tubes deliver fuel to engines. 41 normalized labels across SPF343 pumper, SR4/SR5/SR4B/SR4BHV, 3500-series power modules, 789/793/785 trucks, RC20 cutter, 6060 shovel, D11 tractors, MD6540C/MD6380 drills and marine/industrial/petroleum engines.
+- 6V-5048 — 1.83 ×8.92mm 75A FKM O-ring for oil-filter mounting plug. Cross-section 0.072in, ID 0.351in (8.92mm), FKM fluorocarbon rubber, 75A. Compatible fluids: diester lubricants, halogenated hydrocarbons above 100°C, petroleum/phosphate-ester/silicone fluids and some acids. 40 normalized labels across IT toolcarriers, 550/570/580 harvesters, 3608 military genset, MD drills, 308/309/310 mini excavators and forestry/feller bunchers.
+- 449-2274 — Cantilever Carrier Roller Group, 160mm tread, General Duty. Tread diameter 6.3in, shaft mount length 2.945in, outside/inside spread 7.638/2.165in, shaft OD 1.874in, flange OD 7.402in, tread OD 6.299in. Public Cat compatible model panel shows only 336D excavator.
+- 6Y-5685 — Plain-Steel Offset Track Sprocket, 16 bolts, 23 teeth, 215.9mm pitch. Carbon/alloy steel, bushing radius 1.339in, HD UC, relieved, tooth width 3.15in, inner diameter 20.283in, bolt circle 22.283in, pitch 8.5in, tip diameter 31.969in, backlash 0.394in, offset mount, pocket angle 60°, M24 bolts, pitch-circle diameter 800.2mm. 70 normalized labels across MD6200, track feller bunchers, broad excavator models and 330D/336F MHPU variants.
+- 136-2422 — Standard Idler Group, 204mm rim width, 635mm tread, conventional tread, interchangeable machine side. Specs: tread 25in, center flange width 3.74in, center flange diameter 26.575in, HD UC, shaft length 14.764in, shaft protrusion 3.373in, bearing mount length 14.567in, rim width 8.031in, M20 cap bolt, shaft OD 3.346in. 74 normalized compatible labels across MD6200/6250/6240/6290 drills, 521/532/TK forestry, 548, 330/336/340 excavators and MHPU families. Cat shows alternate idler listings but these are not asserted interchangeable without serial-specific confirmation.
+
+Cat item pages:
+- https://parts.cat.com/en/catcorp/product/288-0947
+- https://parts.cat.com/en/catcorp/product/396-7353
+- https://parts.cat.com/en/catcorp/product/20R-8062
+- https://parts.cat.com/en/catcorp/product/2W-6289
+- https://parts.cat.com/es/catcorp/product/2W-6667
+- https://parts.cat.com/en/catcorp/product/7C-7677
+- https://parts.cat.com/en/catcorp/product/6V-5048
+- https://parts.cat.com/en/catcorp/product/449-2274
+- https://parts.cat.com/en/catcorp/product/6Y-5685
+- https://parts.cat.com/en/catcorp/product/136-2422
+
+Post-update verification: all ten SKUs exist with Cat official item-page evidence and REFERENCE status. Ten inserted. Fitment counts after de-duplication: 288-0947=9; 396-7353=2; 20R-8062=2; 2W-6289=17; 2W-6667=16; 7C-7677=41; 6V-5048=40; 449-2274=1; 6Y-5685=70; 136-2422=74. No pricing/stock or interchange guarantee added.
+
+Eighteen further related leads added: 449-2304, 300-4545, 179-3428, 179-3047, 179-3048, 449-2293, 465-1559, 625-8218, 115-3696, 248-7143, 567-7852, 567-7867, 575-6593, 602-9393, 622-2492, 7C-7678, 7W-2122 and 2W-6672. They remain unverified candidates until their own item pages are checked.
+
+Overall reviewed progress: 90/500 batches = 900/5,000 product target (18.0%). Original Cat seed list 787/787 complete; discovery-derived products individually verified/updated: 133. Remaining target: 4,100 products.
