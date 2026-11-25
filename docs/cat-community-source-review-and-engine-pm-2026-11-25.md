@@ -2749,3 +2749,12 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - 258-4225 — Operator Cabin Floor Mat به‌عنوان شماره جدید به Master و CSV مستقل 297C-only اضافه شد. صفحه رسمی Cat مدل‌های 287C، 277C، 297C، 287C2 و 277C2 را فهرست می‌کند و 287B در فهرست نیست. کف‌پوش با مهره جوشی M6 عرضه می‌شود؛ فرم کف و نقاط نصب باید تطبیق داده شود.
 - منابع رسمی: https://parts.cat.com/en/catcorp/product/258-2982 ؛ https://parts.cat.com/en/catcorp/product/258-4225
 - شمارنده هدف پس از ثبت: 4410 شماره یکتا؛ Mirror byte-exact و Workflow برابر 4410.
+
+
+## دور ۸۱ — 25 Nov 2026
+
+- 336-9857 — Bolt از صفحه رسمی Cat Parts Store بررسی شد؛ Compatible Models صریحاً 287B و 297C را شامل می‌شود؛ شماره جدید به Master و CSV 287B افزوده شد. رزوه، طول و گرید باید با parts diagram تطبیق داده شود.
+- 158-6694 — Gauge & Warning Instrument Panel قبلاً در Master بود اما ردیف فیتمنت CSV 287B نداشت؛ ردیف آن تکمیل شد. چیدمان نشانگرها، چراغ‌های هشدار و اتصالات دسته‌سیم باید با نسخه کنسول تطبیق داده شود.
+- 234-0733 — Bracket-Cast در Master تاریخی باقی ماند، اما صفحه رسمی Cat آن را Discontinued نشان می‌دهد؛ ردیف CSV اصلاح و صریحاً غیرقابل سفارش علامت‌گذاری شد.
+- منابع رسمی: https://parts.cat.com/en/catcorp/product/336-9857 ؛ https://parts.cat.com/en/catcorp/product/158-6694 ؛ https://parts.cat.com/en/catcorp/product/234-0733
+- شمارنده هدف پس از ثبت: 4411 شماره یکتا؛ Mirror byte-exact و Workflow برابر 4411.
