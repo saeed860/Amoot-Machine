@@ -131,14 +131,14 @@ part_number | displayed description | source context | status
 311-1300 | Bogie pin assembly cartridge | Frequently bought together with Cat 261-8287 minor bogie | cat_item_page_verified; existing_catalog_row_updated; fitment_verified
 187-3298 | Hardened steel undercarriage roller guide | Related part shown on Cat 261-8287 page | cat_item_page_verified; existing_catalog_row_updated; fitment_verified; material_corrected_to_Boron_Steel
 3P-2482 | 57.6mm wide resilient pad | Related part shown on Cat 261-8287 page | cat_item_page_verified; inserted_part_catalog; fitment_verified
-306-9457 | Track roller mount cap | Related part shown on Cat 261-8287 page | cat_linked_candidate; needs_individual_verification
-3T-9075 | Suspension bogie insert | Related part shown on Cat 261-8287 page | cat_linked_candidate; needs_individual_verification
-110-6326 | Air cleaner primary element | Related part shown on Cat 265-6618 cabin filter page | cat_linked_candidate; needs_individual_verification
-110-6331 | Secondary standard-efficiency engine air filter | Related part shown on Cat 265-6618 cabin filter page | cat_linked_candidate; needs_individual_verification
-348-1862 | Advanced-efficiency hydraulic/transmission oil filter | Related part shown on Cat 265-6618 cabin filter page | cat_linked_candidate; needs_individual_verification
-363-5819 | Standard-efficiency fuel-water separator | Related part shown on Cat 265-6618 cabin filter page | cat_linked_candidate; needs_individual_verification
-377-6969 | Standard-efficiency engine oil filter | Related part shown on Cat 265-6618 cabin filter page | cat_linked_candidate; needs_individual_verification
-541-6956 | Engine fuel filter | Related part shown on Cat 265-6618 cabin filter page | cat_linked_candidate; needs_individual_verification
+306-9457 | Track roller mount cap, 250 ×75 ×65mm | Related component shown on Cat 261-8287 page | cat_item_page_verified; inserted_part_catalog; fitment_verified
+3T-9075 | Suspension bogie insert | Related component shown on Cat 261-8287 page | cat_item_page_verified; inserted_part_catalog; fitment_verified
+110-6326 | Air cleaner primary element | Frequently bought together with Cat 265-6618/265-6619 | cat_item_page_verified; existing_catalog_row_updated; fitment_verified
+110-6331 | Secondary standard-efficiency engine air filter | Frequently bought together with Cat 265-6618/265-6619 | cat_item_page_verified; existing_catalog_row_updated; fitment_verified
+348-1862 | Advanced Efficiency hydraulic/transmission oil filter | Frequently bought together with Cat 265-6618 | cat_item_page_verified; inserted_part_catalog; fitment_verified
+363-5819 | Fuel water separator (Cat title Standard Efficiency) | Frequently bought together with Cat 265-6618/265-6619 | cat_item_page_verified; inserted_part_catalog; title_vs_spec_efficiency_conflict_flagged
+377-6969 | Standard Efficiency Engine Oil Filter | Frequently bought together with Cat 265-6618/265-6619 | cat_item_page_verified; existing_catalog_row_previously_verified; current_capture_technical_fields_limited
+541-6956 | Engine Fuel Filter | Related component shown on Cat 265-6618/265-6619 pages | cat_item_page_verified; existing_catalog_row_updated; title_vs_spec_efficiency_conflict_flagged
 
 Source pages:
 - https://parts.cat.com/en/catcorp/product/258-9959
@@ -151,8 +151,8 @@ Source pages:
 Sixteen further part numbers were extracted from the 282-5199 kit BOM and Cat's related-parts panel for 277-3076/279-5377. BOM membership is documented; related panel entries are discovery leads only and not proof of fitment.
 
 part_number | displayed description | source context | status
-8N-8466 | Auxiliary pump group - S | BOM component of Cat 282-5199 water-pump kit; quantity 1 | cat_linked_candidate; needs_individual_verification
-328-5573 | 97.20mm OD connecting-rod bearing | Related part shown on Cat 277-3076 oil-jet tube page | cat_linked_candidate; needs_individual_verification
+8N-8466 | Auxiliary Pump Group - S | BOM component of Cat 282-5199 water-pump kit, quantity 1 | cat_item_page_verified; existing_catalog_row_updated; no_description_or_specs_published
+328-5573 | 97.20mm OD steel-backed copper-lead connecting-rod bearing | Frequently bought together with Cat 277-3076 | cat_item_page_verified; existing_catalog_row_previously_verified_in_batch49
 151-5925 | 7/16-14 × 1-3/64in hex-head bolt | Related part shown on Cat 277-3076 page | cat_linked_candidate; needs_individual_verification
 6I-4421 | 8.585mm thick spacer plate | Related part shown on Cat 277-3076 page | cat_linked_candidate; needs_individual_verification
 0R-9449 | Cat Reman engine oil pump | Related part shown on Cat 277-3076 page | cat_linked_candidate; needs_individual_verification
@@ -231,7 +231,7 @@ Source pages:
 8T-0208 | 247.4mm Inner Diameter Pivot Shaft Seal | Cat Parts Store frequently bought together with 311-1299 | cat_linked_candidate; needs_individual_verification
 9W-4489 | 73.98mm Inner Diameter Suspension Bogie Insert | Cat Parts Store frequently bought together with 311-1299 | cat_linked_candidate; needs_individual_verification
 3P-2482 | 57.6mm wide resilient pad | Related part shown on Cat 261-8287 page | cat_item_page_verified; inserted_part_catalog; fitment_verified
-3T-9075 | Suspension Bogie Insert | Cat Parts Store frequently bought together with 311-1300 | cat_linked_candidate; needs_individual_verification
+3T-9075 | Suspension bogie insert | Related component shown on Cat 261-8287 page | cat_item_page_verified; inserted_part_catalog; fitment_verified
 9X-4590 | 422mm Inner Diameter Telescoping Recoil Frame Seal | Cat Parts Store frequently bought together with 311-1300 | cat_linked_candidate; needs_individual_verification
 3T-7494 | 433.82mm Outside Diameter Sleeve Bearing | Cat Parts Store frequently bought together with 311-1300 | cat_linked_candidate; needs_individual_verification
 8T-2863 | 114.30mm Rod Diameter Special U Cup Seal | Cat Parts Store frequently bought together with 311-1300 | cat_linked_candidate; needs_individual_verification
@@ -269,10 +269,10 @@ Source pages:
 253-1752 | 5.73mm Thick Crankshaft Thrust Plate | Cat Parts Store frequently bought together with 328-5573 connecting rod bearing | cat_linked_candidate; needs_individual_verification
 109-0078 | 37.47mm Inside Diameter Seal-O-Ring | Cat Parts Store frequently bought together with 328-5573 connecting rod bearing | cat_linked_candidate; needs_individual_verification
 109-0072 | 40.64mm Inside Diameter Seal-O-Ring | Cat Parts Store frequently bought together with 328-5573 connecting rod bearing | cat_linked_candidate; needs_individual_verification
-110-6326 | Air Cleaner Primary Element | Cat Parts Store frequently bought together with 336-6684 camera | cat_linked_candidate; needs_individual_verification
-377-6969 | Standard Efficiency Engine Oil Filter | Cat Parts Store frequently bought together with 336-6684 camera | cat_linked_candidate; needs_individual_verification
+110-6326 | Air cleaner primary element | Frequently bought together with Cat 265-6618/265-6619 | cat_item_page_verified; existing_catalog_row_updated; fitment_verified
+377-6969 | Standard Efficiency Engine Oil Filter | Frequently bought together with Cat 265-6618/265-6619 | cat_item_page_verified; existing_catalog_row_previously_verified; current_capture_technical_fields_limited
 265-6619 | Cabin Air Filter | Cat Parts Store frequently bought together with 336-6684 camera | cat_linked_candidate; needs_individual_verification
-110-6331 | Secondary Standard Efficiency Engine Air Filter | Cat Parts Store frequently bought together with 336-6684 camera | cat_linked_candidate; needs_individual_verification
+110-6331 | Secondary standard-efficiency engine air filter | Frequently bought together with Cat 265-6618/265-6619 | cat_item_page_verified; existing_catalog_row_updated; fitment_verified
 9Y-6089 | 0.8mm Thick Flywheel Housing Gasket | Cat Parts Store related part for 338-3454 starter motor | cat_linked_candidate; needs_individual_verification
 1R-1808 | Engine Oil Filter | Cat Parts Store related part for 338-3454 starter motor | cat_linked_candidate; needs_individual_verification
 214-7568 | STOR O-ring seal (SAE 9/16-18) | Related part shown on Cat 237-9313 page | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
@@ -380,10 +380,10 @@ Source pages:
 376-2652 | High Pressure Pump To Rail Tube | Cat Parts Store related part for 376-2724 fuel rail | cat_linked_candidate; needs_individual_verification
 376-2468 | Engine Block Drain Plug Seal | Cat Parts Store related part for 376-2724 fuel rail | cat_linked_candidate; needs_individual_verification
 513-4490 | Advanced Efficiency Fuel Water Separator | Cat Parts Store related part for 376-2724 fuel rail | cat_linked_candidate; needs_individual_verification
-110-6326 | Air Cleaner Primary Element | Cat Parts Store frequently bought together with 377-6969 oil filter | cat_linked_candidate; needs_individual_verification
-363-5819 | Standard Efficiency Fuel Water Separator | Cat Parts Store frequently bought together with 377-6969 oil filter | cat_linked_candidate; needs_individual_verification
-110-6331 | Secondary Standard Efficiency Engine Air Filter | Cat Parts Store frequently bought together with 377-6969 oil filter | cat_linked_candidate; needs_individual_verification
-541-6956 | Engine Fuel Filter | Cat Parts Store frequently bought together with 377-6969 oil filter | cat_linked_candidate; needs_individual_verification
+110-6326 | Air cleaner primary element | Frequently bought together with Cat 265-6618/265-6619 | cat_item_page_verified; existing_catalog_row_updated; fitment_verified
+363-5819 | Fuel water separator (Cat title Standard Efficiency) | Frequently bought together with Cat 265-6618/265-6619 | cat_item_page_verified; inserted_part_catalog; title_vs_spec_efficiency_conflict_flagged
+110-6331 | Secondary standard-efficiency engine air filter | Frequently bought together with Cat 265-6618/265-6619 | cat_item_page_verified; existing_catalog_row_updated; fitment_verified
+541-6956 | Engine Fuel Filter | Related component shown on Cat 265-6618/265-6619 pages | cat_item_page_verified; existing_catalog_row_updated; title_vs_spec_efficiency_conflict_flagged
 265-6619 | Cabin Air Filter | Cat Parts Store frequently bought together with 377-6969 oil filter | cat_linked_candidate; needs_individual_verification
 433-6739 | Track Segment | Cat Parts Store related part for 380-5938 and 380-5940 track groups | cat_linked_candidate; needs_individual_verification
 309-7679 | Track Roller Group | Cat Parts Store related part for 380-5938/380-5940 track groups | cat_linked_candidate; needs_individual_verification
@@ -769,10 +769,10 @@ Source pages:
 144-5695 | 170mm Outer Diameter Intermediate Piston Ring | Cat Parts Store frequently bought together with 523-8663 cylinder liner | cat_linked_candidate; needs_individual_verification
 7N-4782 | 31.38mm Free Length Lifter Guide Spring | Cat Parts Store frequently bought together with 523-8663 cylinder liner | cat_linked_candidate; needs_individual_verification
 127-5400 | 81.14mm Outside Diameter Sleeve Bearing | Cat Parts Store frequently bought together with 523-8663 cylinder liner | cat_linked_candidate; needs_individual_verification
-377-6969 | Standard Efficiency Engine Oil Filter | Cat Parts Store frequently bought together with 527-2809 rubber track | cat_linked_candidate; needs_individual_verification
+377-6969 | Standard Efficiency Engine Oil Filter | Frequently bought together with Cat 265-6618/265-6619 | cat_item_page_verified; existing_catalog_row_previously_verified; current_capture_technical_fields_limited
 415-2592 | Primary Standard Efficiency Engine Air Filter | Cat Parts Store frequently bought together with 527-2809 rubber track | cat_linked_candidate; needs_individual_verification
 1G-7206 | Fuel Transfer Pump Filter | Cat Parts Store frequently bought together with 527-2809 rubber track | cat_linked_candidate; needs_individual_verification
-363-5819 | Standard Efficiency Fuel Water Separator | Cat Parts Store frequently bought together with 527-2809 rubber track | cat_linked_candidate; needs_individual_verification
+363-5819 | Fuel water separator (Cat title Standard Efficiency) | Frequently bought together with Cat 265-6618/265-6619 | cat_item_page_verified; inserted_part_catalog; title_vs_spec_efficiency_conflict_flagged
 156-1200 | Fuel/Water Separator | Cat Parts Store frequently bought together with 527-2809 rubber track | cat_linked_candidate; needs_individual_verification
 500-0483 | Engine Oil Filter | Cat Parts Store related item for 528-8101 roller guard | cat_linked_candidate; needs_individual_verification
 496-9841 | Standard Efficiency Engine Air - Primary | Cat Parts Store related item for 528-8101 roller guard | cat_linked_candidate; needs_individual_verification
@@ -801,9 +801,9 @@ Source pages:
 418-2073 | 2.3mm Thick Exhaust Lines Gasket | Cat Parts Store related item for NOx sensor assemblies | cat_linked_candidate; needs_individual_verification
 485-9752 | Injector Assembly | Cat Parts Store related item for NOx sensor assemblies | cat_linked_candidate; needs_individual_verification
 460-9257 | Injector Assembly-DEF | Cat Parts Store related item for NOx sensor assemblies | cat_linked_candidate; needs_individual_verification
-377-6969 | Standard Efficiency Engine Oil Filter | Cat Parts Store related item for 541-6956 fuel filter | cat_linked_candidate; needs_individual_verification
-110-6326 | Air Cleaner Primary Element | Cat Parts Store related item for 541-6956 fuel filter | cat_linked_candidate; needs_individual_verification
-110-6331 | Secondary Standard Efficiency Engine Air Filter | Cat Parts Store related item for 541-6956 fuel filter | cat_linked_candidate; needs_individual_verification
+377-6969 | Standard Efficiency Engine Oil Filter | Frequently bought together with Cat 265-6618/265-6619 | cat_item_page_verified; existing_catalog_row_previously_verified; current_capture_technical_fields_limited
+110-6326 | Air cleaner primary element | Frequently bought together with Cat 265-6618/265-6619 | cat_item_page_verified; existing_catalog_row_updated; fitment_verified
+110-6331 | Secondary standard-efficiency engine air filter | Frequently bought together with Cat 265-6618/265-6619 | cat_item_page_verified; existing_catalog_row_updated; fitment_verified
 265-6619 | Cabin Air Filter | Cat Parts Store related item for 541-6956 fuel filter | cat_linked_candidate; needs_individual_verification
 265-6618 | Cabin Air Filter | Cat Parts Store related item for 541-6956 fuel filter | cat_linked_candidate; needs_individual_verification
 235-5974 | Carrier Roller Group | Cat Parts Store frequently bought together with 542-0222 track bolt | cat_linked_candidate; needs_individual_verification
@@ -839,7 +839,7 @@ Source pages:
 485-4705 | Engine Oil Filter Lube Element | Cat Parts Store related item for 546-6109 check valve | cat_linked_candidate; needs_individual_verification
 159-3219 | Combustion Sensor | Cat Parts Store related item for 546-6109 check valve | cat_linked_candidate; needs_individual_verification
 5P-7815 | 3 x 37.46mm 75A FKM O-Ring | Cat Parts Store related item for 546-6109 check valve | cat_linked_candidate; needs_individual_verification
-363-5819 | Standard Efficiency Fuel Water Separator | Cat Parts Store frequently bought together with 552-5534 fuel transfer pump | cat_linked_candidate; needs_individual_verification
+363-5819 | Fuel water separator (Cat title Standard Efficiency) | Frequently bought together with Cat 265-6618/265-6619 | cat_item_page_verified; inserted_part_catalog; title_vs_spec_efficiency_conflict_flagged
 416-5884 | Ultra High Efficiency Fuel Filter | Cat Parts Store frequently bought together with 552-5534 fuel transfer pump | cat_linked_candidate; needs_individual_verification
 
 561-1056 | Link Assembly, Press Fit Master, 41 Sections, Press Fit, SALT, 202.81mm Pitch | Cat Parts Store related link assembly for 561-1061 | cat_linked_candidate; needs_individual_verification
@@ -892,8 +892,8 @@ Source pages:
 265-6618 | Cabin Air Filter | Cat Parts Store related item for 578-1844 lower-restriction cabin filter | cat_linked_candidate; needs_individual_verification
 265-6619 | Cabin Air Filter | Cat Parts Store related item for 578-1844 lower-restriction cabin filter | cat_linked_candidate; needs_individual_verification
 500-0957 | Standard Efficiency Cabin Air Filter | Cat Parts Store related item for 578-1844 lower-restriction cabin filter | cat_linked_candidate; needs_individual_verification
-110-6326 | Air Cleaner Primary Element | Cat Parts Store related item for 580-5439 cabin filter | cat_linked_candidate; needs_individual_verification
-110-6331 | Secondary Standard Efficiency Engine Air Filter | Cat Parts Store related item for 580-5439 cabin filter | cat_linked_candidate; needs_individual_verification
+110-6326 | Air cleaner primary element | Frequently bought together with Cat 265-6618/265-6619 | cat_item_page_verified; existing_catalog_row_updated; fitment_verified
+110-6331 | Secondary standard-efficiency engine air filter | Frequently bought together with Cat 265-6618/265-6619 | cat_item_page_verified; existing_catalog_row_updated; fitment_verified
 528-0585 | Engine Air Filter | Cat Parts Store related item for 580-5439 cabin filter | cat_linked_candidate; needs_individual_verification
 523-4987 | Ultra High Efficiency Element Separator | Cat Parts Store related item for 580-5439 cabin filter | cat_linked_candidate; needs_individual_verification
 509-5694 | Ultra High Efficiency Secondary Fuel Filter | Cat Parts Store related item for 580-5439 cabin filter | cat_linked_candidate; needs_individual_verification
@@ -914,9 +914,9 @@ Source pages:
 162-8873 | Probe Holder | Cat Parts Store frequently bought together with 590-7889 fluid sampling pump | cat_linked_candidate; needs_individual_verification
 1U-7648 | Tube Cutter | Cat Parts Store frequently bought together with 590-7889 fluid sampling pump | cat_linked_candidate; needs_individual_verification
 1U-8757 | Plastic Tube | Cat Parts Store frequently bought together with 590-7889 fluid sampling pump | cat_linked_candidate; needs_individual_verification
-110-6326 | Air Cleaner Primary Element | Cat Parts Store frequently bought together with 592-5827/592-5829/592-5830 rubber tracks | cat_linked_candidate; needs_individual_verification
-110-6331 | Secondary Standard Efficiency Engine Air Filter | Cat Parts Store frequently bought together with 592-5829/592-5830 rubber tracks | cat_linked_candidate; needs_individual_verification
-377-6969 | Standard Efficiency Engine Oil Filter | Cat Parts Store frequently bought together with 592-5827/592-5829 rubber tracks | cat_linked_candidate; needs_individual_verification
+110-6326 | Air cleaner primary element | Frequently bought together with Cat 265-6618/265-6619 | cat_item_page_verified; existing_catalog_row_updated; fitment_verified
+110-6331 | Secondary standard-efficiency engine air filter | Frequently bought together with Cat 265-6618/265-6619 | cat_item_page_verified; existing_catalog_row_updated; fitment_verified
+377-6969 | Standard Efficiency Engine Oil Filter | Frequently bought together with Cat 265-6618/265-6619 | cat_item_page_verified; existing_catalog_row_previously_verified; current_capture_technical_fields_limited
 265-6619 | Cabin Air Filter | Cat Parts Store frequently bought together with 592-5829/592-5830 rubber tracks | cat_linked_candidate; needs_individual_verification
 265-6618 | Cabin Air Filter | Cat Parts Store frequently bought together with 592-5827/592-5830 rubber tracks | cat_linked_candidate; needs_individual_verification
 304-1916 | Sprocket | Cat Parts Store frequently bought together with 592-5829/592-5830 rubber tracks | cat_linked_candidate; needs_individual_verification
@@ -986,9 +986,9 @@ Source pages:
 1P-3704 | 38.20mm Rectangular Rubber Seal | Cat Parts Store frequently bought together with 598-0498 sleeve bearing | cat_linked_candidate; needs_individual_verification
 1P-3705 | 44.70mm Rubber Rectangular Seal | Cat Parts Store frequently bought together with 598-0498 sleeve bearing | cat_linked_candidate; needs_individual_verification
 304-1916 | Sprocket | Cat Parts Store frequently bought together with 593-1012 rubber track | cat_linked_candidate; needs_individual_verification
-110-6326 | Air Cleaner Primary Element | Cat Parts Store frequently bought together with 593-1012 rubber track | cat_linked_candidate; needs_individual_verification
-110-6331 | Secondary Standard Efficiency Engine Air Filter | Cat Parts Store frequently bought together with 593-1012 rubber track | cat_linked_candidate; needs_individual_verification
-377-6969 | Standard Efficiency Engine Oil Filter | Cat Parts Store frequently bought together with 593-1012 rubber track | cat_linked_candidate; needs_individual_verification
+110-6326 | Air cleaner primary element | Frequently bought together with Cat 265-6618/265-6619 | cat_item_page_verified; existing_catalog_row_updated; fitment_verified
+110-6331 | Secondary standard-efficiency engine air filter | Frequently bought together with Cat 265-6618/265-6619 | cat_item_page_verified; existing_catalog_row_updated; fitment_verified
+377-6969 | Standard Efficiency Engine Oil Filter | Frequently bought together with Cat 265-6618/265-6619 | cat_item_page_verified; existing_catalog_row_previously_verified; current_capture_technical_fields_limited
 265-6619 | Cabin Air Filter | Cat Parts Store frequently bought together with 593-1012 rubber track | cat_linked_candidate; needs_individual_verification
 
 5N-6055 | Water Pump Seal | Cat Parts Store related item for 5N-2618 auxiliary sea-water pump impeller | cat_linked_candidate; needs_individual_verification
@@ -1023,9 +1023,9 @@ Source pages:
 6V-9746 | 1.78 × 18.94mm 90A NBR O-ring | Related component shown on Cat 20R-9565 page | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
 3K-0360 | 2.21 x 16.36mm 90A NBR O-Ring | Cat Parts Store frequently bought together with 604-2388 water pump pipe | cat_linked_candidate; needs_individual_verification
 4N-7253 | 4.8mm Thick Cylinder Head Chamber Gasket | Cat Parts Store frequently bought together with 604-2388 water pump pipe | cat_linked_candidate; needs_individual_verification
-110-6326 | Air Cleaner Primary Element | Cat Parts Store frequently bought together with 607-4800/607-4803/607-4804/607-4805 rubber tracks | cat_linked_candidate; needs_individual_verification
-110-6331 | Secondary Standard Efficiency Engine Air Filter | Cat Parts Store frequently bought together with 607-4800/607-4803/607-4804/607-4805 rubber tracks | cat_linked_candidate; needs_individual_verification
-377-6969 | Standard Efficiency Engine Oil Filter | Cat Parts Store frequently bought together with 607-4800/607-4803/607-4804/607-4805 rubber tracks | cat_linked_candidate; needs_individual_verification
+110-6326 | Air cleaner primary element | Frequently bought together with Cat 265-6618/265-6619 | cat_item_page_verified; existing_catalog_row_updated; fitment_verified
+110-6331 | Secondary standard-efficiency engine air filter | Frequently bought together with Cat 265-6618/265-6619 | cat_item_page_verified; existing_catalog_row_updated; fitment_verified
+377-6969 | Standard Efficiency Engine Oil Filter | Frequently bought together with Cat 265-6618/265-6619 | cat_item_page_verified; existing_catalog_row_previously_verified; current_capture_technical_fields_limited
 265-6619 | Cabin Air Filter | Cat Parts Store frequently bought together with 607-4800/607-4803/607-4804/607-4805 rubber tracks | cat_linked_candidate; needs_individual_verification
 265-6618 | Cabin Air Filter | Cat Parts Store frequently bought together with 607-4800/607-4803/607-4804/607-4805 rubber tracks | cat_linked_candidate; needs_individual_verification
 304-1916 | Sprocket | Cat Parts Store frequently bought together with 607-4800/607-4803/607-4804/607-4805 rubber tracks | cat_linked_candidate; needs_individual_verification
@@ -1058,9 +1058,9 @@ Source pages:
 6Y-0473 | 6.35mm Diameter Clear Plug for Track Idler | Cat Parts Store frequently bought together with 608-7785 track nut | cat_linked_candidate; needs_individual_verification
 7G-4332 | Track Bolt | Cat Parts Store frequently bought together with 608-7785 track nut | cat_linked_candidate; needs_individual_verification
 304-1916 | Sprocket | Cat Parts Store frequently bought together with 608-7329/608-7331 rubber tracks | cat_linked_candidate; needs_individual_verification
-110-6326 | Air Cleaner Primary Element | Cat Parts Store frequently bought together with 608-7329/608-7331 rubber tracks | cat_linked_candidate; needs_individual_verification
-110-6331 | Secondary Standard Efficiency Engine Air Filter | Cat Parts Store frequently bought together with 608-7329/608-7331 rubber tracks | cat_linked_candidate; needs_individual_verification
-377-6969 | Standard Efficiency Engine Oil Filter | Cat Parts Store frequently bought together with 608-7329/608-7331 rubber tracks | cat_linked_candidate; needs_individual_verification
+110-6326 | Air cleaner primary element | Frequently bought together with Cat 265-6618/265-6619 | cat_item_page_verified; existing_catalog_row_updated; fitment_verified
+110-6331 | Secondary standard-efficiency engine air filter | Frequently bought together with Cat 265-6618/265-6619 | cat_item_page_verified; existing_catalog_row_updated; fitment_verified
+377-6969 | Standard Efficiency Engine Oil Filter | Frequently bought together with Cat 265-6618/265-6619 | cat_item_page_verified; existing_catalog_row_previously_verified; current_capture_technical_fields_limited
 265-6619 | Cabin Air Filter | Cat Parts Store frequently bought together with 608-7329/608-7331 rubber tracks | cat_linked_candidate; needs_individual_verification
 265-6618 | Cabin Air Filter | Cat Parts Store frequently bought together with 608-7329/608-7331 rubber tracks | cat_linked_candidate; needs_individual_verification
 
@@ -1528,3 +1528,5 @@ Source pages:
 
 317-9080 | Track Roller Cap | Cat Parts Store related component shown on 288-0934 page | cat_linked_candidate; needs_individual_verification
 202-4296 | Idler Group | Cat Parts Store related component shown on 288-0934 page | cat_linked_candidate; needs_individual_verification
+
+306-9455 | Roller Mount Cap | Cat Parts Store related component shown on 306-9457 page | cat_linked_candidate; needs_individual_verification
