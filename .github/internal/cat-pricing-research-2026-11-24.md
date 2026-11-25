@@ -5147,3 +5147,37 @@ Post-update verification: all ten SKUs exist with Cat official item-page evidenc
 Nine related leads added: 5P-8068, 4T-2069, 6D-9157, 132-8876, 2S-8439, 111-1729, 111-1730, 2H-3932 and 30R-1818. They remain candidates pending individual item-page verification.
 
 Overall reviewed progress: 93/500 batches = 930/5,000 product target (18.6%). Original Cat seed list 787/787 complete; discovery-derived products individually verified/updated: 163. Remaining target: 4,070 products.
+
+## Batch 94/500 — Cat-linked discovery candidates 141–150 (2026-11-25)
+
+Ten candidates were individually checked against official Cat Parts Store item pages. All ten were inserted into the catalog and re-queried after writes; compatible-model arrays were deduplicated.
+
+Verified:
+- 7T-5959 — Bogie Suspension Resilient Pad. Cat says bogie pads cushion shock load transmitted through major bogie. Steel plate with bonded rubber; M12 or 1/2in hardware. Specs 12.85 ×12.85 ×2.03in, four 0.75in holes. Fitment D11R/D9L/D10R/D10T2/D10T/D11N/D10N/D10, ripper 9, pipelayer 589, bulldozer 9U/10SU/10U/9S/9C and winches 59/59N/58L/59L (19 labels).
+- 9X-4588 — 368.4mm ID Track Roller Frame Seal. Oscillating seal prevents dirt/water ingress and seals oil/grease at equalizer-bar end/center pin joints. OD 17.15in, ID 14.5in, width 0.83in, rubber/steel; Cat notes dimensions/material for reference only. Fitment D10N/D10R/D10T2/D10/D10T, 589 pipelayer, 10SU/10U bulldozer and 59/59N/58L/59L winches (12 labels).
+- 7G-1952 — 371.48mm OD, 50.55mm Long Straight Sleeve Bearing. Steel-backed bronze, no internal/external grooves or cross holes. Specs ID 14.43in, OD 14.63in, overall length 1.99in, sleeve ID 14.625in and sleeve OD 14.95in. Fitment D9L/D10R/D10T2/D10T/D10N/D10, ripper 9, 589 pipelayer, 9U/10SU/10U/9S/9C bulldozers and 59/59N/58L/59L winches (17 labels).
+- 8T-0208 — 247.4mm ID Pivot Shaft Seal. Cat says it prevents lubricant leakage and contaminant ingress at track roller frame pivot shaft. OD 13.0in, ID 9.67in, width 1.02in, rubber/steel. Fitment D9T/D9R/D9L/D9N/D9/D10N/D9GC/D8L/D10R/D10T2/D10T/D10, rippers 9/8, 8S/8U/9C/9U/10SU/10U/9S/9SU/8A bulldozers and 59N/59L/59/58/58L winches (28 labels).
+- 9X-4590 — 422mm ID Telescoping Recoil Frame Seal. Oscillating seal for oil/grease at equalizer-bar end/center pin joints. OD 19.82in, ID 16.61in, width 0.98in, rubber/steel; Cat notes dimensions/material for reference only. Fitment D11N/D11R/D11T/D11 XE/D11, ripper 11 and bulldozer 11SU/11U (8 labels).
+- 3T-7494 — 433.82mm OD Split Sleeve Bearing. Steel-backed bronze; specs ID 16.76in, OD 17.08in, overall length 2.992in, sleeve ID 16.754in, sleeve OD 17.075in, no cross holes/unique features. Cat short description says 76.25mm OD and 4.13mm thick, conflicting with the title/specification OD 433.82mm; values retained separately and discrepancy flagged. Fitment D11N/D11R/D11T/D11 XE/D11, ripper 11, bulldozer 11SU/11U (8 labels).
+- 8T-2863 — 114.30mm Rod Diameter Special U-Cup Seal. Cat says U-cup assemblies replace Chevron packing, combine rod seals with spacers and improve sealing as internal pressure rises. Specs length 6.6in, height 1.3in; nylon, urethane rubber, polyamide and polyurethane. Fitment D11N/D11R/D11T/D11 XE/D11, ripper 11, bulldozer 11SU/11U (8 labels).
+- 179-3428 — 69.4mm OD W-Type Grease-Lubricated Track Seal. Cat says grease-lubricated master seal absorbs thrust and prevents contamination of greased pin/bushing joint. Polyurethane; product attributes ID 46.4mm/OD69.4mm, specification ID1.827in/lip0/OD2.732in. Fitment MD6200/6240/6290 drills, 521B/532/TK732/2590/522B/541/TK1051/1290T/1390/2491 feller bunchers, 548 forestry, extensive 330/336/340/345 excavators and MHPU variants (75 labels).
+- 6Y-8180 — 850mm Triple-Grouser Track Shoe, Regular Joint. Cat says triple-grouser shoes improve turning/manoeuvrability and center punch relieves extrudable packing. Carbon/boron steel, HD, non-ARM, regular joint, 33.465in/850mm width, plate thickness 0.512in, M22 bolt, slotted hole, 1E1743 section, three grousers, 0.906in bolt hole, not clipped, multi-grouser. Fitment 330-A/330-A LN/336F L XE/340F/548/330L/336E LH/328D LCR/335F LCR/330B/330C/330D/340F L LRE/336F/330LN/330C MH/336F LN/340F L UHD/330B L/330C L/330D L/335F/336F L/336E L/336D L/325C (27 labels).
+- 179-3426 — 68.7mm OD W-Type Track Seal. Cat specification: polyurethane, ID 1.839in, lip diameter 0in, OD 2.705in; Cat says description is still being added. Fitment MD6200/6240/6290 drills, 521B/532/TK732/2590/522B/541/TK1051/1290T/1390/2491 feller bunchers, 548 forestry, extensive 330/336/340/345 excavators and MHPU variants (75 labels). Alternate 179-3428 has different ID/OD and is not assumed interchangeable.
+
+Cat item pages:
+- https://parts.cat.com/en/catcorp/product/7T-5959
+- https://parts.cat.com/en/catcorp/product/9X-4588
+- https://parts.cat.com/en/catcorp/product/7G-1952
+- https://parts.cat.com/en/catcorp/product/8T-0208
+- https://parts.cat.com/en/catcorp/product/9X-4590
+- https://parts.cat.com/en/catcorp/product/3T-7494
+- https://parts.cat.com/en/catcorp/product/8T-2863
+- https://parts.cat.com/en/catcorp/product/179-3428
+- https://parts.cat.com/en/catcorp/product/6Y-8180
+- https://parts.cat.com/en/catcorp/product/179-3426
+
+Post-update verification: all ten SKUs exist with Cat official item-page evidence and REFERENCE status. Ten inserted. Fitment counts after de-duplication: 7T-5959=19; 9X-4588=12; 7G-1952=17; 8T-0208=28; 9X-4590=8; 3T-7494=8; 8T-2863=8; 179-3428=75; 6Y-8180=27; 179-3426=75. 3T-7494 description/title/spec dimension conflict flagged; no unsupported corrections or interchange claims added.
+
+Six related leads added: 5P-3092, 8T-1981, 5H-6734, 1J-2890, 4J-3342 and 6P-7577. They remain candidates pending individual verification.
+
+Overall reviewed progress: 94/500 batches = 940/5,000 product target (18.8%). Original Cat seed list 787/787 complete; discovery-derived products individually verified/updated: 173. Remaining target: 4,060 products.
