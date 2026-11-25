@@ -291,3 +291,38 @@ Master پس از این دور 2,106 شماره یکتا دارد. فایل Mirr
 036-1865 نیز در همان جست‌وجو به‌عنوان Radiator Cap برای 287B و 297C تأیید شد، اما از قبل در Master وجود داشت و دوباره اضافه نشد. 305-9256 نیز در نتایج کیت زیربندی 287B با 12 قلم قطعه ظاهر شد؛ این شماره هم از قبل در Master ثبت شده است. وضعیت Discontinued اجزای کیت، از جمله 261-6296، باید جداگانه حفظ شود.
 
 پس از این دور Master و Mirror هر دو 2,262 شماره یکتا دارند؛ شش شماره جدید در CSV بررسی ثبت شدند. شماره‌ها فیتمنت‌های صریح صفحه Cat را منعکس می‌کنند و جایگزین بررسی سریال، آرایش، اتصالات و محل نصب نیستند.
+
+
+## دور هفتم — خنک‌کاری، فیلتر و شیلنگ‌های 287B/297C (25 Nov 2026)
+
+12 شماره دیگر از صفحات رسمی Cat Parts Store با مدل‌های صریح در Compatible Models تأیید شد:
+- 587-4391 — Pump Group-Water؛ 287B و 297C.
+- 226-0291 — Radiator and Fan Lock؛ 287B و 297C.
+- 234-4802 — Engine Oil Cooler Cover؛ 287B و 297C.
+- 234-4803 — Engine Oil Cooler Element؛ 287B و 297C.
+- 252-0412 — Medium Pressure Hydraulic Hose Assembly؛ 287B.
+- 361-4660 — Oil Cooler؛ 297C (نه 287B).
+- 1R-0734 — Advanced Efficiency Engine Oil Filter؛ 287B و 297C.
+- 235-4960 — Thermostat؛ 287B و 297C.
+- 103-9747 — Water Pump Side Cover؛ 287B و 297C.
+- 229-8796 — Radiator Blower Fan Adapter؛ 287B و 297C.
+- 336-9856 — Engine Oil Cooler Gasket؛ 287B و 297C.
+- 234-4798 — M8x1.25 Engine Oil Cooler Cover Stud؛ 287B و 297C.
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/product/587-4391
+- https://parts.cat.com/en/catcorp/product/226-0291
+- https://parts.cat.com/en/catcorp/product/234-4802
+- https://parts.cat.com/en/catcorp/product/234-4803
+- https://parts.cat.com/en/catcorp/product/252-0412
+- https://parts.cat.com/en/catcorp/product/361-4660
+- https://parts.cat.com/en/catcorp/product/1R-0734
+- https://parts.cat.com/en/catcorp/product/235-4960
+- https://parts.cat.com/en/catcorp/product/103-9747
+- https://parts.cat.com/en/catcorp/product/229-8796
+- https://parts.cat.com/en/catcorp/product/336-9856
+- https://parts.cat.com/en/catcorp/product/234-4798
+
+فیتمنت 361-4660 فقط برای 297C از این جست‌وجو تأیید شد؛ آن را به 287B تعمیم ندهید. برای شیلنگ 252-0412 قطر داخلی 0.375 اینچ و طول کلی 26.85 اینچ در صفحه Cat درج شده است؛ اتصالات و مسیر واقعی باید با دستگاه کنترل شود. سایر اقلام نیز به تأیید شماره سریال، پیکربندی موتور/خنک‌کننده و نسخه قطعه نیاز دارند.
+
+Master پس از این دور 2,274 شماره یکتا دارد و Mirror با آن همسان شد. CSV بررسی اکنون 63 ردیف داده دارد. این فهرست اثبات موجودی یا سفارش‌پذیری نیست.
