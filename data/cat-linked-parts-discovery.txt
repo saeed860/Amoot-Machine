@@ -3325,3 +3325,21 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 5J-4991 | 165mm Bore Diameter 2-Piece Seal | 1 | Cat 242-2549 977L Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
 
 Source page: https://parts.cat.com/en/catcorp/product/242-2549
+
+
+## Additional Cat 374F/390D/390F/395/385C hydraulic-cylinder seal-kit BOM candidates — batch 195
+
+Source: official Cat Parts Store product page 625-5791, Hydraulic Cylinder Seal Kit - Standard Bore Size. Compatible models explicitly shown: HEX BASED SPECIAL SOLUTION / 374F OEM; EXCAVATOR / 390D, 390D L, 390F, 390F L, 395, 374F, 385C L, 385B, 374F L, 385C, 374D L; MATERIAL HANDLER / MH3295; MOBILE HYD POWER UNIT / 390D L, 385C, 374F, 390F. Cat specifies standard nominal bore sizing up to 0.25mm (0.010in) max. All nine listed BOM references were new to the discovery queue and original seed list; confirm cylinder group and dimensions.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+358-5990 | 6.25 x 196.22mm 90A NBR O-Ring | 1 | Cat 625-5791 374F/390D/390F/395 Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+367-3932 | 139mm Inner Diameter Buffer Seal | 1 | Cat 625-5791 374F/390D/390F/395 Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+367-3933 | 143.4mm Inner Diameter U Cup Rod Seal | 1 | Cat 625-5791 374F/390D/390F/395 Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+593-1173 | 145mm Inner Diameter Backup Ring | 1 | Cat 625-5791 374F/390D/390F/395 Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+622-0642 | 210mm Outer Diameter Piston Guide Ring | 2 | Cat 625-5791 374F/390D/390F/395 Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+622-0662 | 201.93mm Inner Diameter Protect Ring | 1 | Cat 625-5791 374F/390D/390F/395 Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+622-0681 | 200.2mm Inner Diameter Backup Ring | 2 | Cat 625-5791 374F/390D/390F/395 Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+623-8575 | 141.9mm Inner Diameter Wiper Seal | 1 | Cat 625-5791 374F/390D/390F/395 Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+623-9000 | 210mm Outer Diameter Hydraulic Cylinder Seal | 1 | Cat 625-5791 374F/390D/390F/395 Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+
+Source page: https://parts.cat.com/en/catcorp/product/625-5791
