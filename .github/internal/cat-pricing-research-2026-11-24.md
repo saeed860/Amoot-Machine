@@ -4300,3 +4300,44 @@ Additional Cat-linked discovery candidates from official Cat parts/related panel
 All are discovery leads only; no cross-part fitment or interchangeability is inferred.
 
 Overall reviewed progress: 71/500 batches = 710/5,000 product target (14.2%). Original Cat seed list has 77 SKUs remaining (products 711–787).
+
+## Batch 72/500 — products 711–720 (2026-11-25)
+
+SKUs: 617-8509, 618-8046, 619-9945, 620-6380, 620-6402, 623-9031, 626-4231, 627-7250, 632-5510, 635-7538. Seven Cat pages loaded enough for verification; 617-8509, 632-5510 and 635-7538 returned loading/inaccessible content, so their DB records were left unchanged without inferred fitment/specs.
+
+Verified:
+- 617-8509: Cat Steer Assist for Medium Dozers. Cat public page contains only loading placeholders; no item-level fitment/specifications available. DB remains empty for compatibility and specs.
+- 618-8046: Cat Engine Overhaul Kit for C15 Truck Engine. Cat page lists exactly 9 kit lines: 160-9874 Single Cylinder Liner Gasket Kit ×6; 250-2940 Pin Retainer ×12; 306-4014 Oil Piston Ring ×6; 306-4016 Intermediate Piston Ring ×6; 310-4188 Top Piston Ring ×6; 325-9492 Engine Piston Body ×6; 524-5565 Piston Pin ×6; 586-3377 Cylinder Block Liner ×6; 606-0909 Engine Overhaul (Bronze) Kit ×1. Cat Compatible Models: Truck Engine C15. Cat says specifications are still being added. DB matches.
+- 619-9945: Cat Idler Group, Standard Application, interchangeable machine side, conventional tread, 292mm rim width, 766mm/30.157in tread diameter. Specs: center flange 31.732in diameter ×5.217in width, HD undercarriage, shaft length 21.693in, shaft protrusion 2.733in, rim width 11.496in, shaft OD 5.365in. Compatible track tractors D10N/D10R/D10T2/D10/D10T (5). Cat compare panel displays 125-3537 and landfill idler application 167-1946; DB retains them as alternates, not universal interchange.
+- 620-6380: Cat Single-Flange Track Roller Group, Standard Application, 247mm/9.724in tread diameter, 326.16mm/12.841in mounting width, carrier-roller compatible, HD. Specs: 17.953in shaft, 9.173in link outside spread, 3.606in inside spread, 2.283in shaft OD, 10.827in outer flange. Compatible D8T/D8R/D8R II/D8GC/D8 GC/D8/D8 XE (7). Related 131-1651 Track Roller Cap, 620-6402 Track Roller Group, 111-1729/111-1730 Idler Groups.
+- 620-6402: Cat Double-Flange Track Roller Group, Standard Application, 241mm/9.488in tread diameter, 306.74mm/12.076in mounting width, not carrier-roller compatible, HD. Specs: 17.975in shaft, 9.512in link outside spread, 3.819in inside spread, 2.283in shaft OD, 10.827in outer flange. Compatible D8T/D8R/D8GC/D8 GC/D8/D8 XE (6). Related 620-6380, 131-1651 and 111-1729/111-1730.
+- 623-9031: Cat Lubrication Pump for Cylinder Lines in automatic centralized lubrication systems. Compatible D9/D10/D11 XE/D11 track tractors (4). Specs: 22.59in length, 13.84in width, 35.71lb; material Plastic/Nylon 6/Nylon 6/12/Nylon 6/6 and Grease Fluid. Cat labels overall height 273.9in; this appears unit-inconsistent and remains preserved verbatim rather than silently converted. Related 346-8243 cabin filter, 389-1079 advanced-efficiency hydraulic filter, 6V-8398 O-ring, 344-0004 hydraulic/transmission filter and 380-8941 air filter.
+- 626-4231: Cat BU115 Polypropylene Utility Broom. Compatible CTLs 285XE/285/253/275/265/255/275XE, skid steers 250/270/260/270XE and broom model BU115 (12 labels). Specs: 71.3in overall width, 59.1in sweeping width, 26.2in brush diameter, standard flow without electrical, 31.2in height, 60.2in length, 948lb, 30–86L/min optimal flow, 145–241bar, 24.1in³/rev motor, 210rpm brush speed, direct drive. Cat recommends spoil removal during cold-planing and sweeping smooth surfaces. Related 5P-8500 ignition key, 142-8731 wheel assembly, 4F-4097 O-ring and 421-5479 hydraulic filter.
+- 627-7250: Cat Auxiliary Sea Water Pump for heat dissipation. Compatible Generator Set C32; Marine Auxiliary C32B; Marine Engine C32B/C32 MARINE/C32; Engine C32 MARINE (3 unique labels). Material Alloy Copper. Cat Reman alternative 11R-2486 added to DB separately. Related 310-3954, 8H-7521, 167-4407, 1R-1808 and 214-7566.
+- 632-5510: Cat Air Dryer. Public Cat page inaccessible during this run; DB retains existing description/material Carbon Steel and no fitment without additional claims.
+- 635-7538: Cat Steer Assist for Small Dozers. Public Cat page inaccessible during this run; DB retains no compatible models/specifications.
+
+Cat pages:
+- https://parts.cat.com/en/catcorp/product/617-8509 (loading only)
+- https://parts.cat.com/en/catcorp/product/618-8046
+- https://parts.cat.com/en/catcorp/product/619-9945
+- https://parts.cat.com/en/catcorp/product/620-6380
+- https://parts.cat.com/en/catcorp/product/620-6402
+- https://parts.cat.com/en/catcorp/product/623-9031
+- https://parts.cat.com/en/catcorp/product/626-4231
+- https://parts.cat.com/en/catcorp/product/627-7250
+- https://parts.cat.com/en/catcorp/product/632-5510 (inaccessible)
+- https://parts.cat.com/en/catcorp/product/635-7538 (inaccessible)
+
+Post-update DB verification counts: 617-8509=0; 618-8046=1 (9 kit lines); 619-9945=5; 620-6380=7; 620-6402=6; 623-9031=4; 626-4231=12; 627-7250=3; 632-5510=0; 635-7538=0. No customer prices or stock claims added.
+
+Additional Cat-linked discovery candidates from official Cat related/frequently-bought-together/Reman panels:
+- 619-9945: 306-9447, 306-9449, 309-7679, 9W-4489, 309-7678.
+- 620-6380: 131-1651, 620-6402, 111-1729, 111-1730.
+- 620-6402: 620-6380, 131-1651, 111-1729, 111-1730.
+- 623-9031: 346-8243, 389-1079, 6V-8398, 344-0004, 380-8941.
+- 626-4231: 5P-8500, 142-8731, 4F-4097, 421-5479.
+- 627-7250: 310-3954, 8H-7521, 167-4407, 1R-1808, 214-7566; Cat Reman 11R-2486.
+These remain discovery leads only and do not establish fitment/interchangeability.
+
+Overall reviewed progress: 72/500 batches = 720/5,000 product target (14.4%). Original Cat seed list has 67 SKUs remaining (products 721–787).
