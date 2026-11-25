@@ -3473,3 +3473,34 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 6J-2420 | 66.83mm Internal Diameter Rubber Backup Ring | 1 | Cat 269-7190 302.5/302.5C Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
 
 Source page: https://parts.cat.com/en/catcorp/product/269-7190
+
+
+## Additional Cat 3612 generator-set engine-parts-kit BOM candidates — batch 205
+
+Source: official Cat Parts Store product page 175-7858, Parts Kit. Compatible model explicitly shown: GEN SET ENGINE / 3612. The official page lists 37 total kit components; this batch records 22 new rows from the first 32 exposed items. Ten other first-page rows were already present in the queue or seed list and are not duplicated; five remaining kit rows are not yet exposed. The kit includes assemblies, hoses, aftercooler/air-line groups, adapters, fasteners and seals; it is not a general 3612 interchange list.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+031-9567 | Elbow | 1 | Cat 175-7858 3612 Generator Set Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+0S-1595 | 1/2-13 x 1 1/4 Hex Head Bolt | 2 | Cat 175-7858 3612 Generator Set Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+130-1287 | 85.6mm Inner Diameter Water Lines Tube | 1 | Cat 175-7858 3612 Generator Set Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+134-5326 | Cover | 1 | Cat 175-7858 3612 Generator Set Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+134-5327 | Hose Assembly | 1 | Cat 175-7858 3612 Generator Set Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+134-5329 | Manifold | 1 | Cat 175-7858 3612 Generator Set Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+153-3490 | Lines and Pump Group - G | 1 | Cat 175-7858 3612 Generator Set Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+160-4686 | Housing | 1 | Cat 175-7858 3612 Generator Set Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+160-4687 | Tube Assembly | 1 | Cat 175-7858 3612 Generator Set Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+160-6512 | Air Lines Group | 1 | Cat 175-7858 3612 Generator Set Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+161-8071 | Hose Assembly | 1 | Cat 175-7858 3612 Generator Set Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+185-5775 | Aftercooler Group - B | 1 | Cat 175-7858 3612 Generator Set Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+1W-7020 | 47.15mm Outer Diameter Retainer Ring | 1 | Cat 175-7858 3612 Generator Set Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+217-7349 | Tube Assembly | 1 | Cat 175-7858 3612 Generator Set Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+2B-2006 | 1/2-13 Hexagonal Head Bolt | 2 | Cat 175-7858 3612 Generator Set Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+2R-6806 | 33.00mm Long Straight Adapter | 1 | Cat 175-7858 3612 Generator Set Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+2W-4026 | 0.8mm Flange Cover Thick | 2 | Cat 175-7858 3612 Generator Set Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+2W-4032 | Tube Brace Retainer | 2 | Cat 175-7858 3612 Generator Set Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+3J-7355 | 7/16-20 Hex Head Flared Union Straight Adapter | 1 | Cat 175-7858 3612 Generator Set Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+4W-4472 | Temperature Indicator | 1 | Cat 175-7858 3612 Generator Set Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+5M-1198 | 9.52mm Internal Diameter Clip | 1 | Cat 175-7858 3612 Generator Set Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+6K-3461 | 1-7/8-12 Flared Port Straight Adapter | 1 | Cat 175-7858 3612 Generator Set Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+
+Source page: https://parts.cat.com/en/catcorp/product/175-7858
