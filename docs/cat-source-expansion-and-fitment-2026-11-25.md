@@ -42,6 +42,7 @@
 - `data/cat-batteries-starters-alternators-fitment-2026-11-25.csv` — 31 ردیف کاربرد باتری/استارتر/آلترناتور.
 - `data/cat-zeppelin-dealer-filterkits-2022-23.csv` — 71 ردیف کد کیت فیلتر نمایندگی Zeppelin با fitment.
 - `data/cat-zeppelin-mirrors-wipers-2022-23.csv` — 20 ردیف آینه و برف‌پاک‌کن با کد خام و شماره نرمال‌شده.
+- `data/cat-zeppelin-loader-get-wear-parts-2022-23.csv` — 33 ردیف GET، لبه برش، سگمنت و اتصالات لودر.
 - `data/cat-aftermarket-filter-cross-reference-leads-2026-11-25.csv` — 20 مشاهده cross-reference؛ جدا از فهرست OEM و بدون ادعای fitment.
 
 ## شمارش و وضعیت ادغام
@@ -49,7 +50,7 @@
 - مجموع داده‌های fitment در شش فایل اول: **209 ردیف**.
 - شناسه‌های یکتای CAT در این شش فایل: **179 شماره**.
 - از این تعداد **35 شماره** از قبل در فهرست اصلی موجود بود و **144 شماره** در فهرست اصلی فعلی نبود.
-- شمارش فهرست اصلی در زمان محاسبه: **1077 شماره یکتا**.
+- شمارش فهرست اصلی در زمان محاسبه: **1105 شماره یکتا**.
 - فایل cross-reference جداگانه است و شماره‌های Baldwin/Donaldson/Fleetguard/WIX نباید به فهرست شماره‌قطعات CAT اضافه شوند.
 - `data/cat-official-part-numbers.txt` به‌روزرسانی شد و 144 شماره جدید از شش فایل fitment به آن اضافه شد. شماره‌های معادل aftermarket به این فایل اضافه نشدند.
 
@@ -65,6 +66,6 @@
 ## گام بعدی
 
 1. اجرای آزمایشی workflow شماره 45574758840 با timeoutهای متوالی 60 ثانیه برای دو شماره اول متوقف شد؛ artifact شامل داده قابل استفاده نبود. trigger خودکار push حذف شد و workflow فقط دستی/آزمایشی باقی ماند.
-2. فهرست اصلی در آخرین بررسی 1077 شماره یکتا دارد؛ فایل جدید Offroad با همین 1077 شماره آماده است.
+2. فهرست اصلی در آخرین بررسی 1105 شماره یکتا دارد؛ فایل جدید Offroad با همین 1105 شماره آماده است.
 3. ادامه استخراج رسمی برای excavatorهای دیگر، backhoe F2، motor graders، compact track loaders و engine families.
 4. توسعه cross-reference با کاتالوگ‌های خود سازندگان فیلتر (Donaldson، Baldwin، Fleetguard و WIX) و نگهداری اختلاف‌ها به‌صورت مشاهده‌های مستقل.
