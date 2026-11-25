@@ -21,7 +21,7 @@ for (const row of checkpoint) {
 }
 const completedFromCheckpoint = results.filter(Boolean).length;
 console.log(`Cat batch ${batchStart + 1}-${batchStart + partNumbers.length}/${allPartNumbers.length}; resuming ${completedFromCheckpoint}/${partNumbers.length}`);
-const browser = await chromium.launch({ headless: true });
+const browser = await chromium.launch({ headless: true, args: ["--disable-http2", "--disable-quic"] });
 let cursor = 0;
 let consecutiveNavigationFailures = 0;
 let abortBatch = false;
@@ -107,8 +107,8 @@ function updateSql(row) {
 }
 
 async function worker() {
-  const page = await browser.newPage({ viewport: { width: 1365, height: 1000 } });
-  page.setDefaultNavigationTimeout(45000);
+  let page = await browser.newPage({ viewport: { width: 1365, height: 1000 } });
+  page.setDefaultNavigationTimeout(60000);
   while (true) {
     const i = cursor++;
     if (i >= partNumbers.length || abortBatch) break;
@@ -124,16 +124,22 @@ async function worker() {
       let lastError = null;
       for (let attempt = 1; attempt <= 3; attempt++) {
         try {
-          console.log(`[NAV] ${sku} attempt ${attempt}/3`);
-          response = await page.goto(url, { waitUntil: "commit", timeout: 45000 });
+          console.log(`[NAV] ${sku} attempt ${attempt}/3 (HTTP/1.1 forced)`);
+          response = await page.goto(url, { waitUntil: "commit", timeout: 60000 });
           if (response && response.status() >= 500 && attempt < 3) {
-            await page.waitForTimeout(1500 * attempt);
+            await page.waitForTimeout(2500 * attempt);
             continue;
           }
           break;
         } catch (e) {
           lastError = e;
-          if (attempt < 3) await page.waitForTimeout(2500 * attempt);
+          // A failed HTTP/2 stream can poison the page connection; reset it before retry.
+          if (attempt < 3) {
+            await page.close().catch(() => {});
+            page = await browser.newPage({ viewport: { width: 1365, height: 1000 } });
+            page.setDefaultNavigationTimeout(60000);
+            await new Promise(resolve => setTimeout(resolve, 3000 * attempt));
+          }
         }
       }
       if (!response && lastError) throw lastError;
