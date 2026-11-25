@@ -1434,3 +1434,29 @@ Source pages:
 111-1729 | Idler Group | Cat Parts Store frequently bought together with 620-6380/620-6402 roller groups | cat_linked_candidate; needs_individual_verification
 111-1730 | Idler Group | Cat Parts Store frequently bought together with 620-6380/620-6402 roller groups | cat_linked_candidate; needs_individual_verification
 142-8731 | Wheel Assembly | Cat Parts Store frequently bought together with 626-4231 BU115 broom | cat_linked_candidate; needs_individual_verification
+
+306-9451 | Track Idler Cap | Cat Parts Store parts diagram for 638-4572 D11 idler group | cat_linked_candidate; needs_individual_verification
+306-9453 | Track Idler Cap | Cat Parts Store parts diagram for 638-4572 D11 idler group | cat_linked_candidate; needs_individual_verification
+167-1947 | Landfill Idler Group, 257mm Rim, 720mm Tread | Cat Parts Store alternate idler for 638-4575 | cat_linked_candidate; needs_individual_verification
+458-7869 | Standard Idler Group, 257mm Rim, 720mm Tread | Cat Parts Store alternate idler for 638-4575 | cat_linked_candidate; needs_individual_verification
+628-7557 | Standard Idler Group, 257mm Rim, 720mm Tread | Cat Parts Store alternate idler for 638-4575 | cat_linked_candidate; needs_individual_verification
+628-7559 | Arctic Idler Group, 257mm Rim, 720mm Tread | Cat Parts Store alternate idler for 638-4575 | cat_linked_candidate; needs_individual_verification
+628-7560 | Landfill Idler Group, 257mm Rim, 720mm Tread | Cat Parts Store alternate idler for 638-4575 | cat_linked_candidate; needs_individual_verification
+628-7561 | High Temperature Idler Group, 257mm Rim, 720mm Tread | Cat Parts Store alternate idler for 638-4575 | cat_linked_candidate; needs_individual_verification
+125-4655 | Standard Idler Group, 257mm Rim, 720mm Tread | Cat Parts Store related idler for 638-4575 | cat_linked_candidate; needs_individual_verification
+126-6706 | High Temperature Idler Group, 257mm Rim, 720mm Tread | Cat Parts Store related idler for 638-4575 | cat_linked_candidate; needs_individual_verification
+192-0220 | Standard Idler Group, 204mm Rim, 628mm Tread | Cat Parts Store related idler for 638-4575 | cat_linked_candidate; needs_individual_verification
+192-0224 | Standard Idler Group, 204mm Rim, 585mm Tread | Cat Parts Store related idler for 638-4575 | cat_linked_candidate; needs_individual_verification
+197-7754 | Landfill Idler Group, 204mm Rim, 628mm Tread | Cat Parts Store related idler for 638-4575 | cat_linked_candidate; needs_individual_verification
+198-6726 | Landfill Idler Group, 204mm Rim, 585mm Tread | Cat Parts Store related idler for 638-4575 | cat_linked_candidate; needs_individual_verification
+198-7309 | Sound Suppressed Idler Group, 294.9mm Rim, 766mm Tread | Cat Parts Store related idler for 638-4575 | cat_linked_candidate; needs_individual_verification
+244-0878 | Arctic Idler Group, 232mm Rim, 620mm Tread | Cat Parts Store related idler for 638-4575 | cat_linked_candidate; needs_individual_verification
+244-0879 | Arctic Idler Group, 232mm Rim, 698mm Tread | Cat Parts Store related idler for 638-4575 | cat_linked_candidate; needs_individual_verification
+244-1323 | Landfill Idler Group, 232mm Rim, 698mm Tread | Cat Parts Store related idler for 638-4575 | cat_linked_candidate; needs_individual_verification
+244-1324 | Landfill Idler Group, 232mm Rim, 620mm Tread | Cat Parts Store related idler for 638-4575 | cat_linked_candidate; needs_individual_verification
+245-9942 | Arctic Track Idler, 257mm Rim, 720mm Tread | Cat Parts Store related idler for 638-4575 | cat_linked_candidate; needs_individual_verification
+248-5316 | Arctic Idler Group, 204mm Rim, 628mm Tread | Cat Parts Store related idler for 638-4575 | cat_linked_candidate; needs_individual_verification
+353-7116 | Landfill Idler Group, 204mm Rim, 585mm Tread | Cat Parts Store related idler for 638-4575 | cat_linked_candidate; needs_individual_verification
+354-7512 | Arctic Idler Group, 204mm Rim, 585mm Tread | Cat Parts Store related idler for 638-4575 | cat_linked_candidate; needs_individual_verification
+385-0957 | Arctic Idler Group, 204mm Rim, 585mm Tread | Cat Parts Store related idler for 638-4575 | cat_linked_candidate; needs_individual_verification
+477-2653 | Standard Idler Group, 257mm Rim, 720mm Tread | Cat Parts Store related idler for 638-4575 | cat_linked_candidate; needs_individual_verification
