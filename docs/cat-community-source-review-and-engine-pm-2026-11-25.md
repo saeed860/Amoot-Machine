@@ -2299,3 +2299,15 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
   - 165-0312 — Bare Covering Jumper Wire؛ صفحه رسمی Cat مدل‌های 287B و 297C را فهرست می‌کند؛ طول، گیج هادی و نوع ترمینیشن باید کنترل شود. شماره جدید Master.
 - منابع رسمی: https://parts.cat.com/en/catcorp/product/107-3134 ؛ https://parts.cat.com/en/catcorp/product/165-0312
 - شمارنده هدف دور: 4317 شماره یکتا؛ Mirror و Workflow با Master همگام شدند.
+
+## دور ۷۶ — تکمیل قطعات مدار مبرد (25 Nov 2026)
+
+دو شماره جدید از صفحات رسمی Cat Parts Store به Master و CSV فیتمنت 287B اضافه شدند:
+- 232-1384 — Directional Flow Brown Orifice Tube؛ Compatible Models شامل 287B و 297C؛ قطر بیرونی 10.9mm و orifice برابر 1.194mm.
+- 9X-7382 — 1.78 x 14mm 78A HNBR O-Ring؛ Compatible Models شامل 287B و 297C؛ مقطع 1.78mm، قطر داخلی 14mm و ماده HNBR با سختی 78A.
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/product/232-1384
+- https://parts.cat.com/en/catcorp/product/9X-7382
+
+این قطعات در مدار تهویه و refrigerant استفاده می‌شوند؛ جهت جریان orifice، قطر شیار و سازگاری ماده HNBR با refrigerant HFC-134a باید قبل از سفارش و نصب کنترل شود.
