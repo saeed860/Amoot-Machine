@@ -2365,3 +2365,18 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 453-1880 | Left-Hand Engine Front Camshaft | 1 | Cat 357-1810 3516 EUI-to-Tier-2 Conversion Kit BOM; arrangement 100-8318 to 282-9667 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
 
 Source page: https://parts.cat.com/en/catcorp/product/357-1810
+
+
+## Additional Cat 3516 MUI-to-Tier-2 engine conversion-kit BOM candidates — batch 134
+
+Source: official Cat Parts Store product page 350-2170, 3516 Tier 2 Engine Upgrade Kit. The product description identifies conversion from 3516 MUI arrangement 2W-8870 to Tier 2 arrangement 320-0279, to be used with an engine overhaul. Compatible model explicitly shown: MARINE ENGINE / 3516. Three other listed components were already recorded and are not duplicated. The six new rows below are arrangement-specific conversion-kit components, not generic replacement recommendations.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+285-3778 | Front Left Hand Engine Camshaft | 1 | Cat 350-2170 3516 MUI-to-Tier-2 Conversion Kit BOM; arrangement 2W-8870 to 320-0279 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
+285-3780 | Rear Left Hand Engine Camshaft | 1 | Cat 350-2170 3516 MUI-to-Tier-2 Conversion Kit BOM; arrangement 2W-8870 to 320-0279 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
+285-3782 | Front Right Hand Engine Camshaft | 1 | Cat 350-2170 3516 MUI-to-Tier-2 Conversion Kit BOM; arrangement 2W-8870 to 320-0279 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
+285-3784 | Rear Right Hand Engine Camshaft | 1 | Cat 350-2170 3516 MUI-to-Tier-2 Conversion Kit BOM; arrangement 2W-8870 to 320-0279 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
+374-2083 | Piston Assembly | 16 | Cat 350-2170 3516 MUI-to-Tier-2 Conversion Kit BOM; arrangement 2W-8870 to 320-0279 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
+392-0224 | Injector Group | 16 | Cat 350-2170 3516 MUI-to-Tier-2 Conversion Kit BOM; arrangement 2W-8870 to 320-0279 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
+
+Source page: https://parts.cat.com/en/catcorp/product/350-2170
