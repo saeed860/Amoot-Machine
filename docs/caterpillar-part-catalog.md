@@ -1144,3 +1144,31 @@ New product SKUs:
 CAT-1G-8878, CAT-1R-0716, CAT-1R-0739, CAT-1R-0750, CAT-1R-0751, CAT-1R-0762, CAT-1R-1807, CAT-326-1644, CAT-360-8960, CAT-7W-2326.
 
 No price or stock was invented. The two existing products retain their separately audited independent-seller price references. Off Road's unclassified detail-capture amounts are preserved internally and were not applied as public prices.
+
+
+## Off Road fuel-system batch cross-checked against Cat Parts Store — 25 Nov 2026
+
+Eight additional Off Road 500-index candidates were checked against exact CAT product pages:
+
+| CAT part | Official description | Application classification | Catalogue status |
+|---|---|---|---|
+| 134-0467 | PUMP GP-INJ / Unit Injector Hydraulic Pump Group | LAND | Reference only; Cat page currently returns fallback image |
+| 8N-7005 | Fuel Valve Nozzle; 8.7 in long × 1.5 in high | BOTH — Marine Engine 3306B/3304/3306/3304B plus land groups | Product added with official Cat image |
+| 392-0206 | Injector Group; 14.8 in × 3.0 in | BOTH — Marine Engine and Marine Auxiliary 3500-family groups | Product added with official Cat image |
+| 20R-0849 | Cat Reman Fuel Injector; 14.8 in × 3.0 in | LAND | Product added; Reman identity retained |
+| 20R-4179 | Cat Reman Mechanical Electronic Fuel Injector; 21.1 in × 7.3 in | BOTH — Marine Engine 3616/3612 and Marine Auxiliary 3608 | Product added; Reman identity retained |
+| 324-0532 | Fuel Injection Pump Group; 15.7 in × 6.2 in | LAND | Product added with official Cat image |
+| 375-2647 | Fuel Injection Pump; 11.0 in × 16.0 in | LAND | Product added with official Cat image |
+| 591-2386 | 24V Diesel Exhaust Fluid Pump; 12-pin AMP; max flow 7.2 kg/h | LAND | Product added with official Cat image |
+
+Official Cat pages:
+- https://parts.cat.com/en/catcorp/product/134-0467
+- https://parts.cat.com/en/catcorp/product/8N-7005
+- https://parts.cat.com/en/catcorp/product/392-0206
+- https://parts.cat.com/en/catcorp/product/20R-0849
+- https://parts.cat.com/en/catcorp/product/20R-4179
+- https://parts.cat.com/en/catcorp/product/324-0532
+- https://parts.cat.com/en/catcorp/product/375-2647
+- https://parts.cat.com/en/catcorp/product/591-2386
+
+Cat Reman identifiers are kept separate from new genuine Cat items. Alternate/reman options displayed by CAT are not assumed to be universal direct replacements. Prices remain NULL and stock remains zero until a valid source price type, condition and availability are captured.
