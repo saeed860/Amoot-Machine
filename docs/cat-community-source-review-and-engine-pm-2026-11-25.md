@@ -2580,3 +2580,14 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - 218-6858 در CSV 287B باقی ماند؛ صفحه رسمی Compatible Models صریحاً 287B و 297C را شامل می‌کند.
 - منابع رسمی: https://parts.cat.com/en/catcorp/product/453-5488 ؛ https://parts.cat.com/en/catcorp/product/291-0010 ؛ https://parts.cat.com/en/catcorp/product/218-6858
 - وضعیت شمارنده: 4362 شماره یکتا؛ Mirror برابر Master؛ Workflow برابر 4362.
+
+
+## دور ۹۶ — 25 Nov 2026
+
+- چهار شماره جدید/تکمیل‌نشده از صفحات رسمی Cat Parts Store ثبت شد:
+  - 295-1799 — VALVE GP-RLF؛ فیتمنت صریح 287B و 297C؛ شیر relief فولادی؛ فشار تنظیمی و اتصال پورت باید با مدار دستگاه تطبیق داده شود. در Master و CSV 287B ثبت شد.
+  - 258-3247 — Mounting Bracket؛ فقط 297C (بدون 287B)؛ براکت فولادی با weld nut و رزوه M10، ابعاد 137 × 112 × 181mm؛ در CSV 297C-only ثبت شد.
+  - 258-4004 — Right-Hand Instrument Panel؛ فقط 297C؛ پنل ABS؛ نسل کنسول، محل gauge و سیم‌کشی بررسی شود. در CSV 297C-only ثبت شد.
+  - 258-2964 — TUBE AS.؛ فقط 297C؛ مسیر لوله، اتصالات و فشار کاری باید از Parts Diagram تأیید شود. در CSV 297C-only ثبت شد.
+- منابع رسمی: https://parts.cat.com/en/catcorp/product/295-1799 ؛ https://parts.cat.com/en/catcorp/product/258-3247 ؛ https://parts.cat.com/en/catcorp/product/258-4004 ؛ https://parts.cat.com/en/catcorp/product/258-2964
+- وضعیت شمارنده: 4366 شماره یکتا؛ Mirror برابر Master؛ Workflow برابر 4366.
