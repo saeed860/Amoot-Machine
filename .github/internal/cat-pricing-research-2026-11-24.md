@@ -4841,3 +4841,37 @@ Post-update verification: all ten SKUs exist with Cat official item-page evidenc
 Twelve additional related leads added: 238-5081, 214-7566, 1R-0756, 210-2535, 513-4493, 8N-6309, 248-5513, 8T-1919, 7E-6016, 2N-0931, 033-6031 and 105-2508. These remain discovery candidates pending individual item-page verification.
 
 Overall reviewed progress: 84/500 batches = 840/5,000 product target (16.8%). Original Cat seed list 787/787 complete; discovery-derived products individually verified and inserted/updated: 63. Remaining target: 4,160 products.
+
+## Batch 85/500 — Cat-linked discovery candidates 51–60 (2026-11-25)
+
+Ten candidates were checked on their own official Cat Parts Store item pages. Eight new catalog rows were inserted; two existing rows (1R-0755 and 6V-0852) were updated with official item-page fitment/specification details. All ten were re-queried and model arrays deduplicated.
+
+Verified:
+- 1R-0755 — High Efficiency Fuel Filter (Cat page calls it Advanced Efficiency Fuel Filter). Diameter 5.358in, length 12.181in, Out-to-In, Advanced High Efficiency, Spin-On. Materials include mixed metal/nonmetal, cyanoacrylate adhesive, alloy/carbon steel, nylon and NBR. Cat says one-piece can, non-metallic nylon center tube, acrylic beads, spiral roving and molded end caps. 50 visible compatible labels across pumper, generators, AD55B/AD60, C32 power modules, 793/777/775/773 trucks, grader 24, RC7/RC20, 6020/6015/6040/6060 shovels, D6/D10/D11 tractors and MD6540C/MD6380 drills.
+- 238-5080 — 2.21 ×16.36mm 90A FKM O-ring for 3/4-16 STOR connector. Cross-section 0.087in, ID 0.644in, fitting 3/4–16, dash 908; FKM/PTFE. 86 visible model labels partially normalized across toolcarriers, harvesters, C18 power packs, military gensets, drills, mini excavators, forestry, excavators, compact track loaders, marine powertrain and petroleum transmission.
+- 318-2486 — 190mm Track Pitch Track Link. 7.48in pitch, 1.713in rail-to-pin-boss OD, 4.252in height, 2.402in bore-to-rail, 2.528in track-pin/bushing bore, M18 master bolt thread, boron steel, abrasion system, press-fit, clamp master, no wear sensor. Fitment D6K2/D5K/D6K/D4/D3 families and PL61 pipelayer (13 labels).
+- 357-5368 — Standard single-flange track roller group, abrasion application. Mounting width 8.913in, tread diameter 6.909in, shaft length 13.106in, shaft OD 3.622in, mounting bolt axial spacing 11.665in, flange OD 8.248in, inside/outside spread 2.819/5.87in, M16 cap bolt; not carrier-roller compatible. Fitment D6K2/D5K/D6K/D5G/D4/D3 families (13 labels).
+- 362-0515 — Cantilever carrier roller group, standard abrasion application, 169mm tread diameter. Shaft mounting length 3.388in, outside/inside spread 6.496/1.575in, shaft OD 1.625in, flange OD 7.323in, tread OD 6.654in. Fitment D5K XL, D6K, D3, D5K LGP, D5K2 LGP, D5K2 XL and D5G (7 labels).
+- 190-8609 — 22mm Hex Size Track Adjuster Fill Valve. Plated steel; length 2.5in, height 0.9in; carbon steel/alloy zinc/adhesive. Cat says it controls track tension and position. 113 visible labels normalized across a very broad set of track-type tractors, 3508B generator, pipelayers, 933C/973 track loaders, 623G/623F wheel scrapers, PM cold planers and 527/517 skidders.
+- 561-1082 — 36-section SALT Link Assembly, 190mm pitch. Clamp master, press-fit, M18 track/master threads, pitch 7.48in, pin length 6.661in, shoe-bolt spacing 4.528in, link height 4.252in, 0.748in bolt hole, 2.39in bushing OD, no wear sensor, not rotating-bushing track. Fitment D5K XL/D3/D5K LGP/D5K2 LGP/D5K2 XL (5 labels).
+- 3J-1907 — 1.98 ×11.89mm 90A NBR O-ring. Cross-section 0.078in, ID 0.468in, fitting 9/16–18, dash 906, NBR/PTFE, STOR. 64 visible compatible labels partially normalized across toolcarriers, harvesters, PP120, military genset, grapple, drill, mini excavators, forestry and excavators.
+- 6V-0852 — Hydraulic Oil Dust Cap. Existing record updated with 99 visible compatible labels from Cat page, including IT toolcarriers, 550/570/580 harvesters, C18 power pack, MD6310/6250/6200/6380 drills, mini hydraulic excavators and broad excavator models. Materials chloroprene (CR) rubber and thermoplastic plastic; function shields hydraulic openings from dust/debris.
+- 6D-7889 — 2.62 ×61.6mm 75A FKM O-ring. Cross-section 0.103in, ID 2.425in, dash 143. 315 visible compatible labels normalized across truck engines, toolcarriers, wheel tractor-scrapers, skidders, AD22, D7R II, excavators, wheel tractors, track loaders, petroleum transmission/engines, compactors, wheel loaders, articulated trucks, pipelayers and more.
+
+Cat item pages:
+- https://parts.cat.com/en/catcorp/product/1R-0755
+- https://parts.cat.com/en/catcorp/product/238-5080
+- https://parts.cat.com/en/catcorp/product/318-2486
+- https://parts.cat.com/en/catcorp/product/357-5368
+- https://parts.cat.com/en/catcorp/product/362-0515
+- https://parts.cat.com/en/catcorp/product/190-8609
+- https://parts.cat.com/en/catcorp/product/561-1082
+- https://parts.cat.com/en/catcorp/product/3J-1907
+- https://parts.cat.com/en/catcorp/product/6V-0852
+- https://parts.cat.com/en/catcorp/product/6D-7889
+
+Post-update verification: all ten SKUs exist with official Cat item-page evidence and REFERENCE status. Eight inserted, two existing rows updated. Fitment counts after de-duplication: 1R-0755=50; 238-5080=86; 318-2486=13; 357-5368=13; 362-0515=7; 190-8609=113; 561-1082=5; 3J-1907=64; 6V-0852=99; 6D-7889=315. No prices, availability or universal interchange claims added.
+
+Nine additional related leads added: 318-2375, 107-0266, 275-2604, 9C-4937, 610-1943, 270-1528, 603-3605, 3J-0360 and 6V-3965. They remain discovery candidates until individually verified.
+
+Overall reviewed progress: 85/500 batches = 850/5,000 product target (17.0%). Original Cat seed list 787/787 complete; discovery-derived products individually verified and inserted/updated: 83. Remaining target: 4,150 products.
