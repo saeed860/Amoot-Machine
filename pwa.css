@@ -11,6 +11,6 @@
 .amoot-pwa-help{display:none;margin-top:8px;color:#f0f1f2;font-size:11px;line-height:1.9}
 .amoot-pwa-help.is-open{display:block}
 .amoot-pwa-help strong{color:#ffc400}
-@media(min-width:769px){.amoot-pwa-prompt{display:none!important}}
+@media(min-width:769px) and (hover:hover) and (pointer:fine){.amoot-pwa-prompt{display:none!important}}
 @media(max-width:360px){.amoot-pwa-prompt{left:8px;right:8px;gap:8px;padding:10px}.amoot-pwa-icon{width:38px;height:38px;flex-basis:38px}.amoot-pwa-title{font-size:11px}.amoot-pwa-subtitle{font-size:9px}.amoot-pwa-install{padding:8px 10px}}
 @media(prefers-reduced-motion:reduce){.amoot-pwa-prompt{transition:none}}
