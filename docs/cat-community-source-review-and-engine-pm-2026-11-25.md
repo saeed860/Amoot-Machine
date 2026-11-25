@@ -40,10 +40,19 @@
 
 ## کنترل Master و فایل ورودی
 - Master: data/cat-official-part-numbers.txt
-- فایل ورودی جدید: data/offroad-batch-import-cat-1536.txt
-- تعداد مورد انتظار: 1,536 شماره، یکتا؛ فایل ورودی باید mirror دقیق Master باشد.
+- فایل ورودی جدید: data/cat-master-mirror-2026-11-25.txt
+- تعداد مورد انتظار: 1,541 شماره یکتا در Master؛ فایل mirror باید با Master برابر باشد.
 - CSV تکمیلی: data/cat-engine-pm-kit-source-verification-2026-11-25.csv
 - این فایل‌ها فقط آماده‌سازی داده هستند؛ هیچ ادعایی مبنی بر آپلود داده در حساب Offroad Equipment وجود ندارد.
+
+## استخراج رسمی موتور — دور تکمیلی 2026-11-25
+چهار شماره جدید با صفحه محصول رسمی Cat تأیید شدند و به Master اضافه شدند:
+- 20R-0638 — Cat Reman Platinum Engine Overhaul Kit (C7)، کاربرد پیشنهادی و مدل Truck Engine C7؛ صفحه رسمی نسبت تراکم 16.5:1 را نیز ذکر می‌کند.
+- 276-3104 — Fuel Filter Wiring Harness؛ مدل‌های C13 و C11/C13 در صفحه رسمی آمده‌اند.
+- 322-2733 — External Sensors Engine Harness؛ مدل Industrial Engine C7 در فهرست سازگاری است.
+- 557-7633 — Injector Group؛ مدل‌های Engine/Industrial Engine/Petroleum Engine C9 در فهرست سازگاری است.
+- جزئیات و وضعیت بررسی در `data/cat-engine-parts-official-verification-2026-11-25.csv` ثبت شده است. شماره سریال/Arrangement همچنان برای fitment نهایی الزامی است.
+- منابع رسمی: https://parts.cat.com/en/catcorp/product/20R-0638 ، https://parts.cat.com/en/catcorp/product/276-3104 ، https://parts.cat.com/en/catcorp/product/322-2733 ، https://parts.cat.com/en/catcorp/product/557-7633
 
 ## قواعد حفظ کیفیت داده
 1. شماره‌های فروشنده و aftermarket وارد Master OEM نشوند.
