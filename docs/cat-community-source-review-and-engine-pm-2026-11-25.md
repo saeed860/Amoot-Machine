@@ -2664,3 +2664,13 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - هیچ‌یک از این چهار مورد به فیتمنت 287B تعمیم داده نشد.
 - منابع رسمی: https://parts.cat.com/en/catcorp/product/345-4733 ؛ https://parts.cat.com/en/catcorp/product/430-7601 ؛ https://parts.cat.com/en/catcorp/product/287-4300 ؛ https://parts.cat.com/en/catcorp/product/258-2449
 - Master هدف پس از ثبت: 4381 شماره یکتا؛ Mirror byte-exact و Workflow برابر 4381.
+
+
+## دور ۷۱ — 25 Nov 2026
+
+- دو شماره جدید از صفحات رسمی Cat Parts Store با فیتمنت صریح 287B به Master و CSV 287B افزوده شد:
+  - 5I-8110 — 90 Degree Elbow Adapter؛ اتصال Male NPT به Hose Bead؛ صفحه رسمی Cat فهرست 287B و 297C را دارد. رزوه، قطر شیلنگ و فشار مدار باید تطبیق داده شود.
+  - 150-7568 — 3/8in 45 Degree Elbow Adapter؛ صفحه رسمی Cat فهرست 287B را دارد؛ فشار کاری اعلام‌شده 690 kPa است؛ اتصال‌های دو سر و فشار مدار کنترل شود.
+- موارد دیگر بررسی‌شده در نتایج این مرحله از قبل در Master و CSV موجود بودند و دوباره درج نشدند.
+- منابع رسمی: https://parts.cat.com/en/catcorp/product/5I-8110 ؛ https://parts.cat.com/en/catcorp/product/150-7568
+- شمارنده هدف پس از ثبت: 4383 شماره یکتا؛ Mirror و Workflow همگام شدند.
