@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       batch_start:
-        description: "Zero-based offset in the official Cat part-number list (currently 2256)"
+        description: "Zero-based offset in the official Cat part-number list (currently 2262)"
         required: true
         default: "0"
       batch_size:
