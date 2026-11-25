@@ -2122,3 +2122,25 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - https://parts.cat.com/en/catcorp/product/258-4248
 
 این قطعات به فیتمنت 287B تعمیم داده نشدند. برای insulation و sealها، ضخامت، profile، طول و سطح اتصال؛ و برای louver cover، طول 397mm و سازگاری با outlet باید با HVAC group و PIN تطبیق داده شود.
+
+## دور ۷۱ — تکمیل قطعات سیستم تهویه مطبوع (25 Nov 2026)
+
+شش شماره جدید از صفحات رسمی Cat Parts Store به Master اضافه شدند:
+- 258-2466 — 8mm Thick Refrigerant Compressor Bracket؛ Compatible Models شامل 297C و مدل‌های C2 است، بدون 287B.
+- 186-6190 — Refrigerant Accumulator؛ Compatible Models صریحاً 287B و 297C را دارد.
+- 276-9875 — Aluminum Refrigerant Compressor؛ Compatible Models شامل 297C و 287C/277C است، بدون 287B.
+- 258-3539 — Non-Cogged V-Belt؛ طول 38in و عرض 0.5in؛ فیتمنت 297C و مدل‌های C مرتبط، بدون 287B.
+- 258-4290 — Air Conditioner Group؛ ابعاد 25.2 x 21.8 x 7.8in؛ فیتمنت 297C و مدل‌های C مرتبط، بدون 287B.
+- 266-0299 — 12 Volt Air Conditioner Rocker Switch؛ پنج ترمینال و LED سبز؛ فیتمنت 297C و مدل‌های D/C مرتبط، بدون 287B.
+
+186-6190 به CSV رسمی 287B اضافه شد؛ پنج شماره دیگر در CSV مستقل 297C-only ثبت شدند.
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/product/258-2466
+- https://parts.cat.com/en/catcorp/product/186-6190
+- https://parts.cat.com/en/catcorp/product/276-9875
+- https://parts.cat.com/en/catcorp/product/258-3539
+- https://parts.cat.com/en/catcorp/product/258-4290
+- https://parts.cat.com/en/catcorp/product/266-0299
+
+برای accumulator و compressor، refrigerant type، pressure, clutch voltage و connections؛ برای bracket و belt، alignment و pulley profile؛ و برای switch، 12V، terminal layout و panel cutout باید با HVAC configuration و PIN تطبیق داده شود.
