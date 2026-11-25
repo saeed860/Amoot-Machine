@@ -2510,3 +2510,44 @@ Source page: https://parts.cat.com/en/catcorp/product/482-9897
 - Sources added: Cat Parts Store official kit BOMs and independent supplier listings; all BOM-only candidates remain explicitly separated from standalone Cat item-page verification, serial-specific fitment, stock and pricing.
 - Data quality: repeated SKUs are not re-added in new batch sections; missing/empty official BOMs are recorded as zero-add checkpoints; suspicious quantity 2,169 for 165-3928 in Cat 357-1805 is excluded pending confirmation.
 - Next target: continue at batch 151; do not treat 150 as a stopping point. Continue toward the requested 5,000-checkpoint target while prioritizing net-new, source-backed part numbers over raw page or batch counts.
+
+
+## Additional Cat 627E/627F/621E/621F/623E/623F wheel-tractor and 814B wheel-dozer engine-parts-kit BOM candidates — batch 151
+
+Source: official Cat Parts Store product page 321-1453, KIT-ENGINE PARTS. Compatible models explicitly shown: WHEEL TRACTOR / 627E, 627F, 621E, 621F, 623E, 623F; WHEEL DOZER / 814B. All 32 first-page BOM references were new to this discovery queue and the original 787-number seed list. These components include fuel-governor, flyweight, timing-drive, final-drive and fastening parts; descriptions and quantities are copied from Cat's kit listing. Verify exact machine serial/arrangement and the engine parts group before ordering.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+4P-3337 | Outer Flyweight Race | 1 | Cat 321-1453 Wheel Tractor/814B Wheel Dozer Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+052-0726 | Male to Female to Female Pipe Tee Adapter | 1 | Cat 321-1453 Wheel Tractor/814B Wheel Dozer Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+178-2500 | Adapter-Flange | 1 | Cat 321-1453 Wheel Tractor/814B Wheel Dozer Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+132-7446 | Final Drive Carrier | 1 | Cat 321-1453 Wheel Tractor/814B Wheel Dozer Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+7C-7971 | Timing Gear Housing Cover | 1 | Cat 321-1453 Wheel Tractor/814B Wheel Dozer Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+6V-7698 | 1/4-20 x 3 1/4 Hex Socket Head Bolt | 8 | Cat 321-1453 Wheel Tractor/814B Wheel Dozer Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+123-2886 | 6.35mm Fuel Ratio Control Line Tube | 1 | Cat 321-1453 Wheel Tractor/814B Wheel Dozer Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+9X-7715 | 90.93mm Inner Diameter Lobed Seal | 1 | Cat 321-1453 Wheel Tractor/814B Wheel Dozer Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+100-2849 | 10.5mm Thick Governor Drive Cover Plate | 1 | Cat 321-1453 Wheel Tractor/814B Wheel Dozer Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+7W-0993 | 64 Teeth Fuel Pump Drive Gear | 1 | Cat 321-1453 Wheel Tractor/814B Wheel Dozer Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+2N-1287 | 90 Degree Elbow Adapter | 1 | Cat 321-1453 Wheel Tractor/814B Wheel Dozer Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+4P-1638 | 7/8-20-2A UNEF Fuel Pump Governor Adjusting Screw | 1 | Cat 321-1453 Wheel Tractor/814B Wheel Dozer Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+4P-7690 | Flyweight Race | 2 | Cat 321-1453 Wheel Tractor/814B Wheel Dozer Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+100-2847 | 77mm Wide Flyweight Cover | 1 | Cat 321-1453 Wheel Tractor/814B Wheel Dozer Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+119-2130 | Governor Weight | 4 | Cat 321-1453 Wheel Tractor/814B Wheel Dozer Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+7C-7873 | Bracket Assembly | 1 | Cat 321-1453 Wheel Tractor/814B Wheel Dozer Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+206-2113 | Hose Assembly | 1 | Cat 321-1453 Wheel Tractor/814B Wheel Dozer Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+9Y-7450 | 1.6mm Thick Retainer | 2 | Cat 321-1453 Wheel Tractor/814B Wheel Dozer Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+180-0035 | 7/8-20 Hex Nut | 1 | Cat 321-1453 Wheel Tractor/814B Wheel Dozer Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+5H-6552 | 31.75mm Nominal Length Hexagonal Socket Set Screw | 1 | Cat 321-1453 Wheel Tractor/814B Wheel Dozer Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+8L-5832 | #10-32 Hex Nut | 1 | Cat 321-1453 Wheel Tractor/814B Wheel Dozer Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+4P-7691 | 112.38mm Long Timing Spool | 1 | Cat 321-1453 Wheel Tractor/814B Wheel Dozer Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+5G-2003 | 6.80mm Internal Diameter Steel Spacer | 2 | Cat 321-1453 Wheel Tractor/814B Wheel Dozer Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+132-7444 | 64mm Outer Diameter Weight Carrier | 1 | Cat 321-1453 Wheel Tractor/814B Wheel Dozer Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+110-6465 | 24 Volt Shutoff Solenoid | 1 | Cat 321-1453 Wheel Tractor/814B Wheel Dozer Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+9M-0766 | 3mm Thick Support Bracket | 1 | Cat 321-1453 Wheel Tractor/814B Wheel Dozer Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+6S-5992 | 0.5in Diameter Loop Clip | 1 | Cat 321-1453 Wheel Tractor/814B Wheel Dozer Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+6I-3666 | 15.4mm Diameter Compression Spring | 1 | Cat 321-1453 Wheel Tractor/814B Wheel Dozer Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+8C-6871 | Adapter-Straight | 1 | Cat 321-1453 Wheel Tractor/814B Wheel Dozer Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+122-8905 | 3/4-14 NPTF x 13/16-16 90 Degree Elbow Adapter | 1 | Cat 321-1453 Wheel Tractor/814B Wheel Dozer Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+100-2851 | 103.15mm Inner Diameter Drive Ring | 1 | Cat 321-1453 Wheel Tractor/814B Wheel Dozer Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+7X-7731 | 3/4-14 NPTF Thread Square Drive Plug | 1 | Cat 321-1453 Wheel Tractor/814B Wheel Dozer Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+
+Source page: https://parts.cat.com/en/catcorp/product/321-1453
