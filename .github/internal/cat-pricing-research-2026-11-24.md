@@ -4640,3 +4640,38 @@ Additional Cat-linked discovery candidates from Cat related/parts diagrams:
 All remain discovery leads only; no cross-part fitment or interchangeability is implied.
 
 Overall reviewed progress: 78/500 batches = 780/5,000 product target (15.6%). Original Cat seed list has 7 SKUs remaining (products 781–787).
+
+## Batch 79/500 — products 781–787 (2026-11-25)
+
+Final batch from the original Cat official 787-SKU seed list. SKUs: 9S-8004, 9S-8005, 9W-4264, 9X-3402, 9X-3404, 9Y-5068, 9Y-9236. All seven Cat pages opened; fitment, technical details and related items were inspected.
+
+Verified:
+- 9S-8004: Cat 9/16-18 Thread Hex Drive Plug, threaded cap/plug for fluid systems. Description says it provides leak-free connection and stops fluid flow/holds pressure when assembled correctly. Material Description Plated Steel; materials Carbon Steel/Alloy Steel/Alloy Zinc; O-ring seal 3J-1907; thread 9/16-18. Cat Compatible Models lists hundreds of applications across toolcarriers, wheel harvesters, power packs, military gensets, rotary drills, mini excavators, feller bunchers, harvesters, excavators, shovels, loaders, compactors, MHPUs and more. DB keeps the broad model list unnormalized rather than inventing partial fitment. Related 3J-1907.
+- 9S-8005: Cat 3/4-16 Thread Hex-Drive Plug / Internal Hex Plug for wheel group and drivetrain. Specs: 0.9in length, 0.5in height, Plated Steel, Alloy Steel/Alloy Zinc/Carbon Steel, O-ring seal 3K-0360, thread 3/4-16. Cat Compatible Models likewise spans hundreds of applications; exact full list not normalized into DB. Related 3K-0360.
+- 9W-4264: Cat Track Seal, 61.9mm OD. Specs: 2.185in ID ×2.437in OD, Extreme Service/Single Grouser shoe type. Compatible D10 track tractor, Ripper 10, Bulldozers 10C/10S/10U (5 labels). Related 6Y-0473 clear track-idler plug, 7G-4332 track-roller rubber stopper, 252-6329 Track Seal Set and 239-5509 Track Link Ring Set.
+- 9X-3402: Cat Connector Socket for wire-to-wire or wire-to-device electrical interface. Specs: 16–18 AWG, gold-plated Alloy Brass, up to 13A, 0.13in diameter, 0.78in length. 464 distinct compatible labels across toolcarriers, CatSafety, C18 power pack, CUV utility vehicles, mini hydraulic excavators, rotary drills, feller bunchers, harvester heads, excavators, pump power ends, shovels, MTL/CTL, pavers and rotary mixers. Cat related 9X-3401 Connector Pin and 126-1768 Connector Socket.
+- 9X-3404: Cat 12V Heavy-Duty Maintenance-Free Accessible Wet Battery, BCI Group 31/30h, SAE posts, starting application, polypropylene plastic. Specs: 100Ah at 20h, 165min reserve capacity, 12.9 ×6.7 ×8.6in, 58lb wet, Calcium Lead Alloy grid. Cat description/title states 900 CCA, while Specifications states 950 CCA; both values remain explicitly stored in DB as a source discrepancy. 437 compatible labels across toolcarriers, harvesters, LHDs, material handlers, off-highway trucks, graders, skidders, tractors, compactors, pavers, mini excavators, pipelayers, excavators, loaders, engines and other Cat applications. Related 1R-1808 oil filter and 3J-1907 O-ring.
+- 9Y-5068: Cat Auxiliary Sea Water Pump Impeller. Cat description says it facilitates seawater circulation through the cooling system for temperature regulation. Compatible labels: Gen Set Engine 3512B/3516B; Generator Set 3516B/3512B; Marine Engine 3516/3512/3508B/3516B/3516C/3512B; Marine Auxiliary 3512B/3516B; Engine 3512PETROL/3516PETROLEUM; Petroleum Engine 3516B (8 unique labels). DB compatible/engine arrays match.
+- 9Y-9236: Cat 27mm Long Steel Sight Gauge Body, zinc-plated steel, porthole-style liquid-level indicator, leak-free. Description/title says 5/16-12 thread, while Specifications states 1-5/16-12; both retained in DB. Specs: 282.50kPa max pressure, 1.5in width, 1.7in length, 1.1in depth, Low Alloy Steel. 409 compatible labels across generators, toolcarriers, power packs, asphalt compactors, wheel skidders, rotary drills, feller bunchers, forestry, MHPUs, underground trucks, excavators, wheel tractors, wheel scrapers, loaders, compactors, graders, engines and many other Cat applications. Related 7M-8485, 3K-0360, 3J-1907 and 3J-7354.
+
+Cat pages:
+- https://parts.cat.com/en/catcorp/product/9S-8004
+- https://parts.cat.com/en/catcorp/product/9S-8005
+- https://parts.cat.com/en/catcorp/product/9W-4264
+- https://parts.cat.com/en/catcorp/product/9X-3402
+- https://parts.cat.com/en/catcorp/product/9X-3404
+- https://parts.cat.com/en/catcorp/product/9Y-5068
+- https://parts.cat.com/en/catcorp/product/9Y-9236
+
+Post-update DB verification counts: 9S-8004=0 (broad fitment not normalized); 9S-8005=0 (broad fitment not normalized); 9W-4264=5; 9X-3402=464; 9X-3404=437; 9Y-5068=8; 9Y-9236=409. No price or stock claims added.
+
+Additional Cat-linked discovery candidates from official Cat related/frequently-bought-together panels:
+- 9S-8004: 3J-1907 O-ring.
+- 9S-8005: 3K-0360 O-ring.
+- 9W-4264: 6Y-0473, 7G-4332, 252-6329, 239-5509.
+- 9X-3402: 9X-3401 Connector Pin, 126-1768 Connector Socket.
+- 9X-3404: 1R-1808 oil filter, 3J-1907 O-ring.
+- 9Y-9236: 7M-8485, 3K-0360, 3J-1907, 3J-7354.
+These are discovery leads only; no cross-part fitment/interchangeability is implied.
+
+Original Cat seed progress: 79 batches completed; 787/787 original SKUs (100%). Overall target remains 5,000 products, so 4,213 product slots remain to be sourced from segregated discovery queues and further independent research.
