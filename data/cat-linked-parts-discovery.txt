@@ -3524,3 +3524,24 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 195-2862 | SEAL | 1 | Cat 216-7858 Forestry/Excavator Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_specific
 
 Source page: https://parts.cat.com/en/catcorp/product/216-7858
+
+
+## Additional Cat VT60/MP40/VHS-60/P360 hydraulic-cylinder seal-kit BOM candidates — batch 208
+
+Source: official Cat Parts Store product page 175-6581, Hydraulic Cylinder Seal Kit. Compatible models explicitly shown: MULTI PROCESSOR / VT60, MP40; SHEAR-STRAIGHT / S465; SHEAR-DEMOLITION/SCRAP / VHS-60; CRUSHER / P360. Cat describes the kit as a matched assembly of wiper seal, wear rings, O-ring, backup ring and seal assemblies to prevent fluid leakage and contamination. All twelve BOM references were new to the discovery queue and original seed list. Confirm attachment/cylinder assembly before ordering.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+175-5083 | SEAL AS | 1 | Cat 175-6581 VT60/MP40/S465/VHS-60/P360 Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; attachment_specific
+175-5085 | RING-WEAR | 1 | Cat 175-6581 VT60/MP40/S465/VHS-60/P360 Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; attachment_specific
+175-5086 | O-Ring | 1 | Cat 175-6581 VT60/MP40/S465/VHS-60/P360 Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; attachment_specific
+175-5081 | SEAL AS | 1 | Cat 175-6581 VT60/MP40/S465/VHS-60/P360 Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; attachment_specific
+175-5088 | 3.53 x 183.74mm 90A FKM O-Ring | 1 | Cat 175-6581 VT60/MP40/S465/VHS-60/P360 Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; attachment_specific
+214-1690 | RING-WEAR | 3 | Cat 175-6581 VT60/MP40/S465/VHS-60/P360 Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; attachment_specific
+175-5082 | SEAL AS | 1 | Cat 175-6581 VT60/MP40/S465/VHS-60/P360 Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; attachment_specific
+175-5087 | SEAL AS | 1 | Cat 175-6581 VT60/MP40/S465/VHS-60/P360 Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; attachment_specific
+175-6217 | RING-BACK UP | 1 | Cat 175-6581 VT60/MP40/S465/VHS-60/P360 Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; attachment_specific
+175-5090 | RING-WEAR | 2 | Cat 175-6581 VT60/MP40/S465/VHS-60/P360 Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; attachment_specific
+175-5084 | RING-WEAR | 4 | Cat 175-6581 VT60/MP40/S465/VHS-60/P360 Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; attachment_specific
+175-5080 | SEAL-WIPER | 1 | Cat 175-6581 VT60/MP40/S465/VHS-60/P360 Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; attachment_specific
+
+Source page: https://parts.cat.com/en/catcorp/product/175-6581
