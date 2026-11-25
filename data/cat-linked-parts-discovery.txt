@@ -2468,3 +2468,20 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 7E-7912 | 1.6mm Thick Engine Cooling Lines Gasket | 1 | Cat 319-8126 Single Cylinder Head Install Kit BOM; Cat compatibility unavailable | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
 
 Source page: https://parts.cat.com/en/catcorp/product/319-8126
+
+
+## Additional Cat 735B/740/735 articulated-truck bronze overhaul-kit BOM candidates — batch 149
+
+Source: official Cat Parts Store product page 443-7600, Engine Overhaul (Bronze) Kit. Compatible models explicitly shown: ARTICULATED TRUCK / 735B, 740, 735 OEM, 735. Cat's Bronze Kit Contains specification states standard rod bearings, camshaft bearings, oil filter, fuel filter, studs, locknuts, coolant temperature regulators, turbo locknuts/bolts, gaskets and seals. Twenty-four other first-page items were already present in the discovery queue or seed list and are not duplicated. The eight new rows below are official BOM references only; verify truck serial/arrangement before ordering.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+171-4358 | 5.33 x 50.17mm 70A EPDM O-Ring | 2 | Cat 443-7600 735B/740/735 Bronze Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+197-8006 | 5.33 x 196.22mm 70A EPDM O-Ring | 1 | Cat 443-7600 735B/740/735 Bronze Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+415-1249 | Front Housing Install Gasket Kit | 1 | Cat 443-7600 735B/740/735 Bronze Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+443-7477 | Block and Oil Pan Gaskets Kit - Central Lower Structure | 1 | Cat 443-7600 735B/740/735 Bronze Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+444-5208 | Oil Cooler and Lines Gasket Kit | 1 | Cat 443-7600 735B/740/735 Bronze Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+4N-0699 | 0.8mm Thick Flange Gasket | 1 | Cat 443-7600 735B/740/735 Bronze Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+592-7356 | Single Cylinder Head Install Kit | 1 | Cat 443-7600 735B/740/735 Bronze Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+6V-3250 | 1.98 x 11.89mm 70A EPDM O-Ring | 1 | Cat 443-7600 735B/740/735 Bronze Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+
+Source page: https://parts.cat.com/en/catcorp/product/443-7600
