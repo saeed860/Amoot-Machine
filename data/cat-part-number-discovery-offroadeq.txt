@@ -512,7 +512,7 @@ Format: part_number | source_description | source_brand | verification_status
 
 ## CAT official-page cross-checks — 25 Nov 2026
 
-The following 20 Off Road candidates have exact Cat Parts Store product-page corroboration for the CAT identifier and description. This does not establish Off Road stock, condition, supplier price or serial-specific machine fitment.
+The following 28 Off Road candidates have exact Cat Parts Store product-page corroboration for the CAT identifier and description. This does not establish Off Road stock, condition, supplier price or serial-specific machine fitment.
 
 - 1G8878 — CAT 1G-8878 Hydraulic/Transmission Oil Filter: https://parts.cat.com/en/catcorp/product/1G-8878
 - 1R0716 — CAT 1R-0716 Engine Lube Oil Filter: https://parts.cat.com/in/catcorp/product/1R-0716
