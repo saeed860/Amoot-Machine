@@ -99,13 +99,57 @@
   const form=document.querySelector('#apiResetForm');
   form.onsubmit=async e=>{e.preventDefault();const d=Object.fromEntries(new FormData(form)),button=form.querySelector('button'),message=document.querySelector('#apiResetMessage');if(d.password!==d.confirm){message.textContent='تکرار رمز عبور مطابقت ندارد.';return}button.disabled=true;message.textContent='در حال ذخیره رمز جدید...';try{const result=await authRequest('user',{method:'PUT',headers:{Authorization:'Bearer '+accessToken},body:JSON.stringify({password:d.password})});localStorage.removeItem(TOKEN_KEY);localStorage.removeItem(USER_KEY);history.replaceState(null,'',location.pathname+location.search);message.textContent='رمز عبور با موفقیت تغییر کرد. اکنون می‌توانید وارد شوید.';form.remove();const back=document.createElement('button');back.className='btn yellow';back.textContent='ورود به حساب';back.onclick=()=>window.openAuth('login');document.querySelector('#modalBody .auth-box').append(back)}catch(err){message.textContent=err.message;button.disabled=false}};
  };
+ const googleRedirectUrl='https://saeed860.github.io/Amoot-Machine/?auth=google-callback';
+ let googleClient=null;
+ const getGoogleClient=()=>{
+  if(!window.supabase?.createClient)throw new Error('کتابخانه ورود گوگل بارگذاری نشده است. صفحه را تازه‌سازی کنید.');
+  if(!googleClient)googleClient=window.supabase.createClient('https://mzcvmgxfcbspkyfqtjry.supabase.co',publicKey,{auth:{flowType:'pkce',autoRefreshToken:true,persistSession:true,detectSessionInUrl:true,storageKey:'amoot_google_auth_v1'}});
+  return googleClient;
+ };
+ const completeGoogleCallback=async()=>{
+  if(new URLSearchParams(location.search).get('auth')!=='google-callback')return;
+  const message=document.querySelector('#apiAuthMessage');
+  try{
+   const client=getGoogleClient();
+   const {data:{session},error}=await client.auth.getSession();
+   if(error)throw error;
+   if(!session?.access_token)throw new Error('ورود گوگل کامل نشد؛ دوباره تلاش کنید.');
+   if(message)message.textContent='ورود گوگل تأیید شد؛ در حال اتصال حساب آموت...';
+   const response=await fetch(base+'/api/auth/google-session',{method:'POST',headers:{apikey:publicKey,'Content-Type':'application/json',Authorization:'Bearer '+session.access_token}});
+   const result=await response.json().catch(()=>({}));
+   if(!response.ok)throw new Error(result?.error?.message||'اتصال حساب گوگل به آموت ناموفق بود.');
+   localStorage.setItem(TOKEN_KEY,result.token);
+   localStorage.setItem(USER_KEY,JSON.stringify(result.user));
+   const u={id:result.user.id,name:result.user.displayName,contact:result.user.identifier,profile:result.user.profile||{},addresses:[],favorites:[],orders:[]};
+   if(typeof window.persistUser==='function')window.persistUser(u);
+   await client.auth.signOut();
+   history.replaceState(null,'',location.pathname+location.hash);
+   window.refreshAccountButton?.();
+   window.toast('با حساب گوگل وارد شدید.');
+   window.accountDashboard?.();
+  }catch(err){
+   console.error('[Google auth]',err);
+   if(message)message.textContent=err.message||'ورود با گوگل ناموفق بود.';
+   else window.toast(err.message||'ورود با گوگل ناموفق بود.');
+  }
+ };
+ completeGoogleCallback();
  const legacyOpenAuth=window.openAuth;
  window.openAuth=mode=>{
   if(mode==='forgot'){showForgot();return}
   if(mode==='reset'){const params=new URLSearchParams(location.hash.slice(1)),token=params.get('access_token');if(params.get('type')!=='recovery'||!token){window.showModal('<div class="auth-box"><h2>لینک بازیابی معتبر نیست</h2><div class="notice">لینک بازیابی منقضی یا نامعتبر است. دوباره درخواست بازیابی رمز بدهید.</div><button class="btn yellow" onclick="openAuth(\'forgot\')">درخواست لینک جدید</button></div>');return}showReset(token);return}
-  window.showModal('<div class="auth-box"><h2>حساب کاربری آموت ماشین</h2><div class="notice">ورود و ثبت‌نام از طریق سرور انجام می‌شود.</div><div class="auth-tabs"><button type="button" id="apiLoginTab" class="active">ورود</button><button type="button" id="apiRegisterTab">ثبت‌نام</button></div><form id="apiAuthForm"><div class="field" id="apiNameField" hidden><label>نام و نام خانوادگی</label><input name="displayName" minlength="2" maxlength="100"></div><div class="field"><label>شماره موبایل یا ایمیل</label><input name="identifier" required minlength="5" autocomplete="username"></div><div class="field"><label>رمز عبور</label><input name="password" type="password" required minlength="10" maxlength="128" autocomplete="current-password"></div><button type="button" class="text-action" onclick="openAuth(\'forgot\')">رمز عبورم را فراموش کرده‌ام</button><button class="btn yellow auth-submit" id="apiAuthSubmit">ورود</button><p class="auth-foot" id="apiAuthMessage">رمز عبور باید حداقل ۱۰ کاراکتر باشد.</p></form></div>');
+  window.showModal('<div class="auth-box"><h2>حساب کاربری آموت ماشین</h2><div class="notice">ورود و ثبت‌نام از طریق سرور انجام می‌شود.</div><div class="auth-tabs"><button type="button" id="apiLoginTab" class="active">ورود</button><button type="button" id="apiRegisterTab">ثبت‌نام</button></div><form id="apiAuthForm"><div class="field" id="apiNameField" hidden><label>نام و نام خانوادگی</label><input name="displayName" minlength="2" maxlength="100"></div><div class="field"><label>شماره موبایل یا ایمیل</label><input name="identifier" required minlength="5" autocomplete="username"></div><div class="field"><label>رمز عبور</label><input name="password" type="password" required minlength="10" maxlength="128" autocomplete="current-password"></div><button type="button" class="text-action" onclick="openAuth(\'forgot\')">رمز عبورم را فراموش کرده‌ام</button><button class="btn yellow auth-submit" id="apiAuthSubmit">ورود</button><div class="google-auth-divider"><span>یا</span></div><button type="button" class="google-auth-button" id="apiGoogleAuth"><span class="google-g">G</span><span>ورود / ثبت‌نام با گوگل</span></button><p class="auth-foot" id="apiAuthMessage">رمز عبور باید حداقل ۱۰ کاراکتر باشد.</p></form></div>');
   let register=mode==='register';
   const form=document.querySelector('#apiAuthForm'),nameField=document.querySelector('#apiNameField'),submit=document.querySelector('#apiAuthSubmit'),message=document.querySelector('#apiAuthMessage');
+  const googleButton=document.querySelector('#apiGoogleAuth');
+  if(googleButton)googleButton.onclick=async()=>{
+   googleButton.disabled=true;message.textContent='در حال انتقال امن به گوگل...';
+   try{
+    const client=getGoogleClient();
+    const {error}=await client.auth.signInWithOAuth({provider:'google',options:{redirectTo:googleRedirectUrl,scopes:'openid email profile',queryParams:{prompt:'select_account'}}});
+    if(error)throw error;
+   }catch(err){message.textContent=err.message||'شروع ورود گوگل ناموفق بود.';googleButton.disabled=false}
+  };
   const setMode=v=>{register=v;nameField.hidden=!v;nameField.querySelector('input').required=v;submit.textContent=v?'ایجاد حساب':'ورود';document.querySelector('#apiLoginTab').classList.toggle('active',!v);document.querySelector('#apiRegisterTab').classList.toggle('active',v)};
   document.querySelector('#apiLoginTab').onclick=()=>setMode(false);document.querySelector('#apiRegisterTab').onclick=()=>setMode(true);setMode(register);
   form.onsubmit=async e=>{e.preventDefault();submit.disabled=true;message.textContent='در حال ارتباط با سرور...';const d=Object.fromEntries(new FormData(form));try{
