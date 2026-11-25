@@ -2591,3 +2591,18 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
   - 258-2964 — TUBE AS.؛ فقط 297C؛ مسیر لوله، اتصالات و فشار کاری باید از Parts Diagram تأیید شود. در CSV 297C-only ثبت شد.
 - منابع رسمی: https://parts.cat.com/en/catcorp/product/295-1799 ؛ https://parts.cat.com/en/catcorp/product/258-3247 ؛ https://parts.cat.com/en/catcorp/product/258-4004 ؛ https://parts.cat.com/en/catcorp/product/258-2964
 - وضعیت شمارنده: 4366 شماره یکتا؛ Mirror برابر Master؛ Workflow برابر 4366.
+
+
+## دور ۹۷ — 25 Nov 2026
+
+- هفت مورد از صفحات رسمی Cat Parts Store ثبت شد:
+  - 258-7700 — Boot Kit؛ فیتمنت 287B و 297C؛ به Master و CSV 287B افزوده شد؛ محل boot، پروفیل و گروه عملگر باید تطبیق داده شود.
+  - 258-2806 — TANK GP-HYD؛ فقط 297C؛ ظرفیت، پورت‌ها، cap/breather و مدار هیدرولیک باید بررسی شود.
+  - 258-2884 — Ride Control And Work Tool Positioner Hydraulic Tube؛ فقط 297C؛ قطر بیرونی 0.63in؛ routing، خم‌ها و اتصالات کنترل شود.
+  - 258-3008 — Track Roller Group؛ فقط 297C؛ قطر بیرونی درج‌شده 50.8mm/2.0in؛ bore و پیکربندی undercarriage تطبیق داده شود.
+  - 258-4005 — Right-Hand Front Instrument Panel Plastic Cover؛ فقط 297C؛ جنس ABS؛ نسل کنسول و محل gauge بررسی شود.
+  - 258-2971 — 2 Speed Track Drive Piston Motor؛ فقط 297C؛ ابعاد 12.8 × 10.9in؛ displacement، shaft و پورت‌ها بررسی شود.
+  - 258-2571 — PLATE AS؛ فقط 297C؛ جنس alloy mixed metal/carbon steel؛ محل نصب و hole pattern کنترل شود.
+- موارد 297C-only در CSV مستقل ثبت شدند؛ 258-7700 در CSV 287B ثبت شد.
+- منابع رسمی: https://parts.cat.com/en/catcorp/product/258-7700 ؛ https://parts.cat.com/en/catcorp/product/258-2806 ؛ https://parts.cat.com/en/catcorp/product/258-2884 ؛ https://parts.cat.com/en/catcorp/product/258-3008 ؛ https://parts.cat.com/en/catcorp/product/258-4005 ؛ https://parts.cat.com/en/catcorp/product/258-2971 ؛ https://parts.cat.com/en/catcorp/product/258-2571
+- وضعیت شمارنده: 4371 شماره یکتا؛ Mirror برابر Master؛ Workflow برابر 4371.
