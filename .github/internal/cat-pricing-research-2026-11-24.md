@@ -4707,3 +4707,35 @@ Individual Cat pages:
 Post-insert DB verification: all ten SKUs exist with source_name Cat Parts Store (official) and verification_status REFERENCE. Fitment counts: 7W-8580=3; 1W-2473=11; 143-2878=3; 3S-9643=0 (broad list not normalized); 5D-5957=0 (broad list not normalized); 9Y-9842=11; 485-4705=11; 6V-7701=43; 6V-3955=0 (Cat page no compatible models); 6V-6809=0 (broad list not normalized). No customer prices, stock or image fallbacks added.
 
 Overall reviewed progress: 80/500 batches = 800/5,000 product target (16.0%). Original Cat seed list 787/787 complete; discovery-derived products individually verified and inserted: 10. Remaining target 4,200 products.
+
+## Batch 81/500 — Cat-linked discovery candidates 11–20 (2026-11-25)
+
+Ten additional discovery candidates from Cat parts diagrams/BOMs were checked on their own Cat Parts Store item pages. Nine were inserted as new catalog rows; 275-2604 was already present from a secondary public supplier and has now been upgraded with Cat official item-page evidence and normalized fitment.
+
+Verified and promoted:
+- 4W-7749 — 0.8mm Thick Circular Engine Gasket. Round standard flat gasket; 0.41in holes (8X), inner diameter7.09in and separate Inside Diameter field7.08in, OD8.66in, thickness0.03in, weight0.05lb; medium-compressibility sheet/rubber-cork/rubber-fiber gasket. Compatible labels: Gen Set Engine 3608/3606/C280-16/3616; Rotary Drill MD6200; Marine Engine 3616/3612/C280-16/C280-12/C280-6/C280-8; Marine Auxiliary3608; Petroleum Engine C280-12; Locomotive Engine3612; Gas Engine G3608/G3612/G3616; Gen Set-Military3608. DB fitment12, engine tags11.
+- 355-8509 — Bearing-Connecting Rod (Standard). Cat says bearings provide a conformable surface for the connecting rod to rotate on the crankshaft. Specs: height2.24in, OD5.69in, Steel-backed Babbitt/Steel-backed Copper-Lead Bearing. Cat compatible models normalized from all visible categories: 50 distinct labels across generator sets, power modules, engine/petroleum/marine/locomotive applications, trucks, wheel loaders, shovels, rotary drills, petroleum gensets and industrial engines. DB fitment50, engine tags19. Related 355-8662 crankshaft main bearing, 7C-6209 thrust plate, 6V-5101 O-ring, 214-7568 STOR seal and 7E-6016 engine cover gasket.
+- 20R-9427 — Cat Reman 3512E Reman Upgrade-to-New (UTN) Cylinder Head, Tier 4. Brand and condition kept as Cat Reman, separate from new Cat. New head assembly can typically be milled for a second life; same-as-new 12-month Caterpillar Parts Warranty subject to limitations. Compatible engine3512E. Cat page says specifications are still being added and displays 529-7726 HEAD GP-CYL as a comparison alternative. DB brand Cat Reman, fitment1, engine tag1.
+- 167-4407 — 3.53×69.44mm 70A EPDM O-ring, dash232. Cross-section0.139in, ID2.734in, EPDM 70A. Compatible fluids: alcohols, automotive brake fluids, hot/cold water, ketones, ozone/sunlight, phosphate ester, silicone fluids, some dilute acids and steam up to200°C. Cat lists many applications across pumper, generators, underground trucks, engines, wheel tractors, LHDs, shovels, marine, pipelayers, excavators and petroleum packages; full model list not normalized.
+- 275-2604 — Advanced Efficiency Engine Oil Filter. Existing catalog row from Hamkar Tejarat Shayan was updated with Cat official page evidence. Specs: 5.346in diameter ×12.185in length, Out-to-In, Advanced High Efficiency, Spin-On; alloy steel, nylon, adhesives, NBR/HNBR/XNBR rubber, mixed metal, carbon steel and cyanoacrylate adhesive. Normalized 71 compatible labels across pumper, generator, underground truck, power module, LHD, off-highway truck, marine, mining excavator, track tractor, wheel loader/dozer, petroleum, truck, tractor and industrial applications. Engine tags19. Source changed to Cat Parts Store (official), secondary supplier reference retained in source_note.
+- 0S-1618 — 5/16-18 Threaded External Hexagonal Bolt. Specs: 1in length, 0.139in grip, Hex Head, Zinc Phosphate + Oil, RH, Steel/Alloy Zinc/Carbon Steel, SAE J429 Grade8 (150 Ksi). Cat Compatible Models page lists hundreds of generator, truck engine, toolcarrier, wheel tractor-scraper, wheel harvester, skidder, excavator, drill, loader and other applications; full list not normalized.
+- 166-4374 — 31.86mm Inner Diameter Seal Ring for water pump groups. Assembly includes ring and spring pin; OD38.02mm/1.4968in, ID31.86mm/1.254in, width9.35mm/0.368in, PTFE/Teflon plastic. Cat Compatible Models page spans extensive generator, power module, off-highway truck, marine, mining, petroleum, wheel loader and industrial applications; full list not normalized.
+- 212-8180 — 14 External Spline Teeth Water Pump Drive Shaft. Cat says shafts drive water-pump impellers to circulate coolant through engine blocks. Specs: length13in, height2.8in, Low Alloy Steel. Cat compatible panel spans extensive generator, marine, petroleum, power module, truck, drill, wheel-loader and industrial applications; full list not normalized.
+- 212-8184 — 6 Vanes Water Pump Impeller. Cat says impellers circulate coolant through engine blocks. Specs: length9.8in, height3in, Ductile (Spheroidal) Iron. Cat compatible panel spans pumper, generator, power module, off-highway truck, marine, mining, petroleum, wheel-loader and industrial applications; full list not normalized.
+- 271-4926 — 196.44mm Inner Diameter HNBR O-ring Seal, dash265. Cross-section0.139in, ID7.734in, HNBR polymer, PTFE plastic, hardness78A. Cat Compatible Models spans generators, power modules, LHDs, trucks, graders, hydraulic shovels, tractors, asphalt/vibratory/paving/utility compactors, marine, petroleum, wheel loaders, industrial engines and more; full list not normalized. Related 5H-6734, 6V-6809, 6V-5066, 3S-9643 and 7N-4932.
+
+Cat pages:
+- https://parts.cat.com/en/catcorp/product/4W-7749
+- https://parts.cat.com/en/catcorp/product/355-8509
+- https://parts.cat.com/en/catcorp/product/20R-9427
+- https://parts.cat.com/en/catcorp/product/167-4407
+- https://parts.cat.com/en/catcorp/product/275-2604
+- https://parts.cat.com/en/catcorp/product/0S-1618
+- https://parts.cat.com/en/catcorp/product/166-4374
+- https://parts.cat.com/en/catcorp/product/212-8180
+- https://parts.cat.com/en/catcorp/product/212-8184
+- https://parts.cat.com/en/catcorp/product/271-4926
+
+Post-update DB verification: all ten SKUs exist with official Cat item-page source evidence. Nine rows were inserted in this batch; 275-2604 was updated from a pre-existing secondary-source row. Fitment counts: 4W-7749=12; 355-8509=50; 20R-9427=1; 167-4407=0 (broad list not normalized); 275-2604=71; 0S-1618=0 (broad list not normalized); 166-4374=0 (broad list not normalized); 212-8180=0 (broad list not normalized); 212-8184=0 (broad list not normalized); 271-4926=0 (broad list not normalized). No customer prices or stock claims added.
+
+Overall reviewed progress: 81/500 batches = 810/5,000 product target (16.2%). Original Cat seed 787/787 complete; discovery-derived verified entries now 23 (10 in batch80, 9 inserted + 1 updated in batch81, and 3 additional earlier candidate promotions). Remaining target: 4,190 products.
