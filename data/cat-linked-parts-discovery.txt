@@ -2397,3 +2397,16 @@ Source: https://parts.cat.com/en/catcorp/product/350-2185. Compatible model: MAR
 ## Cat 350-2174 3508B Tier-2 conversion kit — no BOM rows published (batch 138)
 
 Source: https://parts.cat.com/en/catcorp/product/350-2174. Compatible model: MARINE ENGINE / 3508B. Tier-1-to-Tier-2 conversion from arrangement 173-6944 to 282-9662. Current official page states there are currently no parts associated with this kit. No components inferred.
+
+
+## Additional Cat 3508B Tier-1-to-Tier-2 engine conversion-kit BOM candidates — batch 139
+
+Source: official Cat Parts Store product page 350-2173, 3508 Tier 2 Engine Upgrade Kit. The product description identifies conversion from 3508B Tier 1 arrangement 232-2468 to Tier 2 arrangement 282-9662, intended to be used with an engine overhaul. Compatible model explicitly shown: MARINE ENGINE / 3508B. Three other listed components were already present in the discovery queue or seed list and are not duplicated. The four new rows below are arrangement-specific conversion-kit components, not generic replacement recommendations.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+133-4079 | 4-Cylinder Engine Right-Hand Camshaft | 1 | Cat 350-2173 3508B Tier 1-to-Tier 2 Conversion Kit BOM; arrangement 232-2468 to 282-9662 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
+127-5404 | Camshaft Assembly | 1 | Cat 350-2173 3508B Tier 1-to-Tier 2 Conversion Kit BOM; arrangement 232-2468 to 282-9662 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
+283-1001 | Aftercooler Core | 1 | Cat 350-2173 3508B Tier 1-to-Tier 2 Conversion Kit BOM; arrangement 232-2468 to 282-9662 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
+590-5663 | Turbocharger Group - Basic | 2 | Cat 350-2173 3508B Tier 1-to-Tier 2 Conversion Kit BOM; arrangement 232-2468 to 282-9662 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
+
+Source page: https://parts.cat.com/en/catcorp/product/350-2173
