@@ -47,16 +47,42 @@
 <script>
 (function(){
  const photo=document.getElementById('heroPhoto');
+ const controls=document.querySelector('.hero-slides');
  if(!photo)return;
+ const slides=[
+  {src:'./assets/hero-excavator.jpg',alt:'بیل مکانیکی کاترپیلار در کارگاه عمرانی'},
+  {src:'https://live.staticflickr.com/3450/3860837991_65b65770bb_o.jpg',alt:'دکل حفاری دریایی جک‌آپ در باکو'},
+  {src:'https://commons.wikimedia.org/wiki/Special:FilePath/OSV_Kylie_Williams.jpg?width=1600',alt:'کشتی ساپلای دریایی OSV Kylie Williams'},
+  {src:'./assets/hero-cat-3516b.jpg',alt:'موتور صنعتی کامل کاترپیلار 3516B'}
+ ];
+ let active=0,timer=null;
  const image=document.createElement('img');
  image.className='hero-image';
- image.src='./assets/hero-excavator.jpg';
- image.alt='بیل مکانیکی کاترپیلار در پروژه عمرانی';
+ image.alt=slides[0].alt;
  image.decoding='async';
  image.fetchPriority='high';
+ image.style.opacity='1';
+ image.style.transition='opacity .35s ease';
+ image.style.objectFit='contain';
+ image.style.objectPosition='center';
  photo.replaceChildren(image);
- const controls=document.querySelector('.hero-slides');
- if(controls)controls.remove();
+ const dots=controls?Array.from(controls.querySelectorAll('.hero-dots button')):[];
+ const show=(index)=>{
+  active=(index+slides.length)%slides.length;
+  const next=slides[active];
+  image.style.opacity='.15';
+  const preload=new Image();
+  preload.onload=()=>{image.src=next.src;image.alt=next.alt;requestAnimationFrame(()=>image.style.opacity='1');};
+  preload.onerror=()=>{image.src='./assets/hero-excavator.jpg';image.alt=slides[0].alt;image.style.opacity='1';};
+  preload.src=next.src;
+  dots.forEach((dot,i)=>{dot.classList.toggle('active',i===active);dot.setAttribute('aria-pressed',String(i===active));});
+ };
+ const restart=()=>{if(timer)clearInterval(timer);timer=setInterval(()=>show(active+1),6500);};
+ dots.forEach((dot,i)=>dot.addEventListener('click',()=>{show(i);restart();}));
+ controls?.querySelector('.prev')?.addEventListener('click',()=>{show(active-1);restart();});
+ controls?.querySelector('.next')?.addEventListener('click',()=>{show(active+1);restart();});
+ image.src=slides[0].src;
+ if(controls)restart();
 })();
 </script>
 </body></html>
