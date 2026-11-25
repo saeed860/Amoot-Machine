@@ -2562,3 +2562,12 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
   - 247-5904 — Bearing Housing؛ فیتمنت صریح 297C و نبود 287B در Compatible Models؛ قطر بیرونی 8.86in، عرض 2.68in و سوراخ‌های M16؛ فقط در CSV مستقل 297C-only ثبت شد.
 - منابع رسمی: https://parts.cat.com/en/catcorp/product/5P-9909 ؛ https://parts.cat.com/en/catcorp/product/247-5904
 - وضعیت شمارنده: 4360 شماره یکتا؛ Mirror برابر Master؛ Workflow برابر 4360.
+
+
+## دور ۹۴ — 25 Nov 2026
+
+- دو قطعه جدید/تکمیل‌نشده که صفحه رسمی Cat فقط 297C را (و نه 287B) فهرست می‌کند، در CSV مستقل 297C-only ثبت شد:
+  - 258-3942 — SEAL؛ جنس Acrylic Adhesive/Chloroprene Rubber؛ محل نصب، پروفیل و ابعاد باید از Parts Diagram تعیین شود. شماره جدید Master.
+  - 258-2970 — MOTOR GP-PSB (Axial Piston Motor)؛ ابعاد درج‌شده طول 12.8in و ارتفاع 10.9in؛ displacement، shaft/interface، پورت‌ها و مدار هیدرولیک با PIN تطبیق داده شود. شماره از قبل در Master بود.
+- منابع رسمی: https://parts.cat.com/en/catcorp/product/258-3942 ؛ https://parts.cat.com/en/catcorp/product/258-2970
+- وضعیت شمارنده: 4361 شماره یکتا؛ Mirror برابر Master؛ Workflow برابر 4361.
