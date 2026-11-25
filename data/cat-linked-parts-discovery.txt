@@ -1935,3 +1935,32 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 9M-2342 | Fuel Filter Screen | 2 | Cat 596-0478 3406B/3406C Generator Set Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
 
 Source page: https://parts.cat.com/en/catcorp/product/596-0478
+
+
+## Additional Cat W345B II / 345B / 14H-series silver overhaul-kit BOM candidates — batch 112
+
+Source: official Cat Parts Store product page 416-9083, Engine Overhaul Kit - Silver. Compatible models shown: WHEELED EXCAVATOR W345B II; EXCAVATOR 345B II MH, 345B II, 345B L, 345B; MOTOR GRADER 160H, 140H, 163H, 143H, 14H. Twelve other displayed items were already recorded in the discovery queue or original seed list and are not duplicated. The twenty new rows below are BOM references only; exact serial/arrangement fitment, standalone orderability, inventory and price remain unconfirmed.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+033-6033 | 1.78 x 12.42mm 75A FKM O-Ring | 2 | Cat 416-9083 Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+109-5319 | 125mm Gauge Diameter Piston Ring | 6 | Cat 416-9083 Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+116-3715 | 85mm Long Taper Lock Steel Stud | 12 | Cat 416-9083 Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+126-0110 | 172.09mm Maximum Outer Diameter Crankshaft Seal | 1 | Cat 416-9083 Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+131-4164 | 1.6mm Thick Cylinder Head Gasket | 1 | Cat 416-9083 Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+168-7212 | 125mm Outer Diameter Top Piston Ring | 6 | Cat 416-9083 Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+175-0454 | M16-2 x 160mm Hex Head Bolt | 26 | Cat 416-9083 Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+187-3306 | 968mm Long Cylinder Head Gasket | 1 | Cat 416-9083 Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+188-6126 | 0.8mm Thick Oil Line Flange Gasket | 1 | Cat 416-9083 Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+197-8418 | 0.3mm Thick Turbocharger Oil Exhaust Gasket | 1 | Cat 416-9083 Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+197-8419 | 0.35mm Thick Turbocharger Oil Exhaust Gasket | 1 | Cat 416-9083 Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+1S-4295 | 1.92mm Thick Turbocharger Gasket | 1 | Cat 416-9083 Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+216-5583 | 75.10mm Internal Diameter Sleeve Bearing | 5 | Cat 416-9083 Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+216-5584 | 75.06mm Inner Diameter Sleeve Bearing | 1 | Cat 416-9083 Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+216-5585 | 75.08mm Inner Diameter Sleeve Bearing | 1 | Cat 416-9083 Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+217-0577 | 87.80mm Outer Diameter Connecting Rod Bearing | 6 | Cat 416-9083 Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+220-3373 | 119.29mm Internal Diameter Seal Ring | 1 | Cat 416-9083 Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+224-5797 | Single Fuel Injector Install Gasket Kit | 6 | Cat 416-9083 Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+238-2710 | 124.94mm Bore Diameter Piston Skirt | 6 | Cat 416-9083 Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+252-9685 | 0.8mm Thick Engine Front Housing Cover Gasket | 1 | Cat 416-9083 Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+
+Source page: https://parts.cat.com/en/catcorp/product/416-9083
