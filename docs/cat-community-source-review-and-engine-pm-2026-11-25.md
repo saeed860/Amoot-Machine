@@ -2389,3 +2389,13 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - https://parts.cat.com/en/catcorp/product/361-9555
 
 برای seal kitها، pump/cylinder group و serial range باید با PIN و Parts Diagram تطبیق داده شود. 361-9555 به فیتمنت 287B تعمیم داده نشد.
+
+
+## دور ۷۹ — 25 Nov 2026
+
+- دو شماره جدید از صفحات رسمی Cat Parts Store با فیتمنت صریح 287B ثبت شد:
+  - 231-7321 — 841.80mm Height Safety Glass؛ شیشه سکوریت با ابعاد درج‌شده 3.86 × 10.43 × 33.27 اینچ؛ موقعیت دقیق پنل کابین و کد شیشه تطبیق داده شود.
+  - 258-7688 — Joystick Kit؛ سازگاری 287B و 297C؛ کیت با 14 قلم درج‌شده؛ آرایش joystick، trigger/switch و مدار pilot با PIN بررسی شود.
+- هر دو شماره به Master و CSV رسمی 287B افزوده شدند.
+- منابع رسمی: https://parts.cat.com/en/catcorp/product/231-7321 ؛ https://parts.cat.com/en/catcorp/product/258-7688
+- وضعیت شمارنده: 4330 شماره یکتا؛ Mirror برابر Master؛ Workflow برابر 4330.
