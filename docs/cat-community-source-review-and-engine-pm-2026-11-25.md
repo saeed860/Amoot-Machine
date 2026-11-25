@@ -2606,3 +2606,15 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - موارد 297C-only در CSV مستقل ثبت شدند؛ 258-7700 در CSV 287B ثبت شد.
 - منابع رسمی: https://parts.cat.com/en/catcorp/product/258-7700 ؛ https://parts.cat.com/en/catcorp/product/258-2806 ؛ https://parts.cat.com/en/catcorp/product/258-2884 ؛ https://parts.cat.com/en/catcorp/product/258-3008 ؛ https://parts.cat.com/en/catcorp/product/258-4005 ؛ https://parts.cat.com/en/catcorp/product/258-2971 ؛ https://parts.cat.com/en/catcorp/product/258-2571
 - وضعیت شمارنده: 4371 شماره یکتا؛ Mirror برابر Master؛ Workflow برابر 4371.
+
+
+## دور ۹۸ — 25 Nov 2026
+
+- چهار فیتمنت رسمی بازبینی شد و در طبقه‌بندی 297C-only قرار گرفت:
+  - 258-3894 — Hydraulic Pump Lines Hose؛ فقط 297C؛ synthetic-rubber fuel/oil hose با فشار کاری 110.32kPa و دمای تا 100°C؛ routing و اتصالات بررسی شود.
+  - 258-3465 — 21cc Gear Pump؛ فقط 297C؛ displacement، shaft/interface، پورت‌ها و pump group بررسی شود.
+  - 258-3356 — Auxiliary Hydraulic Lines Tube؛ فقط 297C؛ قطر بیرونی 0.75in؛ مسیر، خم‌ها و اتصالات تطبیق داده شود. شماره جدید Master.
+  - 258-3591 — Work Tool Tube؛ فقط 297C؛ قطر 15.88mm، دو اتصال 1-14 swivel nut و طول کلی 56.2in؛ مسیر هیدرولیک work tool بررسی شود. شماره جدید Master.
+- دو مورد 258-3894 و 258-3465 از CSV 287B حذف و به CSV مستقل 297C-only منتقل شدند؛ این اصلاح بر اساس Compatible Models رسمی Cat است.
+- منابع رسمی: https://parts.cat.com/en/catcorp/product/258-3894 ؛ https://parts.cat.com/en/catcorp/product/258-3465 ؛ https://parts.cat.com/en/catcorp/product/258-3356 ؛ https://parts.cat.com/en/catcorp/product/258-3591
+- وضعیت شمارنده: 4373 شماره یکتا؛ Mirror برابر Master؛ Workflow برابر 4373.
