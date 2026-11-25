@@ -2008,3 +2008,15 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - https://parts.cat.com/en/catcorp/product/105-9411
 
 هشدار فنی: برای Hydraulic Cylinder Seal Kitهای 253-6949 و 218-6824، صفحه Cat می‌گوید کاربرد کیت وابسته به شماره Cylinder Group است؛ بنابراین Compatible Models به‌تنهایی برای انتخاب seal kit کافی نیست. برای 305-9256 باید اجزای کیت، تعداد track rollers/idlers/sleeves و track belt با زیر‌بندی واقعی تطبیق یابد. برای قطعات شاسی و screen، سمت نصب، ابعاد، سوراخ‌کاری و PIN ضروری است.
+
+## دور ۶۵ — قطعات relief valve موتور 287B (25 Nov 2026)
+
+دو شماره جدید از صفحات رسمی Cat Parts Store به Master و CSV فیتمنت 287B افزوده شدند:
+- 103-9725 — Engine Oil Pressure Relief Valve Assembly؛ Compatible Models صریحاً 287B و 297C را شامل می‌شود.
+- 112-4645 — Relief Valve Spring؛ Compatible Models شامل 287B است و 297C در فهرست آن دیده نمی‌شود.
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/product/103-9725
+- https://parts.cat.com/en/catcorp/product/112-4645
+
+برای 103-9725، engine arrangement و pressure setting؛ برای 112-4645، free length، spring rate و valve group application باید با موتور و شماره سریال دستگاه تطبیق داده شود.
