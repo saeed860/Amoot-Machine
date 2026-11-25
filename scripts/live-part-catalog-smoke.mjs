@@ -800,8 +800,12 @@ const categoryResponse = await fetch(base + "/api/part-categories", { headers: {
 const categoryBody = await categoryResponse.json().catch(() => ({}));
 const categoryItems = Array.isArray(categoryBody.items) ? categoryBody.items : [];
 const rootCount = categoryItems.filter(item => !item.parent_key).length;
-const categoryPass = categoryResponse.ok && rootCount === 15 && categoryItems.length >= 130;
-process.stdout.write(JSON.stringify({ query: "/api/part-categories", http: categoryResponse.status, roots: rootCount, total: categoryItems.length, pass: categoryPass }) + "\n");
+const filterRoot = categoryItems.find(item => item.category_key === "filters-and-fluids-filters" && item.parent_key === "filters-and-fluids");
+const filterChildren = categoryItems.filter(item => item.parent_key === "filters-and-fluids-filters");
+const expectedFilterKeys = ["filters-engine-oil","filters-fuel-water","filters-air","filters-hydraulic-transmission","filters-cabin-ventilation","filters-aftertreatment","filters-cooling-water","filters-components-other"];
+const filterTreePass = Boolean(filterRoot) && filterChildren.length === 8 && expectedFilterKeys.every(key => filterChildren.some(item => item.category_key === key));
+const categoryPass = categoryResponse.ok && rootCount === 15 && categoryItems.length >= 138 && filterTreePass;
+process.stdout.write(JSON.stringify({ query: "/api/part-categories", http: categoryResponse.status, roots: rootCount, total: categoryItems.length, filterRoot: filterRoot?.category_key || null, filterChildren: filterChildren.length, filterTreePass, pass: categoryPass }) + "\n");
 if (!categoryPass) failed = true;
 
 const marineResponse = await fetch(base + "/api/marine-engines", { headers: { apikey: key } });
