@@ -2290,3 +2290,12 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - هر دو شماره به Master و CSV رسمی 287B افزوده شدند.
 - منابع رسمی: https://parts.cat.com/en/catcorp/product/234-7731 ؛ https://parts.cat.com/en/catcorp/product/3E-9179
 - وضعیت Master/Mirror/Workflow در زمان ثبت: 4,314 شماره یکتا؛ Mirror برابر Master؛ Workflow برابر 4314.
+
+
+## دور ۷۳ — 25 Nov 2026
+
+- دو فیتمنت رسمی جدید/تکمیل‌نشده برای 287B ثبت شد:
+  - 107-3134 — Housing-Connector؛ صفحه رسمی Cat مدل 287B را صریحاً فهرست می‌کند؛ خانواده کانکتور، کلیدگذاری و تعداد پین/سوکت باید تطبیق داده شود. شماره از قبل در Master بود و ردیف CSV تکمیل شد.
+  - 165-0312 — Bare Covering Jumper Wire؛ صفحه رسمی Cat مدل‌های 287B و 297C را فهرست می‌کند؛ طول، گیج هادی و نوع ترمینیشن باید کنترل شود. شماره جدید Master.
+- منابع رسمی: https://parts.cat.com/en/catcorp/product/107-3134 ؛ https://parts.cat.com/en/catcorp/product/165-0312
+- شمارنده هدف دور: 4317 شماره یکتا؛ Mirror و Workflow با Master همگام شدند.
