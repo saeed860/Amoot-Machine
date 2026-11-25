@@ -3722,3 +3722,47 @@ Additional Cat-linked discovery candidates from Cat official BOM/related/alterna
 All candidates require item-level verification before catalog promotion. Cat Reman alternates remain distinct from new parts and are not assumed interchangeable.
 
 Overall reviewed progress: 57/500 batches = 570/5,000 product target (11.4%). Original Cat seed list has 217 SKUs remaining (products 571–787).
+
+## Batch 58/500 — products 571–580 (2026-11-25)
+
+SKUs: 453-2315, 456-0027, 457-5312, 457-9635, 458-7790, 458-9582, 460-0310, 460-8213, 464-9911, 467-5333. All ten Cat product pages opened; kit BOMs, model lists, specifications, discontinued flags, and alternative/related parts were checked. All ten DB records re-queried after inspection.
+
+Verified:
+- 453-2315: Cat Oil Cooler and Lines Gasket Kit, Marine Bundled Repair Solution for C18 engine overhaul. Cat Compatible Models: Generator SR4; Gen Set Engine POWER SYS; Generator Set C18; Marine Engine C18 (3 unique labels). Cat lists exactly 19 kit components and quantities: 109-0077 O-ring ×2; 125-0434 two-bolt edge-bonded seal gasket ×1; 126-4935 edge-bonded rubber integral seal ×1; 167-4407 EPDM O-ring ×1; 214-7566 FKM O-ring ×2; 214-7568 STOR O-ring ×4; 238-5084 FKM O-ring ×6; 2P-3760 two-bolt flange gasket ×2; 2P-4305 gasket ×4; 3D-2824 NBR O-ring ×4; 3J-1907 NBR O-ring ×2; 3J-7354 NBR O-ring ×1; 3K-0360 NBR O-ring ×1; 5K-9090 NBR O-ring ×1; 6V-3908 FKM O-ring ×3; 7M-8485 NBR O-ring ×1; 8C-3445 engine-oil dust cap ×1; 8C-5230 O-ring ×4; 8L-2786 FKM O-ring ×1. Cat says specifications are still being added. DB's 19-line kit_contents and model list match.
+- 456-0027: Cat Fuel Injection Pump Line, carbon steel. Cat describes a pressure-bearing fuel line with vibration/shock and high-temperature resistance. Compatible applications Pumper SPF743; Engine 3512E; Petroleum Engine 3512E (2 unique labels). Cat-related line references 456-0025 and 456-0026; DB already records these as separate linked references, not substitutes.
+- 457-5312: Cat Fuel Pump Injector, 6.76lb. Compatible labels: Marine Engine 3516E/3512E; Engine 3512E/3516E; Industrial Engine 3512E; Locomotive Engine 3512E (2 unique engine models). Cat Reman alternatives 11R-1956 NWC and 30R-0250 Cat Reman verified; DB records both separately. Related parts include 1R-0756, 1R-0726, 3S-9643, 7N-4927 and 245-4907.
+- 457-9635: Cat Track Roller Group, 466mm OD and 422mm hub width. Cat explicitly marks discontinued; DB remains inactive. Compatible labels Shovel 6040 and Hydraulic Shovel 6060/6030/6040 (3 unique labels). Specs: 5.472in width, 9.849in mounting-bolt traverse spacing, HD undercarriage, carrier-roller compatible, 7.092in bore/bushing ID, 18.346in OD, 14.803in hub diameter, 24.472in axial spacing, 16.614in hub width. No replacement equivalence asserted. Related leads: 4J-0527, 3J-1907, 1R-0755, 477-7938 and 1P-3705.
+- 458-7790: Cat Track Group, 5-tooth master, single grouser, 43 sections, PPR, SALT, ES, 610mm shoe width, 240mm pitch. Compatible models D9T/D9/D9R/D9 GC. DB fitment and geometry match. Cat Compare Alternate Parts lists track groups 379-4044, 379-4048, 512-0736, 512-0738, 571-3532, 613-7171, 658-6413, 658-6419, 658-6439, 658-6443, 658-6459 and 658-6463; these are comparison candidates, not universal interchanges.
+- 458-9582: Cat standard-performance Yellow Primer Paint, 12oz/340g aerosol. Specs: Yellow, aerosol can, Cat material field Carbon Steel. No compatible-model list published. Related panel shows 590-0196 yellow topcoat and O-ring leads; no equipment fitment inferred.
+- 460-0310: Cat Advanced Efficiency Fuel Water Separator, spin-on, 4.252in diameter ×6.181in length, efficiency category Advanced High Efficiency, material field Corrosion Preventative Fluid. 30 distinct compatible labels across D6K2/D6N tractors, C13 MARINE, MG630, C4.4, soil/vibratory compactors, backhoe loaders, compact wheel loaders and wheel loaders. DB matches. Related leads: 1R-1804, 7W-2326, 528-0585, 346-6688 and 471-7003.
+- 460-8213: Cat Common Rail Fuel Injector for C9/C9.3 engines. Cat material field Fuel Fluid. Compatible labels: Generator SR4B; Generator Set C9.3; Marine Engine C9.3; Pipelayer PL72; Cold Planers PM312/PM313/PM310; Wheel Loaders 972M/972L/966L/966M (10 labels). Cat Reman alternative 20R-5077 verified. Related leads: 260-0113, 1R-1808, 557-9567, 388-0546 and 274-1639.
+- 464-9911: Cat 619mm (24in) Heavy Duty mini-excavator bucket, 130L/4.6ft³, 45mm/1.8in Pin On. Specs: 24.4in width, 233.7lb, 0.8in base edge, 30.9in tip radius. Compatible models 306/305 CR/305E2/305.5E2 (4 labels). Cat describes abrasive mixed dirt, clay and rock application. Related lead 282-2785 Bucket Mounting Pin.
+- 467-5333: Cat Cylinder Head Installation Kit. Cat explicitly states there are currently no parts associated with this kit and asks users to contact dealer. Compatible labels Challenger MT865/MTC865; Truck Engine C-18; Industrial Engine C18/C15; Cold Planer PM620/PM622; Hydraulic Shovel 6018 FS (8 labels). DB correctly keeps BOM empty.
+
+Cat pages:
+- https://parts.cat.com/en/catcorp/product/453-2315
+- https://parts.cat.com/en/catcorp/product/456-0027
+- https://parts.cat.com/en/catcorp/product/457-5312
+- https://parts.cat.com/en/catcorp/product/457-9635
+- https://parts.cat.com/en/catcorp/product/458-7790
+- https://parts.cat.com/en/catcorp/product/458-9582
+- https://parts.cat.com/en/catcorp/product/460-0310
+- https://parts.cat.com/en/catcorp/product/460-8213
+- https://parts.cat.com/en/catcorp/product/464-9911
+- https://parts.cat.com/en/catcorp/product/467-5333
+
+Post-update DB verification counts: 453-2315=3; 456-0027=2; 457-5312=2; 457-9635=3 (inactive); 458-7790=4; 458-9582=0; 460-0310=30; 460-8213=10; 464-9911=4; 467-5333=8. No unsupported prices, stock or interchange claims added.
+
+Additional Cat-linked discovery candidates from Cat kit BOM, compare-alternate and related-parts panels:
+- 453-2315 kit components: 109-0077, 125-0434, 126-4935, 167-4407, 214-7566, 238-5084, 2P-3760, 2P-4305, 3D-2824, 3J-1907, 3J-7354, 3K-0360, 5K-9090, 6V-3908, 7M-8485, 8C-3445, 8C-5230, 8L-2786; related panel 248-5513, 214-7568, 144-6142, 261-3450.
+- 456-0027: 456-0025, 456-0026, 456-0024, 456-0028, 167-4407.
+- 457-5312: 1R-0756, 1R-0726, 3S-9643, 7N-4927, 245-4907; Cat Reman 11R-1956 and 30R-0250.
+- 457-9635: 4J-0527, 3J-1907, 1R-0755, 477-7938, 1P-3705.
+- 458-7790 alternate track groups: 379-4044, 379-4048, 512-0736, 512-0738, 571-3532, 613-7171, 658-6413, 658-6419, 658-6439, 658-6443, 658-6459, 658-6463.
+- 458-9582: 590-0196, 3K-0360, 3J-1907, 6V-9746, 3D-2824.
+- 460-0310: 1R-1804, 7W-2326, 528-0585, 346-6688, 471-7003.
+- 460-8213: 260-0113, 1R-1808, 557-9567, 388-0546, 274-1639; Cat Reman 20R-5077.
+- 464-9911: 282-2785.
+Candidates are discovery leads only and require item-level verification before promotion.
+
+Overall reviewed progress: 58/500 batches = 580/5,000 product target (11.6%). Original Cat seed list has 207 SKUs remaining (products 581–787).
