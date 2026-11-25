@@ -1424,3 +1424,31 @@ Mirror از Master جاری بازسازی و شمارنده Workflow با تع�
 ### تکمیل CSV دور چهل‌وسوم
 
 ممیزی نهایی نشان داد 230-3733 و 238-7698 از قبل در Master بودند، اما ردیف مستقل آن‌ها در CSV وجود نداشت؛ هر دو ردیف فیتمنت رسمی به CSV افزوده شدند. هیچ شماره جدیدی به Master اضافه نشد.
+
+## دور چهل‌وچهارم — یاتاقان، بوش و اجزای چرخ‌دنده زیربندی (25 Nov 2026)
+
+چهار شماره جدید از صفحات رسمی Cat Parts Store با نمایش صریح 287B در Compatible Models به Master و CSV اضافه شد:
+- 230-3755 — Sleeve Bearing (Bushing)؛ بوش برنزی با ID=2.5in، OD=2.69in و طول 3.5in.
+- 204-1371 — 9.5mm Thick Wheel Shaft Retainer Plate؛ صفحه قفل چرخ بوژی با عرض 88.9mm و مناسب پیچ 3/8in.
+- 199-5428 — 245mm Outer Diameter Bogie Wheel؛ چرخ بوژی پلی‌اتیلن با قطر بیرونی 245mm.
+- 111-2414 — Tapered Roller Bearing Cone؛ مخروط بلبرینگ غلتکی مخروطی از فولاد آلیاژی.
+
+چهار شماره موجود در Master نیز در همین دور از صفحات مستقل Cat تأیید و به CSV افزوده شدند:
+- 278-1259 — Sprocket Bearing Cap؛ درپوش فولادی با سطح آب‌بندی لاستیکی، OD=84.988mm، ID=79.4mm و ارتفاع 7.493mm.
+- 199-5332 — Sprocket Inner Sleeve؛ بوش داخلی سخت‌کاری‌شده با ID=14.23mm.
+- 199-5333 — Sprocket Outer Sleeve؛ بوش بیرونی فولادی سخت‌کاری‌شده.
+- 8J-7636 — Internal Retaining Ring؛ رینگ داخلی فولادی با قطر آزاد 3.62in و ضخامت 0.109in.
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/product/230-3755
+- https://parts.cat.com/en/catcorp/product/204-1371
+- https://parts.cat.com/en/catcorp/product/199-5428
+- https://parts.cat.com/en/catcorp/product/111-2414
+- https://parts.cat.com/en/catcorp/product/278-1259
+- https://parts.cat.com/en/catcorp/product/199-5332
+- https://parts.cat.com/en/catcorp/product/199-5333
+- https://parts.cat.com/en/catcorp/product/8J-7636
+
+برای بوش، قطر pin و موقعیت linkage؛ برای retainer، سوراخ‌های frame و پیچ؛ برای bogie wheel، عرض و موقعیت نصب؛ و برای یاتاقان/بوش‌های sprocket، bearing group، preload، shaft و groove باید با configuration و شماره سریال تطبیق داده شود. قطعه 261-6151 Sprocket در فهرست Compatible Models خود 287B را نداشت و ثبت نشد.
+
+Mirror از Master جاری بازسازی و شمارنده Workflow با تعداد خطوط Master تنظیم شد.
