@@ -1,0 +1,30 @@
+-- C18 Marine air-inlet / aftercooling / turbocharger candidates from Cat Parts Store.
+INSERT INTO public.part_catalog
+(brand,part_number,name,description,engine_models,technical_group,source_name,source_url,source_note,verification_status,is_active,source_accessed_at,specifications,compatible_models,application_type,application_evidence,application_source_url)
+VALUES
+('Caterpillar','373-5834','توربوشارژر موتور CAT 373-5834','Cat Engine Turbocharger. Official compatible-model list includes C18 and C18 Marine. Exact serial/arrangement effectivity is not established by the public family listing.',ARRAY['C18'],'سیستم هوارسانی و توربوشارژر','Cat Parts Store','https://parts.cat.com/en/catcorp/product/373-5834','Official Cat listing: length 15.6 in, height 17.0 in, ductile (spheroidal) iron; compatible MARINE ENGINE C18 / C18 MARINE. Alternate reman reference 20R-2734. Family-level evidence only.','NEEDS_SERIAL_CHECK',false,now(),'{"length_in":15.6,"height_in":17.0,"material":"Ductile (Spheroidal) Iron","component_type":"Engine Turbocharger","reman_alternate":"20R-2734"}'::jsonb,ARRAY['C18','C18 MARINE'],'UNVERIFIED','Cat Parts Store lists MARINE ENGINE C18/C18 MARINE; verify complete engine serial and arrangement in Cat SIS.','https://parts.cat.com/en/catcorp/product/373-5834'),
+('Caterpillar','318-2523','مغزی افترکولر CAT 318-2523','Cat Aftercooler Core reduces the temperature of compressed air before it enters the engine intake system. Cat lists C18 Marine among compatible model families; exact serial/arrangement applicability is unverified.',ARRAY['C18'],'سیستم هوارسانی - افترکولر','Cat Parts Store','https://parts.cat.com/en/catcorp/product/318-2523','Official Cat listing: Aftercooler Core; compatible models include GENERATOR SET C18 and MARINE ENGINE C18/C18 MARINE. Family-level evidence only.','NEEDS_SERIAL_CHECK',false,now(),'{"component_type":"Aftercooler Core","function":"Cools compressed intake air using water"}'::jsonb,ARRAY['C18','C18 MARINE'],'UNVERIFIED','Cat Parts Store lists MARINE ENGINE C18/C18 MARINE; verify complete engine serial and arrangement in Cat SIS.','https://parts.cat.com/en/catcorp/product/318-2523'),
+('Caterpillar','390-3135','مجموعه فیلتر هوای پایه موتور CAT 390-3135','Cat Basic Engine Air Cleaner, round type, carbon steel. Official compatible-model list includes C18 Marine; exact serial/arrangement applicability is unverified.',ARRAY['C18'],'سیستم هوای ورودی - فیلتر هوا','Cat Parts Store','https://parts.cat.com/en/catcorp/product/390-3135','Official Cat listing: round air cleaner; overall height 9.0 in, width 9.0 in, length 14.453 in, carbon steel, 6 in outlet; MARINE ENGINE C18 listed. Family-level evidence only.','NEEDS_SERIAL_CHECK',false,now(),'{"type":"Round","overall_height_in":9.0,"overall_width_in":9.0,"overall_length_in":14.453,"material":"Carbon Steel","outlet_size_in":6.0}'::jsonb,ARRAY['C18'],'UNVERIFIED','Cat Parts Store lists MARINE ENGINE C18; verify complete engine serial and arrangement in Cat SIS.','https://parts.cat.com/en/catcorp/product/390-3135'),
+('Caterpillar','201-1298','مجموعه لوله خروجی آب افترکولر CAT 201-1298','Cat Aftercooler Water Outlet Lines Tube Assembly carries cooling water through the aftercooler circuit. Cat lists C18 Marine among compatible model families; exact serial/arrangement applicability is unverified.',ARRAY['C18'],'سیستم هوارسانی - خطوط آب افترکولر','Cat Parts Store','https://parts.cat.com/en/catcorp/product/201-1298','Official Cat listing: outer diameter 2.25 in, material steel/alloy mixed metal/alloy brass, withstands 240 kPa water pressure; MARINE ENGINE C18 listed. Family-level evidence only.','NEEDS_SERIAL_CHECK',false,now(),'{"outer_diameter_in":2.25,"water_pressure_kpa":240,"material":"Steel, Alloy Mixed Metal, Alloy Brass","component_type":"Aftercooler Water Outlet Lines Tube Assembly"}'::jsonb,ARRAY['C18'],'UNVERIFIED','Cat Parts Store lists MARINE ENGINE C18; verify complete engine serial and arrangement in Cat SIS.','https://parts.cat.com/en/catcorp/product/201-1298')
+ON CONFLICT (part_number) DO UPDATE SET
+ name=EXCLUDED.name,description=EXCLUDED.description,engine_models=EXCLUDED.engine_models,technical_group=EXCLUDED.technical_group,
+ source_name=EXCLUDED.source_name,source_url=EXCLUDED.source_url,source_note=concat_ws(E'\n',nullif(public.part_catalog.source_note,''),EXCLUDED.source_note),
+ verification_status='NEEDS_SERIAL_CHECK',is_active=false,source_accessed_at=now(),specifications=public.part_catalog.specifications || EXCLUDED.specifications,
+ compatible_models=EXCLUDED.compatible_models,application_type='UNVERIFIED',application_evidence=EXCLUDED.application_evidence,
+ application_source_url=EXCLUDED.application_source_url,updated_at=now();
+
+UPDATE public.part_catalog
+SET name='شلنگ ورودی هوای فیلتر CAT 322-7169',
+    description='Cat Air Cleaner Hose delivers clean filtered air from the air-filter housing to the engine intake manifold. Official compatible-model list includes MARINE ENGINE C18.',
+    verification_status='NEEDS_SERIAL_CHECK',application_type='UNVERIFIED',is_active=false,
+    application_evidence='Official Cat Parts Store lists MARINE ENGINE C18. Family-level evidence only; confirm exact engine serial number and arrangement in Cat SIS.',
+    application_source_url='https://parts.cat.com/en/catcorp/product/322-7169',
+    source_note=concat_ws(E'\n',nullif(source_note,''),'Official Cat listing reviewed 2026-11-26; C18 Marine family-level fitment, serial/arrangement not confirmed.'),
+    source_accessed_at=now(),updated_at=now()
+WHERE part_number='322-7169';
+
+UPDATE public.products p
+SET status='INACTIVE',application_type='UNVERIFIED',
+    application_evidence=concat_ws(E'\n',nullif(p.application_evidence,''),'C18 Marine air-inlet candidate; exact serial/arrangement confirmation required before sale.'),
+    updated_at=now()
+WHERE regexp_replace(upper(p.sku),'[^A-Z0-9]','','g') IN ('3735834','3182523','3903135','2011298','3227169');
