@@ -57,7 +57,7 @@ function categoryInfo(p){
   else if(/water spray|آب.?پاش/.test(t))sub='فیلتر سیستم آب‌پاش';
   else if(/air conditioner|a\/c|تهویه|کولر/.test(t))sub='فیلتر تهویه و کولر';
   else if(/خنک.?کاری|coolant|cooling|water pump|فیلتر آب|آب.?پمپ/.test(t))sub='فیلتر آب و سیستم خنک‌کاری';
-  else if(/breather|هواکش|تنفسی/.test(t))sub='هواکش و فیلتر تنفسی';
+  else if(/breather|vent filter|case vent|هواکش|تنفسی/.test(t))sub='هواکش و فیلتر تنفسی';
   else if(/هوا|air cleaner|air filter|هوای موتور|two.stage/.test(t))sub='فیلتر هوا';
   return {parent:'فیلترها',sub};
  }
