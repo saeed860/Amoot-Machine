@@ -2674,3 +2674,12 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - موارد دیگر بررسی‌شده در نتایج این مرحله از قبل در Master و CSV موجود بودند و دوباره درج نشدند.
 - منابع رسمی: https://parts.cat.com/en/catcorp/product/5I-8110 ؛ https://parts.cat.com/en/catcorp/product/150-7568
 - شمارنده هدف پس از ثبت: 4383 شماره یکتا؛ Mirror و Workflow همگام شدند.
+
+
+## دور ۷۲ — 25 Nov 2026
+
+- هشت شماره جدید از صفحات رسمی Cat Parts Store که 297C را فهرست می‌کنند و 287B را فهرست نمی‌کنند، به Master و CSV مستقل 297C-only اضافه شدند: 258-2849، 258-4084، 258-4160، 258-4391، 258-2781، 348-4171، 267-8390 و 280-8307.
+- چهار شماره از قبل در Master بودند اما در CSV مستقل فیتمنت ثبت نشده بودند؛ ردیف آنها تکمیل شد: 258-4116، 258-3247، 258-4102 و 258-3849.
+- هیچ‌یک از این 12 شماره به فیتمنت 287B تعمیم داده نشد. موارد سیم‌کشی، براکت، لوله روغن‌خنک‌کن و نشانگر سطح باید با پیکربندی، PIN و شماره سریال دستگاه تطبیق داده شوند.
+- منابع رسمی: https://parts.cat.com/en/catcorp/product/258-4116 ؛ https://parts.cat.com/en/catcorp/product/258-2849 ؛ https://parts.cat.com/en/catcorp/product/258-4084 ؛ https://parts.cat.com/en/catcorp/product/258-4160 ؛ https://parts.cat.com/en/catcorp/product/258-4391 ؛ https://parts.cat.com/en/catcorp/product/258-2781 ؛ https://parts.cat.com/en/catcorp/product/348-4171 ؛ https://parts.cat.com/en/catcorp/product/267-8390 ؛ https://parts.cat.com/en/catcorp/product/280-8307 ؛ https://parts.cat.com/en/catcorp/product/258-3247 ؛ https://parts.cat.com/en/catcorp/product/258-4102 ؛ https://parts.cat.com/en/catcorp/product/258-3849
+- شمارنده هدف پس از ثبت: 4391 شماره یکتا؛ Mirror byte-exact و Workflow برابر 4391.
