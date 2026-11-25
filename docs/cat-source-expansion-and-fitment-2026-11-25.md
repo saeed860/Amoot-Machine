@@ -85,6 +85,8 @@
 | `data/cat-zeppelin-loader-get-wear-parts-2022-23.csv` | 33 | GET، لبه برش، سگمنت و اتصالات |
 | `data/cat-aftermarket-filter-cross-reference-leads-2026-11-25.csv` | 20 | مشاهدات معادل فیلتر؛ بدون ادعای fitment |
 | `data/cat-official-equipment-page-parts-2026-11-25.csv` | 130 | Best Sellers و Special Solution صفحات رسمی Cat |
+| `data/cat-compact-track-loader-rubber-track-fitment-2026-11-25.csv` | 45 | الگوی زنجیر لاستیکی CTL/MTL با مدل و ابعاد |
+| `data/cat-motor-grader-k-k2-maintenance-get-fitment-2026-11-25.csv` | 41 | سرویس دوره‌ای، فیلترها، قطعات زیربندی و GET گریدر K/K2 |
 
 ## شمارش و ادغام
 
@@ -92,8 +94,10 @@
 - از شماره‌های یکتای این شش فایل، 35 مورد از قبل در master بودند و 144 مورد جدید به master اضافه شدند.
 - علاوه بر آن، شماره‌های باتری/استارتر/آلترناتور، آینه/برف‌پاک‌کن، GET/اتصالات و صفحات Best Sellers/Special Solution پس از تفکیک منبع به master اضافه شدند.
 - در طول همگام‌سازی، 42 شماره دیگر در commitهای هم‌زمان به master ظاهر شدند؛ این 42 مورد از فایل‌های curated این مرحله نیستند و در این گزارش تأیید مستقل برایشان ادعا نمی‌شود.
-- آخرین شمارش تأییدشده `data/cat-official-part-numbers.txt`: **1224 شماره یکتا**.
-- فایل `data/offroad-batch-import-cat-1224.txt` دقیقاً با master یکسان است: **1224 ردیف، بدون تکرار**.
+- آخرین شمارش تأییدشده پیش از این مرحله `data/cat-official-part-numbers.txt`: **1224 شماره یکتا**.
+- در مرحله فعلی 45 ردیف Rubber Track از CTL/MTL و 41 ردیف Motor Grader ثبت شد؛ 64 شماره یکتا در این دو فایل وجود داشت و 52 شماره جدید به master افزوده شد.
+- شمارش جاری `data/cat-official-part-numbers.txt`: **1276 شماره یکتا**.
+- فایل `data/offroad-batch-import-cat-1276.txt` دقیقاً با master یکسان است: **1276 ردیف، بدون تکرار**.
 
 ## قواعد داده و سطح اطمینان
 
@@ -112,7 +116,7 @@ Workflow شماره 45574758840 در صفحه‌های اولیه Cat چند tim
 
 ## گام بعدی
 
-1. ادامه استخراج رسمی برای مدل‌های بیشتر excavator، backhoe، motor grader، compact track loader و موتورهای صنعتی.
+1. ادامه استخراج رسمی برای مدل‌های بیشتر excavator، backhoe، motor grader، compact track loader و موتورهای صنعتی؛ مرحله فعلی پوشش اولیه K/K2 grader و track patternهای CTL/MTL را اضافه کرد.
 2. تکمیل cross-reference با کاتالوگ مستقیم Donaldson، Baldwin، Fleetguard و WIX؛ اختلاف‌ها باید به‌صورت مشاهده‌های جدا ثبت شوند.
 3. کنترل موارد کاندیدا در K-Part با مدل و پیشوند سریال، سپس ثبت فقط داده‌ای که منبع و fitment آن قابل اثبات باشد.
 4. قبل از سفارش/قیمت‌گذاری، همه قطعات مدل‌محور با serial number و کاتالوگ SIS یا Cat Parts Store کنترل شوند.
