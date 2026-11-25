@@ -792,3 +792,27 @@ Mirror از Master جاری بازسازی و شمارنده Workflow با تع�
 ### تکمیل CSV دور بیست‌وششم
 
 ممیزی پس از ثبت نشان داد سه شماره موجود در Master (267-3766، 253-6949 و 177-1958) در CSV این دور درج نشده بودند. هر سه ردیف به CSV افزوده شدند. هر سه کیت آب‌بندی سیلندر به Cylinder Group و شماره سریال وابسته‌اند؛ این ردیف‌ها صرفاً فیتمنت مدل را مستند می‌کنند.
+
+## دور بیست‌وهفتم — کیت‌های آب‌بندی سیلندر، شیر و سوخت‌رسانی (25 Nov 2026)
+
+هفت ردیف جدید از صفحات رسمی Cat Parts Store با فیتمنت صریح 287B در CSV ثبت شد؛ سه شماره جدید به Master اضافه شدند و چهار شماره دیگر از قبل در Master موجود بودند:
+- 195-2627 — Valve Seal Kit؛ 287B در Compatible Models.
+- 5I-7933 — Engine Air Lines Gasket؛ 287B در Compatible Models.
+- 242-6055 — 7.9mm ID Engine Fuel Filter Lines Hose؛ قطر داخلی 7.9mm، طول 9.05in و فشار کاری 2,799.27kPa.
+- 382-6243 — Hydraulic Cylinder Seal Kit؛ 287B و 297C.
+- 371-2737 — Hydraulic Cylinder Seal Kit - Standard Size؛ 287B.
+- 218-6822 — Tilt Cylinder Seal Kit؛ 287B.
+- 284-9039 — Vented Cap for Fuel Strainer؛ درپوش دارای vent و فیلتراسیون 10 micron، اندازه کلی 63.5mm.
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/product/195-2627
+- https://parts.cat.com/en/catcorp/product/5I-7933
+- https://parts.cat.com/en/catcorp/product/242-6055
+- https://parts.cat.com/en/catcorp/product/382-6243
+- https://parts.cat.com/en/catcorp/product/371-2737
+- https://parts.cat.com/en/catcorp/product/218-6822
+- https://parts.cat.com/en/catcorp/product/284-9039
+
+نکته مهم: کیت‌های seal سیلندر و شیر، فیتمنت مدل را نشان می‌دهند اما شماره کیت باید با cylinder/valve group و شماره سریال تطبیق داده شود؛ برخی صفحات Cat فهرست قطعات داخل کیت را نمایش نمی‌دهند. برای شیلنگ سوخت، قطر، نوع اتصال و مسیر؛ برای درپوش صافی، رزوه/دهانه و سیستم vent باید کنترل شود. قطعه 230-3705 در نتایج Cat Discontinued بود و وارد فهرست فعال سفارش‌پذیر نشد.
+
+Mirror از Master جاری بازسازی و شمارنده Workflow با تعداد خطوط Master تنظیم شد.
