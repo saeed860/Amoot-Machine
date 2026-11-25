@@ -35,13 +35,15 @@
 - `data/cat-dozer-official-fitment-2026-11-25.csv` — 55 ردیف D1/D2/D3 و D6N پس از بازبینی ستون‌ها و پیشوندها.
 - `data/cat-320-excavator-official-fitment-2026-11-25.csv` — 17 ردیف 320 GC/323.
 - `data/cat-415-450-backhoe-official-fitment-2026-11-25.csv` — 57 ردیف 415–450 شامل سرویس و قطعات GET.
+- `data/cat-336-excavator-official-fitment-2026-11-25.csv` — 24 ردیف 336/336 GC با شکست‌های سریال.
+- `data/cat-articulated-truck-official-fitment-2026-11-25.csv` — 27 ردیف 725 تا 745.
 - `data/cat-aftermarket-filter-cross-reference-leads-2026-11-25.csv` — 20 مشاهده cross-reference؛ جدا از فهرست OEM و بدون ادعای fitment.
 
 ## شمارش و وضعیت ادغام
 
-- مجموع داده‌های fitment در چهار فایل اول: **158 ردیف**.
-- شناسه‌های یکتای CAT در این چهار فایل: **140 شماره**.
-- از این تعداد **21 شماره** از قبل در فهرست اصلی موجود بود و **119 شماره** در فهرست اصلی فعلی نبود.
+- مجموع داده‌های fitment در شش فایل اول: **209 ردیف**.
+- شناسه‌های یکتای CAT در این شش فایل: **179 شماره**.
+- از این تعداد **35 شماره** از قبل در فهرست اصلی موجود بود و **144 شماره** در فهرست اصلی فعلی نبود.
 - شمارش فهرست اصلی در زمان محاسبه: **848 شماره یکتا**.
 - فایل cross-reference جداگانه است و شماره‌های Baldwin/Donaldson/Fleetguard/WIX نباید به فهرست شماره‌قطعات CAT اضافه شوند.
 - به‌روزرسانی `data/cat-official-part-numbers.txt` عمداً تا پایان اجرای workflow جاری به تعویق افتاده است تا اجرای فعال با push جدید لغو نشود.
@@ -59,5 +61,5 @@
 
 1. پایان اجرای workflow شماره 45574758840 و بررسی artifact/log آن.
 2. dedupe کردن 119 شماره جدید در برابر master list و ادغام فقط شماره‌های Cat، بدون افزودن معادل‌های aftermarket.
-3. ادامه استخراج رسمی برای excavatorهای دیگر، backhoe F2، motor graders، articulated trucks، compact track loaders و engine families.
+3. ادامه استخراج رسمی برای excavatorهای دیگر، backhoe F2، motor graders، compact track loaders و engine families.
 4. توسعه cross-reference با کاتالوگ‌های خود سازندگان فیلتر (Donaldson، Baldwin، Fleetguard و WIX) و نگهداری اختلاف‌ها به‌صورت مشاهده‌های مستقل.
