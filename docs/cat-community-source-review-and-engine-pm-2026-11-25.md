@@ -538,3 +538,26 @@ Master هنگام ثبت 2,431 شماره یکتا داشت؛ Mirror و Workflow
 ولتاژ و پایه لامپ، نوع چراغ و سوکت، نسخه قاب فیلتر و مجموعه چراغ/لنز باید با شماره سریال و آرایش واقعی دستگاه تطبیق داده شود. دو شیلنگ 174-2385 و 222-5728 در جست‌وجوی پیشین Discontinued بودند و به‌عنوان قطعه سفارش‌پذیر وارد Master فعال نشدند.
 
 Master اکنون 2,553 شماره یکتا دارد؛ Mirror دقیقاً همسان است، CSV بررسی 115 ردیف داده دارد و شمارنده Workflow روی 2,553 تنظیم شده است.
+
+
+## دور هفدهم — کلیدهای کابین، سوئیچ فشار و اتصالات سوخت (25 Nov 2026)
+
+شش شماره جدید از صفحات رسمی Cat Parts Store با فیتمنت صریح 287B ثبت شد:
+- 142-8858 — Ignition Switch Assembly؛ 287B؛ رزوه قفل 1-32 و کانکتور 4 پین.
+- 224-0744 — Pressure Switch Assembly؛ 287B؛ کانکتور 3-pin DT، رزوه 9/16-18 و آچارخور 1.188in.
+- 212-6521 — Three-Position Rocker Switch؛ 287B؛ شش ترمینال تیغه‌ای و عملکرد pin engage/disengage و lock.
+- 142-9326 — Rocker Switch Assembly - Rear Lights؛ 287B؛ چهار ترمینال تیغه‌ای و LED سبز/کهربایی 12V.
+- 228-9132 — Fuel Pump Fitting؛ 287B و 297C؛ طول 3.75in و ارتفاع 0.85in.
+- 142-9325 — Rocker Switch Assembly - Engine Preheat؛ 287B؛ دوحالته با LED سبز و چهار ترمینال تیغه‌ای.
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/product/142-8858
+- https://parts.cat.com/en/catcorp/product/224-0744
+- https://parts.cat.com/en/catcorp/product/212-6521
+- https://parts.cat.com/en/catcorp/product/142-9326
+- https://parts.cat.com/en/catcorp/product/228-9132
+- https://parts.cat.com/en/catcorp/142-9325
+
+برای کلیدها و سوئیچ‌ها، عملکرد واقعی مدار، تعداد پین، پنل و نسخه دسته‌سیم؛ برای سوئیچ فشار، نقطه تحریک و کاربرد سیال؛ و برای اتصال سوخت، ابعاد و نوع رزوه/آب‌بندی باید پیش از سفارش تطبیق داده شود.
+
+Master برابر 2,559 شماره یکتا، Mirror دقیقاً همسان، CSV برابر 121 ردیف داده و شمارنده Workflow برابر 2,559 است.
