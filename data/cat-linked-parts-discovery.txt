@@ -1285,3 +1285,16 @@ Source pages:
 6J-2680 | 3.53 x 69.44mm 90A NBR O-Ring | Cat Parts Store frequently bought together with 392-0214 injector | cat_linked_candidate; needs_individual_verification
 
 442-7439 | Engine Overhaul Kit Bronze | Cat Parts Store component in 442-8972 Silver overhaul kit, quantity 1 | cat_linked_candidate; needs_individual_verification
+
+379-4044 | Track Group, 5 Tooth Master, ES Shoe | Cat Parts Store compare-alternate panel for 458-7790 | cat_linked_candidate; needs_individual_verification
+379-4048 | Track Group, 5 Tooth Master, SES Shoe | Cat Parts Store compare-alternate panel for 458-7790 | cat_linked_candidate; needs_individual_verification
+512-0736 | Track Group, 5 Tooth Master, SES Shoe, 240.5mm Pitch | Cat Parts Store compare-alternate panel for 458-7790 | cat_linked_candidate; needs_individual_verification
+512-0738 | Track Group, Round Hole, 5 Tooth Master, SES Shoe | Cat Parts Store compare-alternate panel for 458-7790 | cat_linked_candidate; needs_individual_verification
+571-3532 | Track Group, 5 Tooth Master, ES Shoe, 240.5mm Pitch | Cat Parts Store compare-alternate panel for 458-7790 | cat_linked_candidate; needs_individual_verification
+613-7171 | Track Group, 5 Tooth Master, MS Shoe | Cat Parts Store compare-alternate panel for 458-7790 | cat_linked_candidate; needs_individual_verification
+658-6413 | Undercarriage Track Assembly, SES Shoe, Wear Sensor | Cat Parts Store compare-alternate panel for 458-7790 | cat_linked_candidate; needs_individual_verification
+658-6419 | Undercarriage Track Assembly, ES Shoe, Wear Sensor | Cat Parts Store compare-alternate panel for 458-7790 | cat_linked_candidate; needs_individual_verification
+658-6439 | Undercarriage Track, ES Shoe, Wear Sensor | Cat Parts Store compare-alternate panel for 458-7790 | cat_linked_candidate; needs_individual_verification
+658-6443 | Undercarriage Track, SES Shoe, Wear Sensor | Cat Parts Store compare-alternate panel for 458-7790 | cat_linked_candidate; needs_individual_verification
+658-6459 | 610mm Width Undercarriage Track, ES Shoe | Cat Parts Store compare-alternate panel for 458-7790 | cat_linked_candidate; needs_individual_verification
+658-6463 | 610mm Width Undercarriage Track, SES Shoe | Cat Parts Store compare-alternate panel for 458-7790 | cat_linked_candidate; needs_individual_verification
