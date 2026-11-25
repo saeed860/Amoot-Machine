@@ -1106,3 +1106,10 @@ Off Road public index lists 1R0716 as FILTER A. No current exact Cat Parts Store
 - [Cat preventive-maintenance kits](https://caterpillar.scene7.com/is/content/Caterpillar/CM20230906-5d3e7-f57c3) lists 1R-0716 for 3176, 3406/B/C/E, C-10, C-12, C-15 and C-16 engine families. It lists 1R-1808 in the related kit family with additional C11/C13/C15 references.
 
 The project records 1R-0716 as a CAT official-document reference, not a serial-specific fitment guarantee. The documented 1R-0716 → 1R-1808 relationship is an approved upgrade option, not an unconditional replacement instruction for every machine. Check serial number and Arrangement before fitment.
+
+
+## 1R-0716 exact Cat Parts Store page found — 25 Nov 2026 correction
+
+A later search located the exact official Cat Parts Store product page for [1R-0716](https://parts.cat.com/in/catcorp/product/1R-0716). It identifies the part as **Engine Lube Oil Filter**, Standard Efficiency, spin-on, diameter **5.346 in**, length **12.177 in**, flow Out-to-In. The Compatible Models list includes a distinct **Marine Engine** group, including 3516, 3196, C12/C-12, C18, 3408B/C, 3406B/C/E, 3306B, C32B, 3176C/B, C30, C32/C32 MARINE, 3412C, 3304, 3412E/D and other model classes, as well as non-marine machine/engine groups. Therefore 1R-0716 is **BOTH at published model-class level**; exact serial and Arrangement are still required.
+
+This exact Cat page supersedes the earlier note that no current exact product page had been located. The separately documented Cat upgrade relationship remains: Cat's 2015 publication identifies 1R-1808 as the approved upgrade option for equipment using 1R-0716. It is not a blanket serial-specific replacement guarantee.
