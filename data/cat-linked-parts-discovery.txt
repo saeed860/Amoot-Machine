@@ -3564,3 +3564,15 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 7X-4805 | 9.12mm Inside Diameter Seal-O-Ring | 2 | Cat 118-7855 Front Housing Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
 
 Source page: https://parts.cat.com/en/catcorp/product/118-7855
+
+
+## Additional Cat 3516 genset / G3508-G3512-G3516 gas-engine oil-cooler gasket-kit BOM candidates — batch 210
+
+Source: official Cat Parts Store product page 118-7859, Oil Cooler and Lines Gasket Kit. Compatible models explicitly shown: GEN SET ENGINE / 3516; GAS ENGINE / G3508, G3512, G3516. Cat describes the kit as gaskets and seals to assemble/reinstall oil cooler(s), oil-filter base and connecting lines. Fifteen other listed items were already present in the discovery queue or original seed list and are not duplicated. The three new rows below are official BOM references only; confirm engine and cooler arrangement before ordering.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+247-3796 | Engine Oil Cooler Round Gasket | 2 | Cat 118-7859 3516/Gas-Engine Oil Cooler and Lines Gasket Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+4B-8407 | Flywheel Housing Gasket | 1 | Cat 118-7859 3516/Gas-Engine Oil Cooler and Lines Gasket Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+5P-7817 | 59.36mm Inner Diameter Seal O Ring | 1 | Cat 118-7859 3516/Gas-Engine Oil Cooler and Lines Gasket Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+
+Source page: https://parts.cat.com/en/catcorp/product/118-7859
