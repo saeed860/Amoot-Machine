@@ -4,10 +4,15 @@ on:
     workflows: ["Deploy Amoot Machine to Supabase"]
     types: [completed]
     branches: [main]
+  push:
+    branches: [main]
+    paths:
+      - "scripts/live-part-catalog-smoke.mjs"
+      - ".github/workflows/live-part-catalog-smoke.yml"
   workflow_dispatch:
 jobs:
   live-api:
-    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    if: github.event_name == 'workflow_dispatch' || github.event_name == 'push' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
