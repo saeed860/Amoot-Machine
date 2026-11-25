@@ -82,3 +82,10 @@ Price handling: CN¥6,502.86 is retained as an indicative aftermarket listing on
 245-4622 | Core AS-Aftercooler; reseller claims Genuine Caterpillar; listed price USD 12,515.20; availability “Contact for Availability”; seller states worldwide shipping from Turkey, USA and Netherlands | Novi Group Türkiye: https://novi.com.tr/caterpillar-245-4622 | reseller_genuine_claim_unverified; price_reference_only; availability_not_confirmed; require OEM provenance and serial fitment evidence
 
 Pricing safeguards: the GBP and USD listings above are separate currencies and conditions. Do not average them, convert them into an OEM benchmark, or import them as confirmed Amoot purchase costs. The SoonParts and DeedParts entries are explicitly aftermarket; Novi's “Genuine” label is a seller claim pending documentation. Advanced Truck Parts is sold out and is not a live quote.
+
+
+## Independent supplier cross-reference and price leads — batch 145 (2026-11-25)
+
+249-5496 | Piston for Caterpillar 3516C / 3512C / 3512B; Xuzhou MMT listing includes 249-5496 and 249-4512 as references; condition New, aftermarket, origin China; FOB price shown as USD 305-390 per piece (another indexed listing shows USD 390); MOQ 1; warranty 6 months | Xuzhou MMT Machinery / Made-in-China: https://mmtcat.en.made-in-china.com/product/jpXUlSYDkvhO/China-249-5496-249-4512-2495496-2494512-Piston-for-3516c-3512c-3512b-Engine.html | independent_aftermarket_price_lead; supplier_claim_unverified; preserve 249-4512 as seller cross-reference only; confirm exact piston design and arrangement
+
+Group price lead (not assigned to one SKU): Xuzhou MMT lists an aftercooler product title containing 245-4621, 245-4622 and 236-4256 for 3512/3516 engines at USD 847.83-888.99 FOB, MOQ 1. Because the listing combines three part numbers, this range must not be assigned to 245-4621 or 245-4622 individually without supplier clarification | Xuzhou MMT / Made-in-China: https://mmtcat.en.made-in-china.com/product-group/befaFCtThlku/Radiator-and-Aftercooler-catalog-1.html | grouped_aftermarket_price_lead; SKU_allocation_unconfirmed; not importable as individual SKU price
