@@ -45,7 +45,7 @@ window.setApiProducts = function(rows){db.products=Array.isArray(rows)?rows:[];d
 window.setServerProducts=setServerProducts;
 function categoryInfo(p){
  const raw=String(p.category||'').trim(),name=String(p.name||'').toLowerCase(),description=String(p.description||'').toLowerCase(),technical=String(p.technicalGroup||p.technical_group||'').toLowerCase();
- const t=normalizeSearch(name+' '+raw+' '+description+' '+technical);
+ const t=(name+' '+raw+' '+description+' '+technical).replace(/[_-]+/g,' ');
  const filterPattern=/فیلتر|filter|هواکش|breather|جداکننده.?آب|water.?separator|suction.?screen|filter.?screen|screen.?assembly|strainer|air.?cleaner|pre.?cleaner|precleaner|after.?treatment|aftertreatment|dpf|diesel.?particulate|def.?filter|diesel.?exhaust.?fluid|coolant.?conditioner|water.?spray.?filter|oil.?filter|fuel.?filter|hydraulic.?filter|cabin.?filter|lube.?filter|separator.?filter|filter.?base|filter.?housing|filter.?element/.test(t);
  if(filterPattern){
   let sub='سایر فیلترها';
