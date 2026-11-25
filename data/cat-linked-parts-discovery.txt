@@ -3216,3 +3216,22 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 5J-4993 | Hydraulic Cylinder Seal | 1 | Cat 244-2076 Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; compatible_model_unconfirmed; cylinder_group_specific
 
 Source page: https://parts.cat.com/en/catcorp/product/244-2076
+
+
+## Additional Cat hydraulic-shovel hydraulic-cylinder seal-kit BOM candidates — batch 189
+
+Source: official Cat Parts Store product page 465-6256, Hydraulic Cylinder Seal Kit. Compatible models explicitly shown: HYDRAULIC SHOVEL / 6050 FS, 6015, 6018, 6018 FS, 6030 FS, 6050, 6015 FS, 6040 FS, 6090 FS, 6030, 6060, 6040. Cat describes the kit as a matched set of buffer seals, wear rings, backup rings, O-rings, piston seals and wiper seals for a hydraulic cylinder. All ten listed BOM references were new to the discovery queue and original seed list. As with all hydraulic seal kits, confirm the cylinder-group number and bore/rod dimensions before ordering.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+160-5267 | 6.99 x 291.47mm 90A NBR O-Ring | 1 | Cat 465-6256 Hydraulic Shovel Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_specific
+465-6245 | 9.5mm Thick Hydraulic Cylinder Piston Seal | 1 | Cat 465-6256 Hydraulic Shovel Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_specific
+465-6219 | Ring - Backup | 1 | Cat 465-6256 Hydraulic Shovel Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_specific
+459-7753 | Piston Wear Ring | 2 | Cat 465-6256 Hydraulic Shovel Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_specific
+441-5677 | 205mm Outer Diameter Hydraulic Cylinder Wear Ring | 5 | Cat 465-6256 Hydraulic Shovel Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_specific
+465-6212 | 225mm Outer Diameter Hydraulic Cylinder U-Cup Seal | 1 | Cat 465-6256 Hydraulic Shovel Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_specific
+459-7743 | 300mm Outer Diameter Piston Seal | 2 | Cat 465-6256 Hydraulic Shovel Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_specific
+523-9702 | 220mm Outer Diameter Hydraulic Cylinder Wiper Seal | 1 | Cat 465-6256 Hydraulic Shovel Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_specific
+465-6203 | 225mm Outer Diameter Hydraulic Cylinder Buffer Seal | 1 | Cat 465-6256 Hydraulic Shovel Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_specific
+459-7752 | Piston Wear Ring | 3 | Cat 465-6256 Hydraulic Shovel Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_specific
+
+Source page: https://parts.cat.com/en/catcorp/product/465-6256
