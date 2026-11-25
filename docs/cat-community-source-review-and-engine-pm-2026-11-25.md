@@ -1088,3 +1088,27 @@ Mirror از Master جاری بازسازی و شمارنده Workflow با تع�
 برای شیلنگ انژکتور، طول، end fitting و فشار؛ برای واشرها، محل اتصال و شماره سریال موتور؛ و برای washer، قطر پیچ و clamp stack-up باید بررسی شود. صفحه 234-4824 در عنوان «Governor Inlet» دارد ولی در توضیح، آب‌بندی exhaust manifold به cylinder head را بیان می‌کند؛ قبل از طبقه‌بندی نهایی باید diagram Cat بررسی شود.
 
 Mirror از Master جاری بازسازی و شمارنده Workflow با تعداد خطوط Master تنظیم شد.
+
+
+## دور سی‌وششم — زیربندی و اتصالات هیدرولیک (25 Nov 2026)
+
+چهار شماره جدید با فیتمنت صریح 287B از Cat Parts Store به Master افزوده شدند:
+- 250-1493 — Hydraulic Hose Male End Elbow 45 Degree
+- 124-2119 — Permanent Coupling 10MN
+- 6T-9244 — Valve Cartridge
+- 279-5418 — Hydraulic Hose Assembly
+
+همچنین 278-1240 — Sprocket Bearing Group که از قبل در Master بود، با فیتمنت رسمی 287B در CSV تکمیل شد. 233-5994، 261-6302 و 122-6871 قبلاً در Master و CSV موجود بودند و دوباره ثبت نشدند.
+
+منابع رسمی Cat:
+- https://parts.cat.com/en/catcorp/product/250-1493
+- https://parts.cat.com/en/catcorp/product/124-2119
+- https://parts.cat.com/en/catcorp/product/6T-9244
+- https://parts.cat.com/en/catcorp/product/279-5418
+- https://parts.cat.com/en/catcorp/product/278-1240
+
+برای اتصالات، رزوه، استاندارد ORFS، قطر شیلنگ، کلاس فشار و جهت زانویی باید با نمونه/گروه قطعه تطبیق داده شود. برای شیر کارتریجی، عملکرد و revision گروه شیر کنترل شود. شیلنگ 279-5418 با قطر داخلی 0.375in و طول 71.457in ثبت شده؛ مسیر و سرشلنگ‌ها پیش از سفارش تطبیق داده شوند.
+
+قطعات 261-6296 (Track Roller)، 174-2385 (Hose Assembly) و 230-3705 (Cylinder Group) در Cat Discontinued هستند و به‌عنوان کالای سفارش‌پذیر جدید ثبت نشدند. 289-3779 با وضعیت Replaced مشاهده شد و تا تعیین جایگزین رسمی قابل سفارش فرض نمی‌شود.
+
+Master پس از این batch 3847 شماره دارد؛ Mirror و Workflow با Master همگام شدند.
