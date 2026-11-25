@@ -2571,3 +2571,12 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
   - 258-2970 — MOTOR GP-PSB (Axial Piston Motor)؛ ابعاد درج‌شده طول 12.8in و ارتفاع 10.9in؛ displacement، shaft/interface، پورت‌ها و مدار هیدرولیک با PIN تطبیق داده شود. شماره از قبل در Master بود.
 - منابع رسمی: https://parts.cat.com/en/catcorp/product/258-3942 ؛ https://parts.cat.com/en/catcorp/product/258-2970
 - وضعیت شمارنده: 4361 شماره یکتا؛ Mirror برابر Master؛ Workflow برابر 4361.
+
+
+## دور ۹۵ — 25 Nov 2026
+
+- 453-5488 — Seal Kit؛ صفحه رسمی Cat مدل 297C را فهرست می‌کند و 287B را ندارد؛ کیت Teflon با وزن 0.03lb؛ گروه آب‌بندی و stack قطعات باید بررسی شود. به Master و CSV مستقل 297C-only افزوده شد.
+- 291-0010 — VALVE GP-MTG؛ صفحه رسمی Cat فقط مدل‌های 287C/277C/297C/287C2/277C2 را فهرست می‌کند و 287B در آن نیست؛ ردیف اشتباه آن از CSV 287B حذف و در CSV 297C-only ثبت شد.
+- 218-6858 در CSV 287B باقی ماند؛ صفحه رسمی Compatible Models صریحاً 287B و 297C را شامل می‌کند.
+- منابع رسمی: https://parts.cat.com/en/catcorp/product/453-5488 ؛ https://parts.cat.com/en/catcorp/product/291-0010 ؛ https://parts.cat.com/en/catcorp/product/218-6858
+- وضعیت شمارنده: 4362 شماره یکتا؛ Mirror برابر Master؛ Workflow برابر 4362.
