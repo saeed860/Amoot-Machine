@@ -1314,3 +1314,35 @@ Mirror از Master جاری بازسازی و شمارنده Workflow با تع�
 ### ممیزی هم‌زمانی نهایی دور 41
 
 در بازخوانی‌های پس از اصلاح، Master به 3,939 شماره یکتا رسید و Mirror نیز پس از بازسازی دقیقاً برابر آن شد. شمارنده Workflow از 3,932 عقب مانده بود و در این مرحله به 3,939 اصلاح شد. هفت شماره افزایش‌یافته از ممیزی قبلی به‌صورت هم‌زمان به Master اضافه شده‌اند و به batch 41 نسبت داده نمی‌شوند.
+
+## دور چهل‌وسوم — هیدرولیک، سوخت و زیربندی 287B/297C (25 Nov 2026)
+
+در ممیزی ابتدای دور، Master برابر 3,939 شماره یکتا بود؛ چند تغییر هم‌زمان پس از دور قبل دیده شد و به این دور نسبت داده نمی‌شود. Mirror و Workflow پس از استخراج با Master تازه همگام شدند.
+
+### قطعات رسمی 287B
+- 218-5838 — Hydraulic Control Lines Tube Assembly؛ Compatible Models صریحاً 287B را دارد.
+- 170-6305 — Fuel Level Indicator Assembly؛ فیتمنت 287B و ولتاژ 12V.
+- 284-9039 — Vented Cap for Fuel Strainer؛ فیتمنت 287B و مشخصه فیلتر 10 micron.
+- 200-2371 — Seal Kit (Solenoid Valve)؛ Compatible Models شامل هر دو 287B و 297C است.
+- 238-7642 — 2 Section Gerotor Motor / Gear Pump؛ Compatible Models شامل 287B است و Cat Reman alternative نیز در صفحه نمایش داده می‌شود.
+
+### قطعات مستقل 297C-only
+- 372-5769 — Track Roller / Bogie Suspension Group.
+- 258-3008 — Track Roller Group؛ توضیح صفحه به axle bushing اشاره می‌کند.
+- 295-6420 — General Duty Bearing Cap.
+- 258-3088 — 14.22mm Inner Diameter Inner Sleeve؛ برای sprocket group.
+
+چهار مورد بخش دوم در CSV مستقل 297C-only ثبت شدند و به 287B تعمیم داده نشدند. پنج ردیف 287B به CSV فیتمنت اضافه شد؛ 238-7642 شماره جدید Master است و سایر شماره‌های 287B از قبل در Master وجود داشتند.
+
+منابع رسمی Cat:
+- https://parts.cat.com/en/catcorp/product/218-5838
+- https://parts.cat.com/en/catcorp/product/170-6305
+- https://parts.cat.com/en/catcorp/product/284-9039
+- https://parts.cat.com/en/catcorp/product/200-2371
+- https://parts.cat.com/en/catcorp/product/238-7642
+- https://parts.cat.com/en/catcorp/product/372-5769
+- https://parts.cat.com/en/catcorp/product/258-3008
+- https://parts.cat.com/en/catcorp/product/295-6420
+- https://parts.cat.com/en/catcorp/product/258-3088
+
+در سفارش، برای قطعات هیدرولیک/سوخت/موتور تطبیق PIN، شماره گروه و آرایش مدار الزامی است. قطعات bogie، bearing cap و sprocket sleeve نیز باید با Parts Diagram و شماره سریال تطبیق داده شوند.
