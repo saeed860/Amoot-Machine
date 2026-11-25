@@ -4259,3 +4259,44 @@ Additional Cat-linked discovery candidates from Cat related/frequently-bought-to
 All remain candidate leads only; verify individual item pages before catalog promotion.
 
 Overall reviewed progress: 70/500 batches = 700/5,000 product target (14.0%). Original Cat seed list has 87 SKUs remaining (products 701–787).
+
+## Batch 71/500 — products 701–710 (2026-11-25)
+
+SKUs: 608-7329, 608-7331, 608-7785, 609-0880, 609-9275, 612-6820, 614-6273, 614-8661, 614-8662, 615-0355. All ten Cat pages opened. Two rubber-track items had material differences between Cat's descriptive paragraph and the current Compatible Models panel; DB fitment was corrected to follow the explicit current panel and the narrative discrepancy was retained. Additional source inconsistencies were recorded for 608-7785 and 612-6820.
+
+Verified:
+- 608-7329: Cat General Duty Zig-Zag Rubber Track, 450×86×56mm, 17.717in belt width, 26mm max tread depth, black rubber/fiber, GD. Cat Compatible Models panel lists only 279D3 and 289D3. The separate Cat description paragraph also names 279C2, 279D, 289C2 and 289D; these four are retained in description as a discrepancy, not merged into current fitment.
+- 608-7331: Cat General Duty Zig-Zag Rubber Track, 450×86×60mm, 17.717in belt width, 26mm max tread depth, black rubber/fiber, GD. Current Cat Compatible Models panel lists only 299D3 XE and 299D3. Description paragraph also lists 279C, 289C, 299C, 299D, 299D XHP, 299D2 and 299D2 XHP; preserved as source-text discrepancy, not merged into fitment.
+- 608-7785: Cat Mailbox (Square) Track Nut, D9T/D9/D9R/D9 GC (4). Specs: zinc phosphate + oil, 1.535in thickness, 1.496in square drive, 1.54in height, RH, Steel/Carbon Steel/Alloy Zinc, Cat/SAE J995 Grade 8+ (170 Ksi). Source discrepancy: title says 1.000in thread size; description and TPI field say 1-14; separate Thread Size (in) specification says 0.039in. All three are retained in DB pending dealer clarification.
+- 609-0880: Cat GLT Link Assembly, Press Fit Master, 52 sections, PPR2, SALT, 215.9mm/8.5in pitch. Specs: 2.891in bushing OD, 9.805in pin length, 5.081in link height, 0.984in bolt-hole, M24 track/master bolts, 1.313in rail-to-bushing OD, 7.983in outside spread, A/B/C shoe-hole spacing 3/5.75/7.25in, no RBT/wear sensor. 30 compatible labels across 3512 engine, 352F family, 568 FM, 345B/C/D, 349D/E/F, 350/352/355, 340 MHPU, MH3250/MH3260, 336F. Related link alternatives listed separately.
+- 609-9275: Cat Roller Guard Short Center, center position, left/right frame side, Alloy Steel, HDXL. Compatible D6R/D6T/D6R II/D6T XW/D6T LGP/D6T LGPPAT/D6T XL PAT/D6T XW PAT/D6R III/D6R XL/D6T XL/D6R STD and PL72 (13). Related parts 166-2287 spacer, 189-3032 wear strip, 235-5974 carrier roller, 160-4103 wear strip, 288-0934 track roller group.
+- 612-6820: Cat Basic Turbocharger, cast iron body, 12.66in length. Current Cat Compatible Models panel lists Engine 3516E, Truck 793D and Off Highway Truck 793/793D (3 labels). Separate description says used on certain 793B/793D trucks with 3516 engines. These source representations are preserved as a discrepancy; DB compatible_models follows the explicit panel. Cat Reman alternative 20R-9727. Related 7N-7559, 4P-4460, 6V-3917, 341-9211 and 2W-0752.
+- 614-6273: Cat 6-Cylinder Fuel Rail, a high-pressure tube distributing fuel to individual injectors. Cat Compatible Models: Excavator 336 GC; Wheel Loaders 930M and 962K (3). No separate technical specifications published; unsupported material fields removed.
+- 614-8661: Cat Indicate for Mini Excavators. Cat public page has no compatible-model or item-level technical specification list; DB remains empty for fitment/specs.
+- 614-8662: Cat Detect 2D E-Fence for Mini Excavators. Cat public page has no compatible-model or item-level technical specification list; DB remains empty for fitment/specs.
+- 615-0355: Cat Stick Steer for Excavators. Cat public page has no compatible-model or item-level technical specification list; DB remains empty for fitment/specs.
+
+Cat pages:
+- https://parts.cat.com/en/catcorp/product/608-7329
+- https://parts.cat.com/en/catcorp/product/608-7331
+- https://parts.cat.com/en/catcorp/product/608-7785
+- https://parts.cat.com/en/catcorp/product/609-0880
+- https://parts.cat.com/en/catcorp/product/609-9275
+- https://parts.cat.com/en/catcorp/product/612-6820
+- https://parts.cat.com/en/catcorp/product/614-6273
+- https://parts.cat.com/en/catcorp/product/614-8661
+- https://parts.cat.com/en/catcorp/product/614-8662
+- https://parts.cat.com/en/catcorp/product/615-0355
+
+Post-update DB verification counts: 608-7329=2; 608-7331=2; 608-7785=4; 609-0880=30; 609-9275=13; 612-6820=3; 614-6273=3; 614-8661=0; 614-8662=0; 615-0355=0. No customer price or stock claims added.
+
+Additional Cat-linked discovery candidates from official Cat parts/related panels:
+- 608-7329: 304-1916, 110-6326, 110-6331, 265-6619, 377-6969.
+- 608-7331: 304-1916, 110-6326, 110-6331, 265-6619, 377-6969.
+- 608-7785: 6Y-0473, 7G-4332, 186-0780, 352-9707, 499-2970.
+- 609-0880: 201-9119, 213-1971, 216-1556, 301-2287, 301-2307, 330-5418, 395-3569, 395-3570, 430-3336, 465-7727, 524-3181, 558-2434, 569-4555, 569-4556, 571-3747, 609-0861, 609-0867, 609-0876, 609-0896, 610-2801, 610-4693.
+- 609-9275: 166-2287, 189-3032, 235-5974, 160-4103, 288-0934.
+- 612-6820: 7N-7559, 4P-4460, 6V-3917, 341-9211, 2W-0752; Cat Reman 20R-9727.
+All are discovery leads only; no cross-part fitment or interchangeability is inferred.
+
+Overall reviewed progress: 71/500 batches = 710/5,000 product target (14.2%). Original Cat seed list has 77 SKUs remaining (products 711–787).
