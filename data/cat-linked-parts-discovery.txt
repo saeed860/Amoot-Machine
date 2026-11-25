@@ -3413,3 +3413,13 @@ Source page: https://parts.cat.com/en/catcorp/product/376-9015
 - Original 787-number seed overlap: 86; unique references beyond the original seed: 1,957.
 - New coverage includes hydraulic-cylinder seal kits across excavators, backhoe loaders, wheel loaders, track loaders and hydraulic shovels; historical/discontinued kits are explicitly marked and not treated as current saleable kits.
 - Next batch: 201. Checkpoint 200 is not a stopping point; continue toward 5,000.
+
+
+## Additional Cat 120M/120H/140H/135H motor-grader hydraulic-cylinder seal-kit BOM candidate — batch 201
+
+Source: official Cat Parts Store product page 622-9417, Hydraulic Cylinder Seal Kit. Compatible models explicitly shown: MOTOR GRADER / 120M, 120H ES, 140H, 120H, 135H, 135H NA, 120H NA. The page exposes one included component only: 671-2673, quantity 3. The kit description says piston, rod, buffer and O-ring seals plus wear and wiper rings provide the hydraulic-cylinder reseal; the displayed included-part list is incomplete relative to that prose, so only the one exposed item is recorded.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+671-2673 | Hydraulic cylinder seal kit | 3 | Cat 622-9417 Motor Grader Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; page_exposes_one_of_1_items; cylinder_group_specific
+
+Source page: https://parts.cat.com/en/catcorp/product/622-9417
