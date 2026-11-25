@@ -1346,3 +1346,13 @@ Mirror از Master جاری بازسازی و شمارنده Workflow با تع�
 - https://parts.cat.com/en/catcorp/product/258-3088
 
 در سفارش، برای قطعات هیدرولیک/سوخت/موتور تطبیق PIN، شماره گروه و آرایش مدار الزامی است. قطعات bogie، bearing cap و sprocket sleeve نیز باید با Parts Diagram و شماره سریال تطبیق داده شوند.
+
+## دور چهل‌ودوم — فیلتر هوای اولیه موتور (25 Nov 2026)
+
+یک شماره موجود در Master، پس از تأیید صفحه مستقل Cat برای 287B، به CSV فیتمنت افزوده شد:
+- 110-6326 — Air Cleaner Primary Element؛ فیلتر اولیه standard-efficiency، ارتفاع/عرض 6.476in و عمق 14.016in؛ Compatible Models صریحاً 287B را دارد.
+
+منبع رسمی:
+- https://parts.cat.com/en/catcorp/product/110-6326
+
+این قطعه با 110-6331 (secondary element) که پیش‌تر ثبت شده، جفت فیلتر اولیه/ثانویه را تشکیل می‌دهد؛ قبل از سفارش باید housing، نوع مدیا، جفت‌بودن عناصر و بازه سرویس بررسی شود. 1R-0749، 1R-0751، 1R-0739 و 1R-1807 در Compatible Models مستقل خود 287B را نداشتند و فیتمنت 287B برای آن‌ها ثبت نشد.
