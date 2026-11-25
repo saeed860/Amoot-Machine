@@ -1026,3 +1026,21 @@ Master پس از این batch 3770 شماره یکتا دارد؛ Mirror و Work
 برای سفارش، موقعیت نصب، آرایش و preload پایه، قطر پیچ مرکزی و جفت‌شدن بوش با isolation mount باید کنترل شود. نکته فیتمنت: صفحات Cat برای 202-0920، 153-0073، 152-9864 و 142-8853 فقط مدل 287 را فهرست کردند، نه 287B؛ بنابراین هیچ‌کدام به Master فیتمنت 287B اضافه نشدند.
 
 Mirror از Master جاری بازسازی و شمارنده Workflow با تعداد خطوط Master تنظیم شد.
+
+## دور سی‌وپنجم — کیت اورهال موتور، شیر پایلوت و خنک‌کاری (25 Nov 2026)
+
+چهار ردیف فیتمنت از صفحات رسمی Cat Parts Store با نمایش صریح 287B بررسی و در CSV ثبت شد؛ سه شماره جدید به Master افزوده شد و یک شماره از قبل در Master وجود داشت:
+- 594-6434 — Cat Engine Overhaul Gasket Kit؛ 287B و 297C؛ کیت شامل 42 ردیف قطعه/واشر/آب‌بند در فهرست Cat است و front/rear seals را شامل نمی‌شود.
+- 341-3561 — Cat Engine Overhaul Gasket Kit-JAPAN؛ 287B؛ نسخه مخصوص بازار ژاپن، نه کالای عمومی سفارش‌پذیر در بازار ایران.
+- 257-8739 — Regulator Housing Hose Clamp؛ 287B و 297C؛ بست استیل با عرض 0.511in و حداکثر قطر مؤثر 1.181in.
+- 313-6251 — Joint Kit (Hydraulic Pilot Control Valve)؛ 287B؛ از قبل در Master بود؛ صفحه Cat یک plate assembly را نمایش می‌دهد و توضیح، shim/nut/washer/detent arm/cardan را ذکر می‌کند.
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/594-6434
+- https://parts.cat.com/en/catcorp/product/341-3561
+- https://parts.cat.com/en/catcorp/product/257-8739
+- https://parts.cat.com/en/catcorp/product/313-6251
+
+برای کیت اورهال، engine arrangement و شماره سریال و محتوای دقیق جعبه؛ برای نسخه ژاپن، محدودیت منطقه‌ای؛ برای بست، قطر بیرونی شیلنگ و محل housing؛ و برای joint kit، خانواده شیر پایلوت و اجزای واقعی باید تطبیق داده شود.
+
+Mirror از Master جاری بازسازی و شمارنده Workflow با تعداد خطوط Master تنظیم شد.
