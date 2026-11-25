@@ -50,10 +50,12 @@ function categoryInfo(p){
  if(hasFilterName||(hasFilterCategory&&!/قطعات موتور و فیلتر/.test(raw))){
   let sub='سایر فیلترها';
   if(/کابین|cabin/.test(t))sub='فیلتر کابین';
+  else if(/water separator|جداکننده آب/.test(t)&&/lube|lubrication|روانکاری|fumes disposal/.test(t))sub='فیلتر روغن و روانکاری';
   else if(/سوخت|fuel|water separator|جداکننده آب/.test(t))sub='فیلتر سوخت و جداکننده آب';
   else if(/هیدرولیک|hydraulic|transmission/.test(t))sub='فیلتر هیدرولیک و انتقال قدرت';
   else if(/روغن|lube|oil/.test(t))sub='فیلتر روغن و روانکاری';
   else if(/water spray|آب.?پاش/.test(t))sub='فیلتر سیستم آب‌پاش';
+  else if(/air conditioner|a\/c|تهویه|کولر/.test(t))sub='فیلتر تهویه و کولر';
   else if(/خنک.?کاری|coolant|cooling|water pump|فیلتر آب|آب.?پمپ/.test(t))sub='فیلتر آب و سیستم خنک‌کاری';
   else if(/breather|هواکش|تنفسی/.test(t))sub='هواکش و فیلتر تنفسی';
   else if(/هوا|air cleaner|air filter|هوای موتور|two.stage/.test(t))sub='فیلتر هوا';
