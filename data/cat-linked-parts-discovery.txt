@@ -1495,3 +1495,5 @@ Source pages:
 5P-2060 | 12.38mm Inner Diameter Round Seal | Cat Parts Store frequently bought together with 9N-3246 fuel injection nozzle | cat_linked_candidate; needs_individual_verification
 2W-3390 | Fuel Injection Valve Body | Cat Parts Store frequently bought together with 9N-3246 fuel injection nozzle | cat_linked_candidate; needs_individual_verification
 3S-1223 | 5.33 x 145.42mm 75A NBR O-Ring | Cat Parts Store parts diagram for 9P-9990 retainer | cat_linked_candidate; needs_individual_verification
+
+9X-3401 | 13 Ampere Connector Pin | Cat Parts Store frequently bought together with 9X-3402 connector socket | cat_linked_candidate; needs_individual_verification
