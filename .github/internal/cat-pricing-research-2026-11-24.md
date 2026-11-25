@@ -4739,3 +4739,37 @@ Cat pages:
 Post-update DB verification: all ten SKUs exist with official Cat item-page source evidence. Nine rows were inserted in this batch; 275-2604 was updated from a pre-existing secondary-source row. Fitment counts: 4W-7749=12; 355-8509=50; 20R-9427=1; 167-4407=0 (broad list not normalized); 275-2604=71; 0S-1618=0 (broad list not normalized); 166-4374=0 (broad list not normalized); 212-8180=0 (broad list not normalized); 212-8184=0 (broad list not normalized); 271-4926=0 (broad list not normalized). No customer prices or stock claims added.
 
 Overall reviewed progress: 81/500 batches = 810/5,000 product target (16.2%). Original Cat seed 787/787 complete; discovery-derived verified entries now 23 (10 in batch80, 9 inserted + 1 updated in batch81, and 3 additional earlier candidate promotions). Remaining target: 4,190 products.
+
+## Batch 82/500 — Cat-linked discovery candidates 21–30 (2026-11-25)
+
+Ten candidates from the Cat 222-5152 water-pump rebuild-kit BOM and linked Cat product pages were checked against their own Cat Parts Store item pages. Nine were inserted as new catalog rows; 10R-9598 already existed and was updated with Cat Reman evidence. All ten rows were re-queried after insertion/update; model arrays were deduplicated.
+
+Verified products:
+- 3D-2824 — 2.95 × 23.47mm 90A NBR O-ring. Cat specs: cross-section 0.116in, ID 0.924in, fitting size 1-1/16–12; NBR/nitrile and PTFE plastic. Extensive compatible-model panel not fully normalized.
+- 416-0603 — Water Pump Face Type Seal. Stainless steel; ID 1.00in, OD 1.63in, length 1.46in. 58 compatible model labels normalized across pumper, generators, power modules, off-highway trucks, D11, drills, marine, mining, petroleum, gensets and wheel loaders.
+- 4N-5834 — 13mm Thick Foam Filter for water-pump housing. Flexible polyester urethane open-cell foam; width 0.51in, OD 0.87in. 73 compatible labels partially normalized across generator, truck engine, skidder, drill, excavator, wheel tractor, track loader, petroleum and compactor groups.
+- 7N-4758 — 8.5mm Thick Bronze Thrust Washer. Cat title/specification list bronze, height 2.56in, length 3.49in, thickness 0.33in, weight 0.4lb. Source conflict flagged: description paragraph says cabin-door hook while title/specification and BOM context identify a thrust washer. 63 visible compatible labels copied; serial-level fitment confirmation required.
+- 8C-5236 — 31.75mm Shaft Diameter Lip Type Seal. Cat PTFE lip seal for crankshaft/high-speed rotating applications, including some water pumps. Materials: EPDM rubber, Teflon/PTFE plastic, carbon steel and plastic; primary sealing material plastic. 59 visible compatible model labels normalized.
+- 9M-1974 — M8 ID Steel Flat Washer. Dimensions 8.8 ×16 ×2mm; fits 5/16in bolt; ID 0.346in, OD 0.63in, thickness 0.079in; hardened/low-alloy steel with zinc-phosphate-and-oil coating. Extensive compatible-model list not normalized.
+- 10R-9598 — Cat Reman Auxiliary Sea Water Pump (3500). Existing row updated; Cat Reman condition preserved, not new Cat. Cat fitment includes 3516C genset, XQC1600 power module, 3516/3516B/3516C marine engines, 3516C marine auxiliary/industrial engine, 793B/793C trucks, 3516C/3512C petroleum engines and 3516C/3516B locomotive engines. Dimensions 19.5in length ×12.5in height; plastic/oil-fluid materials.
+- 205-8421 — 12.58mm ID Fuel Injection Lines Tube. Cat says it directs pressurized fuel to injectors; OD 0.63in. Fitment includes SR4B generator, 3516C/3516B gensets, 3512C/3516/3516B/3516C/3512B marine engines, marine auxiliary, industrial and petroleum engines.
+- 6V-1454 — 72.39mm ID Seal-O-Ring. EPDM 70A; cross-section 0.21in, ID 2.85in (72.39mm). 65 visible compatible labels normalized across pumper, generators, power modules, trucks, 3608, 6060, D11, drills, marine, industrial, petroleum, gas engines and tractors.
+- 425-6526 — Harness Assembly (EUI Integrated Jake). Cat OEM direct-replacement, heat-resistant unit-injector harness; Cat says specifications are still being added. 49 visible compatible labels normalized across generators, wheel tractors/scrapers, C15/C16/C18/3406E/3456 engines, compactors, trucks, wheel dozers, loaders, D8, Challenger, marine and industrial engines.
+
+Cat item pages:
+- https://parts.cat.com/en/catcorp/product/3D-2824
+- https://parts.cat.com/en/catcorp/product/416-0603
+- https://parts.cat.com/en/catcorp/product/4N-5834
+- https://parts.cat.com/en/catcorp/product/7N-4758
+- https://parts.cat.com/en/catcorp/product/8C-5236
+- https://parts.cat.com/en/catcorp/product/9M-1974
+- https://parts.cat.com/en/catcorp/product/10R-9598
+- https://parts.cat.com/en/catcorp/product/205-8421
+- https://parts.cat.com/en/catcorp/product/6V-1454
+- https://parts.cat.com/en/catcorp/product/425-6526
+
+Post-update verification: all ten SKUs exist with Cat official item-page evidence and REFERENCE status. Nine inserted, one existing row updated. Fitment counts after de-duplication: 3D-2824=0 (not normalized); 416-0603=58; 4N-5834=73 (partial); 7N-4758=63 (page description conflict flagged); 8C-5236=59; 9M-1974=0 (not normalized); 10R-9598=9; 205-8421=6; 6V-1454=65; 425-6526=49. No prices, stock or universal interchange claims added.
+
+Two additional related-parts leads found on Cat's 205-8421 page: 210-1471 and 7C-7677. They remain discovery candidates, not fitment proof.
+
+Overall reviewed progress: 82/500 batches = 820/5,000 product target (16.4%). Original Cat seed list 787/787 complete; discovery-derived products individually verified and inserted/updated: 33. Remaining target: 4,180 products.
