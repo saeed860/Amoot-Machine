@@ -45,15 +45,17 @@ window.setApiProducts = function(rows){db.products=Array.isArray(rows)?rows:[];d
 window.setServerProducts=setServerProducts;
 function categoryInfo(p){
  const raw=String(p.category||'').trim(), name=String(p.name||'').toLowerCase(), t=(name+' '+raw+' '+(p.description||'')).toLowerCase();
- const hasFilterName=/فیلتر|filter|هواکش|breather|جداکننده آب/.test(name), filterOnlyCategory=/^(فیلتر|هواکش)/.test(raw);
- if(hasFilterName||(filterOnlyCategory&&!/قطعات موتور و فیلتر/.test(raw))){
+ const hasFilterName=/فیلتر|filter|هواکش|breather|جداکننده آب/.test(name);
+ const hasFilterCategory=/فیلتر|filter|هواکش|breather|جداکننده آب/.test(raw);
+ if(hasFilterName||(hasFilterCategory&&!/قطعات موتور و فیلتر/.test(raw))){
   let sub='سایر فیلترها';
   if(/کابین|cabin/.test(t))sub='فیلتر کابین';
-  else if(/هوا|air cleaner|air filter|هوای موتور/.test(t))sub='فیلتر هوا';
   else if(/سوخت|fuel|water separator|جداکننده آب/.test(t))sub='فیلتر سوخت و جداکننده آب';
   else if(/هیدرولیک|hydraulic|transmission/.test(t))sub='فیلتر هیدرولیک و انتقال قدرت';
   else if(/روغن|lube|oil/.test(t))sub='فیلتر روغن و روانکاری';
+  else if(/خنک.?کاری|coolant|cooling|water pump|فیلتر آب|آب.?پمپ/.test(t))sub='فیلتر آب و سیستم خنک‌کاری';
   else if(/breather|هواکش|تنفسی/.test(t))sub='هواکش و فیلتر تنفسی';
+  else if(/هوا|air cleaner|air filter|هوای موتور|two.stage/.test(t))sub='فیلتر هوا';
   return {parent:'فیلترها',sub};
  }
  if(/برقی|electrical|alternator|starter|sensor|switch/.test(t))return {parent:'قطعات برقی',sub:/استارت|starter/.test(t)?'استارت':/دینام|alternator/.test(t)?'دینام و شارژ':'سنسورها و کنترل الکترونیکی'};
