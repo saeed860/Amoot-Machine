@@ -2787,3 +2787,31 @@ Source: official Cat Parts Store product page https://parts.cat.com/en/catcorp/p
 ## Cat 512-0842 3516C/793D central-lower gasket kit — no current BOM rows published (batch 168)
 
 Source: official Cat Parts Store product page https://parts.cat.com/en/catcorp/product/512-0842. Compatible models explicitly shown: MARINE ENGINE / 3516C; TRUCK / 793D. The product description identifies a central/lower engine gasket kit, but the opened current official page states there are currently no parts associated with this kit. Search-index snippets showing a 29-item list were not used because the current product page contradicts them. Frequently-bought-together parts are not treated as kit contents. No component part numbers were inferred or added.
+
+
+## Additional Cat 793D/793F final-drive bearing-kit BOM candidates — batch 169
+
+Source: official Cat Parts Store product page 446-8142, Final Drive Bearing Kit. Compatible models explicitly shown: TRUCK / 793D, 793F, 793F CMD, 793F XQ; OFF HIGHWAY TRUCK / 793, 793D, 793F. Cat describes the kit as bearings, seals and gaskets to replace during a final-drive rebuild. Two other listed items were already present in the queue or seed list and are not duplicated. The nineteen new rows below expand drivetrain/final-drive coverage beyond engine parts; verify the exact final-drive serial/configuration before ordering.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+196-0423 | Bearing - Cone (Debris Resistant) | 2 | Cat 446-8142 793D/793F Final Drive Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+2A-3398 | 2.04mm Thick Oil Pan Gasket | 1 | Cat 446-8142 793D/793F Final Drive Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+436-2594 | 101.62mm Inner Diameter Roller Bearing | 8 | Cat 446-8142 793D/793F Final Drive Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+363-0638 | 145mm Outside Diameter Sleeve Bearing | 1 | Cat 446-8142 793D/793F Final Drive Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+380-6914 | 532.26mm Inside Diameter Seal-O-Ring | 1 | Cat 446-8142 793D/793F Final Drive Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+344-6089 | Bearing - Spherical Roller | 1 | Cat 446-8142 793D/793F Final Drive Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+5P-5045 | Single Row Ball Bearing | 1 | Cat 446-8142 793D/793F Final Drive Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+196-0424 | Bearing - Cup (Debris Resistant) | 2 | Cat 446-8142 793D/793F Final Drive Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+346-1110 | 134mm Diameter Thrust Plate | 1 | Cat 446-8142 793D/793F Final Drive Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+2D-6506 | 736.6mm Inside Diameter Seal-O-Ring | 1 | Cat 446-8142 793D/793F Final Drive Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+2S-4071 | 3.53 x 171.04mm 70A VMQ O-Ring | 1 | Cat 446-8142 793D/793F Final Drive Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+2K-9062 | 31.75mm Long Steel Slotted Spring Pin | 1 | Cat 446-8142 793D/793F Final Drive Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+423-2089 | Duo Seal Group | 1 | Cat 446-8142 793D/793F Final Drive Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+423-2091 | Duo Seal Group | 1 | Cat 446-8142 793D/793F Final Drive Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+241-6948 | 6.99 x 428.92mm 75A FKM O-Ring | 1 | Cat 446-8142 793D/793F Final Drive Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+198-3173 | Bearing Assembly | 4 | Cat 446-8142 793D/793F Final Drive Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+200-4215 | 229.5mm Inside Diameter Thrust Washer | 2 | Cat 446-8142 793D/793F Final Drive Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+7X-4781 | 1075mm Inside Diameter Seal-O-Ring | 1 | Cat 446-8142 793D/793F Final Drive Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+2H-6338 | 3.53 x 85.32mm 75A NBR O-Ring | 2 | Cat 446-8142 793D/793F Final Drive Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+
+Source page: https://parts.cat.com/en/catcorp/product/446-8142
