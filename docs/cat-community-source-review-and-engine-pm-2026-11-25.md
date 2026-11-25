@@ -1698,3 +1698,25 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - https://parts.cat.com/en/catcorp/product/258-3537
 
 تمام موارد بالا از فیتمنت 287B جدا نگه داشته شدند. برای seal kit، cylinder group و serial number؛ برای A/C tube، routing و fittings؛ برای seat adjuster، mounting؛ برای harness و radio، گزینه‌های الکتریکی و connector؛ و برای fan guard، revision و clearance باید کنترل شوند.
+
+## دور ۵۲ — مدار خنک‌کاری و قطعات بدنه 297C (25 Nov 2026)
+
+از صفحات رسمی Cat Parts Store، سه شماره جدید به Master اضافه شد:
+- 258-2880 — Fluid Carrying Tube Assembly؛ فیتمنت 297C و مدل‌های 287C/277C، بدون 287B.
+- 258-3281 — Bracket Assembly؛ فیتمنت 297C و مدل‌های 287C/277C، بدون 287B.
+- 300-9449 — Oil Pan Assembly؛ فیتمنت 287B و 297C؛ مجموعه شامل gasket و drain plug.
+
+چهار قطعه موجود در Master نیز در CSV مستقل 297C-only تکمیل شدند:
+- 278-8720 — Fan Motor Group؛ فقط 297C، 299C و 272C.
+- 258-2552 — 9 Blade Aftercooler Fan؛ فقط 297C، 299C و 272C.
+- 258-2880 — Fluid Carrying Tube Assembly.
+- 258-3281 — Bracket Assembly.
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/product/258-2880
+- https://parts.cat.com/en/catcorp/product/258-3281
+- https://parts.cat.com/en/catcorp/product/300-9449
+- https://parts.cat.com/en/catcorp/product/278-8720
+- https://parts.cat.com/en/catcorp/product/258-2552
+
+قطعات 297C-only در فیتمنت 287B وارد نشدند. برای oil pan، engine arrangement و sump؛ برای fan motor، rotation، port و speed؛ برای aftercooler fan، قطر و جهت پره؛ و برای tube و bracket، routing، fitting و mounting pattern باید تطبیق داده شود.
