@@ -3973,3 +3973,46 @@ Additional Cat-linked discovery candidates from Cat parts diagrams/frequently-bo
 These remain discovery leads only and require individual item-level verification before promotion.
 
 Overall reviewed progress: 63/500 batches = 630/5,000 product target (12.6%). Original Cat seed list has 157 SKUs remaining (products 631–787).
+
+## Batch 64/500 — products 631–640 (2026-11-25)
+
+SKUs: 539-0117, 539-0118, 541-6956, 542-0222, 542-4530, 542-8380, 546-6109, 552-5534, 553-3686, 557-7650. All ten Cat product pages opened and fitment/specification/status/related-part panels inspected. Corrections separated the Engine Out and Tailpipe Out NOx sensor fitments; two Cat Replaced products were set inactive.
+
+Verified:
+- 539-0117: Cat Engine Out NOx Sensor Assembly measures NOx in engine exhaust and sends closed-loop aftertreatment feedback over SAE J1939; also measures O2 below 20.9% and self-diagnoses probe circuit shorts/opens. Specs: 10.8–32V, 6-pin, polyester/thermoplastic plastic, 42.988in overall length ×2.559in width ×1.587in height. 381 distinct compatible labels across generator, wheel tractor-scrapers, asphalt compactors, rotary drills, retrofit aftertreatment SCR, track feller bunchers, forestry, excavators, CTLs, track/wheel loaders, soil compactors, petroleum engines/transmissions, backhoe loaders, wheel dozers, landfill compactors, wheel loaders, telehandlers, articulated trucks, wheeled excavators, industrial engines, graders, track tractors, asphalt pavers, marine engines, pipelayers, MHPUs, gen sets, engines, cold planers, reclaimers, wide-body trucks, transmissions, skid steers, powertrains, compactors and track loaders. Cat Reman alternative 11R-1773. DB retains engine-out fitment without the tailpipe-only C32/C175-20 labels.
+- 539-0118: Cat Tailpipe Out NOx Sensor Assembly; same published electrical/dimensional specs as 539-0117. Compatible labels are the shared 539-0117 applications plus DPF SCR, C32, C32 MARINE and C175-20; final 384 distinct labels after removing duplicate DPF SCR. Cat Reman alternative 11R-1774. DB keeps this distinct tailpipe-specific fitment.
+- 541-6956: Cat Engine Fuel Filter. Description calls it Standard Efficiency for normal-duty filtration, while Cat Specifications list efficiency category Ultra High Efficiency; discrepancy retained explicitly. Specs: 3.713in diameter ×7.327in length, Out-to-In, Spin-On, Polyester/PPA/Thermoplastic plastic. 54 compatible model labels. Related panel lists 377-6969, 110-6326, 110-6331, 265-6619 and 265-6618.
+- 542-0222: Cat M20 ×1.5 Track Bolt, 63mm length. Specs: 2.48in length, 1.339in grip, RH, oil/corrosion inhibitor, boron steel/coating fluid, Cat/ISO 898-1 Class 11.9. 23 distinct compatible labels across D8/D9/D10/D11 track tractors, D6K/D6N, 963/953 track loaders, 527 skidder, 854G wheel dozer and 992G wheel loader. Related panel includes 235-5974 carrier roller, 288-0934/288-0935 track rollers, 173-0946 track segment and 490-6505 track segment.
+- 542-4530: Cat Link Assembly, 51 sections, 260.35mm pitch, 1-tooth master, PPR2, SALT, GLT4, HD; track/master bolt M30, 1.22in bolt hole, 3.473in bushing OD, 12.165in pin length, 6.126in link height, no wear sensor. Compatible excavators 390F/390F L/395/MH3295/3101 (5 labels). Related parts 542-8380 carrier roller, 567-7867 idler group, 596-3519/596-3514 track shoes and 529-7106 track roller.
+- 542-8380: Cat Cantilever Carrier Roller Group for HD undercarriage, standard application. Specs: shaft OD 3.068in, tread OD 7.48in, flange OD 8.819in, inside spread 3.386in, outside spread 10.433in, shaft mounting length 5.276in. 11 compatible labels across rotary/track drills MD6380/MD6640/MD6540 and excavators 390F/390F L/395/MH3295/374/374F/374F L/3101. Related panel: 1R-1808, 3J-1907, 366-3380, 1P-3705, 6V-9746.
+- 546-6109: Cat 7/8-9 Prechamber Check Valve. Specs: 2.76in length, 0.28lb, thread 7/8-9, material not specified. Compatible engine models 3406B/3406C/3408B (3). Cat Reman alternatives 11R-2284 NWC and 20R-3466 Cat Reman. Related components 228-4947 O-ring, 7E-1630 prechamber gasket, 485-4705 oil filter lube element, 159-3219 combustion sensor, 5P-7815 FKM O-ring.
+- 552-5534: Cat Fuel Transfer Pump, moves fuel under pressure from tank to injection pump. Specs: 10–16VDC, 2-pin DT, 3.54in wire, diesel/B20/gasoline/kerosene compatibility, 6.6in length ×3.2in width ×2.4in height, Carbon Steel. 22 compatible model labels. Related parts: 363-5819 Standard Efficiency Fuel Water Separator, 416-5884 Ultra High Efficiency Fuel Filter, 377-6969 oil filter, 110-6326/110-6331 air filters.
+- 553-3686: Cat Water Lines Hose Assembly. Cat page status is Replaced; no successor part number exposed in public page. Marked inactive to avoid presenting an obsolete part as current.
+- 557-7650: Cat Engine Oil Pump. Cat page status is Replaced; no successor part number exposed in public page. Marked inactive. Compatible fitment retained as 31 labels, engine model tags 4; no substitute inferred.
+
+Cat pages:
+- https://parts.cat.com/en/catcorp/product/539-0117
+- https://parts.cat.com/en/catcorp/product/539-0118
+- https://parts.cat.com/en/catcorp/product/541-6956
+- https://parts.cat.com/en/catcorp/product/542-0222
+- https://parts.cat.com/en/catcorp/product/542-4530
+- https://parts.cat.com/en/catcorp/product/542-8380
+- https://parts.cat.com/en/catcorp/product/546-6109
+- https://parts.cat.com/en/catcorp/product/552-5534
+- https://parts.cat.com/en/catcorp/product/553-3686
+- https://parts.cat.com/en/catcorp/product/557-7650
+
+Post-update DB verification counts: 539-0117=381; 539-0118=384; 541-6956=54; 542-0222=23; 542-4530=5; 542-8380=11; 546-6109=3; 552-5534=22; 553-3686=10 (inactive); 557-7650=31 (inactive). No customer prices or stock claims added.
+
+Additional Cat-linked discovery candidates from Cat official related/Reman panels:
+- 539-0117: 565-2488, 418-2073, 485-9752, 460-9257; Cat Reman 11R-1773.
+- 539-0118: 565-2488, 418-2073, 485-9752, 460-9257; Cat Reman 11R-1774.
+- 541-6956: 377-6969, 110-6326, 110-6331, 265-6619, 265-6618.
+- 542-0222: 235-5974, 288-0934, 173-0946, 288-0935, 490-6505.
+- 542-4530: 542-8380, 567-7867, 596-3519, 596-3514, 529-7106.
+- 542-8380: 1R-1808, 3J-1907, 366-3380, 1P-3705, 6V-9746.
+- 546-6109: 228-4947, 7E-1630, 485-4705, 159-3219, 5P-7815; Cat Reman 11R-2284 and 20R-3466.
+- 552-5534: 363-5819, 416-5884, 377-6969, 110-6326, 110-6331.
+All candidates require individual item-page verification before catalog promotion; Cat Reman is kept distinct by condition.
+
+Overall reviewed progress: 64/500 batches = 640/5,000 product target (12.8%). Original Cat seed list has 147 SKUs remaining (products 641–787).
