@@ -2082,3 +2082,27 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - https://parts.cat.com/en/catcorp/product/278-8720
 
 نکته فنی: برای hose قطر داخلی، طول، فشار، اتصالات و مسیر؛ برای oil cooler fan قطر، تعداد پره و جهت چرخش؛ و برای seal kit شماره Cylinder Group باید پیش از سفارش کنترل شود.
+
+## دور ۶۹ — اجزای HVAC و کابین (25 Nov 2026)
+
+شش شماره جدید با Compatible Models شامل 297C و بدون 287B به Master و CSV مستقل 297C-only اضافه شدند:
+- 258-4253 — Interior Duct Assembly.
+- 258-4270 — Operator Cabin Heater.
+- 266-2430 — Control Group (Air and Temperature)، پنل 24V با connector دوازده پین.
+- 258-3792 — 18mm Thick Cabin Heater Mounting Seal.
+- 258-4249 — Cab Air Inlet Duct، داکت پلی‌اتیلن زیر صندلی.
+- 265-6618 و 265-6619 — Standard Efficiency Cabin Air Filters؛ هر دو از قبل در Master بودند و ردیف‌های CSV 297C-only تکمیل شد.
+
+همچنین 218-6645 — M16 90 Degree Elbow Adapter Hose Bead to STOR — با فیتمنت رسمی 287B و 297C به Master و CSV رسمی 287B افزوده شد.
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/product/258-4253
+- https://parts.cat.com/en/catcorp/product/258-4270
+- https://parts.cat.com/en/catcorp/product/266-2430
+- https://parts.cat.com/en/catcorp/product/258-3792
+- https://parts.cat.com/en/catcorp/product/258-4249
+- https://parts.cat.com/en/catcorp/product/265-6618
+- https://parts.cat.com/en/catcorp/product/265-6619
+- https://parts.cat.com/en/catcorp/product/218-6645
+
+برای duct و heater، routing، airflow، coolant و electrical option؛ برای control panel، ولتاژ و pinout؛ برای filter، ابعاد و housing؛ و برای elbow، thread M16، hose bead و STOR interface باید با cab configuration و PIN تطبیق داده شود.
