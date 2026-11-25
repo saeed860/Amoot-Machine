@@ -471,3 +471,30 @@ Master هنگام ثبت 2,431 شماره یکتا داشت؛ Mirror و Workflow
 پیش از سفارش، خانواده آلترناتور، ولتاژ و جریان خروجی، نوع کانکتور، پایه‌های نصب و شماره سریال دستگاه تطبیق داده شود. 113-4463 یک Rectifier Assembly است و نباید به‌جای کل آلترناتور فرض شود.
 
 پس از ثبت این دو شماره، Master برابر 2,488 شماره یکتا و Mirror دقیقاً برابر Master است. CSV بررسی 287B/297C به 99 ردیف داده رسیده و شمارنده Workflow روی 2,488 قرار گرفت.
+
+
+## دور چهاردهم — برق، استارت، کوپلر و مدار هیدرولیک (25 Nov 2026)
+
+هشت شماره جدید از صفحات رسمی Cat Parts Store ثبت شد:
+- 122-4401 — Quick Coupler Wiring Terminal؛ 287B.
+- 100-3685 — Cap-Starter؛ 287B و 297C.
+- 225-7999 — Panel Wiring Harness؛ 287B.
+- 202-2284 — 12 Volt Rocker Switch؛ 287B.
+- 192-0836 — Pressure Switch Assembly (Backup Alarm)؛ 287B؛ صفحه Cat مشخصات Normally Open، فشار 517 kPa (75 psi) و کانکتور 2 Pin DT را نشان می‌دهد.
+- 258-4199 — Platform Wiring Harness؛ 287B.
+- 291-0010 — Valve Group-MTG؛ 297C در فهرست مدل‌ها (نه 287B).
+- 216-0066 — 50.8mm Inner Diameter Air Line Hose؛ 297C در فهرست مدل‌ها (نه 287B).
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/product/122-4401
+- https://parts.cat.com/en/catcorp/product/100-3685
+- https://parts.cat.com/en/catcorp/product/225-7999
+- https://parts.cat.com/en/catcorp/product/202-2284
+- https://parts.cat.com/en/catcorp/product/192-0836
+- https://parts.cat.com/en/catcorp/product/258-4199
+- https://parts.cat.com/en/catcorp/product/291-0010
+- https://parts.cat.com/en/catcorp/product/216-0066
+
+دو مورد 291-0010 و 216-0066 فقط برای 297C در نتایج بازیابی‌شده تأیید شده‌اند و نباید به 287B تعمیم داده شوند. برای دسته سیم‌ها، شماره سریال، نسخه پلتفرم، آپشن Quick Coupler و سوکت‌ها؛ برای کلیدها و سوئیچ فشار، عملکرد مدار و مشخصات الکتریکی/رزوه‌ای باید تطبیق داده شود.
+
+پس از این دور، Master برابر 2,496 شماره یکتا، Mirror دقیقاً همسان، CSV برابر 107 ردیف داده و شمارنده Workflow برابر 2,496 است.
