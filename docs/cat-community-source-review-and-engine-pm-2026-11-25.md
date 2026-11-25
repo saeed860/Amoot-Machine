@@ -209,3 +209,24 @@ Master پس از این دور 2,106 شماره یکتا دارد. فایل Mirr
 - https://parts.cat.com/en/catcorp/product/313-6251
 
 فایل بررسی به 27 ردیف داده رسید: `data/cat-287b-official-parts-verification-2026-11-25.csv`. شمارنده Master و Mirror در زمان ثبت این دور، هر دو 2,209 شماره یکتا و دقیقاً همسان بودند. دو مورد 230-3687 و 154-5018 در داده حفظ شده‌اند، اما به‌علت Discontinued بودن نباید موجودی قابل سفارش تلقی شوند. برای Seal Kitها شماره گروه سیلندر، موقعیت و شماره سریال دستگاه باید قبل از پیشنهاد قطعه بررسی شود.
+
+
+## دور چهارم — قطعات مشترک 287B و 297C
+
+شش شماره دیگر از صفحات رسمی Cat Parts Store تأیید شد و به فهرست OEM افزوده شد:
+- 253-6949 — Hydraulic Cylinder Seal Kit؛ Compatible Models شامل 287B و 297C است.
+- 371-2737 — Hydraulic Cylinder Seal Kit - Standard Size؛ شامل 287B و 297C.
+- 219-5431 — Hydraulic Cylinder Seal Kit؛ شامل 287B و 297C.
+- 647-3710 — Cylinder Seal Kit؛ Cat تصریح می‌کند فقط به‌صورت بسته کامل عرضه می‌شود.
+- 215-3273 — Cartridge Assembly؛ شامل 287B در Compatible Models.
+- 279-5437 — Bucket Assembly؛ شامل 287B و 297C.
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/product/253-6949
+- https://parts.cat.com/en/catcorp/product/371-2737
+- https://parts.cat.com/en/catcorp/product/219-5431
+- https://parts.cat.com/en/catcorp/product/647-3710
+- https://parts.cat.com/en/catcorp/product/215-3273
+- https://parts.cat.com/en/catcorp/product/279-5437
+
+برای تمام Seal Kitها باید شماره گروه سیلندر و شماره سریال دستگاه پیش از سفارش کنترل شود. داده این دور در همان CSV بررسی 287B نگهداری شد؛ تعداد ردیف‌های CSV اکنون 33 است. Master و Mirror هر دو 2,215 شماره یکتا دارند و پس از همسان‌سازی، مجموعه شماره‌ها دقیقاً برابر است. شمارنده Workflow دستی نیز 2,215 است.
