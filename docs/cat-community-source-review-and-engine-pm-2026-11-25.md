@@ -1265,3 +1265,15 @@ Mirror از Master جاری بازسازی و شمارنده Workflow با تع�
 - https://parts.cat.com/en/catcorp/product/278-8724
 
 برای کوپلینگ، تعداد/ابعاد شیار و گروه پمپ؛ برای کشنده ترک، آرایش زیربندی؛ برای موتورهای هیدرولیک، displacement و گروه drive؛ و برای چرخ‌دنده میل‌بادامک، خانواده موتور و timing revision باید با serial number تطبیق داده شود.
+
+## دور چهل‌ویکم — واشر خطوط آب موتور (25 Nov 2026)
+
+یک شماره جدید از صفحه رسمی Cat Parts Store با نمایش صریح 287B در Compatible Models به Master و CSV اضافه شد:
+- 5I-7728 — 1mm Thick Water Lines Gasket؛ واشر خطوط آب با طول 4.5in و ارتفاع 0.1in.
+
+منبع رسمی:
+- https://parts.cat.com/en/catcorp/product/5I-7728
+
+برای سفارش، محل flange، مدار coolant و engine arrangement باید بررسی شود. 5I-7572 و 5I-7735 در Compatible Models مستقل خود 287B را نداشتند و از ثبت فیتمنت حذف شدند؛ 5I-7678 قبلاً در Master/CSV وجود داشت.
+
+Mirror از Master جاری بازسازی و شمارنده Workflow با تعداد خطوط Master تنظیم شد.
