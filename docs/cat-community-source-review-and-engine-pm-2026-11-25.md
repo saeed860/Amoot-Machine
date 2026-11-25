@@ -2638,3 +2638,16 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
   - 235-4948 — Crankcase Breather؛ قطر 2.52in و طول 3.622in؛ از قبل در Master بود و ردیف CSV تکمیل شد.
 - منابع رسمی: https://parts.cat.com/en/catcorp/product/257-8388 ؛ https://parts.cat.com/en/catcorp/product/249-9275 ؛ https://parts.cat.com/en/catcorp/product/158-6697 ؛ https://parts.cat.com/en/catcorp/product/223-0609 ؛ https://parts.cat.com/en/catcorp/product/235-4948
 - وضعیت شمارنده: 4378 شماره یکتا؛ Mirror برابر Master؛ Workflow برابر 4378.
+
+
+## دور ۷۰ — 25 Nov 2026
+
+- مبنای تازه پیش از این دور: 4,378 شماره یکتا؛ Master و Mirror همسان و شمارنده Workflow برابر 4378 بود.
+- سه شماره جدید از صفحات رسمی Cat Parts Store که 297C را در Compatible Models دارند ولی 287B را ندارند، به Master افزوده شد و در CSV مستقل 297C-only ثبت شد:
+  - 345-4733 — Support Assembly؛ فیتمنت 297C، بدون 287B.
+  - 430-7601 — Cabin Wiring Harness؛ فیتمنت 297C، بدون 287B؛ کابین/آرایش سیم‌کشی و PIN باید کنترل شود.
+  - 287-4300 — Hydraulic Quick Coupler؛ فیتمنت 297C، بدون 287B؛ رابط اتصال ابزار و مدار قفل هیدرولیک باید تطبیق داده شود.
+- 258-2449 — Bracket Assembly از قبل در Master بود ولی در CSV مستقل 297C-only ثبت نشده بود؛ ردیف آن اضافه شد.
+- هیچ‌یک از این چهار مورد به فیتمنت 287B تعمیم داده نشد.
+- منابع رسمی: https://parts.cat.com/en/catcorp/product/345-4733 ؛ https://parts.cat.com/en/catcorp/product/430-7601 ؛ https://parts.cat.com/en/catcorp/product/287-4300 ؛ https://parts.cat.com/en/catcorp/product/258-2449
+- Master هدف پس از ثبت: 4381 شماره یکتا؛ Mirror byte-exact و Workflow برابر 4381.
