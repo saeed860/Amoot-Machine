@@ -3343,3 +3343,16 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 623-9000 | 210mm Outer Diameter Hydraulic Cylinder Seal | 1 | Cat 625-5791 374F/390D/390F/395 Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
 
 Source page: https://parts.cat.com/en/catcorp/product/625-5791
+
+
+## Additional Cat 955L track-loader / 926 wheel-loader hydraulic-cylinder seal-kit BOM candidates — batch 196
+
+Source: official Cat Parts Store product page 336-7353, Hydraulic Cylinder Seal Kit - Standard Size. Compatible models explicitly shown: TRACK LOADER / 955L; WHEEL LOADER / 926. Cat specifies standard nominal bore sizing up to 0.25mm (0.010in) max and cylinder-group-specific application. Three other listed items were already present in the discovery queue or original seed list and are not duplicated. The four new rows below are official BOM references only; confirm cylinder group and dimensions.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+175-7905 | 3.53 x 132.94mm 75A NBR O-Ring | 1 | Cat 336-7353 955L/926 Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+495-8215 | 139.75mm Bore Diameter Two Piece Seal | 1 | Cat 336-7353 955L/926 Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+7J-1731 | 139.75mm Bore Diameter Ring | 1 | Cat 336-7353 955L/926 Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+2K-2961 | 132.73mm Internal Diameter Rubber Backup Ring | 1 | Cat 336-7353 955L/926 Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+
+Source page: https://parts.cat.com/en/catcorp/product/336-7353
