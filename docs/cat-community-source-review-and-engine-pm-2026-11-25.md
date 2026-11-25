@@ -700,3 +700,34 @@ Master برابر 2,718 شماره یکتا، Mirror دقیقاً همسان، C
 برای لوله ترمز، مسیر و اتصالات manifold؛ برای فنر و O-ring، محل نصب و مشخصات شیر؛ و برای کلیدها، ولتاژ، pinout و پنل واقعی باید کنترل شود. این تأیید فقط حضور مدل 287B در فهرست Compatible Models را ثبت می‌کند و به معنی تضمین تناسب همه شماره‌سریال‌ها نیست.
 
 Mirror از Master جاری بازسازی و شمارنده Workflow با تعداد خطوط Master تنظیم شد. CSV پنج ردیف جدید این دور را ثبت می‌کند.
+
+## دور بیست‌وچهارم — درب کابین، قفل، لولا و آب‌بندی موتور (25 Nov 2026)
+
+نه شماره جدید از صفحات رسمی Cat Parts Store با نمایش صریح 287B در Compatible Models به Master و CSV افزوده شد:
+- 223-0608 — Cab Door Steel Hinge؛ لولای فولادی در فهرست مدل‌های سازگار.
+- 218-6744 — Cabin Glass Door Kit؛ کیت درب شیشه‌ای کابین.
+- 218-6743 — Polycarbonate Front Door Kit؛ کیت درب پلی‌کربنات برای تبدیل canopy باز به کابین محصور.
+- 225-3187 — Stainless Cab Door Rotary Latch؛ قفل چرخشی دوحالته برای striker با قطر 13.9mm.
+- 282-9059 — Frame for Cab Door؛ قاب درب با ابعاد 28 × 7 × 42 اینچ.
+- 229-8757 — Physical Contact Cab Door Limit Switch؛ رزوه 15/32in و آچارخور 0.68in.
+- 235-4768 — Casted Steel Cab Door Hinge؛ لولای فولادی ریخته‌گری‌شده.
+- 103-9083 — Engine Oil Pump O-Ring Seal؛ آب‌بند پمپ روغن موتور.
+- 594-5979 — Polycarbonate Front Door Kit؛ کیت کامل تبدیل کابین با وزن فهرست‌شده 60.8lb.
+
+یک شماره موجود در Master نیز در این دور بررسی و به CSV افزوده شد: 289-3766 — Lift Cylinder Lines Tube Assembly؛ 287B در فهرست مدل‌ها و فشار relief تا 28,000 kPa.
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/product/223-0608
+- https://parts.cat.com/en/catcorp/product/218-6744
+- https://parts.cat.com/en/catcorp/product/218-6743
+- https://parts.cat.com/en/catcorp/product/225-3187
+- https://parts.cat.com/en/catcorp/product/282-9059
+- https://parts.cat.com/en/catcorp/product/229-8757
+- https://parts.cat.com/en/catcorp/235-4768
+- https://parts.cat.com/en/catcorp/product/103-9083
+- https://parts.cat.com/en/catcorp/product/594-5979
+- https://parts.cat.com/en/catcorp/product/289-3766
+
+پیش از سفارش، سمت و نوع لولا، نسخه شیشه/پلی‌کربنات و قاب کابین، striker و مدار interlock، و ابعاد/محل O-ring باید با دستگاه و شماره سریال تطبیق داده شوند. کیت‌های درب ممکن است شامل شیشه‌های جانبی نباشند یا فقط برای تبدیل canopy باز به کابین مناسب باشند.
+
+Mirror از Master جاری بازسازی و شمارنده Workflow با تعداد خطوط Master تنظیم شد. CSV نه ردیف جدید Master و یک ردیف از قبل موجود را در این دور ثبت می‌کند.
