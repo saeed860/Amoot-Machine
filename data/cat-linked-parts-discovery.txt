@@ -3441,3 +3441,19 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 9X-3601 | Bucket Cylinder Seal | 1 | Cat 242-6840 Excavator/Mobile Hydraulic Power Unit Standard-Size Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
 
 Source page: https://parts.cat.com/en/catcorp/product/242-6840
+
+
+## Additional Cat 432F2/432E/444F/434E/930/938 wheel-loader/backhoe hydraulic seal-kit BOM candidates — batch 203
+
+Source: official Cat Parts Store product page 501-6695, Hydraulic Cylinder Seal Kit - Standard Size. Compatible models explicitly shown: BACKHOE LOADER / 432F2, 432E, 444F, 432F, 434E, 444F2; WHEEL LOADER / 930, 938K, 938M, 938, 930K, 930M. Cat specifies standard nominal bore sizing up to 0.25mm (0.010in) max and cylinder-group-specific application. All seven displayed BOM references were new to the discovery queue and original seed list. Verify cylinder group, dimensions and current supersession status before ordering.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+323-2474 | Sleeve Bearing (Bushing) | 1 | Cat 501-6695 Backhoe/Loader Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+338-2446 | 11.4mm Wide Cylinder Rod U-Cup Seal | 1 | Cat 501-6695 Backhoe/Loader Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+340-6339 | 120mm Bore Diameter Piston Seal | 1 | Cat 501-6695 Backhoe/Loader Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+340-9314 | 5 x 65mm 80A PU O-Ring | 1 | Cat 501-6695 Backhoe/Loader Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+340-9322 | 5 x 110mm 80A PU O-Ring | 1 | Cat 501-6695 Backhoe/Loader Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+343-8053 | Piston Wear Ring | 2 | Cat 501-6695 Backhoe/Loader Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+478-4178 | Cylinder Rod Wiper Seal | 1 | Cat 501-6695 Backhoe/Loader Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+
+Source page: https://parts.cat.com/en/catcorp/product/501-6695
