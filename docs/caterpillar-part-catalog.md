@@ -1072,3 +1072,27 @@ Official evidence:
 - https://parts.cat.com/en/catcorp/product/360-8960
 - https://parts.cat.com/en/catcorp/product/7W-2326
 - Off Road discovery list: https://offroadeq.com/parts
+
+
+## Second Off Road filter batch cross-checked against official Cat pages — 25 Nov 2026
+
+Six additional Off Road public-index filter identifiers were matched to exact Cat Parts Store pages:
+
+| CAT part number | Official Cat description | Technical evidence | Application handling |
+|---|---|---|---|
+| 1G-8878 | Hydraulic/Transmission Oil Filter, Advanced Efficiency, spin-on | 3.709 in diameter × 9.441 in length; Out-to-In | CAT page lists many machine classes. Its comparison panel shows 102-2828 and 156-0214 as alternate products, not a confirmed direct interchange |
+| 1R-0739 | Standard Efficiency Engine Oil Filter | 4.248 in diameter × 10.122 in length; Out-to-In | CAT comparison panel displays 1R-1807 as an alternate product; no supersession/interchange assumed |
+| 1R-0750 | Advanced Efficiency Secondary Fuel Filter | 3.374 in diameter × 7.146 in length; Out-to-In | CAT explicitly lists Marine Engine C12, 3116, 3208, 3306B, 3304 and C9, plus land classes; BOTH at model-class level |
+| 1R-0751 | Advanced Efficiency Fuel Filter | 3.374 in diameter × 7.252 in length; Out-to-In | No Marine Engine class in retrieved compatible-model result; no marine tag |
+| 1R-0762 | Advanced High Efficiency Engine Fuel Filter | 3.681 in diameter × 10.504 in length; Out-to-In | C13 and machine families listed; no Marine Engine class in retrieved result |
+| 1R-1807 | Advanced Efficiency Engine Oil Filter | Cat comparison panel shows 4.248 in diameter × 10.024 in length | C7/3126/3306/3116 and machine families listed; no distinct Marine Engine class in retrieved result |
+
+Official product pages:
+- https://parts.cat.com/en/catcorp/product/1G-8878
+- https://parts.cat.com/en/catcorp/product/1R-0739
+- https://parts.cat.com/en/catcorp/product/1R-0750
+- https://parts.cat.com/en/catcorp/product/1R-0751
+- https://parts.cat.com/en/catcorp/product/1R-0762
+- https://parts.cat.com/en/catcorp/product/1R-1807
+
+Off Road's public index lists the same raw identifiers with abbreviated descriptions and no brand value. The CAT descriptions and technical details above are based on CAT product pages. CAT comparison panels are recorded as alternate-product suggestions only, not direct interchange or supersession. No prices, stock quantities or saleable SKUs were created.
