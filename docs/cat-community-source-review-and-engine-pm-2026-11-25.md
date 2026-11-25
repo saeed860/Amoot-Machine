@@ -2410,3 +2410,16 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
   - 233-5633 — FILM؛ فیتمنت 287B؛ Cat شرح کاربرد را در صفحه پر نکرده، بنابراین محل/کاربرد دقیق باید از Parts Diagram تأیید شود.
 - منابع رسمی: https://parts.cat.com/en/catcorp/product/223-3726 ؛ https://parts.cat.com/en/catcorp/product/278-8717 ؛ https://parts.cat.com/en/catcorp/product/278-1970 ؛ https://parts.cat.com/en/catcorp/product/233-5633
 - وضعیت Master/Mirror/Workflow در زمان ثبت: 4,333 شماره یکتا؛ Mirror برابر Master؛ Workflow برابر 4333.
+
+## دور ۸۰ — تکمیل track frame 287B (25 Nov 2026)
+
+- 238-7711 — Frame Assembly LH؛ صفحه رسمی Cat Compatible Models شامل 287B و 287 است؛ شماره جدید به Master و CSV فیتمنت 287B افزوده شد.
+- 238-7710 — Frame Assembly RH؛ از قبل در Master و CSV رسمی 287B ثبت بود.
+- 238-7712 — Track Tensioner Group؛ از قبل در Master و CSV رسمی 287B ثبت بود.
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/product/238-7710
+- https://parts.cat.com/en/catcorp/product/238-7711
+- https://parts.cat.com/en/catcorp/product/238-7712
+
+برای frame assembly، سمت چپ/راست، weldment revision، mounting bosses و PIN range باید با chassis و track frame دستگاه تطبیق داده شود. شماره‌های RH/LH با یکدیگر قابل جایگزینی فرض نمی‌شوند.
