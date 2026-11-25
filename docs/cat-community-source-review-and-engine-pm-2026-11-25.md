@@ -1452,3 +1452,7 @@ Mirror از Master جاری بازسازی و شمارنده Workflow با تع�
 برای بوش، قطر pin و موقعیت linkage؛ برای retainer، سوراخ‌های frame و پیچ؛ برای bogie wheel، عرض و موقعیت نصب؛ و برای یاتاقان/بوش‌های sprocket، bearing group، preload، shaft و groove باید با configuration و شماره سریال تطبیق داده شود. قطعه 261-6151 Sprocket در فهرست Compatible Models خود 287B را نداشت و ثبت نشد.
 
 Mirror از Master جاری بازسازی و شمارنده Workflow با تعداد خطوط Master تنظیم شد.
+
+### ممیزی هم‌زمانی پس از دور چهل‌وچهارم
+
+در sync اولیه دور 44، Master برابر 3,982 بود؛ ممیزی نهایی 3,985 شماره یکتا را نشان داد. سه شماره در فاصله sync و بازخوانی هم‌زمان اضافه شدند و به batch دور 44 نسبت داده نمی‌شوند. Mirror و Workflow در این مرحله مجدداً با Master 3,985 همگام شدند.
