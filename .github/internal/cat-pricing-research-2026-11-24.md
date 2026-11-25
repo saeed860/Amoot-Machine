@@ -3681,3 +3681,44 @@ Additional Cat-linked discovery candidates from official Cat kit-component, rema
 Each is a candidate lead or kit component, not proof of fitment with unrelated machines.
 
 Overall reviewed progress: 56/500 batches = 560/5,000 product target (11.2%). Original Cat seed list has 227 SKUs remaining (products 561–787).
+
+## Batch 57/500 — products 561–570 (2026-11-25)
+
+SKUs: 432-0153, 433-6739, 435-1295, 436-1092, 440-0216, 440-2667, 442-8972, 443-1047, 447-8618, 450-1408. All ten Cat product pages opened and key model/specification/kit sections checked. DB was re-queried after the only correction (447-8618 fitment).
+
+Verified:
+- 432-0153: Cat Basic Turbocharger Group. Cat fitment: Gen Set Engine POWER SYS; Generator XQP500; Generator Set C15/C15 GEN SE/C9; Industrial Engine C15 (5 unique labels). Material Ductile (Spheroidal) Iron. Cat Compare Alternate Parts displays 30R-0355 Cat Reman Turbocharger; DB already records this as a separate Reman alternative, not a guaranteed interchange.
+- 433-6739: Cat Track Segment, Tough Steel, 6 bolts, 5 teeth, 261mm pitch for D10T2/D10. Specs: 10.276in pitch, 20.827in tip radius, 20.659in pitch-circle radius, 1.949in bushing radius, 4.528in tooth width, 20.63in packing-offset radius, 16.535in bolt-circle radius, 0.079in backlash, relieved, offset sprocket mounting, 40° pocket, 1in bolt thread, Heavy Duty undercarriage, Alloy/Tough Steel. Two compatible models. Cat description clarifies sprockets transfer engine power to link assemblies.
+- 435-1295: Cat Complete Engine Arrangement, C7 engine, 115A brush-type alternator and PA90L starter. Cat explicitly marks discontinued and says no longer available. Compatible models Excavator 329D/329D L. DB remains inactive; Cat alternate listings 10R-4134 C7 Reman Short Block and 20R-2528 C7 Reman Engine retained as alternatives, not guaranteed replacements.
+- 436-1092: Cat Engine Fuel Rail used in Fuel Injector Line. Specs: 3.24lb, Carbon Steel. 34 distinct Cat compatible labels across MTL, CTL, asphalt pavers, mini excavators, skid-steer loaders and compact wheel loaders. DB matches the Cat page's listed models and aliases.
+- 440-0216: Cat Foundational Level Engine Overhaul Kit for 3512 land-drilling overhaul. Cat compatible models: Generator SR4B/SR4BHV; Generator Set 3512B; Petroleum Engine 3512C (4 labels). Cat reports 55 kit items; public page currently exposes only items 1–32 and a Load More control. DB retains the 32 visible line items and explicitly notes 23 additional items were not loaded/verified; no unseen contents inferred. Kit contains gaskets, seals and replacement components for a major overhaul.
+- 440-2667: Cat 5/8-18 3A Suspension Cylinder Charging Valve for front/rear suspension cylinders. Specs: Steel/Carbon Steel, 1.86in overall length, 0.875in hex, 5/8-18 thread, 3000psi max working pressure, Nitrogen medium, tethered cap and O-ring seal. 79 distinct compatible labels span AD55B/AD60/AD63 underground trucks, articulated/ejector trucks, transmission TR16-C7.1, D10R, truck/haul families, quarry trucks, tractors, off-highway trucks and rotary cutter RC20. DB matches.
+- 442-8972: Cat Heavy Duty Precious Metals Silver in-frame overhaul kit for Truck Engine C15. Cat page kit items: 160-9874 liner gasket kit ×6; 250-2940 pin retainer ×12; 306-4014 oil ring ×6; 306-4016 intermediate ring ×6; 310-4188 top ring ×6; 325-9492 piston body ×6; 442-7439 Bronze Overhaul Kit ×1; 524-5565 piston pin ×6; 586-3377 cylinder liner ×6. Cat description says Silver includes the Bronze kit plus six pistons, liners, wrist pins, rings and retainers; no core charge. DB matches.
+- 443-1047: Cat Lubrication Pump for automatic lubrication systems. Specs: Steel body/Carbon Steel, 4-bolt mount, SAE #4 O-ring inlet, 1/4 NPTF service ports; 36.5in length ×12.6in width ×9.1in height. Cat Compatible Models: Mining Excavator 5110B, Expanded Mining LD350, Motor Grader 24M/24, Hydraulic Shovel 6015B/6015 (6 labels). DB matches.
+- 447-8618: Cat Element Assembly, Alloy Aluminum. Cat fitment includes Generator Set 3508/G3516/3508C/3516C/3516/3516B/3508B/3512/3512C/3512B; Engine 3512PETROL/3516PETROLEUM; Petroleum Engine 3516/3512/3508C/3516C/3516B/3512E/3512C/3512B; Off-Highway Truck 3508B; Petroleum Gen Set 3512B/3512C; Hydraulic Shovel 6060; Gen Set Engine 3508/3512/3512B/3508B/3516/3516B; Marine Engine 3512C/3516/3512/3508/3508C/3508B/3516B/3516C/3512B; Marine Auxiliary 3512C/3516C/3512B/3508B/3508C/3516B; Engine-Industrial 3512B/LD700E; Industrial Engine 3508B/3512B/3512C/3516B/3516C/3508/C18/C15/3512/3516; Gas Engine G3516; Petroleum Package TH48-E70/CX35-P800. Added missing compatible label 3512E; final DB fitment count 19 unique labels.
+- 450-1408: Cat Top Piston Ring for 3512/3516/3520-family industrial engines. Specs: gage OD 6.69in (170mm), ID 6.29in (159.8mm), width 0.15in (3.84mm), Steel/Carbon Steel. Cat fitment: Gen Set Engine POWER SYS/G3520/G3516C; Generator Set G3516H/G3512H/G3516/G3520H/G3520; Marine Engine 3512E/3516E; Engine 3512E/G3520H/G3516H/3516E/G3520; Industrial Engine 3512E/G3520/G3520H; Gas Engine G3520/G3512H (9 unique labels). DB matches.
+
+Cat pages:
+- https://parts.cat.com/en/catcorp/product/432-0153
+- https://parts.cat.com/en/catcorp/product/433-6739
+- https://parts.cat.com/en/catcorp/product/435-1295
+- https://parts.cat.com/en/catcorp/product/436-1092
+- https://parts.cat.com/en/catcorp/product/440-0216
+- https://parts.cat.com/en/catcorp/product/440-2667
+- https://parts.cat.com/en/catcorp/product/442-8972
+- https://parts.cat.com/en/catcorp/product/443-1047
+- https://parts.cat.com/en/catcorp/product/447-8618
+- https://parts.cat.com/en/catcorp/product/450-1408
+
+Post-update DB verification counts: 432-0153=5; 433-6739=2; 435-1295=2 (inactive); 436-1092=34; 440-0216=4; 440-2667=79; 442-8972=1; 443-1047=6; 447-8618=19; 450-1408=9. No customer prices, current stock or unsupported interchange claims added.
+
+Additional Cat-linked discovery candidates from Cat official BOM/related/alternative panels (candidate leads only):
+- 433-6739: 3K-0360, 9M-5894, 309-7679, 8D-4771.
+- 440-0216 visible BOM (32 of 55 only): 033-6031, 101-1198, 109-7411, 111-4374, 114-5477, 116-1365, 122-8856, 127-5400, 136-7227, 153-9963, 154-6389, 175-6618, 1J-9671, 235-3546, 2W-1635, 2W-1969, 355-0776, 423-9461, 426-0447, 435-3163, 457-6112, 4W-0530. The other 23 reported kit items were not loaded by Cat and are not guessed.
+- 440-2667: 3J-1907, 3B-8489, 114-3361, 228-7089, 030-0167.
+- 442-8972 kit components: 306-4014, 306-4016, 310-4188, 325-9492, 442-7439.
+- 443-1047: 434-3378, 1R-1808, 3J-1907, 1R-0755, 3J-7354.
+- 450-1408: 348-8779, 230-2520, 423-4277, 223-6361, 7N-2046.
+All candidates require item-level verification before catalog promotion. Cat Reman alternates remain distinct from new parts and are not assumed interchangeable.
+
+Overall reviewed progress: 57/500 batches = 570/5,000 product target (11.4%). Original Cat seed list has 217 SKUs remaining (products 571–787).
