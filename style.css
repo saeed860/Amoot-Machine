@@ -542,3 +542,30 @@
  .hero-shade{background:linear-gradient(270deg,#202326f5 0%,#202326d9 48%,#20232678 100%)!important}
  .hero-copy{width:100%!important;max-width:100%!important}
 }
+
+
+/* Single hero image: CAT excavator anchored to the extreme left, full frame visible. */
+.hero{position:relative!important;overflow:hidden!important;isolation:isolate!important}
+.hero-photo{
+ position:absolute!important;inset:0 auto 0 0!important;
+ width:58%!important;height:100%!important;
+ display:flex!important;align-items:center!important;justify-content:flex-start!important;
+ overflow:visible!important;background:transparent!important;opacity:1!important;
+}
+.hero-photo .hero-image{
+ display:block!important;position:relative!important;
+ width:100%!important;height:100%!important;max-width:none!important;max-height:none!important;
+ object-fit:contain!important;object-position:left center!important;
+ padding:0!important;margin:0!important;
+}
+.hero-shade{z-index:1!important;background:linear-gradient(270deg,#202326 0%,#202326 35%,rgba(32,35,38,.88) 47%,rgba(32,35,38,.2) 69%,transparent 84%)!important}
+.hero-content{position:relative!important;z-index:2!important}
+.hero-copy{width:42%!important;max-width:620px!important;margin-right:0!important;margin-left:0!important}
+.hero-slides{display:none!important}
+@media(max-width:720px){
+ .hero{min-height:320px!important}
+ .hero-photo{width:100%!important;inset:0!important;opacity:.42!important}
+ .hero-photo .hero-image{object-fit:contain!important;object-position:left center!important}
+ .hero-shade{background:linear-gradient(270deg,rgba(32,35,38,.98),rgba(32,35,38,.72) 60%,rgba(32,35,38,.22))!important}
+ .hero-copy{width:100%!important;max-width:100%!important}
+}
