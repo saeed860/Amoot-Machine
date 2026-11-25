@@ -2946,3 +2946,44 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 7E-0844 | 28.60mm Internal Diameter D Ring Seal | 1 | Cat 165-9864 IT24F/IT18F/924F/918F Single Cylinder Head Gasket Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
 
 Source page: https://parts.cat.com/en/catcorp/product/165-9864
+
+
+## Additional Cat 815/814/950/966C drivetrain bearing-kit BOM candidates — batch 176
+
+Source: official Cat Parts Store product page 117-8942, Drive Train Bearing Kit. Compatible models explicitly shown: SOIL COMPACTOR / 815; WHEEL DOZER / 814; WHEEL LOADER / 950, 966C. Cat describes this as a kit of ball, roller, sleeve and needle bearings, spring pins, seal rings, roller-bearing cups, metal seal rings and dowels for rotating drivetrain components including transmission, drive shaft and differential. All 32 first-page BOM references were new to the discovery queue and original seed list. The page lists 38 total items; remaining six are to be checked separately.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+101-4897 | 40mm Internal Diameter Special Ball Bearing | 1 | Cat 117-8942 815/814/950/966C Drive Train Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+1F-2771 | 60mm Internal Diameter Single Row Ball Bearing | 1 | Cat 117-8942 815/814/950/966C Drive Train Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+1H-4203 | 60.33mm Internal Diameter Cone Bearing | 2 | Cat 117-8942 815/814/950/966C Drive Train Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+1M-3937 | 82.55mm Gauge Diameter Metal Seal Ring | 1 | Cat 117-8942 815/814/950/966C Drive Train Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+1M-8842 | Double Row Tapered Roller Bearing | 1 | Cat 117-8942 815/814/950/966C Drive Train Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+1S-3206 | Drawn Cup Needle Roller Bearing | 4 | Cat 117-8942 815/814/950/966C Drive Train Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+1T-0068 | 15.88mm Long Slotted Spring Pin | 4 | Cat 117-8942 815/814/950/966C Drive Train Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+1T-0289 | 5.56mm Diameter Slotted Spring Pin | 4 | Cat 117-8942 815/814/950/966C Drive Train Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+1T-0576 | 93.79mm Outside Diameter Sleeve Bearing | 1 | Cat 117-8942 815/814/950/966C Drive Train Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+1T-1313 | 55.5mm Inner Diameter Seal Ring | 1 | Cat 117-8942 815/814/950/966C Drive Train Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+2A-4576 | 112.71mm Tapered Roller Bearing Cup | 2 | Cat 117-8942 815/814/950/966C Drive Train Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+2D-8341 | 23mm Width Outer Roller Bearing Race | 1 | Cat 117-8942 815/814/950/966C Drive Train Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+2K-5986 | 15.88mm Long Steel Slotted Spring Pin | 7 | Cat 117-8942 815/814/950/966C Drive Train Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+2K-9092 | Metal Seal Ring | 2 | Cat 117-8942 815/814/950/966C Drive Train Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+2S-0669 | 26.43mm Minimum Internal Diameter Needle Bearing | 9 | Cat 117-8942 815/814/950/966C Drive Train Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+3K-0526 | 55mm Internal Diameter Single Row Ball Bearing | 1 | Cat 117-8942 815/814/950/966C Drive Train Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+3S-1259 | 203.2mm Outer Diameter Ring Seal | 4 | Cat 117-8942 815/814/950/966C Drive Train Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+3S-2708 | 6.35mm Nominal Outer Diameter Spring Pin | 9 | Cat 117-8942 815/814/950/966C Drive Train Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+3T-2095 | Transmission Pump Cover Sleeve Bearing | 4 | Cat 117-8942 815/814/950/966C Drive Train Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+4L-9825 | 40mm Internal Diameter Ball Bearing | 1 | Cat 117-8942 815/814/950/966C Drive Train Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+4S-8537 | 6.35mm Outer Diameter Solid Dowel Pin | 2 | Cat 117-8942 815/814/950/966C Drive Train Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+4S-8538 | 95.25mm Single Row Ball Bearing | 1 | Cat 117-8942 815/814/950/966C Drive Train Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+587-2880 | Sleeve Bearing | 4 | Cat 117-8942 815/814/950/966C Drive Train Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+5L-6923 | Roller A | 1 | Cat 117-8942 815/814/950/966C Drive Train Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+5M-2051 | 42.39mm Minimum Internal Diameter Needle Bearing | 9 | Cat 117-8942 815/814/950/966C Drive Train Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+6F-0155 | 106.40mm Outer Diameter Metal Seal Ring | 1 | Cat 117-8942 815/814/950/966C Drive Train Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+6Y-3484 | 114.30mm Inner Diameter Ball Bearing | 1 | Cat 117-8942 815/814/950/966C Drive Train Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+7B-3642 | Race and Roller Inner Bearing | 1 | Cat 117-8942 815/814/950/966C Drive Train Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+7F-2742 | 55mm Internal Diameter Ball Bearing | 1 | Cat 117-8942 815/814/950/966C Drive Train Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+7F-6848 | 102mm Outer Diameter Roller Bearing Inner Race | 1 | Cat 117-8942 815/814/950/966C Drive Train Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+7M-5130 | 19.05mm Long Chamfered End Spring Pin | 1 | Cat 117-8942 815/814/950/966C Drive Train Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+7S-3002 | 75mm ID Pin Lock Slot Special Ball Bearing | 1 | Cat 117-8942 815/814/950/966C Drive Train Bearing Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+
+Source page: https://parts.cat.com/en/catcorp/product/117-8942
