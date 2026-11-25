@@ -2322,3 +2322,13 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - هر سه شماره به Master و CSV رسمی 287B افزوده شدند.
 - منابع رسمی: https://parts.cat.com/en/catcorp/product/259-1107 ؛ https://parts.cat.com/en/catcorp/product/277-0655 ؛ https://parts.cat.com/en/catcorp/product/186-3735
 - شمارنده هدف دور: 4320 شماره یکتا؛ Mirror و Workflow با Master همگام شدند.
+
+## دور ۷۷ — تکمیل کیت plunger شیر پایلوت (25 Nov 2026)
+
+- 198-1076 — Plunger Kit؛ صفحه رسمی Cat Compatible Models شامل 287B و مدل‌های مرتبط است و 297C را در فهرست این قطعه نشان نمی‌دهد. شماره جدید به Master و CSV فیتمنت 287B اضافه شد.
+- اجزای اعلام‌شده در صفحه: plunger guide، hollow plunger، washer، standard plate و snap ring.
+
+منبع رسمی:
+- https://parts.cat.com/en/catcorp/product/198-1076
+
+برای این kit، نوع pilot valve، شماره گروه، جهت نصب و serial range باید با Parts Diagram دستگاه تطبیق داده شود؛ فیتمنت 287B به‌تنهایی تطبیق نهایی گروه شیر را تضمین نمی‌کند.
