@@ -94,3 +94,31 @@
 ## اصلاح یکپارچگی Master و Mirror
 
 بازبینی ۲۵ نوامبر نشان داد فایل Master دارای ۱٬۷۴۶ شماره یکتا بوده، در حالی که Mirror قدیمی فقط ۱٬۵۴۶ شماره داشته و ۲۰۰ شماره از Master را جا انداخته بود. Mirror در این commit به نسخه کامل Master همسان‌سازی شد. از ۱۵ شماره بررسی‌شده، ۱۲ شماره جدید و یکتا به Master افزوده شد؛ سه شماره از قبل موجود بودند. شمارش جدید ۱٬۷۵۸ شماره یکتا است.
+
+
+## استخراج قطعات ماشین‌آلات — گریدر، لودر و 287B (25 Nov 2026)
+
+در این دور، 24 شماره از صفحات رسمی Cat Parts Store شناسایی شد؛ پس از حذف تکراری‌ها، 24 شماره جدید به Master افزوده شد. داده‌ها در فایل مستقل `data/cat-machine-parts-official-verification-2026-11-25.csv` ثبت شده‌اند.
+
+### خانواده‌های پوشش‌داده‌شده
+- گریدرها: 4Z-8785، 140-6790، 346-3285، 232-2146، 9W-2330، 5D-9561.
+- لودرهای چرخ‌دار: 7T-5964، 109-9212، 7T-5962، 132-1089، 138-0676، 8E-5793، 138-6545، 511-4935.
+- لودرهای زنجیری: 1U-0600، 4T-6697، 140-6866، 4T-8085، 4T-8084، 308-4325.
+- مدل 287B: 289-3787 (لوله انتقال سیال)، 218-6822 (کیت آب‌بند سیلندر tilt)، 289-3779 (لوله‌های سیلندر lift)، 164-9989 (برچسب شناسایی مدل).
+
+### منابع رسمی منتخب
+- https://parts.cat.com/en/catcorp/product/4Z-8785
+- https://parts.cat.com/en/catcorp/product/140-6790
+- https://parts.cat.com/en/catcorp/product/346-3285
+- https://parts.cat.com/en/catcorp/232-2146
+- https://parts.cat.com/en/catcorp/product/9W-2330
+- https://parts.cat.com/en/catcorp/product/7T-5964
+- https://parts.cat.com/en/catcorp/product/109-9212
+- https://parts.cat.com/en/catcorp/product/1U-0600
+- https://parts.cat.com/en/catcorp/product/4T-6697
+- https://parts.cat.com/en/catcorp/product/289-3787
+- https://parts.cat.com/en/catcorp/product/218-6822
+- https://parts.cat.com/en/catcorp/product/289-3779
+- https://parts.cat.com/en/catcorp/product/164-9989
+
+نکته: صفحات Cat مدل‌های سازگار را فهرست می‌کنند، اما Cat نیز هشدار می‌دهد تغییر پیکربندی دستگاه ممکن است سازگاری را تغییر دهد. بنابراین سریال/ترتیب ساخت، شماره گروه قطعه، موقعیت (LH/RH/Center)، ابعاد و الگوی پیچ باید پیش از سفارش کنترل شوند. شماره‌های بالا OEM هستند؛ هیچ شماره aftermarket در Master ادغام نشده است.
