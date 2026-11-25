@@ -5113,3 +5113,37 @@ Post-update verification: all ten SKUs exist with Cat official item-page evidenc
 Fourteen related leads added: 30R-0132, 420-8618, 328-5496, 399-8027, 255-0777, 422-8797, 30R-0417, 30R-0484, 20R-6529, 30R-0927, 246-5659, 223-9159, 238-2707 and 556-0701. They remain candidates pending individual verification.
 
 Overall reviewed progress: 92/500 batches = 920/5,000 product target (18.4%). Original Cat seed list 787/787 complete; discovery-derived products individually verified/updated: 153. Remaining target: 4,080 products.
+
+## Batch 93/500 — Cat-linked discovery candidates 131–140 (2026-11-25)
+
+Ten pending candidates were checked on their own Cat Parts Store item pages. Nine new catalog rows were inserted; existing row 253-1752 was refreshed from secondary-only data to official Cat evidence. All ten were re-queried after writes and model arrays deduplicated.
+
+Verified:
+- 261-3450 — 104.50mm OD Connecting Rod Bearing. Cat description: connecting-rod bearing provides conformable surface for rod rotation on crankshaft. Specs length 4.4in, height 4.6in, steel-backed aluminum and steel-backed copper-lead bearing. Fitment includes XQP500/XQP550/SR4/SR4B, AD45B/AD55/AD30/AD45, C18/C15, 631/637/657/651 scrapers, R2900/R3000 LHDs, 772/770/773GC trucks, MH3295, 24M, 6018/6015 shovels, D8/D9 tractors, MD6200 drill and C18 marine/industrial/petroleum (42 labels).
+- 253-1752 — 5.73mm Thick Crankshaft Thrust Plate. Existing row refreshed. Cat says it resists crankshaft axial movement. Specs length 6.77in, height 0.73in, alloy copper. Fitment 69 labels across SR4B/SR500/XQP500/SR4/SR5, 3408B/3406E/3406C/3406B/C16/C15/C18, scrapers, OEM-PM, MD6310/6200/6250, 375-A/374F/385C/390 excavators, 6040 shovel, R2900/R3000H, 772/770/773GC, MH3295, 24M, 6018/6015, D8/D9 and C18 marine/industrial/petroleum.
+- 317-8766 — 131.29mm OD Steel-Backed Copper-Lead Main Bearing. Description says 41.65mm width with chamfer both ends. Specs length 6in, height 3.6in, steel-backed copper-lead bearing. 72 labels across SR4B/SR500/XQP500, 3408/3406/C16/C15/C18 engines, 637/631/657/651 scrapers, MD6310/6200/6250, 375-A/374F/385C/390 excavators, 6040 shovel, R2900/R3000H, 772/770/773GC, MH3295, 24M, 6018/6015, D8/D9, C18 marine/industrial/petroleum and C32/C27.
+- 489-5670 — Engine Connecting Rod. Cat describes rods linking pistons to crankshafts; specifications are still being added. Fitment 34 labels across SR500/SR5, C32B/C32 gensets, C32B/C32 industrial, C32B locomotive/marine, 854/854K wheel dozers, 777G/777E/777 trucks, 6040/6020 hydraulic shovels, 993K/990K/992K loaders, D11T/D11 XE/D11, DE1100 gen set and MD6310 drill.
+- 306-9441 — Track Idler Cap, 68mm high, 64mm wide, 169mm long. Cat says idler caps are part of idler assembly. Specs length 6.654in, offset 0.118in, height 2.677in, mounting-hole diameter 1.236in, two holes, shaft mount 2.683in, hole distances 2.067/4.134in, dowel pin 0.378in, width 2.52in. Fitment D8T/D8R/D8R II/D8GC/D8N/D8 XE/D8, 578 pipelayer and 973D/973K/973 track loaders (11 labels).
+- 9W-4481 — 67.96mm ID Suspension Bogie Insert. Cat says it sits between bogie suspension and idler shaft. Steel/alloy/carbon steel; length 3.31in, width 2.17in, height 1.59in, thickness 0.32in. Fitment D9T/D9R/D8R II/D9N/D8 XE/D9/D9 GC/D8/D8T/D8R/D8L/D8GC/D8N/D8 GC, rippers 9/8, 578 pipelayer, bulldozer 8S/8U/9U/9SU/8SU/8A and winches 59N/59L/57H/58/58L (28 labels).
+- 7G-5221 — 120mm Diameter Bogie Suspension Retainer Plate. Cat says it holds cartridge pin securely. Steel/structural/alloy steel, OD 4.72in, width 0.59in, thread 3/4-10 (1X). Fitment D8/D9/D10 tractors, rippers 9/8, 589/578 pipelayers, 8S/8U/9C/9U/10SU/10U/9S/9SU/8SU/8A bulldozers and 59N/59L/57H/59/58/58L winches (40 labels).
+- 131-1651 — Track Roller Cap, 52mm high, 60mm wide, 150mm long. Cat says end cap locks idler shaft/sealing system. Specs length 5.906in, offset 0.118in, height 2.047in, hole diameter 0.965in, two holes, shaft mount 2.289in, hole distances 1.772/3.543in, dowel pin 0.378in, width 2.362in. Fitment D9/D8 families, 3508B genset, ripper 9, PL83/PL87/583T/583R/587T/587R/578 pipelayers, 9U/9SU bulldozers and 59N/59L/58/58L winches (25 labels).
+- 9G-7516 — 1-14-2A Screw Plug. Cat describes a plastic threaded plug sealing openings in telescoping recoil frame, designed to stop fluid flow and hold pressure. Polyolefin/polyethylene plastic, length 1.38in, thread 1-14, OD 1.15in. Fitment broad D8/D9/D10/D11 tractors, rippers 11/10/9/8, 578/589 pipelayers, 797/797F/797B trucks, R1600/R1700/R1300/R3000H/R2900 LHDs, bulldozers, winches, 120/140 graders and 994/995 loaders (72 labels).
+- 2K-4472 — 158.34mm ID 75A NBR O-Ring Seal. Cross-section 0.139in, ID 6.234in, NBR 75, dash 259. 54 visible labels partially normalized across IT62H/IT12/IT28 toolcarriers, 657/651 scrapers, 517/D4HTSK skidders, 518C/518/508 wheel skidders, 308/309 mini excavators, 375-A/350-A/245 excavators, 6040 shovel, 650B/633E II/651B/651E/660B/631/637/641/657 wheel tractors and related equipment.
+
+Cat item pages:
+- https://parts.cat.com/en/catcorp/product/261-3450
+- https://parts.cat.com/en/catcorp/product/253-1752
+- https://parts.cat.com/en/catcorp/product/317-8766
+- https://parts.cat.com/en/catcorp/product/489-5670
+- https://parts.cat.com/en/catcorp/product/306-9441
+- https://parts.cat.com/en/catcorp/product/9W-4481
+- https://parts.cat.com/en/catcorp/product/7G-5221
+- https://parts.cat.com/en/catcorp/product/131-1651
+- https://parts.cat.com/en/catcorp/product/9G-7516
+- https://parts.cat.com/en/catcorp/product/2K-4472
+
+Post-update verification: all ten SKUs exist with Cat official item-page evidence and REFERENCE status. Nine inserted, one existing row updated. Fitment counts after de-duplication: 261-3450=42; 253-1752=69; 317-8766=72; 489-5670=34; 306-9441=11; 9W-4481=28; 7G-5221=40; 131-1651=25; 9G-7516=72; 2K-4472=54. No prices, stock or interchange guarantees added.
+
+Nine related leads added: 5P-8068, 4T-2069, 6D-9157, 132-8876, 2S-8439, 111-1729, 111-1730, 2H-3932 and 30R-1818. They remain candidates pending individual item-page verification.
+
+Overall reviewed progress: 93/500 batches = 930/5,000 product target (18.6%). Original Cat seed list 787/787 complete; discovery-derived products individually verified/updated: 163. Remaining target: 4,070 products.
