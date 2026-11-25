@@ -1190,3 +1190,30 @@ Eight more candidates from the Off Road 500-index were checked against CAT produ
 | 8J-6730 | Axial Piston Pump Fixed Displacement | LAND; CAT page marks DISCONTINUED | Reference only; no saleable product |
 
 CAT's displayed Reman alternatives (0R-3051, 10R-0484, 20R-4693, 0R-5515, 10R-2438) remain separate identifiers and are not assumed direct replacements. Prices remain NULL and stock zero for the six new products.
+
+
+## Multi-source extraction batch — 25 Nov 2026
+
+Four additional CAT products were added after exact official Cat Parts Store pages were checked. Candidate discovery included RTL Equipment's CAT filter listing, while all product identity/specification/compatibility fields below were sourced from CAT:
+
+| CAT part | Official description | Important technical/application evidence | Product status |
+|---|---|---|---|
+| 326-1643 | Filter Assembly / Fuel Water Separator | Advanced High Efficiency; 4.264 in diameter × 9.087 in length; Out-to-In; CAT lists Marine Engine C12.9/C8.7 and land applications | Product added |
+| 569-8036 | Lube Filter Element Kit (Engine Oil) | Kit contains 505-3864 element assembly ×1 and 6V-8002 O-ring ×1; compatible compact equipment/C2.8/C3.6 and land applications | Product added |
+| 110-6331 | Secondary Standard Efficiency Engine Air Filter | Round secondary element; 3.724 × 3.724 × 13.366 in; compatible compact equipment, C3.4/C4.4 and land applications | Product added |
+| 1W-8845 | Advanced Efficiency Engine Oil Filter | 4.701 in diameter × 11.268 in length; Out-to-In; CAT lists C-10/C-12/3176/C11/C13/3196, excavator and wheel loader groups | Product added |
+
+Official product pages:
+- https://parts.cat.com/en/catcorp/product/326-1643
+- https://parts.cat.com/en/catcorp/product/569-8036
+- https://parts.cat.com/en/catcorp/product/110-6331
+- https://parts.cat.com/en/catcorp/product/1W-8845
+
+Official product images were obtained from Caterpillar Scene7 URLs. Prices remain NULL and stock zero; no retail or supplier price was guessed. Marine classification for 326-1643 is BOTH because CAT explicitly lists a Marine Engine group as well as land equipment; the other three pages do not show a Marine Engine category in the retrieved compatible-model lists.
+
+### Cross-reference evidence captured separately
+IXIN's public cross-reference index published rows for CAT filter identifiers 1R-1807, 1R-1808, 1R-0716 and 1R-0753 with Fleetguard, Baldwin and Donaldson references. These have been inserted into `public.cat_part_cross_references` with status `UNVERIFIED_SOURCE_ROW`. They are not treated as direct replacements until independently checked against current manufacturer catalogs and dimensions.
+
+K-Part's public CAT catalog landing page was inspected. Its stated workflow requires exact machine model and serial prefix before selecting illustrated parts groups. The site provides public checked examples (M325B/BGN, 320D, 330D, D6R, D9R, 950H, 966H, 420F, C7 and C9). The interactive catalog did not expose its part rows through the available read-only browser view in this batch, so no K-Part part numbers are falsely claimed as extracted yet.
+
+CAT Digital Marketplace was also checked. Its public API catalog describes ISO 15143-3/AEMP 2.0 fleet telemetry and related APIs, not a public CAT parts-number feed. Parts/SIS access is directed through Parts.Cat.com and dealer-linked access; do not mistake telematics API data for EPC part data.
