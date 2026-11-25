@@ -2054,3 +2054,24 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 3E-6772 | 17.90mm Inner Diameter Water Seal | 16 | Cat 7W-4410 3408B/3408 Marine Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
 
 Source page: https://parts.cat.com/en/catcorp/product/7W-4410
+
+
+## Additional Cat 825H/824H/826H/980H Bronze overhaul-kit BOM candidates — batch 117
+
+Source: official Cat Parts Store product page 445-9257, Engine Overhaul Kit - Bronze. Compatible models explicitly shown: SOIL COMPACTOR 825H; WHEEL DOZER 824H; LANDFILL COMPACTOR 826H; WHEEL LOADER 980H. Twenty other first-page items were already present in the discovery queue or original seed list and are not duplicated. The twelve new rows below are BOM references only, not standalone orderability, stock, price, or serial-specific fitment confirmation.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+101-8468 | 56.03mm Outside Diameter Sleeve Bearing | 1 | Cat 445-9257 Bronze Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+130-4698 | 51.03mm Inside Diameter Sleeve Bearing | 1 | Cat 445-9257 Bronze Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+2J-3118 | 3/8-16 x 1 1/4 Hex Head Lock Bolt | 5 | Cat 445-9257 Bronze Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+349-1530 | Flywheel Housing Gasket Kit - Rear Structure | 1 | Cat 445-9257 Bronze Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+444-0529 | Block and Oil Pan Gaskets Kit - Central Lower Structure | 1 | Cat 445-9257 Bronze Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+444-0531 | Front Housing Install Gasket Kit | 1 | Cat 445-9257 Bronze Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+444-0532 | Oil Cooler and Lines Gasket Kit | 1 | Cat 445-9257 Bronze Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+4N-3841 | 0.79mm Thick Flow Switch Gasket | 1 | Cat 445-9257 Bronze Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+592-7348 | Single Cylinder Head Install Kit | 1 | Cat 445-9257 Bronze Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+5P-4255 | 3/8-16 x 1 Hex Head Lock Bolt | 8 | Cat 445-9257 Bronze Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+649-5170 | 0.5mm Thick Engine Oil Pan Gasket | 2 | Cat 445-9257 Bronze Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+6V-6923 | 15.86mm Outer Diameter Plastic Backup Ring | 1 | Cat 445-9257 Bronze Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+
+Source page: https://parts.cat.com/en/catcorp/product/445-9257
