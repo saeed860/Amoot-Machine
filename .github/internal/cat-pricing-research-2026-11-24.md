@@ -4909,3 +4909,37 @@ Post-update verification: all ten SKUs exist with official Cat item-page evidenc
 Four further related leads added: 288-0935, 317-9080, 202-4296 and 2M-9780. They remain unverified candidates until their own item pages are checked.
 
 Overall reviewed progress: 86/500 batches = 860/5,000 product target (17.2%). Original Cat seed list 787/787 complete; discovery-derived products individually verified and inserted/updated: 93. Remaining target: 4,140 products.
+
+## Batch 87/500 — Cat-linked discovery candidates 71–80 (2026-11-25)
+
+Ten candidates were checked against their own official Cat Parts Store item pages. Four new rows were inserted; five existing records were refreshed with item-page evidence/specifications, and 377-6969 was re-opened (its current text capture is limited; no new technical fields changed). All ten were re-queried after updates.
+
+Verified:
+- 306-9457 — Track Roller Mount Cap. Cat calls it an end collar that locks idler shaft/sealing system. Approx 250 ×75 ×65mm; length 9.843in, height 2.559in, width 2.953in, mounting face offset 0.118in, three 1.226in mounting holes at 2.264/4.528/7.185in, shaft mount diameter 2.919in, dowel pin diameter 0.378in. Fitment D11N/D11R/D11T/D11 XE/D11.
+- 3T-9075 — Suspension Bogie Insert, between bogie suspension and idler shaft. Steel/alloy steel, 4.72in length ×2.99in width ×2.3in height, 0.39in thickness. Fitment D11N/D11R/D11T/D11 XE/D11, ripper 11 and bulldozer 11SU/11U.
+- 110-6326 — Air Cleaner Primary Element. Existing row refreshed. Round primary standard-media filter, 6.476in height/width ×14.016in depth, carbon steel. Cat compatible-model list already in DB retained (172 unique labels) across MTL/CTL, C3.4/C4.4 gensets, toolcarriers, CP5/CS5 compactors, backhoe loaders, compact wheel loaders, telehandlers and skid steers.
+- 110-6331 — Secondary Standard Efficiency Engine Air Filter. Existing row refreshed. Round secondary standard-media filter, 3.724in height/width ×13.366in depth, carbon steel/polypropylene. Existing 169 compatible labels retained across MTL/CTL, C3.4/C4.4 gensets, toolcarriers, compactors, backhoe loaders, compact wheel loaders and telehandlers.
+- 348-1862 — Advanced Efficiency Hydraulic/Transmission Oil Filter. Diameter 3.268in, length 4.764in, Out-to-In, advanced high efficiency, cartridge, polyamide plastic. 37 fitment labels across D6K2/D3K2/D6N/D4K2/D5K2 tractors, 297D/257D/277D/287D MTL, 259D/299D/289D/279D CTL, AP series pavers and 236D/246D/262D/272D skid steers.
+- 363-5819 — Fuel Water Separator. Cat page title and description say Standard Efficiency; specification panel says Ultra High Efficiency. Discrepancy flagged and both source values preserved. Diameter 2.85in, length 5.531in, Out-to-In, cartridge. 44 fitment labels across 257D/277D/297D/287D MTL/CTL, C2.2 genset/engine, 908M/902C2/914K compact wheel loaders, mini excavators and AP355F/AP300F pavers.
+- 377-6969 — Standard Efficiency Engine Oil Filter. Official Cat page opened; current text capture only exposes title/brief description. Existing catalog record and 92 model labels/specs retained from prior verified work; no unsupported new changes.
+- 541-6956 — Engine Fuel Filter. Existing row refreshed. Cat description/title says Standard Efficiency, while specification panel says Ultra High Efficiency; discrepancy flagged and both source values preserved. Diameter 3.713in, length 7.327in, Out-to-In, Spin-On, polyester/PPA/thermoplastic materials. 54 visible model labels across MTL/CTL, AP355/AP300 pavers, mini excavators, skid steers and compact wheel loaders.
+- 8N-8466 — Auxiliary Pump Group - S. Existing row refreshed. Cat explicitly says description and specifications are still being added; no details inferred. 12 distinct compatible labels: 3508/3512/3516 genset engines, SR4 generator, 3500-series marine/marine auxiliary engines, industrial engines and G3512/G3516 gas engines.
+- 328-5573 — 97.20mm OD steel-backed copper-lead connecting-rod bearing. Previously verified and populated in batch 49; item page reopened and existing row retained. Cat visible models include HT400 pumper, SR4/SR4B generators, AD55/AD30, 3406/C15/C16, PM3456, R2900, 16H/16G, D8, marine, 583R/587R/578 pipelayers, SM-350, 5080/5090B shovels, 375-A/385B excavators, wheel tractor-scrapers, 825 compactors, D400E II, 834/814/824/826/836/980/988 loaders and MTC/MT series tractors.
+
+Cat item pages:
+- https://parts.cat.com/en/catcorp/product/306-9457
+- https://parts.cat.com/en/catcorp/product/3T-9075
+- https://parts.cat.com/en/catcorp/product/110-6326
+- https://parts.cat.com/en/catcorp/product/110-6331
+- https://parts.cat.com/en/catcorp/product/348-1862
+- https://parts.cat.com/en/catcorp/product/363-5819
+- https://parts.cat.com/en/catcorp/product/377-6969
+- https://parts.cat.com/en/catcorp/product/541-6956
+- https://parts.cat.com/en/catcorp/product/8N-8466
+- https://parts.cat.com/en/catcorp/product/328-5573
+
+Post-update verification: all ten SKUs exist with Cat official item-page evidence and REFERENCE status. Four inserted, five existing rows refreshed, and 377-6969 rechecked without technical changes. Fitment counts after de-duplication: 306-9457=5; 3T-9075=8; 110-6326=172; 110-6331=169; 348-1862=37; 363-5819=44; 377-6969=92; 541-6956=54; 8N-8466=12; 328-5573=90. Two filter efficiency inconsistencies flagged; no prices, stock or universal interchange claims added.
+
+Six further related leads added: 306-9455, 306-9451, 306-9453, 3S-1223, 416-5884 and 415-2592. They remain unverified candidates until their own item pages are checked.
+
+Overall reviewed progress: 87/500 batches = 870/5,000 product target (17.4%). Original Cat seed list 787/787 complete; discovery-derived products individually verified/updated: 103. Remaining target: 4,130 products.
