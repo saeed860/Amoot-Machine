@@ -1429,3 +1429,8 @@ Source pages:
 166-2287 | 22mm Inner Diameter Spacer | Cat Parts Store frequently bought together with 609-9275 roller guard | cat_linked_candidate; needs_individual_verification
 189-3032 | Wear Strip | Cat Parts Store frequently bought together with 609-9275 roller guard | cat_linked_candidate; needs_individual_verification
 160-4103 | Wear Strip | Cat Parts Store frequently bought together with 609-9275 roller guard | cat_linked_candidate; needs_individual_verification
+
+306-9449 | Track Idler Mounting Cap | Cat Parts Store frequently bought together with 619-9945 idler group | cat_linked_candidate; needs_individual_verification
+111-1729 | Idler Group | Cat Parts Store frequently bought together with 620-6380/620-6402 roller groups | cat_linked_candidate; needs_individual_verification
+111-1730 | Idler Group | Cat Parts Store frequently bought together with 620-6380/620-6402 roller groups | cat_linked_candidate; needs_individual_verification
+142-8731 | Wheel Assembly | Cat Parts Store frequently bought together with 626-4231 BU115 broom | cat_linked_candidate; needs_individual_verification
