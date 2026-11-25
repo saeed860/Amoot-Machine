@@ -1720,3 +1720,23 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - https://parts.cat.com/en/catcorp/product/258-2552
 
 قطعات 297C-only در فیتمنت 287B وارد نشدند. برای oil pan، engine arrangement و sump؛ برای fan motor، rotation، port و speed؛ برای aftercooler fan، قطر و جهت پره؛ و برای tube و bracket، routing، fitting و mounting pattern باید تطبیق داده شود.
+
+## دور ۵۳ — لوله‌ها و کیت‌های آب‌بندی 297C (25 Nov 2026)
+
+شش شماره جدید از صفحات رسمی Cat Parts Store که 297C را صریحاً در Compatible Models دارند اما 287B را ندارند، به Master و CSV مستقل 297C-only افزوده شدند:
+- 258-3343 — Fluid Carrying Tube Assembly؛ قطر بیرونی 0.5in.
+- 258-2938 — Fluid Carrying Tube Assembly؛ قطر بیرونی 0.63in.
+- 258-3508 — Fluid Carrying Tube Assembly؛ قطر بیرونی 0.5in.
+- 258-3879 — Fluid Carrying Tube Assembly؛ قطر بیرونی 0.5in.
+- 172-5285 — Hydraulic Cylinder Seal Kit؛ کاربردهای مدل 297C و نسل‌های مرتبط، بدون 287B.
+- 164-3213 — Hydraulic Cylinder Seal Kit؛ کاربردهای مدل 297C و نسل‌های مرتبط، بدون 287B.
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/product/258-3343
+- https://parts.cat.com/en/catcorp/product/258-2938
+- https://parts.cat.com/en/catcorp/product/258-3508
+- https://parts.cat.com/en/catcorp/product/258-3879
+- https://parts.cat.com/en/catcorp/product/172-5285
+- https://parts.cat.com/en/catcorp/product/164-3213
+
+این قطعات به فیتمنت 287B تعمیم داده نشدند. برای tube assemblyها، قطر بیرونی، مسیر، اتصالات و فشار مدار؛ برای seal kitها، شماره گروه سیلندر، PIN و نسخه مهندسی کیت باید پیش از سفارش تطبیق داده شود.
