@@ -592,3 +592,8 @@ Ten new sellable catalogue rows were added with exact CAT product images, source
 ## Off Road fuel-system batch — 25 Nov 2026
 
 Eight more public Off Road candidate identifiers were checked against exact Cat Parts Store pages: 134-0467, 8N-7005, 392-0206, 20R-0849, 20R-4179, 324-0532, 375-2647 and 591-2386. Seven were added as catalogue products with official CAT Scene7 images. 134-0467 is retained as a reference-only row because its current CAT page returned a fallback image. Marine tags are based only on explicit CAT Marine Engine / Marine Auxiliary groups; Cat Reman condition is retained as a distinct brand identity. No price or Amoot stock was inferred.
+
+
+## Off Road pump, injector and cooling batch — 25 Nov 2026
+
+Eight additional public Off Road identifiers were checked against exact CAT pages: 4P-9075, 137-5541, 352-0211, 172-7767, 352-0206, 350-0666, 2W-9978 and 8J-6730. Six were added as products with official CAT images; 172-7767 remains reference-only pending exact image retrieval, and 8J-6730 is explicitly discontinued. Marine tags use only CAT's explicit Marine Engine category. CAT Reman alternatives remain distinct identifiers. No price or Amoot stock was inferred.
