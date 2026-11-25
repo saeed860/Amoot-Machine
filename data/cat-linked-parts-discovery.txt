@@ -1342,3 +1342,11 @@ Source pages:
 
 0R-9448 | Cat Reman Engine Oil Pump | Cat Parts Store Reman alternative listing for 4N-0733 | cat_linked_candidate; needs_individual_verification
 0R-5749 | Cat Reman Turbocharger | Cat Parts Store Reman alternative listing for 4W-1434 | cat_linked_candidate; needs_individual_verification
+
+130-6951 | Hydraulic Hammer Paste | Cat Parts Store parts diagram for 532-9206 B6s hammer | cat_linked_candidate; needs_individual_verification
+591-8057 | Grease Gun Mounting Plate (Bracket) | Cat Parts Store parts diagram for 533-6299 track shoe | cat_linked_candidate; needs_individual_verification
+137-2854 | 560mm Long Excavator Swivel Guard Plate | Cat Parts Store parts diagram for 533-6299 track shoe | cat_linked_candidate; needs_individual_verification
+529-0280 | Swing Drive Vent | Cat Parts Store parts diagram for 535-2508 breather cap | cat_linked_candidate; needs_individual_verification
+487-2960 | 5 x 98mm 70A NBR O-Ring | Cat Parts Store parts diagram for 535-2508 breather cap | cat_linked_candidate; needs_individual_verification
+417-6207 | Ultra High Efficiency Hydraulic/Transmission Filter | Cat Parts Store parts diagram for 535-2508 breather cap | cat_linked_candidate; needs_individual_verification
+468-9310 | 6.5 x 553mm 90A NBR O-Ring | Cat Parts Store parts diagram for 535-2508 breather cap | cat_linked_candidate; needs_individual_verification
