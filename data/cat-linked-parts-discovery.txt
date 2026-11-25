@@ -2075,3 +2075,21 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 6V-6923 | 15.86mm Outer Diameter Plastic Backup Ring | 1 | Cat 445-9257 Bronze Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
 
 Source page: https://parts.cat.com/en/catcorp/product/445-9257
+
+
+## Additional Cat C13 in-frame overhaul-kit BOM candidates — batch 118
+
+Source: official Cat Parts Store product page 422-9391, KIT-ENGINE OVERHAUL (IN FRAME), described as Heavy Duty Precious Metals™ Overhaul Kit. Compatible model explicitly shown: TRUCK ENGINE / C13; horsepower range listed as 335, 430, 410, 380. Twenty-three other first-page components were already in the discovery queue or original seed list and are not duplicated. The nine new rows below are official BOM references only; standalone orderability, stock, price, and exact serial/arrangement fitment remain unconfirmed.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+1P-0451 | 1.92mm Thick Turbocharger Gasket | 1 | Cat 422-9391 C13 In-Frame Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+217-3673 | 17.2mm Thick Isolation Seal | 1 | Cat 422-9391 C13 In-Frame Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+221-9392 | Cylinder Head Gasket | 1 | Cat 422-9391 C13 In-Frame Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+223-6546 | M18-2.5 x 170mm Hex Head Bolt | 14 | Cat 422-9391 C13 In-Frame Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+224-5426 | Spiral Wound Exhaust Gasket | 1 | Cat 422-9391 C13 In-Frame Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+224-5445 | 75mm Long Taper Lock Stainless Steel Stud | 1 | Cat 422-9391 C13 In-Frame Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+225-6948 | 2.62 x 47.29mm 75A FKM O-Ring | 2 | Cat 422-9391 C13 In-Frame Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+242-1811 | M16-2 x 220mm Hex Head Bolt | 26 | Cat 422-9391 C13 In-Frame Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+245-9750 | 50mm Length Tapered Stud | 4 | Cat 422-9391 C13 In-Frame Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+
+Source page: https://parts.cat.com/en/catcorp/product/422-9391
