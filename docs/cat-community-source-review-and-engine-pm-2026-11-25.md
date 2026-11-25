@@ -676,3 +676,27 @@ Master برابر 2,718 شماره یکتا، Mirror دقیقاً همسان، C
 ### ممیزی هم‌زمانی پس از دور بیست‌ودوم — 25 Nov 2026
 
 در بازخوانی پس از ثبت دور 22، Master از 3,465 به 3,513 شماره یکتا افزایش یافته بود؛ 48 شماره افزایش‌یافته در این فاصله خارج از سه شماره جدید مستند دور 22 هستند و به batch حاضر نسبت داده نمی‌شوند. Mirror برابر Master و شمارنده Workflow نیز برابر 3,513 تأیید شد. CSV بررسی فیتمنت رسمی به 142 ردیف داده رسیده است.
+
+## دور بیست‌وسوم — کنترل ترمز پارک، شیر هیدرولیک و کلیدهای استارت (25 Nov 2026)
+
+پنج شماره جدید از صفحات رسمی Cat Parts Store با نمایش صریح 287B در Compatible Models به Master و CSV اضافه شد:
+- 218-5805 — Parking Brake Control Manifold Tube Assembly؛ 287B؛ فشار relief تا 28,000 kPa.
+- 216-6157 — Hydraulic Check Valve Compression Spring؛ 287B؛ طول آزاد 23.32mm.
+- 100-4113 — 12 Volt Electric Starting Motor Switch؛ 287B؛ 12V.
+- 142-9320 — Rocker Switch Assembly (12V, Illuminated, Parking Brake)؛ 287B؛ دوحالته، LED سبز و چهار ترمینال.
+- 215-3277 — Hydraulic Valve O-Ring Seal؛ 287B؛ قطر داخلی 0.437in و مقطع 0.07in.
+
+دو قلم دیگر در صفحات Cat نیز تأیید شدند و قبلاً در Master/CSV موجود بودند: 142-9328 — Switch Assembly و 289-3765 — Hydraulic Lift Cylinder Tube Assembly (قطر داخلی 12.58mm). این دو دوباره به‌عنوان ردیف جدید شمرده نشدند.
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/product/218-5805
+- https://parts.cat.com/en/catcorp/product/216-6157
+- https://parts.cat.com/en/catcorp/product/100-4113
+- https://parts.cat.com/en/catcorp/product/142-9320
+- https://parts.cat.com/en/catcorp/product/215-3277
+- https://parts.cat.com/en/catcorp/product/142-9328
+- https://parts.cat.com/en/catcorp/product/289-3765
+
+برای لوله ترمز، مسیر و اتصالات manifold؛ برای فنر و O-ring، محل نصب و مشخصات شیر؛ و برای کلیدها، ولتاژ، pinout و پنل واقعی باید کنترل شود. این تأیید فقط حضور مدل 287B در فهرست Compatible Models را ثبت می‌کند و به معنی تضمین تناسب همه شماره‌سریال‌ها نیست.
+
+Mirror از Master جاری بازسازی و شمارنده Workflow با تعداد خطوط Master تنظیم شد. CSV پنج ردیف جدید این دور را ثبت می‌کند.
