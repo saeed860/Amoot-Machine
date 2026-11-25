@@ -2332,3 +2332,10 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - https://parts.cat.com/en/catcorp/product/198-1076
 
 برای این kit، نوع pilot valve، شماره گروه، جهت نصب و serial range باید با Parts Diagram دستگاه تطبیق داده شود؛ فیتمنت 287B به‌تنهایی تطبیق نهایی گروه شیر را تضمین نمی‌کند.
+
+
+## دور ۷۶ — 25 Nov 2026
+
+- 036-1865 — Zinc Plated Heat Exchanger Radiator Cap؛ صفحه رسمی Cat Parts Store مدل‌های 287B و 297C را صریحاً فهرست می‌کند. شماره از قبل در Master بود و ردیف فیتمنت آن به CSV رسمی 287B افزوده شد.
+- مشخصات سفارش باید با فشار نامی، ابعاد دهانه و آرایش سیستم خنک‌کاری تطبیق داده شود.
+- منبع رسمی: https://parts.cat.com/en/catcorp/product/036-1865
