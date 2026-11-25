@@ -2709,3 +2709,22 @@ Source page: https://parts.cat.com/en/catcorp/product/324-8849
 ## Cat 324-8854 D399 soft-parts overhaul kit — no BOM rows published (batch 162)
 
 Source: official Cat Parts Store product page https://parts.cat.com/en/catcorp/product/324-8854. Compatible models explicitly shown: GEN SET ENGINE / D399; MARINE ENGINE / D399; INDUSTRIAL ENGINE / D399. The current official page states there are currently no parts associated with this kit and directs users to the dealer for information. Related/frequently-bought items are not treated as kit contents. No component part numbers were inferred or added.
+
+
+## Additional Cat 3208 marine multiple-cylinder-head kit BOM candidates — batch 163
+
+Source: official Cat Parts Store product page 242-9847, Multiple Cylinder Head Kit. Compatible model explicitly shown: MARINE ENGINE / 3208. Cat describes the kit as gaskets and seals to rebuild/reinstall multiple cylinder heads; injector seals are not included and must be ordered separately as needed. Two other listed components were already present in the queue or original seed list and are not duplicated. The ten new rows below are official BOM references only; verify the exact 3208 serial/arrangement before ordering.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+107-2517 | Exhaust Manifold End Gasket | 2 | Cat 242-9847 3208 Marine Multiple Cylinder Head Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+118-8586 | 3.53 x 40.87mm 78A HNBR O-Ring | 4 | Cat 242-9847 3208 Marine Multiple Cylinder Head Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+125-8486 | Exhaust Manifold Gasket | 4 | Cat 242-9847 3208 Marine Multiple Cylinder Head Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+6F-4855 | 13.94mm Inner Diameter O-Ring Seal | 8 | Cat 242-9847 3208 Marine Multiple Cylinder Head Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+7W-2059 | 1.55mm Thick Cylinder Head Group Gasket | 2 | Cat 242-9847 3208 Marine Multiple Cylinder Head Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+7X-4745 | 1.78 x 63.22mm 75A FKM O-Ring | 1 | Cat 242-9847 3208 Marine Multiple Cylinder Head Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+9L-7630 | 1.08mm Thick Air Inlet Gasket | 2 | Cat 242-9847 3208 Marine Multiple Cylinder Head Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+9L-8020 | 2.36mm Thick Valve Train Cover Gasket | 2 | Cat 242-9847 3208 Marine Multiple Cylinder Head Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+9L-8027 | 0.38mm Thick Exhaust Manifold Gasket | 2 | Cat 242-9847 3208 Marine Multiple Cylinder Head Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+9N-0237 | 0.79mm Thick Water Lines Gasket | 1 | Cat 242-9847 3208 Marine Multiple Cylinder Head Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+
+Source page: https://parts.cat.com/en/catcorp/product/242-9847
