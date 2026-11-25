@@ -1660,3 +1660,21 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - https://parts.cat.com/en/catcorp/product/261-6111
 
 برای 551-4677، محتویات کیت و سری ساخت باید با فروشنده رسمی تأیید شود. برای loop clip، قطر بست و محل نصب؛ برای hose، فشار کاری، coupling و مسیر؛ برای water pump و oil pan، engine arrangement و PIN؛ و برای bogie wheel plate و hydraulic parts، ابعاد، group و شماره سریال دستگاه باید تطبیق داده شوند.
+
+## دور ۵۰ — تکمیل قطعات 297C-only (25 Nov 2026)
+
+پنج شماره جدید از صفحات رسمی Cat Parts Store که 297C را صریحاً در Compatible Models دارند اما 287B را ندارند، به Master و CSV مستقل 297C-only افزوده شدند:
+- 258-3790 — Seal؛ فیتمنت 297C، 287C و 277C و مدل‌های مرتبط.
+- 258-3084 — Track Seal Washer Type؛ قطر بیرونی 385.75mm؛ فیتمنت 297C و مدل‌های نسل C/D، بدون 287B.
+- 258-2732 — Fuel Tank Guard Assembly؛ فیتمنت 297C و مدل‌های مرتبط نسل C/D، بدون 287B.
+- 134-2827 — Custom Length CM Seal؛ فیتمنت 297C، 287C و 277C، بدون 287B.
+- 258-3549 — Bracket Assembly؛ فیتمنت 297C، 287C و 277C، بدون 287B.
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/product/258-3790
+- https://parts.cat.com/en/catcorp/product/258-3084
+- https://parts.cat.com/en/catcorp/product/258-2732
+- https://parts.cat.com/en/catcorp/product/134-2827
+- https://parts.cat.com/en/catcorp/product/258-3549
+
+این پنج شماره به‌عنوان فیتمنت 287B ثبت نشدند. برای sealها، ابعاد groove، مقطع، جنس و محل نصب؛ برای fuel tank guard و bracket، نسخه مخزن و الگوی اتصال باید با PIN و Parts Diagram تطبیق داده شود.
