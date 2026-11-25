@@ -1480,3 +1480,18 @@ Source pages:
 5P-5374 | 1.6mm Thick Rubber Seal | Cat Parts Store parts diagram for 7T-8555 minor bogie | cat_linked_candidate; needs_individual_verification
 115-2367 | 181.28mm Long Exhaust Valve | Cat Parts Store related to 7W-2225 cylinder head assembly | cat_linked_candidate; needs_individual_verification
 115-2368 | 181.28mm Long Groove End Inlet Valve | Cat Parts Store related to 7W-2225 cylinder head assembly | cat_linked_candidate; needs_individual_verification
+
+4J-0524 | 3.53 x 47.22mm 90A NBR O-Ring | Cat Parts Store frequently bought together with 8R-7036 universal joint spider | cat_linked_candidate; needs_individual_verification
+4J-0522 | 3.53 x 37.69mm 90A NBR O-Ring | Cat Parts Store frequently bought together with 8R-7036 universal joint spider | cat_linked_candidate; needs_individual_verification
+6G-6500 | 176 Teeth External Spline Damper | Cat Parts Store frequently bought together with 8W-0212 brake outer plate | cat_linked_candidate; needs_individual_verification
+6M-9155 | 4.78mm Outer Diameter Solid Dowel Pin | Cat Parts Store frequently bought together with 8W-0212 brake outer plate | cat_linked_candidate; needs_individual_verification
+6V-2772 | 911.5mm Inner Diameter O-Ring Seal | Cat Parts Store frequently bought together with 8W-0212 brake outer plate | cat_linked_candidate; needs_individual_verification
+123-7274 | 768.40mm Purple Color Ring Seal | Cat Parts Store frequently bought together with 8W-0212 brake outer plate | cat_linked_candidate; needs_individual_verification
+123-7275 | 816.88mm Purple Color Ring Seal | Cat Parts Store frequently bought together with 8W-0212 brake outer plate | cat_linked_candidate; needs_individual_verification
+6V-7959 | 91.95mm Internal Diameter Self Aligning Race | Cat Parts Store parts diagram for 8X-9620 ball stud | cat_linked_candidate; needs_individual_verification
+5T-6809 | Rubber Steering Cylinder Dust Cover | Cat Parts Store parts diagram for 8X-9620 ball stud | cat_linked_candidate; needs_individual_verification
+5T-6503 | 156mm Diameter Plug | Cat Parts Store parts diagram for 8X-9620 ball stud | cat_linked_candidate; needs_individual_verification
+4J-0520 | 3.53 x 32.92mm 90A NBR O-Ring | Cat Parts Store parts diagram for 8X-9620 ball stud | cat_linked_candidate; needs_individual_verification
+5P-2060 | 12.38mm Inner Diameter Round Seal | Cat Parts Store frequently bought together with 9N-3246 fuel injection nozzle | cat_linked_candidate; needs_individual_verification
+2W-3390 | Fuel Injection Valve Body | Cat Parts Store frequently bought together with 9N-3246 fuel injection nozzle | cat_linked_candidate; needs_individual_verification
+3S-1223 | 5.33 x 145.42mm 75A NBR O-Ring | Cat Parts Store parts diagram for 9P-9990 retainer | cat_linked_candidate; needs_individual_verification
