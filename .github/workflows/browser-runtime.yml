@@ -68,7 +68,7 @@ jobs:
               page.on('pageerror', e => errors.push(e.message));
               try {
                 const response = await page.goto('http://127.0.0.1:4173/?scripts='+mode, {waitUntil:'domcontentloaded',timeout:8000});
-                const state = await page.evaluate(() => ({ready:document.readyState,products:document.querySelectorAll('#productGrid .product').length,title:document.title}));
+                const state = await page.evaluate(() => ({ready:document.readyState,products:document.querySelectorAll('#productGrid .product').length,catalogGroups:document.querySelectorAll('#productGrid .product-category-section').length,catalogTotal:Number((document.querySelector('#catalogMeta')?.textContent||'').replace(/[۰-۹]/g,d=>'۰۱۲۳۴۵۶۷۸۹'.indexOf(d)).replace(/[^0-9]/g,'')),title:document.title}));
                 checks.push({mode,http:response?.status(),state,errors});
                 if (state.blocked) { await page.close({runBeforeUnload:false}); break; }
                 await page.close();
@@ -76,7 +76,7 @@ jobs:
             }
             console.log(JSON.stringify(checks,null,2));
             const full = checks.find(x=>x.mode==='all');
-            if (!full || full.state?.blocked || !['interactive','complete'].includes(full.state?.ready) || full.state?.products<500 || full.errors?.length) throw new Error('Full storefront failed startup test');
+            if (!full || full.state?.blocked || !['interactive','complete'].includes(full.state?.ready) || full.state?.catalogTotal<500 || full.state?.catalogGroups<1 || full.state?.products<1 || full.errors?.length) throw new Error('Full storefront failed startup test');
 
             // Verify that the homepage search bar routes to the full parts catalog.
             const homeSearchPage = await browser.newPage();
