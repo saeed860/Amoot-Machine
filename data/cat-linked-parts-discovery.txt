@@ -2271,3 +2271,31 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 215-9090 | ORFS To STOR 90 Degree Elbow Adapter | 1 | Cat 350-2187 3512B Tier 1-to-Tier 2 Standard Stroke Conversion Kit BOM; arrangement 236-2459 to 282-9664 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
 
 Source page: https://parts.cat.com/en/catcorp/product/350-2187
+
+
+## Additional Cat 3512B Tier-1-to-Tier-2 standard-stroke conversion-kit BOM candidates — batch 128
+
+Source: official Cat Parts Store product page 350-2184, 3512 Tier 2 Engine Upgrade Kit. The page describes a 3512B Tier 1-to-Tier 2 Standard Stroke conversion from arrangement 232-2507 to 320-0275, intended for use with an engine overhaul. Compatible model shown: MARINE ENGINE / 3512B. Thirteen other first-page components were already recorded in batch 127, batch 124, or the seed list and are not duplicated. The nineteen new rows below are arrangement-specific conversion-kit components, not generic replacement recommendations.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+228-7103 | 2.1 x 15.4mm 90A FKM O-Ring | 2 | Cat 350-2184 3512B Tier 1-to-Tier 2 Standard Stroke Conversion Kit BOM; arrangement 232-2507 to 320-0275 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
+276-4666 | 4.5mm Thick Spiral Wound Gasket | 2 | Cat 350-2184 3512B Tier 1-to-Tier 2 Standard Stroke Conversion Kit BOM; arrangement 232-2507 to 320-0275 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
+284-1596 | Bracket Assembly | 1 | Cat 350-2184 3512B Tier 1-to-Tier 2 Standard Stroke Conversion Kit BOM; arrangement 232-2507 to 320-0275 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
+281-6009 | 6mm Thick Engine Air Lines Mounting Bracket | 1 | Cat 350-2184 3512B Tier 1-to-Tier 2 Standard Stroke Conversion Kit BOM; arrangement 232-2507 to 320-0275 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
+282-4141 | 12.58mm Inner Diameter Turbocharger Oil Lines Tube | 1 | Cat 350-2184 3512B Tier 1-to-Tier 2 Standard Stroke Conversion Kit BOM; arrangement 232-2507 to 320-0275 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
+282-4142 | Tube Assembly | 1 | Cat 350-2184 3512B Tier 1-to-Tier 2 Standard Stroke Conversion Kit BOM; arrangement 232-2507 to 320-0275 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
+282-4144 | Tube | 1 | Cat 350-2184 3512B Tier 1-to-Tier 2 Standard Stroke Conversion Kit BOM; arrangement 232-2507 to 320-0275 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
+282-4134 | Turbocharger Water Lines Tube Assembly | 1 | Cat 350-2184 3512B Tier 1-to-Tier 2 Standard Stroke Conversion Kit BOM; arrangement 232-2507 to 320-0275 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
+282-4165 | Adapter | 1 | Cat 350-2184 3512B Tier 1-to-Tier 2 Standard Stroke Conversion Kit BOM; arrangement 232-2507 to 320-0275 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
+308-6822 | 15.75mm ID Turbocharger Water Line Tube | 1 | Cat 350-2184 3512B Tier 1-to-Tier 2 Standard Stroke Conversion Kit BOM; arrangement 232-2507 to 320-0275 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
+227-0056 | M18 x 1 90 Degree Elbow Adapter | 2 | Cat 350-2184 3512B Tier 1-to-Tier 2 Standard Stroke Conversion Kit BOM; arrangement 232-2507 to 320-0275 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
+338-7520 | Air Pipe (Left Hand) | 1 | Cat 350-2184 3512B Tier 1-to-Tier 2 Standard Stroke Conversion Kit BOM; arrangement 232-2507 to 320-0275 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
+8J-5985 | 3/8-16 x 12 3/8 Hex Head Bolt | 10 | Cat 350-2184 3512B Tier 1-to-Tier 2 Standard Stroke Conversion Kit BOM; arrangement 232-2507 to 320-0275 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
+7N-6986 | Engine Exhaust Manifold Support | 1 | Cat 350-2184 3512B Tier 1-to-Tier 2 Standard Stroke Conversion Kit BOM; arrangement 232-2507 to 320-0275 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
+6V-1868 | Single Half Bottom Clip | 3 | Cat 350-2184 3512B Tier 1-to-Tier 2 Standard Stroke Conversion Kit BOM; arrangement 232-2507 to 320-0275 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
+6V-9350 | 1in Bulkhead Tee Adapter | 1 | Cat 350-2184 3512B Tier 1-to-Tier 2 Standard Stroke Conversion Kit BOM; arrangement 232-2507 to 320-0275 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
+6V-8716 | 38.10mm Hexagonal Plate Steel Straight Adapter | 1 | Cat 350-2184 3512B Tier 1-to-Tier 2 Standard Stroke Conversion Kit BOM; arrangement 232-2507 to 320-0275 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
+285-8436 | Air Inlet Cover | 1 | Cat 350-2184 3512B Tier 1-to-Tier 2 Standard Stroke Conversion Kit BOM; arrangement 232-2507 to 320-0275 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
+9L-2295 | 3/8-16 x 1 1/2 Hex Head Bolt | 12 | Cat 350-2184 3512B Tier 1-to-Tier 2 Standard Stroke Conversion Kit BOM; arrangement 232-2507 to 320-0275 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
+
+Source page: https://parts.cat.com/en/catcorp/product/350-2184
