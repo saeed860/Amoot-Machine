@@ -2618,3 +2618,11 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - دو مورد 258-3894 و 258-3465 از CSV 287B حذف و به CSV مستقل 297C-only منتقل شدند؛ این اصلاح بر اساس Compatible Models رسمی Cat است.
 - منابع رسمی: https://parts.cat.com/en/catcorp/product/258-3894 ؛ https://parts.cat.com/en/catcorp/product/258-3465 ؛ https://parts.cat.com/en/catcorp/product/258-3356 ؛ https://parts.cat.com/en/catcorp/product/258-3591
 - وضعیت شمارنده: 4373 شماره یکتا؛ Mirror برابر Master؛ Workflow برابر 4373.
+
+
+## دور ۹۹ — 25 Nov 2026
+
+- 258-3849 — Homologation Identification Plate؛ صفحه رسمی Cat مدل 297C را فهرست می‌کند و 287B را ندارد؛ پلاک تأیید نوع به سه زبان آلمانی/ایتالیایی/انگلیسی است؛ زبان، مقادیر وزن محور و بازار/نسخه دستگاه باید تطبیق داده شود.
+- شماره 258-3849 به Master و CSV مستقل 297C-only افزوده شد.
+- منبع رسمی: https://parts.cat.com/en/catcorp/product/258-3849
+- وضعیت شمارنده: 4374 شماره یکتا؛ Mirror برابر Master؛ Workflow برابر 4374.
