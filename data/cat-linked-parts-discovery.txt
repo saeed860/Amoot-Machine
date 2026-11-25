@@ -3368,3 +3368,21 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 9X-3595 | 130mm OD Hydraulic Cylinder Piston Seal | 1 | Cat 233-0761 320L/M320 Hydraulic Boom Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_specific
 
 Source page: https://parts.cat.com/en/catcorp/product/233-0761
+
+
+## Additional Cat 994F/994H wheel-loader hydraulic-cylinder seal-kit BOM candidates — batch 198
+
+Source: official Cat Parts Store product page 416-1420, Hydraulic Cylinder Seal Kit - Standard Size. Compatible models explicitly shown: WHEEL LOADER / 994F, 994H. Cat specifies standard nominal bore sizing up to 0.25mm (0.010in) max and application-specific cylinder-group matching. All nine listed BOM references were new to the discovery queue and original seed list. Confirm the correct 994 tilt-cylinder group and dimensions before ordering.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+157-7244 | 258.46mm Inner Diameter Backup Ring | 1 | Cat 416-1420 994F/994H Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+167-2230 | Tilt Cylinder Buffer Seal | 1 | Cat 416-1420 994F/994H Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+167-2415 | 142.34mm ID Tilt Cylinder Rod Seal | 1 | Cat 416-1420 994F/994H Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+192-1455 | 266.7mm Bore Diameter Two Piece Seal | 1 | Cat 416-1420 994F/994H Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+225-3295 | Tilt Cylinder Rod Double Lip Wiper Seal | 1 | Cat 416-1420 994F/994H Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+229-9443 | Cat Wear Ring | 1 | Cat 416-1420 994F/994H Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+5P-2236 | 278.76mm Inner Diameter O-Ring Seal | 1 | Cat 416-1420 994F/994H Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+8C-9102 | 165mm Inner Diameter Wear Ring | 1 | Cat 416-1420 994F/994H Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+8L-9241 | 253.36mm Inside Diameter Seal-O-Ring | 1 | Cat 416-1420 994F/994H Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+
+Source page: https://parts.cat.com/en/catcorp/product/416-1420
