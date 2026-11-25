@@ -1164,3 +1164,22 @@ Mirror از Master جاری بازسازی و شمارنده Workflow با تع�
 ### ممیزی هم‌زمانی پس از دور سی‌ونهم — 25 Nov 2026
 
 در کنترل نهایی، Master از 3851 به 3860 شماره یکتا رسیده است. سه شماره دور 39 در Master/CSV ثبت شده‌اند؛ شش شماره افزایش‌یافته دیگر در فاصله عملیات، هم‌زمان و خارج از batch جاری بوده‌اند و به دور 39 نسبت داده نمی‌شوند. CSV اکنون 266 ردیف داده دارد.
+
+
+## دور چهلم — خنک‌کاری، فن هیدرولیک و پاک‌کن آیدلر (25 Nov 2026)
+
+پنج شماره جدید از صفحات رسمی Cat Parts Store با نمایش صریح 287B در Compatible Models به Master و CSV اضافه شد:
+- 246-8314 — Thermostat Housing؛ بدنه آلومینیومی محفظه ترموستات؛ 287B و 297C.
+- 203-4827 — 7 Blade Oil Cooler Fan؛ فن هفت‌پره با چرخش پادساعت‌گرد؛ 287B.
+- 238-7698 — Idler Rear Scraper؛ پاک‌کن عقب چرخ آیدلر برای دفع گل و ذرات؛ 287B و 287.
+- 230-3726 — 18mm Inner Diameter Shaft Seal؛ آب‌بند شفت موتور فن هیدرولیک؛ 287B.
+- 230-3686 — Lip Type Seal Group؛ گروه آب‌بند لبه‌ای موتور فن؛ 287B.
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/product/246-8314
+- https://parts.cat.com/en/catcorp/product/203-4827
+- https://parts.cat.com/en/catcorp/product/238-7698
+- https://parts.cat.com/en/catcorp/product/230-3726
+- https://parts.cat.com/en/catcorp/product/230-3686
+
+پیش از سفارش، برای housing شماره سریال و خانواده موتور؛ برای فن جهت چرخش و فن‌درایو؛ برای scraper گروه idler و محل نصب؛ و برای sealها قطر شفت، قطر نشیمن، عرض و جهت نصب تطبیق داده شود. قطعه 230-3726 با قطر شفت 18mm و عرض 8mm معرفی شده است.
