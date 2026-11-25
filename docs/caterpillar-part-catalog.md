@@ -1113,3 +1113,34 @@ The project records 1R-0716 as a CAT official-document reference, not a serial-s
 A later search located the exact official Cat Parts Store product page for [1R-0716](https://parts.cat.com/in/catcorp/product/1R-0716). It identifies the part as **Engine Lube Oil Filter**, Standard Efficiency, spin-on, diameter **5.346 in**, length **12.177 in**, flow Out-to-In. The Compatible Models list includes a distinct **Marine Engine** group, including 3516, 3196, C12/C-12, C18, 3408B/C, 3406B/C/E, 3306B, C32B, 3176C/B, C30, C32/C32 MARINE, 3412C, 3304, 3412E/D and other model classes, as well as non-marine machine/engine groups. Therefore 1R-0716 is **BOTH at published model-class level**; exact serial and Arrangement are still required.
 
 This exact Cat page supersedes the earlier note that no current exact product page had been located. The separately documented Cat upgrade relationship remains: Cat's 2015 publication identifies 1R-1808 as the approved upgrade option for equipment using 1R-0716. It is not a blanket serial-specific replacement guarantee.
+
+
+## Final Marine/Land classification correction and sellable filter products — 25 Nov 2026
+
+The full Compatible Models sections were rechecked on the exact Cat Parts Store pages. Earlier abbreviated search snippets omitted some Marine Engine sections. The classifications below supersede any earlier provisional note that these parts had no Marine Engine group.
+
+| CAT part number | CAT Marine Engine group explicitly present | Amoot application tag |
+|---|---|---|
+| 1R-0716 | 3516, 3196, C12/C18, 3408B/C, 3406B/C/E, C32 and additional families | BOTH |
+| 1R-0739 | 3116, 3306B, 3304, 3306, 3304B | BOTH |
+| 1R-0749 | 3196, C12/C18, 3176, 3408B/C, 3406B/C/E and additional families | BOTH |
+| 1R-0750 | C12, 3116, 3208, 3306B, 3304, C9 | BOTH |
+| 1R-0751 | 3126B, 3126, 3116, C9, C7 | BOTH |
+| 1R-0762 | No Marine or Marine Engine group in retrieved CAT page | LAND |
+| 1R-1807 | 3126B, 3116, 3306B, 3304, 3306, 3304B, C7 | BOTH |
+| 1R-1808 | Marine Engine group exists (including 3196, 3176C, C32 Marine, C9, C18 Marine, C12 and others) | BOTH |
+| 1G-8878 | No distinct Marine Engine group; a C13 MARINE string appears under Paving Compactor and is not treated as a Marine Engine category | UNVERIFIED |
+| 326-1644 | 3406B | BOTH |
+| 360-8960 | C7.1 | BOTH |
+| 7W-2326 | C4.4, 3054 | BOTH |
+
+BOTH means CAT's page lists at least one Marine Engine application and other non-marine machine/engine classes. It is a model-class classification only, not a serial-specific fitment guarantee. Exact serial number and Arrangement remain mandatory before confirming compatibility.
+
+### Product catalogue result
+
+Ten additional products were inserted into public.products with genuine Cat Scene7 product images, CAT source links, zero Amoot stock and NULL price pending price-type validation. Existing CAT-1R-0749 and CAT-1R-1808 products were retained and their application tags corrected to BOTH. The 1R-0716 upgrade relationship is preserved as an approved CAT upgrade option, not a blanket interchange.
+
+New product SKUs:
+CAT-1G-8878, CAT-1R-0716, CAT-1R-0739, CAT-1R-0750, CAT-1R-0751, CAT-1R-0762, CAT-1R-1807, CAT-326-1644, CAT-360-8960, CAT-7W-2326.
+
+No price or stock was invented. The two existing products retain their separately audited independent-seller price references. Off Road's unclassified detail-capture amounts are preserved internally and were not applied as public prices.
