@@ -37,4 +37,4 @@ Inline Filters warns that its cross-reference and application data are guides an
 
 ## Database
 
-One CAT product was added/upserted in `public.part_catalog` and `public.products`; no price was invented and stock remains zero. Sixteen secondary cross-reference rows were added for CAT 417-6203 and 222-6713.
+One CAT product was added/upserted in `public.part_catalog` and `public.products`; no price was invented and stock remains zero. Seventeen secondary cross-reference rows were added for CAT 417-6203 and 222-6713.
