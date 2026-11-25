@@ -880,3 +880,21 @@ Mirror از Master جاری بازسازی و شمارنده Workflow با تع�
 ### ممیزی هم‌زمانی پیش از دور سی‌ام — 25 Nov 2026
 
 در شروع ثبت دور 30، Master نسبت به ممیزی نهایی دور 29 از 3,602 به 3,648 شماره یکتا رسیده بود؛ 46 شماره افزایش‌یافته پیش از batch این دور وجود داشتند و به دور 30 نسبت داده نمی‌شوند. پنج شماره مستند دور 30 سپس اضافه شدند و شمارش Master به 3,653 رسید. Mirror و شمارنده Workflow با Master جاری همگام شدند؛ CSV شامل ردیف‌های بررسی‌شده دور 30 است.
+
+## دور سی‌ویکم — متعلقات مکانیکی quick coupler (25 Nov 2026)
+
+چهار شماره جدید از صفحات رسمی Cat Parts Store با نمایش صریح 287B در Compatible Models به Master و CSV اضافه شد:
+- 319-2137 — Coupler Mounting Bracket؛ براکت چدنی داکتیل، ابعاد 109 × 62.1 × 30mm.
+- 5B-0651 — 11.11mm Hex Size Straight Grease Adapter؛ گریس‌خور مستقیم برای نقاط روانکاری.
+- 192-2640 — Cylinder Group (Quick Coupler)؛ کورس 103.5mm، فشار کاری 23,500kPa و پورت 9/16-18.
+- 207-9785 — 43.50mm Long Clevis Pin؛ پین cross-hole با طول 1.555in و قطر 0.374in.
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/product/319-2137
+- https://parts.cat.com/en/catcorp/product/5B-0651
+- https://parts.cat.com/en/catcorp/product/192-2640
+- https://parts.cat.com/en/catcorp/product/207-9785
+
+پیش از سفارش، خانواده کوپلر، جهت و سوراخ‌های براکت، رزوه گریس‌خور، ابعاد pin-to-pin و پورت‌های سیلندر، و روش قفل‌کردن پین باید با قطعه نصب‌شده و شماره سریال دستگاه تطبیق داده شود. 206-0828 در صفحه Cat برای مدل 287B فیتمنت نداشت و در این batch ثبت نشد.
+
+Mirror از Master جاری بازسازی و شمارنده Workflow با تعداد خطوط Master تنظیم شد.
