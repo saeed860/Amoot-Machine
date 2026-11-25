@@ -2,7 +2,7 @@
 
 ## 63-part extraction batch (50-row checkpoint + 13 spillover)
 
-63 distinct CAT part numbers were added across sub-batches AB1–AB7. The 50-row threshold was reached after AB6; 13 additional records were committed during the final category pass before this checkpoint was finalized. Records were inserted/upserted in `public.part_catalog` and `public.products`.
+63 distinct CAT part numbers were processed across sub-batches AB1–AB7. The 50-row threshold was reached after AB6; 13 additional records were processed during the final category pass before this checkpoint was finalized. At database level this run added 13 net new product rows and 13 net new part-catalog rows; the remaining entries enriched or revalidated existing catalog records. Records were inserted/upserted in `public.part_catalog` and `public.products`.
 
 ## Part numbers
 
