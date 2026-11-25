@@ -1970,3 +1970,41 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - https://parts.cat.com/en/catcorp/product/258-4379
 
 برای kit heater، گزینه‌های کابین، لوله‌کشی، duct، louver و محل نصب باید با PIN تطبیق داده شوند؛ برای clamp knob نیز رزوه و interface فرمان بررسی شود.
+
+## دور ۶۵ — قطعات شاسی، زیر‌بندی، seal kit و متعلقات (25 Nov 2026)
+
+از صفحات رسمی Cat Parts Store این فیتمنت‌ها تکمیل شدند:
+
+**287B (در CSV رسمی 287B):**
+- 164-9989 — FILM؛ صفحه رسمی هر دو مدل 287B و 297C را فهرست می‌کند.
+- 231-7161 — PLUG - GP؛ فیتمنت 287B.
+- 305-9256 — KIT-UNDERCARRIAGE؛ فیتمنت 287B؛ صفحه رسمی ۱۲ قلم و تعدادهای هر قلم را نمایش می‌دهد؛ محتویات و ترکیب زیر‌بندی باید با دستگاه تطبیق داده شود.
+- 301-7293 — SERVICE MTR KIT؛ فیتمنت 287B؛ صفحه Cat توضیح و محتویات کیت را ارائه نمی‌کند، بنابراین سفارش/فروش تا تأیید محتوای کیت از Dealer مجاز نیست.
+- 238-7710 — FRAME AS.-RH؛ فیتمنت 287B.
+- 119-1414 — SCREEN؛ فیتمنت 287B.
+
+**فقط 297C (در CSV مستقل):**
+- 105-9411 — SUPPORT؛ صفحه رسمی 297C را دارد اما 287B را ندارد.
+- 139-6039 — NUT؛ صفحه رسمی 297C را دارد اما 287B را ندارد.
+
+**موارد کنارگذاشته‌شده از ثبت سفارش‌پذیر:**
+- 218-6996 — FITTING AS؛ صفحه Cat صریحاً Discontinued و Contact your dealer for replacement options اعلام می‌کند؛ به Master و فهرست قابل سفارش افزوده نشد.
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/product/164-9989
+- https://parts.cat.com/en/catcorp/product/157-4835
+- https://parts.cat.com/en/catcorp/product/238-7722
+- https://parts.cat.com/en/catcorp/product/231-7161
+- https://parts.cat.com/en/catcorp/product/218-6996
+- https://parts.cat.com/en/catcorp/product/253-6949
+- https://parts.cat.com/en/catcorp/product/305-9256
+- https://parts.cat.com/en/catcorp/product/239-5010
+- https://parts.cat.com/en/catcorp/product/301-7293
+- https://parts.cat.com/en/catcorp/product/238-7710
+- https://parts.cat.com/en/catcorp/product/218-6824
+- https://parts.cat.com/en/catcorp/product/139-6039
+- https://parts.cat.com/en/catcorp/product/119-1414
+- https://parts.cat.com/en/catcorp/product/199-2129
+- https://parts.cat.com/en/catcorp/product/105-9411
+
+هشدار فنی: برای Hydraulic Cylinder Seal Kitهای 253-6949 و 218-6824، صفحه Cat می‌گوید کاربرد کیت وابسته به شماره Cylinder Group است؛ بنابراین Compatible Models به‌تنهایی برای انتخاب seal kit کافی نیست. برای 305-9256 باید اجزای کیت، تعداد track rollers/idlers/sleeves و track belt با زیر‌بندی واقعی تطبیق یابد. برای قطعات شاسی و screen، سمت نصب، ابعاد، سوراخ‌کاری و PIN ضروری است.
