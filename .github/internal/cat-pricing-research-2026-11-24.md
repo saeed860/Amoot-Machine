@@ -4773,3 +4773,37 @@ Post-update verification: all ten SKUs exist with Cat official item-page evidenc
 Two additional related-parts leads found on Cat's 205-8421 page: 210-1471 and 7C-7677. They remain discovery candidates, not fitment proof.
 
 Overall reviewed progress: 82/500 batches = 820/5,000 product target (16.4%). Original Cat seed list 787/787 complete; discovery-derived products individually verified and inserted/updated: 33. Remaining target: 4,180 products.
+
+## Batch 83/500 — Cat-linked discovery candidates 31–40 (2026-11-25)
+
+Ten pending leads were checked on their own official Cat Parts Store item pages. Nine new rows were inserted; 0R-9668 already existed and was updated with official Cat Reman evidence. All ten records were re-queried after writes, and compatible-model arrays were deduplicated.
+
+Verified:
+- 0R-9668 — Cat Reman 3500 Valve Lifter. Existing record updated; brand/condition kept as Cat Reman. Cat lists 3608/3606/C280-16/3616 genset-engine, 3616/3612/C280-16/C280-12/C280-6/C280-8 marine, 3608 marine auxiliary, G3606B industrial, C280-16 industrial, C280-12 petroleum, 3612 locomotive and G3608/G3612/G3616 gas-engine fitment. Cat says specifications are still being added. 12 distinct model labels.
+- 230-3728 — 32.99mm ID Fuel System Seal. FKM 90A, PTFE plastic; cross-section 0.103in, ID 1.299in, dash size 125. Cat says fuel-system seal, with materials selected for fuel fluids/temperatures/pressures. 35 compatible labels normalized from visible categories, including SR4/SR5, C11/C13/C15/C16/C18/3406E, 621/623/627/637/651 wheel tractor-scrapers, MD6310/MD6200/MD6250, AD22, 349/374/385/390 excavators, R1600/R1700/R2900 LHDs, 3500/C27/C32 petroleum engines, D8/D10/D11, 793/797 trucks and 6000-series shovels.
+- 10R-0823 — Cat Reman Turbocharger. Brand explicitly corrected to Cat Reman. Cat specs 13.4in length ×17in height; fitment C-9 engine-machine/industrial engine, 637G/637D wheel scrapers, 330C L/330C LN excavators and 330C mobile hydraulic power unit. 6 distinct labels.
+- 450-9233 — Gear & Case Group-Transfer. Cat lists articulated trucks 735B/740B and ejector truck 740B. Page displays 20R-9567 Cat Reman Transfer Gear as a compare-alternate item; this is not proof of universal interchangeability. Material field shows acrylic adhesive. 2 distinct fitment labels.
+- 130-3212 — Advanced Efficiency Hydraulic/Transmission Oil Filter. 3.0in diameter ×9.52in length, Out-to-In, Advanced High Efficiency, Spin-On, carbon steel/mixed metal-nonmetal. 27 labels across D11T/D10T, RM-350B, AD60/AD55/AD30, 725/730/735/740 trucks, SM-350, 69D/773E/773D/769D/775E, 771D/775D and 773. Cat compares 126-1814 Ultra High Efficiency Hydraulic Filter and explicitly says that UHE filter is not for transmission applications.
+- 1H-6227 — 101.19mm ID NBR 75A O-ring, dash 242. Cross-section 0.139in, ID 3.984in, NBR rubber, hardness 75A. 39 visible compatible labels partially normalized across integrated toolcarriers, wheel tractor-scrapers, skidders and mini excavators.
+- 6V-9746 — 1.78 ×18.94mm 90A NBR O-ring. Cross-section 0.07in (1.78mm), ID 0.746in (18.94mm), ORFS seal, fitting size 1-3/16–12, NBR and PTFE plastic, 90A. 31 visible compatible labels partially normalized across toolcarriers, wheel harvesters, grapples and drills.
+- 242-4100 — Valve Mechanism Cover Seal. FKM rectangular seal, thickness 0.09in. Cat says FKM service range -40 to 150°C, resistant to air, fuels including biodiesel, lubricants and oils, but not for water/coolant service. 19 compatible labels across C175-16/C175-20 engines/gensets and 795F/797/793F/794/798 truck families.
+- 228-7100 — 9.4mm ID Seal-O-Ring. FKM 90A, cross-section 0.083in, ID 0.37in (9.4mm), PTFE plastic. 45 visible compatible labels partially normalized across generators, toolcarriers, wheel tractor-scrapers, skidders, compactors, drills and mini excavators.
+- 448-3228 — 97.90mm Long Floating Bridge Rocker Arm. Cat says rocker-arm bridge helps open/close engine valves. Specs length 2.6in, height 4.2in, low-alloy steel. 18 labels across C175-16/C175-20 generator, marine, industrial, petroleum and locomotive engines and 795F/797/793F/794/798 truck families.
+
+Official Cat pages:
+- https://parts.cat.com/en/catcorp/product/0R-9668
+- https://parts.cat.com/en/catcorp/product/230-3728
+- https://parts.cat.com/en/catcorp/product/10R-0823
+- https://parts.cat.com/en/catcorp/product/450-9233
+- https://parts.cat.com/en/catcorp/product/130-3212
+- https://parts.cat.com/en/catcorp/product/1H-6227
+- https://parts.cat.com/en/catcorp/product/6V-9746
+- https://parts.cat.com/en/catcorp/product/242-4100
+- https://parts.cat.com/en/catcorp/product/228-7100
+- https://parts.cat.com/en/catcorp/product/448-3228
+
+Post-update verification: all ten SKUs exist with Cat official item-page evidence and REFERENCE status. Nine inserted; 0R-9668 updated. Fitment counts after de-duplication: 0R-9668=12; 230-3728=35; 10R-0823=6; 450-9233=2; 130-3212=27; 1H-6227=39; 6V-9746=31; 242-4100=19; 228-7100=45; 448-3228=18. No prices, stock or interchange guarantees added.
+
+Ten further discovery leads added from Cat related/compare-alternate sections: 20R-9567, 126-1814, 1R-1808, 1R-0749, 326-1643, 142-1340, 142-1403, 230-3775, 9X-7317 and 9X-7430. All remain unverified candidates until their own item pages are checked. 126-1814 is specifically flagged as not for transmission use per Cat's page.
+
+Overall reviewed progress: 83/500 batches = 830/5,000 product target (16.6%). Original Cat seed list 787/787 complete; discovery-derived products individually verified and inserted/updated: 43. Remaining target: 4,170 products.
