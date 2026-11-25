@@ -3439,3 +3439,42 @@ Additional Cat-linked candidates from official Cat "frequently bought together"/
 These remain candidates and require individual item-page verification before catalog promotion.
 
 Overall reviewed progress: 50/500 batches = 500/5,000 product target (10.0%). Original Cat seed list has 287 SKUs remaining (products 501–787).
+
+## Batch 51/500 — products 501–510 (2026-11-25)
+
+SKUs: 360-8960, 362-3566, 362-5412, 363-9402, 364-5893, 364-8677, 364-8678, 364-9372, 365-4922, 365-7606. All ten Cat item pages opened; available compatible-model/specification sections checked and all ten DB rows re-queried. Two engine model tags were added from Cat's explicit model/application sections.
+
+Verified:
+- 360-8960: Cat Engine Fuel Filter Element, Advanced High Efficiency cartridge; 3.209in diameter ×6.102in length, Out-to-In flow. 381 distinct compatible model labels across pumper, generator, LHD, material handler, grader, compactor, track tractor, skidder, knuckleboom loader, asphalt paver, C7.1 marine engine, pipelayer, package, forestry, excavator, vibratory compactor, MHPU, genset, wheel loader, telehandler, wheeled excavator and other categories. Added engine_models C7.1 based on explicit Cat Marine Engine application. Cat page's related panel lists 479-4131, 462-1171, 322-3155 and 7W-2326 as discovery leads only.
+- 362-3566: Cat rear bogie assembly for track-type tractors; Cat description says bogie assemblies are part of suspended undercarriage design on D8–D11 tractors, absorbing impact loads. Specific Compatible Models list is D10N, D10R, D10T2, D10 and D10T (5 labels); material Alloy Steel. Added no unlisted D8/D9/D11 models as fitment.
+- 362-5412: Cat Fuel Filter Drain Kit; description says replacement drain, knob and seals, while the separate kit-parts panel says no separately associated parts are currently listed. Material FKM rubber and PPA plastic. 375 distinct compatible model labels across pumper, R1300G, MH3037, graders, compactors, track tractors, wheel skidders, knuckleboom loaders, pavers, pipelayers, excavators, MHPUs, generator sets, wheel loaders, telehandlers, wheeled excavators and related classes.
+- 363-9402: Cat Standard Efficiency Cabin Air Filter, polypropylene plastic panel, standard media; 8.15in long ×7.402in wide ×0.669in high (with/without seal). 84 distinct compatible labels across MD5150C drill, special solutions, LD350 expanded mining, excavators, MH3295, MHPUs and hydraulic shovels. Added engine_models C7.1 from the explicit Cat MHPU model listing.
+- 364-5893: Cat Fuel Hose Assembly. Cat explicitly lists Generator SR5; Generator Set C32; Marine Auxiliary C32; Marine Engine C32. Materials Alloy Copper, Other Hose and Carbon Steel. DB fitment labels SR5/C32 and engine_models C32 match the page.
+- 364-8677: Cat 10.92mm ID Fuel Lines Hose; Cat states assembly withstands 3000 kPa fuel pressure. Cat Compatible Models: Marine Auxiliary C32 and Marine Engine C32. Materials Carbon Steel, Alloy Copper and Other Hose. DB matches.
+- 364-8678: Cat Filter Fuel Supply Tube; Cat states 3000 kPa fuel pressure, corrosion resistance and heat-transfer prevention. Cat Compatible Models: Generator Set C32, Marine Auxiliary C32 and Marine Engine C32. Material Alloy Mixed: Metal. DB matches.
+- 364-9372: Cat Fuel Filter Lines Hose Assembly; hose ID 0.5in, overall length 18.74in, Fuel and Oil High Temperature hose. Cat Compatible Models: Generator Set C32, Marine Auxiliary C32 and Marine Engine C32. Material Other Hose. DB matches.
+- 365-4922: Cat 538.62mm OD Duo Cone Seal, metal-to-metal facing seal for final drives. Cat says detailed specifications are still being added. Compatible model list has 18 distinct labels across Truck, Quarry Truck, Tractor and Off Highway Truck. DB preserves only the published OD and marks specs as pending.
+- 365-7606: Cat Standard Efficiency Cabin Air Filter (Fresh Air), urethane panel; 13.638in length ×4.78in width; 2.213in with seal /1.827in without; carbon steel/mixed metal-nonmetal. Ten wheel-loader labels: 930, 938K, 938M, 926, 924K, 926M, 938, 930K, 924 and 930M.
+
+Cat pages:
+- https://parts.cat.com/en/catcorp/product/360-8960
+- https://parts.cat.com/en/catcorp/product/362-3566
+- https://parts.cat.com/en/catcorp/product/362-5412
+- https://parts.cat.com/en/catcorp/product/363-9402
+- https://parts.cat.com/en/catcorp/product/364-5893
+- https://parts.cat.com/en/catcorp/product/364-8677
+- https://parts.cat.com/en/catcorp/product/364-8678
+- https://parts.cat.com/en/catcorp/product/364-9372
+- https://parts.cat.com/en/catcorp/product/365-4922
+- https://parts.cat.com/en/catcorp/product/365-7606
+
+Post-update DB verification counts: 360-8960=381; 362-3566=5; 362-5412=375; 363-9402=84; 364-5893=2; 364-8677=1; 364-8678=1; 364-9372=1; 365-4922=18; 365-7606=10. No price, stock, or unverified interchangeability claims added.
+
+Additional Cat-linked discovery leads (official Cat frequently-bought-together panels; candidates only):
+- 360-8960: 479-4131, 462-1171, 322-3155, 7W-2326.
+- 362-3566: 358-5259, 7T-5959, 9W-4489, 2H-3932, 5P-3092.
+- 363-9402: 327-6618, 5I-8670, 093-7521, 322-3155 (some already present in queue; de-duplicate).
+- 365-4922: 337-1943, 9X-7307, 123-2941, 7D-7519, 341-8543.
+All require their own item-level verification before promotion.
+
+Overall reviewed progress: 51/500 batches = 510/5,000 product target (10.2%). Original Cat seed list has 277 SKUs remaining (products 511–787).
