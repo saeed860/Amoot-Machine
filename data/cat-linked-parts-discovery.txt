@@ -2638,3 +2638,26 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 8L-2746 | 15.6mm Inner Diameter O-Ring Seal | 1 | Cat 315-1461 777F Single Cylinder Head Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
 
 Source page: https://parts.cat.com/en/catcorp/product/315-1461
+
+
+## Additional Cat C7 truck-engine single-cylinder-head install-kit BOM candidates — batch 158
+
+Source: official Cat Parts Store product page 502-5194, Single Cylinder Head Install Kit. Compatible model explicitly shown: TRUCK ENGINE / C7. Cat describes this as a single-cylinder-head gasket kit containing seal O-rings, STOR/ORFS seals, lip seals, isolators, gaskets, fuel-system seals and taper-lock hardware. Eighteen other first-page items were already present in the discovery queue or original seed list and are not duplicated. The fourteen new rows below are official BOM references only; confirm the engine serial/arrangement and complete the injector-seal selection separately if required.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+061-7538 | 7.65mm Internal Diameter O-Ring Seal | 3 | Cat 502-5194 C7 Truck Engine Single Cylinder Head Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+133-4995 | Cylinder Head Gasket | 1 | Cat 502-5194 C7 Truck Engine Single Cylinder Head Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+163-4565 | 1.63 x 6.07mm 75A FKM O-Ring | 3 | Cat 502-5194 C7 Truck Engine Single Cylinder Head Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+222-5915 | 0.8mm Thick Water Lines Gasket | 1 | Cat 502-5194 C7 Truck Engine Single Cylinder Head Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+262-8387 | 4.5mm Thick Turbocharger Exhaust Elbow Gasket | 1 | Cat 502-5194 C7 Truck Engine Single Cylinder Head Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+269-2904 | Turbocharger Exhaust Gasket | 1 | Cat 502-5194 C7 Truck Engine Single Cylinder Head Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+272-0388 | 647mm Inner Diameter Press Seal | 2 | Cat 502-5194 C7 Truck Engine Single Cylinder Head Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+272-1956 | 1.6mm Thick Exhaust Manifold Gasket | 6 | Cat 502-5194 C7 Truck Engine Single Cylinder Head Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+272-5861 | Water Lines Elbow Gasket | 1 | Cat 502-5194 C7 Truck Engine Single Cylinder Head Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+273-0883 | Crankcase Breather Gasket | 1 | Cat 502-5194 C7 Truck Engine Single Cylinder Head Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+273-2727 | Valve Mechanism Cover Gasket | 2 | Cat 502-5194 C7 Truck Engine Single Cylinder Head Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+281-2592 | 50mm Long Stainless Steel Taper Lock Stud | 4 | Cat 502-5194 C7 Truck Engine Single Cylinder Head Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+285-0365 | 1.98mm Thickness Integral Rubber Edge Bonded Seal | 1 | Cat 502-5194 C7 Truck Engine Single Cylinder Head Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+289-3107 | Two Hole Flange Gasket | 2 | Cat 502-5194 C7 Truck Engine Single Cylinder Head Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+
+Source page: https://parts.cat.com/en/catcorp/product/502-5194
