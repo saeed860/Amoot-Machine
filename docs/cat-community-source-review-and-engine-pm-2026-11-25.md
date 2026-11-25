@@ -2482,3 +2482,10 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - https://parts.cat.com/en/catcorp/product/578-3190
 
 این قطعه به فیتمنت 287B تعمیم داده نشد. پیش از سفارش باید bore، stroke، port locations، mounting dimensions، cylinder arrangement و PIN دستگاه با Dealer/Parts Diagram تطبیق داده شود.
+
+
+## دور ۸۶ — 25 Nov 2026
+
+- 230-3686 — Lip Type Seal Group (Fan Motor Group)؛ صفحه رسمی Cat Parts Store مدل 287B را صریحاً در Compatible Models فهرست می‌کند. شماره از قبل در Master بود و ردیف فیتمنت آن به CSV رسمی 287B اضافه شد.
+- ابعاد صفحه: shaft diameter برابر 0.708in، ID برابر 0.7in، OD برابر 1.575in، عرض 0.264in و ضخامت 0.3in؛ گروه فن و نشیمن آب‌بند باید تطبیق داده شود.
+- منبع رسمی: https://parts.cat.com/en/catcorp/product/230-3686
