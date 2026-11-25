@@ -2761,3 +2761,19 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 5P-6302 | 94.84mm Inner Diameter Seal O-Ring | 1 | Cat 440-0842 Land Drilling 3512 Engine Overhaul Kit BOM; continuation items | official_cat_kit_bom_verified; standalone_item_page_not_checked; exact_model_serial_fitment_requires_confirmation
 
 Source page: https://parts.cat.com/en/catcorp/product/440-0842
+
+
+## Additional Cat 3512 top-end overhaul-kit BOM candidates — batch 166
+
+Source: official Cat Parts Store product page 440-0841, Engine Overhaul (Top End) Kit. Compatible model explicitly shown: PETROLEUM PACKAGE / TH48-E70. Cat describes the Foundational Level top-end kit as including gaskets and seals for a complete top-end overhaul plus selected replacement items. Seventeen other displayed components were already in the queue or seed list and are not duplicated. The seven new rows below are official BOM references only; do not infer general 3512C fitment outside the TH48-E70 package without serial/arrangement confirmation.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+120-4339 | 1.24mm Thick Spring Seat Washer | 12 | Cat 440-0841 TH48-E70 3512 Top-End Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+438-9424 | Oil Cooler and Lines Gasket Kit | 1 | Cat 440-0841 TH48-E70 3512 Top-End Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+438-9634 | Aftercooler and Lines Install Kit | 1 | Cat 440-0841 TH48-E70 3512 Top-End Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+439-0457 | Turbocharger Install Gasket Kit | 4 | Cat 440-0841 TH48-E70 3512 Top-End Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+599-7282 | Single Cylinder Head Install Kit | 12 | Cat 440-0841 TH48-E70 3512 Top-End Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+5P-3875 | 3/8-16 x 2 3/4 Hex Head Bolt | 44 | Cat 440-0841 TH48-E70 3512 Top-End Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+9S-8752 | 3/8-16 Hex Nut | 16 | Cat 440-0841 TH48-E70 3512 Top-End Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+
+Source page: https://parts.cat.com/en/catcorp/product/440-0841
