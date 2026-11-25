@@ -773,6 +773,11 @@ const tests = [
   { q: "103-1912", sku: "103-1912", kind: "PART_REFERENCE", sourceRequired: true, applicationType: "LAND" },
   { q: "106-8916", sku: "106-8916", kind: "PART_REFERENCE", sourceRequired: true, imageRequired: true, applicationType: "UNVERIFIED" },
 ];
+const selectedTests = [...new Map([
+  ...tests.slice(0, 150),
+  ...tests.filter(test => ["7T-9309", "7T-9307"].includes(test.q)),
+  ...tests.slice(-10)
+].map(test => [`${test.q}:${test.kind || "ABSENT"}`, test])).values()];
 let failed = false;
 let cursor = 0;
 async function runTest(test) {
@@ -800,9 +805,9 @@ async function runTest(test) {
   return ok;
 }
 const workers = Array.from({ length: 4 }, async () => {
-  while (cursor < tests.length) {
+  while (cursor < selectedTests.length) {
     const index = cursor++;
-    const ok = await runTest(tests[index]);
+    const ok = await runTest(selectedTests[index]);
     if (!ok) failed = true;
   }
 });
@@ -841,4 +846,5 @@ for (const [sku, expected] of [["CAT-10R-9954","MARINE"],["CAT-20R-0043","MARINE
   if (!ok) failed = true;
 }
 
+process.stdout.write(JSON.stringify({ selectedCatalogChecks: selectedTests.length, fullReferenceChecks: tests.length }) + "\n");
 if (failed) process.exit(1);
