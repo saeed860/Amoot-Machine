@@ -2020,3 +2020,17 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - https://parts.cat.com/en/catcorp/product/112-4645
 
 برای 103-9725، engine arrangement و pressure setting؛ برای 112-4645، free length، spring rate و valve group application باید با موتور و شماره سریال دستگاه تطبیق داده شود.
+
+## دور ۶۶ — تکمیل شیلنگ‌های هوا و سوخت 297C (25 Nov 2026)
+
+سه شماره از صفحات رسمی Cat Parts Store با Compatible Models شامل 297C و بدون 287B تکمیل شدند:
+- 216-0066 — 50.8mm Inner Diameter Air Line Hose؛ کاربرد بین موتور و aftercooler؛ فقط 297C در این گروه مدل.
+- 258-3662 — Water Separator and Fuel Filter Hose؛ فیتمنت 287C، 277C، 297C و skid steerهای C مرتبط، بدون 287B.
+- 373-9662 — Fumes Disposal Breather Hose؛ فیتمنت 287C، 277C، 297C و مدل‌های مرتبط، بدون 287B.
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/product/216-0066
+- https://parts.cat.com/en/catcorp/product/258-3662
+- https://parts.cat.com/en/catcorp/product/373-9662
+
+شماره 373-9662 به Master و CSV مستقل 297C-only افزوده شد؛ 216-0066 و 258-3662 از قبل در Master بودند و ردیف CSV آن‌ها تکمیل شد. هیچ‌یک به فیتمنت 287B تعمیم داده نشدند. برای 216-0066، قطر 50.8mm و اتصال turbocharger/aftercooler؛ برای 258-3662، مسیر fuel filter/water separator و اتصالات؛ و برای 373-9662، مسیر crankcase fumes و engine emissions configuration باید کنترل شوند.
