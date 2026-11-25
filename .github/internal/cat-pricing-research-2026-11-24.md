@@ -3766,3 +3766,45 @@ Additional Cat-linked discovery candidates from Cat kit BOM, compare-alternate a
 Candidates are discovery leads only and require item-level verification before promotion.
 
 Overall reviewed progress: 58/500 batches = 580/5,000 product target (11.6%). Original Cat seed list has 207 SKUs remaining (products 581–787).
+
+## Batch 59/500 — products 581–590 (2026-11-25)
+
+SKUs: 468-8825, 477-1358, 477-7728, 479-4131, 481-0702, 482-7524, 485-3715, 485-5301, 485-5302, 486-8525. All ten Cat product pages opened and compatible models, specifications, kit contents and related/alternate panels inspected. DB rows were updated and re-queried.
+
+Verified:
+- 468-8825: Cat Engine Head Exhaust Valve. Cat describes a hard-chromium-plated stem, emissions-control design and OEM direct replacement. Materials Alloy Chromium and Alloy Steel. Added 71 distinct Cat compatible labels across pumpers, generators, power modules, off-highway trucks, track tractors, rotary drills, marine engines, mining excavators, petroleum packages, locomotive engines, wheel dozers/loaders, gensets, engine-machine/industrial applications, trucks and tractors. Added 16 engine model labels. DB now contains the explicit Cat fitment list, replacing an empty array.
+- 477-1358: Cat Single Cylinder Head Gasket Kit for one cylinder head. Cat says turbo gaskets are included but fuel injector seals are not; separate injector seal kit is required. Cat Compatible Models: Engine-Industrial G3606B; Gas Engine G3608/G3612/G3606/G3616 (5 labels). Added all 31 Cat-listed kit lines and quantities: 061-9455 ×1; 113-5304 ×1; 136-7730 ×1; 160-9912 ×1; 175-7895 ×1; 214-7568 ×5; 2N-0475 ×2; 2N-3350 ×8; 2W-5023 ×2; 305-5302 ×2; 324-8782 ×1; 3J-7354 ×2; 454-8324 ×1; 464-0509 ×6; 4W-6638 ×1; 5P-7701 ×2; 5P-8211 ×1; 6J-2244 ×2; 6V-3602 ×1; 6V-3830 ×1; 6V-4314 ×2; 6V-5050 ×1; 6V-5061 ×2; 6V-5139 ×2; 7L-9061 ×2; 8C-5230 ×8; 8J-4351 ×1; 8T-8883 ×1; 9X-3978 ×1; 9X-7688 ×1; 9Y-6792 ×1. Cat says specs are still being added.
+- 477-7728: Cat Fuel Injection Rail, Carbon Steel. Cat compatible models: mini hydraulic excavators 307.5, 304E2, 305.5E2 CR, 306, 305.5E2, 304E2 CR, 305E2, 304.5E2, 305E2 CR, 307E2; compact wheel loaders 903D, 902C2, 903C2 (13 labels). DB updated from empty fitment.
+- 479-4131: Cat Ultra High Efficiency Fuel Water Separator Element. Specs: 3.209in diameter ×8.902in length, In-to-Out flow, Polyamide Plastic, Cartridge. Cat media notes acrylic beads, spiral roving for pleat stability, nylon center tube and molded end caps. Added 131 distinct compatible labels across generator/gen sets, engines, track loaders, soil compactors, material handlers, wheel dozers/loaders/skidders, graders, tractors, knuckleboom loaders, asphalt pavers, wheeled excavators, excavators, vibratory compactors and MHPUs. Added engine models C7.1/C6.6. This corrected an empty fitment/specification record.
+- 481-0702: Cat HDXL Link Assembly for D10T2. Specs: 10.276in pitch, 44 sections, 1-tooth master, PPR, SALT, HDXL; link inside spread 4.921in (sprocket)/5.654in (roller), rail-to-bushing OD 2.461in, bushing OD 3.899in, outside spread 11.496in, bolt-hole 1.164in, A/B/C shoe-bolt spacing 3.15/7.48/9.843in, 1.125in track bolt thread, pin length 11.974in, link height 7.402in, no RBT/wear sensor. DB fitment updated from empty to D10T2.
+- 482-7524: Cat Circle Drive Group controls blade angle relative to grader. Heavy Duty circle drives are designed to be rebuilt and reused. Cat fitment: 16GC, 16M, 18M3, 16M3, 24M, 16, 24, 18 (8 labels). Material field Adhesive/Acrylic Adhesive. DB updated from empty fitment/specifications.
+- 485-3715: Cat Front Trunnion Support. Cat fitment Marine Engine C280-12 and Petroleum Engine C280-12; one unique model label. DB already matched.
+- 485-5301: Cat Dual Lock Pin Grabber Hydraulic Coupler for 5-ton mini excavators. Specs: 169.8lb, 10.7in wide ×20.8in long ×10.7in high, 1.8in pin diameter, Pin On interface, dedicated factory-installed hydraulics. Compatible models 305.5E2 CR/306/305.5 CR/305 CR/305E2/305E2 CR/305.5E2 (7 labels). DB updated from empty.
+- 485-5302: Cat Dual Lock Pin Grabber Hydraulic Coupler for 8-ton mini excavators. Specs: 211.6lb, 14.6in wide ×23.4in long ×13.7in high, 2in pin diameter, Pin On interface, dedicated factory-installed hydraulics. Compatible models 308E2CR/308/307.5/309/307E2/308E2 CR (6 labels). DB updated from empty.
+- 486-8525: Cat Single Cylinder Head Kit. Description: gaskets and seals for rebuilding/reinstalling one cylinder head; includes turbo gaskets but excludes fuel injector seals. Material Alloy Mixed Metal/Carbon Steel. Cat fitment 13 unique labels across generator sets, marine auxiliary, industrial engine, locomotive, petroleum engine, off-highway truck and petroleum gen set. Cat page does not publish an included-parts list; DB keeps kit BOM empty.
+
+Cat pages:
+- https://parts.cat.com/en/catcorp/product/468-8825
+- https://parts.cat.com/en/catcorp/product/477-1358
+- https://parts.cat.com/en/catcorp/product/477-7728
+- https://parts.cat.com/en/catcorp/product/479-4131
+- https://parts.cat.com/en/catcorp/product/481-0702
+- https://parts.cat.com/en/catcorp/product/482-7524
+- https://parts.cat.com/en/catcorp/product/485-3715
+- https://parts.cat.com/en/catcorp/product/485-5301
+- https://parts.cat.com/en/catcorp/product/485-5302
+- https://parts.cat.com/en/catcorp/product/486-8525
+
+Post-update DB verification counts: 468-8825=71; 477-1358=5 (31 kit lines); 477-7728=13; 479-4131=131; 481-0702=1; 482-7524=8; 485-3715=1; 485-5301=7; 485-5302=6; 486-8525=13. No customer price, stock or unsupported interchange claims added.
+
+Additional Cat-linked discovery candidates from Cat kit BOM and related/alternate panels (candidate leads only):
+- 468-8825: 468-8824, 316-5980, 197-6995, 197-7055, 2A-4429.
+- 477-1358 kit contents: 061-9455, 113-5304, 136-7730, 160-9912, 175-7895, 214-7568, 2N-0475, 2N-3350, 2W-5023, 305-5302, 324-8782, 3J-7354, 454-8324, 464-0509, 4W-6638, 5P-7701, 5P-8211, 6J-2244, 6V-3602, 6V-3830, 6V-4314, 6V-5050, 6V-5061, 6V-5139, 7L-9061, 8C-5230, 8J-4351, 8T-8883, 9X-3978, 9X-7688, 9Y-6792; related 143-2878, 20R-6518 (Cat Reman), 3S-9643, 485-4705, 159-3219.
+- 477-7728: 477-7607, 477-7614, 477-7615, 477-7613, 477-7751.
+- 479-4131: 360-8960, 462-1171, 322-3155, 525-6206.
+- 482-7524: 2H-3931, 9D-1491, 9T-5977, 450-5243.
+- 485-5301: 282-2785, 5P-8500, 8F-9866.
+- 485-5302: 5P-8500, 308-0324, 8F-9866, 9G-2758.
+These remain unverified discovery leads and do not establish fitment or interchangeability.
+
+Overall reviewed progress: 59/500 batches = 590/5,000 product target (11.8%). Original Cat seed list has 197 SKUs remaining (products 591–787).
