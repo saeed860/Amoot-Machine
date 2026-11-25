@@ -2768,3 +2768,11 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
   - 280-8327 — Tube؛ فیتمنت 297C دارد اما صفحه رسمی Cat آن را Discontinued نشان می‌دهد؛ در Master تاریخی ثبت شد و در CSV با وضعیت صریح غیرقابل سفارش علامت خورد.
 - منابع رسمی: https://parts.cat.com/en/catcorp/product/8Y-8081 ؛ https://parts.cat.com/en/catcorp/product/149-3488 ؛ https://parts.cat.com/en/catcorp/product/280-8327
 - شمارنده هدف پس از ثبت: 4414 شماره یکتا؛ Mirror byte-exact و Workflow برابر 4414.
+
+
+## دور ۸۴ — 25 Nov 2026
+
+- 291-8148 — SEAL-O-RING از صفحه رسمی Cat Parts Store بررسی شد؛ Compatible Models شامل 297C است و 287B در فهرست نیست؛ شماره به Master و CSV مستقل 297C-only افزوده شد.
+- صفحه جستجو ابعاد O-ring را نشان نداد؛ قطر داخلی، قطر مقطع، جنس و شیار محل نصب باید پیش از سفارش از parts diagram یا Cat Dealer تأیید شود.
+- منبع رسمی: https://parts.cat.com/en/catcorp/product/291-8148
+- شمارنده هدف پس از ثبت: 4415 شماره یکتا؛ Mirror byte-exact و Workflow برابر 4415.
