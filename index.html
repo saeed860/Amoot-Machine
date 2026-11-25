@@ -15,7 +15,7 @@
 <div class="topline"><div class="wrap top-inner"><div class="top-left"><button type="button" class="account-entry" id="accountEntry" onclick="openAuth('login')">♙ ورود / ثبت‌نام</button><button type="button" class="admin-entry" onclick="openAdmin()">ورود مدیریت</button><button type="button" class="cart-entry" onclick="openCart()">▣ سبد خرید <b id="cartCount">۰</b></button><span>☎ 021-12345678</span></div><div class="top-right">تأمین تخصصی قطعات و ماشین‌آلات صنعتی <b></b></div></div></div>
 <header class="header"><div class="wrap header-main"><a class="brand" href="#home"><span class="brand-mark"><img src="./assets/amoot-logo.png" alt="نشان آموت ماشین"></span><span class="brand-name">آموت ماشین<small>AMOOT MACHINE</small></span></a><nav class="main-nav"><a class="selected" href="#home">خانه</a><a href="#products">محصولات⌄</a><a href="./search.html">جستجوی قطعات</a><a href="#catalog">دسته‌بندی‌ها</a><a href="#about">درباره ما</a><a href="#contact">تماس با ما</a></nav><form class="header-search" id="quickSearchForm" action="./search.html" method="get" role="search"><input id="search" name="q" type="search" autocomplete="off" placeholder="پارت‌نامبر، نام قطعه یا مدل موتور را جستجو کنید..." required><button type="submit" aria-label="جستجو در کاتالوگ قطعات">⌕</button></form><button class="category-entry" onclick="document.querySelector('#catalog').scrollIntoView({behavior:'smooth'})">☰ دسته‌بندی محصولات</button><button class="hamb" aria-label="باز کردن منو" onclick="document.querySelector('.main-nav').classList.toggle('show')">☰</button></div></header>
 <main id="home">
-<section class="hero"><div class="hero-photo" id="heroPhoto" role="img" aria-label="ماشین‌آلات سنگین"></div><div class="hero-shade"></div><div class="wrap hero-content"><div class="hero-copy"><div class="eyebrow"><i></i> مرجع تخصصی قطعات ماشین‌آلات سنگین</div><h1>قدرت ماشین‌آلات شما،<br><em>با قطعات مطمئن</em></h1><p>مرجع تخصصی جستجو و تأمین قطعات یدکی، ماشین‌آلات سنگین و تجهیزات صنعتی از برندهای معتبر جهانی.</p><div class="hero-points"><span>◆ ضمانت اصالت کالا</span><span>◆ ارسال سریع</span><span>◆ مشاوره تخصصی</span></div><a class="hero-cta" href="#products">مشاهده محصولات <b>←</b></a></div></div><div class="hero-slides" aria-label="انتخاب تصویر بنر"><button type="button" class="hero-arrow prev" aria-label="تصویر قبلی">‹</button><div class="hero-dots" id="heroDots"><button type="button" class="active" aria-label="تصویر ۱"></button><button type="button" aria-label="تصویر ۲"></button><button type="button" aria-label="تصویر ۳"></button><button type="button" aria-label="تصویر ۴"></button></div><button type="button" class="hero-arrow next" aria-label="تصویر بعدی">›</button></div><div class="hero-stripe"></div></section>
+<section class="hero"><div class="hero-photo" id="heroPhoto" role="img" aria-label="ماشین‌آلات سنگین"></div><div class="hero-shade"></div><div class="wrap hero-content"><div class="hero-copy"><div class="eyebrow"><i></i> مرجع تخصصی قطعات ماشین‌آلات سنگین</div><h1>قدرت ماشین‌آلات شما،<br><em>با قطعات مطمئن</em></h1><p>مرجع تخصصی جستجو و تأمین قطعات یدکی، ماشین‌آلات سنگین و تجهیزات صنعتی از برندهای معتبر جهانی.</p><div class="hero-points"><span>◆ ضمانت اصالت کالا</span><span>◆ ارسال سریع</span><span>◆ مشاوره تخصصی</span></div><a class="hero-cta" href="#products">مشاهده محصولات <b>←</b></a></div></div><div class="hero-stripe"></div></section>
 <section class="category-section" id="catalog"><div class="wrap categories">
 <button class="cat" data-cat="فیلترها"><img src="./assets/cat-filters.jpg" alt="فیلترها"><span><b>فیلترها</b><small>هوا، روغن، سوخت، کابین و هیدرولیک</small></span><i>←</i></button>
 <button class="cat" data-cat="موتور و ژنراتور"><img src="./assets/cat-engine.jpg" alt="موتور و ژنراتور"><span><b>موتور و ژنراتور</b><small>قطعات داخلی، سوخت‌رسانی و سرویس</small></span><i>←</i></button>
@@ -42,47 +42,21 @@
  <div class="footer-bottom"><small>© تمامی حقوق برای آموت ماشین محفوظ است.</small><small>AMOOT MACHINE · HEAVY EQUIPMENT & INDUSTRIAL PARTS</small><small class="photo-credits">اعتبار تصاویر بنر: <a href="./assets/BANNER_IMAGE_CREDITS.md" target="_blank" rel="noopener">مشاهده منابع و مجوز استفاده</a></small></div>
 </div></footer>
 <div id="modal" class="modal" onclick="if(event.target===this)closeModal()"><div class="modal-card"><button class="close" onclick="closeModal()">×</button><div id="modalBody"></div></div></div><div id="toast" class="toast"></div>
-<script src="./offroad-catalog.js?v=20261124offroadprice1"></script><script src="./app.js?v=20261125heroimages1"></script><script src="./api-config.js?v=20261122h"></script><script src="./analytics.js?v=20261125analytics1"></script><script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="./api-client.js?v=20261125googleoauth2"></script><script src="./admin-panel.js?v=20261125fullscreen1"></script><script src="./cart.js?v=20261122m"></script>
+<script src="./offroad-catalog.js?v=20261124offroadprice1"></script><script src="./app.js?v=20261125filters8sub2"></script><script src="./api-config.js?v=20261122h"></script><script src="./analytics.js?v=20261125analytics1"></script><script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="./api-client.js?v=20261125googleoauth2"></script><script src="./admin-panel.js?v=20261125fullscreen1"></script><script src="./cart.js?v=20261122m"></script>
 <script>(function(){const f=document.getElementById("quickSearchForm");if(!f)return;f.addEventListener("submit",function(e){const input=f.querySelector('input[name="q"]');const q=(input?.value||"").trim();if(!q){e.preventDefault();input?.focus();return;}e.preventDefault();window.location.href="./search.html?q="+encodeURIComponent(q);});})();</script>
 <script>
 (function(){
  const photo=document.getElementById('heroPhoto');
- const controls=document.querySelector('.hero-slides');
  if(!photo)return;
- const slides=[
-  {src:'./assets/hero-excavator.jpg',alt:'بیل مکانیکی کاترپیلار در محیط عملیاتی'},
-  {src:'https://s7d2.scene7.com/is/image/Caterpillar/CM20200922-4a95d-48329',alt:'لودر چرخ‌لاستیکی کاترپیلار در معدن و بارگیری مصالح'},
-  {src:'https://www.avesco-cat.fi/fileadmin/_processed_/2/7/csm_Dozer_1920x1080_c3b38263a3.jpg',alt:'بولدوزر کاترپیلار در عملیات خاک‌برداری'},
-  {src:'https://accelleron.com/content/accelleronind/language-masters/en/charge-magazine/articles/why-do-power-stations-use-internal-combustion-engines-and-why-do-they-need-turbochargers/_jcr_content/root/container_1661032700/image_587297026.coreimg.82.3840.jpeg/1704628959190/why-do-power-stations-use-internal-combustion-engines-and-why-do-they-need-turbochargers-2880x1920.jpeg',alt:'نمای نزدیک موتور دیزل صنعتی و مجموعه توربوشارژر'}
- ];
- let active=0,timer=null;
  const image=document.createElement('img');
  image.className='hero-image';
- image.alt=slides[0].alt;
+ image.src='./assets/hero-excavator.jpg';
+ image.alt='بیل مکانیکی کاترپیلار در محیط عملیاتی';
  image.decoding='async';
  image.fetchPriority='high';
- image.style.opacity='1';
- image.style.transition='opacity .35s ease';
  image.style.objectFit='contain';
  image.style.objectPosition='center';
  photo.replaceChildren(image);
- const dots=controls?Array.from(controls.querySelectorAll('.hero-dots button')):[];
- const show=(index)=>{
-  active=(index+slides.length)%slides.length;
-  const next=slides[active];
-  image.style.opacity='.15';
-  const preload=new Image();
-  preload.onload=()=>{image.src=next.src;image.alt=next.alt;requestAnimationFrame(()=>image.style.opacity='1');};
-  preload.onerror=()=>{image.src='./assets/hero-excavator.jpg';image.alt=slides[0].alt;image.style.opacity='1';};
-  preload.src=next.src;
-  dots.forEach((dot,i)=>{dot.classList.toggle('active',i===active);dot.setAttribute('aria-pressed',String(i===active));});
- };
- const restart=()=>{if(timer)clearInterval(timer);timer=setInterval(()=>show(active+1),6500);};
- dots.forEach((dot,i)=>dot.addEventListener('click',()=>{show(i);restart();}));
- controls?.querySelector('.prev')?.addEventListener('click',()=>{show(active-1);restart();});
- controls?.querySelector('.next')?.addEventListener('click',()=>{show(active+1);restart();});
- image.src=slides[0].src;
- if(controls)restart();
 })();
 </script>
 </body></html>
