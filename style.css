@@ -609,3 +609,49 @@
 }
 .photo-credits{display:block;margin-top:7px;font-size:9px;color:#aeb5bb}
 .photo-credits a{color:#d4d9de;text-decoration:underline;text-underline-offset:2px}
+
+
+/* Final hero composition: image LEFT, copy RIGHT; one fixed image viewport for every slide. */
+.hero{height:clamp(360px,32vw,460px)!important;min-height:360px!important;background:#202326!important}
+.hero-photo{
+  inset:0 auto 0 0!important;
+  left:0!important;right:auto!important;top:0!important;bottom:0!important;
+  width:58%!important;height:100%!important;
+  background-size:cover!important;background-repeat:no-repeat!important;
+  background-position:center center!important;background-color:#202326!important;
+  opacity:1!important;
+}
+.hero-shade{
+  inset:0!important;
+  background:linear-gradient(270deg,
+    rgba(32,35,38,1) 0%,
+    rgba(32,35,38,.98) 35%,
+    rgba(32,35,38,.72) 45%,
+    rgba(32,35,38,.08) 64%,
+    rgba(32,35,38,0) 100%)!important;
+}
+.hero-content{z-index:2;justify-content:flex-start!important}
+.hero-copy{
+  width:42%!important;max-width:570px!important;
+  margin-right:0!important;margin-left:auto!important;
+  text-align:right!important;
+}
+.hero-slides{left:auto!important;right:calc(58% + 20px)!important;bottom:20px!important;transform:translateX(100%)!important}
+@media(min-width:721px) and (max-width:980px){
+ .hero{height:370px!important;min-height:370px!important}
+ .hero-photo{width:56%!important}
+ .hero-copy{width:44%!important}
+ .hero-slides{right:calc(56% + 14px)!important}
+}
+@media(max-width:720px){
+ .hero{height:440px!important;min-height:440px!important}
+ .hero-photo{
+  inset:0 0 auto 0!important;left:0!important;right:0!important;top:0!important;
+  width:100%!important;height:205px!important;
+  background-size:cover!important;background-position:center 45%!important;
+ }
+ .hero-shade{background:linear-gradient(180deg,rgba(32,35,38,0) 0%,rgba(32,35,38,.15) 40%,rgba(32,35,38,.98) 100%)!important}
+ .hero-content{min-height:440px!important;align-items:flex-end!important}
+ .hero-copy{width:100%!important;max-width:100%!important;margin:0!important;padding:0 0 58px!important}
+ .hero-slides{left:15px!important;right:auto!important;bottom:15px!important;transform:none!important}
+}
