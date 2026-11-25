@@ -100,3 +100,22 @@ Format: part_number | source_description | source_brand | verification_status
 1979322 | LINER | not stated | independent_candidate; needs_verification
 1981508 | PUMP GP-EO 2 | not stated | independent_candidate; needs_verification
 1995525 | LINK AS.-TRA | not stated | independent_candidate; needs_verification
+
+
+## CAT official-page cross-checks — 25 Nov 2026
+
+The following Off Road public-index candidates now have exact Cat Parts Store product-page corroboration for their CAT identifier and description. This does not establish Off Road stock, condition, supplier price or machine-specific fitment.
+
+- 1G8878 — CAT 1G-8878 Hydraulic/Transmission Oil Filter: https://parts.cat.com/en/catcorp/product/1G-8878
+- 1R0739 — CAT 1R-0739 Standard Efficiency Engine Oil Filter: https://parts.cat.com/en/catcorp/product/1R-0739
+- 1R0749 — CAT 1R-0749 Secondary Fuel Filter: https://parts.cat.com/en/catcorp/product/1R-0749
+- 1R0750 — CAT 1R-0750 Advanced Efficiency Secondary Fuel Filter: https://parts.cat.com/en/catcorp/product/1R-0750
+- 1R0751 — CAT 1R-0751 Advanced Efficiency Fuel Filter: https://parts.cat.com/en/catcorp/product/1R-0751
+- 1R0762 — CAT 1R-0762 Engine Fuel Filter: https://parts.cat.com/en/catcorp/product/1R-0762
+- 1R1807 — CAT 1R-1807 Advanced Efficiency Engine Oil Filter: https://parts.cat.com/en/catcorp/product/1R-1807
+- 1R1808 — CAT 1R-1808 Engine Oil Filter: https://parts.cat.com/en/catcorp/product/1R-1808
+- 3261644 — CAT 326-1644 Fuel Water Separator: https://parts.cat.com/en/catcorp/product/326-1644
+- 3608960 — CAT 360-8960 Engine Fuel Filter Element: https://parts.cat.com/en/catcorp/product/360-8960
+- 7W2326 — CAT 7W-2326 Engine Oil Filter: https://parts.cat.com/en/catcorp/product/7W-2326
+
+Identifiers still awaiting exact CAT product-page corroboration include 1R0716 and any other Off Road candidate not listed above. Do not upgrade them based on the reseller index alone.
