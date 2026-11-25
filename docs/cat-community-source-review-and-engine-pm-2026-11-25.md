@@ -650,3 +650,25 @@ Master برابر 2,718 شماره یکتا، Mirror دقیقاً همسان، C
 پیش از سفارش، مسیر و اتصالات لوله فیلتر هیدرولیک، پروفایل و فشار کاری دو نیمه کوپلر، خانواده موتور و محل تخلیه کارتل، و شماره سریال موتور/سایز ژورنال و گرید یاتاقان باید تطبیق داده شوند. این چهار شماره در Master پیشین موجود نبودند و به آن اضافه شدند.
 
 در بازخوانی ابتدای این دور، Master دارای 3,461 شماره یکتا بود، در حالی که Mirror و Workflow روی 2,754 مانده بودند؛ این اختلاف پیش از batch حاضر وجود داشت و به دور حاضر نسبت داده نمی‌شود. پس از افزودن چهار شماره جدید، Master جاری به‌روزرسانی شد، Mirror مستقیماً از Master بازسازی و شمارنده Workflow برابر تعداد خطوط Master تنظیم شد. CSV فقط چهار ردیف فیتمنت جدید این دور را اضافه می‌کند؛ شمارش Master به‌تنهایی به معنی موجودی یا سفارش‌پذیری نیست.
+
+## دور بیست‌ودوم — هوارسانی موتور، استارت، روغن‌کاری و زیربندی (25 Nov 2026)
+
+شش ردیف فیتمنت از صفحات رسمی Cat Parts Store بررسی و در CSV ثبت شد؛ سه شماره جدید به Master اضافه شد و سه شماره از قبل در Master وجود داشتند:
+- 243-0406 — Engine Air Cleaner؛ 287B در Compatible Models.
+- 100-4118 — Case Assembly-Starter؛ 287B در Compatible Models؛ ابعاد 3.3 × 3.3 × 5.0 اینچ.
+- 113-1141 — Oil Pump Assembly؛ 287B در Compatible Models.
+- 110-6331 — Secondary Standard Efficiency Engine Air Filter؛ 287B در Compatible Models؛ از قبل در Master.
+- 261-6302 — Idler Group (Triple Flange)؛ 287B در Compatible Models؛ از قبل در Master.
+- 305-9256 — Kit-Undercarriage؛ 287B و 287 در Compatible Models؛ از قبل در Master.
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/product/243-0406
+- https://parts.cat.com/en/catcorp/product/100-4118
+- https://parts.cat.com/en/catcorp/product/113-1141
+- https://parts.cat.com/en/catcorp/product/110-6331
+- https://parts.cat.com/en/catcorp/product/261-6302
+- https://parts.cat.com/en/catcorp/product/305-9256
+
+برای فیلتر هوا، تطبیق primary/secondary و محفظه؛ برای پوسته استارت، خانواده و پایه نصب؛ برای پمپ روغن، موتور و شماره سریال؛ و برای idler/کیت زیربندی، آرایش زنجیر، گروه زیربندی و شماره سریال الزامی است. قطعه 261-6296 در نتایج Cat Discontinued بود و به‌عنوان کالای فعال سفارش‌پذیر ثبت نشد.
+
+سه شماره جدید این دور به Master افزوده شد. Mirror از Master جاری بازسازی و شمارنده Workflow نیز با تعداد خطوط Master همسان شد. CSV شش ردیف بررسی رسمی این دور را ثبت می‌کند؛ تعداد Master به‌تنهایی بیانگر فیتمنت یک مدل یا موجودی نیست.
