@@ -4055,3 +4055,41 @@ Additional Cat-linked discovery candidates from official Cat related/alternate p
 All candidates remain separate from fitment claims and require individual item-page verification before catalog promotion.
 
 Overall reviewed progress: 65/500 batches = 650/5,000 product target (13.0%). Original Cat seed list has 137 SKUs remaining (products 651–787).
+
+## Batch 66/500 — products 651–660 (2026-11-25)
+
+SKUs: 571-1452, 571-5253, 572-2683, 572-2684, 572-5881, 574-0991, 575-2083, 578-1844, 580-5439, 585-9997. All ten official Cat item pages opened; fitment/specifications/BOMs and related parts were checked. Removed two unsupported figures (voltage/rated flow) from 574-0991 after the current Cat page showed only material and physical dimensions. All ten DB records were re-queried.
+
+Verified:
+- 571-1452: Cat Hard Rock crawler track shoe for Electric Rope Shovel 7495. Specs: 508mm/20in pitch, 2000.25mm/78.75in track pad width, 10.62in roller width, 5.31in drive-lug height, 10in roller-path height, 1.25in track-bolt thread, 4.445in pin diameter, Alloy Steel, Bolt & Nut retention, with bushings, single roller path, self-seeking sprocket engagement, CAT_UC system. One compatible model: 7495. DB matches.
+- 571-5253: Cat Advanced High Efficiency transmission filter cartridge. Specs: 4.74in diameter ×10.689in length, Out-to-In flow, Polyamide Plastic, Transmission Filter, Cartridge. 163 distinct Cat-compatible labels across pumper SPF743, TR43 power modules, wheel tractor-scrapers, off-highway trucks, graders, track tractors, OEM solutions, pipelayers, excavators, engine-generator sets, MHPUs, gensets, wheel tractors, soil/landfill compactors, petroleum transmissions, ejector/articulated/quarry trucks, wheel dozers/loaders, industrial engines, trucks and powertrains. DB matches. Cat frequently-bought-together: 1R-1808, 1R-0749, 326-1643, 500-0483, 436-3443.
+- 572-2683: Cat Track Seal and Bushing Kit. BOM: 106-1618 Track Bushing ×46 and 250-3988 Track Seal ×92. Designed to seal track link/pin joints and keep contaminants out. Cat explicitly provides no compatible-model list. DB BOM and empty fitment match.
+- 572-2684: Cat Track Seal and Bushing Kit. BOM: 207-0544 Track Seal ×92 and 8E-7222 Track Bushing ×46. Cat explicitly provides no compatible-model list. DB BOM and empty fitment match.
+- 572-5881: Cat 12V Fuel Priming Pump with solenoid valve draws fuel from the filter and removes air for reliable starting. Cat compatible model Marine Engine C18. Material Adhesive; filter type Spin-On. DB matches.
+- 574-0991: Cat High Pressure Control Fuel Pump. Compatible: Pumper SPF743; Engine 3512E; Petroleum Engine 3512E/2016 (3 labels). Materials Cast Iron/Ductile Iron/Carbon Steel. Dimensions 22.81in length ×17.74in height ×7.87in width. Removed 12–24V and 11.4L/min values because these are not in the current Cat Specifications section.
+- 575-2083: Cat GB124 with Wings Smart Grader Blade. Cat fitment CTL 253/275/265/255/275XE, skid steer 250/260 and blade model GB124 (8 labels). Specs: 96in blade width, 102.6in overall width, 105.8in fully angled, 50–86L/min, 180–230bar, standard flow/14-pin, 88.4in length, 104.4in mast height, 41.2in height, 2,292.8lb, 15° tilt, 30° max blade angle, 17in blade height, 6in ground clearance/cutting-edge clearance, 4in max cutting depth, skid-steer coupler, 205° wing rotation. Cat reports wings-open working width 99.3in, which is narrower than wings-closed 102.6in; DB retains the source values and flags the discrepancy. Related 9W-0844 connector socket and 9W-0852 connector pin.
+- 578-1844: Cat Lower Restriction Cabin Air Filter, Metal Panel. Specs: 17in length ×10in width, height 2.197in without seal/2.354in with seal, mixed metal/nonmetal and carbon steel, lower-restriction media. 53 distinct compatible labels across road reclaimers, rotary/reclaimer mixers, soil compactors, wheel dozers, landfill compactors and wheel loaders. DB matches. Related parts 290-2288, 436-3443, 500-0483, 376-1288, 577-1436.
+- 580-5439: Cat Standard Cabin Air Filter, ABS plastic panel. Specs: 14.921in length ×9.488in width, 2.933in height with/without seal, standard media, ABS plastic. 62 compatible labels across wheeled excavators, MHPUs, excavators and material handlers. DB matches. Related 500-0957, 523-4987, 322-3155, 509-5694, 479-8989.
+- 585-9997: Cat 273.5mm Length Air Prescreener, initial-stage particle screening before air intake. Cat says detailed specifications are still being added. Fitment CTL 285XE/285/275/265/255/275XE and skid steer 250/270/260/270XE/265 (10 unique labels). DB matches. Related 586-0030, 526-3119, 526-3123, 523-6602.
+
+Cat pages:
+- https://parts.cat.com/en/catcorp/product/571-1452
+- https://parts.cat.com/en/catcorp/product/571-5253
+- https://parts.cat.com/en/catcorp/product/572-2683
+- https://parts.cat.com/en/catcorp/product/572-2684
+- https://parts.cat.com/en/catcorp/product/572-5881
+- https://parts.cat.com/en/catcorp/product/574-0991
+- https://parts.cat.com/en/catcorp/product/575-2083
+- https://parts.cat.com/en/catcorp/product/578-1844
+- https://parts.cat.com/en/catcorp/product/580-5439
+- https://parts.cat.com/en/catcorp/product/585-9997
+
+Post-update DB verification counts: 571-1452=1; 571-5253=163; 572-2683=0; 572-2684=0; 572-5881=1; 574-0991=3; 575-2083=8; 578-1844=53; 580-5439=62; 585-9997=10. No price or stock claims added.
+
+Additional candidate pages independently verified during this batch but not part of the original 787-SKU seed:
+- 572-2740: Cat Front Housing Install Gasket Kit. 21 BOM lines: 092-2570 ×2; 107-5769 ×1; 129-2181 ×1; 144-1275 ×1; 174-2475 ×1; 203-3940 ×2; 204-0712 ×13; 204-0714 ×13; 214-7568 ×1; 226-4755 ×1; 262-8382 ×1; 3J-1907 ×1; 3K-0360 ×1; 6V-0405 ×2; 6V-3834 ×1; 6V-6609 ×1; 6V-7350 ×1; 7E-5555 ×1; 7L-6580 ×1; 8L-2786 ×4; 9L-1633 ×1. Compatible labels D7R II, 572R II, 160H, 140H, 163H, 143H and 14H (8 unique labels). No Cat specifications published.
+- 575-1591: Cat GPS Module and Installation Cable for Driver Safety System; compatible category CATSAFETY; no item-level specs published. Related 126-1767 connector pin and 126-1768 connector socket.
+- 575-8723: Cat General Duty rubber track, 300mm wide, 52.5mm pitch, 82 sections, block tread, HD, rubber/fiber. Cat fitment 302.7CR only. Cat related item 566-2975 is 90 sections; do not assume interchangeability. Related 156-1200, 376-9707, 139-4834, 1G-7206, 234-9828.
+These remain discovery candidates, not counted in the 650-product original-seed progress.
+
+Overall reviewed progress: 66/500 batches = 660/5,000 product target (13.2%). Original Cat seed list has 127 SKUs remaining (products 661–787).
