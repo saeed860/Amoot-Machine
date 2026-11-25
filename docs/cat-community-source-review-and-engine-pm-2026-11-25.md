@@ -1456,3 +1456,54 @@ Mirror از Master جاری بازسازی و شمارنده Workflow با تع�
 ### ممیزی هم‌زمانی پس از دور چهل‌وچهارم
 
 در sync اولیه دور 44، Master برابر 3,982 بود؛ ممیزی نهایی 3,985 شماره یکتا را نشان داد. سه شماره در فاصله sync و بازخوانی هم‌زمان اضافه شدند و به batch دور 44 نسبت داده نمی‌شوند. Mirror و Workflow در این مرحله مجدداً با Master 3,985 همگام شدند.
+
+
+## دور ۴۵ — رسیدن Master به ۴۰۰۰ شماره (25 Nov 2026)
+
+در این دور، ۱۵ شماره جدید از صفحات رسمی Cat Parts Store که 287B را صریحاً در Compatible Models دارند به Master و CSV فیتمنت 287B افزوده شدند:
+- 218-0921 — Auxiliary Belt Drive Guard؛ 287B
+- 224-9021 — Seatbelt Warning Film؛ 287B
+- 110-2570 — Cap؛ 297C; 287B
+- 166-2559 — Bracket؛ 287B
+- 307-3043 — Seal Kit؛ 287B; 297C
+- 117-7279 — Bushing؛ 287B
+- 157-4835 — Load Capacity Instruction Plate؛ 297C; 287B
+- 285-6105 — Utility Forks 1676 mm؛ 297C; 287B
+- 231-8126 — Water Valve Assembly؛ 287B
+- 107-3134 — Housing-Connector؛ 287B
+- 238-7610 — Linkage Pin؛ 287B
+- 287-3787 — Pin Assembly؛ 287B
+- 190-8038 — Linkage Pin؛ 287B
+- 249-7160 — Solenoid Valve؛ 287B
+- 6E-5060 — Tamperproof Valve Cap؛ 287B
+
+چهار قطعه دارای فیتمنت 297C و فاقد 287B جداگانه در CSV مستقل ثبت شدند:
+- 149-3488 — 66.93mm Outer Diameter Engine Mount
+- 294-7922 — Engine Crankshaft
+- 262-7290 — ENGINE AR-PR
+- 258-4116 — Engine Harness
+
+منابع رسمی Cat:
+- https://parts.cat.com/en/catcorp/product/218-0921
+- https://parts.cat.com/en/catcorp/product/224-9021
+- https://parts.cat.com/en/catcorp/product/110-2570
+- https://parts.cat.com/en/catcorp/product/166-2559
+- https://parts.cat.com/en/catcorp/product/307-3043
+- https://parts.cat.com/en/catcorp/product/117-7279
+- https://parts.cat.com/en/catcorp/product/157-4835
+- https://parts.cat.com/en/catcorp/product/285-6105
+- https://parts.cat.com/en/catcorp/product/231-8126
+- https://parts.cat.com/en/catcorp/product/107-3134
+- https://parts.cat.com/en/catcorp/product/238-7610
+- https://parts.cat.com/en/catcorp/product/287-3787
+- https://parts.cat.com/en/catcorp/product/190-8038
+- https://parts.cat.com/en/catcorp/product/249-7160
+- https://parts.cat.com/en/catcorp/product/6E-5060
+- https://parts.cat.com/en/catcorp/product/149-3488
+- https://parts.cat.com/en/catcorp/product/294-7922
+- https://parts.cat.com/en/catcorp/product/262-7290
+- https://parts.cat.com/en/catcorp/product/258-4116
+
+نکات فیتمنت: برای seal kit و crankshaft، تطبیق serial number و engine/pump group الزامی است؛ برای engine mount، harness، pins و linkage parts، تطبیق ابعاد، connector، موقعیت نصب و configuration ضروری است. قطعات 297C-only به 287B تعمیم داده نشدند.
+
+Master به دقیقاً ۴۰۰۰ شماره یکتا رسید؛ Mirror باید byte-exact باشد و شمارنده Workflow با Master همگام شد.
