@@ -1507,3 +1507,19 @@ Mirror از Master جاری بازسازی و شمارنده Workflow با تع�
 نکات فیتمنت: برای seal kit و crankshaft، تطبیق serial number و engine/pump group الزامی است؛ برای engine mount، harness، pins و linkage parts، تطبیق ابعاد، connector، موقعیت نصب و configuration ضروری است. قطعات 297C-only به 287B تعمیم داده نشدند.
 
 Master در لحظه ثبت دور به ۴۰۰۰ شماره رسید؛ در ممیزی نهایی، به‌دلیل سه ثبت هم‌زمان دیگر، تعداد به ۴۰۰۳ شماره یکتا افزایش یافت. Mirror به‌صورت byte-exact با Master تازه همگام شد و شمارنده Workflow روی ۴۰۰۳ تنظیم شد.
+
+## دور چهل‌وپنجم — بلبرینگ و اجزای bearing group (25 Nov 2026)
+
+سه شماره جدید از صفحات رسمی Cat Parts Store با نمایش صریح 287B در Compatible Models به Master و CSV اضافه شد:
+- 4B-3665 — 45mm Internal Diameter Single Row Ball Bearing؛ بلبرینگ تک‌ردیفه فولاد آلیاژی، ID=45mm، OD=3.346in و ارتفاع 0.748in.
+- 111-2415 — Tapered Roller Bearing Cup؛ کاپ فولاد آلیاژی با OD=72mm و عرض 22mm؛ جفت با مخروط 111-2414.
+- 8H-9789 — 72mm Outer Diameter Ball Bearing؛ بلبرینگ تک‌ردیفه با ID=1.38in، OD=2.84in و ارتفاع 0.67in.
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/product/4B-3665
+- https://parts.cat.com/en/catcorp/product/111-2415
+- https://parts.cat.com/en/catcorp/8H-9789
+
+برای بلبرینگ‌ها، bearing group، ابعاد shaft/housing، کلاس لقی، load rating و preload باید کنترل شود؛ برای 111-2415، کاپ باید با مخروط 111-2414 جفت شود و از مخلوط‌کردن bearing sets متفاوت خودداری شود. 8H-9789 در صفحه Cat فیتمنت 287B را در فهرست Multi Terrain Loader صریحاً دارد.
+
+Mirror از Master جاری بازسازی و شمارنده Workflow با تعداد خطوط Master تنظیم شد.
