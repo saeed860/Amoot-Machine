@@ -1885,3 +1885,17 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - https://parts.cat.com/en/catcorp/product/258-2970
 
 این قطعات در فیتمنت 287B وارد نشدند. برای harnessها، connector pinout و engine/work tool options؛ برای tube، قطر، routing، اتصالات و فشار؛ برای motor، displacement، rotation و port؛ و برای bracket، mounting pattern باید با PIN و configuration دستگاه تطبیق داده شود.
+
+## دور ۶۲ — تکمیل قطعات مخزن هیدرولیک (25 Nov 2026)
+
+سه شماره از صفحات رسمی Cat Parts Store در این دور طبقه‌بندی شدند:
+- 142-8937 — Lockable Non Vent Hydraulic Tank Cap؛ Compatible Models صریحاً 287B و 297C را دارد؛ در CSV رسمی 287B اضافه شد.
+- 258-2829 — 83mm Outer Diameter Cap Breather؛ Compatible Models شامل 297C است اما 287B را ندارد؛ در CSV مستقل 297C-only ثبت شد.
+- 264-4297 — Low Temperature Sensor؛ Compatible Models شامل 297C است اما 287B را ندارد؛ شماره جدید به Master و CSV مستقل 297C-only اضافه شد.
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/product/142-8937
+- https://parts.cat.com/en/catcorp/product/258-2829
+- https://parts.cat.com/en/catcorp/product/264-4297
+
+برای cap، قطر دهانه، thread، آب‌بندی و non-vented بودن؛ برای breather، عملکرد تنفسی و اندازه رزوه؛ و برای sensor، thread، 2-pin DT و نوع خروجی باید با tank group و PIN دستگاه تطبیق داده شود. قطعه 258-2829 به فیتمنت 287B تعمیم داده نشد.
