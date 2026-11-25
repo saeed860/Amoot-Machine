@@ -2258,3 +2258,16 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 Source page: https://parts.cat.com/en/catcorp/product/357-1805
 
 Data-quality exception: the same official page reports quantity 2,169 for part 165-3928 (3/8-16 x 1 1/4 Hex Head Bolt). This is an extreme outlier versus nearby fastener quantities and is excluded from the recorded BOM rows pending independent confirmation; the raw page value is retained here for audit, not treated as a trusted demand quantity.
+
+
+## Additional Cat 3512B Tier-1-to-Tier-2 standard-stroke conversion-kit BOM candidates — batch 127
+
+Source: official Cat Parts Store product page 350-2187, 3512 Tier 2 Engine Upgrade Kit. The page describes a 3512B Tier 1-to-Tier 2 Standard Stroke conversion from arrangement 236-2459 to 282-9664, intended for use with an engine overhaul. Compatible model shown: MARINE ENGINE / 3512B. Twenty-eight other first-page items were already captured in batch 124 or the seed list and are not duplicated. Four new rows below are arrangement-specific conversion-kit components, not generic replacement recommendations.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+1W-6356 | 1.59mm Thick Gasket | 1 | Cat 350-2187 3512B Tier 1-to-Tier 2 Standard Stroke Conversion Kit BOM; arrangement 236-2459 to 282-9664 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
+205-6455 | 20mm Thick Spacer | 2 | Cat 350-2187 3512B Tier 1-to-Tier 2 Standard Stroke Conversion Kit BOM; arrangement 236-2459 to 282-9664 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
+214-0728 | Regulator Housing | 1 | Cat 350-2187 3512B Tier 1-to-Tier 2 Standard Stroke Conversion Kit BOM; arrangement 236-2459 to 282-9664 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
+215-9090 | ORFS To STOR 90 Degree Elbow Adapter | 1 | Cat 350-2187 3512B Tier 1-to-Tier 2 Standard Stroke Conversion Kit BOM; arrangement 236-2459 to 282-9664 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
+
+Source page: https://parts.cat.com/en/catcorp/product/350-2187
