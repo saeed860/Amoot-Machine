@@ -2593,3 +2593,23 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 7W-2398 | 0.8mm Thick Turbocharger Oil Lines Gasket | 1 | Cat 319-0847 Single Cylinder Head Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
 
 Source page: https://parts.cat.com/en/catcorp/product/319-0847
+
+
+## Additional Cat single-cylinder-head install-kit BOM candidates — batch 155
+
+Source: official Cat Parts Store product page 456-0006, Single Cylinder Head Install Kit. Cat states the kit contains gaskets, seals and bendable locks for cylinder-head rebuild/reinstallation, including turbocharger gasket and mounting hardware, but excludes fuel injector seals. It applies to Single Cylinder Head kit part numbers 317-8750 and up; Cat currently has no equipment compatibility information for this product. Twenty-one other first-page items were already in the queue or seed list and are not duplicated. The eleven new rows below are BOM references only; no engine model or serial fitment is inferred.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+142-2329 | 11.70mm Thick Drainback Oil Seal | 1 | Cat 456-0006 Single Cylinder Head Install Kit BOM; applies to SCH kit numbers 317-8750 and up | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+149-7378 | 11.50mm Inner Diameter Dual Flange Grommet | 36 | Cat 456-0006 Single Cylinder Head Install Kit BOM; applies to SCH kit numbers 317-8750 and up | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+160-7271 | 6.36mm Thick Press Seal | 1 | Cat 456-0006 Single Cylinder Head Install Kit BOM; applies to SCH kit numbers 317-8750 and up | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+227-1204 | 0.2mm Thick Engine Cylinder Block Gasket | 1 | Cat 456-0006 Single Cylinder Head Install Kit BOM; applies to SCH kit numbers 317-8750 and up | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+242-9537 | Isolation Seal Gasket | 3 | Cat 456-0006 Single Cylinder Head Install Kit BOM; applies to SCH kit numbers 317-8750 and up | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+272-0390 | 878.40mm Outside Diameter Press in Place Seal | 1 | Cat 456-0006 Single Cylinder Head Install Kit BOM; applies to SCH kit numbers 317-8750 and up | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+516-5987 | 3/8-16 Thread High-Temperature Taperlock Stud | 8 | Cat 456-0006 Single Cylinder Head Install Kit BOM; applies to SCH kit numbers 317-8750 and up | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+571-9902 | Kit - Cylinder Head Gasket | 1 | Cat 456-0006 Single Cylinder Head Install Kit BOM; applies to SCH kit numbers 317-8750 and up | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+5E-8771 | 120.32mm Inner Diameter O-Ring Seal | 1 | Cat 456-0006 Single Cylinder Head Install Kit BOM; applies to SCH kit numbers 317-8750 and up | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+6I-2517 | 0.8mm Thick Water Elbow Gasket | 1 | Cat 456-0006 Single Cylinder Head Install Kit BOM; applies to SCH kit numbers 317-8750 and up | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+6V-1197 | 98.02mm Inner Diameter O-Ring Seal | 1 | Cat 456-0006 Single Cylinder Head Install Kit BOM; applies to SCH kit numbers 317-8750 and up | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+
+Source page: https://parts.cat.com/en/catcorp/product/456-0006
