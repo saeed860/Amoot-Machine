@@ -230,3 +230,41 @@ Master پس از این دور 2,106 شماره یکتا دارد. فایل Mirr
 - https://parts.cat.com/en/catcorp/product/279-5437
 
 برای تمام Seal Kitها باید شماره گروه سیلندر و شماره سریال دستگاه پیش از سفارش کنترل شود. داده این دور در همان CSV بررسی 287B نگهداری شد؛ تعداد ردیف‌های CSV اکنون 33 است. Master و Mirror هر دو 2,215 شماره یکتا دارند و پس از همسان‌سازی، مجموعه شماره‌ها دقیقاً برابر است. شمارنده Workflow دستی نیز 2,215 است.
+
+
+## دور پنجم — پمپ‌ها و زیربندی 287B/297C (25 Nov 2026)
+
+در صفحات رسمی Cat Parts Store، 12 شماره جدید با نمایش صریح مدل 287B یا 297C در Compatible Models تأیید و به Master افزوده شد:
+
+| Part Number | شرح | مدل صریح در صفحه Cat |
+|---|---|---|
+| 117-7251 | 35mm Internal Diameter Roller Bearing | 267;277B;287;267B;277;287B |
+| 204-1457 | Drive Pump Speed-Sensing Valve | 247;267;277B;267B;287B;257B;247B;257;277 |
+| 238-7709 | Undercarriage Frame Bracket | 287B;287 |
+| 258-3465 | 21cc Gear Pump | 297C;299C;272C |
+| 258-3521 | Hydraulic Gear Pump | 297C;299C;272C |
+| 258-3877 | 31.75mm Inner Diameter Hydrostatic Pump Hose | 297C;299C;272C |
+| 258-3894 | Hydraulic Pump Lines Hose | 297C;299C;272C |
+| 258-7686 | Tie Rod Kit | 277B;287B;297C;plus additional models |
+| 283-9476 | 25.4mm Inner Diameter Hydraulic Pump Hose | 287B;248B;268B |
+| 348-5974 | Piston Pump Control Valve | 277C2;287C;277C;297C;287C2;additional models |
+| 598-8111 | 14 Teeth Piston Pump Drive Shaft | 277B;267B;287B;257B;247B;247B3;257B3;additional models |
+| 6E-0725 | Piston Pump Rotating Roller | 277B;267B;257B;247B;267;257;287;277;247;247B3;287B;additional models |
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/product/117-7251
+- https://parts.cat.com/en/catcorp/product/204-1457
+- https://parts.cat.com/en/catcorp/product/238-7709
+- https://parts.cat.com/en/catcorp/product/258-3465
+- https://parts.cat.com/en/catcorp/product/258-3521
+- https://parts.cat.com/en/catcorp/product/258-3877
+- https://parts.cat.com/en/catcorp/258-3894
+- https://parts.cat.com/en/catcorp/product/258-7686
+- https://parts.cat.com/en/catcorp/product/283-9476
+- https://parts.cat.com/en/catcorp/product/348-5974
+- https://parts.cat.com/en/catcorp/product/598-8111
+- https://parts.cat.com/en/catcorp/product/6E-0725
+
+نکات فیتمنت: شش شماره 117-7251، 204-1457، 238-7709، 283-9476، 598-8111 و 6E-0725 مدل 287B را صریحاً نشان می‌دهند؛ شماره‌های 258-3465، 258-3521، 258-3877، 258-3894 و 348-5974 در این بازیابی برای 297C تأیید شدند و نباید به 287B تعمیم داده شوند. 258-7686 برای 277B/287B/297C فهرست شده اما صفحه فعلاً محتویات کیت را نشان نمی‌دهد. شماره گروه/آرایش پمپ، مسیر شیلنگ، اتصالات، محل نصب و سریال دستگاه باید پیش از سفارش کنترل شود.
+
+پس از افزودن این 12 شماره، Master دارای 2,256 شماره یکتا است. Mirror با محتوای Master دقیقاً همسان‌سازی شد. فایل CSV بررسی 287B/297C اکنون 45 ردیف داده دارد. این شمارش، تعداد شماره‌های فهرست است و به‌معنای موجودی یا سفارش‌پذیری نیست.
