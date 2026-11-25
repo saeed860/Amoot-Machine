@@ -9,7 +9,7 @@ part_number | displayed_name_or_description | source_context | verification_stat
 7W-8580 | Lifter valve guide spring | Cat Parts Store frequently bought together with 20R-8981 | cat_item_page_verified; inserted_part_catalog; fitment_checked_or_unormalized
 1W-2473 | Valve lifter guide spring | Cat Parts Store frequently bought together with 20R-8981 | cat_item_page_verified; inserted_part_catalog; fitment_checked_or_unormalized
 0R-9668 | Cat Reman 3500 valve lifter | Cat Parts Store related-parts listing for 20R-8981 | cat_item_page_verified; existing_catalog_row_updated; Cat_Reman_condition_preserved; fitment_verified
-143-2878 | Cylinder head gasket | Cat Parts Store related-parts listing for 20R-8981 | cat_item_page_verified; inserted_part_catalog; fitment_checked_or_unormalized
+143-2878 | 4mm thick cylinder-head gasket | Frequently bought together with Cat 290-2041 piston assembly | cat_item_page_verified; existing_catalog_row_updated; fitment_verified
 3S-9643 | Rotating shaft lip-type seal | Cat Parts Store frequently bought together with 20R-9045 | cat_item_page_verified; inserted_part_catalog; fitment_checked_or_unormalized
 5D-5957 | 104.37 mm ID seal O-ring | Cat Parts Store frequently bought together with 20R-9045 | cat_item_page_verified; inserted_part_catalog; fitment_checked_or_unormalized
 9Y-9842 | Oil line regulator housing gasket | Cat Parts Store related-parts listing for 20R-9045 | cat_item_page_verified; inserted_part_catalog; fitment_checked_or_unormalized
@@ -163,22 +163,22 @@ part_number | displayed description | source context | status
 479-8086 | 3.05m (10ft) straight snow push | Related part shown on Cat 279-5377 page | cat_item_page_verified; inserted_part_catalog; fitment_verified
 481-3668 | 2.4m (8ft) skid-steer snow plow | Related part shown on Cat 279-5377 page | cat_item_page_verified; inserted_part_catalog; fitment_verified
 489-2001 | BB121 box blade | Related part shown on Cat 279-5377 page | cat_item_page_verified; inserted_part_catalog; fitment_verified
-489-2200 | MB250 mixing bucket | Related part shown on Cat 279-5377 page | cat_linked_candidate; needs_individual_verification
-5P-8500 | Machine ignition key | Related part shown on Cat 279-5377 page | cat_linked_candidate; needs_individual_verification
-8T-4999 | Film-instruction decal | Related part shown on Cat 279-5377 page | cat_linked_candidate; needs_individual_verification
-377-5466 | High-flow connector plug | Related part shown on Cat 279-5377 page | cat_linked_candidate; needs_individual_verification
+489-2200 | MB250 mixing bucket | Cat Parts Store related attachment listing on Cat 279-5377 page | cat_item_page_verified; inserted_part_catalog; fitment_verified
+5P-8500 | Machine ignition key | Related component shown on Cat 279-5377 and 8T-4999 pages | cat_item_page_verified; inserted_part_catalog; no_fitment_published
+8T-4999 | Disconnect switch instruction film | Related component shown on Cat 279-5377 page | cat_item_page_verified; inserted_part_catalog; fitment_verified
+377-5466 | High-flow hydraulic connector plug assembly | Related component shown on Cat 279-5377 page | cat_item_page_verified; inserted_part_catalog; fitment_verified
 
 Source pages:
 - https://parts.cat.com/en/catcorp/product/282-5199
 - https://parts.cat.com/en/catcorp/product/277-3076
 - https://parts.cat.com/en/catcorp/product/279-5377
 
-143-2878 | 4mm Thick Cylinder Head Gasket | Cat Parts Store frequently bought together with 290-2041 piston assembly | cat_linked_candidate; needs_individual_verification
-6I-4545 | 5.26 x 638.2mm 75A FKM O-Ring | Cat Parts Store frequently bought together with 290-2041 piston assembly | cat_linked_candidate; needs_individual_verification
-159-3219 | Combustion Sensor | Cat Parts Store frequently bought together with 290-2041 piston assembly | cat_linked_candidate; needs_individual_verification
-227-2902 | 228.40mm Outside Diameter Connecting Rod Bearing | Cat Parts Store frequently bought together with 290-2041 piston assembly | cat_linked_candidate; needs_individual_verification
-288-0948 | Track Roller Group, Double Flange, High Temperature Application | Cat Parts Store related-parts panel for 288-0934 | cat_linked_candidate; needs_individual_verification
-613-5951 | Track Roller Group, Single Flange, Standard Application | Cat Parts Store related-parts panel for 288-0934 | cat_linked_candidate; needs_individual_verification
+143-2878 | 4mm thick cylinder-head gasket | Frequently bought together with Cat 290-2041 piston assembly | cat_item_page_verified; existing_catalog_row_updated; fitment_verified
+6I-4545 | 5.26 × 638.2mm 75A FKM O-ring | Frequently bought together with Cat 290-2041 piston assembly | cat_item_page_verified; inserted_part_catalog; title_dimensions_only
+159-3219 | Combustion Sensor (description identifies Spark Plug) | Frequently bought together with Cat 290-2041 piston assembly | cat_item_page_verified; inserted_part_catalog; title_vs_description_label_flagged
+227-2902 | 228.40mm OD connecting-rod bearing | Frequently bought together with Cat 290-2041 piston assembly | cat_item_page_verified; inserted_part_catalog; unusual_spec_dimensions_preserved
+288-0948 | Double-flange high-temperature track roller group, 210mm tread | Cat Parts Store related-parts panel for 288-0934 | cat_item_page_verified; inserted_part_catalog; fitment_verified
+613-5951 | Track roller group (Cat title Single Flange; spec Double Flange) | Cat Parts Store related-parts panel for 288-0934 | cat_item_page_verified; inserted_part_catalog; title_vs_spec_flange_conflict_flagged
 288-0947 | Track Roller Group, High Temperature Application, Single Flange | Cat Parts Store related-parts panel for 288-0935 | cat_linked_candidate; needs_individual_verification
 396-7353 | Track Roller Group, Single Flange, Standard Application | Cat Parts Store related-parts panel for 288-0935 | cat_linked_candidate; needs_individual_verification
 
@@ -207,7 +207,7 @@ Source pages:
 7E-0701 | 1.97mm Thick Gasket | Cat Parts Store frequently bought together with 30R-0132/30R-0133 | cat_linked_candidate; needs_individual_verification
 485-4705 | Engine Oil Filter Lube Element | Cat Parts Store frequently bought together with 30R-0132/30R-0133 | cat_linked_candidate; needs_individual_verification
 1G-8878 | Hydraulic/Transmission Oil Filter | Cat Parts Store frequently bought together with 30R-0132 | cat_linked_candidate; needs_individual_verification
-159-3219 | Combustion Sensor | Cat Parts Store frequently bought together with 30R-0132/30R-0133 | cat_linked_candidate; needs_individual_verification
+159-3219 | Combustion Sensor (description identifies Spark Plug) | Frequently bought together with Cat 290-2041 piston assembly | cat_item_page_verified; inserted_part_catalog; title_vs_description_label_flagged
 3S-9643 | Rotating Shaft Lip Type Seal | Cat Parts Store frequently bought together with 30R-0132/30R-0133 | cat_linked_candidate; needs_individual_verification
 622-1438 | VALVE AS-BYP | Cat Parts Store alternate displayed on 30R-0133 Cat Reman exhaust bypass page | cat_linked_candidate; needs_individual_verification
 1S-5772 | 0.8mm Thick Gasket | Cat Parts Store frequently bought together with 30R-0133 | cat_linked_candidate; needs_individual_verification
@@ -315,8 +315,8 @@ Source pages:
 554-8864 | Stepped Linkage Pin | Cat Parts Store related part for 351-8204 spherical bushing | cat_linked_candidate; needs_individual_verification
 228-4947 | 2.62 x 13.94mm 75A FKM O-Ring | Cat Parts Store related part for 351-8204 spherical bushing | cat_linked_candidate; needs_individual_verification
 301-6948 | 100mm Outside Diameter Taper Sleeve | Cat Parts Store related part for 351-8204 spherical bushing | cat_linked_candidate; needs_individual_verification
-5P-8500 | Machine Ignition Key | Cat Parts Store related accessory for 353-1697 pallet forks | cat_linked_candidate; needs_individual_verification
-8T-4999 | Film-Instruction | Cat Parts Store related accessory for 353-1697 pallet forks | cat_linked_candidate; needs_individual_verification
+5P-8500 | Machine ignition key | Related component shown on Cat 279-5377 and 8T-4999 pages | cat_item_page_verified; inserted_part_catalog; no_fitment_published
+8T-4999 | Disconnect switch instruction film | Related component shown on Cat 279-5377 page | cat_item_page_verified; inserted_part_catalog; fitment_verified
 561-0644 | Beacon Warning Lamp | Cat Parts Store related accessory for 353-1697 pallet forks | cat_linked_candidate; needs_individual_verification
 219-7706 | A41 skid-steer auger drive attachment | Related part shown on Cat 279-5377 page | cat_item_page_verified; inserted_part_catalog; auger_drive_specifications_verified
 231-8601 | CV119 | Cat Parts Store related accessory for 353-1697 pallet forks | cat_linked_candidate; needs_individual_verification
@@ -707,9 +707,9 @@ Source pages:
 7N-4927 | 1.6mm water-temperature regulator housing gasket | Related part shown on Cat 231-5127 page | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
 7N-6806 | 15.60mm Inner Diameter Round Seal | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 4 | cat_linked_candidate; needs_individual_verification
 290-2041 | Piston Assembly | Cat Parts Store related part for 497-5606 cylinder block liner | cat_linked_candidate; needs_individual_verification
-6I-4545 | 5.26 x 638.2mm 75A FKM O-Ring | Cat Parts Store related part for 497-5606 cylinder block liner | cat_linked_candidate; needs_individual_verification
-143-2878 | 4mm Thick Cylinder Head Gasket | Cat Parts Store related part for 497-5606 cylinder block liner | cat_linked_candidate; needs_individual_verification
-227-2902 | 228.40mm Outside Diameter Connecting Rod Bearing | Cat Parts Store related part for 497-5606 cylinder block liner | cat_linked_candidate; needs_individual_verification
+6I-4545 | 5.26 × 638.2mm 75A FKM O-ring | Frequently bought together with Cat 290-2041 piston assembly | cat_item_page_verified; inserted_part_catalog; title_dimensions_only
+143-2878 | 4mm thick cylinder-head gasket | Frequently bought together with Cat 290-2041 piston assembly | cat_item_page_verified; existing_catalog_row_updated; fitment_verified
+227-2902 | 228.40mm OD connecting-rod bearing | Frequently bought together with Cat 290-2041 piston assembly | cat_item_page_verified; inserted_part_catalog; unusual_spec_dimensions_preserved
 575-1591 | GPS Module and Installation Cable | Cat Parts Store frequently bought together with 499-6727 Driver Safety System | cat_linked_candidate; item_page_verified; needs_catalog_insert_and_fitment_review
 126-1767 | 3.30mm Outer Diameter Connector Pin | Cat Parts Store frequently bought together with 499-6727 Driver Safety System | cat_linked_candidate; needs_individual_verification
 126-1768 | Connector Socket | Cat Parts Store frequently bought together with 499-6727 Driver Safety System | cat_linked_candidate; needs_individual_verification
@@ -780,11 +780,11 @@ Source pages:
 
 20R-8321 | Cat Reman Turbocharger Group | Cat Parts Store Compare Alternate Parts for 528-9753 turbocharger | cat_linked_candidate; needs_individual_verification
 426-6548 | 2036mm (80in) multi-purpose bucket (Cat title says bolt-on cutting edge) | Related part shown on Cat 279-5377 page | cat_item_page_verified; inserted_part_catalog; title_vs_description_conflict_flagged
-489-2200 | MB250 Material Mixer | Cat Parts Store related item for 529-5780/529-5790/529-5791 cold planers | cat_linked_candidate; needs_individual_verification
+489-2200 | MB250 mixing bucket | Cat Parts Store related attachment listing on Cat 279-5377 page | cat_item_page_verified; inserted_part_catalog; fitment_verified
 9W-0852 | 14 AWG Connector Pin | Cat Parts Store parts diagram for 529-5780 PC305 | cat_linked_candidate; needs_individual_verification
 9W-0844 | Connector Socket | Cat Parts Store parts diagram for 529-5780 PC305 | cat_linked_candidate; needs_individual_verification
 246-2641 | Fuel Tank Mounting Padlock | Cat Parts Store parts diagram for 529-5790 PC306 | cat_linked_candidate; needs_individual_verification
-5P-8500 | Machine Ignition Key | Cat Parts Store parts diagram for 529-5790 PC306 | cat_linked_candidate; needs_individual_verification
+5P-8500 | Machine ignition key | Related component shown on Cat 279-5377 and 8T-4999 pages | cat_item_page_verified; inserted_part_catalog; no_fitment_published
 357-7477 | 500mm Wide Regular Joint Rubber Pad Track Shoe | Cat Parts Store related part for 533-6299 track shoe | cat_linked_candidate; needs_individual_verification
 533-6298 | 490mm Wide Regular Joint Rubber Pad Track Shoe | Cat Parts Store related part for 533-6299 track shoe | cat_linked_candidate; needs_individual_verification
 586-3118 | 500mm Wide Regular Joint Rubber Pad Track Shoe | Cat Parts Store related part for 533-6299 track shoe | cat_linked_candidate; needs_individual_verification
@@ -837,7 +837,7 @@ Source pages:
 228-4947 | 2.62 x 13.94mm 75A FKM O-Ring | Cat Parts Store related item for 546-6109 check valve | cat_linked_candidate; needs_individual_verification
 7E-1630 | 1.65mm Thick Prechamber Gasket | Cat Parts Store related item for 546-6109 check valve | cat_linked_candidate; needs_individual_verification
 485-4705 | Engine Oil Filter Lube Element | Cat Parts Store related item for 546-6109 check valve | cat_linked_candidate; needs_individual_verification
-159-3219 | Combustion Sensor | Cat Parts Store related item for 546-6109 check valve | cat_linked_candidate; needs_individual_verification
+159-3219 | Combustion Sensor (description identifies Spark Plug) | Frequently bought together with Cat 290-2041 piston assembly | cat_item_page_verified; inserted_part_catalog; title_vs_description_label_flagged
 5P-7815 | 3 x 37.46mm 75A FKM O-Ring | Cat Parts Store related item for 546-6109 check valve | cat_linked_candidate; needs_individual_verification
 363-5819 | Fuel water separator (Cat title Standard Efficiency) | Frequently bought together with Cat 265-6618/265-6619 | cat_item_page_verified; inserted_part_catalog; title_vs_spec_efficiency_conflict_flagged
 416-5884 | Ultra High Efficiency Fuel Filter | Cat Parts Store frequently bought together with 552-5534 fuel transfer pump | cat_linked_candidate; needs_individual_verification
@@ -903,7 +903,7 @@ Source pages:
 458-9582 | Yellow Primer Paint | Cat Parts Store frequently bought together with 590-0196 topcoat | cat_linked_candidate; needs_individual_verification
 458-9585 | Black Paint | Cat Parts Store frequently bought together with 590-0196 topcoat | cat_linked_candidate; needs_individual_verification
 3K-0360 | 2.21 x 16.36mm 90A NBR O-Ring | Cat Parts Store frequently bought together with 590-0195/590-0196/590-0198 paint | cat_linked_candidate; needs_individual_verification
-5P-8500 | Machine Ignition Key | Cat Parts Store frequently bought together with 590-0195 topcoat | cat_linked_candidate; needs_individual_verification
+5P-8500 | Machine ignition key | Related component shown on Cat 279-5377 and 8T-4999 pages | cat_item_page_verified; inserted_part_catalog; no_fitment_published
 3J-1907 | 1.98 × 11.89mm 90A NBR O-ring | Frequently bought together with Cat 244-3114 | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
 238-8648 | Extended Life Coolant 50/50 Premix (1 Gallon) | Cat Parts Store frequently bought together with 590-0196 topcoat | cat_linked_candidate; needs_individual_verification
 214-7568 | STOR O-ring seal (SAE 9/16-18) | Related part shown on Cat 237-9313 page | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
@@ -1004,7 +1004,7 @@ Source pages:
 2S-4078 | 3 × 37.47mm 90A NBR O-ring | Related part shown on Cat 254-0224 page | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
 8D-4771 | Rubber O Ring Seal | Cat Parts Store frequently bought together with 5P-7665 track bolt | cat_linked_candidate; needs_individual_verification
 3J-1907 | 1.98 × 11.89mm 90A NBR O-ring | Frequently bought together with Cat 244-3114 | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
-5P-8500 | Machine Ignition Key | Cat Parts Store frequently bought together with 5P-5422 track bolt | cat_linked_candidate; needs_individual_verification
+5P-8500 | Machine ignition key | Related component shown on Cat 279-5377 and 8T-4999 pages | cat_item_page_verified; inserted_part_catalog; no_fitment_published
 1P-3705 | 44.70mm Rubber Rectangular Seal | Cat Parts Store frequently bought together with 5P-5422 track bolt | cat_linked_candidate; needs_individual_verification
 6V-9746 | 1.78 × 18.94mm 90A NBR O-ring | Related component shown on Cat 20R-9565 page | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
 20R-9849 | Cat Reman Water Pump | Cat Parts Store Compare Alternate Parts for 600-3535 basic water pump | cat_linked_candidate; needs_individual_verification
@@ -1220,7 +1220,7 @@ Source pages:
 346-6688 | Air Cleaner Secondary Element | Cat Parts Store frequently bought together with 7W-2326 engine oil filter | cat_linked_candidate; needs_individual_verification
 528-0585 | Engine Air Filter | Cat Parts Store frequently bought together with 7W-2326 engine oil filter | cat_linked_candidate; needs_individual_verification
 471-7003 | Transmission Hydraulic Filter | Cat Parts Store frequently bought together with 7W-2326 engine oil filter | cat_linked_candidate; needs_individual_verification
-5P-8500 | Machine Ignition Key | Cat Parts Store frequently bought together with 8F-9866 grease gun | cat_linked_candidate; needs_individual_verification
+5P-8500 | Machine ignition key | Related component shown on Cat 279-5377 and 8T-4999 pages | cat_item_page_verified; inserted_part_catalog; no_fitment_published
 9G-2758 | Switch Lockout | Cat Parts Store frequently bought together with 8F-9866 grease gun | cat_linked_candidate; needs_individual_verification
 8T-8729 | 3.30mm Outer Diameter Brass Connector Pin | Cat Parts Store frequently bought together with 8F-9866 grease gun | cat_linked_candidate; needs_individual_verification
 8N-0420 | Turbocharger Water Lines Tube | Cat Parts Store frequently bought together with 8N-0419 water line | cat_linked_candidate; needs_individual_verification
@@ -1532,3 +1532,8 @@ Source pages:
 306-9455 | Roller Mount Cap | Cat Parts Store related component shown on 306-9457 page | cat_linked_candidate; needs_individual_verification
 
 273-9104 | Control Group-Handle | Cat Parts Store related component shown on 489-2001 BB121 page | cat_linked_candidate; needs_individual_verification
+
+4J-5267 | 3.53 × 24.99mm 90A NBR O-Ring | Cat Parts Store related component shown on 8T-4999 page | cat_linked_candidate; needs_individual_verification
+355-9850 | Carrier Roller Group | Cat Parts Store frequently bought together with 288-0948 | cat_linked_candidate; needs_individual_verification
+612-5212 | Track Roller Group | Cat Parts Store frequently bought together with 613-5951 | cat_linked_candidate; needs_individual_verification
+605-9149 | Track Segment | Cat Parts Store frequently bought together with 613-5951 | cat_linked_candidate; needs_individual_verification
