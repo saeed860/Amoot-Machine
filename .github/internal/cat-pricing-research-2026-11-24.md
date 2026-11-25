@@ -5079,3 +5079,37 @@ Post-update verification: all ten SKUs exist with Cat official item-page evidenc
 Eleven additional related leads added: 2S-5926, 7Y-0682, 093-1436, 093-1512, 248-7174, 8L-2786, 309-7679, 306-9447, 306-9449, 7T-5959 and 6V-8397. They remain candidates pending individual item-page verification.
 
 Overall reviewed progress: 91/500 batches = 910/5,000 product target (18.2%). Original Cat seed list 787/787 complete; discovery-derived products individually verified/updated: 143. Remaining target: 4,090 products.
+
+## Batch 92/500 — Cat-linked discovery candidates 121–130 (2026-11-25)
+
+Ten candidates were checked against official Cat Parts Store pages. Eight new catalog rows were inserted; existing 485-4705 and 3S-9643 rows were refreshed. All ten were re-queried after writes and arrays deduplicated.
+
+Verified:
+- 620-7314 — Exhaust Bypass Wastegate Housing. Cat says it encloses the wastegate mechanism that regulates exhaust gas flow to turbocharger. Material field: anti-seize compound mixed metal. Cat says compatible-model information is unavailable. Compare alternate 30R-0132 is Cat Reman Exhaust Bypass Group; no interchange claim made.
+- 7E-0701 — 1.97mm Thick Exhaust Manifold Gasket. Jacketed, steel/mineral board, carbon steel, stainless steel and fiber gasket; thickness 0.08in, six 0.41in holes and one 5.71in hole. Fitment 3608/3606/3616 gensets, 3616 marine and G3608/G3612/G3616 gas engines (6 labels).
+- 485-4705 — Engine Oil Filter Lube Element. Existing row refreshed. Diameter 7.425in, length 13.543in, Out-to-In, Standard Efficiency, Cartridge, cellulose media; rubber, adhesive, carbon steel and rubber gasket. Fitment 3608/3606/C280-16/3616 genset, 3616/3612/C280-16/C280-12/C280-6/C280-8 marine, 3608 marine auxiliary, C280-12 petroleum, 3612 locomotive and G3608/G3612/G3616 gas engines (11 labels).
+- 1G-8878 — Advanced Efficiency Hydraulic/Transmission Oil Filter. Diameter 3.709in, length 9.441in, Out-to-In, Advanced High Efficiency, Spin-On, carbon steel/mixed metal-nonmetal. 292 model labels partially normalized across underground trucks, IT toolcarriers, scrapers, LHDs, graders, D5/D6/D10/D8 tractors, compactors, pavers, MTL/CTL, C175 gensets, RM500B/RM800 and articulated trucks.
+- 3S-9643 — Rotating Shaft Lip-Type Seal. Existing row refreshed. FKM primary sealing material; shaft diameter 2.272in, OD 2.661in, width 0.25in. Materials PTFE plastic, carbon steel, alloy copper, stainless steel and plastic. 300+ Cat model labels normalized across generators, truck engines, scrapers, power packs, drills, excavators, petroleum engines, tractors, track loaders, compactors, marine, pipelayers, wheel loaders and industrial engines.
+- 622-1438 — VALVE AS-BYP. Cat says description and compatibility are still being added; only material field is Anti-Seize Compound Mixed: Metal. No function or fitment inferred beyond abbreviated item title.
+- 1S-5772 — 0.8mm Thick Gasket. Rubber/cork and rubber/fiber materials. Fitment across SPF343 pumper, SR4/SR5/SR4B generators, TH55-3516C, XQ2280/XQC1200/PP3516/PM3516/PM3512/3516B/3516C/XQC1600/PMG3516/PM3508 power modules, 3508B truck, 3608 military genset, 6060 shovel, D10 tractor, MD6540C/MD6380 drills and 3500/C280/C175/C32 marine engines (44 labels).
+- 20R-6825 — Cat Reman Power Generator (Traction). Remanufactured brushless generator end, self-exciting/self-regulating with damper windings, cooling system and sealed bearings. Cat says core is disassembled/cleaned/inspected/updated; qualifying core return and 12-month limited warranty subject to limitations. Materials include silicone/MQ/VMQ/PMQ rubber, lanolin/silicone grease and sealant adhesives. Fitment 795F XQ/795F AC (2 labels).
+- 20R-6359 — Cat Reman Power Generator (Electric Drive). Brushless, self-exciting/self-regulating generator end with damper windings, cooling and sealed bearings; reman core disassembled/cleaned/inspected, seals and bearings replaced. Materials carbon steel, silicone/MQ/VMQ/PMQ rubber, lanolin/silicone grease, anti-seize and adhesives. Fitment 794 AC (1 label).
+- 368-8179 — 144.7mm OD Piston Body for C18 cylinder block. Cat describes a cylindrical piston body that seals combustion chamber, transfers combustion force and supports reciprocating motion. Title gives 144.705mm OD; specification panel lists alloy steel only. Fitment POWER SYS genset, C18, C18 Marine genset and C18 Marine engine (4 labels).
+
+Cat item pages:
+- https://parts.cat.com/en/catcorp/product/620-7314
+- https://parts.cat.com/en/catcorp/product/7E-0701
+- https://parts.cat.com/en/catcorp/product/485-4705
+- https://parts.cat.com/en/catcorp/product/1G-8878
+- https://parts.cat.com/en/catcorp/product/3S-9643
+- https://parts.cat.com/en/catcorp/product/622-1438
+- https://parts.cat.com/en/catcorp/product/1S-5772
+- https://parts.cat.com/es/catcorp/product/20R-6825
+- https://parts.cat.com/en/catcorp/product/20R-6359
+- https://parts.cat.com/en/catcorp/product/368-8179
+
+Post-update verification: all ten SKUs exist with Cat official item-page evidence and REFERENCE status. Eight inserted, two existing rows updated. Fitment counts after de-duplication: 620-7314=0 (not published); 7E-0701=6; 485-4705=11; 1G-8878=292; 3S-9643=300+; 622-1438=0 (not published); 1S-5772=44; 20R-6825=2; 20R-6359=1; 368-8179=4. Cat Reman status preserved. No prices, stock or interchange guarantees added.
+
+Fourteen related leads added: 30R-0132, 420-8618, 328-5496, 399-8027, 255-0777, 422-8797, 30R-0417, 30R-0484, 20R-6529, 30R-0927, 246-5659, 223-9159, 238-2707 and 556-0701. They remain candidates pending individual verification.
+
+Overall reviewed progress: 92/500 batches = 920/5,000 product target (18.4%). Original Cat seed list 787/787 complete; discovery-derived products individually verified/updated: 153. Remaining target: 4,080 products.
