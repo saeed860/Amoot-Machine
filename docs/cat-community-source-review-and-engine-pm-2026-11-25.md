@@ -2516,3 +2516,11 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - دسته کنترل شامل boot و دکمه‌هاست؛ سمت دسته، چیدمان دکمه‌ها، pinout هارنس و آرایش pilot-control باید با دستگاه تطبیق داده شود.
 - منبع رسمی: https://parts.cat.com/en/catcorp/product/218-6490
 - شمارنده هدف دور: 4351 شماره یکتا؛ Mirror و Workflow با Master همگام شدند.
+
+
+## دور ۸۹ — 25 Nov 2026
+
+- 096-8482 — 2mm Thick Oil Pan Drain Plug Gasket؛ صفحه رسمی Cat Parts Store مدل‌های 287B و 297C را صریحاً در Compatible Models فهرست می‌کند. شماره جدید به Master و CSV رسمی 287B افزوده شد.
+- ضخامت درج‌شده 2mm است؛ اندازه plug، سطح آب‌بندی کارتل و پیکربندی oil pan باید تطبیق داده شود.
+- منبع رسمی: https://parts.cat.com/en/catcorp/product/096-8482
+- شمارنده هدف دور: 4352 شماره یکتا؛ Mirror و Workflow با Master همگام شدند.
