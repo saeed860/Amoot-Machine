@@ -6,17 +6,17 @@ These are discovery leads only. A related-parts panel is not proof of fitment, i
 Status: cat_linked_candidate; needs_individual_verification.
 
 part_number | displayed_name_or_description | source_context | verification_status
-7W-8580 | Lifter valve guide spring | Cat Parts Store frequently bought together with 20R-8981 | cat_linked_candidate; needs_individual_verification
-1W-2473 | Valve lifter guide spring | Cat Parts Store frequently bought together with 20R-8981 | cat_linked_candidate; needs_individual_verification
+7W-8580 | Lifter valve guide spring | Cat Parts Store frequently bought together with 20R-8981 | cat_item_page_verified; inserted_part_catalog; fitment_checked_or_unormalized
+1W-2473 | Valve lifter guide spring | Cat Parts Store frequently bought together with 20R-8981 | cat_item_page_verified; inserted_part_catalog; fitment_checked_or_unormalized
 0R-9668 | Cat Reman valve lifter | Cat Parts Store related-parts listing for 20R-8981 | cat_linked_candidate; needs_individual_verification
-143-2878 | Cylinder head gasket | Cat Parts Store related-parts listing for 20R-8981 | cat_linked_candidate; needs_individual_verification
-3S-9643 | Rotating shaft lip-type seal | Cat Parts Store frequently bought together with 20R-9045 | cat_linked_candidate; needs_individual_verification
-5D-5957 | 104.37 mm ID seal O-ring | Cat Parts Store frequently bought together with 20R-9045 | cat_linked_candidate; needs_individual_verification
-9Y-9842 | Oil line regulator housing gasket | Cat Parts Store related-parts listing for 20R-9045 | cat_linked_candidate; needs_individual_verification
-485-4705 | Engine oil filter lube element | Cat Parts Store related-parts listing for 20R-9045 | cat_linked_candidate; needs_individual_verification
-6V-7701 | 240.67 mm ID seal O-ring | Cat Parts Store frequently bought together with 20R-9124 | cat_linked_candidate; needs_individual_verification
-6V-3955 | 15.24 mm ID seal O-ring | Cat Parts Store frequently bought together with 20R-9124 | cat_linked_candidate; needs_individual_verification
-6V-6809 | 139.07 mm ID seal O-ring | Cat Parts Store related-parts listing for 20R-9124 | cat_linked_candidate; needs_individual_verification
+143-2878 | Cylinder head gasket | Cat Parts Store related-parts listing for 20R-8981 | cat_item_page_verified; inserted_part_catalog; fitment_checked_or_unormalized
+3S-9643 | Rotating shaft lip-type seal | Cat Parts Store frequently bought together with 20R-9045 | cat_item_page_verified; inserted_part_catalog; fitment_checked_or_unormalized
+5D-5957 | 104.37 mm ID seal O-ring | Cat Parts Store frequently bought together with 20R-9045 | cat_item_page_verified; inserted_part_catalog; fitment_checked_or_unormalized
+9Y-9842 | Oil line regulator housing gasket | Cat Parts Store related-parts listing for 20R-9045 | cat_item_page_verified; inserted_part_catalog; fitment_checked_or_unormalized
+485-4705 | Engine oil filter lube element | Cat Parts Store related-parts listing for 20R-9045 | cat_item_page_verified; inserted_part_catalog; fitment_checked_or_unormalized
+6V-7701 | 240.67 mm ID seal O-ring | Cat Parts Store frequently bought together with 20R-9124 | cat_item_page_verified; inserted_part_catalog; fitment_checked_or_unormalized
+6V-3955 | 15.24 mm ID seal O-ring | Cat Parts Store frequently bought together with 20R-9124 | cat_item_page_verified; inserted_part_catalog; fitment_checked_or_unormalized
+6V-6809 | 139.07 mm ID seal O-ring | Cat Parts Store related-parts listing for 20R-9124 | cat_item_page_verified; inserted_part_catalog; fitment_checked_or_unormalized
 4W-7749 | 0.8 mm thick circular engine gasket | Cat Parts Store related-parts listing for 20R-9124 | cat_linked_candidate; needs_individual_verification
 355-8509 | Connecting-rod bearing | Cat Parts Store related-parts listing for 20R-9480 | cat_linked_candidate; needs_individual_verification
 20R-9427 | Cat Reman 3512E UTN cylinder head | Cat Parts Store related-parts listing for 20R-9480 | cat_linked_candidate; needs_individual_verification
