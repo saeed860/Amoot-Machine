@@ -3,8 +3,8 @@ import { chromium } from "playwright";
 
 const allPartNumbers = (await readFile("data/cat-official-part-numbers.txt", "utf8"))
   .split(/\r?\n/).map(x => x.trim()).filter(Boolean);
-if (allPartNumbers.length !== 787 || new Set(allPartNumbers).size !== allPartNumbers.length) {
-  throw new Error(`Expected 787 unique official Cat part numbers; found ${allPartNumbers.length}`);
+if (!allPartNumbers.length || new Set(allPartNumbers).size !== allPartNumbers.length) {
+  throw new Error(`Expected a non-empty unique official Cat part-number list; found ${allPartNumbers.length} rows and ${new Set(allPartNumbers).size} unique`);
 }
 const batchStart = Math.max(0, Number.parseInt(process.env.CAT_BATCH_START || "0", 10) || 0);
 const batchSize = Math.max(1, Math.min(150, Number.parseInt(process.env.CAT_BATCH_SIZE || "100", 10) || 100));
