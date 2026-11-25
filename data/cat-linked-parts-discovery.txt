@@ -3274,3 +3274,22 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 8T-0785 | 66.49mm Outer Diameter Plastic Ring | 1 | Cat 229-7194 Standard Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
 
 Source page: https://parts.cat.com/en/catcorp/product/229-7194
+
+
+## Additional Cat standard-size hydraulic-cylinder seal-kit BOM candidates — batch 192
+
+Source: official Cat Parts Store product page 471-0276, Hydraulic Cylinder Seal Kit - Standard Size. Cat specifies standard nominal bore sizing up to 0.25mm (0.010in) max. Compatibility section explicitly states no equipment compatibility information is currently available. The 118-8586 O-ring was already present in the discovery queue and is not duplicated. The ten new rows below are official BOM references only; cylinder-group number and actual bore/rod dimensions are required before ordering.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+140-0249 | 55mm Inner Diameter Wear Ring | 1 | Cat 471-0276 Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; compatible_model_unconfirmed; cylinder_group_and_dimensions_required
+175-7898 | 3.53 x 88.49mm 75A NBR O-Ring | 1 | Cat 471-0276 Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; compatible_model_unconfirmed; cylinder_group_and_dimensions_required
+1S-0669 | 88.55mm Inner Diameter Backup Ring | 1 | Cat 471-0276 Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; compatible_model_unconfirmed; cylinder_group_and_dimensions_required
+261-3637 | 95mm Bore Diameter Piston Guide | 1 | Cat 471-0276 Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; compatible_model_unconfirmed; cylinder_group_and_dimensions_required
+261-3644 | 95mm Bore Diameter Two Piece Seal | 1 | Cat 471-0276 Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; compatible_model_unconfirmed; cylinder_group_and_dimensions_required
+329-5789 | 55mm Rod Diameter Plastic Buffer Seal | 1 | Cat 471-0276 Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; compatible_model_unconfirmed; cylinder_group_and_dimensions_required
+329-5791 | 50mm Diameter Rod Double Lip Wiper Seal | 1 | Cat 471-0276 Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; compatible_model_unconfirmed; cylinder_group_and_dimensions_required
+329-5793 | 9.50mm Width U Cup Seal | 1 | Cat 471-0276 Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; compatible_model_unconfirmed; cylinder_group_and_dimensions_required
+3E-6735 | 91.67mm Inner Diameter Seal O-Ring | 1 | Cat 471-0276 Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; compatible_model_unconfirmed; cylinder_group_and_dimensions_required
+420-5767 | 42.6mm Inner Diameter Backup Ring | 1 | Cat 471-0276 Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; compatible_model_unconfirmed; cylinder_group_and_dimensions_required
+
+Source page: https://parts.cat.com/en/catcorp/product/471-0276
