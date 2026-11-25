@@ -1,0 +1,6 @@
+observed_date,source,queried_part_number,offroad_result_part_number,result,description,location,condition,unit_price_usd,available_quantity,fitment_or_alternate_note,import_or_cart_status
+2026-11-25,Offroad Equipment Batch Import,20R-0638,,PART_NOT_FOUND,,,,,,,"Result displayed Part not found; no successful catalog match observed"
+2026-11-25,Offroad Equipment Batch Import,276-3104,,PART_NOT_FOUND,,,,,,,"Result displayed Part not found; no successful catalog match observed"
+2026-11-25,Offroad Equipment Batch Import,322-2733,,PART_NOT_FOUND,,,,,,,"Result displayed Part not found; no successful catalog match observed"
+2026-11-25,Offroad Equipment Batch Import,557-7633,20R8968,ALTERNATE_FOUND,"INJECTOR G","Knoxville, TN","",450.00,2,"Offroad labels 20R8968 as alternate to 5577633; listing says new Cat reman part for P/N 5577633; verify serial/configuration and exact interchange before purchase","User shared result table; whether Import Items was submitted and whether cart changed is unconfirmed"
+2026-11-25,Offroad Equipment Batch Import,188-9429,,PART_NOT_FOUND,,,,,,,"Result displayed Part not found; no successful catalog match observed"
