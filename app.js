@@ -53,6 +53,7 @@ function categoryInfo(p){
   let sub=FILTER_SUBCATEGORIES[7];
   if(/\bcabin\b|کابین|air.?condition|a\/c|تهویه|کولر/.test(t))sub=FILTER_SUBCATEGORIES[5];
   else if(/\bdpf\b|diesel.?particulate|soot|def.?filter|diesel.?exhaust.?fluid|after.?treatment|aftertreatment|اگزوز دیزل|پس.?پالایش|دوده/.test(t))sub=FILTER_SUBCATEGORIES[6];
+  else if(/filter.?base|filter.?housing|filter.?assembly|base.?assembly|پایه فیلتر|محفظه فیلتر|مجموعه فیلتر|قطعات مجموعه/.test(t))sub=FILTER_SUBCATEGORIES[7];
   else if(/water.?separator|جداکننده.?آب|fuel|سوخت/.test(t))sub=FILTER_SUBCATEGORIES[2];
   else if(/hydraulic|transmission|هیدرولیک|انتقال قدرت/.test(t))sub=FILTER_SUBCATEGORIES[3];
   else if(/coolant|cooling|water.?spray|فیلتر آب|خنک.?کاری|آب.?پاش/.test(t))sub=FILTER_SUBCATEGORIES[4];
