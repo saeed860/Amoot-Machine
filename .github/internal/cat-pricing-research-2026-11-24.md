@@ -4132,3 +4132,46 @@ Additional Cat-linked discovery candidates from official Cat related/frequently-
 Candidates remain discovery leads only and require individual item-level verification before promotion.
 
 Overall reviewed progress: 67/500 batches = 670/5,000 product target (13.4%). Original Cat seed list has 117 SKUs remaining (products 671–787).
+
+## Batch 68/500 — products 671–680 (2026-11-25)
+
+SKUs: 593-1012, 593-2027, 595-3692, 595-3920, 596-1051, 597-6033, 598-0498, 598-5827, 599-7781, 5L-6954. All ten Cat item pages opened; model fitment, specifications, kit BOM and related items inspected. Existing DB values matched Cat where published; no unsupported changes required.
+
+Verified:
+- 593-1012: Cat Heavy Duty Block Rubber Track, 450mm/17.717in width, 86mm/3.386in pitch, 56 sections, black rubber/fiber, HD undercarriage. Compatible CTLs 279C2/279D/279D3/289C2/289D/289D3 (6). Cat related items: 304-1916 sprocket, 110-6326 primary air filter, 110-6331 secondary air filter, 377-6969 oil filter, 265-6619 cabin filter.
+- 593-2027: Cat Cylinder Liner, G3606 Gas Engine. Cat material Gray (Flake) Iron. One compatible engine model G3606. Cat page describes a cylinder liner fitted into the block bore to provide the piston running surface and heat transfer. Related items 566-5491, 593-2028, 566-5489, 595-3692 and 566-5490.
+- 595-3692: Cat Engine Cylinder Piston. Cat public page has no compatible-model or technical-specification information; DB correctly keeps fitment empty and records the Cat status that details are still being added. Related engine components: 593-2028, 593-2027, 566-5491, 566-5490 and 566-5489.
+- 595-3920: Cat 12.7mm ID Fuel Hose Assembly. Specs: Fuel and Oil High Temperature hose, 0.5in ID, 7/8in 90° JIC 37° flare elbow, 7/8in straight JIC 37° flare, 10.079in overall length, materials Other Hose/Tape-Labels Adhesive/Carbon Steel. Eight compatible labels across Gen Set Engine 3516B/3516C, Marine Engine 3516B/3516C, Generator Set 3516B, Marine Auxiliary 3516C, Engine 3516B and Petroleum Engine 3516B. Cat related items: 1P-7625, 238-5080, 597-3014, 7E-8860 and 2P-7636.
+- 596-1051: Cat Engine Fuel Supply Valve. Cat description says the fuel valve regulates flow between tank and engine and uses two layers of flame-rated heat shrink at each end of the lead wire. Material Carbon Steel. Compatible models Gen Set Engine 3516B, Engine 3516B/3516C, Generator Set 3516B, Marine Engine 3516B and Marine Auxiliary 3516C (5 labels). Cat page marks it discontinued; DB is inactive. Related parts 9X-7432, 6V-4367, 609-9131, 6V-3834 and 445-0939.
+- 597-6033: Cat Advansys 130 Penetration Plus bucket tip. Specs: 51.43lb, 15.63in overall length, 4.118in front width, 7.717in rear width, 6.236in rear height, Standard durability, Penetration Plus, Advansys series. 35 compatible labels across 3500 engines, excavators and wheel loaders. Cat related components: bucket adapters 368-3780/368-3781/368-3782, tip pin retainer 132-0999 and related bucket tip 505-4113.
+- 598-0498: Cat Cartridge-Sleeve Bearing. Cat describes a factory-assembled, sealed and oiled pin-and-bearing cartridge made from high-grade hardened steel. Specs: length 60.08in, Alloy Steel. Compatible Wheel Loader 992K. Related 598-0497 boom-pin spacer, 316-6138 retainer plate, 274-5696 retainer plate, 1P-3704 and 1P-3705 seals.
+- 598-5827: Cat Single Cylinder Head Install Kit for G3508/G3512/G3516 Gas Engines (3 labels). Cat lists exactly 24 kit lines; DB contains all 24. Kit includes O-rings, head/cylinder gaskets, seals, valve/cam covers and water seals. Related 479-7702 spark plug, 1R-0726 oil filter, 3S-9643 rotating shaft seal, 153-1810 bonded seal and 7E-6016 engine cover gasket.
+- 599-7781: Cat Engine Overhaul (Major) Kit for G3516B. Cat description says the Foundational Level kit includes all gaskets/seals for a complete major overhaul and many 100% replacement items from thermostats to gear bushings. Cat reports 116 kit items, but public page exposes only 1–32; DB correctly stores the 32 visible items and does not infer the other 84. Related 107-7330 connecting rod bearing, 479-7702 spark plug, 161-8068 seal, 2G-6303 circular seal and 141-7116 serpentine belt.
+- 5L-6954: Cat Elbow. Material Carbon Steel. 36 distinct compatible labels across gen set engines, generators, generator sets, marine/marine auxiliary, industrial engines, engines, petroleum engines, locomotive engines, gas engines and petroleum gen sets. DB fitment count36 and engine-model count32 match Cat's published lists.
+
+Cat pages:
+- https://parts.cat.com/en/catcorp/product/593-1012
+- https://parts.cat.com/en/catcorp/product/593-2027
+- https://parts.cat.com/en/catcorp/product/595-3692
+- https://parts.cat.com/en/catcorp/product/595-3920
+- https://parts.cat.com/en/catcorp/product/596-1051
+- https://parts.cat.com/en/catcorp/product/597-6033
+- https://parts.cat.com/en/catcorp/product/598-0498
+- https://parts.cat.com/en/catcorp/product/598-5827
+- https://parts.cat.com/en/catcorp/product/599-7781
+- https://parts.cat.com/en/catcorp/product/5L-6954
+
+Post-update DB verification counts: 593-1012=6; 593-2027=1; 595-3692=0; 595-3920=8; 596-1051=5 (inactive); 597-6033=35; 598-0498=1; 598-5827=3 (24 kit lines); 599-7781=1 (32 visible of 116 reported); 5L-6954=36. No price/stock claims added.
+
+Additional Cat-linked discovery candidates from official Cat parts diagrams/frequently-bought-together panels:
+- 593-1012: 304-1916, 110-6326, 110-6331, 377-6969, 265-6619.
+- 593-2027: 566-5491, 593-2028, 566-5489, 595-3692, 566-5490.
+- 595-3920: 1P-7625, 238-5080, 597-3014, 7E-8860, 2P-7636.
+- 596-1051: 9X-7432, 6V-4367, 609-9131, 6V-3834, 445-0939.
+- 597-6033: 368-3780, 368-3781, 368-3782, 132-0999, 505-4113.
+- 598-0498: 598-0497, 316-6138, 274-5696, 1P-3704, 1P-3705.
+- 598-5827: 479-7702, 1R-0726, 3S-9643, 153-1810, 7E-6016.
+- 599-7781: 107-7330, 479-7702, 161-8068, 2G-6303, 141-7116.
+Candidate leads are not fitment claims and require individual item-page verification.
+
+Overall reviewed progress: 68/500 batches = 680/5,000 product target (13.6%). Original Cat seed list has 107 SKUs remaining (products 681–787).
