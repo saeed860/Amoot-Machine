@@ -1861,3 +1861,18 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 9Y-2988 | Engine Crankcase Breather | 2 | Cat 460-9788 Electric Power 3412 Top-End Overhaul Kit BOM; product page has no compatibility data | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
 
 Source page: https://parts.cat.com/en/catcorp/product/460-9788
+
+
+## Additional Cat 3508 land-drilling overhaul-kit BOM candidates — batch 108
+
+Source: official Cat Parts Store product page 459-3142, Major Engine Overhaul Kit. The page labels it “Land Drilling Bundled Repair Solution, 3508 Engine Overhaul”, but the compatibility section explicitly states that Cat currently has no compatibility information for this product. That uncertainty is preserved; no 3508 fitment is asserted from the marketing heading alone. Twenty-six other displayed components were already present in the queue and are not duplicated. The six new rows below are kit BOM evidence only, not standalone orderability, inventory, price, or serial-specific fitment confirmation.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+241-5928 | 1.2mm Thick Two Hole Flange Gasket | 8 | Cat 459-3142 Land Drilling 3508 Overhaul Kit BOM; product page compatibility unavailable | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+243-2288 | 0.8mm Thick Gasket | 2 | Cat 459-3142 Land Drilling 3508 Overhaul Kit BOM; product page compatibility unavailable | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+272-0759 | Cylinder Block Cover Press In Place Seal | 8 | Cat 459-3142 Land Drilling 3508 Overhaul Kit BOM; product page compatibility unavailable | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+361-7097 | Slit Type Flange Ring | 1 | Cat 459-3142 Land Drilling 3508 Overhaul Kit BOM; product page compatibility unavailable | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+447-7206 | 3.53 x 56.74mm 75A FKM O-Ring | 4 | Cat 459-3142 Land Drilling 3508 Overhaul Kit BOM; product page compatibility unavailable | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+453-7799 | 1.5mm Thick Exhaust Manifold Gasket | 4 | Cat 459-3142 Land Drilling 3508 Overhaul Kit BOM; product page compatibility unavailable | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+
+Source page: https://parts.cat.com/en/catcorp/product/459-3142
