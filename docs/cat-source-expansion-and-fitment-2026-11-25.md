@@ -100,7 +100,7 @@
 - شمارش جاری پس از ادغام Motor Grader و CTL/MTL: **1276 شماره یکتا**.
 - در مرحله تکمیلی موتورهای C18، ده شماره در صفحات رسمی Cat تأیید و به master افزوده شد.
 - شمارش جاری `data/cat-official-part-numbers.txt`: **1286 شماره یکتا**.
-- فایل `data/offroad-batch-import-cat-1297.txt` دقیقاً با master یکسان است: **1286 ردیف، بدون تکرار**.
+- فایل `data/offroad-batch-import-cat-1315.txt` دقیقاً با master یکسان است: **1286 ردیف، بدون تکرار**.
 
 ## قواعد داده و سطح اطمینان
 
@@ -139,3 +139,13 @@ Workflow شماره 45574758840 در صفحه‌های اولیه Cat چند tim
 - تعداد شماره‌های یکتا پس از ادغام: 1297
 - فایل ورودی Offroad باید دقیقاً mirror فهرست مرکزی باشد.
 - این داده‌ها به‌عنوان Cat guide-listed ثبت شده‌اند، نه ادعای سازگاری قطعی برای هر دستگاه بدون سریال کامل.
+
+
+## Quick Disconnectهای D Series
+
+- فایل: `data/cat-d-series-quick-disconnect-fitment-2026-11-25.csv`
+- تعداد رکورد: 16؛ منبع Cat رسمی، جدول Quick Disconnects در راهنمای D Series.
+- شامل اتصالات Standard/High Flow، XHP، D XHP، D2 XHP، D3 XE و Land Management با تفکیک Male/Female، قطر و Case Drain.
+- منبع: https://www.cat.com/en_US/support/maintenance/parts-reference-guides/dozers_small_d1-d2-d3.html
+- سازگاری اتصال‌ها تابع آرایش هیدرولیک و مدل دقیق است؛ این فهرست جایگزین تأیید سریال/پیکربندی نیست.
+- Master و فایل Offroad: 1315 شماره یکتا.
