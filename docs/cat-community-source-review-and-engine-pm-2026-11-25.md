@@ -2471,3 +2471,14 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - پیش از سفارش، سطح تماس، جنس/پروفیل گسکت و موقعیت دقیق آن در Parts Diagram تأیید شود.
 - منبع رسمی: https://parts.cat.com/en/catcorp/product/232-4703
 - شمارنده هدف دور: 4342 شماره یکتا؛ Mirror و Workflow با Master همگام شدند.
+
+## دور ۸۱ — سیلندر هیدرولیک نسل جدید 297C (25 Nov 2026)
+
+- 578-3190 — General Duty Hydraulic Cylinder؛ صفحه رسمی Cat Compatible Models شامل 297C و مدل‌های 287C/277C است، اما 287B را نشان نمی‌دهد.
+- شماره جدید به Master و CSV مستقل 297C-only اضافه شد.
+- مشخصات صفحه: ساختار فولاد کربنی، cylinder barrel، piston rod و seals؛ کاربرد برای حرکت خطی lift/tilt.
+
+منبع رسمی:
+- https://parts.cat.com/en/catcorp/product/578-3190
+
+این قطعه به فیتمنت 287B تعمیم داده نشد. پیش از سفارش باید bore، stroke، port locations، mounting dimensions، cylinder arrangement و PIN دستگاه با Dealer/Parts Diagram تطبیق داده شود.
