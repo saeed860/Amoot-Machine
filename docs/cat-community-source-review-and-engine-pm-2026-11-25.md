@@ -1678,3 +1678,23 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - https://parts.cat.com/en/catcorp/product/258-3549
 
 این پنج شماره به‌عنوان فیتمنت 287B ثبت نشدند. برای sealها، ابعاد groove، مقطع، جنس و محل نصب؛ برای fuel tank guard و bracket، نسخه مخزن و الگوی اتصال باید با PIN و Parts Diagram تطبیق داده شود.
+
+## دور ۵۱ — تکمیل فیتمنت‌های مستقل 297C (25 Nov 2026)
+
+هفت شماره جدید از صفحات رسمی Cat Parts Store با نمایش صریح 297C و بدون نمایش 287B در Compatible Models به Master و CSV مستقل 297C-only افزوده شدند:
+- 258-3621 — Hydraulic Cylinder Seal Kit؛ کاربرد وابسته به cylinder group.
+- 258-4286 — Air Conditioner Tube؛ لوله مدار تهویه.
+- 424-5259 — Seat Adjuster Kit؛ کیت تنظیم تعلیق صندلی.
+- 258-4102 — Cab Wiring Harness؛ دسته‌سیم کابین.
+- 585-1577 — Cab Radio with AM and FM؛ رادیوی کابین.
+- 258-3537 — Fan Guard Assembly؛ محافظ فن.
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/product/258-3621
+- https://parts.cat.com/en/catcorp/product/258-4286
+- https://parts.cat.com/en/catcorp/product/424-5259
+- https://parts.cat.com/en/catcorp/product/258-4102
+- https://parts.cat.com/en/catcorp/product/585-1577
+- https://parts.cat.com/en/catcorp/product/258-3537
+
+تمام موارد بالا از فیتمنت 287B جدا نگه داشته شدند. برای seal kit، cylinder group و serial number؛ برای A/C tube، routing و fittings؛ برای seat adjuster، mounting؛ برای harness و radio، گزینه‌های الکتریکی و connector؛ و برای fan guard، revision و clearance باید کنترل شوند.
