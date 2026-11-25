@@ -1951,3 +1951,22 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - https://parts.cat.com/en/catcorp/product/631-6270
 
 یادداشت سفارش: شیلنگ‌ها باید از نظر قطر داخلی، نوع تقویت، فشار، طول و مسیر با PIN و مدار واقعی تطبیق داده شوند؛ کمپرسور HVAC و cap نیز به مشخصات مبرد/اتصالات و فشار نامی نیاز دارند. برای 631-6270، محل سیلندر، کورس، قطر bore/rod و mounting باید با serial number بررسی شود. ثبت فیتمنت در فهرست مدل، جایگزین تأیید PIN و پیکربندی نیست.
+
+## دور ۶۴ — تکمیل HVAC و قطعات کابین (25 Nov 2026)
+
+دو شماره جدید از صفحات رسمی Cat Parts Store با Compatible Models شامل 297C و بدون 287B به Master و CSV مستقل 297C-only افزوده شدند:
+- 350-9034 — Cab Heater and Mounting Kit؛ فیتمنت 287C، 277C، 297C و مدل‌های C2 مرتبط؛ کیت شامل heater، ducting، insulation، seals، louvers و hardware است.
+- 258-4379 — 5 Star Clamp Knob with M6 Threaded Stud؛ فیتمنت 297C و مدل‌های مرتبط، بدون 287B؛ قطر بیرونی 1.27in، طول 1.9in و stud رزوه M6.
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/product/350-9034
+- https://parts.cat.com/en/catcorp/product/258-4379
+
+**اصلاح جزئیات 305-8044:** فهرست دقیق Items Included در صفحه Cat شامل 121-9870، 133-6934، 172-8591، 258-4379، 305-8046، 305-8047، 305-8048، 348-3485 و 7X-2031 است. صفحه 305-8047 اعلام می‌کند اطلاعات Compatible Models برای آن موجود نیست؛ بنابراین 305-8047 و سایر اجزای فاقد fitment مستقل به‌عنوان قطعه فیت‌شده ثبت نشده‌اند. 258-4379 اکنون به‌طور مستقل در CSV 297C-only آمده است.
+
+منابع:
+- https://parts.cat.com/en/catcorp/product/305-8044
+- https://parts.cat.com/en/catcorp/product/305-8047
+- https://parts.cat.com/en/catcorp/product/258-4379
+
+برای kit heater، گزینه‌های کابین، لوله‌کشی، duct، louver و محل نصب باید با PIN تطبیق داده شوند؛ برای clamp knob نیز رزوه و interface فرمان بررسی شود.
