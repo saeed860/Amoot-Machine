@@ -2626,3 +2626,15 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - شماره 258-3849 به Master و CSV مستقل 297C-only افزوده شد.
 - منبع رسمی: https://parts.cat.com/en/catcorp/product/258-3849
 - وضعیت شمارنده: 4374 شماره یکتا؛ Mirror برابر Master؛ Workflow برابر 4374.
+
+
+## دور ۱۰۰ — 25 Nov 2026
+
+- پنج فیتمنت رسمی Cat با سازگاری صریح 287B در CSV ثبت شد:
+  - 257-8388 — Breather Assembly؛ شامل crankcase breather، tube و elbow 90°؛ اتصال به cover و مسیر لوله بررسی شود. شماره جدید Master.
+  - 249-9275 — Crankcase Breather Tube؛ جنس carbon steel/alloy zinc؛ مسیر و اتصالات باید با آرایش crankcase تطبیق داده شود. شماره جدید Master.
+  - 158-6697 — Gauge & Warning Right-Hand Side Instrument Panel؛ ABS؛ ابعاد کلی 19.4 × 19.75 × 7.53in؛ layout گیج‌ها و نسل کنسول بررسی شود. شماره جدید Master.
+  - 223-0609 — 902.70mm Height Safety Glass؛ شیشه laminated سبز با ceramic frit مشکی، ضخامت 0.27in و ابعاد 35.54 × 18.58in؛ محل پنل و revision شیشه کنترل شود. شماره جدید Master.
+  - 235-4948 — Crankcase Breather؛ قطر 2.52in و طول 3.622in؛ از قبل در Master بود و ردیف CSV تکمیل شد.
+- منابع رسمی: https://parts.cat.com/en/catcorp/product/257-8388 ؛ https://parts.cat.com/en/catcorp/product/249-9275 ؛ https://parts.cat.com/en/catcorp/product/158-6697 ؛ https://parts.cat.com/en/catcorp/product/223-0609 ؛ https://parts.cat.com/en/catcorp/product/235-4948
+- وضعیت شمارنده: 4378 شماره یکتا؛ Mirror برابر Master؛ Workflow برابر 4378.
