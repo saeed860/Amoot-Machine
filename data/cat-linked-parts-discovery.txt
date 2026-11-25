@@ -1407,3 +1407,14 @@ Source pages:
 107-0266 | Grease Injector | Cat Parts Store frequently bought together with 5T-5045 lubrication injector | cat_linked_candidate; needs_individual_verification
 5T-5012 | Lubrication Injector | Cat Parts Store frequently bought together with 5T-5045 lubrication injector | cat_linked_candidate; needs_individual_verification
 341-1429 | Water Pump Seal Kit | Cat Parts Store frequently bought together with 600-3535 basic water pump | cat_linked_candidate; needs_individual_verification
+
+4F-7387 | 100.97mm Inner Diameter Seal O-Ring | Cat Parts Store frequently bought together with 603-7963 auxiliary pump | cat_linked_candidate; needs_individual_verification
+5N-1940 | 1.6mm Thick Flange Gasket | Cat Parts Store frequently bought together with 603-7963 auxiliary pump | cat_linked_candidate; needs_individual_verification
+225-7738 | Water Pump O-Ring Seal | Cat Parts Store frequently bought together with 604-2388 water pump pipe | cat_linked_candidate; needs_individual_verification
+281-8744 | Water Regulator Gasket | Cat Parts Store frequently bought together with 604-2388 water pump pipe | cat_linked_candidate; needs_individual_verification
+225-8019 | Water Pump Housing Gasket | Cat Parts Store frequently bought together with 604-2388 water pump pipe | cat_linked_candidate; needs_individual_verification
+365-8395 | ELC (Extended Life Coolant) Premix | Cat Parts Store frequently bought together with 604-2388 water pump pipe | cat_linked_candidate; needs_individual_verification
+9M-3786 | 139.06mm Inside Diameter Seal-O-Ring | Cat Parts Store frequently bought together with 605-7481 cooling water pump | cat_linked_candidate; needs_individual_verification
+10R-0484 | Cat Reman Water Pump | Cat Parts Store alternative Reman listing for 605-7481 cooling water pump | cat_linked_candidate; needs_individual_verification
+220-1523 | Engine Oil Filter | Cat Parts Store frequently bought together with 607-4800 rubber track | cat_linked_candidate; needs_individual_verification
+421-5479 | Advanced Efficiency Hydraulic Filter | Cat Parts Store frequently bought together with 607-4800/607-4803 rubber tracks | cat_linked_candidate; needs_individual_verification
