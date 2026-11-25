@@ -2888,3 +2888,14 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 9X-6620 | M10 x 1.5mm Cone Lock Nut | 4 | Cat 417-8844 Motor Grader Single Cylinder Head Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
 
 Source page: https://parts.cat.com/en/catcorp/product/417-8844
+
+
+## Additional Cat AD55B/AD60/C27/C32/775F/777F single-cylinder-head install-kit BOM candidates — batch 173
+
+Source: official Cat Parts Store product page 442-0770, Single Cylinder Head Install Kit. Compatible models explicitly shown: UNDERGROUND ART TRUCK / AD55B, AD60; ENGINE - MACHINE / C27; OFF-HIGHWAY TRUCK / D10R; INDUSTRIAL ENGINE / C32, C32B; ENGINE / C27 INDUSTRIAL, C32B INDUSTRIAL; TRUCK / 772, 775F, 773F, 775G OEM, 775G LRC, 777F; REMAN ENGINE / C27; WHEEL DOZER / 854K; WHEEL LOADER / 993K, 992K. Cat says the kit includes turbo gaskets but excludes fuel injector seals. Twenty-three other listed items were already present in the discovery queue or original seed list and are not duplicated. The two new rows below are official BOM references only; verify engine serial/arrangement and order injector seals separately as required.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+357-1752 | 4 Bolt Turbo Exhaust Gasket | 1 | Cat 442-0770 multi-model Single Cylinder Head Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+393-5115 | 0.375-16 Thread High Temperature Taperlock Stud | 4 | Cat 442-0770 multi-model Single Cylinder Head Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+
+Source page: https://parts.cat.com/en/catcorp/product/442-0770
