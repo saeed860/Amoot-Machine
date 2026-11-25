@@ -3509,3 +3509,18 @@ Source page: https://parts.cat.com/en/catcorp/product/175-7858
 ## Cat 515-7889 front-housing install-gasket kit — no current BOM rows published (batch 206)
 
 Source: official Cat Parts Store product page https://parts.cat.com/en/catcorp/product/515-7889. Compatible-model labels include C15/C18 generator and industrial engines, SR4/SR4B generators, 770/773F/770G trucks, R3000H/R2900/R2900G LHDs, 374D excavator and 374D mobile hydraulic power unit. Cat describes the kit as front-cover reinstall gaskets/seals, excluding the oil-pan gasket. The opened current official page states there are currently no parts associated with this kit; an older indexed snippet showing eight components was not imported. Frequently-bought-together parts are not kit contents.
+
+
+## Additional Cat 568/558/322B/325C/325D/324D/320/330 hydraulic-cylinder seal-kit BOM candidates — batch 207
+
+Source: official Cat Parts Store product page 216-7858, Hydraulic Cylinder Seal Kit. Compatible models explicitly shown: GRAPPLE-LOG LOADING / GLL55B, GLL60, GLL60B; FORESTRY PRODUCTS / 568; LOG LOADR FORST MACH / 558; EXCAVATOR / 568 FM, 322B L, 325C FM, 325D FM, 558, 324D FM LL, 325D FM LL, 325B L, 322C FM, 568 FM LL, 324D FM, 330C FM, 320B FM LL, 330D FM. Cat says this is a complete cylinder reseal kit and stresses cylinder-group-specific application. Three other listed components were already present in the queue and are not duplicated. The six new rows below are official BOM references only; confirm the cylinder group before ordering.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+167-2312 | SEAL-U-CUP | 1 | Cat 216-7858 Forestry/Excavator Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_specific
+167-2201 | SEAL A-BUFR | 1 | Cat 216-7858 Forestry/Excavator Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_specific
+6J-2797 | 101.6mm Outer Diameter Piston Guide Ring | 1 | Cat 216-7858 Forestry/Excavator Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_specific
+227-3778 | RING-PISTON | 1 | Cat 216-7858 Forestry/Excavator Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_specific
+2K-6830 | 94.86mm Internal Diameter Rubber Backup Ring | 1 | Cat 216-7858 Forestry/Excavator Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_specific
+195-2862 | SEAL | 1 | Cat 216-7858 Forestry/Excavator Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_specific
+
+Source page: https://parts.cat.com/en/catcorp/product/216-7858
