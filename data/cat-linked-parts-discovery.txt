@@ -296,17 +296,17 @@ Source pages:
 603-6646 | Engine Overhaul (In Frame) Kit | Cat Parts Store official kit page lists 16 lines; 3406E compatible | cat_item_page_verified; inserted_part_catalog; kit_contents_verified
 283-5732 | 42.5in engine camshaft | Cat Parts Store component in 350-2167 Tier 2 upgrade kit, qty1 | cat_item_page_verified; inserted_part_catalog; fitment_verified
 308-5353 | 39in engine camshaft | Cat Parts Store component in 350-2167 Tier 2 upgrade kit, qty1 | cat_item_page_verified; inserted_part_catalog; fitment_verified
-245-4622 | Aftercooler Core | Cat Parts Store component listed in 350-2167 Tier 2 kit, quantity 1 | cat_linked_candidate; needs_individual_verification
-283-5738 | Engine Camshaft | Cat Parts Store component listed in 350-2167 Tier 2 kit, quantity 1 | cat_linked_candidate; needs_individual_verification
-528-8390 | Turbocharger | Cat Parts Store component listed in 350-2167 Tier 2 kit, quantity 2 | cat_linked_candidate; needs_individual_verification
-335-6220 | 4 Valve Basic Engine Cylinder Head | Cat Parts Store component listed in 350-2167 Tier 2 kit, quantity 12 | cat_linked_candidate; needs_individual_verification
-392-0220 | Fuel Pump Injector | Cat Parts Store component listed in 350-2167 Tier 2 kit, quantity 12 | cat_linked_candidate; needs_individual_verification
-308-5355 | Engine Camshaft | Cat Parts Store component listed in 350-2167 Tier 2 kit, quantity 1 | cat_linked_candidate; needs_individual_verification
-374-2082 | 164mm Outer Diameter Engine Piston | Cat Parts Store component listed in 350-2167 Tier 2 kit, quantity 12 | cat_linked_candidate; needs_individual_verification
+245-4622 | Aftercooler core 279×1171×152mm | Cat Parts Store frequently bought together with 219-3240/3S-9643/4W-3027/6V-1454/132-6469 | cat_item_page_verified; inserted_part_catalog; fitment_verified
+283-5738 | 43in engine camshaft | Cat Parts Store compare-alternate 20R-4770 Cat Reman Camshaft Kit | cat_item_page_verified; inserted_part_catalog; fitment_verified
+528-8390 | TURBO GP-BAS | Cat Parts Store compare-alternate 20R-8542 Cat Reman Turbo Group | cat_item_page_verified; inserted_part_catalog; description_not_published
+335-6220 | 4 Valve Basic Engine Cylinder Head | Cat Parts Store compare-alternates 10R-8618/20R-3545 Cat Reman cylinder heads; frequently bought with 5P-0840/248-5513 | cat_item_page_verified; inserted_part_catalog; fitment_verified
+392-0220 | Cat Fuel Pump Injector | Cat Parts Store Reman alternatives 11R-0666/20R-1281 | cat_item_page_verified; existing_catalog_row_updated; fitment_verified
+308-5355 | 38.5in engine camshaft | Cat Parts Store compare-alternate 20R-4768 Cat Reman Camshaft Kit | cat_item_page_verified; inserted_part_catalog; fitment_verified
+374-2082 | 164mm OD engine piston | Cat Parts Store compare-alternate 10R-8762 Cat Reman Cylinder Pack | cat_item_page_verified; inserted_part_catalog; fitment_verified
 
-20R-0260 | Cat C9 Reman Water Pump | Cat Parts Store alternate displayed on 350-2537 C9 water pump page | cat_linked_candidate; needs_individual_verification
-2M-4453 | 3.53 x 12.29mm 75A NBR O-Ring | Cat Parts Store frequently bought together with 350-2537 water pump | cat_linked_candidate; needs_individual_verification
-4J-0525 | 3.53 x 50.39mm 90A NBR O-Ring | Cat Parts Store frequently bought together with 350-2537 water pump | cat_linked_candidate; needs_individual_verification
+20R-0260 | Cat Reman C9 Water Pump | Cat Parts Store compare-alternate 350-2537 Cat Engine Water Pump | cat_item_page_verified; inserted_part_catalog; Cat_Reman_condition_preserved
+2M-4453 | 3.53×12.29mm 75A NBR O-ring, dash206 | Cat Parts Store parts diagram with 3J-1907/3K-0360/4J-0525/3D-2824 | cat_item_page_verified; inserted_part_catalog; fitment_verified
+4J-0525 | 3.53×50.39mm 90A NBR O-ring, dash226 | Cat Parts Store parts diagram with 3J-1907/3K-0360/4J-0522/4J-0524/3D-2824 | cat_item_page_verified; inserted_part_catalog; fitment_verified
 037-2448 | 902mm Long Raw Edge Cogged V-Belt | Cat Parts Store frequently bought together with 350-2537 water pump | cat_linked_candidate; needs_individual_verification
 280-6794 | 38.1mm Inner Diameter Hose | Cat Parts Store frequently bought together with 350-2537 water pump | cat_linked_candidate; needs_individual_verification
 248-5513 | Engine Water Temperature Regulator | Cat Parts Store frequently bought together with 350-2537 water pump | cat_linked_candidate; needs_individual_verification
@@ -1629,3 +1629,12 @@ Source pages:
 20R-4771 | Cat Reman Camshaft Kit with Cat Reman Valve Lifters (3512C LH) | Cat Parts Store compare-alternate for 283-5732 | cat_linked_candidate; needs_individual_verification
 20R-4767 | Cat Reman Camshaft Kit with Cat Reman Valve Lifters (3512C LH) | Cat Parts Store compare-alternate for 308-5353 | cat_linked_candidate; needs_individual_verification
 
+
+20R-4770 | Cat Reman Camshaft Kit with Cat Reman Valve Lifters (3512C RH) | Cat Parts Store compare-alternate for 283-5738 | cat_linked_candidate; needs_individual_verification
+10R-8618 | Cat Reman Cylinder Head | Cat Parts Store compare-alternate for 335-6220 | cat_linked_candidate; needs_individual_verification
+20R-3545 | Cat Reman D3500C Cylinder Head | Cat Parts Store compare-alternate for 335-6220 | cat_linked_candidate; needs_individual_verification
+20R-8542 | Cat Reman Turbo Group | Cat Parts Store compare-alternate for 528-8390 | cat_linked_candidate; needs_individual_verification
+20R-4768 | Cat Reman Camshaft Kit with Cat Reman Valve Lifters (3512C RH) | Cat Parts Store compare-alternate for 308-5355 | cat_linked_candidate; needs_individual_verification
+10R-8762 | Cat Reman Cylinder Pack (3500C, 14.7:1) | Cat Parts Store compare-alternate for 374-2082 | cat_linked_candidate; needs_individual_verification
+11R-0666 | Cat Reman Fuel Pump Injector | Cat Parts Store Reman alternative for 392-0220 | cat_linked_candidate; needs_individual_verification
+20R-1281 | Cat Reman Fuel Pump Injector | Cat Parts Store Reman alternative for 392-0220 | cat_linked_candidate; needs_individual_verification
