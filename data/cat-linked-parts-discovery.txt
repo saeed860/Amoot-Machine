@@ -2410,3 +2410,14 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 590-5663 | Turbocharger Group - Basic | 2 | Cat 350-2173 3508B Tier 1-to-Tier 2 Conversion Kit BOM; arrangement 232-2468 to 282-9662 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
 
 Source page: https://parts.cat.com/en/catcorp/product/350-2173
+
+
+## Additional Cat 3512B Tier-1-to-Tier-2 conversion-kit BOM candidates — batch 140
+
+Source: official Cat Parts Store product page 357-1799, 3512 Tier 2 Engine Upgrade Kit. The product description identifies conversion from 3512B arrangement 173-6960 to Tier 2 arrangement 282-9665, intended to be used with an engine overhaul. Compatible model explicitly shown: MARINE ENGINE / 3512B. Seven other listed components were already present in the discovery queue or seed list and are not duplicated. The two new rows below are arrangement-specific conversion-kit components, not generic replacement recommendations.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+249-5496 | Piston | 12 | Cat 357-1799 3512B Tier-2 Conversion Kit BOM; arrangement 173-6960 to 282-9665 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
+513-4709 | Twin Turbocharger | 2 | Cat 357-1799 3512B Tier-2 Conversion Kit BOM; arrangement 173-6960 to 282-9665 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
+
+Source page: https://parts.cat.com/en/catcorp/product/357-1799
