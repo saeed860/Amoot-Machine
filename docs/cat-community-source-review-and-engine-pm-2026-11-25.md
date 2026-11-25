@@ -735,3 +735,23 @@ Mirror از Master جاری بازسازی و شمارنده Workflow با تع�
 ### اصلاح کنترل CSV دور بیست‌وچهارم
 
 در کنترل پس از ثبت، مشخص شد ردیف 289-3766 با وجود ذکر در متن دور، در CSV درج نشده بود. ردیف آن به CSV اضافه شد؛ این شماره از قبل در Master موجود است و شماره جدید Master محسوب نمی‌شود.
+
+## دور بیست‌وپنجم — فیلتر هیدرولیک، محفظه بخاری و اتصالات HVAC (25 Nov 2026)
+
+چهار شماره جدید و یک شماره موجود از صفحات رسمی Cat Parts Store با نمایش صریح 287B بررسی و در CSV ثبت شدند:
+- 312-1683 — Cabin Heater Cover Housing؛ محفظه ABS سیستم بخاری/تهویه؛ ابعاد 22 × 17.53 × 9.11 اینچ.
+- 231-8141 — 12.7mm Inner Diameter Double Flange Grommet؛ گرومت EPDM دو لبه برای محافظت سیم/کابل در برابر لرزش و سایش.
+- 185-4015 — Cab Heater Clip؛ گیره/کلیپ 9.5mm برای شیلنگ/مجموعه بخاری کابین؛ ابعاد 0.37 × 0.19 × 0.93 اینچ.
+- 231-8137 — Label-Heater Air Conditioner؛ برچسب شناسایی HVAC با ابعاد 2.5 × 3.76 اینچ.
+- 1G-8878 — Hydraulic/Transmission Oil Filter؛ فیلتر spin-on با قطر 3.709 و طول 9.441 اینچ؛ از قبل در Master بود.
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/product/312-1683
+- https://parts.cat.com/en/catcorp/product/231-8141
+- https://parts.cat.com/en/catcorp/product/185-4015
+- https://parts.cat.com/en/catcorp/product/231-8137
+- https://parts.cat.com/en/catcorp/product/1G-8878
+
+برای محفظه بخاری، نسخه HVAC و اتصالات کانال؛ برای گرومت، قطر دسته‌سیم و سوراخ پنل؛ برای clip، قطر بیرونی شیلنگ؛ و برای فیلتر، هد و مدیای فیلتر باید تطبیق داده شوند. چهار شماره جدید به Master افزوده شد و یک شماره موجود فقط در CSV فیتمنت ثبت شد.
+
+Mirror از Master جاری بازسازی و شمارنده Workflow با تعداد خطوط Master تنظیم شد.
