@@ -1,0 +1,34 @@
+-- C18 Marine cooling-system catalog enrichment from official Cat Parts Store pages.
+-- All entries are family-level candidates only; exact serial/arrangement effectivity remains unverified.
+INSERT INTO public.part_catalog
+(brand,part_number,name,description,engine_models,technical_group,source_name,source_url,source_note,verification_status,is_active,source_accessed_at,specifications,compatible_models,application_type,application_evidence,application_source_url)
+VALUES
+('Caterpillar','200-7103','فریم مجموعه مبدل حرارتی CAT 200-7103','Heat Exchanger Frame. Cat describes the frame as the structural support for heat-exchanger components. Official Cat compatible-model listing includes C18 Marine, C18 Generator Set and C18 Petroleum Package. Exact engine serial and arrangement effectivity are not established.',ARRAY['C18'],'سیستم خنک‌کاری - مبدل حرارتی','Cat Parts Store','https://parts.cat.com/en/catcorp/product/200-7103','Official Cat Parts Store listing: Heat Exchanger Frame; length 40.5 in, height 17.0 in, alloy aluminum; compatible models include MARINE ENGINE C18. Family-level evidence only.','NEEDS_SERIAL_CHECK',false,now(),'{"length_in":40.5,"height_in":17.0,"material":"Alloy Aluminum","component_type":"Heat Exchanger Frame"}'::jsonb,ARRAY['C18','C18 MARINE'],'UNVERIFIED','Cat Parts Store lists MARINE ENGINE C18 at model-family level. Verify full engine serial number and arrangement in Cat SIS before confirming fitment.','https://parts.cat.com/en/catcorp/product/200-7103'),
+('Caterpillar','150-8057','زانویی خط آب مبدل حرارتی CAT 150-8057','Heat Exchanger Water Line Elbow. Cat describes this elbow as a coolant-flow component in the cooling system. Official compatible-model listing includes C18 Marine and C18 Generator Set; exact serial/arrangement applicability is not established.',ARRAY['C18'],'سیستم خنک‌کاری - خطوط مبدل حرارتی','Cat Parts Store','https://parts.cat.com/en/catcorp/product/150-8057','Official Cat Parts Store listing: 62 mm inner-diameter heat-exchanger water-line elbow; material gray (flake) iron; compatible models include MARINE ENGINE C18 and 3412E. Family-level evidence only.','NEEDS_SERIAL_CHECK',false,now(),'{"inner_diameter_mm":62,"material":"Gray (Flake) Iron","component_type":"Heat Exchanger Water Line Elbow"}'::jsonb,ARRAY['C18','3412E'],'UNVERIFIED','Cat Parts Store lists MARINE ENGINE C18 at model-family level. Verify full engine serial number and arrangement in Cat SIS before confirming fitment.','https://parts.cat.com/en/catcorp/product/150-8057'),
+('Caterpillar','484-0483','واترپمپ محصولات موتور و دریایی CAT 484-0483','Engine And Marine Products Water Pump for basic engine cooling. Cat lists C18 and C18 Marine among compatible model families. The public page does not establish serial-specific effectivity.',ARRAY['C18'],'سیستم خنک‌کاری - پمپ آب موتور','Cat Parts Store','https://parts.cat.com/en/catcorp/product/484-0483','Official Cat Parts Store listing: water pump for basic engine cooling; overall height 7.3 in, width 11.68 in; compatible models include MARINE ENGINE C18 / C18 MARINE. Family-level evidence only.','NEEDS_SERIAL_CHECK',false,now(),'{"overall_height_in":7.3,"overall_width_in":11.68,"component_type":"Engine and Marine Products Water Pump"}'::jsonb,ARRAY['C18','C18 MARINE'],'UNVERIFIED','Cat Parts Store lists MARINE ENGINE C18 / C18 MARINE at model-family level. Verify full engine serial number and arrangement in Cat SIS before confirming fitment.','https://parts.cat.com/en/catcorp/product/484-0483')
+ON CONFLICT (part_number) DO UPDATE SET
+ name=EXCLUDED.name,description=EXCLUDED.description,engine_models=EXCLUDED.engine_models,technical_group=EXCLUDED.technical_group,
+ source_name=EXCLUDED.source_name,source_url=EXCLUDED.source_url,source_note=concat_ws(E'\n',nullif(public.part_catalog.source_note,''),EXCLUDED.source_note),
+ verification_status='NEEDS_SERIAL_CHECK',is_active=false,source_accessed_at=now(),specifications=public.part_catalog.specifications || EXCLUDED.specifications,
+ compatible_models=EXCLUDED.compatible_models,application_type='UNVERIFIED',application_evidence=EXCLUDED.application_evidence,
+ application_source_url=EXCLUDED.application_source_url,updated_at=now();
+
+UPDATE public.part_catalog
+SET name=CASE part_number WHEN '373-2563' THEN 'مجموعه مبدل حرارتی CAT 373-2563' WHEN '495-3930' THEN 'فریم مبدل حرارتی CAT 495-3930' WHEN '7C-9009' THEN 'هوزینگ ترموستات CAT 7C-9009' WHEN '238-9935' THEN 'فاصله‌گذار تخت واترپمپ CAT 238-9935' ELSE name END,
+ description=CASE part_number
+ WHEN '373-2563' THEN 'Cat Heat Exchanger Assembly (EXCHANGER GP), alloy aluminum. Official compatible-model listing includes C18 Marine and C18 Generator Set. Family-level reference only; exact serial/arrangement effectivity must be confirmed.'
+ WHEN '495-3930' THEN 'Cat Heat Exchanger Frame, alloy aluminum. Official compatible-model listing includes C18 Marine, C18 Generator Set and C18 Petroleum Package. Family-level reference only; exact serial/arrangement effectivity must be confirmed.'
+ WHEN '7C-9009' THEN 'Cat Thermostat Housing, alloy aluminum, containing the thermostat and directing coolant flow. Official compatible-model listing includes C18 among multiple marine engine families. Family-level reference only; exact serial/arrangement effectivity must be confirmed.'
+ WHEN '238-9935' THEN 'Cat Water Pump Spacer, flat type; thickness 0.3 in, inside diameter 0.871 in, outside diameter 1.38 in. Official compatible-model listing includes C18 Marine, 3406E and C15. Family-level reference only; exact serial/arrangement effectivity must be confirmed.'
+ ELSE description END,
+ verification_status='NEEDS_SERIAL_CHECK',application_type='UNVERIFIED',is_active=false,
+ application_evidence=concat_ws(E'\n',nullif(application_evidence,''),'Cat public product listing provides model-family C18 Marine evidence only; confirm exact engine serial number and arrangement in Cat SIS.'),
+ application_source_url=source_url,source_note=concat_ws(E'\n',nullif(source_note,''),'Safety quarantine 2026-11-26: retained as Cat-sourced C18 Marine candidate; serial/arrangement effectivity not verified.'),
+ source_accessed_at=now(),updated_at=now()
+WHERE part_number IN ('373-2563','495-3930','7C-9009','238-9935');
+
+UPDATE public.products
+SET status='INACTIVE',application_type='UNVERIFIED',
+ application_evidence=concat_ws(E'\n',nullif(application_evidence,''),'C18 Marine family-level Cat reference only; exact engine serial and arrangement confirmation required before sale.'),
+ updated_at=now()
+WHERE regexp_replace(upper(sku),'[^A-Z0-9]','','g') IN ('2007103','1508057','4840483','3732563','4953930','7C9009','2389935');
