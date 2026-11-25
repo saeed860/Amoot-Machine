@@ -1895,3 +1895,23 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 3E-6916 | 3/8-16 Hex Nut | 4 | Cat 450-3948 Marine 3408B/3408 Major Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
 
 Source page: https://parts.cat.com/en/catcorp/product/450-3948
+
+
+## Additional Cat 3406 marine overhaul-kit BOM candidates — batch 110
+
+Source: official Cat Parts Store product page 434-2470, KIT - ENGINE OVERHAUL (MAJOR), labeled “Marine Bundled Repair Solution, 3406 Engine Overhaul”. The page's compatibility section currently says Cat has no compatibility information for this product; therefore the 3406 marine label is recorded as product context, not confirmed equipment fitment. Twenty-one other first-page components were already in the discovery queue or seed list and are not duplicated. The eleven new entries below are BOM references only, not standalone orderability, stock, price, or serial-specific fitment confirmation.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+100-7399 | 38mm Diameter Cylinder Block Plug | 2 | Cat 434-2470 Marine 3406 Major Overhaul Kit BOM; compatibility section unavailable | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+109-0073 | 43.82mm Inside Diameter Seal-O-Ring | 3 | Cat 434-2470 Marine 3406 Major Overhaul Kit BOM; compatibility section unavailable | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+126-1756 | 5/16-18 x 7/8 Hex Head Lock Bolt | 4 | Cat 434-2470 Marine 3406 Major Overhaul Kit BOM; compatibility section unavailable | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+131-3719 | 2.62 x 36.54mm 90A FKM O-Ring | 6 | Cat 434-2470 Marine 3406 Major Overhaul Kit BOM; compatibility section unavailable | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+144-0482 | 0.8mm Thick Fuel Pump Gallery Cover Gasket | 1 | Cat 434-2470 Marine 3406 Major Overhaul Kit BOM; compatibility section unavailable | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+1S-4810 | 0.8mm Thick Turbo Oil Drain Gasket | 1 | Cat 434-2470 Marine 3406 Major Overhaul Kit BOM; compatibility section unavailable | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+1S-6595 | Oil Turbocharger Supply Gasket | 1 | Cat 434-2470 Marine 3406 Major Overhaul Kit BOM; compatibility section unavailable | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+1S-9544 | 34.29mm Inner Diameter O-Ring Seal | 2 | Cat 434-2470 Marine 3406 Major Overhaul Kit BOM; compatibility section unavailable | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+1W-1186 | Drive Governor Gasket | 1 | Cat 434-2470 Marine 3406 Major Overhaul Kit BOM; compatibility section unavailable | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+232-3679 | Flywheel Housing Gasket Kit - Rear Structure | 1 | Cat 434-2470 Marine 3406 Major Overhaul Kit BOM; compatibility section unavailable | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+238-5078 | 1.63 x 6.07mm 90A FKM O-Ring | 1 | Cat 434-2470 Marine 3406 Major Overhaul Kit BOM; compatibility section unavailable | official_cat_kit_bom_verified; compatible_model_unconfirmed; standalone_item_page_not_checked
+
+Source page: https://parts.cat.com/en/catcorp/product/434-2470
