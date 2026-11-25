@@ -575,3 +575,8 @@ Exact Cat Parts Store pages add model-class references for **226-1191** (one-sec
 - No new individual part number is claimed as newly extracted from these sources in this batch.
 - Off Road authenticated inventory, batch-import results and account-only supplier prices remain uninspected because no authenticated browser session is available in this chat.
 - Next: extract exact Off Road filter candidates and compare against CAT's official cross-reference and current filter-manufacturer catalogues. Keep source observations separate before deduplication.
+
+
+## Off Road public-index coverage reconciliation — 25 Nov 2026
+
+The Off Road discovery queue is now synchronized to all **500** rows embedded in the site's Off Road catalog seed: 500 unique raw identifiers, zero duplicate identifiers. The prior text queue contained only a subset; it has been replaced by the complete 500-row candidate list. The 12 filter-related identifiers are enumerated in the queue, with 12 exact CAT page cross-checks recorded separately. The index remains a reseller discovery subset, not the supplier's complete authenticated inventory. Login-only stock, condition and supplier pricing remain unverified.
