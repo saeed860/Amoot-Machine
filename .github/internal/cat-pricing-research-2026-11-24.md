@@ -4807,3 +4807,37 @@ Post-update verification: all ten SKUs exist with Cat official item-page evidenc
 Ten further discovery leads added from Cat related/compare-alternate sections: 20R-9567, 126-1814, 1R-1808, 1R-0749, 326-1643, 142-1340, 142-1403, 230-3775, 9X-7317 and 9X-7430. All remain unverified candidates until their own item pages are checked. 126-1814 is specifically flagged as not for transmission use per Cat's page.
 
 Overall reviewed progress: 83/500 batches = 830/5,000 product target (16.6%). Original Cat seed list 787/787 complete; discovery-derived products individually verified and inserted/updated: 43. Remaining target: 4,170 products.
+
+## Batch 84/500 — Cat-linked discovery candidates 41–50 (2026-11-25)
+
+Ten pending leads were checked against their own Cat Parts Store item pages. Eight new catalog rows were inserted; two existing records (1R-0726 and 219-3240) were refreshed with official Cat item-page evidence. All ten rows were re-queried after writes and model arrays deduplicated.
+
+Verified products:
+- 228-7089 — 1.78 × 9.27mm 90A FKM O-ring for 11/16-16 ORFS connector end. Cross-section 0.07in, ID 0.365in, fitting 11/16–16, dash 012; FKM fluoroelastomer rubber and PTFE plastic. 51 visible compatible labels partially normalized across toolcarriers, C18 power packs, waste grapples, rotary drills, mini excavators and forestry.
+- 210-1470 — 12.58mm ID Fuel Priming Pump Tube. Cat says it delivers fuel to priming system; OD 0.63in. Fitment includes 3508/3516B/3508B/3512B generator sets, 3512C/3512E/3508C/3508B/3516C/3512B marine engines, marine auxiliary, industrial, petroleum and locomotive engines. 8 model labels.
+- 1R-0726 — Standard Efficiency Engine Oil Filter. Existing supplier-referenced row updated with official Cat source. Diameter 7.374in, length 10.157in, Out-to-In, standard efficiency, cartridge. 43 compatible model labels across SR4/SR5/SR4B generators, 3500-series generator sets, engines and power modules. Engine tags retained from existing row.
+- 20R-2665 — Cat Reman Engine Oil Pump (3500C). New row; brand corrected/preserved as Cat Reman. Cat says specifications are still being added. 12 visible fitment labels across SPF743, gen-set engine, 3516B/3516C gensets, XQC1600/PM3516 power modules, 3500 marine/auxiliary engines, 3512E, industrial/petroleum and locomotive applications.
+- 219-3240 — Water Temperature Regulator. Existing row refreshed with official Cat source. Used in thermostatic valve/aftercooler; Cat says regulator restricts coolant flow until engine operating temperature. Specs length 3.6in, height 4.2in; stainless steel/NBR rubber. 15 visible fitment labels across SR4/SR4B, 3516/3512/3508 marine/industrial engines, XQC power modules, G3612/G3616 gas engines and LD700E.
+- 7N-4927 — 1.6mm Water Temperature Regulator Housing Gasket. Cat describes gasket sealing mating surfaces; materials mixed metal/nonmetal, rubber, rubber-cork and rubber-fiber gasket. 31 visible model labels normalized across pumper, SR4/SR5 generators, power modules, 789/793/785 trucks, RC20, 6060, D11 and MD6540C/MD6380 drills. This is partial fitment.
+- 4W-3027 — Engine Crankcase Breather. Cat steel breather assembly vents crankcase gases and filters gases/oil/water after combustion. Materials alloy mixed metal, carbon steel, structural steel and alloy steel. 48 visible compatible labels partially normalized across pumper, generators, AD55B/AD60/AD63, 3208 truck engine, power modules, 793/777/775/773/785/789 truck families, 24 grader, 6020/6015/6040 shovel families, 3608 and D11.
+- 1P-0436 — 1.2mm Thick Fuel Filter Lines Gasket. Cat gasket description says it seals two mating surfaces. Specs length 8.0in, height 0.8in, rubber gasket. 28 compatible labels partially normalized across SR4B/SR500 generators, 1673C/3306/C-series/3126/3406/3408 truck engines, integrated toolcarriers, 550/570/580 harvesters and 527/517 skidders.
+- 137-5541 — 41.4 Stroke Per Liter Fuel Priming Pump. Cat description identifies a plunger fuel-priming pump; 41.4 strokes per liter output. Specs length 9.0in, height 1.5in; oil fluid, adhesive and alloy aluminum. Public capture did not expose a readable model list, so no fitment inferred.
+- 214-7568 — STOR O-Ring Seal (SAE 9/16-18), for wiring/pump-group connection. FKM 90A and PTFE plastic; cross-section 0.078in, ID 0.468in, fitting size 1/2–20, Straight Thread O-ring (STOR). 20 visible compatible labels partially normalized across toolcarriers, harvesters, C18 power packs, 3608 genset-military and rotary drills.
+
+Cat item pages:
+- https://parts.cat.com/en/catcorp/product/228-7089
+- https://parts.cat.com/en/catcorp/product/210-1470
+- https://parts.cat.com/en/catcorp/product/1R-0726
+- https://parts.cat.com/en/catcorp/product/20R-2665
+- https://parts.cat.com/en/catcorp/product/219-3240
+- https://parts.cat.com/en/catcorp/product/7N-4927
+- https://parts.cat.com/en/catcorp/product/4W-3027
+- https://parts.cat.com/en/catcorp/product/1P-0436
+- https://parts.cat.com/en/catcorp/product/137-5541
+- https://parts.cat.com/en/catcorp/product/214-7568
+
+Post-update verification: all ten SKUs exist with Cat official item-page evidence and REFERENCE status. Eight inserted, two existing rows updated. Fitment counts after de-duplication: 228-7089=51; 210-1470=8; 1R-0726=43; 20R-2665=12; 219-3240=15; 7N-4927=31; 4W-3027=48; 1P-0436=28; 137-5541=0 (Cat capture did not expose models); 214-7568=20. No prices, stock or universal interchange claims added.
+
+Twelve additional related leads added: 238-5081, 214-7566, 1R-0756, 210-2535, 513-4493, 8N-6309, 248-5513, 8T-1919, 7E-6016, 2N-0931, 033-6031 and 105-2508. These remain discovery candidates pending individual item-page verification.
+
+Overall reviewed progress: 84/500 batches = 840/5,000 product target (16.8%). Original Cat seed list 787/787 complete; discovery-derived products individually verified and inserted/updated: 63. Remaining target: 4,160 products.
