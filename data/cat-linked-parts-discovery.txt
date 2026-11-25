@@ -3545,3 +3545,22 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 175-5080 | SEAL-WIPER | 1 | Cat 175-6581 VT60/MP40/S465/VHS-60/P360 Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; attachment_specific
 
 Source page: https://parts.cat.com/en/catcorp/product/175-6581
+
+
+## Additional Cat 3516 marine / 3512 locomotive / G3508-G3512-G3516 gas-engine front-cover gasket-kit BOM candidates — batch 209
+
+Source: official Cat Parts Store product page 118-7855, KIT-FRONT HOUSING INSTALL. Compatible models explicitly shown: MARINE ENGINE / 3516; LOCOMOTIVE ENGINE / 3512; GAS ENGINE / G3508, G3512, G3516. Cat states the kit contains gaskets and seals to reinstall the front cover and does not include the oil-pan gasket. Ten other listed components were already present in the discovery queue or original seed list and are not duplicated. The ten new rows below are official BOM references only; confirm engine model, serial and front-cover arrangement.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+119-0814 | Gas Engine Ignition Gasket | 2 | Cat 118-7855 Front Housing Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+175-7904 | 3.53 x 126.59mm 75A NBR O-Ring | 1 | Cat 118-7855 Front Housing Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+436-1478 | Crankshaft Seal Assembly | 1 | Cat 118-7855 Front Housing Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+497-3911 | 0.8mm Thick Front Housing Cover Gasket | 2 | Cat 118-7855 Front Housing Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+5R-7136 | Sealing Washer | 1 | Cat 118-7855 Front Housing Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+5R-7137 | Sealing Washer | 2 | Cat 118-7855 Front Housing Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+6V-3348 | 18.42mm Inner Diameter Seal O Ring | 7 | Cat 118-7855 Front Housing Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+7J-8114 | 1.57mm Thick Coupling Gasket | 1 | Cat 118-7855 Front Housing Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+7N-3049 | 1.6mm Thick Water Line Gasket | 1 | Cat 118-7855 Front Housing Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+7X-4805 | 9.12mm Inside Diameter Seal-O-Ring | 2 | Cat 118-7855 Front Housing Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+
+Source page: https://parts.cat.com/en/catcorp/product/118-7855
