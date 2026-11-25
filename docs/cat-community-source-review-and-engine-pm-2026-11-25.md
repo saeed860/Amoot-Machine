@@ -2553,3 +2553,12 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - هر دو شماره به Master و CSV رسمی 287B افزوده شدند؛ قطعات 258-3662، 278-8720 و 258-3537 در CSV مستقل 297C-only از قبل ثبت بودند.
 - منابع رسمی: https://parts.cat.com/en/catcorp/product/446-1412 ؛ https://parts.cat.com/en/catcorp/product/069-4080 ؛ https://parts.cat.com/en/catcorp/product/258-3662 ؛ https://parts.cat.com/en/catcorp/product/278-8720 ؛ https://parts.cat.com/en/catcorp/product/258-3537
 - شمارنده هدف دور: 4358 شماره یکتا؛ Mirror و Workflow با Master همگام شدند.
+
+
+## دور ۹۳ — 25 Nov 2026
+
+- دو شماره جدید از صفحات رسمی Cat Parts Store ثبت شد:
+  - 5P-9909 — Adhesive Rubber Bulk Seal؛ فیتمنت صریح 287B و 297C؛ جنس CR expanded rubber، cross-section width برابر 1.000in و thickness برابر 0.750in؛ طول سفارشی و پروفیل باید با joint تطبیق داده شود. به Master و CSV 287B افزوده شد.
+  - 247-5904 — Bearing Housing؛ فیتمنت صریح 297C و نبود 287B در Compatible Models؛ قطر بیرونی 8.86in، عرض 2.68in و سوراخ‌های M16؛ فقط در CSV مستقل 297C-only ثبت شد.
+- منابع رسمی: https://parts.cat.com/en/catcorp/product/5P-9909 ؛ https://parts.cat.com/en/catcorp/product/247-5904
+- وضعیت شمارنده: 4360 شماره یکتا؛ Mirror برابر Master؛ Workflow برابر 4360.
