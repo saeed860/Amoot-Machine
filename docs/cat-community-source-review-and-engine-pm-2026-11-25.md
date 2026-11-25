@@ -2508,3 +2508,11 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - جنس درج‌شده Alloy Steel است؛ چون صفحه Cat ابعاد/شرح دقیق ندارد، نوع اتصال، رزوه/اینترفیس و قطعه مادگی جفت‌شونده باید از Parts Diagram کنترل شود.
 - منبع رسمی: https://parts.cat.com/en/catcorp/product/229-5468
 - شمارنده هدف دور: 4344 شماره یکتا؛ Mirror و Workflow با Master همگام شدند.
+
+
+## دور ۸۸ — 25 Nov 2026
+
+- 218-6490 — Operator Cabin Joystick Handle Control؛ صفحه رسمی Cat Parts Store مدل 287B را صریحاً در Compatible Models فهرست می‌کند. شماره جدید به Master و CSV رسمی 287B افزوده شد.
+- دسته کنترل شامل boot و دکمه‌هاست؛ سمت دسته، چیدمان دکمه‌ها، pinout هارنس و آرایش pilot-control باید با دستگاه تطبیق داده شود.
+- منبع رسمی: https://parts.cat.com/en/catcorp/product/218-6490
+- شمارنده هدف دور: 4351 شماره یکتا؛ Mirror و Workflow با Master همگام شدند.
