@@ -4675,3 +4675,35 @@ Additional Cat-linked discovery candidates from official Cat related/frequently-
 These are discovery leads only; no cross-part fitment/interchangeability is implied.
 
 Original Cat seed progress: 79 batches completed; 787/787 original SKUs (100%). Overall target remains 5,000 products, so 4,213 product slots remain to be sourced from segregated discovery queues and further independent research.
+
+## Batch 80/500 — first ten Cat-linked discovery candidates (2026-11-25)
+
+The original 787-item Cat seed list is complete. Batch 80 begins the separate Cat-linked discovery queue. These ten candidates were individually verified on their own Cat Parts Store item pages, inserted into public.part_catalog, and their queue rows marked as individually verified. The originating Cat related/alternate panels pointed to Reman references 20R-8981, 20R-9045 and 20R-9124; these ten promoted items are standard Cat catalog entries, not automatically Reman products.
+
+Inserted and verified:
+- 7W-8580 — Lifter Valve Guide Spring. Cat Compatible Models: G3608/G3612/G3616. Specs: height 1.06in; inner diameter 0.83in; separate Inside Diameter field 13.0in; outer/outside diameter 1.16in; weight 0.02lb; Steel/Spring Steel/Carbon Steel. The two conflicting inside-diameter fields are both preserved. DB fitment3, engine tags3.
+- 1W-2473 — Valve Lifter Guide Spring. Compatible engine labels 3608/3606/C280-16/3616/3612/C280-12/C280-6/C280-8/G3608/G3612/G3616. Specs: height 8.63in, ID1.36in, length14.67in, OD1.74in, Steel/Alloy Mixed Metal. DB fitment11, engine tags11.
+- 143-2878 — 4mm Thick Cylinder Head Gasket. Compatible gas engines G3608/G3612/G3616. Specs: length20in, height0.15in, Carbon Steel. DB fitment3, engine tags3.
+- 3S-9643 — Rotating Shaft Lip Type Seal. Lip Type; primary seal FKM; shaft diameter2.272in, OD2.661in, width0.25in; materials PTFE plastic, carbon steel, alloy copper, stainless steel and plastic. Cat lists hundreds of compatible models across generators, truck engines, wheel tractors, drills, feller bunchers, excavators, loaders, compactors and marine/petroleum equipment; DB fitment intentionally left unnormalized rather than partial. DB row inserted.
+- 5D-5957 — 104.37mm ID Seal O-Ring, dash size243. Cross-section0.139in, ID4.109in, FKM75 fluorocarbon, hardness75A; Cat compatible fluids include diester lubricants, petroleum, phosphate ester and silicone fluids, some acids and halogenated hydrocarbons above100°C. Cat lists hundreds of compatible models; DB fitment intentionally left unnormalized. DB row inserted.
+- 9Y-9842 — 1.6mm Thick Oil Line Regulator Housing Gasket. Square-rectangular, beaded, non-metallic fiber/rubber. Dimensions15.04×4.8in, thickness0.09in; hole sizes0.41in (10X) and2.64in (4X). Compatible engine labels 3608/3606/3616/3612/C280-16/C280-12/C280-6/C280-8/G3608/G3612/G3616. DB fitment11, engine tags11.
+- 485-4705 — Engine Oil Filter Lube Element. Cellulose media, standard efficiency, cartridge, Out-to-In. Diameter7.425in, length13.543in; materials Other Rubber/adhesive/carbon steel/rubber gasket. Compatible engine labels 3608/3606/C280-16/3616/3612/C280-12/C280-6/C280-8/G3608/G3612/G3616. DB fitment11, engine tags11.
+- 6V-7701 — 240.67mm ID Seal-O-Ring. FKM75, cross-section0.21in, ID9.475in, hardness75A. Compatible fluids: diester lubricants, halogenated hydrocarbons above100°C, petroleum, phosphate ester and silicone fluids. Cat model list normalized to 43 labels across wheel tractors/scrapers, locomotive/petroleum engines, backhoe loaders, cold planers, gensets, mini excavators, marine engines, trucks, wheel scrapers and gas engines. DB fitment43, engine tags10.
+- 6V-3955 — 15.24mm ID Seal-O-Ring. FKM75, cross-section0.21in, ID0.6in, hardness75A. Cat public page does not publish a compatible-model list for this part; no machine fitment inferred. DB row inserted.
+- 6V-6809 — 139.07mm ID Seal-O-Ring. EPDM70, cross-section0.21in, ID5.475in, hardness70A. Cat Compatible Models covers pumper, underground truck, generator, power module, off-highway truck, marine, track tractor, rotary drill, mining excavator, generator set, wheel tractor and engine applications; exact full list not normalized into DB. DB row inserted.
+
+Individual Cat pages:
+- https://parts.cat.com/en/catcorp/product/7W-8580
+- https://parts.cat.com/en/catcorp/product/1W-2473
+- https://parts.cat.com/en/catcorp/product/143-2878
+- https://parts.cat.com/en/catcorp/product/3S-9643
+- https://parts.cat.com/en/catcorp/product/5D-5957
+- https://parts.cat.com/en/catcorp/product/9Y-9842
+- https://parts.cat.com/en/catcorp/product/485-4705
+- https://parts.cat.com/en/catcorp/product/6V-7701
+- https://parts.cat.com/en/catcorp/product/6V-3955
+- https://parts.cat.com/en/catcorp/product/6V-6809
+
+Post-insert DB verification: all ten SKUs exist with source_name Cat Parts Store (official) and verification_status REFERENCE. Fitment counts: 7W-8580=3; 1W-2473=11; 143-2878=3; 3S-9643=0 (broad list not normalized); 5D-5957=0 (broad list not normalized); 9Y-9842=11; 485-4705=11; 6V-7701=43; 6V-3955=0 (Cat page no compatible models); 6V-6809=0 (broad list not normalized). No customer prices, stock or image fallbacks added.
+
+Overall reviewed progress: 80/500 batches = 800/5,000 product target (16.0%). Original Cat seed list 787/787 complete; discovery-derived products individually verified and inserted: 10. Remaining target 4,200 products.
