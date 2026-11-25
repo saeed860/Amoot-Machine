@@ -2852,3 +2852,29 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 6V-9837 | 13/16in Tee Adapter | 2 | Cat 442-8144 Motor Grader Blade Cushion Accumulator Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
 
 Source page: https://parts.cat.com/en/catcorp/product/442-8144
+
+
+## Additional Cat 442-8144 motor-grader blade-cushion kit remaining BOM candidates — batch 171
+
+Source: official Cat Parts Store product page 442-8144, same Blade Cushion Accumulator Kit as batch 170. The official page lists 51 total items; these 17 additional rows were recovered from the indexed continuation beyond the first 32. Compatible models and application notes remain those recorded in batch 170. One other continuation item was already present in the queue and is not duplicated.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+8T-4195 | M10-1.5 x 30mm Hex Head Bolt | 2 | Cat 442-8144 Blade Cushion Accumulator Kit BOM; continuation items 33-51 | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+8T-1889 | 25.40mm Internal Diameter Two Piece Clip | 4 | Cat 442-8144 Blade Cushion Accumulator Kit BOM; continuation items 33-51 | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+8T-4223 | M12 ID Steel Flat Washer | 2 | Cat 442-8144 Blade Cushion Accumulator Kit BOM; continuation items 33-51 | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+8T-0076 | 3/4-16 x 11/16-16 Hex Head Straight O-Ring Adapter | 1 | Cat 442-8144 Blade Cushion Accumulator Kit BOM; continuation items 33-51 | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+8T-5429 | ORFS to STOR 90 Degree Elbow Adaptor | 1 | Cat 442-8144 Blade Cushion Accumulator Kit BOM; continuation items 33-51 | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+9R-2672 | M10x1.75 Straight Cylindrical Boss | 1 | Cat 442-8144 Blade Cushion Accumulator Kit BOM; continuation items 33-51 | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+7X-0334 | 1/2-13 x 5in Hex Head Bolt | 2 | Cat 442-8144 Blade Cushion Accumulator Kit BOM; continuation items 33-51 | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+6V-9876 | 3/4in x 11/16in Coolant Tank Hose Elbow Adapter | 2 | Cat 442-8144 Blade Cushion Accumulator Kit BOM; continuation items 33-51 | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+8T-4136 | M10-1.5 x 25mm Hex Head Bolt | 3 | Cat 442-8144 Blade Cushion Accumulator Kit BOM; continuation items 33-51 | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+8T-1897 | Single Hose Clip | 3 | Cat 442-8144 Blade Cushion Accumulator Kit BOM; continuation items 33-51 | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+8T-4133 | M10 x 1.5mm Hex Nut | 5 | Cat 442-8144 Blade Cushion Accumulator Kit BOM; continuation items 33-51 | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+6V-9851 | 13/16-16 x 13/16-16 Thread 90-Degree Elbow Adapter | 1 | Cat 442-8144 Blade Cushion Accumulator Kit BOM; continuation items 33-51 | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+8T-7502 | Stud Weld | 1 | Cat 442-8144 Blade Cushion Accumulator Kit BOM; continuation items 33-51 | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+8X-1150 | XT-3ES Hose | 1 | Cat 442-8144 Blade Cushion Accumulator Kit BOM; continuation items 33-51 | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+8T-4137 | M10-1.5 x 20mm Hex Head Bolt | 1 | Cat 442-8144 Blade Cushion Accumulator Kit BOM; continuation items 33-51 | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+8T-1890 | 25.40mm Internal Diameter Half Clip | 4 | Cat 442-8144 Blade Cushion Accumulator Kit BOM; continuation items 33-51 | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+8T-1898 | Single Hose Clip | 3 | Cat 442-8144 Blade Cushion Accumulator Kit BOM; continuation items 33-51 | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+
+Source page: https://parts.cat.com/en/catcorp/product/442-8144
