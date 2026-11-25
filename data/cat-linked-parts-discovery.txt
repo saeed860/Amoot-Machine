@@ -1799,3 +1799,38 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 3E-6914 | 3/8-16 x 7/8 Hex Head Bolt | 6 | Cat 398-0451 Motor Grader Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
 
 Source page: https://parts.cat.com/en/catcorp/product/398-0451
+
+
+## Additional Cat 3412C generator-set overhaul-kit BOM candidates — batch 106
+
+Source: official Cat Parts Store product page 436-2788, Engine Overhaul (Major) Kit. The page describes a Marine Bundled Repair Solution / 3412 Engine Overhaul, while its compatibility section explicitly lists GENERATOR SET / 3412C. This distinction is preserved; no marine-engine compatibility is inferred from the marketing label. Six other listed components were already present in the discovery queue and are not duplicated below. Kit quantities do not establish standalone orderability, stock, price, or serial-specific fitment.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+111-2721 | Water Pump Felt Plug Filter | 1 | Cat 436-2788 3412C overhaul kit BOM; compatible-model label Generator Set | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+112-3540 | 23.16mm Inside Diameter Seal-O-Ring | 2 | Cat 436-2788 3412C overhaul kit BOM; compatible-model label Generator Set | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+112-9217 | 4mm Thick Idler Thrust Plate | 1 | Cat 436-2788 3412C overhaul kit BOM; compatible-model label Generator Set | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+219-6543 | Aftercooler and Lines Install Gasket Kit | 1 | Cat 436-2788 3412C overhaul kit BOM; compatible-model label Generator Set | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+226-4753 | 0.35mm Thick Metal Coated Gasket | 1 | Cat 436-2788 3412C overhaul kit BOM; compatible-model label Generator Set | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+2B-2695 | 5/16-18 x 7/8 Hex Head Bolt | 4 | Cat 436-2788 3412C overhaul kit BOM; compatible-model label Generator Set | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+2K-4973 | 3/8-16 Cone Lock Nut | 1 | Cat 436-2788 3412C overhaul kit BOM; compatible-model label Generator Set | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+2N-2765 | 3/8-16 x 1 3/4 Hex Flange Head Bolt | 8 | Cat 436-2788 3412C overhaul kit BOM; compatible-model label Generator Set | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+2N-8109 | 76.20mm Minimum Internal Diameter Band V Clamp | 1 | Cat 436-2788 3412C overhaul kit BOM; compatible-model label Generator Set | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+2S-2760 | 152.91mm Free Length Compression Spring | 1 | Cat 436-2788 3412C overhaul kit BOM; compatible-model label Generator Set | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+305-6843 | 21.08mm Inner Diameter Lifter Guide Spring | 24 | Cat 436-2788 3412C overhaul kit BOM; compatible-model label Generator Set | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+392-9208 | Relief Valve Plunger | 2 | Cat 436-2788 3412C overhaul kit BOM; compatible-model label Generator Set | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+3B-1915 | 3/8-16 x 1 3/8 Hex Head Bolt | 2 | Cat 436-2788 3412C overhaul kit BOM; compatible-model label Generator Set | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+3G-2292 | 3/8-16 x 7/8 Hex Head Lock Bolt | 5 | Cat 436-2788 3412C overhaul kit BOM; compatible-model label Generator Set | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+420-2031 | Gasket (F) Kit | 1 | Cat 436-2788 3412C overhaul kit BOM; compatible-model label Generator Set | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+420-4325 | Single Cylinder Head Install Kit | 2 | Cat 436-2788 3412C overhaul kit BOM; compatible-model label Generator Set | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+420-6429 | Gasket (FS) Kit | 1 | Cat 436-2788 3412C overhaul kit BOM; compatible-model label Generator Set | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+420-8545 | Oil Cooler and Lines Gasket Kit | 1 | Cat 436-2788 3412C overhaul kit BOM; compatible-model label Generator Set | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+454-5379 | Flywheel Housing Gasket Kit - Rear Structure | 1 | Cat 436-2788 3412C overhaul kit BOM; compatible-model label Generator Set | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+4M-1336 | 11.2mm Long Ferrule | 1 | Cat 436-2788 3412C overhaul kit BOM; compatible-model label Generator Set | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+4N-0342 | 4.65mm Thick Plate | 1 | Cat 436-2788 3412C overhaul kit BOM; compatible-model label Generator Set | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+4N-0685 | 76.94mm Outside Diameter Sleeve Bearing | 5 | Cat 436-2788 3412C overhaul kit BOM; compatible-model label Generator Set | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+4N-0932 | 57.53mm Outside Diameter Non-Threaded Cup-Plug | 4 | Cat 436-2788 3412C overhaul kit BOM; compatible-model label Generator Set | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+4N-4668 | Engine Crankcase Breather | 1 | Cat 436-2788 3412C overhaul kit BOM; compatible-model label Generator Set | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+4N-6658 | 76.94mm Outside Diameter Cylinder Block Bearing | 2 | Cat 436-2788 3412C overhaul kit BOM; compatible-model label Generator Set | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+593-7750 | Water Temperature Regulator | 2 | Cat 436-2788 3412C overhaul kit BOM; compatible-model label Generator Set | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+
+Source page: https://parts.cat.com/en/catcorp/product/436-2788
