@@ -1384,3 +1384,39 @@ Mirror از Master جاری بازسازی و شمارنده Workflow با تع�
 پیش از سفارش، آرایش bogie/undercarriage، قطر چرخ و محور، stack بلبرینگ، قطر و گام پیچ M12، رزوه و سطح آب‌بندی آداپتور باید با شماره سریال و configuration دستگاه تطبیق داده شود. 261-6296 Track Roller در صفحه Cat صریحاً Discontinued بود و به‌عنوان کالای فعال سفارش‌پذیر ثبت نشد.
 
 Mirror از Master جاری بازسازی و شمارنده Workflow با تعداد خطوط Master تنظیم شد.
+
+## دور چهل‌وچهارم — فیلترها، سوخت و مدار روغن موتور (25 Nov 2026)
+
+ممیزی آغازین این دور Master را با 3,969 شماره یکتا نشان داد؛ CSV فیتمنت 287B نسبت به ممیزی پیشین نیز رشد هم‌زمان داشت. این تغییرات خارج از batch جاری‌اند و به آن نسبت داده نمی‌شوند.
+
+### فیتمنت رسمی 287B (همچنین 297C در موارد مشخص)
+- 234-4826 — Engine Oil Filter Union؛ Compatible Models شامل 287B و 297C.
+- 1R-0734 — Advanced Efficiency Engine Oil Filter؛ شامل 287B و 297C.
+- 243-0406 — Engine Air Cleaner؛ شامل 287B.
+- 242-6055 — 7.9mm ID Engine Fuel Filter Lines Hose؛ شامل 287B.
+- 110-6331 — Secondary Standard Efficiency Engine Air Filter؛ شامل 287B و 297C.
+- 110-6326 — Air Cleaner Primary Element؛ شامل 287B و 297C.
+- 207-9729 — Fuel Separator؛ شامل 287B.
+- 232-5877 — Fuel Priming Pump؛ شامل 287B.
+- 235-4955 — Engine Oil Filter Mounting Bracket؛ شامل 287B و 297C.
+- 267-2528 — Standard Efficiency Engine Oil Filter؛ شامل 287B و 297C.
+
+تمام شماره‌های بالا از قبل در Master وجود داشتند؛ این دور فقط CSV فیتمنت 287B را تکمیل کرد.
+
+### فقط 297C
+- 258-3894 — Hydraulic Pump Lines Hose؛ صفحه رسمی 297C را فهرست می‌کند و 287B را ندارد. فقط در CSV مستقل 297C-only ثبت شد.
+
+منابع رسمی Cat:
+- https://parts.cat.com/en/catcorp/product/234-4826
+- https://parts.cat.com/en/catcorp/product/1R-0734
+- https://parts.cat.com/en/catcorp/product/243-0406
+- https://parts.cat.com/en/catcorp/product/242-6055
+- https://parts.cat.com/en/catcorp/product/110-6331
+- https://parts.cat.com/en/catcorp/product/110-6326
+- https://parts.cat.com/en/catcorp/product/207-9729
+- https://parts.cat.com/en/catcorp/product/232-5877
+- https://parts.cat.com/en/catcorp/product/235-4955
+- https://parts.cat.com/en/catcorp/product/267-2528
+- https://parts.cat.com/en/catcorp/product/258-3894
+
+برای فیلترهای هوا باید primary/secondary به‌صورت جفت و با housing درست انتخاب شود. فیلتر روغن و براکت باید با engine arrangement و filter head تطبیق داده شوند؛ برای پمپ پرایم سوخت نیز connector و شماره سریال بررسی شود.
