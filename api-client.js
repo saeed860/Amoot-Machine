@@ -82,7 +82,7 @@
    host.querySelectorAll('[data-address-default]').forEach(b=>b.onclick=async()=>{b.disabled=true;try{await api('/api/addresses/'+encodeURIComponent(b.dataset.addressDefault)+'/default',{method:'PATCH',body:{}});await renderServerAddresses(host)}catch(err){window.toast(err.message);b.disabled=false}});
   }catch(err){host.innerHTML='<h3>نشانی‌های من</h3><div class="notice">'+escHtml(err.message)+'</div>'}
  }
- const recoveryRedirect=()=>location.origin+location.pathname+'?auth=reset';
+ const recoveryRedirect=()=>'https://saeed860.github.io/Amoot-Machine/?auth=reset';
  const authRequest=async(path,options={})=>{
   const response=await fetch('https://mzcvmgxfcbspkyfqtjry.supabase.co/auth/v1/'+path,{...options,headers:{apikey:publicKey,'Content-Type':'application/json',...(options.headers||{})}});
   const data=await response.json().catch(()=>({}));
