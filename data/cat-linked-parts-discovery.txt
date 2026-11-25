@@ -153,16 +153,16 @@ Sixteen further part numbers were extracted from the 282-5199 kit BOM and Cat's 
 part_number | displayed description | source context | status
 8N-8466 | Auxiliary Pump Group - S | BOM component of Cat 282-5199 water-pump kit, quantity 1 | cat_item_page_verified; existing_catalog_row_updated; no_description_or_specs_published
 328-5573 | 97.20mm OD steel-backed copper-lead connecting-rod bearing | Frequently bought together with Cat 277-3076 | cat_item_page_verified; existing_catalog_row_previously_verified_in_batch49
-151-5925 | 7/16-14 × 1-3/64in hex-head bolt | Related part shown on Cat 277-3076 page | cat_linked_candidate; needs_individual_verification
-6I-4421 | 8.585mm thick spacer plate | Related part shown on Cat 277-3076 page | cat_linked_candidate; needs_individual_verification
-0R-9449 | Cat Reman engine oil pump | Related part shown on Cat 277-3076 page | cat_linked_candidate; needs_individual_verification
-177-1990 | 2134mm (84in) general-purpose bucket | Related part shown on Cat 279-5377 page | cat_linked_candidate; needs_individual_verification
-219-7706 | A41 skid-steer coupler | Related part shown on Cat 279-5377 page | cat_linked_candidate; needs_individual_verification
-353-1697 | 1220mm (48in) skid-steer coupler, Class II | Related part shown on Cat 279-5377 page | cat_linked_candidate; needs_individual_verification
-426-6548 | 2036mm (80in) bolt-on cutting edge | Related part shown on Cat 279-5377 page | cat_linked_candidate; needs_individual_verification
-479-8086 | 3.05m (10ft) attachment | Related part shown on Cat 279-5377 page | cat_linked_candidate; needs_individual_verification
-481-3668 | 2.4m (8ft) skid-steer coupler | Related part shown on Cat 279-5377 page | cat_linked_candidate; needs_individual_verification
-489-2001 | BB121 box blade | Related part shown on Cat 279-5377 page | cat_linked_candidate; needs_individual_verification
+151-5925 | 7/16-14 × 1 3/64in hex-head oil-jet bolt | Related part shown on Cat 277-3076 page | cat_item_page_verified; inserted_part_catalog; title_vs_spec_length_conflict_flagged
+6I-4421 | 8.585mm thick cylinder-block steel spacer plate | Related part shown on Cat 277-3076 page | cat_item_page_verified; inserted_part_catalog; fitment_verified
+0R-9449 | Cat Reman 3406E one-section engine oil pump | Related part shown on Cat 277-3076 page | cat_item_page_verified; existing_catalog_row_updated; Cat_Reman_condition_preserved
+177-1990 | 2134mm (84in) angle blade | Cat 279-5377 related listing; prior candidate queue label was bucket, corrected from official item page | cat_item_page_verified; inserted_part_catalog; category_corrected_to_angle_blade
+219-7706 | A41 skid-steer auger drive attachment | Related part shown on Cat 279-5377 page | cat_item_page_verified; inserted_part_catalog; auger_drive_specifications_verified
+353-1697 | 1220mm (48in) Class II pallet forks | Related part shown on Cat 279-5377 page | cat_item_page_verified; existing_catalog_row_updated; fitment_verified
+426-6548 | 2036mm (80in) multi-purpose bucket (Cat title says bolt-on cutting edge) | Related part shown on Cat 279-5377 page | cat_item_page_verified; inserted_part_catalog; title_vs_description_conflict_flagged
+479-8086 | 3.05m (10ft) straight snow push | Related part shown on Cat 279-5377 page | cat_item_page_verified; inserted_part_catalog; fitment_verified
+481-3668 | 2.4m (8ft) skid-steer snow plow | Related part shown on Cat 279-5377 page | cat_item_page_verified; inserted_part_catalog; fitment_verified
+489-2001 | BB121 box blade | Related part shown on Cat 279-5377 page | cat_item_page_verified; inserted_part_catalog; fitment_verified
 489-2200 | MB250 mixing bucket | Related part shown on Cat 279-5377 page | cat_linked_candidate; needs_individual_verification
 5P-8500 | Machine ignition key | Related part shown on Cat 279-5377 page | cat_linked_candidate; needs_individual_verification
 8T-4999 | Film-instruction decal | Related part shown on Cat 279-5377 page | cat_linked_candidate; needs_individual_verification
@@ -318,19 +318,19 @@ Source pages:
 5P-8500 | Machine Ignition Key | Cat Parts Store related accessory for 353-1697 pallet forks | cat_linked_candidate; needs_individual_verification
 8T-4999 | Film-Instruction | Cat Parts Store related accessory for 353-1697 pallet forks | cat_linked_candidate; needs_individual_verification
 561-0644 | Beacon Warning Lamp | Cat Parts Store related accessory for 353-1697 pallet forks | cat_linked_candidate; needs_individual_verification
-219-7706 | A41 Skid Steer Coupler | Cat Parts Store related accessory for 353-1697 pallet forks | cat_linked_candidate; needs_individual_verification
+219-7706 | A41 skid-steer auger drive attachment | Related part shown on Cat 279-5377 page | cat_item_page_verified; inserted_part_catalog; auger_drive_specifications_verified
 231-8601 | CV119 | Cat Parts Store related accessory for 353-1697 pallet forks | cat_linked_candidate; needs_individual_verification
 285-6110 | 1829mm (72in) | Cat Parts Store related accessory for 353-1697 pallet forks | cat_linked_candidate; needs_individual_verification
-426-6548 | 2036mm (80in) Bolt-On Cutting Edge | Cat Parts Store related accessory for 353-1697 pallet forks | cat_linked_candidate; needs_individual_verification
+426-6548 | 2036mm (80in) multi-purpose bucket (Cat title says bolt-on cutting edge) | Related part shown on Cat 279-5377 page | cat_item_page_verified; inserted_part_catalog; title_vs_description_conflict_flagged
 475-2760 | HM115 | Cat Parts Store related accessory for 353-1697 pallet forks | cat_linked_candidate; needs_individual_verification
-479-8086 | 3.05m (10ft) | Cat Parts Store related accessory for 353-1697 pallet forks | cat_linked_candidate; needs_individual_verification
-481-3668 | 2.4m (8ft) Skid Steer Coupler | Cat Parts Store related accessory for 353-1697 pallet forks | cat_linked_candidate; needs_individual_verification
+479-8086 | 3.05m (10ft) straight snow push | Related part shown on Cat 279-5377 page | cat_item_page_verified; inserted_part_catalog; fitment_verified
+481-3668 | 2.4m (8ft) skid-steer snow plow | Related part shown on Cat 279-5377 page | cat_item_page_verified; inserted_part_catalog; fitment_verified
 365-7606 | Cabin Air Filter | Cat Parts Store frequently bought together with 353-5058 cab filter | cat_linked_candidate; needs_individual_verification
 462-1171 | Standard Efficiency Engine Oil Filter | Cat Parts Store frequently bought together with 353-5058 cab filter | cat_linked_candidate; needs_individual_verification
 222-9020 | Primary Standard Efficiency Engine Air Filter | Cat Parts Store frequently bought together with 353-5058 cab filter | cat_linked_candidate; needs_individual_verification
-6I-4421 | 8.585mm Thick Spacer Plate | Cat Parts Store related part for 356-1448 C15 Silver Overhaul Kit | cat_linked_candidate; needs_individual_verification
+6I-4421 | 8.585mm thick cylinder-block steel spacer plate | Related part shown on Cat 277-3076 page | cat_item_page_verified; inserted_part_catalog; fitment_verified
 247-6130 | 137.16mm Outer Diameter Top Piston Ring | Cat Parts Store related part for 356-1448 C15 Silver Overhaul Kit | cat_linked_candidate; needs_individual_verification
-0R-9449 | Cat Reman Engine Oil Pump | Cat Parts Store related part for 356-1448 C15 Silver Overhaul Kit | cat_linked_candidate; needs_individual_verification
+0R-9449 | Cat Reman 3406E one-section engine oil pump | Related part shown on Cat 277-3076 page | cat_item_page_verified; existing_catalog_row_updated; Cat_Reman_condition_preserved
 9Y-3368 | 0.822mm Thick Seat Liner Insert | Cat Parts Store related part for 356-1448 C15 Silver Overhaul Kit | cat_linked_candidate; needs_individual_verification
 606-0909 | Engine Overhaul (Bronze) Kit | Cat Parts Store component listed in 356-1448 Silver kit, quantity 1 | cat_linked_candidate; needs_individual_verification
 160-9874 | Single Cylinder Liner Gasket Kit | Cat Parts Store component listed in 356-1448 Silver kit, quantity 6 | cat_linked_candidate; needs_individual_verification
@@ -779,7 +779,7 @@ Source pages:
 496-9842 | Standard Efficiency Engine Air - Secondary | Cat Parts Store related item for 528-8101 roller guard | cat_linked_candidate; needs_individual_verification
 
 20R-8321 | Cat Reman Turbocharger Group | Cat Parts Store Compare Alternate Parts for 528-9753 turbocharger | cat_linked_candidate; needs_individual_verification
-426-6548 | 2036mm (80in) Bolt-On Cutting Edge | Cat Parts Store related item for 529-5780/529-5790/529-5791 cold planers | cat_linked_candidate; needs_individual_verification
+426-6548 | 2036mm (80in) multi-purpose bucket (Cat title says bolt-on cutting edge) | Related part shown on Cat 279-5377 page | cat_item_page_verified; inserted_part_catalog; title_vs_description_conflict_flagged
 489-2200 | MB250 Material Mixer | Cat Parts Store related item for 529-5780/529-5790/529-5791 cold planers | cat_linked_candidate; needs_individual_verification
 9W-0852 | 14 AWG Connector Pin | Cat Parts Store parts diagram for 529-5780 PC305 | cat_linked_candidate; needs_individual_verification
 9W-0844 | Connector Socket | Cat Parts Store parts diagram for 529-5780 PC305 | cat_linked_candidate; needs_individual_verification
@@ -1530,3 +1530,5 @@ Source pages:
 202-4296 | Idler Group | Cat Parts Store related component shown on 288-0934 page | cat_linked_candidate; needs_individual_verification
 
 306-9455 | Roller Mount Cap | Cat Parts Store related component shown on 306-9457 page | cat_linked_candidate; needs_individual_verification
+
+273-9104 | Control Group-Handle | Cat Parts Store related component shown on 489-2001 BB121 page | cat_linked_candidate; needs_individual_verification
