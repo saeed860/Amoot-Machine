@@ -2709,3 +2709,15 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - 166-0321 — Seal Kit قبلاً در Master و CSV 297C-only بود؛ صفحه رسمی Cat فیتمنت 287B را نیز نشان می‌دهد، بنابراین ردیف متناظر به CSV 287B افزوده شد. کاربرد دقیق و اجزای کیت پیش از سفارش با PIN/پیکربندی تطبیق داده شود.
 - منابع رسمی: https://parts.cat.com/en/catcorp/product/247-5874 ؛ https://parts.cat.com/en/catcorp/product/337-9101 ؛ https://parts.cat.com/en/catcorp/product/293-2872 ؛ https://parts.cat.com/en/catcorp/product/166-0321
 - شمارنده هدف پس از ثبت: 4396 شماره یکتا؛ Mirror byte-exact و Workflow برابر 4396.
+
+
+## دور ۷۶ — 25 Nov 2026
+
+- پنج شماره جدید به Master افزوده شد:
+  - 223-4275 — Single Rotor Carbon Steel Latch؛ صفحه رسمی Cat فیتمنت 287B و 297C را صریحاً فهرست می‌کند؛ در CSV 287B ثبت شد.
+  - 280-8408 — Plastic Belt Guard؛ فقط 297C در فیتمنت مدل‌های این خانواده؛ در CSV مستقل 297C-only ثبت شد.
+  - 258-4092 — Cabin Glass Window؛ فقط 297C؛ نسخه شیشه، آب‌بندی و موقعیت پنجره باید تطبیق داده شود.
+  - 258-2443 — Plastic Belt Guard؛ فقط 297C؛ آرایش تسمه و نقاط نصب باید کنترل شود.
+  - 273-5914 — Seat Suspension Assembly؛ فقط 297C؛ پایه صندلی و رنج وزن اپراتور باید تطبیق داده شود.
+- منابع رسمی: https://parts.cat.com/en/catcorp/product/223-4275 ؛ https://parts.cat.com/en/catcorp/product/280-8408 ؛ https://parts.cat.com/en/catcorp/product/258-4092 ؛ https://parts.cat.com/en/catcorp/product/258-2443 ؛ https://parts.cat.com/en/catcorp/product/273-5914
+- شمارنده هدف پس از ثبت: 4401 شماره یکتا؛ Mirror byte-exact و Workflow برابر 4401.
