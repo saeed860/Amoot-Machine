@@ -40,8 +40,8 @@
 
 ## کنترل Master و فایل ورودی
 - Master: data/cat-official-part-numbers.txt
-- فایل ورودی جدید: data/offroad-batch-import-cat-1443.txt
-- تعداد مورد انتظار: 1,443 شماره، یکتا؛ فایل ورودی باید mirror دقیق Master باشد.
+- فایل ورودی جدید: data/offroad-batch-import-cat-1536.txt
+- تعداد مورد انتظار: 1,536 شماره، یکتا؛ فایل ورودی باید mirror دقیق Master باشد.
 - CSV تکمیلی: data/cat-engine-pm-kit-source-verification-2026-11-25.csv
 - این فایل‌ها فقط آماده‌سازی داده هستند؛ هیچ ادعایی مبنی بر آپلود داده در حساب Offroad Equipment وجود ندارد.
 
