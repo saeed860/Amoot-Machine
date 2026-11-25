@@ -4016,3 +4016,42 @@ Additional Cat-linked discovery candidates from Cat official related/Reman panel
 All candidates require individual item-page verification before catalog promotion; Cat Reman is kept distinct by condition.
 
 Overall reviewed progress: 64/500 batches = 640/5,000 product target (12.8%). Original Cat seed list has 147 SKUs remaining (products 641–787).
+
+## Batch 65/500 — products 641–650 (2026-11-25)
+
+SKUs: 561-1061, 561-1069, 561-5499, 562-0434, 562-8118, 563-8470, 566-2975, 567-4125, 569-2542, 569-8036. All ten Cat pages opened; model fitment, published specifications and related parts inspected. Two data corrections were made: unsupported material removed from 562-0434 and the legacy/current fitment discrepancy documented for 566-2975.
+
+Verified:
+- 561-1061: Cat Link Assembly, Clamp Master, 45 sections, Press Fit, SALT, 202.81mm/7.985in pitch, abrasion undercarriage. Specs: 3.539in sprocket-side link spread, 4.256in roller-side spread, 1.638in rail-to-bushing OD, 2.864in bushing OD, 7.508in outside spread, 0.906in bolt-hole, M22 track/master bolts, 8.469in pin length, 5.276in link height, A/B/C shoe-hole spacing 2.146/5.882/5.882in, no RBT/wear sensor. Compatible track tractors D6R III/D6T/D6T XL/D6R LGP/D6R II/D6T XW/D6T LGP/D6T LGPPAT/D6XE/D6/D6T XW PAT (11). DB matches.
+- 561-1069: Cat Link Assembly, Clamp Master, 46 sections, Press Fit, SALT, 190mm/7.48in pitch, abrasion undercarriage. Specs: 3.189in sprocket-side link spread, 3.717in roller-side spread, 1.496in rail-to-bushing OD, 2.559in bushing OD, 6.717in outside spread, 0.827in bolt-hole, M20 track/master bolts, 7.488in pin length, 4.783in link height, A/B/C shoe-hole spacing 2.283/5.217/5.217in, no RBT/wear sensor. Compatible track tractors D6N LGP/D6N/D5/D6N XL (4). DB matches.
+- 561-5499: Cat Rubber Track, 450mm wide, 86mm pitch, 56 sections, bar tread. Specs: 17.717in belt width, 3.386in pitch, rubber/fiber rubber, HD undercarriage. Compatible CTLs 289D/279D/279C2/279D3/289C2/289D3 (6). DB matches.
+- 562-0434: Cat RAIL-FUEL for utility vehicles CUV102D/CUV105D (2). Cat says description/specifications are still being added. Removed previously stored Alloy Aluminum material because the current public item page does not publish it.
+- 562-8118: Cat 240S Roller 27 Links Drive Chain for tandem drive. Specs: ANSI 240, 3in pitch, 165in overall length, 1.86in roller width; description states 55 pitches and 4.06in chain width. Compatible motor graders 24M/24 (2). DB matches.
+- 563-8470: Cat Track Group, 1-tooth master, single grouser, 41 sections, PPR, SALT, ES shoe, 810mm/31.89in width, 317.5mm/12.5in pitch, HDXL. D11T only. Specs: 4.646in sprocket-side link inside spread, 4.488in bushing ID, 1.375in track bolt/M36 master bolt, wear sensor yes, no RBT/ARM/clipping. Cat page states no parts currently associated with this track group. DB matches.
+- 566-2975: Cat Heavy Duty Rubber Track, 300×52.5×90mm, 11.811in belt width, 2.067in pitch, black rubber/fiber, block tread, HD. Current Cat Compatible Models list 303.5CR/304SR/302.7CR/303CR (4). The separate Cat description text references legacy 303 CR C/303.5C/303.5D applications; this source discrepancy is explicitly documented without merging those into the current fitment list. Cat related track option 575-8723 has 82 sections, not assumed interchangeable.
+- 567-4125: Cat Grade with 3D for Small Dozers. Public page returned loading placeholders only; DB remains without compatible models or item-level specifications.
+- 569-2542: Cat Track Group, Press Fit Master, single grouser, 44 sections, PPR, SALT, SES, 610mm/24.016in shoe width, 261mm/10.25in pitch, HDXL. D10T2 only. Specs: 5.315in sprocket-side inside spread, 3.899in bushing ID, 1.125in track/master bolt thread, no RBT/ARM/clipping/wear sensor. Cat page states no parts currently associated with this track group. DB matches.
+- 569-8036: Cat Lube Filter Element Kit (Engine Oil). Cat lists exactly two kit components: 505-3864 Lube Element Assembly ×1 and 6V-8002 88.49mm ID O-ring ×1. Material Corrosion Preventative Fluid. 74 distinct compatible labels across CTL, gen sets, C3.6 engine, soil compactors, backhoe loaders, telehandlers, compact/wheel loaders, track tractors, asphalt compactors/pavers, mini excavators, skid steers, wheeled excavators, industrial engines, excavators and vibratory compactors. DB kit contents and fitment match.
+
+Cat pages:
+- https://parts.cat.com/en/catcorp/product/561-1061
+- https://parts.cat.com/en/catcorp/product/561-1069
+- https://parts.cat.com/en/catcorp/product/561-5499
+- https://parts.cat.com/en/catcorp/product/562-0434
+- https://parts.cat.com/en/catcorp/product/562-8118
+- https://parts.cat.com/en/catcorp/product/563-8470
+- https://parts.cat.com/en/catcorp/product/566-2975
+- https://parts.cat.com/en/catcorp/product/567-4125
+- https://parts.cat.com/en/catcorp/product/569-2542
+- https://parts.cat.com/en/catcorp/product/569-8036
+
+Post-update DB verification counts: 561-1061=11; 561-1069=4; 561-5499=6; 562-0434=2; 562-8118=2; 563-8470=1; 566-2975=4; 567-4125=0; 569-2542=1; 569-8036=74. No customer prices or stock claims added.
+
+Additional Cat-linked discovery candidates from official Cat related/alternate panels:
+- 561-1061: 561-1056, 561-1058, 561-1059, 561-1062, 653-5187, 653-5188, 653-5190, 653-5193, 653-5195, 234-9672, 351-0957, 351-0958.
+- 561-1069: 235-2511, 351-0961, 561-1068, 561-1070, 653-5165, 653-5169, 653-5170, 667-1450.
+- 566-2975: 575-8723 (82-section related track option), 156-1200, 377-6969, 415-2592, 415-2593.
+- 569-8036: 523-6602, 528-0585, 540-5119, 360-8960, 346-6688.
+All candidates remain separate from fitment claims and require individual item-page verification before catalog promotion.
+
+Overall reviewed progress: 65/500 batches = 650/5,000 product target (13.0%). Original Cat seed list has 137 SKUs remaining (products 651–787).
