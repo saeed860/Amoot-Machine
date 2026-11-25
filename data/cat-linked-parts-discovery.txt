@@ -179,18 +179,18 @@ Source pages:
 227-2902 | 228.40mm OD connecting-rod bearing | Frequently bought together with Cat 290-2041 piston assembly | cat_item_page_verified; inserted_part_catalog; unusual_spec_dimensions_preserved
 288-0948 | Double-flange high-temperature track roller group, 210mm tread | Cat Parts Store related-parts panel for 288-0934 | cat_item_page_verified; inserted_part_catalog; fitment_verified
 613-5951 | Track roller group (Cat title Single Flange; spec Double Flange) | Cat Parts Store related-parts panel for 288-0934 | cat_item_page_verified; inserted_part_catalog; title_vs_spec_flange_conflict_flagged
-288-0947 | Track Roller Group, High Temperature Application, Single Flange | Cat Parts Store related-parts panel for 288-0935 | cat_linked_candidate; needs_individual_verification
-396-7353 | Track Roller Group, Single Flange, Standard Application | Cat Parts Store related-parts panel for 288-0935 | cat_linked_candidate; needs_individual_verification
+288-0947 | High-temperature single-flange track roller group, 210mm tread | Cat Parts Store related-parts panel for 288-0935 | cat_item_page_verified; inserted_part_catalog; fitment_verified
+396-7353 | General-duty single-flange track roller group | Cat Parts Store related-parts panel for 288-0935 | cat_item_page_verified; inserted_part_catalog; fitment_verified
 
-20R-8062 | Cat Reman Fuel Injector (H1315B) (C9) (2.2 SF) | Cat Parts Store alternate displayed on discontinued 293-4068 injector page | cat_linked_candidate; needs_individual_verification
-2W-6289 | Fuel Injection Lines Tube Assembly | Cat Parts Store frequently bought together with 2W-6290 | cat_linked_candidate; needs_individual_verification
-2W-6667 | 4.57mm Inner Diameter Fuel Filter Tube Assembly | Cat Parts Store frequently bought together with 2W-6290 | cat_linked_candidate; needs_individual_verification
+20R-8062 | Cat Reman H1315B fuel injector, C9, 2.2 SF | Cat Parts Store alternate displayed on discontinued 293-4068 injector page | cat_item_page_verified; inserted_part_catalog; Cat_Reman_condition_preserved; fitment_verified
+2W-6289 | 12.58mm ID fuel-injection lines tube assembly | Frequently bought together with Cat 2W-6290 | cat_item_page_verified; inserted_part_catalog; fitment_verified
+2W-6667 | 4.57mm ID fuel-filter tube assembly | Frequently bought together with Cat 2W-6290 | cat_item_page_verified; inserted_part_catalog; verified_via_Cat_Spanish_locale
 214-7568 | STOR O-ring seal (SAE 9/16-18) | Related part shown on Cat 237-9313 page | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
-7C-7677 | 9.52mm Outer Diameter Fuel Injection Tube | Cat Parts Store frequently bought together with 2W-6290 | cat_linked_candidate; needs_individual_verification
-6V-5048 | 1.83 x 8.92mm 75A FKM O-Ring | Cat Parts Store frequently bought together with 2W-6290 | cat_linked_candidate; needs_individual_verification
-449-2274 | Carrier Roller Group, Cantilever, Standard Application, 160mm Tread | Cat Parts Store alternate shown for 300-4545 | cat_linked_candidate; needs_individual_verification
-6Y-5685 | Track Sprocket | Cat Parts Store frequently bought together with 300-4545 | cat_linked_candidate; needs_individual_verification
-136-2422 | Idler Group | Cat Parts Store frequently bought together with 300-4545 | cat_linked_candidate; needs_individual_verification
+7C-7677 | 9.52mm OD fuel-injection tube | Frequently bought together with Cat 2W-6290 | cat_item_page_verified; inserted_part_catalog; fitment_verified
+6V-5048 | 1.83 × 8.92mm 75A FKM O-ring | Frequently bought together with Cat 2W-6290 | cat_item_page_verified; inserted_part_catalog; fitment_verified
+449-2274 | Cantilever carrier roller group, 160mm tread | Cat Parts Store alternate shown for 300-4545 | cat_item_page_verified; inserted_part_catalog; fitment_single_model
+6Y-5685 | Plain-steel offset track sprocket, 16 bolts, 23 teeth, 215.9mm pitch | Frequently bought together with Cat 300-4545 | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
+136-2422 | Standard idler group, 204mm rim, 635mm tread | Frequently bought together with Cat 300-4545 | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
 357-7540 | Track Adjuster Fill Valve | Cat Parts Store frequently bought together with 300-4545 | cat_linked_candidate; needs_individual_verification
 1R-1808 | Engine Oil Filter | Cat Parts Store frequently bought together with 300-4545 | cat_linked_candidate; needs_individual_verification
 
@@ -239,7 +239,7 @@ Source pages:
 6Y-8180 | Track Shoe | Cat Parts Store frequently bought together with 311-8150 | cat_linked_candidate; needs_individual_verification
 179-3426 | Track Seal | Cat Parts Store frequently bought together with 311-8150 | cat_linked_candidate; needs_individual_verification
 6Y-2590 | Track Link | Cat Parts Store frequently bought together with 311-8150 | cat_linked_candidate; needs_individual_verification
-6Y-5685 | Track Sprocket | Cat Parts Store frequently bought together with 311-8150 | cat_linked_candidate; needs_individual_verification
+6Y-5685 | Plain-steel offset track sprocket, 16 bolts, 23 teeth, 215.9mm pitch | Frequently bought together with Cat 300-4545 | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
 10R-9598 | Cat Reman auxiliary sea-water pump | Official replacement/alternate shown for discontinued Cat 212-8174 | cat_item_page_verified; existing_catalog_row_updated; Cat_Reman_condition_preserved
 
 314-2692 | Piston | Cat Parts Store frequently bought together with 314-2700 piston kit | cat_linked_candidate; needs_individual_verification
@@ -698,7 +698,7 @@ Source pages:
 5P-4892 | 3.53 x 59.92mm 75A FKM O-Ring | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 4 | cat_linked_candidate; needs_individual_verification
 6V-1454 | 72.39mm ID EPDM 70A O-ring | Frequently bought together with Cat 210-1471 | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
 6V-3907 | 3.53 x 183.74mm 75A FKM O-Ring | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 4 | cat_linked_candidate; needs_individual_verification
-6V-5048 | 1.83 x 8.92mm 75A FKM O-Ring | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 5 | cat_linked_candidate; needs_individual_verification
+6V-5048 | 1.83 × 8.92mm 75A FKM O-ring | Frequently bought together with Cat 2W-6290 | cat_item_page_verified; inserted_part_catalog; fitment_verified
 6V-5066 | 5.33 x 85.09mm 70A EPDM O-Ring | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 2 | cat_linked_candidate; needs_individual_verification
 6V-8001 | 85.32mm Inside Diameter Seal-O-Ring | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 1 | cat_linked_candidate; needs_individual_verification
 6V-9027 | 1.83 x 8.92mm 70A EPDM O-Ring | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 3 | cat_linked_candidate; needs_individual_verification
@@ -1125,7 +1125,7 @@ Source pages:
 3S-2093 | 202mm Long Cable Strap | Cat Parts Store component in 659-8663 PL542V3 radio kit, quantity 4 | cat_linked_candidate; needs_individual_verification
 
 3J-1907 | 1.98 × 11.89mm 90A NBR O-ring | Frequently bought together with Cat 244-3114 | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
-6V-5048 | 1.83 x 8.92mm 75A FKM O-Ring | Cat Parts Store related item for 6I-0036 fuel injector line | cat_linked_candidate; needs_individual_verification
+6V-5048 | 1.83 × 8.92mm 75A FKM O-ring | Frequently bought together with Cat 2W-6290 | cat_item_page_verified; inserted_part_catalog; fitment_verified
 2J-0157 | 15.47mm Inside Diameter Seal-O-Ring | Cat Parts Store related item for 6I-0036 fuel injector line | cat_linked_candidate; needs_individual_verification
 2S-4078 | 3 × 37.47mm 90A NBR O-ring | Related part shown on Cat 254-0224 page | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
 3S-2093 | 202mm Long Cable Strap | Cat Parts Store related item for 6K-0806 cable tie | cat_linked_candidate; needs_individual_verification
@@ -1246,7 +1246,7 @@ Source pages:
 7G-4332 | 21.2mm OD Track Roller Rubber Stopper | Cat Parts Store frequently bought together with 9W-4264 track seal | cat_linked_candidate; needs_individual_verification
 252-6329 | Track Seal Set | Cat Parts Store frequently bought together with 9W-4264 track seal | cat_linked_candidate; needs_individual_verification
 239-5509 | Track Link Ring Set | Cat Parts Store frequently bought together with 9W-4264 track seal | cat_linked_candidate; needs_individual_verification
-6V-5048 | 1.83 x 8.92mm 75A FKM O-Ring | Cat Parts Store related item for 9S-8004/9X-3402 connector socket | cat_linked_candidate; needs_individual_verification
+6V-5048 | 1.83 × 8.92mm 75A FKM O-ring | Frequently bought together with Cat 2W-6290 | cat_item_page_verified; inserted_part_catalog; fitment_verified
 2R-0098 | 5.33 x 456.06mm 75A NBR O-Ring | Cat Parts Store frequently bought together with 9S-8005 hex-drive plug | cat_linked_candidate; needs_individual_verification
 2S-4078 | 3 × 37.47mm 90A NBR O-ring | Related part shown on Cat 254-0224 page | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
 6V-9746 | 1.78 × 18.94mm 90A NBR O-ring | Related component shown on Cat 20R-9565 page | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
@@ -1537,3 +1537,19 @@ Source pages:
 355-9850 | Carrier Roller Group | Cat Parts Store frequently bought together with 288-0948 | cat_linked_candidate; needs_individual_verification
 612-5212 | Track Roller Group | Cat Parts Store frequently bought together with 613-5951 | cat_linked_candidate; needs_individual_verification
 605-9149 | Track Segment | Cat Parts Store frequently bought together with 613-5951 | cat_linked_candidate; needs_individual_verification
+
+449-2304 | Track Sprocket | Cat Parts Store related part shown on 6Y-5685 page | cat_linked_candidate; needs_individual_verification
+300-4545 | Carrier Roller Group | Cat Parts Store frequently bought together with 6Y-5685 and 136-2422 | cat_linked_candidate; needs_individual_verification
+179-3047 | 90mm Outer Diameter Backup Ring | Cat Parts Store frequently bought together with 6Y-5685 | cat_linked_candidate; needs_individual_verification
+179-3048 | 90mm Outer Diameter Backup Ring | Cat Parts Store frequently bought together with 136-2422 | cat_linked_candidate; needs_individual_verification
+449-2293 | Idler Group | Cat Parts Store compare-alternate listing on 136-2422 page | cat_linked_candidate; needs_individual_verification
+465-1559 | Idler Group | Cat Parts Store compare-alternate listing on 136-2422 page | cat_linked_candidate; needs_individual_verification
+625-8218 | Idler Group | Cat Parts Store compare-alternate listing on 136-2422 page | cat_linked_candidate; needs_individual_verification
+115-3696 | Idler Group | Cat Parts Store related item shown on 136-2422 page | cat_linked_candidate; needs_individual_verification
+248-7143 | Idler Group | Cat Parts Store related item shown on 136-2422 page | cat_linked_candidate; needs_individual_verification
+567-7852 | Idler Group | Cat Parts Store related item shown on 136-2422 page | cat_linked_candidate; needs_individual_verification
+602-9393 | Idler Group | Cat Parts Store related item shown on 136-2422 page | cat_linked_candidate; needs_individual_verification
+622-2492 | Idler Group | Cat Parts Store related item shown on 136-2422 page | cat_linked_candidate; needs_individual_verification
+7C-7678 | 9.52mm OD Multiple-Bend Fuel Injection Tube | Cat Parts Store frequently bought together with 7C-7677 | cat_linked_candidate; needs_individual_verification
+7W-2122 | Fuel Injection Tube Component | Cat Parts Store frequently bought together with 7C-7677 | cat_linked_candidate; needs_individual_verification
+2W-6672 | Fuel Filter Alternator Valve | Cat Parts Store related part shown on 2W-6667 page | cat_linked_candidate; needs_individual_verification
