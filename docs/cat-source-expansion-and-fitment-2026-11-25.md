@@ -100,7 +100,7 @@
 - شمارش جاری پس از ادغام Motor Grader و CTL/MTL: **1276 شماره یکتا**.
 - در مرحله تکمیلی موتورهای C18، ده شماره در صفحات رسمی Cat تأیید و به master افزوده شد.
 - شمارش جاری `data/cat-official-part-numbers.txt`: **1286 شماره یکتا**.
-- فایل `data/offroad-batch-import-cat-1315.txt` دقیقاً با master یکسان است: **1286 ردیف، بدون تکرار**.
+- فایل `data/data/offroad-batch-import-cat-1369.txt` دقیقاً با master یکسان است: **1286 ردیف، بدون تکرار**.
 
 ## قواعد داده و سطح اطمینان
 
@@ -149,3 +149,15 @@ Workflow شماره 45574758840 در صفحه‌های اولیه Cat چند tim
 - منبع: https://www.cat.com/en_US/support/maintenance/parts-reference-guides/dozers_small_d1-d2-d3.html
 - سازگاری اتصال‌ها تابع آرایش هیدرولیک و مدل دقیق است؛ این فهرست جایگزین تأیید سریال/پیکربندی نیست.
 - Master و فایل Offroad: 1315 شماره یکتا.
+
+
+## گریدرهای M3 و بسته نگهداری ۵۰۰ ساعته
+
+- فایل: `data/cat-motor-grader-m3-maintenance-and-rigout-2026-11-25.csv`
+- تعداد رکوردها: 79؛ شماره‌های جدید افزوده‌شده به Master: 54.
+- تفکیک سرویس 500 ساعته برای 12M3/140M3/160M3 با پیشوندهای N9* و 14M3 با پیشوندهای N9S و E9S حفظ شده است.
+- فهرست ادامه نگهداری شامل AWD، کابین، هیدرولیک، crankcase و DEF است؛ به علت گزینه‌محور بودن بعضی سیستم‌ها، تطبیق نهایی با سریال کامل لازم است.
+- بخش accessories/attachments از Part Number Index کاتالوگ Rig Out جدا و با برچسب مرجع کاتالوگ ثبت شده؛ اینها لزوماً قطعات استاندارد یا فیتمنت قطعی همه دستگاه‌ها نیستند.
+- منبع PDF رسمی Cat: https://s7d2.scene7.com/is/content/Caterpillar/CM20240126-65173-3d80f
+- منبع رسمی Cat Parts Store برای کیت 539-2619: https://parts.cat.com/en/catcorp/product/539-2619
+- Master و فایل Offroad پس از ادغام: 1369 شماره یکتا.
