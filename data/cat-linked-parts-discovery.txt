@@ -2027,3 +2027,30 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 7X-7925 | 7/8-14 x 11in Hex Head Bolt | 4 | Cat 318-3205 3512C Marine Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
 
 Source page: https://parts.cat.com/en/catcorp/product/318-3205
+
+
+## Additional Cat 3408B/3408 marine engine-parts-kit BOM candidates — batch 116
+
+Source: official Cat Parts Store product page 7W-4410, KIT-ENGINE PARTS. Compatible models explicitly shown: MARINE ENGINE / 3408B 3408. Fourteen other first-page components were already present in the discovery queue or original seed list and are not duplicated. The eighteen new entries below are official kit-content evidence only, not standalone orderability, stock, price, or serial-specific fitment confirmation.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+101-3374 | 86 Teeth Camshaft Drive Gear | 1 | Cat 7W-4410 3408B/3408 Marine Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+114-3364 | 9.78mm Outer Diameter Sealing Washer | 4 | Cat 7W-4410 3408B/3408 Marine Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+117-9712 | Accessory Drive Idler Shaft | 1 | Cat 7W-4410 3408B/3408 Marine Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+122-0321 | 184.29mm Long Exhaust Valve | 4 | Cat 7W-4410 3408B/3408 Marine Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+122-0322 | 184.29mm Long Inlet Valve | 2 | Cat 7W-4410 3408B/3408 Marine Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+124-5945 | 1.83mm Inner Diameter Fuel Injector Line | 1 | Cat 7W-4410 3408B/3408 Marine Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+124-5947 | 1.83mm Inner Diameter Fuel Injector Line | 1 | Cat 7W-4410 3408B/3408 Marine Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+134-3761 | 137mm Gauge Diameter Piston Ring | 2 | Cat 7W-4410 3408B/3408 Marine Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+140-7682 | Gasket Kit | 1 | Cat 7W-4410 3408B/3408 Marine Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+160-8178 | 3408/12 Connecting Rod | 1 | Cat 7W-4410 3408B/3408 Marine Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+173-7188 | 82.60mm Overall Length Valve Guide | 6 | Cat 7W-4410 3408B/3408 Marine Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+197-9322 | Cylinder Liner | 1 | Cat 7W-4410 3408B/3408 Marine Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+1B-8705 | 3.983mm Thick Woodruff Key | 1 | Cat 7W-4410 3408B/3408 Marine Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+1W-5283 | 36.5mm Inner Diameter Exhaust Valve Insert | 4 | Cat 7W-4410 3408B/3408 Marine Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+211-0592 | Bearing - Main | 1 | Cat 7W-4410 3408B/3408 Marine Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+271-5661 | Cluster Idler Gear | 1 | Cat 7W-4410 3408B/3408 Marine Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+2P-2817 | 2.97mm Thick Intermediate Piston Ring | 2 | Cat 7W-4410 3408B/3408 Marine Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+3E-6772 | 17.90mm Inner Diameter Water Seal | 16 | Cat 7W-4410 3408B/3408 Marine Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+
+Source page: https://parts.cat.com/en/catcorp/product/7W-4410
