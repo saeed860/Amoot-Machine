@@ -2144,3 +2144,17 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - https://parts.cat.com/en/catcorp/product/266-0299
 
 برای accumulator و compressor، refrigerant type، pressure, clutch voltage و connections؛ برای bracket و belt، alignment و pulley profile؛ و برای switch، 12V، terminal layout و panel cutout باید با HVAC configuration و PIN تطبیق داده شود.
+
+
+## دور ۶۷ — 25 Nov 2026
+
+- ممیزی ابتدای دور: Master برابر 4,294 شماره یکتا بود؛ Mirror byte-exact و شمارنده Workflow برابر 4294 بود.
+- سه فیتمنت جدید/تکمیل‌نشده در CSV رسمی 287B بررسی و ثبت شد:
+  - 219-5431 — Hydraulic Cylinder Seal Kit؛ صفحه رسمی Cat مدل‌های 287B و 297C را صریحاً در Compatible Models دارد؛ شماره گروه سیلندر و PIN برای تأیید کاربرد لازم است.
+  - 218-6824 — Hydraulic Cylinder Seal Kit؛ صفحه رسمی Cat مدل‌های 287B و 297C را صریحاً فهرست می‌کند؛ گروه سیلندر و پیکربندی باید تطبیق داده شود.
+  - 219-5419 — Hydraulic Cylinder Seal Kit؛ صفحه رسمی Cat مدل‌های 287B و 297C را صریحاً فهرست می‌کند؛ شماره گروه سیلندر و PIN لازم است.
+- فقط 219-5419 شماره جدید Master بود؛ دو شماره دیگر از قبل در Master بودند و صرفاً ردیف فیتمنت‌شان به CSV افزوده شد.
+- قطعات seal kit تا تطبیق cylinder group/PIN نباید بدون بررسی فنی به سفارش قطعی تبدیل شوند.
+- منابع رسمی: https://parts.cat.com/en/catcorp/product/219-5431 ؛ https://parts.cat.com/en/catcorp/product/218-6824 ؛ https://parts.cat.com/en/catcorp/product/219-5419
+- موارد تکراری/قبلاً ثبت‌شده از نتایج همین جستجو دوباره به Master یا CSV اضافه نشدند.
+- وضعیت پس از ثبت: Master هدف 4,295 شماره یکتا؛ Mirror برابر Master؛ Workflow برابر 4295.
