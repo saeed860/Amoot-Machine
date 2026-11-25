@@ -412,3 +412,30 @@ Master پس از این دور 2,274 شماره یکتا دارد و Mirror با
 برای 8I-5078 و 204-1472، محل دقیق آب‌بندی در شماتیک شیر باید مشخص شود؛ برای 231-7299 نوع شیر و نسخه اسپول؛ برای 233-5598 و 218-5839 مسیر و اتصالات لوله؛ برای 252-0327 و 210-0825 آرایش کشنده زنجیر؛ و برای 141-4999 سری دندانه و نوع باکت باید با شماره سریال/گروه دستگاه تطبیق داده شود. فیتمنت 297C-only به 287B تعمیم داده نشده است.
 
 Master در زمان این ثبت 2,423 شماره یکتا دارد. Mirror و شمارنده Workflow با Master جاری همسان‌سازی شدند.
+
+
+## دور یازدهم — کشنده زنجیر، پمپ سوخت و شیر کنترل (25 Nov 2026)
+
+هشت شماره جدید از صفحات رسمی Cat Parts Store ثبت شد:
+- 238-7712 — Track Tensioner Group؛ 287B.
+- 252-0339 — 1-1/4in Track Tensioner Shaft؛ 287B.
+- 231-7297 — Control Valve Spool Support Spring؛ 287B و 297C.
+- 144-4532 — Hydraulic Control Check Valve Plug؛ 287B و 297C.
+- 232-5877 — Electric Fuel Priming Pump؛ 287B.
+- 258-2881 — Work Tool Positioner Hydraulic Tube؛ 297C (نه 287B).
+- 336-1325 — Implement Control Valve Group؛ 297C (نه 287B).
+- 180-8071 — Hydraulic Control Valve Plug؛ 297C (نه 287B).
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/product/238-7712
+- https://parts.cat.com/en/catcorp/product/252-0339
+- https://parts.cat.com/en/catcorp/product/231-7297
+- https://parts.cat.com/en/catcorp/product/144-4532
+- https://parts.cat.com/en/catcorp/product/232-5877
+- https://parts.cat.com/en/catcorp/product/258-2881
+- https://parts.cat.com/en/catcorp/product/336-1325
+- https://parts.cat.com/en/catcorp/product/180-8071
+
+فیتمنت سه قطعه 258-2881، 336-1325 و 180-8071 فقط برای 297C در این بازیابی تأیید شد؛ به 287B تعمیم داده نشود. پمپ 232-5877 شامل اتصالات، فیلتر، retaining ring و bowl است؛ سوکت برق و آرایش نصب باید تطبیق داده شود. قطعات کشنده زنجیر نیز با شماره سریال و مجموعه زیربندی کنترل شوند.
+
+Master هنگام ثبت 2,431 شماره یکتا داشت؛ Mirror و Workflow با Master جاری همسان شدند.
