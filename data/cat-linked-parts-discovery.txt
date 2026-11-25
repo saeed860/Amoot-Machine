@@ -3084,3 +3084,8 @@ Source page: https://parts.cat.com/en/catcorp/product/117-7901
 ## Cat 450-8945 3408 major-overhaul kit — no current BOM rows published (batch 182)
 
 Source: official Cat Parts Store product page https://parts.cat.com/en/catcorp/product/450-8945. Compatible model explicitly shown: ENGINE - MACHINE / 3408. Product heading markets it as a Marine Bundled Repair Solution / 3408 Engine Overhaul, but the current page states there are currently no parts associated with the kit. The current compatibility label and missing BOM take precedence over indexed snippets; no component part numbers were inferred or added.
+
+
+## Cat 213-0942 R2900/R2900G hydraulic-cylinder seal kit — no current BOM rows published (batch 183)
+
+Source: official Cat Parts Store product page https://parts.cat.com/en/catcorp/product/213-0942. Compatible models explicitly shown: LOAD HAUL DUMP / R2900, R2900G. Cat's description says hydraulic-cylinder seal kits are application-specific to a cylinder group part number and include seals for a complete reseal. The current official page explicitly states there are currently no parts associated with this kit; the older search-index list was not imported. No part numbers inferred; obtain cylinder-group reference and dealer BOM before ordering.
