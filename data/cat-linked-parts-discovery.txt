@@ -1283,3 +1283,5 @@ Source pages:
 388-7461 | Seal O-Ring | Cat Parts Store frequently bought together with 387-9865 bolt | cat_linked_candidate; needs_individual_verification
 
 6J-2680 | 3.53 x 69.44mm 90A NBR O-Ring | Cat Parts Store frequently bought together with 392-0214 injector | cat_linked_candidate; needs_individual_verification
+
+442-7439 | Engine Overhaul Kit Bronze | Cat Parts Store component in 442-8972 Silver overhaul kit, quantity 1 | cat_linked_candidate; needs_individual_verification
