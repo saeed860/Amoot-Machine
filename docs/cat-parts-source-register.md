@@ -597,3 +597,30 @@ Eight more public Off Road candidate identifiers were checked against exact Cat 
 ## Off Road pump, injector and cooling batch — 25 Nov 2026
 
 Eight additional public Off Road identifiers were checked against exact CAT pages: 4P-9075, 137-5541, 352-0211, 172-7767, 352-0206, 350-0666, 2W-9978 and 8J-6730. Six were added as products with official CAT images; 172-7767 remains reference-only pending exact image retrieval, and 8J-6730 is explicitly discontinued. Marine tags use only CAT's explicit Marine Engine category. CAT Reman alternatives remain distinct identifiers. No price or Amoot stock was inferred.
+
+
+## Additional extraction sources — 25 Nov 2026
+
+### K-Part — user-requested CAT EPC source
+- URL: https://k-part.com/catalog/caterpillar/
+- Public page states that CAT catalog search is available without sign-in; start with exact machine model and serial prefix, then select the matching prefix before opening a parts group.
+- Public checked examples linked from the landing page: M325B / BGN, 320D, 330D, D6R, D9R, 950H, 966H, 420F, C7 and C9.
+- Intended fields to capture per K-Part catalog row: machine model, serial prefix/range, parts group, diagram reference, part number, description and quantity.
+- Access note: the landing page was readable, but the interactive CAT catalog route requires model/prefix selection inside the site. The available read-only browser connector cannot submit those selections. No K-Part part rows are claimed as extracted in this batch. Continue with public indexed pages and resume direct row extraction when interactive catalog control is available.
+- K-Part is an independent catalog, not Caterpillar's official EPC; record it as secondary evidence and always compare model, edition and serial range.
+
+### CAT Digital Marketplace — user-requested ordinary site check
+- URL: https://digital.cat.com/
+- The public site exposes an applications catalog, API catalog and documentation hub. The API product documented on the public landing page is ISO 15143-3 / AEMP 2.0 fleet telemetry (asset/fleet data), not a public part-number or illustrated-parts API.
+- Parts and Service Guide / SIS access is directed through Parts.Cat.com and dealer-linked access. API credentials and paid/premium telematics subscriptions are separate from parts-catalog access.
+- Therefore, do not treat Digital Marketplace telemetry API results as part-number evidence. Use it as a navigation/access source for SIS/Parts & Service, not as a parts data feed.
+
+### Filter cross-reference sources used
+- IXIN Filters: https://www.ixinfilters.com/en/filter-cross-reference/
+- Baldwin / Hastings heavy-duty quick cross-reference PDF: https://test.baldwinfilters.com/content/dam/Parker-com/Literature/EMAM/EMAM_Baldwin_Hastings_Heavy-Duty_Quick_Cross-Reference_Form648.pdf
+- SF-Filter: https://www.sf-filter.com/en/cross-reference-list
+- RTL Equipment CAT filter listing and CAT cross-reference charts: https://parts.rtlequipment.com/collections/cat-filters and https://parts.rtlequipment.com/pages/filter-cross-reference
+- Crossfilters: https://crossfilters.com/pages/cross-reference-index
+- SearchForPart: https://searchforpart.com/
+
+These are discovery/cross-reference sources, not automatic OEM fitment approvals. Alternate-brand references remain separately stored with UNVERIFIED_SOURCE_ROW status until checked against the filter maker's own current catalog and exact machine/engine serial applicability.
