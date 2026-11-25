@@ -1275,3 +1275,9 @@ Source pages:
 535-8874 | Track Group, 1 Tooth Master | Cat Parts Store compare-alternate panel for 380-5938 track group | cat_linked_candidate; needs_individual_verification
 546-2429 | Track Group, Round Hole, 5 Tooth Master | Cat Parts Store compare-alternate panel for 380-5938 track group | cat_linked_candidate; needs_individual_verification
 546-2430 | Track Group, Round Hole, 5 Tooth Master | Cat Parts Store compare-alternate panel for 380-5938 track group | cat_linked_candidate; needs_individual_verification
+
+388-7456 | Turbocharger Manifold Gasket | Cat Parts Store frequently bought together with 387-9865 bolt | cat_linked_candidate; needs_individual_verification
+389-5353 | Turbocharger Manifold Gasket | Cat Parts Store frequently bought together with 387-9865 bolt | cat_linked_candidate; needs_individual_verification
+387-9870 | Turbocharger Manifold Gasket | Cat Parts Store frequently bought together with 387-9865 bolt | cat_linked_candidate; needs_individual_verification
+388-7458 | Turbocharger Gasket | Cat Parts Store frequently bought together with 387-9865 bolt | cat_linked_candidate; needs_individual_verification
+388-7461 | Seal O-Ring | Cat Parts Store frequently bought together with 387-9865 bolt | cat_linked_candidate; needs_individual_verification
