@@ -2239,3 +2239,22 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - 234-0733 به علت وضعیت صریح Discontinued به فهرست سفارش‌پذیر اضافه نشد.
 - منابع رسمی: https://parts.cat.com/en/catcorp/product/166-2559 ؛ https://parts.cat.com/en/catcorp/product/218-0921 ؛ https://parts.cat.com/en/catcorp/product/158-6695 ؛ https://parts.cat.com/en/catcorp/product/234-0733
 - شمارنده هدف دور: 4305 شماره یکتا؛ Mirror و Workflow با Master همگام شدند.
+
+## دور ۷۴ — تکمیل قطعات کنترل اپراتور و هیدرولیک (25 Nov 2026)
+
+چهار شماره جدید از صفحات رسمی Cat Parts Store به Master و CSV فیتمنت 287B افزوده شدند:
+- 231-4260 — Operator Cabin Joystick Handle Control (RH)؛ 12-pin harness و wire length برابر 23.6in؛ Compatible Models شامل 287B.
+- 227-5511 — Seal Kit؛ Compatible Models شامل 287B و 297C؛ صفحه قطعات O-ring مرتبط را نشان می‌دهد اما breakdown رسمی اجزای داخل kit ندارد.
+- 204-1488 — 19.3mm Outer Diameter Compression Spring؛ طول 1.94in و قطر بیرونی 0.76in؛ Compatible Models شامل 287B و 297C.
+- 173-0702 — 159.60mm Long Joystick Boot؛ Compatible Models شامل 287B است و 297C را نشان نمی‌دهد.
+
+شماره 218-5807 — Parking Brake Control Manifold Tube Assembly — از قبل در Master و CSV بود و در این دور بازبینی شد؛ Compatible Models فقط 287B را در گروه Multi Terrain Loader نشان می‌دهد.
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/product/231-4260
+- https://parts.cat.com/en/catcorp/product/227-5511
+- https://parts.cat.com/en/catcorp/product/204-1488
+- https://parts.cat.com/en/catcorp/product/173-0702
+- https://parts.cat.com/en/catcorp/product/218-5807
+
+برای joystick، connector pinout، wire length و سمت RH؛ برای seal kit، گروه کاربرد و اجزای داخل کیت؛ برای spring، قطر و نرخ فنر؛ و برای boot، profile و sealing lip باید با control group و PIN تطبیق داده شود.
