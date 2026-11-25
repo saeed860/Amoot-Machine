@@ -17,11 +17,11 @@ part_number | displayed_name_or_description | source_context | verification_stat
 6V-7701 | 240.67 mm ID seal O-ring | Cat Parts Store frequently bought together with 20R-9124 | cat_item_page_verified; inserted_part_catalog; fitment_checked_or_unormalized
 6V-3955 | 15.24 mm ID seal O-ring | Cat Parts Store frequently bought together with 20R-9124 | cat_item_page_verified; inserted_part_catalog; fitment_checked_or_unormalized
 6V-6809 | 139.07 mm ID seal O-ring | Cat Parts Store related-parts listing for 20R-9124 | cat_item_page_verified; inserted_part_catalog; fitment_checked_or_unormalized
-4W-7749 | 0.8 mm thick circular engine gasket | Cat Parts Store related-parts listing for 20R-9124 | cat_linked_candidate; needs_individual_verification
-355-8509 | Connecting-rod bearing | Cat Parts Store related-parts listing for 20R-9480 | cat_linked_candidate; needs_individual_verification
-20R-9427 | Cat Reman 3512E UTN cylinder head | Cat Parts Store related-parts listing for 20R-9480 | cat_linked_candidate; needs_individual_verification
-167-4407 | 3.53 × 69.44 mm EPDM O-ring | Cat Parts Store related-parts listing for 20R-9480 | cat_linked_candidate; needs_individual_verification
-275-2604 | Advanced-efficiency engine oil filter | Cat Parts Store related-parts listing for 20R-9480 | cat_linked_candidate; needs_individual_verification
+4W-7749 | 0.8 mm thick circular engine gasket | Cat Parts Store related-parts listing for 20R-9124 | cat_item_page_verified; inserted_part_catalog; fitment_checked_or_unormalized
+355-8509 | Connecting-rod bearing | Cat Parts Store related-parts listing for 20R-9480 | cat_item_page_verified; inserted_part_catalog; fitment_checked_or_unormalized
+20R-9427 | Cat Reman 3512E UTN cylinder head | Cat Parts Store related-parts listing for 20R-9480 | cat_item_page_verified; inserted_part_catalog; fitment_checked_or_unormalized
+167-4407 | 3.53 × 69.44 mm EPDM O-ring | Cat Parts Store related-parts listing for 20R-9480 | cat_item_page_verified; inserted_part_catalog; fitment_checked_or_unormalized
+275-2604 | Advanced-efficiency engine oil filter | Cat Parts Store related-parts listing for 20R-9480 | cat_item_page_verified; existing_catalog_row_updated; fitment_verified
 
 Source pages:
 - https://parts.cat.com/en/catcorp/product/20R-8981
@@ -35,11 +35,11 @@ Source pages:
 These 27 numbers are additional to the original 787-number seed list. They were discovered from Cat Parts Store kit BOMs, replacement/alternate links, and related-parts panels. BOM members are documented components; related-panel items are only leads, not guaranteed fitment/interchangeability. Verify each candidate's own Cat page and equipment serial-number fit before adding it to the product catalog.
 
 part_number | source description | source context | status
-0S-1618 | Threaded external hexagonal bolt | BOM component of Cat 222-5152 water-pump rebuild kit; quantity 2 | cat_linked_candidate; needs_individual_verification
-166-4374 | 31.86mm ID seal ring | BOM component of Cat 222-5152; quantity 1 | cat_linked_candidate; needs_individual_verification
-212-8180 | 14 external spline teeth water-pump drive shaft | BOM component of Cat 222-5152; quantity 1 | cat_linked_candidate; needs_individual_verification
-212-8184 | 6-vanes water-pump impeller | BOM component of Cat 222-5152; quantity 1 | cat_linked_candidate; needs_individual_verification
-271-4926 | 196.44mm ID O-ring seal | BOM component of Cat 222-5152; quantity 1 | cat_linked_candidate; needs_individual_verification
+0S-1618 | Threaded external hexagonal bolt | BOM component of Cat 222-5152 water-pump rebuild kit; quantity 2 | cat_item_page_verified; inserted_part_catalog; fitment_checked_or_unormalized
+166-4374 | 31.86mm ID seal ring | BOM component of Cat 222-5152; quantity 1 | cat_item_page_verified; inserted_part_catalog; fitment_checked_or_unormalized
+212-8180 | 14 external spline teeth water-pump drive shaft | BOM component of Cat 222-5152; quantity 1 | cat_item_page_verified; inserted_part_catalog; fitment_checked_or_unormalized
+212-8184 | 6-vanes water-pump impeller | BOM component of Cat 222-5152; quantity 1 | cat_item_page_verified; inserted_part_catalog; fitment_checked_or_unormalized
+271-4926 | 196.44mm ID O-ring seal | BOM component of Cat 222-5152; quantity 1 | cat_item_page_verified; inserted_part_catalog; fitment_checked_or_unormalized
 3D-2824 | 2.95 × 23.47mm 90A NBR O-ring | BOM component of Cat 222-5152; quantity 1 | cat_linked_candidate; needs_individual_verification
 416-0603 | Water-pump face-type seal | BOM component of Cat 222-5152; quantity 1 | cat_linked_candidate; needs_individual_verification
 4N-5834 | 13mm thick foam filter | BOM component of Cat 222-5152; quantity 2 | cat_linked_candidate; needs_individual_verification
@@ -1497,3 +1497,7 @@ Source pages:
 3S-1223 | 5.33 x 145.42mm 75A NBR O-Ring | Cat Parts Store parts diagram for 9P-9990 retainer | cat_linked_candidate; needs_individual_verification
 
 9X-3401 | 13 Ampere Connector Pin | Cat Parts Store frequently bought together with 9X-3402 connector socket | cat_linked_candidate; needs_individual_verification
+
+355-8662 | Crankshaft Standard Main Bearing | Cat Parts Store frequently bought together with 355-8509 connecting rod bearing | cat_linked_candidate; needs_individual_verification
+7C-6209 | 11.8mm Thick Crankshaft Thrust Plate | Cat Parts Store frequently bought together with 355-8509 connecting rod bearing | cat_linked_candidate; needs_individual_verification
+7N-4932 | 0.8mm Thick Water Lines Gasket | Cat Parts Store frequently bought together with 271-4926 HNBR O-ring | cat_linked_candidate; needs_individual_verification
