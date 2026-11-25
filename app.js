@@ -44,8 +44,9 @@ function setServerProducts(rows){db.products=(Array.isArray(rows)?rows:[]);db.ca
 window.setApiProducts = function(rows){db.products=Array.isArray(rows)?rows:[];db.catalog_source='server';save();populateModelFilter();};
 window.setServerProducts=setServerProducts;
 function categoryInfo(p){
- const raw=String(p.category||'').trim(), t=((p.name||'')+' '+raw+' '+(p.description||'')).toLowerCase();
- if(/فیلتر|filter|هواکش|breather|جداکننده آب/.test(t)){
+ const raw=String(p.category||'').trim(), name=String(p.name||'').toLowerCase(), t=(name+' '+raw+' '+(p.description||'')).toLowerCase();
+ const hasFilterName=/فیلتر|filter|هواکش|breather|جداکننده آب/.test(name), filterOnlyCategory=/^(فیلتر|هواکش)/.test(raw);
+ if(hasFilterName||(filterOnlyCategory&&!/قطعات موتور و فیلتر/.test(raw))){
   let sub='سایر فیلترها';
   if(/کابین|cabin/.test(t))sub='فیلتر کابین';
   else if(/هوا|air cleaner|air filter|هوای موتور/.test(t))sub='فیلتر هوا';
@@ -61,7 +62,7 @@ function categoryInfo(p){
  if(/هیدرولیک|hydraulic|pump|valve|سیلندر|پمپ/.test(t))return {parent:'قطعات هیدرولیک',sub:/پمپ/.test(t)?'پمپ‌ها':/شیر|valve/.test(t)?'شیرآلات':'سیلندر و متعلقات'};
  if(/انتقال قدرت|transmission|gear|bearing|shaft|coupling|دنده|بلبرینگ/.test(t))return {parent:'انتقال قدرت',sub:'گیربکس، دنده و یاتاقان'};
  if(/دریایی|marine|خنک.?کاری|آب دریا|ژنراتور دریایی/.test(t))return {parent:'تجهیزات دریایی',sub:/خنک|آب دریا/.test(t)?'خنک‌کاری و آب دریا':/ژنراتور/.test(t)?'ژنراتور دریایی':'موتور و پیشران دریایی'};
- if(/موتور|engine|ژنراتور|turbo|crankshaft|camshaft|injector|پیستون/.test(t))return {parent:'موتور و ژنراتور',sub:/ژنراتور/.test(t)?'ژنراتورها':/سوخت|injector/.test(t)?'سوخت‌رسانی':/خنک|radiator/.test(t)?'خنک‌کاری موتور':'قطعات داخلی و سرویس موتور'};
+ if(/موتور|engine|ژنراتور|turbo|crankshaft|camshaft|injector|پیستون|خنک.?کاری/.test(t))return {parent:'موتور و ژنراتور',sub:/ژنراتور/.test(t)?'ژنراتورها':/سوخت|injector/.test(t)?'سوخت‌رسانی':/خنک|radiator/.test(t)?'خنک‌کاری موتور':'قطعات داخلی و سرویس موتور'};
  if(/ماشین.?آلات|لودر|بولدوزر|بیل مکانیکی/.test(t))return {parent:'ماشین‌آلات سنگین',sub:'ماشین‌آلات و تجهیزات'};
  return {parent:'قطعات عمومی',sub:raw||'سایر قطعات'};
 }
