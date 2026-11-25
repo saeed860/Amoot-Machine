@@ -54,6 +54,16 @@
 - جزئیات و وضعیت بررسی در `data/cat-engine-parts-official-verification-2026-11-25.csv` ثبت شده است. شماره سریال/Arrangement همچنان برای fitment نهایی الزامی است.
 - منابع رسمی: https://parts.cat.com/en/catcorp/product/20R-0638 ، https://parts.cat.com/en/catcorp/product/276-3104 ، https://parts.cat.com/en/catcorp/product/322-2733 ، https://parts.cat.com/en/catcorp/product/557-7633
 
+## استخراج رسمی تکمیلی موتور — دور دوم 2026-11-25
+پنج شماره دیگر از صفحات رسمی Cat بررسی و ثبت شدند:
+- 188-9429 — دسته‌سیم سنسور سرعت 18AWG؛ کاربرد C18 در Marine Engine و Petroleum Package.
+- 359-7434 — مجموعه انژکتور؛ کاربردهای C15 و C18.
+- 20R-1304 — انژکتور Reman رسمی Cat و جایگزین معرفی‌شده برای 359-7434؛ رکورد مستقل از قطعه نو.
+- 4N-0827 — آداپتور فیلتر روغن؛ کاربرد C15 در Marine Engine.
+- 483-0979 — دیفیوزر خروجی توربوشارژر؛ کاربردهای Industrial Engine C13/C15/C9.3/C18.
+- جزئیات و محدودیت fitment در `data/cat-engine-parts-official-verification-2026-11-25.csv` ثبت شد.
+- منابع رسمی: https://parts.cat.com/en/catcorp/product/188-9429 ، https://parts.cat.com/en/catcorp/product/359-7434 ، https://parts.cat.com/en/catcorp/product/20R-1304 ، https://parts.cat.com/en/catcorp/product/4N-0827 ، https://parts.cat.com/en/catcorp/product/483-0979
+
 ## قواعد حفظ کیفیت داده
 1. شماره‌های فروشنده و aftermarket وارد Master OEM نشوند.
 2. Kit number با قطعات داخل کیت یکی تلقی نشود.
