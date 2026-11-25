@@ -2208,3 +2208,23 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - نتایج دیگر جستجو در این مرحله از قبل در Master/CSV ثبت بودند؛ قطعات Discontinued وارد سفارش‌پذیرها نشدند.
 - منابع رسمی: https://parts.cat.com/en/catcorp/product/119-9631 ؛ https://parts.cat.com/en/catcorp/product/7T-6092
 - شمارنده هدف این دور: 4302 شماره یکتا؛ Mirror و Workflow با Master همگام شدند.
+
+## دور ۷۳ — تکمیل مدار تهویه 287B و وضعیت hose discontinued (25 Nov 2026)
+
+- 218-6813 — 15.88mm Inner Diameter Air Conditioner Lines Hose Assembly؛ Compatible Models صریحاً 287B را دارد؛ 0.625in ID، طول 42.559in، coupling نری 1-1/16in با زاویه 180° و اتصال مادگی مستقیم 7/8in. شماره جدید به Master و CSV رسمی 287B اضافه شد.
+- 261-7162 — 15.88mm Inner Diameter Air Conditioner Lines Hose؛ Compatible Models شامل 287B است، اما صفحه Cat آن را DISCONTINUED و no longer available اعلام می‌کند. شماره به Master و CSV فقط برای تاریخچه ثبت شد و غیرقابل سفارش به‌عنوان کالای نو است.
+- قطعات مرتبط 218-6833،299-9120،289-6360،218-6836،203-1100،234-4826،231-8137 و 313-6251 در Master/CSV موجود بودند و در این دور دوباره بررسی شدند.
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/product/218-6813
+- https://parts.cat.com/en/catcorp/product/261-7162
+- https://parts.cat.com/en/catcorp/product/218-6833
+- https://parts.cat.com/en/catcorp/product/299-9120
+- https://parts.cat.com/en/catcorp/product/289-6360
+- https://parts.cat.com/en/catcorp/product/218-6836
+- https://parts.cat.com/en/catcorp/product/203-1100
+- https://parts.cat.com/en/catcorp/product/234-4826
+- https://parts.cat.com/en/catcorp/product/231-8137
+- https://parts.cat.com/en/catcorp/product/313-6251
+
+برای 218-6813، قطر hose، طول، coupling و نوع refrigerant باید تطبیق داده شود. 261-7162 فقط سابقه کاتالوگی است و فروش/موجودی جدید برای آن فرض نمی‌شود.
