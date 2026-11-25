@@ -5249,3 +5249,37 @@ Post-update verification: all ten SKUs exist with Cat official item-page evidenc
 Ten additional filter/radiator leads added: 6I-2431, 179-9806, 479-8989, 479-8991, 500-0957, 142-1403, 326-1643, 500-0483, 436-3443 and 525-6206. They remain candidates pending individual verification.
 
 Overall reviewed progress: 96/500 batches = 960/5,000 product target (19.2%). Original Cat seed list 787/787 complete; discovery-derived products individually verified/updated: 193. Remaining target: 4,040 products.
+
+## Batch 97/500 — Cat-linked discovery candidates 171–180 (2026-11-25)
+
+Ten candidates were checked against official Cat Parts Store pages. Nine new rows were inserted; existing 265-6619 was refreshed and reverified. All ten were re-queried and model arrays deduplicated.
+
+Verified:
+- 109-0078 — 37.47mm ID 78A HNBR O-ring. Cross-section 0.21in, ID 1.475in/37.47mm, HNBR 78A. Cat fitment across SR500/SR4/SR5, C18/C15/C16/3408/3406, 375-A/385C/365C excavators, 633/651/621/631/623/657/637 scrapers, 825 compactors, C15/C18/C27/C32 petroleum engines, wheel dozers, marine and industrial engines (69 labels).
+- 109-0072 — 40.64mm ID 78A HNBR/PTFE O-ring. Cross-section 0.21in, ID 1.6in/40.64mm, HNBR/PTFE, 78A. Compatible-fluid list includes abrasion, diesel, diester lubricants, ozone, petroleum oils/greases, HFC-134a, silicone, steam and water-based engine coolant. Fitment includes pumpers, SR500/SR4/SR4B, AD40/45/55/63, C18/C15/C16/3408/3406, XQG400/PM3456/PM3412, R2900, 773, 57H/59N/59L/58L winches, 24H/24M, RC7, wheel tractors, D8/D9, 3608 military genset and 3512/3516 marine engines (67 labels).
+- 265-6619 — Existing Standard Efficiency Cabin Air Filter reverified. Urethane panel, standard media, 10.63in length ×4.764in width, height 2.205in with seal/1.819in without, carbon steel/mixed metal-nonmetal. Fitment MTL 257D/277D/297D/287D, CTL 249D/289D/279D/299D, skid steers 226D/246D/262D/272D and 794 AC/796 AC/798/798 AC trucks (60 labels).
+- 9Y-6089 — 0.8mm Thick Flywheel Housing Gasket. Rubber gasket, length 12in, height 1in. Cat fitment includes SR4B/SR500/XQP500/XQP550/SR4/SR5, C18/C15/C16/C9/3408/3406/C11/C13, 627/623/621/637/632/631/657/651 scrapers, C18 power pack/OEM-PM, MD6310/6250/6200/6540C/6380 drills, feller bunchers, wheel dozers/loaders, marine and industrial engines (56 labels).
+- 10R-9815 — Cat Reman Electric Starting Motor, 50MT, 24V. Specs 115A, SAE No.3 nose housing, 6/8 pinion pitch, 11/12 pinion teeth, marine approved. Cat Reman condition and 12-month limited warranty preserved. Fitment SR500/SR5, AD45B/AD63/AD30, C9/C18/C32/PM3412, R2900/R3000H/R2900G, 798/796/794 AC and 777G trucks, 24H/24M graders, 6030 shovel, D6/D7/D8/D9/D10/D11 tractors and marine engines (45 labels).
+- 4W-6960 — Right-Hand Oil Filter Housing Support. Cat material gray (flake) iron. Fitment SR4/SR5/SR4B/SR4BHV generators, 3516B/G3516C/G3516B/G3520B/3508/G3508/G3516/G3512/3512/3512B/3508B/3516 gensets, XQC1200/PP3516/XQC1600/PMG3516/PM3508/PM3516/PM3512 power modules, 3512C/3516/3512E/3508/3508C/3508B/3512B/3516B/3516C/3516E marine, marine auxiliary, industrial and petroleum engines (31 labels).
+- 6V-3907 — 3.53 ×183.74mm 75A FKM O-ring for duplex oil filter. Cross-section 0.139in, ID 7.234in/183.74mm, FKM 75A. Compatible fluids include diester, halogenated hydrocarbons above 100°C, petroleum/phosphate ester/silicone fluids and some acids. Fitment SR4/SR5/SR4B/SR4BHV, 3406/C15/C16/3408, 3516B/3516C, XQ2280/XQC1200/PP3516/XQC1600/PMG3516/PM3508/PM3512, IT62H/IT38H, 631/637, 3508B, D7E/D7E LGP and marine applications (45 labels).
+- 8T-6762 — 1/2-14 NPTF Thread Square Drive Plug. Plated steel; alloy zinc, alloy steel, carbon steel, sealants/adhesives and acrylic adhesive. 89 compatible labels across SR4B/SR4BHV/WEG/SR500/SR4/SR5, 1673C/3306/3114/3116/3126/C9/3176/3408/3406, 657 scraper, 527/517/D5HTSK/D4HTSK skidders, 3608 genset, 518C/528B/525/515/545/530B, MD6540C/MD6380, TK1051, excavators, D6/D7/D8/D9/D10/D11 tractors and marine engines.
+- 362-2915 — 6mm Thick Breather Cover Seal. Cat description confirms 6mm/0.236in thickness, ID 93.5mm/3.681in, OD 103.5mm/4.07in. Fitment LC51XX/LC31XX, MH3022/MH3024/MH3032/MH3040, graders 120GC/120M2/140/120/140GC, D3K2/D6K2/D6N/D4/D5/D4K2 tractors, 555D/535D/545D/525D skidders, CB16/CB15/CB13 compactors, 2484D/2484C/579C/579D/559C/559D/2384D/2384C knuckleboom loaders and AP pavers (44 labels).
+- 132-6663 — 137.065mm Bore Diameter Piston Skirt. Cat says piston skirt supports piston and connecting rod assembly. Specs ID 4.15in, OD 4.5in, thickness 0.12in, weight 0.06lb; iron casting/alloy aluminum. Fitment AD30, 627G/627E/623B/627F/623G/623E/621B/621E/621F/621G, 3406E/C15, 825G II/825C, R2900G/R2900, 740/D400E II, 824G II/824G/824C, 826C/826G/826G II, 980G II/980G, D8R/D8N/D8R II and Challenger MTC/MT series (40 labels).
+
+Cat item pages:
+- https://parts.cat.com/en/catcorp/product/109-0078
+- https://parts.cat.com/en/catcorp/product/109-0072
+- https://parts.cat.com/en/catcorp/product/265-6619
+- https://parts.cat.com/en/catcorp/product/9Y-6089
+- https://parts.cat.com/en/catcorp/product/10R-9815
+- https://parts.cat.com/en/catcorp/product/4W-6960
+- https://parts.cat.com/en/catcorp/product/6V-3907
+- https://parts.cat.com/en/catcorp/product/8T-6762
+- https://parts.cat.com/en/catcorp/product/362-2915
+- https://parts.cat.com/en/catcorp/product/132-6663
+
+Post-update verification: all ten SKUs exist with Cat official item-page evidence and REFERENCE status. Nine inserted, one existing row updated. Fitment counts after de-duplication: 109-0078=69; 109-0072=67; 265-6619=60; 9Y-6089=56; 10R-9815=45; 4W-6960=31; 6V-3907=45; 8T-6762=89; 362-2915=44; 132-6663=40. Cat Reman condition for 10R-9815 preserved. No prices, stock or interchange guarantees added.
+
+Seven additional parts-diagram leads added: 109-0076, 109-0077, 7C-0307, 4N-1156, 1R-0756, 513-4493 and 2M-9780. They remain candidates pending individual verification.
+
+Overall reviewed progress: 97/500 batches = 970/5,000 product target (19.4%). Original Cat seed list 787/787 complete; discovery-derived products individually verified/updated: 203. Remaining target: 4,030 products.
