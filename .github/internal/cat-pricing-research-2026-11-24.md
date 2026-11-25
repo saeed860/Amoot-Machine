@@ -3603,3 +3603,43 @@ Additional Cat-linked discovery candidates from Cat Reman alternate, frequently-
 Each candidate requires its own item-page check; Cat Reman is kept separate by condition and is not assumed to be an interchangeable new part.
 
 Overall reviewed progress: 54/500 batches = 540/5,000 product target (10.8%). Original Cat seed list has 247 SKUs remaining (products 541–787).
+
+## Batch 55/500 — products 541–550 (2026-11-25)
+
+SKUs: 396-4129, 397-4971, 397-5051, 398-3011, 399-8470, 3B-8489, 3N-0759, 3S-2093, 3T-2160, 3T-3434. Nine Cat product pages yielded readable item details; 399-8470 could not be opened in the public Cat storefront during this run, so its existing record was left untouched. All ten DB rows were re-queried after updates.
+
+Verified:
+- 396-4129: Cat 29-liter compressed nitrogen gas accumulator for storing hydraulic-system pressure and supporting temporary high-pressure demand; Cat also notes possible brake/suspension use. Specs: length 75.8in, height 7.0in, Carbon Steel. Cat fitment Truck and Off-Highway Truck models: 793D, 793F, 794 AC, MT4400D AC, 793F AC, 793F CMD, 789D, 793F OEM, 793F XQ, 789G, 793, 789, 798, 796 AC and 798 AC (15 distinct labels after de-duplication). Added the missing 798 AC. Cat Compare Alternate Parts shows 20R-8270 Cat Reman Accumulator; DB already records it separately. Cat explicitly warns to relieve accumulator pressure with dealer-approved procedure before service.
+- 397-4971: Cat Exhaust Manifold. Cat Compatible Models: Generator Set 3516C; Marine Auxiliary 3512C/3516C; Marine Engine 3516C/3512C; Petroleum Engine 3516C (2 unique model labels). Cat says specifications are still being added; no dimensions/material inferred.
+- 397-5051: Cat General Duty Throttle Control Rod. Cat page explicitly marks it discontinued and says it is no longer available; DB remains inactive. Cat compatible list includes generator-set, generator, engine-machine, marine, industrial, petroleum, gas-engine and petroleum-package applications. The 31 distinct compatible labels and 28 engine-model labels were checked; material Alloy Zinc and Carbon Steel. No orderable stock or replacement equivalence claimed.
+- 398-3011: Cat open-vented Diesel Exhaust Fluid tank filler cap with hydrophobic membrane. Specs: 100-micron, blue Acetal Plastic, 2.9in OD ×2.5in height. 280 distinct Cat compatible labels span generators, scrapers, asphalt compactors, skidders, drills, forestry, excavators, MTL/CTL, wheel tractors, soil compactors, petroleum engines, wheel loaders, telehandlers, articulated trucks, graders, MHPUs, pipelayers and other applications. DB matches published attributes and fitment.
+- 399-8470: Cat item page not accessible in this run. DB has no compatible-model or specification claims; record left unchanged pending source verification.
+- 3B-8489: Cat 1/8-27 PTF Hex Head Special Grease Fitting Adapter. Grease fitting used for feeding lubricant into bearings/mating parts. Specs: 0.7in length, 0.4in height, material description Plated Steel; Cat material field Alloy Mixed Metal/Alloy Steel/Carbon Steel/Alloy Zinc. 436 distinct Cat compatible labels across toolcarriers, harvesters, military gensets, grapple-shovels, mini excavators, drills, feller bunchers, excavators, MHPUs, generators, trucks, compactors and wheel loaders. DB matches.
+- 3N-0759: Cat 185mm ID Toric Sealing Ring, 184.95mm ID, 12.7mm (0.5in) cross section. Material VMQ silicone rubber. Cat's material guidance explicitly says suitable for air and engine oil but not diesel fuel, coolant/urea, hydraulic oil, ATF or biodiesel; this warning remains in DB. 103 distinct Cat compatible labels across generators, hydraulic controls, compactors, trucks, dozers, loaders, tractors, skidders, pipelayers, forestry and related machines.
+- 3S-2093: Cat 202mm cable strap, Nylon 6/6/12 plastic. 521 distinct compatible labels across toolcarriers, machine control, harvesters, power packs, military gensets, utility vehicles, mini excavators, drills, feller bunchers, harvester heads, excavators, MHPUs, generators, trucks and compactors. DB material/length and fitment retained.
+- 3T-2160: Cat Board. Cat compatible applications: Generator Set Engine 3406/3408B/3408C/3406B/3408; Engine-Machine 3408; Generator SR4; Marine Engine 3408/3406/3408B/3406B; Engine-Industrial 3406B; Industrial Engine 3412/3406/3406C/3408B; Gas Engine G3406; Cold Planer PR-1000C/PR-1000. 11 distinct labels. Material Glass Ceramic and Alloy Copper. DB matches.
+- 3T-3434: Cat 12.7mm (0.50in) OD spherical plug for drive-housing assemblies of electric motor groups. Cat fitment list contains 278 distinct labels across generators, truck engines, skidders, drills, feller bunchers, excavators, wheel tractors, mixers, track loaders, petroleum/industrial/gas engines, compactors, wheel dozers/loaders, articulated and underground trucks, power modules, LHDs, graders, shovels, tractors and other classes. DB retains 0.5in OD and matching model list.
+
+Cat pages:
+- https://parts.cat.com/en/catcorp/product/396-4129
+- https://parts.cat.com/en/catcorp/product/397-4971
+- https://parts.cat.com/en/catcorp/product/397-5051
+- https://parts.cat.com/en/catcorp/product/398-3011
+- https://parts.cat.com/en/catcorp/product/399-8470 (inaccessible during this check)
+- https://parts.cat.com/en/catcorp/product/3B-8489
+- https://parts.cat.com/en/catcorp/product/3N-0759
+- https://parts.cat.com/en/catcorp/product/3S-2093
+- https://parts.cat.com/en/catcorp/product/3T-2160
+- https://parts.cat.com/en/catcorp/product/3T-3434
+
+Post-update DB verification counts: 396-4129=15; 397-4971=2; 397-5051=31 (inactive); 398-3011=280; 399-8470=0 (not independently verified); 3B-8489=436; 3N-0759=103; 3S-2093=521; 3T-2160=11; 3T-3434=278. No unsupported price, availability, or interchange claims added.
+
+Additional Cat-linked discovery leads from official Cat frequently-bought-together panels (candidate leads only):
+- 398-3011: 387-5467, 451-2774, 391-5262, 378-3187, 418-2073.
+- 3B-8489: 3J-1907, 3K-0360, 6V-8398, 6V-8397, 3D-2824.
+- 3N-0759: 6F-6673, 8D-4771, 3K-0360, 2R-0098, 3J-1907.
+- 3S-2093: 3J-1907, 214-7568, 3K-0360, 6V-8397, 3D-2824.
+- 3T-3434: 9Y-6089, 8C-3089, 3J-1907, 3K-0360, 214-7568.
+All are discovery leads only and require item-level verification before catalog promotion.
+
+Overall reviewed progress: 55/500 batches = 550/5,000 product target (11.0%). Original Cat seed list has 237 SKUs remaining (products 551–787).
