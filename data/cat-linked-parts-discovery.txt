@@ -2121,3 +2121,32 @@ Source page: https://parts.cat.com/en/catcorp/product/398-0452
 ## Cat 455-7246 C18 major-overhaul-kit cross-source verification — batch 120
 
 Source: official Cat Parts Store product page https://parts.cat.com/en/catcorp/product/455-7246. Compatible models explicitly shown: GENERATOR SR4; GENERATOR SET C18; MARINE ENGINE C18; PETROLEUM PACKAGE C18. All 32 first-page BOM entries were already present in the discovery queue or original seed list, so no new part-number rows were added. This batch records corroboration only and intentionally avoids duplicate SKU rows. The page's first-page contents match the 455-1186 C18 kit subset, while its wider model compatibility is a distinct source fact; it does not imply every component fits every serial arrangement.
+
+
+## Additional Cat 3516C marine society-parts-kit BOM candidates — batch 121
+
+Source: official Cat Parts Store product page 393-0415, Marine Society Parts Kit. Compatible model explicitly shown: MARINE ENGINE / 3516C. Twelve other first-page components were already present in the discovery queue or original seed list and are not duplicated. The twenty new rows below are kit BOM references only; they do not establish standalone orderability, inventory, price, or fitment beyond the kit listing.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+165-6668 | 170mm Outer Diameter Oil Piston Ring | 1 | Cat 393-0415 3516C Marine Society Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+175-5197 | 69T Camshaft Idler Gear | 1 | Cat 393-0415 3516C Marine Society Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+175-5200 | Cluster Idler Gear | 1 | Cat 393-0415 3516C Marine Society Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+175-5201 | Camshaft Drive Gear | 1 | Cat 393-0415 3516C Marine Society Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+175-5202 | 70 Teeth Camshaft Drive Gear | 1 | Cat 393-0415 3516C Marine Society Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+1W-4658 | 97.50mm Minimum Internal Diameter Band V Clamp | 4 | Cat 393-0415 3516C Marine Society Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+243-2975 | 158.20mm Minimum Internal Diameter V Band Clamp | 2 | Cat 393-0415 3516C Marine Society Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+263-1174 | 217.20mm Minimum Internal Diameter V Band Clamp | 1 | Cat 393-0415 3516C Marine Society Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+279-0487 | 4.5mm Thick Spiral Wound Gasket | 1 | Cat 393-0415 3516C Marine Society Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+344-0079 | 118mm Inner Diameter Exhaust Bellows Assembly | 2 | Cat 393-0415 3516C Marine Society Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+375-4106 | Injector Group | 1 | Cat 393-0415 3516C Marine Society Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+381-6555 | 392.5mm Center Distance Connecting Rod | 1 | Cat 393-0415 3516C Marine Society Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+390-4256 | Exhaust Bypass Valve | 1 | Cat 393-0415 3516C Marine Society Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+428-9132 | 83.77mm Maximum Inner Diameter Gasket | 4 | Cat 393-0415 3516C Marine Society Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+434-6544 | Standard V Band Clamp | 2 | Cat 393-0415 3516C Marine Society Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+449-9633 | 166mm Minimum Internal Diameter Bellows | 1 | Cat 393-0415 3516C Marine Society Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+467-4241 | Exhaust Manifold Band Clamp | 4 | Cat 393-0415 3516C Marine Society Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+489-9245 | 118mm Minimum Internal Diameter Bellows | 2 | Cat 393-0415 3516C Marine Society Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+490-0654 | Exhaust Bellows | 2 | Cat 393-0415 3516C Marine Society Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+492-4705 | 3.2mm Thick Spiral Wound Gasket | 2 | Cat 393-0415 3516C Marine Society Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+
+Source page: https://parts.cat.com/en/catcorp/product/393-0415
