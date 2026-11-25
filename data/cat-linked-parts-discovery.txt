@@ -1699,3 +1699,35 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 5P-7530 | 28.24mm Inside Diameter Seal-O-Ring | 1 | 455-1186 Cat official overhaul kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
 
 Source page: https://parts.cat.com/en/catcorp/product/455-1186
+
+
+## Additional Cat C13 bronze overhaul-kit BOM candidates — batch 103
+
+Source: official Cat Parts Store product page 603-6650, Engine Overhaul Kit. The page identifies the kit as a Cat bronze precious-metal overhaul kit for TRUCK ENGINE C13. The following 23 component references were not already in the discovery queue or the original 787-number seed list. BOM quantity is recorded as published; this is not standalone orderability, stock, price, or serial-specific fitment confirmation.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+131-6645 | 57.2mm Inner Diameter Radiator Hose | 1 | Cat 603-6650 C13 Bronze Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+224-6361 | 73.43mm Outer Diameter Press In Place Seal | 1 | Cat 603-6650 C13 Bronze Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+229-5711 | 12.5mm Thick Isolation Seal | 1 | Cat 603-6650 C13 Bronze Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+250-0485 | 35mm Long Taper Lock Stainless Steel Stud | 1 | Cat 603-6650 C13 Bronze Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+272-0389 | 751.7mm Inner Diameter Press Seal | 1 | Cat 603-6650 C13 Bronze Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+375-2467 | M10 x 1.5mm Hex Flange Nut | 16 | Cat 603-6650 C13 Bronze Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+380-5856 | Exhaust Shield Seal Assembly | 2 | Cat 603-6650 C13 Bronze Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+8T-7058 | M12-1.75 x 140mm Hex Socket Head Bolt | 6 | Cat 603-6650 C13 Bronze Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+6V-3251 | 2.46 x 19.18mm 70A EPDM O-Ring | 2 | Cat 603-6650 C13 Bronze Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+9X-8281 | 45mm Long Taper Lock Stainless Steel Stud | 3 | Cat 603-6650 C13 Bronze Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+212-7728 | 32mm Outer Diameter Valve Cover Isolator | 10 | Cat 603-6650 C13 Bronze Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+8T-4121 | M10 ID Steel Flat Washer | 4 | Cat 603-6650 C13 Bronze Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+227-5075 | 97.08mm Outer Diameter Press Seal | 1 | Cat 603-6650 C13 Bronze Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+230-3518 | 0.84mm Thick Engine Inlet Manifold Gasket | 1 | Cat 603-6650 C13 Bronze Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+289-4135 | 0.2mm Thick Turbocharger Gasket | 1 | Cat 603-6650 C13 Bronze Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+223-5664 | 61mm Inner Diameter Bellow | 1 | Cat 603-6650 C13 Bronze Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+265-5326 | External Oil Pump Install Kit | 1 | Cat 603-6650 C13 Bronze Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+243-6717 | Crankshaft Main Bearing Kit | 1 | Cat 603-6650 C13 Bronze Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+238-6777 | 159.50mm Long Straight Steel Rocker Arm Stud | 6 | Cat 603-6650 C13 Bronze Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+224-5422 | 135mm Long Stainless Steel Taper Lock Stud | 2 | Cat 603-6650 C13 Bronze Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+256-2209 | 22mm Outer Diameter Rubber Circular Seal | 3 | Cat 603-6650 C13 Bronze Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+217-3674 | Oil Pan ACERT Fastener | 14 | Cat 603-6650 C13 Bronze Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+574-6249 | 0.4mm Thick Gasket | 2 | Cat 603-6650 C13 Bronze Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+
+Source page: https://parts.cat.com/en/catcorp/product/603-6650
