@@ -2671,3 +2671,36 @@ Source: official Cat Parts Store product page https://parts.cat.com/en/catcorp/p
 ## Cat 324-8844 G398 engine overhaul kit — discontinued, no BOM rows published (batch 160)
 
 Source: official Cat Parts Store product page https://parts.cat.com/en/catcorp/product/324-8844. Compatible model explicitly shown: GAS ENGINE / G398. The page marks the kit DISCONTINUED and states there are currently no parts associated with it; replacement options are dealer-directed. No component part numbers were inferred or added. Treat kit 324-8844 as discontinued, not a current saleable SKU.
+
+
+## Additional Cat G399 gas-engine overhaul-kit BOM candidates — batch 161
+
+Source: official Cat Parts Store product page 324-8849, Engine Overhaul Kit. Compatible model explicitly shown: GAS ENGINE / G399. Important status: the kit itself is marked DISCONTINUED and “Part is no longer available”; this is historical official BOM evidence only, not a current purchasable kit or component stock claim. Twenty-four new component references are captured below; the only other listed part was already in the queue. Individual component availability and current applicability to G399 must be checked separately before commercial use.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+2N-3236 | 1.46mm Thick Exhaust Manifold Gasket | 16 | Cat 324-8849 Discontinued G399 Engine Overhaul Kit BOM | official_cat_historical_bom_verified; kit_discontinued; standalone_item_page_not_checked; current_fitment_not_inferred
+2N-3597 | 407.95mm Inner Diameter Rubber Valve Seal | 8 | Cat 324-8849 Discontinued G399 Engine Overhaul Kit BOM | official_cat_historical_bom_verified; kit_discontinued; standalone_item_page_not_checked; current_fitment_not_inferred
+3N-3220 | 0.06in Thick Cylinder Head Gasket | 8 | Cat 324-8849 Discontinued G399 Engine Overhaul Kit BOM | official_cat_historical_bom_verified; kit_discontinued; standalone_item_page_not_checked; current_fitment_not_inferred
+3N-8654 | 0.8mm Thick Exhaust Manifold Gasket | 1 | Cat 324-8849 Discontinued G399 Engine Overhaul Kit BOM | official_cat_historical_bom_verified; kit_discontinued; standalone_item_page_not_checked; current_fitment_not_inferred
+3P-1155 | 3.53 x 24.99mm 75A FKM O-Ring | 1 | Cat 324-8849 Discontinued G399 Engine Overhaul Kit BOM | official_cat_historical_bom_verified; kit_discontinued; standalone_item_page_not_checked; current_fitment_not_inferred
+3P-1156 | 3.53 x 21.82mm 75A FKM O-Ring | 1 | Cat 324-8849 Discontinued G399 Engine Overhaul Kit BOM | official_cat_historical_bom_verified; kit_discontinued; standalone_item_page_not_checked; current_fitment_not_inferred
+4F-0501 | 0.03in Thick Flange Gasket | 16 | Cat 324-8849 Discontinued G399 Engine Overhaul Kit BOM | official_cat_historical_bom_verified; kit_discontinued; standalone_item_page_not_checked; current_fitment_not_inferred
+4H-2494 | 5.56mm Inner Diameter Fitting Sleeve | 8 | Cat 324-8849 Discontinued G399 Engine Overhaul Kit BOM | official_cat_historical_bom_verified; kit_discontinued; standalone_item_page_not_checked; current_fitment_not_inferred
+4L-7890 | 0.79mm Thick Cover Gasket | 8 | Cat 324-8849 Discontinued G399 Engine Overhaul Kit BOM | official_cat_historical_bom_verified; kit_discontinued; standalone_item_page_not_checked; current_fitment_not_inferred
+4L-8097 | 1.57mm Thick Cover Gasket | 16 | Cat 324-8849 Discontinued G399 Engine Overhaul Kit BOM | official_cat_historical_bom_verified; kit_discontinued; standalone_item_page_not_checked; current_fitment_not_inferred
+6B-6224 | Water Director Ferrule | 64 | Cat 324-8849 Discontinued G399 Engine Overhaul Kit BOM | official_cat_historical_bom_verified; kit_discontinued; standalone_item_page_not_checked; current_fitment_not_inferred
+6L-1576 | 2.6mm Thick Ignition System Gasket | 16 | Cat 324-8849 Discontinued G399 Engine Overhaul Kit BOM | official_cat_historical_bom_verified; kit_discontinued; standalone_item_page_not_checked; current_fitment_not_inferred
+6L-4497 | Valve Push Rod Gasket | 8 | Cat 324-8849 Discontinued G399 Engine Overhaul Kit BOM | official_cat_historical_bom_verified; kit_discontinued; standalone_item_page_not_checked; current_fitment_not_inferred
+6L-7813 | 25.40mm Outside Diameter Ferrule Seal | 64 | Cat 324-8849 Discontinued G399 Engine Overhaul Kit BOM | official_cat_historical_bom_verified; kit_discontinued; standalone_item_page_not_checked; current_fitment_not_inferred
+6L-7814 | 17.46mm Outside Diameter Director Seal | 48 | Cat 324-8849 Discontinued G399 Engine Overhaul Kit BOM | official_cat_historical_bom_verified; kit_discontinued; standalone_item_page_not_checked; current_fitment_not_inferred
+6L-7816 | 6.35 x 53.98mm 70A EPDM O-Ring | 16 | Cat 324-8849 Discontinued G399 Engine Overhaul Kit BOM | official_cat_historical_bom_verified; kit_discontinued; standalone_item_page_not_checked; current_fitment_not_inferred
+6L-7817 | 40.64mm Inner Diameter O-Ring Seal | 32 | Cat 324-8849 Discontinued G399 Engine Overhaul Kit BOM | official_cat_historical_bom_verified; kit_discontinued; standalone_item_page_not_checked; current_fitment_not_inferred
+6V-9255 | Block and Oil Pan Gaskets Kit - Central Lower Structure | 1 | Cat 324-8849 Discontinued G399 Engine Overhaul Kit BOM | official_cat_historical_bom_verified; kit_discontinued; standalone_item_page_not_checked; current_fitment_not_inferred
+7B-2420 | 0.03in Thick Cylinder Head Water Ferrule | 48 | Cat 324-8849 Discontinued G399 Engine Overhaul Kit BOM | official_cat_historical_bom_verified; kit_discontinued; standalone_item_page_not_checked; current_fitment_not_inferred
+8F-4994 | 23.16mm Inside Diameter Seal-O-Ring | 16 | Cat 324-8849 Discontinued G399 Engine Overhaul Kit BOM | official_cat_historical_bom_verified; kit_discontinued; standalone_item_page_not_checked; current_fitment_not_inferred
+8L-9757 | 1.81mm Thick Exhaust Elbow Gasket | 2 | Cat 324-8849 Discontinued G399 Engine Overhaul Kit BOM | official_cat_historical_bom_verified; kit_discontinued; standalone_item_page_not_checked; current_fitment_not_inferred
+9F-6656 | 17.98mm Free Diameter External Retaining Ring | 8 | Cat 324-8849 Discontinued G399 Engine Overhaul Kit BOM | official_cat_historical_bom_verified; kit_discontinued; standalone_item_page_not_checked; current_fitment_not_inferred
+9M-4217 | 85.09mm Internal Diameter O-Ring Seal | 2 | Cat 324-8849 Discontinued G399 Engine Overhaul Kit BOM | official_cat_historical_bom_verified; kit_discontinued; standalone_item_page_not_checked; current_fitment_not_inferred
+9M-9989 | 0.79mm Thick Aftercooler Housing Gasket | 8 | Cat 324-8849 Discontinued G399 Engine Overhaul Kit BOM | official_cat_historical_bom_verified; kit_discontinued; standalone_item_page_not_checked; current_fitment_not_inferred
+
+Source page: https://parts.cat.com/en/catcorp/product/324-8849
