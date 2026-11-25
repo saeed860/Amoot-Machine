@@ -3256,3 +3256,21 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 9X-7301 | 110mm Bore Diameter 2-Piece Seal | 1 | Cat 162-4678 Discontinued 317-A/315-A Hydraulic Cylinder Seal Kit BOM | official_cat_historical_bom_verified; kit_discontinued; cylinder_group_specific; current_fitment_not_inferred
 
 Source page: https://parts.cat.com/en/catcorp/product/162-4678
+
+
+## Additional Cat 424D/420D/442D/432D/428D/416D/438D/930G/930H hydraulic-cylinder seal-kit BOM candidates — batch 191
+
+Source: official Cat Parts Store product page 229-7194, Standard Size Hydraulic Cylinder Seal Kit. Compatible models explicitly shown: BACKHOE LOADER / 424D, 420D, 442D, 432D, 428D, 416D, 438D; WHEEL LOADER / 930G, 930H. The product specifies standard nominal bore sizing up to 0.25mm (0.010in), 114.3mm (4.5in) bore and 63.5mm (2.5in) rod. All nine listed BOM references were new to the discovery queue and original seed list. Hydraulic cylinder seal kits are cylinder-group-specific; verify actual cylinder group and dimensions.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+175-7902 | 3.53 x 110.72mm 75A NBR O-Ring | 1 | Cat 229-7194 Standard Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+225-3281 | 61.42mm Inner Diameter Double Lip Wiper Seal | 1 | Cat 229-7194 Standard Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+289-2937 | Seal Assembly-Buffer | 1 | Cat 229-7194 Standard Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+289-2948 | 62.78mm Inner Diameter Cylinder Rod U-Cup Seal | 1 | Cat 229-7194 Standard Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+4J-3745 | 114.30mm Outer Diameter Plastic Ring | 1 | Cat 229-7194 Standard Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+4J-9220 | 104.93mm Internal Diameter Rubber Backup Ring | 1 | Cat 229-7194 Standard Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+4M-0189 | 104.37mm Inside Diameter Seal-O-Ring | 1 | Cat 229-7194 Standard Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+5J-4986 | Hydraulic Cylinder Seal | 1 | Cat 229-7194 Standard Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+8T-0785 | 66.49mm Outer Diameter Plastic Ring | 1 | Cat 229-7194 Standard Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+
+Source page: https://parts.cat.com/en/catcorp/product/229-7194
