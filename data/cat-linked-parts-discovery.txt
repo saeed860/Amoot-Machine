@@ -1638,3 +1638,45 @@ Source pages:
 10R-8762 | Cat Reman Cylinder Pack (3500C, 14.7:1) | Cat Parts Store compare-alternate for 374-2082 | cat_linked_candidate; needs_individual_verification
 11R-0666 | Cat Reman Fuel Pump Injector | Cat Parts Store Reman alternative for 392-0220 | cat_linked_candidate; needs_individual_verification
 20R-1281 | Cat Reman Fuel Pump Injector | Cat Parts Store Reman alternative for 392-0220 | cat_linked_candidate; needs_individual_verification
+
+
+## Additional Cat C32 overhaul-kit BOM candidates — batch 101
+
+Source: official Cat Parts Store product page for 634-6936, “Overhaul Engine Kit”. The page lists these items as kit contents and quantities and identifies the compatible model as MARINE ENGINE / C32. This is direct Cat-published BOM evidence only: it does not establish each item's standalone current orderability, fitment to every C32 arrangement/serial number, or inventory/price. Keep as BOM candidates until each component page and serial-number configuration are independently checked. No pricing or universal fitment is inferred.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+033-6031 | 3.53 x 69.44mm 75A FKM O-Ring | 2 | Cat 634-6936 Overhaul Engine Kit (C32 Marine); official Items included list | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+106-1792 | 100mm Long Taper Lock Steel Stud | 24 | Cat 634-6936 Overhaul Engine Kit (C32 Marine); official Items included list | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+109-0092 | 5.33 x 75.57mm 78A HNBR O-Ring | 12 | Cat 634-6936 Overhaul Engine Kit (C32 Marine); official Items included list | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+112-1102 | 62.87mm Inside Diameter Seal-O-Ring | 2 | Cat 634-6936 Overhaul Engine Kit (C32 Marine); official Items included list | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+117-8801 | 2.62 x 126.67mm 75A FKM O-Ring | 4 | Cat 634-6936 Overhaul Engine Kit (C32 Marine); official Items included list | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+129-9452 | 1.9mm Thick Exhaust Manifold Gasket | 12 | Cat 634-6936 Overhaul Engine Kit (C32 Marine); official Items included list | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+130-5694 | 6.99 x 88.26mm 75A FKM O-Ring | 4 | Cat 634-6936 Overhaul Engine Kit (C32 Marine); official Items included list | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+136-7227 | 19.18mm Inside Diameter Seal-O-Ring | 2 | Cat 634-6936 Overhaul Engine Kit (C32 Marine); official Items included list | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+166-2904 | 2.62 x 34.59mm 80A TFEP O-Ring | 24 | Cat 634-6936 Overhaul Engine Kit (C32 Marine); official Items included list | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+1R-0755 | High Efficiency Fuel Filter | 1 | Cat 634-6936 Overhaul Engine Kit (C32 Marine); official Items included list | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+1R-1808 | Engine Oil Filter | 2 | Cat 634-6936 Overhaul Engine Kit (C32 Marine); official Items included list | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+214-7566 | 1.83 x 8.92mm 90A FKM O-Ring | 1 | Cat 634-6936 Overhaul Engine Kit (C32 Marine); official Items included list | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+214-7568 | STOR O-Ring Seal (SAE 9/16-18) | 2 | Cat 634-6936 Overhaul Engine Kit (C32 Marine); official Items included list | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+216-5582 | 85.10mm Internal Diameter Sleeve Bearing | 14 | Cat 634-6936 Overhaul Engine Kit (C32 Marine); official Items included list | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+222-6456 | 912.40mm Outside Diameter Press in Place Seal | 2 | Cat 634-6936 Overhaul Engine Kit (C32 Marine); official Items included list | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+224-7506 | 9.4mm Thick Isolation Seal | 6 | Cat 634-6936 Overhaul Engine Kit (C32 Marine); official Items included list | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+224-9664 | Bearing Sleeve | 1 | Cat 634-6936 Overhaul Engine Kit (C32 Marine); official Items included list | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+225-3099 | Cylinder Head Gasket | 2 | Cat 634-6936 Overhaul Engine Kit (C32 Marine); official Items included list | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+226-5613 | Raw Water Aftercooler Base Gasket | 3 | Cat 634-6936 Overhaul Engine Kit (C32 Marine); official Items included list | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+227-5538 | 3.53 x 202.79mm 75A FKM O-Ring | 2 | Cat 634-6936 Overhaul Engine Kit (C32 Marine); official Items included list | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+231-4708 | 2.62 x 55.25mm 70A EPDM O-Ring | 6 | Cat 634-6936 Overhaul Engine Kit (C32 Marine); official Items included list | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+238-8708 | 1.21mm Thick Aftercooler Cover Gasket | 1 | Cat 634-6936 Overhaul Engine Kit (C32 Marine); official Items included list | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+238-8709 | 1.21mm Thick Aftercooler Cover Gasket | 1 | Cat 634-6936 Overhaul Engine Kit (C32 Marine); official Items included list | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+238-9204 | Engine Air Filter | 1 | Cat 634-6936 Overhaul Engine Kit (C32 Marine); official Items included list | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+239-1139 | 266.40mm Inside Diameter Press in Place Seal | 2 | Cat 634-6936 Overhaul Engine Kit (C32 Marine); official Items included list | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+241-8156 | Raw Water Aftercooler Gasket | 3 | Cat 634-6936 Overhaul Engine Kit (C32 Marine); official Items included list | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+248-1394 | Single Fuel Injector Install Gasket Kit | 6 | Cat 634-6936 Overhaul Engine Kit (C32 Marine); official Items included list | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+248-5513 | Engine Water Temperature Regulator | 2 | Cat 634-6936 Overhaul Engine Kit (C32 Marine); official Items included list | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+258-8117 | Single Cylinder Liner Gasket Kit | 6 | Cat 634-6936 Overhaul Engine Kit (C32 Marine); official Items included list | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+269-7885 | 5.33 x 72.39mm 75A FKM O-Ring | 6 | Cat 634-6936 Overhaul Engine Kit (C32 Marine); official Items included list | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+354-8484 | Cylinder Head Plate Gasket | 2 | Cat 634-6936 Overhaul Engine Kit (C32 Marine); official Items included list | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+359-1439 | Cylinder Head Water Seal | 48 | Cat 634-6936 Overhaul Engine Kit (C32 Marine); official Items included list | official_cat_kit_bom_verified; standalone_item_page_not_checked; serial_fitment_not_inferred
+
+Source page: https://parts.cat.com/en/catcorp/product/634-6936
+Evidence reviewed: https://parts.cat.com/en/catcorp/product/634-6936 (Items included; first 32 of 59 shown; compatible model C32 Marine Engine).
