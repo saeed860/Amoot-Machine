@@ -2730,3 +2730,14 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - دیگر نتایج این مرحله از قبل در Master و CSV 287B ثبت بودند.
 - منبع رسمی: https://parts.cat.com/en/catcorp/product/223-4240
 - شمارنده هدف پس از ثبت: 4402 شماره یکتا؛ Mirror byte-exact و Workflow برابر 4402.
+
+
+## دور ۷۸ — 25 Nov 2026
+
+- سه شماره جدید از صفحات رسمی Cat Parts Store که 297C را در Compatible Models فهرست می‌کنند ولی 287B را ندارند، به Master و CSV مستقل 297C-only افزوده شد:
+  - 258-3284 — 495mm Long Cabin Sliding Glass Window؛ پنجره کشویی؛ ابعاد شیشه، مکانیزم لغزنده و آب‌بندی باید تطبیق داده شود.
+  - 373-9653 — Clip-Hose؛ قطر بیرونی شیلنگ و نقطه نصب باید کنترل شود.
+  - 258-4094 — 37.5mm Thick Cabin Right-Hand Fixed Glass Window؛ ضخامت اعلامی 37.5mm؛ موقعیت شیشه و نسخه کابین باید تطبیق داده شود.
+- موارد دیگر نتایج جستجو از قبل در Master و CSVهای مربوط ثبت بودند.
+- منابع رسمی: https://parts.cat.com/en/catcorp/product/258-3284 ؛ https://parts.cat.com/en/catcorp/product/373-9653 ؛ https://parts.cat.com/en/catcorp/product/258-4094
+- شمارنده هدف پس از ثبت: 4405 شماره یکتا؛ Mirror byte-exact و Workflow برابر 4405.
