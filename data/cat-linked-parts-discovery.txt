@@ -3079,3 +3079,8 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 8H-9204 | 22mm Outer Diameter Felt Washer | 6 | Cat 117-7901 3406B Generator Set Fuel System Gaskets Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
 
 Source page: https://parts.cat.com/en/catcorp/product/117-7901
+
+
+## Cat 450-8945 3408 major-overhaul kit — no current BOM rows published (batch 182)
+
+Source: official Cat Parts Store product page https://parts.cat.com/en/catcorp/product/450-8945. Compatible model explicitly shown: ENGINE - MACHINE / 3408. Product heading markets it as a Marine Bundled Repair Solution / 3408 Engine Overhaul, but the current page states there are currently no parts associated with the kit. The current compatibility label and missing BOM take precedence over indexed snippets; no component part numbers were inferred or added.
