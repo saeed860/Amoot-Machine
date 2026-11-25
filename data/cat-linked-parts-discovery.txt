@@ -2430,3 +2430,8 @@ Source: official Cat Parts Store product page https://parts.cat.com/en/catcorp/p
 ## Cat 350-2167 3512 MUI-to-Tier-2 conversion kit cross-verification — batch 142
 
 Source: official Cat Parts Store product page https://parts.cat.com/en/catcorp/product/350-2167. Compatible model: MARINE ENGINE / 3512. Conversion from arrangement 2W-8868 to Tier 2 arrangement 320-0275. All nine listed BOM components were already present in the queue or seed list from other Cat sources, so no new SKU rows were added. This is a separate MUI conversion context; do not merge its arrangement mapping with the 3512B EUI kit or infer interchangeability.
+
+
+## Cat 318-3206 3512C marine engine-parts-kit cross-verification — batch 146
+
+Source: official Cat Parts Store product page https://parts.cat.com/en/catcorp/product/318-3206. Compatible model explicitly shown: MARINE ENGINE / 3512C. The page lists 31 BOM components. All 31 references were already present in the discovery queue or seed list, so no duplicate SKU rows were added. This source independently corroborates the 3512C engine-parts set and quantities, but does not extend fitment to 3512/3512B or other arrangements.
