@@ -1506,4 +1506,4 @@ Mirror از Master جاری بازسازی و شمارنده Workflow با تع�
 
 نکات فیتمنت: برای seal kit و crankshaft، تطبیق serial number و engine/pump group الزامی است؛ برای engine mount، harness، pins و linkage parts، تطبیق ابعاد، connector، موقعیت نصب و configuration ضروری است. قطعات 297C-only به 287B تعمیم داده نشدند.
 
-Master به دقیقاً ۴۰۰۰ شماره یکتا رسید؛ Mirror باید byte-exact باشد و شمارنده Workflow با Master همگام شد.
+Master در لحظه ثبت دور به ۴۰۰۰ شماره رسید؛ در ممیزی نهایی، به‌دلیل سه ثبت هم‌زمان دیگر، تعداد به ۴۰۰۳ شماره یکتا افزایش یافت. Mirror به‌صورت byte-exact با Master تازه همگام شد و شمارنده Workflow روی ۴۰۰۳ تنظیم شد.
