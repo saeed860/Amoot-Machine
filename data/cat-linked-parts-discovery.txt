@@ -3312,3 +3312,16 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 8C-9182 | Seal Assembly | 1 | Cat 216-0000 Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
 
 Source page: https://parts.cat.com/en/catcorp/product/216-0000
+
+
+## Additional Cat 977L track-loader hydraulic-cylinder seal-kit BOM candidates — batch 194
+
+Source: official Cat Parts Store product page 242-2549, Hydraulic Cylinder Seal Kit - Standard Size. Compatible model explicitly shown: TRACK LOADER / 977L. Cat specifies standard nominal bore sizing up to 0.25mm (0.010in) max and application-specific cylinder-group matching. Four other items in the eight-piece BOM were already present in the discovery queue or original seed list and are not duplicated. The four new rows below are official BOM references only; verify cylinder group and actual bore/rod dimensions.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+8T-8394 | 63.5mm Inner Diameter Wear Ring | 1 | Cat 242-2549 977L Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+2K-4473 | 157.98mm Internal Diameter Rubber Backup Ring | 1 | Cat 242-2549 977L Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+3J-9027 | 165.15mm Bore Diameter Piston Guide | 1 | Cat 242-2549 977L Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+5J-4991 | 165mm Bore Diameter 2-Piece Seal | 1 | Cat 242-2549 977L Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+
+Source page: https://parts.cat.com/en/catcorp/product/242-2549
