@@ -2741,3 +2741,11 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - موارد دیگر نتایج جستجو از قبل در Master و CSVهای مربوط ثبت بودند.
 - منابع رسمی: https://parts.cat.com/en/catcorp/product/258-3284 ؛ https://parts.cat.com/en/catcorp/product/373-9653 ؛ https://parts.cat.com/en/catcorp/product/258-4094
 - شمارنده هدف پس از ثبت: 4405 شماره یکتا؛ Mirror byte-exact و Workflow برابر 4405.
+
+
+## دور ۸۰ — 25 Nov 2026
+
+- 258-2982 — 5mm Thick Hydraulic Tank Mounting Bracket از قبل در Master بود اما ردیف CSV مستقل 297C-only آن ثبت نشده بود؛ ردیف تکمیل شد. صفحه رسمی Cat فیتمنت 297C را دارد و 287B را ندارد.
+- 258-4225 — Operator Cabin Floor Mat به‌عنوان شماره جدید به Master و CSV مستقل 297C-only اضافه شد. صفحه رسمی Cat مدل‌های 287C، 277C، 297C، 287C2 و 277C2 را فهرست می‌کند و 287B در فهرست نیست. کف‌پوش با مهره جوشی M6 عرضه می‌شود؛ فرم کف و نقاط نصب باید تطبیق داده شود.
+- منابع رسمی: https://parts.cat.com/en/catcorp/product/258-2982 ؛ https://parts.cat.com/en/catcorp/product/258-4225
+- شمارنده هدف پس از ثبت: 4410 شماره یکتا؛ Mirror byte-exact و Workflow برابر 4410.
