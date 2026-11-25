@@ -1475,3 +1475,8 @@ Source pages:
 2W-1233 | Turbocharger Bearing | Cat Parts Store related to 7E-0688 turbocharger seal ring | cat_linked_candidate; needs_individual_verification
 
 7G-9709 | 192.4mm Outside Diameter Sleeve Bearing | Cat Parts Store parts diagram for 7T-0375 middle bogie | cat_linked_candidate; needs_individual_verification
+
+6V-3263 | 3.53 x 393.7mm 90A NBR O-Ring Seal | Cat Parts Store parts diagram for 7T-8555 minor bogie | cat_linked_candidate; needs_individual_verification
+5P-5374 | 1.6mm Thick Rubber Seal | Cat Parts Store parts diagram for 7T-8555 minor bogie | cat_linked_candidate; needs_individual_verification
+115-2367 | 181.28mm Long Exhaust Valve | Cat Parts Store related to 7W-2225 cylinder head assembly | cat_linked_candidate; needs_individual_verification
+115-2368 | 181.28mm Long Groove End Inlet Valve | Cat Parts Store related to 7W-2225 cylinder head assembly | cat_linked_candidate; needs_individual_verification
