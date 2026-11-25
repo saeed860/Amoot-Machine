@@ -2485,3 +2485,16 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 6V-3250 | 1.98 x 11.89mm 70A EPDM O-Ring | 1 | Cat 443-7600 735B/740/735 Bronze Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
 
 Source page: https://parts.cat.com/en/catcorp/product/443-7600
+
+
+## Additional Cat RM-300 / 966H / 972H single-cylinder-head install-kit BOM candidates — batch 150
+
+Source: official Cat Parts Store product page 482-9897, Single Cylinder Head Install Kit. Compatible models explicitly shown: RECLAIMER MIXER / RM-300; WHEEL LOADER / 966H, 972H. Cat describes the kit as gaskets and seals for rebuilding and reinstalling one cylinder head; turbo gaskets are included and fuel injector seals are not. Twenty-eight other first-page components were already present in the discovery queue or seed list and are not duplicated. The four new rows below are official BOM references only; verify serial/arrangement and order injector seals separately where required.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+274-6851 | 0.2mm Thick Turbocharger Gasket | 1 | Cat 482-9897 RM-300/966H/972H Single Cylinder Head Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+321-5639 | 108mm Inner Diameter Press Seal | 1 | Cat 482-9897 RM-300/966H/972H Single Cylinder Head Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+595-1862 | 2 Bolt Exhaust Manifold Gasket | 6 | Cat 482-9897 RM-300/966H/972H Single Cylinder Head Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+5P-5598 | 3.53 x 15.47mm 75A FKM O-Ring | 1 | Cat 482-9897 RM-300/966H/972H Single Cylinder Head Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+
+Source page: https://parts.cat.com/en/catcorp/product/482-9897
