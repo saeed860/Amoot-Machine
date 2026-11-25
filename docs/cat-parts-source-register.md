@@ -580,3 +580,10 @@ Exact Cat Parts Store pages add model-class references for **226-1191** (one-sec
 ## Off Road public-index coverage reconciliation — 25 Nov 2026
 
 The Off Road discovery queue is now synchronized to all **500** rows embedded in the site's Off Road catalog seed: 500 unique raw identifiers, zero duplicate identifiers. The prior text queue contained only a subset; it has been replaced by the complete 500-row candidate list. The 12 filter-related identifiers are enumerated in the queue, with 12 exact CAT page cross-checks recorded separately. The index remains a reseller discovery subset, not the supplier's complete authenticated inventory. Login-only stock, condition and supplier pricing remain unverified.
+
+
+## CAT filter application evidence and product-image integration — 25 Nov 2026
+
+Exact Cat Parts Store Compatible Models sections were checked for all 12 filter identifiers. Marine Engine categories are explicitly present for 1R-0716, 1R-0739, 1R-0749, 1R-0750, 1R-0751, 1R-1807, 1R-1808, 326-1644, 360-8960 and 7W-2326. 1R-0762 lists land machine/engine groups without a Marine Engine group. 1G-8878 has a C13 MARINE string under Paving Compactor but no distinct Marine Engine category; it remains UNVERIFIED rather than being tagged marine.
+
+Ten new sellable catalogue rows were added with exact CAT product images, source URLs, stock zero and price NULL pending source price-type validation. Existing CAT-1R-0749 and CAT-1R-1808 rows were retained and their application tags corrected to BOTH. This adds images and official product descriptions without inventing prices or Amoot-owned stock.
