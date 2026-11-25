@@ -4467,3 +4467,47 @@ Additional Cat-linked discovery candidates from official Cat related/alternate p
 All remain candidate leads only and require item-level verification before catalog promotion.
 
 Overall reviewed progress: 75/500 batches = 750/5,000 product target (15.0%). Original Cat seed list has 37 SKUs remaining (products 751–787).
+
+## Batch 76/500 — products 751–760 (2026-11-25)
+
+SKUs: 7E-6508, 7H-1447, 7K-1181, 7N-8652, 7N-9843, 7T-0375, 7T-1243, 7T-1331, 7T-5417, 7T-5420. All ten Cat pages opened; fitment/specifications and related-part panels checked. Recorded the 7T-1243 thread-size discrepancy explicitly.
+
+Verified:
+- 7E-6508: Cat Unit Injector Cap, direct OEM replacement. Cat notes the pack contains CAP ×1 and NUT RETAINER ×1. 229 distinct compatible labels across generators, truck/industrial/marine/petroleum engines, wheel tractors/scrapers, rotary drills, excavators, skidders, compactors, wheel loaders/dozers, articulated/off-highway trucks, material handlers, LHDs, graders, pipelayers and shovels. Cat Proposition 65 warning for 1,3-Butadiene. DB kit contents2 and fitment229 match. Related 214-7568 STOR O-ring, 3S-9643 rotating shaft seal, 248-5513 water temperature regulator, 238-5081 FKM O-ring, 132-6469 cylinder-head wiring harness.
+- 7H-1447: Cat 2-1/2-12 Oil Filler Cap. Cat description: seals oil reservoir opening, prevents contaminants and allows filling/maintenance. Specs: Aluminum/Alloy Aluminum, 2-1/2-12 thread, 3in OD, 1.7in height. 360 compatible labels across integrated toolcarriers, wheel tractor-scrapers, track/wheel skidders, asphalt/paving compactors, rotary drills, underground trucks, water-fording tractors, hydraulic controls, track loaders, soil/landfill compactors, backhoe loaders, wheel dozers/loaders, articulated trucks, graders, tractors, engines, MHPUs, pipelayers and others. DB matches. Related 9H-6454 cap gasket, 2D-4202 filler cap plate, 9M-7394 cap lever, 5D-1911 hydraulic tank cap and 3J-1907 O-ring.
+- 7K-1181: Cat 387mm Cable Strap, half-clip single. Specs: Natural color, 0.3in width, 0.19–4in bundle diameter, standard head, Alloy Mixed Metal/Nylon 6/6, 6/12, 6/6 plastic. Cat Compatible Models spans hundreds of applications including toolcarriers, wheel harvesters, utility vehicles, mini excavators, rotary drills, track feller bunchers, harvesters, excavators, loaders, compactors, backhoes, graders, tractors, pavers, engines and MHPUs; exact model IDs remain unnormalized in DB. Related 3J-1907, 6V-8397, 3K-0360, 6V-8398 and 6V-9746.
+- 7N-8652: Cat Support A. Materials Structural Steel/Alloy Steel/Carbon Steel. Cat compatible labels: Gen Set Engine 3516; Generator SR4; Marine Engine 3512C/3516/3516B/3516C/3512B/3516E; Marine Auxiliary 3516C/3516B; Engine G3516J/3516C/3516E/3516PETROLEUM; Industrial Engine 3516; Locomotive Engine 3516C/3516B; Petroleum Engine 3516; Gas Engine G3516B/G3516J/G3516 (11 unique labels, 10 engine tags). DB matches.
+- 7N-9843: Cat Fuel Injector Valve Nozzle, sprays fuel into combustion chamber. Specs: 4.5in length ×0.1in height. 19 compatible labels across Generator SR4, Engine-Machine 3408, Truck Engine 3408B/3408/3406, Wheel Tractor 639D/621B/637D/623B/631D/633D, Marine Engine 3412/3408B/3408/3406, Industrial Engine 3406/3412/3408B, Truck 769C/773B, Excavator 245, Tractor 772B/768C, Motor Grader 16G, Wheel Loader 988B/992C. Engine tags3408/3408B/3406/3412. Related 1H-1023 NBR O-ring, 8M-4437 VMQ O-ring, 253-1752 thrust plate, 7C-0307 bonnet cover gasket, 2S-2251 VMQ O-ring.
+- 7T-0375: Cat Undercarriage Middle Bogie for suspended D9/D10 undercarriage. Materials Structural Steel/Alloy Steel. Compatible D9L/D10R/D10T2/D10T/D10N/D10; ripper 9; bulldozers 9U/10SU/10U/9S/9C; winches 59/59N/58L/59L (16 labels). Related 7T-5959 bogie resilient pad, 184-4396 steel roller guide, 9W-4489 suspension bogie insert, 7G-9709 sleeve bearing and 131-1650 track roller cap.
+- 7T-1243: Cat Hex Head Track Bolt, title says 1.125in thread size, 12mm pitch and 104.78mm long. Specs: 4.134in length, 2.992in grip, RH, Carbon Steel, Cat/ASTM F2882 (170 Ksi). Cat numeric Thread Size specification is 0.044in; the title says 1.125in. Both are stored as source discrepancy. Compatible D11N/D11R/D11T/D11 XE/D11; ripper 11; bulldozers 11SU/11U (8). Related track segments 602-0406/602-0405 and O-rings 5P-4057/5P-5846.
+- 7T-1331: Cat Track Roller Warn Spring Guide, Ductile Cast Iron, center guard on both sides of track frame, HD undercarriage. Compatible D11R/D11T/D11N/D10/D11 XE/D11; rippers 11/10; bulldozers 10S/10U/11SU/11U/10C (13). Related 1J-2890 NBR O-ring, 9X-4590 telescoping recoil frame seal, 3T-7494 sleeve bearing, 2S-5926 track adjuster relief valve and 3P-2482 resilient pad.
+- 7T-5417: Cat Undercarriage Middle Bogie for suspended D9 undercarriage. Materials Structural Steel/Alloy Steel. Compatible D9T/D9/D9R/D9N/D9 GC; ripper 9; bulldozers 9SU/9U; winches 59N/58/58L/59L (12). Related 134-2679 Bogie Assembly, 134-2680 Rear Bogie, 7G-5221 retainer plate, 7T-5419 bogie resilient pad and 184-4395 roller guard.
+- 7T-5420: Cat Straight Minor Bogie for suspended D9 undercarriage. Materials Boron Steel/Microalloy Steel/Carbon Steel; shoe type Extreme Service/Single Grouser/Trapezoidal. Compatible D9T/D9/D9R/D9N/D9 GC; ripper 9; bulldozers 9SU/9U; winches 59N/58/58L/59L (12). Related 311-1298 bogie pin assembly, 131-1651 track roller cap, 184-4395 roller guard, 7T-5419 bogie pad and 9W-4481 suspension bogie insert.
+
+Cat pages:
+- https://parts.cat.com/en/catcorp/product/7E-6508
+- https://parts.cat.com/en/catcorp/product/7H-1447
+- https://parts.cat.com/en/catcorp/product/7K-1181
+- https://parts.cat.com/en/catcorp/product/7N-8652
+- https://parts.cat.com/en/catcorp/product/7N-9843
+- https://parts.cat.com/en/catcorp/product/7T-0375
+- https://parts.cat.com/en/catcorp/product/7T-1243
+- https://parts.cat.com/en/catcorp/product/7T-1331
+- https://parts.cat.com/en/catcorp/product/7T-5417
+- https://parts.cat.com/en/catcorp/product/7T-5420
+
+Post-update DB verification counts: 7E-6508=229 (2 kit lines); 7H-1447=360; 7K-1181=0 (broad fitment not normalized); 7N-8652=11; 7N-9843=19; 7T-0375=16; 7T-1243=8; 7T-1331=13; 7T-5417=12; 7T-5420=12. No price/stock claims added.
+
+Additional Cat-linked discovery candidates from official Cat related/parts diagrams:
+- 7E-6508: 214-7568, 3S-9643, 248-5513, 238-5081, 132-6469.
+- 7H-1447: 9H-6454, 2D-4202, 9M-7394, 5D-1911, 3J-1907.
+- 7K-1181: 3J-1907, 6V-8397, 3K-0360, 6V-8398, 6V-9746.
+- 7N-9843: 1H-1023, 8M-4437, 253-1752, 7C-0307, 2S-2251.
+- 7T-0375: 7T-5959, 184-4396, 9W-4489, 7G-9709, 131-1650.
+- 7T-1243: 602-0406, 602-0405, 5P-4057, 5P-5846.
+- 7T-1331: 1J-2890, 9X-4590, 3T-7494, 2S-5926, 3P-2482.
+- 7T-5417: 134-2679, 134-2680, 7G-5221, 7T-5419, 184-4395.
+- 7T-5420: 311-1298, 131-1651, 184-4395, 7T-5419, 9W-4481.
+These are discovery leads only and require item-level verification before catalog promotion.
+
+Overall reviewed progress: 76/500 batches = 760/5,000 product target (15.2%). Original Cat seed list has 27 SKUs remaining (products 761–787).
