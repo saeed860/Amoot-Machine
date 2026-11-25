@@ -1339,3 +1339,6 @@ Source pages:
 9T-5977 | Bidirectional Gerotor Motor | Cat Parts Store frequently bought together with 482-7524 circle drive | cat_linked_candidate; needs_individual_verification
 450-5243 | 177.65mm Outer Diameter Circle Drive Pinion Shaft | Cat Parts Store frequently bought together with 482-7524 circle drive | cat_linked_candidate; needs_individual_verification
 308-0324 | Quick Coupler Pin | Cat Parts Store frequently bought together with 485-5302 8-ton coupler | cat_linked_candidate; needs_individual_verification
+
+0R-9448 | Cat Reman Engine Oil Pump | Cat Parts Store Reman alternative listing for 4N-0733 | cat_linked_candidate; needs_individual_verification
+0R-5749 | Cat Reman Turbocharger | Cat Parts Store Reman alternative listing for 4W-1434 | cat_linked_candidate; needs_individual_verification
