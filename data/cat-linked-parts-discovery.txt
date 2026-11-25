@@ -2498,3 +2498,15 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 5P-5598 | 3.53 x 15.47mm 75A FKM O-Ring | 1 | Cat 482-9897 RM-300/966H/972H Single Cylinder Head Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
 
 Source page: https://parts.cat.com/en/catcorp/product/482-9897
+
+
+## Autonomous discovery checkpoint 150 — target checkpoint 5000 (2026-11-25)
+
+- Completed source batches: 101–150 (50 checkpoints beyond the previous stop at 100/110).
+- Baseline immediately before batch 101: 1,093 unique part-number references in this discovery file.
+- Current file: 1,961 raw part-number rows; 1,573 unique normalized Caterpillar-style part numbers.
+- Net unique growth since the batch-100 baseline: +480 part numbers.
+- Original 787-number seed overlap: 86; unique references beyond the original seed: 1,487.
+- Sources added: Cat Parts Store official kit BOMs and independent supplier listings; all BOM-only candidates remain explicitly separated from standalone Cat item-page verification, serial-specific fitment, stock and pricing.
+- Data quality: repeated SKUs are not re-added in new batch sections; missing/empty official BOMs are recorded as zero-add checkpoints; suspicious quantity 2,169 for 165-3928 in Cat 357-1805 is excluded pending confirmation.
+- Next target: continue at batch 151; do not treat 150 as a stopping point. Continue toward the requested 5,000-checkpoint target while prioritizing net-new, source-backed part numbers over raw page or batch counts.
