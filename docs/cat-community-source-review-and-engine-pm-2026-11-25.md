@@ -1819,3 +1819,14 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - https://parts.cat.com/en/catcorp/product/3B-4508
 
 این قطعات در فیتمنت 287B ثبت نشده‌اند. برای قطعات undercarriage، شماره گروه axle/roller، track pitch، ابعاد sleeve و seal، قطر شفت و آرایش undercarriage باید با PIN دستگاه کنترل شود.
+
+## دور ۵۷ — تکمیل قطعات نگهدارنده 287B (25 Nov 2026)
+
+- 126-5701 — 10mm Thick Retainer Plate؛ صفحه رسمی Cat Parts Store مدل 287B را صریحاً در Compatible Models نشان می‌دهد و 297C را در این فهرست ندارد. شماره به Master و CSV رسمی 287B افزوده شد.
+- 261-6296 — Track Roller؛ صفحه رسمی Cat آن را DISCONTINUED اعلام می‌کند. شماره در Master تاریخی باقی می‌ماند و در CSV فیتمنت آن یادداشت DISCONTINUED و الزام تماس با Dealer برای replacement ثبت شده است؛ این مورد کالای سفارش‌پذیر جدید نیست.
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/product/126-5701
+- https://parts.cat.com/en/catcorp/product/261-6296
+
+برای 126-5701، ضخامت 10mm، الگوی سوراخ‌ها و محل نصب باید با Parts Diagram و PIN تطبیق داده شود. قطعات Discontinued از سفارش‌پذیری خارج می‌مانند.
