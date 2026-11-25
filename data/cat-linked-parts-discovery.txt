@@ -972,7 +972,7 @@ Source pages:
 237-7623 | 5.33 x 62.86mm 75A FKM O-Ring | Cat Parts Store component in 599-7781 kit, quantity 4 | cat_linked_candidate; needs_individual_verification
 238-5082 | 2.95 x 23.47mm 90A FKM O-Ring | Cat Parts Store component in 599-7781 kit, quantity 2 | cat_linked_candidate; needs_individual_verification
 238-6646 | 3.53 x 209.14mm 75A FKM O-Ring | Cat Parts Store component in 599-7781 kit, quantity 2 | cat_linked_candidate; needs_individual_verification
-247-7133 | Water Temperature Regulator | Cat Parts Store component in 599-7781 kit, quantity 4 | cat_linked_candidate; needs_individual_verification
+247-7133 | Water temperature regulator | Cat Parts Store component in 603-6646 overhaul kit, qty2; own page confirms stainless steel/NBR, 2.8×3.6in | cat_item_page_verified; inserted_part_catalog; fitment_verified
 250-2343 | 1.78 x 18.77mm 70A EPDM O-Ring | Cat Parts Store component in 599-7781 kit, quantity 14 | cat_linked_candidate; needs_individual_verification
 259-4598 | 3.53 x 120.24mm 75A FKM O-Ring | Cat Parts Store component in 599-7781 kit, quantity 1 | cat_linked_candidate; needs_individual_verification
 259-4600 | 5.33 x 85.09mm 75A FKM O-Ring | Cat Parts Store component in 599-7781 kit, quantity 3 | cat_linked_candidate; needs_individual_verification
@@ -1230,7 +1230,7 @@ Source pages:
 7L-4773 | 23.16mm Inside Diameter Seal-O-Ring | Cat Parts Store frequently bought together with 8N-0419 water line | cat_linked_candidate; needs_individual_verification
 
 328-5574 | 104.90mm Outside Diameter Big End Connecting Rod Bearing | Cat Parts Store frequently bought together with 8N-0822 piston ring | cat_linked_candidate; needs_individual_verification
-9L-5854 | 130.175mm Inner Diameter Filler Band | Cat Parts Store frequently bought together with 8N-0822 piston ring | cat_linked_candidate; needs_individual_verification
+9L-5854 | 130.175mm ID EPDM rubber filler band | Cat Parts Store component in 160-9874 liner gasket kit; own page confirms EPDM coolant/air use only, reference-only dimensions | cat_item_page_verified; inserted_part_catalog; fluid_compatibility_verified
 2S-2251 | 5.33 x 43.82mm 70A VMQ O-Ring | Cat Parts Store frequently bought together with 8N-0822 piston ring | cat_linked_candidate; needs_individual_verification
 253-1752 | 5.73mm thick crankshaft thrust plate | Frequently bought together with Cat 30R-0927 | cat_item_page_verified; existing_catalog_row_updated; fitment_verified
 8S-7928 | 127.10mm Outside Diameter Lip Type Seal | Cat Parts Store frequently bought together with 9D-2734 fuel pump/governor gasket | cat_linked_candidate; needs_individual_verification
@@ -1611,14 +1611,14 @@ Source pages:
 109-0076 | 50.17mm Inner Diameter Seal-O-Ring | Cat Parts Store parts-diagram component shown on 109-0078/109-0072 pages | cat_linked_candidate; needs_individual_verification
 4N-1156 | 1.2mm Thick Radiator Water Lines Gasket | Cat Parts Store parts-diagram component shown on 109-0072 page | cat_linked_candidate; needs_individual_verification
 
-110-2220 | 141mm Inner Diameter Seal-O-Ring | Cat Parts Store component in 160-9874 liner gasket kit, qty1 | cat_linked_candidate; needs_individual_verification
-142-6217 | 140.2mm Inner Diameter Seal-O-Ring | Cat Parts Store component in 160-9874 liner gasket kit, qty1 | cat_linked_candidate; needs_individual_verification
-142-7072 | 140.2mm Inner Diameter Seal-O-Ring | Cat Parts Store component in 160-9874 liner gasket kit, qty1 | cat_linked_candidate; needs_individual_verification
-106-1792 | 100mm Long Taper Lock Steel Stud | Cat Parts Store component in 603-6646 overhaul kit, qty12 | cat_linked_candidate; needs_individual_verification
-106-1793 | 60mm Length Tapered Stud | Cat Parts Store component in 603-6646 overhaul kit, qty1 | cat_linked_candidate; needs_individual_verification
-143-6642 | Engine Brake Upper Ring Seal | Cat Parts Store component in 603-6646 overhaul kit, qty3 | cat_linked_candidate; needs_individual_verification
-214-4150 | Block & Oil Pan Gaskets Kit - Central Lower Structure | Cat Parts Store component in 603-6646 overhaul kit, qty1 | cat_linked_candidate; needs_individual_verification
-243-6718 | Crankshaft Main Bearing Kit | Cat Parts Store component in 603-6646 overhaul kit, qty1 | cat_linked_candidate; needs_individual_verification
+110-2220 | 141mm ID HNBR 78A O-ring/liner seal | Cat Parts Store component in 160-9874 liner gasket kit; own page confirms HNBR/PTFE and 121 fitment labels | cat_item_page_verified; inserted_part_catalog; fitment_verified
+142-6217 | 140.2mm ID FKM 75A O-ring | Cat Parts Store component in 160-9874 liner gasket kit; own page confirms FKM/PTFE and 122 fitment labels | cat_item_page_verified; inserted_part_catalog; fitment_verified
+142-7072 | 140.2mm ID EPDM 70A liner seal | Cat Parts Store component in 160-9874 liner gasket kit; own page confirms EPDM/PTFE and 115 fitment labels | cat_item_page_verified; inserted_part_catalog; fitment_verified
+106-1792 | 100mm long taper-lock fully threaded steel stud | Cat Parts Store component in 603-6646 overhaul kit, qty12; 3/8-16, zinc phosphate/oil, 500C max | cat_item_page_verified; inserted_part_catalog; fitment_verified
+106-1793 | 60mm length tapered fully threaded stud | Cat Parts Store component in 603-6646 overhaul kit, qty1; 3/8-16 UNC carbon steel | cat_item_page_verified; inserted_part_catalog; fitment_verified
+143-6642 | Engine brake upper ring seal | Cat Parts Store component in 603-6646 overhaul kit, qty3; ductile iron casting, 8.25in OD, 0.9in ID, 2.21in high | cat_item_page_verified; inserted_part_catalog; fitment_verified
+214-4150 | Block & oil pan gaskets kit, central/lower | Cat Parts Store component in 603-6646 overhaul kit, qty1; own page says no parts included results and no fitment | cat_item_page_verified; inserted_part_catalog; no_bom_or_fitment_published
+243-6718 | Crankshaft main bearing kit | Cat Parts Store component in 603-6646 overhaul kit, qty1; own page lists 253-1752 qty2 and 317-8766 qty7 | cat_item_page_verified; existing_catalog_row_updated; kit_contents_and_fitment_verified
 248-1394 | Single Fuel Injector Install Gasket Kit | Cat Parts Store component in 603-6646 overhaul kit, qty6 | cat_linked_candidate; needs_individual_verification
 281-8261 | Exhaust Port Sleeve | Cat Parts Store component in 603-6646 overhaul kit, qty6 | cat_linked_candidate; needs_individual_verification
 2U-1492 | 20.32mm Inner Diameter Seal | Cat Parts Store component in 603-6646 overhaul kit, qty3 | cat_linked_candidate; needs_individual_verification
@@ -1628,3 +1628,4 @@ Source pages:
 8S-9191 | 3/8-16 ×4in Hex Head Bolt | Cat Parts Store component in 603-6646 overhaul kit, qty6 | cat_linked_candidate; needs_individual_verification
 20R-4771 | Cat Reman Camshaft Kit with Cat Reman Valve Lifters (3512C LH) | Cat Parts Store compare-alternate for 283-5732 | cat_linked_candidate; needs_individual_verification
 20R-4767 | Cat Reman Camshaft Kit with Cat Reman Valve Lifters (3512C LH) | Cat Parts Store compare-alternate for 308-5353 | cat_linked_candidate; needs_individual_verification
+
