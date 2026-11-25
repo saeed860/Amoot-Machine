@@ -3386,3 +3386,19 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 8L-9241 | 253.36mm Inside Diameter Seal-O-Ring | 1 | Cat 416-1420 994F/994H Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
 
 Source page: https://parts.cat.com/en/catcorp/product/416-1420
+
+
+## Additional Cat 430F2/442E/444E/430E/430F backhoe-loader hydraulic-cylinder seal-kit BOM candidates — batch 199
+
+Source: official Cat Parts Store product page 376-9015, Hydraulic Cylinder Seal Kit - Standard Size. Compatible models explicitly shown: BACKHOE LOADER / 430F2, 442E, 444E, 430E, 430F. Cat specifies standard nominal bore sizing up to 0.25mm (0.010in) max and application-specific cylinder-group matching. Two other components in the nine-piece BOM were already present in the discovery queue or original seed list and are not duplicated. The seven new rows below are official BOM references only; confirm exact cylinder group and dimensions.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+2D-0714 | 133.35mm Outer Diameter Plastic Ring | 1 | Cat 376-9015 Backhoe Loader Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+364-0086 | 75.53mm Inner Diameter Boom Cylinder Rod U-Cup Seal | 1 | Cat 376-9015 Backhoe Loader Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+2H-9247 | Ring | 1 | Cat 376-9015 Backhoe Loader Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+2J-7767 | 126.42mm Internal Diameter Rubber Backup Ring | 1 | Cat 376-9015 Backhoe Loader Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+5J-7234 | Cylinder Expander Seal | 1 | Cat 376-9015 Backhoe Loader Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+8C-9161 | 76.20mm Inside Diameter Plastic Ring | 1 | Cat 376-9015 Backhoe Loader Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+5F-3106 | Seal-O-Ring | 1 | Cat 376-9015 Backhoe Loader Standard-Size Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+
+Source page: https://parts.cat.com/en/catcorp/product/376-9015
