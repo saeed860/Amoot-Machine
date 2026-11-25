@@ -3180,3 +3180,23 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 9G-6414 | 0.79mm Thick Gasket | 1 | Cat 3N-8943 Marine Transmission Lock & Sealing Sub-Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
 
 Source page: https://parts.cat.com/en/catcorp/product/3N-8943
+
+
+## Additional Cat 318C/319C hydraulic-cylinder seal-kit BOM candidates — batch 187
+
+Source: official Cat Parts Store product page 215-9984, Hydraulic Cylinder Seal Kit. Compatible models explicitly shown: EXCAVATOR / 318C, 319C. Cat states the kit contains all seals required for a complete hydraulic-cylinder reseal and that hydraulic seal kits are application-specific to a cylinder group part number; exact cylinder-group reference is required before ordering. All eleven listed BOM references were new to the discovery queue and original seed list.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+095-1631 | 5.7 x 119.6mm 90A NBR O-Ring | 1 | Cat 215-9984 318C/319C Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_specific
+147-5852 | 29.8mm Thick Hydraulic Cylinder Ring | 1 | Cat 215-9984 318C/319C Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_specific
+147-5853 | 130mm Outer Diameter Piston Rod Guide Ring | 1 | Cat 215-9984 318C/319C Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_specific
+150-5884 | 121.93mm Internal Diameter Plastic Ring | 1 | Cat 215-9984 318C/319C Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_specific
+165-9288 | 11mm Outer Diameter Lip Type Seal | 1 | Cat 215-9984 318C/319C Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_specific
+170-9846 | 95mm Shaft Diameter Plastic Buffer Seal | 1 | Cat 215-9984 318C/319C Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_specific
+216-0004 | 93.4mm Diameter U-Cup Seal | 1 | Cat 215-9984 318C/319C Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_specific
+495-8200 | 130mm Bore Diameter Two Piece Seal | 1 | Cat 215-9984 318C/319C Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_specific
+6I-6784 | Ring | 1 | Cat 215-9984 318C/319C Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_specific
+7Y-4628 | 95mm Internal Diameter Backup Ring | 1 | Cat 215-9984 318C/319C Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_specific
+7Y-4633 | 120.20mm Internal Diameter Backup Ring | 1 | Cat 215-9984 318C/319C Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_specific
+
+Source page: https://parts.cat.com/en/catcorp/product/215-9984
