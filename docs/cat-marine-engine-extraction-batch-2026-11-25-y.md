@@ -5,6 +5,7 @@ This is the 27-record checkpoint batch (combined with batches W and X, 50 produc
 | Part number | Product | Key specifications / fitment | Application |
 |---|---|---|---|
 | 6I-0047 | Exhaust manifold | 3512 marine engine; 3512B marine auxiliary; generator and industrial variants | BOTH |
+| 6I-0046 | Exhaust manifold | 76.5 in length × 15 in height; alloy/structural steel; 3512 marine engine and 3512B marine auxiliary; generator/industrial fitments | BOTH |
 | 596-9253 | Aftercooler | Alloy aluminum; C32 MARINE ENGINE | MARINE |
 | 5L-5993 | Engine oil pump | Plastic material field; D379A/B and D398A/B marine, D379/D398 industrial | BOTH |
 | 622-8814 | Aftercooler | Alloy copper; C175-16 marine and generator/industrial variants | BOTH |
