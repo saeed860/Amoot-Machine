@@ -3038,3 +3038,22 @@ Source page: https://parts.cat.com/en/catcorp/product/116-9594
 ## Cat 122-9042 M315 piston-pump barrel seal kit — no current BOM rows published (batch 179)
 
 Source: official Cat Parts Store product page https://parts.cat.com/en/catcorp/product/122-9042. Current compatibility section shows EXCAVATOR / M315. Although an older search-index snippet exposed three components, the opened current official page explicitly states there are currently no parts associated with this kit. No components were imported from the stale snippet; dealer confirmation is required.
+
+
+## Additional Cat D9T/D9R front-housing install-gasket-kit BOM candidates — batch 180
+
+Source: official Cat Parts Store product page 467-8942, FRONT HOUSING INSTALL GASKET KIT. Compatible models explicitly shown: TRACK-TYPE TRACTOR / D9T, D9R. Cat describes the kit as a gasket set for sealing engine mating surfaces and preventing combustion-gas, coolant, oil and fuel leakage. Seven other listed items were already present in the discovery queue or original seed list and are not duplicated. The ten new rows below are official BOM references only; confirm the D9T/D9R engine serial and arrangement before ordering.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+112-1580 | 113.66mm Inside Diameter Seal-O-Ring | 1 | Cat 467-8942 D9T/D9R Front Housing Install Gasket Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+114-3824 | 0.8mm Thick Engine Oil Filter Gasket | 1 | Cat 467-8942 D9T/D9R Front Housing Install Gasket Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+166-9145 | Cylinder Block Gasket | 1 | Cat 467-8942 D9T/D9R Front Housing Install Gasket Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+180-6646 | 0.8mm Thick Gasket | 1 | Cat 467-8942 D9T/D9R Front Housing Install Gasket Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+234-8937 | 2.23mm Tool Turning Cover with Bonded Seal | 1 | Cat 467-8942 D9T/D9R Front Housing Install Gasket Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+467-2620 | 158.12mm Inside Diameter Seal-O-Ring | 1 | Cat 467-8942 D9T/D9R Front Housing Install Gasket Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+6N-2508 | 0.79mm Thick Engine Cover Gasket | 1 | Cat 467-8942 D9T/D9R Front Housing Install Gasket Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+6V-3549 | 145.64mm Inner Diameter O-Ring Seal | 1 | Cat 467-8942 D9T/D9R Front Housing Install Gasket Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+6V-5134 | 5.33 x 31.12mm 75A FKM O-Ring | 1 | Cat 467-8942 D9T/D9R Front Housing Install Gasket Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+9X-7371 | 126.59mm Inside Diameter Seal-O-Ring | 1 | Cat 467-8942 D9T/D9R Front Housing Install Gasket Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+
+Source page: https://parts.cat.com/en/catcorp/product/467-8942
