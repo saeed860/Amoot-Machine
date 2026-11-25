@@ -3931,3 +3931,45 @@ Additional Cat-linked discovery candidates from Cat related/frequently-bought-to
 Candidates remain separate from fitment claims and require individual item-page verification.
 
 Overall reviewed progress: 62/500 batches = 620/5,000 product target (12.4%). Original Cat seed list has 167 SKUs remaining (products 621–787).
+
+## Batch 63/500 — products 621–630 (2026-11-25)
+
+SKUs: 528-9753, 529-5780, 529-5790, 529-5791, 532-9206, 532-9208, 533-6299, 535-2508, 536-6756, 538-5051. All ten Cat product pages opened. Fitment, specifications and related parts were inspected. Corrections removed unsupported material/specification fields from 528-9753, 533-6299 and 538-5051, and corrected the 535-2508 thread notation.
+
+Verified:
+- 528-9753: Cat Engine Turbocharger, compressor wheel diameter 151mm and turbine wheel diameter 138mm. Existing Cat-compatible engine/model tags (5) and Cat Reman alternative 20R-8321 retained. Removed a previously stored material label (anti-seize/ductile iron) that was not supported by the Cat page.
+- 529-5780: Cat PC305 cold planer attachment. Specs: 17.7in working width, 6.7in maximum cut depth, high-flow hydraulics, 73.1in overall width, 49.1in length, 36.6in height, 1,869.5lb, 98–125L/min optimal flow, 230–280bar pressure, 149rpm, 42 conical bits, 8° tilt, 29.5in side-shift travel. Cat models: CTL 285XE/285/253/275/265/255/275XE; skid steer 250/270/260/270XE; cold planer PC305 (12 labels). DB matches. Parts diagram leads 9W-0852 and 9W-0844.
+- 529-5790: Cat PC306 cold planer attachment. Specs: 23.6in working width, 6.7in maximum cut depth, high-flow hydraulics, 73.1in overall width, 49.1in length, 36.6in height, 2,107.6lb, 98–125L/min optimal flow, 230–280bar pressure, 149rpm, 54 conical bits, 8° tilt, 29.5in side-shift travel. Same 12 CTL/skid-steer/PC306 labels as PC305. DB matches. Parts diagram leads 246-2641 and 5P-8500.
+- 529-5791: Cat PC306 With Water cold planer attachment. Specs: 23.6in working width, 6.7in maximum cut depth, high-flow hydraulics, 73.1in overall width, 56.4in length, 36.6in height, 2,685.2lb, 42.3gal water tank, 98–125L/min optimal flow, 230–280bar pressure, 149rpm, 54 conical bits, 8° tilt, 29.5in side-shift travel. Same 12 CTL/skid-steer/PC306 labels. DB matches.
+- 532-9206: Cat B6s hydraulic hammer for demolition/construction. Specs: 610.7lb operating weight with tool, 501.5ft·lbf energy class, 2.7in tool shaft, 500–900bpm, 1,775psi minimum operating pressure, 8,000.6lb minimum carrier weight, 40–70L/min optimal flow, 12.4in width, 17.3in length, 53.9in height, 39.1in without tool, 124dB, Large bracket. Cat fitment: CTL 285XE/285/253/275/265/255/275XE; mini excavator 306; hammer B6; skid steer 250/270/260/270XE/265; backhoe loader 416/444/434/420; backhoe BH150/BH160 (19 unique labels). DB matches.
+- 532-9208: Cat B8s hydraulic hammer. Specs: 758.4lb operating weight with tool, 848.2ft·lbf energy class, 3in tool shaft, 400–800bpm, 1,704.1psi minimum operating pressure, 13,999.3lb minimum carrier weight, 50–90L/min optimal flow, 12.4in width, 17.3in length, 55.2in height, 41.1in without tool, 129dB, Large bracket. Cat fitment: CTL 285XE/285/253/275/265/255/275XE; hammer B8; skid steer 250/270/260/270XE; backhoe loader 426/416/444/434/424/440/430/420 (20 labels). DB matches.
+- 533-6299: Cat Track Shoe, 500mm wide, regular joint, rubber pad. Specs: GD/HD undercarriage, no ARM, 19.685in shoe width, 1.969in plate thickness, M16 track-bolt thread, 0.709in bolt-hole diameter, not clipped. Cat compatible excavators 315 GC/313 GC/313F L/313F LGC/315/313/315F LCR/311F LRR (8 labels). Removed unsupported material, length and pad-width values from DB.
+- 535-2508: Cat Breather Assembly Filter Cap for fuel-tank breathing. Specs: 1.58in ID, 3 3/8-12 internal thread, 3.66in OD, 2.26in overall length, thermoplastic plastic, Fuel Filter type. Cat fitment Shovel 6040 and Hydraulic Shovel 6060/6040 (2 labels). Corrected thread notation to match Cat's exact published string and removed unsupported micron/square-drive values.
+- 536-6756: Cat Diesel Exhaust Fluid Tank Filter Assembly. Cat materials Plastic and Corrosion Preventative Fluid. 53 distinct compatible labels across generator LC31XX, generator set XQP115, soil compactors, backhoe loaders, material handlers MH3022/MH3024, grader 120 GC, telehandlers, compact wheel loaders and D1–D4 track tractors. DB fitment count matches.
+- 538-5051: Cat Communication Adapter Tool enables diagnostic communication between equipment and diagnostic software for troubleshooting/maintenance. Cat page publishes no compatible-model or specification section. DB now retains description only, with no inferred fitment or unsupported material/weight claims. Cat's related panel links 507-1011 9 Pin Adapter Cable.
+
+Cat pages:
+- https://parts.cat.com/en/catcorp/product/528-9753
+- https://parts.cat.com/en/catcorp/product/529-5780
+- https://parts.cat.com/en/catcorp/product/529-5790
+- https://parts.cat.com/en/catcorp/product/529-5791
+- https://parts.cat.com/en/catcorp/product/532-9206
+- https://parts.cat.com/en/catcorp/product/532-9208
+- https://parts.cat.com/en/catcorp/product/533-6299
+- https://parts.cat.com/en/catcorp/product/535-2508
+- https://parts.cat.com/en/catcorp/product/536-6756
+- https://parts.cat.com/en/catcorp/product/538-5051
+
+Post-update DB verification counts: 528-9753=5; 529-5780=12; 529-5790=12; 529-5791=12; 532-9206=19; 532-9208=20; 533-6299=8; 535-2508=2; 536-6756=53; 538-5051=0. No price or stock claims added.
+
+Additional Cat-linked discovery candidates from Cat parts diagrams/frequently-bought-together panels:
+- 529-5780: 9W-0852, 9W-0844.
+- 529-5790: 246-2641, 5P-8500.
+- 532-9206: 130-6951, 282-2785, 8F-9866.
+- 533-6299: 7M-8485, 379-7287, 487-3004, 591-8057, 137-2854.
+- 535-2508: 529-0280, 1R-0755, 487-2960, 417-6207, 468-9310.
+- 536-6756: 378-3187, 540-5119, 471-7003, 461-9110.
+- 538-5051: 507-1011.
+These remain discovery leads only and require individual item-level verification before promotion.
+
+Overall reviewed progress: 63/500 batches = 630/5,000 product target (12.6%). Original Cat seed list has 157 SKUs remaining (products 631–787).
