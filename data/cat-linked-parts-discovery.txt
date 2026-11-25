@@ -2380,3 +2380,20 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 392-0224 | Injector Group | 16 | Cat 350-2170 3516 MUI-to-Tier-2 Conversion Kit BOM; arrangement 2W-8870 to 320-0279 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
 
 Source page: https://parts.cat.com/en/catcorp/product/350-2170
+
+
+## Cat 350-2186 3512B Tier-2 conversion kit — no BOM rows published (batch 135)
+
+Source: https://parts.cat.com/en/catcorp/product/350-2186. Compatible model: MARINE ENGINE / 3512B. Standard Stroke conversion from arrangement 232-2508 to 282-9664. Current official page states there are currently no parts associated with this kit. No components inferred.
+
+## Cat 350-2178 3512B Tier-2 conversion kit — no BOM rows published (batch 136)
+
+Source: https://parts.cat.com/en/catcorp/product/350-2178. Compatible model: MARINE ENGINE / 3512B. Tier-1-to-Tier-2 conversion from arrangement 180-9193 to 320-0276. Current official page states there are currently no parts associated with this kit. No components inferred.
+
+## Cat 350-2185 3512B Tier-2 conversion kit — no BOM rows published (batch 137)
+
+Source: https://parts.cat.com/en/catcorp/product/350-2185. Compatible model: MARINE ENGINE / 3512B. Standard Stroke conversion from arrangement 174-3193 to 320-0275. Current official page states there are currently no parts associated with this kit. No components inferred.
+
+## Cat 350-2174 3508B Tier-2 conversion kit — no BOM rows published (batch 138)
+
+Source: https://parts.cat.com/en/catcorp/product/350-2174. Compatible model: MARINE ENGINE / 3508B. Tier-1-to-Tier-2 conversion from arrangement 173-6944 to 282-9662. Current official page states there are currently no parts associated with this kit. No components inferred.
