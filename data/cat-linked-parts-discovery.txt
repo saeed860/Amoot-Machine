@@ -225,19 +225,19 @@ Source pages:
 131-1651 | Track roller cap, 52mm high, 60mm wide, 150mm long | Frequently bought together with Cat 306-9441 | cat_item_page_verified; inserted_part_catalog; fitment_verified
 9G-7516 | 1-14-2A screw plug | Frequently bought together with Cat 9W-4481 and 131-1651 | cat_item_page_verified; inserted_part_catalog; fitment_verified
 2K-4472 | 158.34mm ID 75A NBR O-ring seal, dash259 | Frequently bought together with Cat 9W-4481 and 131-1651 | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
-7T-5959 | Bogie Suspension Resilient Pad | Cat Parts Store frequently bought together with 311-1299 | cat_linked_candidate; needs_individual_verification
-9X-4588 | 368.4mm Inner Diameter Track Roller Frame Seal | Cat Parts Store frequently bought together with 311-1299 | cat_linked_candidate; needs_individual_verification
-7G-1952 | 371.48mm Outside Diameter Sleeve Bearing | Cat Parts Store frequently bought together with 311-1299 | cat_linked_candidate; needs_individual_verification
-8T-0208 | 247.4mm Inner Diameter Pivot Shaft Seal | Cat Parts Store frequently bought together with 311-1299 | cat_linked_candidate; needs_individual_verification
+7T-5959 | Bogie suspension resilient pad | Related component shown on Cat 9W-4489 page | cat_item_page_verified; inserted_part_catalog; fitment_verified
+9X-4588 | 368.4mm ID track roller frame seal | Cat Parts Store frequently bought together with 7G-1952 | cat_item_page_verified; inserted_part_catalog; fitment_verified
+7G-1952 | 371.48mm OD, 50.55mm long straight sleeve bearing | Cat Parts Store frequently bought together with 9X-4588 | cat_item_page_verified; inserted_part_catalog; fitment_verified
+8T-0208 | 247.4mm ID pivot shaft seal | Cat Parts Store related part shown on 9X-4588 page | cat_item_page_verified; inserted_part_catalog; fitment_verified
 9W-4489 | 73.98mm ID suspension bogie insert | Related part shown on Cat 131-1650 page | cat_item_page_verified; inserted_part_catalog; description_vs_spec_dimensions_conflict_flagged
 3P-2482 | 57.6mm wide resilient pad | Related part shown on Cat 261-8287 page | cat_item_page_verified; inserted_part_catalog; fitment_verified
 3T-9075 | Suspension bogie insert | Related component shown on Cat 261-8287 page | cat_item_page_verified; inserted_part_catalog; fitment_verified
-9X-4590 | 422mm Inner Diameter Telescoping Recoil Frame Seal | Cat Parts Store frequently bought together with 311-1300 | cat_linked_candidate; needs_individual_verification
-3T-7494 | 433.82mm Outside Diameter Sleeve Bearing | Cat Parts Store frequently bought together with 311-1300 | cat_linked_candidate; needs_individual_verification
-8T-2863 | 114.30mm Rod Diameter Special U Cup Seal | Cat Parts Store frequently bought together with 311-1300 | cat_linked_candidate; needs_individual_verification
-179-3428 | Track Seal | Cat Parts Store frequently bought together with 311-8150 | cat_linked_candidate; needs_individual_verification
-6Y-8180 | Track Shoe | Cat Parts Store frequently bought together with 311-8150 | cat_linked_candidate; needs_individual_verification
-179-3426 | Track Seal | Cat Parts Store frequently bought together with 311-8150 | cat_linked_candidate; needs_individual_verification
+9X-4590 | 422mm ID telescoping recoil frame seal | Cat Parts Store related part shown on 3T-7494 and 8T-2863 pages | cat_item_page_verified; inserted_part_catalog; fitment_verified
+3T-7494 | 433.82mm OD split sleeve bearing | Cat Parts Store related part shown on 9X-4590 page | cat_item_page_verified; inserted_part_catalog; short_description_vs_title_spec_conflict_flagged
+8T-2863 | 114.30mm rod diameter special U-cup seal | Cat Parts Store frequently bought together with 9X-4590 | cat_item_page_verified; inserted_part_catalog; fitment_verified
+179-3428 | 69.4mm OD W-type grease-lubricated track seal | Cat Parts Store related track-seal alternate to 179-3426 | cat_item_page_verified; inserted_part_catalog; fitment_verified
+6Y-8180 | 850mm triple-grouser track shoe, regular joint | Cat Parts Store frequently bought together with 179-3428 | cat_item_page_verified; inserted_part_catalog; fitment_verified
+179-3426 | 68.7mm OD W-type track seal | Cat Parts Store alternate listing to 179-3428 | cat_item_page_verified; inserted_part_catalog; fitment_verified
 6Y-2590 | Track Link | Cat Parts Store frequently bought together with 311-8150 | cat_linked_candidate; needs_individual_verification
 6Y-5685 | Plain-steel offset track sprocket, 16 bolts, 23 teeth, 215.9mm pitch | Frequently bought together with Cat 300-4545 | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
 10R-9598 | Cat Reman auxiliary sea-water pump | Official replacement/alternate shown for discontinued Cat 212-8174 | cat_item_page_verified; existing_catalog_row_updated; Cat_Reman_condition_preserved
@@ -343,7 +343,7 @@ Source pages:
 586-3377 | 137.185mm Inner Diameter Cylinder Block Liner | Cat Parts Store component listed in 356-1448 Silver kit, quantity 6 | cat_linked_candidate; needs_individual_verification
 
 358-5259 | Bogie Assembly | Cat Parts Store frequently bought together with 362-3566 rear bogie assembly | cat_linked_candidate; needs_individual_verification
-7T-5959 | Bogie Suspension Resilient Pad | Cat Parts Store frequently bought together with 362-3566 rear bogie assembly | cat_linked_candidate; needs_individual_verification
+7T-5959 | Bogie suspension resilient pad | Related component shown on Cat 9W-4489 page | cat_item_page_verified; inserted_part_catalog; fitment_verified
 327-6618 | Cabin Air Filter | Cat Parts Store frequently bought together with 360-8960 fuel filter | cat_linked_candidate; needs_individual_verification
 5I-8670 | Advanced Efficiency Hydraulic Filter | Cat Parts Store frequently bought together with 360-8960 fuel filter and 363-9402 cabin filter | cat_linked_candidate; needs_individual_verification
 479-4131 | Water Separator Element | Cat Parts Store frequently bought together with 360-8960 fuel filter | cat_linked_candidate; needs_individual_verification
@@ -1200,8 +1200,8 @@ Source pages:
 5P-4057 | 760mm Inside Diameter O-Ring Seal | Cat Parts Store frequently bought together with 7T-1243 track bolt | cat_linked_candidate; needs_individual_verification
 5P-5846 | 40.64mm Inside Diameter Seal-O-Ring | Cat Parts Store frequently bought together with 7T-1243 track bolt | cat_linked_candidate; needs_individual_verification
 1J-2890 | 6.99 x 227.96mm 75A NBR O-Ring | Cat Parts Store frequently bought together with 7T-1331 track roller guide | cat_linked_candidate; needs_individual_verification
-9X-4590 | 422mm Inner Diameter Telescoping Recoil Frame Seal | Cat Parts Store frequently bought together with 7T-1331 track roller guide | cat_linked_candidate; needs_individual_verification
-3T-7494 | 433.82mm Outside Diameter Sleeve Bearing | Cat Parts Store frequently bought together with 7T-1331 track roller guide | cat_linked_candidate; needs_individual_verification
+9X-4590 | 422mm ID telescoping recoil frame seal | Cat Parts Store related part shown on 3T-7494 and 8T-2863 pages | cat_item_page_verified; inserted_part_catalog; fitment_verified
+3T-7494 | 433.82mm OD split sleeve bearing | Cat Parts Store related part shown on 9X-4590 page | cat_item_page_verified; inserted_part_catalog; short_description_vs_title_spec_conflict_flagged
 2S-5926 | Track Adjuster Relief Valve | Cat Parts Store frequently bought together with 7T-1331 track roller guide | cat_linked_candidate; needs_individual_verification
 3P-2482 | 57.6mm wide resilient pad | Related part shown on Cat 261-8287 page | cat_item_page_verified; inserted_part_catalog; fitment_verified
 134-2679 | Bogie Assembly | Cat Parts Store related part for 7T-5417 middle bogie | cat_linked_candidate; needs_individual_verification
@@ -1580,3 +1580,7 @@ Source pages:
 132-8876 | Hydraulic/Transmission Oil Filter | Cat Parts Store frequently bought together with 2K-4472 | cat_linked_candidate; needs_individual_verification
 2S-8439 | 123.19mm Inside Diameter Seal-O-Ring | Cat Parts Store frequently bought together with 2K-4472 | cat_linked_candidate; needs_individual_verification
 30R-1818 | Cat Reman Engine Connecting Rod | Cat Parts Store compare-alternate item on 489-5670 connecting rod page | cat_linked_candidate; needs_individual_verification
+
+8T-1981 | Special U-Cup Seal | Cat Parts Store related component shown on 9X-4588 page | cat_linked_candidate; needs_individual_verification
+4J-3342 | 120.70mm Bore Diameter Piston Guide | Cat Parts Store frequently bought together with 8T-2863 | cat_linked_candidate; needs_individual_verification
+6P-7577 | 161.97mm Bore Diameter Piston Guide | Cat Parts Store frequently bought together with 8T-2863 | cat_linked_candidate; needs_individual_verification
