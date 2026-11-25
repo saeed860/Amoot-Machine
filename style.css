@@ -569,3 +569,11 @@
  .hero-shade{background:linear-gradient(270deg,rgba(32,35,38,.98),rgba(32,35,38,.72) 60%,rgba(32,35,38,.22))!important}
  .hero-copy{width:100%!important;max-width:100%!important}
 }
+
+/* Google OAuth button */
+.google-auth-divider{display:flex;align-items:center;gap:10px;margin:13px 0;color:#92979b;font-size:11px}
+.google-auth-divider:before,.google-auth-divider:after{content:"";height:1px;background:#e4e6e8;flex:1}
+.google-auth-button{width:100%;display:flex;align-items:center;justify-content:center;gap:11px;padding:12px 14px;border:1px solid #dadce0;border-radius:8px;background:#fff;color:#303134;font:700 13px Estedad;cursor:pointer;transition:background .15s,border-color .15s}
+.google-auth-button:hover{background:#f8f9fa;border-color:#b9bec4}
+.google-auth-button:disabled{opacity:.6;cursor:wait}
+.google-auth-button .google-g{font:800 19px Arial,sans-serif;color:#4285f4;background:conic-gradient(from -45deg,#4285f4 0 25%,#34a853 25% 50%,#fbbc05 50% 75%,#ea4335 75%);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent}
