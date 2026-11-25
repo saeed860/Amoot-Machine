@@ -2168,3 +2168,29 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 6V-1943 | 3/8-16 x 1 1/8 Hex Head Bolt | 8 | Cat 386-9621 3516/3516B Generator Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
 
 Source page: https://parts.cat.com/en/catcorp/product/386-9621
+
+
+## Additional Cat 3512E marine engine-parts-kit BOM candidates — batch 123
+
+Source: official Cat Parts Store product page 508-8168, Engine Parts Kit. Compatible models explicitly shown: MARINE ENGINE / 3512E and ENGINE / 3512E. Fifteen other first-page components were already present in the discovery queue or original seed list and are not duplicated. The seventeen new rows below are official BOM references only, not standalone orderability, inventory, price, or serial-specific fitment confirmation.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+156-9744 | 64 Teeth Camshaft Drive Gear | 1 | Cat 508-8168 3512E Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+222-4701 | 97mm Internal Diameter Bellows | 2 | Cat 508-8168 3512E Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+225-4340 | 135.10mm Minimum Internal Diameter Band V Clamp | 2 | Cat 508-8168 3512E Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+362-8264 | Cylinder Head Gasket | 1 | Cat 508-8168 3512E Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+373-5507 | Injector Group | 1 | Cat 508-8168 3512E Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+376-7739 | 3/8-16 x 2 1/2 Hex Head Bolt | 16 | Cat 508-8168 3512E Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+399-7361 | 72 Teeth Rear Crankshaft Gear | 1 | Cat 508-8168 3512E Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+443-6069 | Camshaft Idler Gear | 1 | Cat 508-8168 3512E Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+443-9634 | Cluster Idler Gear | 1 | Cat 508-8168 3512E Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+446-1290 | Stainless Steel Standard V Band Clamp | 2 | Cat 508-8168 3512E Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+489-9246 | Exhaust Manifold Bellow | 1 | Cat 508-8168 3512E Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+489-9247 | Exhaust Manifold Bellow | 1 | Cat 508-8168 3512E Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+513-4715 | Basic Engine Exhaust Turbocharger | 1 | Cat 508-8168 3512E Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+532-5740 | Basic Cylinder Head | 1 | Cat 508-8168 3512E Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+641-3771 | Exhaust Manifold Gasket | 2 | Cat 508-8168 3512E Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+647-3208 | Exhaust Manifold Gasket | 2 | Cat 508-8168 3512E Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+659-4342 | 10mm Thick Spacer | 16 | Cat 508-8168 3512E Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+
+Source page: https://parts.cat.com/en/catcorp/product/508-8168
