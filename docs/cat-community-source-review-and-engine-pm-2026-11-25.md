@@ -2701,3 +2701,11 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - سایر نتایج جستجو از قبل در Master و CSVهای مربوط ثبت بودند و تکرار نشدند.
 - منبع رسمی: https://parts.cat.com/en/catcorp/product/129-8545
 - شمارنده هدف پس از ثبت: 4393 شماره یکتا؛ Mirror byte-exact و Workflow برابر 4393.
+
+
+## دور ۷۵ — 25 Nov 2026
+
+- سه شماره جدید از صفحات رسمی Cat Parts Store با فیتمنت 297C و بدون 287B به Master و CSV مستقل 297C-only افزوده شد: 247-5874 — Plate-Cover؛ 337-9101 — Seal Kit؛ 293-2872 — Switch Wiring Harness.
+- 166-0321 — Seal Kit قبلاً در Master و CSV 297C-only بود؛ صفحه رسمی Cat فیتمنت 287B را نیز نشان می‌دهد، بنابراین ردیف متناظر به CSV 287B افزوده شد. کاربرد دقیق و اجزای کیت پیش از سفارش با PIN/پیکربندی تطبیق داده شود.
+- منابع رسمی: https://parts.cat.com/en/catcorp/product/247-5874 ؛ https://parts.cat.com/en/catcorp/product/337-9101 ؛ https://parts.cat.com/en/catcorp/product/293-2872 ؛ https://parts.cat.com/en/catcorp/product/166-0321
+- شمارنده هدف پس از ثبت: 4396 شماره یکتا؛ Mirror byte-exact و Workflow برابر 4396.
