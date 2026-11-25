@@ -11,7 +11,7 @@ Six additional CAT product records were captured from official product pages and
 | 8S-9129 | Transmission magnetic filter | 2.472 in diameter × 3.587 in length; alloy aluminum; standard-efficiency hydraulic/transmission filter | AD22, CX35/CX31/CX28, graders, track-type tractors, loaders, backhoes and other listed equipment. LAND; no explicit marine transmission designation found. |
 | 534-8305 | Hydraulic screen oil filter | 3.15 in diameter × 6.693 in length; steel/carbon steel; Out-to-In | Hydraulic Shovel 6060 and 6030. LAND |
 | 328-5972 | Hydraulic protection filter screen | 250 micron; 4.0 in diameter × 5.252 in length; In-to-Out; 6000 PSIG / 41 MPa maximum pressure; 103 GPM / 389 LPM rated flow | Truck 797F and 797B. LAND |
-| 6E-5066 | Hydraulic screen | Stainless-steel mesh, 60 mesh; 230 micron particle retention; 9/16-18 thread; 0.591 in diameter × 1.024 in length; In-to-Out | Official compatible-model list explicitly includes C32 MARINE ENGINE as well as land equipment. BOTH |
+| 6E-5066 | Hydraulic screen | Stainless-steel mesh, 60 mesh; 230 micron particle retention; 9/16-18 thread; 1.024 in length; the CAT page has a diameter conflict (specification field 0.591 in vs description 9.9 mm / 0.39 in); In-to-Out | Official compatible-model list explicitly includes C32 MARINE ENGINE as well as land equipment. BOTH |
 
 ### Official source URLs
 
