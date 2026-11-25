@@ -1460,3 +1460,10 @@ Source pages:
 354-7512 | Arctic Idler Group, 204mm Rim, 585mm Tread | Cat Parts Store related idler for 638-4575 | cat_linked_candidate; needs_individual_verification
 385-0957 | Arctic Idler Group, 204mm Rim, 585mm Tread | Cat Parts Store related idler for 638-4575 | cat_linked_candidate; needs_individual_verification
 477-2653 | Standard Idler Group, 257mm Rim, 720mm Tread | Cat Parts Store related idler for 638-4575 | cat_linked_candidate; needs_individual_verification
+
+6I-0038 | 1.83mm Inner Diameter Fuel Injector Line | Cat Parts Store related fuel injector line for 6I-0036 | cat_linked_candidate; needs_individual_verification
+6I-0034 | 1.83mm Inner Diameter Fuel Injector Line | Cat Parts Store related fuel injector line for 6I-0036 | cat_linked_candidate; needs_individual_verification
+6I-0031 | 1.83mm Inner Diameter Fuel Injector Line | Cat Parts Store related fuel injector line for 6I-0036 | cat_linked_candidate; needs_individual_verification
+6I-0032 | 1.83mm Inner Diameter Fuel Injector Line | Cat Parts Store related fuel injector line for 6I-0036 | cat_linked_candidate; needs_individual_verification
+6I-0033 | 1.83mm Inner Diameter Fuel Injector Line | Cat Parts Store related fuel injector line for 6I-0036 | cat_linked_candidate; needs_individual_verification
+6I-8077 | Track Segment | Cat Parts Store frequently bought together with 6V-0937 track bolt | cat_linked_candidate; needs_individual_verification
