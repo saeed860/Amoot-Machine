@@ -2452,3 +2452,14 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - هر دو شماره به Master و CSV رسمی 287B افزوده شدند.
 - منابع رسمی: https://parts.cat.com/en/catcorp/product/230-3757 ؛ https://parts.cat.com/en/catcorp/product/230-4959
 - شمارنده هدف دور: 4338 شماره یکتا؛ Mirror و Workflow با Master همگام شدند.
+
+
+## دور ۸۴ — 25 Nov 2026
+
+- چهار فیتمنت جدید/تکمیل‌نشده از صفحات رسمی Cat Parts Store به CSV رسمی 287B افزوده شد:
+  - 125-9134 — 70.60mm Outer Diameter Bearing؛ فیتمنت 287B؛ موقعیت، بار مجاز و ابعاد شفت/نشیمن تطبیق داده شود. شماره جدید Master.
+  - 393-3670 — BEARING-SLV-GD؛ فیتمنت 287B و 297C؛ ابعاد درج‌شده 1.506in ID، 2.002in OD و 1.09in طول؛ شماره جدید Master.
+  - 231-7161 — PLUG - GP؛ فیتمنت 287B؛ محل نصب و سطح آب‌بندی از Parts Diagram کنترل شود.
+  - 230-3726 — 18mm Inner Diameter Shaft Seal؛ فیتمنت 287B؛ آب‌بند NBR برای fan motor؛ قطر شفت، OD و عرض با group موتور تطبیق داده شود.
+- منابع رسمی: https://parts.cat.com/en/catcorp/product/125-9134 ؛ https://parts.cat.com/en/catcorp/product/393-3670 ؛ https://parts.cat.com/en/catcorp/product/231-7161 ؛ https://parts.cat.com/en/catcorp/product/230-3726
+- وضعیت ثبت: 4341 شماره یکتا؛ Mirror برابر Master؛ Workflow برابر 4341.
