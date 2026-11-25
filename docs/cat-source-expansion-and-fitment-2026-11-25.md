@@ -203,5 +203,5 @@ Workflow شماره 45574758840 در صفحه‌های اولیه Cat چند tim
 - فایل داده: data/cat-engine-family-parts-c7-c9-c13-c15-c18-2026-11-25.csv
 - تعداد ردیف‌های مشاهده: 110
 - شماره‌های یکتای فایل: 9
-- تعداد Master: 1524
+- تعداد Master: 1532
 - فایل Offroad باید mirror دقیق Master باشد؛ رکوردهای محدود به marine/engine arrangement همچنان نیازمند کنترل serial و arrangement هستند.
