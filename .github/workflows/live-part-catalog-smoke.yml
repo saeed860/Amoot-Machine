@@ -10,6 +10,9 @@ on:
       - "scripts/live-part-catalog-smoke.mjs"
       - ".github/workflows/live-part-catalog-smoke.yml"
   workflow_dispatch:
+concurrency:
+  group: live-catalog-smoke-${{ github.ref }}
+  cancel-in-progress: true
 jobs:
   live-api:
     if: github.event_name == 'workflow_dispatch' || github.event_name == 'push' || github.event.workflow_run.conclusion == 'success'
