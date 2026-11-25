@@ -1841,3 +1841,15 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - https://parts.cat.com/en/catcorp/product/272-3050
 
 برای 289-3787، قطر لوله، routing، اتصالات و فشار مدار با PIN دستگاه تطبیق داده شود. برای 272-3050 هیچ موجودی یا فروش جدیدی فرض نشود.
+
+## دور ۵۹ — تکمیل اجزای کیت Undercarriage 287B (25 Nov 2026)
+
+دو شماره از صفحات رسمی Cat Parts Store که 287B را صریحاً در Compatible Models نشان می‌دهند، تکمیل شدند:
+- 8S-6212 — 1/2-13 x 13in Hex Head Bolt؛ طول 13in و grip length برابر 11.5in؛ در Master و CSV فیتمنت 287B ثبت شد.
+- 220-8161 — Rubber Track Belt؛ عرض 457mm، گام 100mm، 51 بخش؛ در Master از قبل موجود بود و ردیف فیتمنت 287B آن در CSV تکمیل شد.
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/product/8S-6212
+- https://parts.cat.com/en/catcorp/product/220-8161
+
+برای track belt، tread pattern، عرض، pitch و تعداد sections باید با track frame و sprocket مطابقت داده شود. برای 8S-6212 نیز طول، grade و محل اتصال با Parts Diagram کنترل شود. قطعات کیت 305-9256 به‌صورت خودکار هم‌فیت فرض نشدند؛ هر قطعه فقط با Compatible Models صفحه خودش ثبت می‌شود.
