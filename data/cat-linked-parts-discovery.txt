@@ -3423,3 +3423,21 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 671-2673 | Hydraulic cylinder seal kit | 3 | Cat 622-9417 Motor Grader Hydraulic Cylinder Seal Kit BOM | official_cat_kit_bom_verified; page_exposes_one_of_1_items; cylinder_group_specific
 
 Source page: https://parts.cat.com/en/catcorp/product/622-9417
+
+
+## Additional Cat 336D2/325D/329D/330C/330D/340D/323D hydraulic-cylinder seal-kit BOM candidates — batch 202
+
+Source: official Cat Parts Store product page 242-6840, Hydraulic Cylinder Seal Kit - Standard Size. Compatible models explicitly shown: EXCAVATOR / 336D2, 325D FM, 329D LN, 329D L, 325D L, 330C LN, 320C, 330C FM, 330C, 330D, 336D, 336D LN, 340D L, 323D L, 336D2 L, 330D LN, 330C L, 330D L, 336D L, 330D FM, 325C, 325D; MOBILE HYD POWER UNIT / 330D, 336D L, 330C, 329D L, 325D L, 330D LN, 325D, 345C L, 349D L. Cat specifies standard nominal bore sizing up to 0.25mm (0.010in) max and cylinder-group-specific application. All nine BOM references were new to the discovery queue and original seed list.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+095-1633 | 5.7 x 139.6mm 90A NBR O-Ring | 1 | Cat 242-6840 Excavator/Mobile Hydraulic Power Unit Standard-Size Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+165-9290 | 102.5mm Inner Diameter Lip Type Wiper Seal | 1 | Cat 242-6840 Excavator/Mobile Hydraulic Power Unit Standard-Size Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+170-9864 | 103.4mm Inner Diameter U Cup Seal | 1 | Cat 242-6840 Excavator/Mobile Hydraulic Power Unit Standard-Size Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+188-4217 | 150.05mm Bore Diameter Wear Ring Piston Guide | 2 | Cat 242-6840 Excavator/Mobile Hydraulic Power Unit Standard-Size Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+188-4218 | 141.93mm Internal Diameter Plastic Ring | 1 | Cat 242-6840 Excavator/Mobile Hydraulic Power Unit Standard-Size Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+242-6833 | 99mm OD Hydraulic Cylinder Seal Ring | 1 | Cat 242-6840 Excavator/Mobile Hydraulic Power Unit Standard-Size Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+7Y-4669 | 105mm Internal Diameter Backup Ring | 1 | Cat 242-6840 Excavator/Mobile Hydraulic Power Unit Standard-Size Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+7Y-4673 | 140.20mm Internal Diameter Backup Ring | 1 | Cat 242-6840 Excavator/Mobile Hydraulic Power Unit Standard-Size Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+9X-3601 | Bucket Cylinder Seal | 1 | Cat 242-6840 Excavator/Mobile Hydraulic Power Unit Standard-Size Cylinder Seal Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; cylinder_group_and_dimensions_required
+
+Source page: https://parts.cat.com/en/catcorp/product/242-6840
