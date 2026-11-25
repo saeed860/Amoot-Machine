@@ -2350,3 +2350,18 @@ Source page: https://parts.cat.com/en/catcorp/product/436-1747
 ## Cat 350-2190 3516B Tier-2 conversion kit — no BOM rows published (batch 132)
 
 Source: official Cat Parts Store product page https://parts.cat.com/en/catcorp/product/350-2190. Compatible model explicitly shown: MARINE ENGINE / 3516B. The product description identifies a Standard Stroke Tier 1-to-Tier 2 conversion from arrangement 232-2523 to 320-0279, intended for use with an engine overhaul. The current official page explicitly states that there are currently no parts associated with this kit. Search-index snippets that showed a parts list were not used because the opened current product page contradicts them. No component part numbers were inferred or added.
+
+
+## Additional Cat 3516B/3516 EUI-to-Tier-2 engine conversion-kit BOM candidates — batch 133
+
+Source: official Cat Parts Store product page 357-1810, 3516 Tier 2 Engine Upgrade Kit. The product description identifies a conversion from 3516 EUI arrangement 100-8318 to 282-9667, intended for use with an engine overhaul. Compatible models explicitly shown: MARINE ENGINE / 3516B and 3516. Three other listed components were already present in the discovery queue or seed list and are not duplicated. The six new rows below are arrangement-specific conversion-kit components; they are not generic replacement recommendations.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+245-4621 | Core-Aftercooler | 2 | Cat 357-1810 3516 EUI-to-Tier-2 Conversion Kit BOM; arrangement 100-8318 to 282-9667 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
+376-0393 | 4 Valve Basic Cylinder Head | 16 | Cat 357-1810 3516 EUI-to-Tier-2 Conversion Kit BOM; arrangement 100-8318 to 282-9667 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
+453-1877 | Left-Hand Engine Rear Camshaft | 1 | Cat 357-1810 3516 EUI-to-Tier-2 Conversion Kit BOM; arrangement 100-8318 to 282-9667 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
+453-1878 | Right-Hand Engine Front Camshaft | 1 | Cat 357-1810 3516 EUI-to-Tier-2 Conversion Kit BOM; arrangement 100-8318 to 282-9667 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
+453-1879 | Right-Hand Engine Rear Camshaft | 1 | Cat 357-1810 3516 EUI-to-Tier-2 Conversion Kit BOM; arrangement 100-8318 to 282-9667 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
+453-1880 | Left-Hand Engine Front Camshaft | 1 | Cat 357-1810 3516 EUI-to-Tier-2 Conversion Kit BOM; arrangement 100-8318 to 282-9667 | official_cat_conversion_kit_bom_verified; standalone_item_page_not_checked; arrangement_specific
+
+Source page: https://parts.cat.com/en/catcorp/product/357-1810
