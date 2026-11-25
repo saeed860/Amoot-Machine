@@ -2797,3 +2797,12 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - هر چهار شماره به Master و CSV فیتمنت 287B اضافه شدند. برای سفارش باید قطر شیار، ضخامت و محل نصب با نقشه قطعات/PIN تطبیق داده شود.
 - منابع رسمی: https://parts.cat.com/en/catcorp/product/234-0743 ؛ https://parts.cat.com/en/catcorp/product/064-3843 ؛ https://parts.cat.com/en/catcorp/product/1H-8134 ؛ https://parts.cat.com/en/catcorp/product/212-4483
 - Master هدف پس از این دور: 4432 شماره یکتا؛ Mirror و Workflow با آن همگام شدند.
+
+
+## دور ۷۲ — 25 Nov 2026
+
+- یک قطعه جدید از صفحه رسمی Cat Parts Store با فیتمنت صریح 287B و 297C ثبت شد:
+  - 238-8281 — Piston Ring Set؛ Compatible Models صفحه رسمی شامل 287B و 297C است. انتخاب استاندارد/اورسایز باید با اندازه‌گیری bore، وضعیت پیستون و engine arrangement تطبیق داده شود.
+- شماره به Master و CSV فیتمنت 287B اضافه شد. سایر نتایج بررسی‌شده از قبل ثبت شده بودند.
+- منبع رسمی: https://parts.cat.com/en/catcorp/product/238-8281
+- Master هدف پس از این دور: 4433 شماره یکتا؛ Mirror و Workflow با آن همگام شدند.
