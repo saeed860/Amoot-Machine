@@ -5045,3 +5045,37 @@ Post-update verification: all ten SKUs exist with Cat official item-page evidenc
 Eighteen further related leads added: 449-2304, 300-4545, 179-3428, 179-3047, 179-3048, 449-2293, 465-1559, 625-8218, 115-3696, 248-7143, 567-7852, 567-7867, 575-6593, 602-9393, 622-2492, 7C-7678, 7W-2122 and 2W-6672. They remain unverified candidates until their own item pages are checked.
 
 Overall reviewed progress: 90/500 batches = 900/5,000 product target (18.0%). Original Cat seed list 787/787 complete; discovery-derived products individually verified/updated: 133. Remaining target: 4,100 products.
+
+## Batch 91/500 — Cat-linked discovery candidates 111–120 (2026-11-25)
+
+Ten pending candidates were individually checked against official Cat Parts Store item pages. Seven new catalog rows were inserted; three existing rows (1R-1808, 5D-5957 and 184-4396) were refreshed. All ten were re-queried after updates and model arrays deduplicated.
+
+Verified:
+- 357-7540 — Track Adjuster Fill Valve. Cat says it controls track tension and position. Plated steel, carbon steel/alloy zinc, length 2.6in, height 1.0in. 181 visible model labels partially normalized across 3512/3512B gensets, 345C shovel logger, 352F/320E/330F special solutions, MH3295, OEM-PM, 308/307 mini excavators, MD6250/MD5075/MD5150C/MD6290/MD6240 drills, 558 forestry, 5080/385C/5090B front shovels and broad 300-series excavators.
+- 1R-1808 — Advanced Efficiency Engine Oil Filter. Existing secondary-catalog row refreshed with official Cat item-page specs. Diameter 5.346in, length 12.087in, Out-to-In, Advanced High Efficiency, Spin-On; NBR/HNBR/XNBR, cyanoacrylate adhesive, carbon/alloy steel and nylon/polyamide materials. Cat public page did not expose a readable compatible-model list, so prior unverified engine tags were removed.
+- 136-7227 — 19.18mm ID 75A FKM O-ring. Cross-section 0.097in, ID 0.755in, dash 910, FKM/PTFE; Cat fluid compatibility includes diester, halogenated hydrocarbons above 100°C, petroleum/phosphate ester/silicone fluids and some acids. 140 model labels partially normalized across generators, engines, scrapers, harvesters, skidders, drills, excavators, compactors, petroleum engines and locomotive/transmission groups.
+- 1H-9696 — 3.53 ×44.04mm 75A NBR O-ring, dash 224. Cross-section 0.139in, ID 1.734in, NBR 75. 167 visible model labels partially normalized across generators, engines, IT toolcarriers, scrapers, skidders, drills, excavators, CTLs, wheel tractors, hydraulic controls, track loaders and compactors.
+- 5D-5957 — 104.37mm ID 75A FKM O-ring, dash 243. Existing row refreshed with Cat compatible-model evidence. Cross-section 0.139in, ID 4.109in, FKM fluorocarbon, compatible with diester/halogenated hydrocarbon/petroleum/phosphate ester/silicone fluids and some acids. 99 fitment labels across generators, AD63/AD45, C16, XQ power modules, scrapers, R2900 XE, MH3260, trucks, graders, RC20, shovels, 3608 genset, D6/D8/D9/D10/D11 tractors, drills, marine engines, pipelayers and 5230B/5130B mining excavators.
+- 6V-8398 — 1.78 ×12.47mm 90A NBR O-ring face seal. Cross-section 0.07in, ID 0.491in, NBR/PTFE, fitting 13/16–16, ORFS, dash 014. 161 visible labels partially normalized across IT toolcarriers, harvesters, grapples, drills, mini excavators, forestry/feller bunchers, harvester heads, silage defacers and 300-series excavators.
+- 8X-1106 — 1/8in Thread Grease Fitting Adapter. Length 1.0in, height 0.4in, carbon steel/alloy zinc. 58 fitment labels across AD40/45/55/60/63 trucks, 651E/657E wheel tractors, R1300/R1600/R1700/R2900/R3000 LHDs, 789/777/793/798/796/785 trucks, 844/854 wheel dozers, 24H/24M/16/18/140M/16M/160M/14M graders and RC20.
+- 131-1650 — Track Roller Cap, 169.5mm long. Cat says end collars lock idler shaft and sealing system. Length 6.673in, height 2.283in, width 2.539in, offset 0.118in, two 1.122in holes at 2.067/4.134in, shaft mount diameter 2.683in, dowel pin 0.378in. Fitment D10R/D10T2/D10T/D10N/D10, 3508B genset and PL83/PL87/589/583T/583R/587T/587R pipelayers (13 labels).
+- 184-4396 — Existing steel undercarriage roller guide refreshed. Cat confirms Boron Steel; compatible D10N/D10R/D10T2/D10/D10T and pipelayer 589 (6 labels).
+- 9W-4489 — 73.98mm ID Suspension Bogie Insert. Cat says it sits between bogie suspension and idler shaft. Important dimension discrepancy: Cat description says length 4.72in/thickness 0.39in, while specification panel says overall length 3.62in, width 2.56in, height 1.75in, thickness 0.35in. Both sets retained and conflict flagged. Material steel/alloy steel. Fitment D9L/D10R/D10T2/D10T/D10N/D10, ripper 9, pipelayer 589, bulldozer 9U/10SU/10U/9S/9C and winch 59/59N/58L/59L (17 labels).
+
+Cat item pages:
+- https://parts.cat.com/en/catcorp/product/357-7540
+- https://parts.cat.com/en/catcorp/product/1R-1808
+- https://parts.cat.com/en/catcorp/product/136-7227
+- https://parts.cat.com/en/catcorp/product/1H-9696
+- https://parts.cat.com/en/catcorp/product/5D-5957
+- https://parts.cat.com/en/catcorp/product/6V-8398
+- https://parts.cat.com/en/catcorp/product/8X-1106
+- https://parts.cat.com/en/catcorp/product/131-1650
+- https://parts.cat.com/en/catcorp/product/184-4396
+- https://parts.cat.com/en/catcorp/product/9W-4489
+
+Post-update verification: all ten SKUs exist with Cat official item-page evidence and REFERENCE status. Seven inserted, three existing rows updated. Fitment counts after de-duplication: 357-7540=181; 1R-1808=0 (no Cat fitment list exposed); 136-7227=140; 1H-9696=167; 5D-5957=99; 6V-8398=161; 8X-1106=58; 131-1650=13; 184-4396=6; 9W-4489=17. Dimension conflict for 9W-4489 flagged; no prices, stock or interchange guarantees added.
+
+Eleven additional related leads added: 2S-5926, 7Y-0682, 093-1436, 093-1512, 248-7174, 8L-2786, 309-7679, 306-9447, 306-9449, 7T-5959 and 6V-8397. They remain candidates pending individual item-page verification.
+
+Overall reviewed progress: 91/500 batches = 910/5,000 product target (18.2%). Original Cat seed list 787/787 complete; discovery-derived products individually verified/updated: 143. Remaining target: 4,090 products.
