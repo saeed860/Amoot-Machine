@@ -381,3 +381,34 @@ Master پس از این دور 2,274 شماره یکتا دارد و Mirror با
 261-6296 در صفحه رسمی Cat به‌عنوان Track Roller برای 287B دیده شد اما وضعیت آن صریحاً Discontinued است؛ بنابراین دوباره به‌عنوان قطعه جدید یا قابل سفارش وارد Master نشد. 258-2405 نیز پمپ هیدرولیک با وضعیت Discontinued است و به همین دلیل ثبت جدید نشد. اقلام 297C-only نباید به 287B تعمیم داده شوند. برای قطعات زیربندی، گام زنجیر، نوع UC system، آرایش و شماره سریال کنترل شود.
 
 در زمان ثبت، Master دارای 2,413 شماره یکتا است. این عدد ممکن است به‌دلیل به‌روزرسانی‌های هم‌زمان تغییر کند؛ Mirror و Workflow باید دقیقاً از Master جاری همسان شوند.
+
+
+## دور دهم — کنترل هیدرواستاتیک، کشش زنجیر و سوخت (25 Nov 2026)
+
+10 شماره جدید با فیتمنت صریح در صفحات رسمی Cat Parts Store ثبت شد:
+- 233-5598 — Hydrostatic Control Drive Tube Assembly؛ 287B.
+- 8I-5078 — Hydraulic Control Valve O-Ring Seal؛ 287B.
+- 231-7299 — Hydraulic Control Valve Spool؛ 287B و 297C.
+- 204-1472 — Hydraulic Control Valve Cap Seal O-Ring؛ 287B و 297C.
+- 252-0327 — Track Tensioner Shaft؛ 287B.
+- 287-8753 — Hydraulic Control Valve Screen؛ 287B و 297C.
+- 207-9729 — Fuel Separator؛ 287B.
+- 218-5839 — Hydraulic Control Lines Tube Assembly؛ 287B.
+- 210-0825 — Track Tensioner Group؛ 287B.
+- 141-4999 — Tooth Group؛ 287B و 297C.
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/product/233-5598
+- https://parts.cat.com/en/catcorp/product/8I-5078
+- https://parts.cat.com/en/catcorp/product/231-7299
+- https://parts.cat.com/en/catcorp/product/204-1472
+- https://parts.cat.com/en/catcorp/product/252-0327
+- https://parts.cat.com/en/catcorp/product/287-8753
+- https://parts.cat.com/en/catcorp/product/207-9729
+- https://parts.cat.com/en/catcorp/product/218-5839
+- https://parts.cat.com/en/catcorp/product/210-0825
+- https://parts.cat.com/en/catcorp/product/141-4999
+
+برای 8I-5078 و 204-1472، محل دقیق آب‌بندی در شماتیک شیر باید مشخص شود؛ برای 231-7299 نوع شیر و نسخه اسپول؛ برای 233-5598 و 218-5839 مسیر و اتصالات لوله؛ برای 252-0327 و 210-0825 آرایش کشنده زنجیر؛ و برای 141-4999 سری دندانه و نوع باکت باید با شماره سریال/گروه دستگاه تطبیق داده شود. فیتمنت 297C-only به 287B تعمیم داده نشده است.
+
+Master در زمان این ثبت 2,423 شماره یکتا دارد. Mirror و شمارنده Workflow با Master جاری همسان‌سازی شدند.
