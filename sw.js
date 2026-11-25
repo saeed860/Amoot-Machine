@@ -1,9 +1,15 @@
 /* Amoot Machine service worker - deliberately excludes account/API data */
 'use strict';
-const CACHE_NAME = 'amoot-shell-v1';
+const CACHE_NAME = 'amoot-shell-v2';
 const SHELL_URL = new URL('./index.html', self.registration.scope).toString();
+const CORE_URLS = [
+  SHELL_URL,
+  new URL('./manifest.webmanifest', self.registration.scope).toString(),
+  new URL('./assets/pwa-icon-192.svg', self.registration.scope).toString(),
+  new URL('./assets/pwa-icon-512.svg', self.registration.scope).toString()
+];
 self.addEventListener('install', event => {
-  event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.add(SHELL_URL)).then(() => self.skipWaiting()));
+  event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(CORE_URLS)).then(() => self.skipWaiting()));
 });
 self.addEventListener('activate', event => {
   event.waitUntil(caches.keys().then(keys => Promise.all(
@@ -29,7 +35,7 @@ self.addEventListener('fetch', event => {
     return;
   }
 
-  if (/\.(?:css|js|png|jpe?g|webp|svg|woff2?|ttf|ico)$/i.test(url.pathname)) {
+  if (/\.(?:css|js|png|jpe?g|webp|svg|woff2?|ttf|ico|webmanifest)$/i.test(url.pathname)) {
     event.respondWith(caches.match(request).then(cached => {
       const update = fetch(request).then(response => {
         if (response && response.ok) {
