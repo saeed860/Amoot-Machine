@@ -4093,3 +4093,42 @@ Additional candidate pages independently verified during this batch but not part
 These remain discovery candidates, not counted in the 650-product original-seed progress.
 
 Overall reviewed progress: 66/500 batches = 660/5,000 product target (13.2%). Original Cat seed list has 127 SKUs remaining (products 661–787).
+
+## Batch 67/500 — products 661–670 (2026-11-25)
+
+SKUs: 590-0195, 590-0196, 590-0198, 590-2533, 590-7889, 591-2381, 591-2382, 592-5827, 592-5829, 592-5830. All ten Cat product pages opened; specifications and fitment were checked. Updated 591-2381 with the detailed Cat media attributes and removed an unsupported remanufactured flag.
+
+Verified:
+- 590-0195: Cat Standard Performance Topcoat – Cat Yellow. No compatible-model list published. Cat Specifications: weight 1.014lb. No volume inferred.
+- 590-0196: Cat Standard Performance Topcoat – Cat Yellow. No compatible-model list published. Cat Specifications: weight 1.014lb. Kept separate from 590-0195 because the item numbers are distinct; no assumption that they are identical packaging.
+- 590-0198: Cat Yellow Paint, standard performance topcoat, high-gloss finish and anti-corrosion barrier. Volume 3.8L, weight 10lb. No compatible-model list published.
+- 590-2533: Cat Dual Slack Adjuster. Materials Steel/Oil Fluid/Carbon Steel; Cat Yellow; 9.7 ×6.9 ×4.8in; two 0.56in holes. Hydraulic specs in DB: SAE -12 STOR 1-1/16-12 UNF inlet, 1,100psi max pressure, 257.3mL/side max displacement, 60–84psi check-valve cracking pressure, -20 to 230°F seal operating range, 41–96psi sensing-piston cracking pressure. Compatible truck/off-highway labels 793D/797F/793F/795F AC/794 AC/MT4400D AC/795F XQ/793F CMD/789D/793F OEM/793F XQ/793/789/798/796 AC/798 AC; 15 unique labels after de-duplication. Cat related parts: 214-7568, 238-5082, 238-5081, 228-7092 and 3J-1907.
+- 590-7889: Cat Fluid Sampling Pump in case. Weight 0.728lb, material Aluminum/Alloy Aluminum. Cat explicitly says compatibility information is not currently available; DB fitment remains empty.
+- 591-2381: Cat Diesel Exhaust Filter, Paper, Tank (Sock), 87mm ID ×119mm OD ×283.1mm overall length. Cat description: used as a lower-level component of the aftertreatment group for diesel exhaust fluid tank filtration. Attributes: beta-100 flat-sheet multipass efficiency 40 microns max; 1.65–2.16mm material thickness; 406g/m² basis weight; max 93°C; melting point 163–170°C; compatible with DEF; RoHS; polypropylene needle felt, heat-set/glazed one side. 69 compatible labels across wheel skidders, track tractors, asphalt pavers, pipelayers, engine/industrial engines, soil compactors, wheel dozers, motor graders, landfill compactors and wheel loaders. Removed unsupported remanufactured=true from DB.
+- 591-2382: Cat Diesel Exhaust Filter, Paper, Tank (Sock), 87mm ID ×119mm OD ×384mm overall length. Same Cat media/DEF/temperature/40-micron/RoHS properties as 591-2381. 32 compatible labels across underground articulated trucks, articulated trucks, engine/industrial engines, load-haul-dump, excavators, motor graders and wheel loaders. DB matches.
+- 592-5827: Cat Heavy Duty black block-tread rubber track, 400mm wide, 86mm pitch, 53 sections, Rubber & Fiber Rubber, HD undercarriage. Compatible CTLs 259D/259B3/259D3 (3). Cat related products 110-6326 and 377-6969.
+- 592-5829: Cat Heavy Duty black block-tread rubber track, 400mm wide, 86mm pitch, 60 sections, Rubber & Fiber Rubber, HD undercarriage. Compatible CTLs 299D3 XE/299D/299C/289C/279C/279C2/289C2/299D3/299D2/299D XHP/299D2 XHP (11). Cat related parts include sprocket 304-1916 and air/oil/cabin filters.
+- 592-5830: Cat Heavy Duty black block-tread rubber track, 450mm wide, 86mm pitch, 60 sections, Rubber & Fiber Rubber, HD undercarriage. Compatible CTLs 299D3 XE/299D/299C/289C/279C/279C2/289C2/299D3/299D2/299D XHP/299D2 XHP (11). Cat related parts include sprocket 304-1916 and air/oil/cabin filters.
+
+Cat pages:
+- https://parts.cat.com/en/catcorp/product/590-0195
+- https://parts.cat.com/en/catcorp/product/590-0196
+- https://parts.cat.com/en/catcorp/product/590-0198
+- https://parts.cat.com/en/catcorp/product/590-2533
+- https://parts.cat.com/en/catcorp/product/590-7889
+- https://parts.cat.com/en/catcorp/product/591-2381
+- https://parts.cat.com/en/catcorp/product/591-2382
+- https://parts.cat.com/en/catcorp/product/592-5827
+- https://parts.cat.com/en/catcorp/product/592-5829
+- https://parts.cat.com/en/catcorp/product/592-5830
+
+Post-update DB verification counts: 590-0195=0; 590-0196=0; 590-0198=0; 590-2533=15; 590-7889=0; 591-2381=69; 591-2382=32; 592-5827=3; 592-5829=11; 592-5830=11. No customer price or stock claims added.
+
+Additional Cat-linked discovery candidates from official Cat related/frequently-bought-together panels:
+- 590-2533: 214-7568, 238-5082, 238-5081, 228-7092, 3J-1907.
+- 592-5827: 110-6326, 377-6969, 110-6331, 265-6619, 265-6618.
+- 592-5829: 304-1916, 110-6326, 110-6331, 377-6969, 265-6619, 265-6618.
+- 592-5830: 304-1916, 110-6326, 110-6331, 265-6619, 265-6618.
+Candidates remain discovery leads only and require individual item-level verification before promotion.
+
+Overall reviewed progress: 67/500 batches = 670/5,000 product target (13.4%). Original Cat seed list has 117 SKUs remaining (products 671–787).
