@@ -512,7 +512,7 @@ Format: part_number | source_description | source_brand | verification_status
 
 ## CAT official-page cross-checks — 25 Nov 2026
 
-The following 12 Off Road candidates have exact Cat Parts Store product-page corroboration for the CAT identifier and description. This does not establish Off Road stock, condition, supplier price or serial-specific machine fitment.
+The following 20 Off Road candidates have exact Cat Parts Store product-page corroboration for the CAT identifier and description. This does not establish Off Road stock, condition, supplier price or serial-specific machine fitment.
 
 - 1G8878 — CAT 1G-8878 Hydraulic/Transmission Oil Filter: https://parts.cat.com/en/catcorp/product/1G-8878
 - 1R0716 — CAT 1R-0716 Engine Lube Oil Filter: https://parts.cat.com/in/catcorp/product/1R-0716
@@ -546,3 +546,19 @@ The 500-row public index contains 12 filter-related rows based on source descrip
 - 7W2326 — FILTER A
 
 Identifiers not included in the official-page cross-check list remain independent candidates. In particular, do not infer CAT authenticity or equivalence for unverified rows from the reseller's abbreviated description.
+
+
+## CAT official-page cross-checks — fuel-system batch, 25 Nov 2026
+
+Eight additional Off Road 500-index candidates were matched to exact Cat Parts Store pages. Seven were added as catalogue products with official CAT images; 134-0467 remains a reference-only record because the retrieved Cat page supplied a fallback image rather than a usable product image.
+
+- 1340467 — CAT 134-0467 PUMP GP-INJ, compatible with 3126E/3126/3126B: https://parts.cat.com/en/catcorp/product/134-0467
+- 8N7005 — CAT 8N-7005 Fuel Valve Nozzle; Marine Engine 3306B/3304/3306/3304B: https://parts.cat.com/en/catcorp/product/8N-7005
+- 3920206 — CAT 392-0206 Injector Group; Marine Engine and Marine Auxiliary 3500-family applications: https://parts.cat.com/en/catcorp/product/392-0206
+- 20R0849 — CAT Reman 20R-0849 Fuel Injector; reman condition retained separately: https://parts.cat.com/en/catcorp/product/20R-0849
+- 20R4179 — CAT Reman 20R-4179 Mechanical Electronic Fuel Injector; Marine Engine 3616/3612 and Marine Auxiliary 3608: https://parts.cat.com/en/catcorp/product/20R-4179
+- 3240532 — CAT 324-0532 Fuel Pump Group: https://parts.cat.com/en/catcorp/product/324-0532
+- 3752647 — CAT 375-2647 Fuel Injection Pump: https://parts.cat.com/en/catcorp/product/375-2647
+- 5912386 — CAT 591-2386 24V Diesel Exhaust Fluid Pump: https://parts.cat.com/en/catcorp/product/591-2386
+
+No supplier price or stock was imported from the public Off Road index. New products have NULL price and zero Amoot stock pending price-type/condition verification.
