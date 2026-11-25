@@ -2258,3 +2258,14 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - https://parts.cat.com/en/catcorp/product/218-5807
 
 برای joystick، connector pinout، wire length و سمت RH؛ برای seal kit، گروه کاربرد و اجزای داخل کیت؛ برای spring، قطر و نرخ فنر؛ و برای boot، profile و sealing lip باید با control group و PIN تطبیق داده شود.
+
+
+## دور ۷۱ — 25 Nov 2026
+
+- چهار فیتمنت جدید/تکمیل‌نشده از صفحات رسمی Cat Parts Store به CSV رسمی 287B اضافه شد:
+  - 238-7710 — FRAME AS.-RH؛ سازگاری 287B؛ سمت راست و پیکربندی Track Frame با PIN کنترل شود.
+  - 157-4835 — Load Capacity Instruction Plate؛ سازگاری 287B و 297C؛ زبان برچسب و ظرفیت مجاز متناسب با آرایش دستگاه بررسی شود.
+  - 230-5407 — FRAME AS.؛ سازگاری 287B و 297C؛ محل دقیق فریم و شماره سریال دستگاه تطبیق داده شود. شماره جدید Master.
+  - 187-3212 — 405mm Long Plate؛ سازگاری 287B؛ ابعاد و نقاط نصب در مجموعه cab/debris barrier بررسی شود. شماره جدید Master.
+- منابع رسمی: https://parts.cat.com/en/catcorp/product/238-7710 ؛ https://parts.cat.com/en/catcorp/product/157-4835 ؛ https://parts.cat.com/en/catcorp/product/230-5407 ؛ https://parts.cat.com/en/catcorp/product/187-3212
+- وضعیت فایل‌های Master/Mirror/Workflow در زمان ثبت: 4,311 شماره یکتا؛ Mirror برابر Master؛ Workflow برابر 4311.
