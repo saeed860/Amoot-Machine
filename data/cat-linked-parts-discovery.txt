@@ -2743,3 +2743,21 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 2K-8198 | 32.99mm Inside Diameter Seal-O-Ring | 4 | Cat 440-0842 Land Drilling 3512 Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; exact_model_serial_fitment_requires_confirmation
 
 Source page: https://parts.cat.com/en/catcorp/product/440-0842
+
+
+## Additional Cat 440-0842 3512 land-drilling overhaul-kit remaining BOM candidates — batch 165
+
+Source: official Cat Parts Store product page 440-0842, same Land Drilling Bundled Repair Solution / 3512 Engine Overhaul Kit as batch 164. The product page states 61 total BOM items; the opened page exposed the first 32 and the indexed official page exposed the additional rows below. These nine were not already in the queue or seed list. Compatible-model labels and serial-fitment cautions remain as documented in batch 164.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+7G-6713 | 99.70mm Free Length Compression Spring | 3 | Cat 440-0842 Land Drilling 3512 Engine Overhaul Kit BOM; continuation items | official_cat_kit_bom_verified; standalone_item_page_not_checked; exact_model_serial_fitment_requires_confirmation
+4P-7680 | 15mm Thick Exhaust Manifold Spacer | 4 | Cat 440-0842 Land Drilling 3512 Engine Overhaul Kit BOM; continuation items | official_cat_kit_bom_verified; standalone_item_page_not_checked; exact_model_serial_fitment_requires_confirmation
+5P-3961 | 3/8-16 x 2 1/2 Hex Head Bolt | 4 | Cat 440-0842 Land Drilling 3512 Engine Overhaul Kit BOM; continuation items | official_cat_kit_bom_verified; standalone_item_page_not_checked; exact_model_serial_fitment_requires_confirmation
+9Y-8389 | 1.2mm Thick Fuel Pump Gasket | 1 | Cat 440-0842 Land Drilling 3512 Engine Overhaul Kit BOM; continuation items | official_cat_kit_bom_verified; standalone_item_page_not_checked; exact_model_serial_fitment_requires_confirmation
+9F-7707 | 19mm Long Retainer Ring | 36 | Cat 440-0842 Land Drilling 3512 Engine Overhaul Kit BOM; continuation items | official_cat_kit_bom_verified; standalone_item_page_not_checked; exact_model_serial_fitment_requires_confirmation
+8T-5452 | 31.42mm Inner Diameter Fuel System Seal | 1 | Cat 440-0842 Land Drilling 3512 Engine Overhaul Kit BOM; continuation items | official_cat_kit_bom_verified; standalone_item_page_not_checked; exact_model_serial_fitment_requires_confirmation
+6V-5064 | 29.74mm Internal Diameter O-Ring Seal | 2 | Cat 440-0842 Land Drilling 3512 Engine Overhaul Kit BOM; continuation items | official_cat_kit_bom_verified; standalone_item_page_not_checked; exact_model_serial_fitment_requires_confirmation
+438-9354 | Block and Oil Pan Gaskets Kit - Central Lower Structure | 1 | Cat 440-0842 Land Drilling 3512 Engine Overhaul Kit BOM; continuation items | official_cat_kit_bom_verified; standalone_item_page_not_checked; exact_model_serial_fitment_requires_confirmation
+5P-6302 | 94.84mm Inner Diameter Seal O-Ring | 1 | Cat 440-0842 Land Drilling 3512 Engine Overhaul Kit BOM; continuation items | official_cat_kit_bom_verified; standalone_item_page_not_checked; exact_model_serial_fitment_requires_confirmation
+
+Source page: https://parts.cat.com/en/catcorp/product/440-0842
