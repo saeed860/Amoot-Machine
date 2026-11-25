@@ -1360,3 +1360,27 @@ Mirror از Master جاری بازسازی و شمارنده Workflow با تع�
 ### ممیزی هم‌زمانی پس از دور 42
 
 پس از آخرین ممیزی دور 41، Master در شروع دور 42 از 3,939 به 3,953 شماره یکتا رسیده بود؛ 14 شماره افزایش‌یافته پیش از batch بودند. دور 42 فقط ردیف CSV مربوط به 110-6326 را تکمیل کرد و شماره جدیدی به Master نیفزود. در ممیزی بعدی Master برابر 3,961 بود؛ هشت شماره دیگر هم‌زمان اضافه شدند و به دور 42 نسبت داده نمی‌شوند. Mirror دقیقاً برابر Master بود و شمارنده Workflow از 3,953 به 3,961 اصلاح شد.
+
+## دور چهل‌وسوم — زیربندی، چرخ بوژی و اتصالات هیدرولیک (25 Nov 2026)
+
+پنج شماره جدید از صفحات رسمی Cat Parts Store با نمایش صریح 287B در Compatible Models به Master و CSV اضافه شد:
+- 238-7728 — Undercarriage Bogie Wheel؛ چرخ بوژی پلی‌اتیلن برای هدایت زنجیر.
+- 261-6104 — Bogie Wheel Group؛ گروه چرخ بوژی.
+- 210-4693 — 62mm Inner Diameter Bearing Retainer؛ نگهدارنده بلبرینگ محور بوژی با قطر داخلی 62mm.
+- 5P-1076 — M12 ID Steel Flat Washer؛ واشر فولادی سخت برای توزیع بار و حفاظت سطح اتصال.
+- 6V-8716 — 38.10mm Hexagonal Plate Steel Straight Adapter؛ آداپتور مستقیم فولادی آب‌بنددار برای مدار سیال.
+
+دو شماره دیگر در Master موجود بودند و فیتمنت رسمی آن‌ها نیز در همین دور بازبینی شد: 230-3733 — 355.6mm Outer Diameter Idler Wheel و 238-7698 — Idler Rear Scraper. اگر در ممیزی CSV ردیف مستقل آن‌ها مفقود باشد، باید تکمیل شود.
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/product/238-7728
+- https://parts.cat.com/en/catcorp/261-6104
+- https://parts.cat.com/en/catcorp/210-4693
+- https://parts.cat.com/en/catcorp/product/5P-1076
+- https://parts.cat.com/en/catcorp/product/6V-8716
+- https://parts.cat.com/en/catcorp/product/230-3733
+- https://parts.cat.com/en/catcorp/product/238-7698
+
+پیش از سفارش، آرایش bogie/undercarriage، قطر چرخ و محور، stack بلبرینگ، قطر و گام پیچ M12، رزوه و سطح آب‌بندی آداپتور باید با شماره سریال و configuration دستگاه تطبیق داده شود. 261-6296 Track Roller در صفحه Cat صریحاً Discontinued بود و به‌عنوان کالای فعال سفارش‌پذیر ثبت نشد.
+
+Mirror از Master جاری بازسازی و شمارنده Workflow با تعداد خطوط Master تنظیم شد.
