@@ -40,16 +40,16 @@ part_number | source description | source context | status
 212-8180 | 14 external spline teeth water-pump drive shaft | BOM component of Cat 222-5152; quantity 1 | cat_item_page_verified; inserted_part_catalog; fitment_checked_or_unormalized
 212-8184 | 6-vanes water-pump impeller | BOM component of Cat 222-5152; quantity 1 | cat_item_page_verified; inserted_part_catalog; fitment_checked_or_unormalized
 271-4926 | 196.44mm ID O-ring seal | BOM component of Cat 222-5152; quantity 1 | cat_item_page_verified; inserted_part_catalog; fitment_checked_or_unormalized
-3D-2824 | 2.95 × 23.47mm 90A NBR O-ring | BOM component of Cat 222-5152; quantity 1 | cat_linked_candidate; needs_individual_verification
-416-0603 | Water-pump face-type seal | BOM component of Cat 222-5152; quantity 1 | cat_linked_candidate; needs_individual_verification
-4N-5834 | 13mm thick foam filter | BOM component of Cat 222-5152; quantity 2 | cat_linked_candidate; needs_individual_verification
-7N-4758 | 8.5mm thick thrust washer | BOM component of Cat 222-5152; quantity 1 | cat_linked_candidate; needs_individual_verification
-8C-5236 | 31.75mm shaft-diameter lip-type seal | BOM component of Cat 222-5152; quantity 1 | cat_linked_candidate; needs_individual_verification
-9M-1974 | M8 ID steel flat washer | BOM component of Cat 222-5152; quantity 2 | cat_linked_candidate; needs_individual_verification
-10R-9598 | Cat Reman auxiliary sea-water pump | Official replacement/alternate shown for discontinued Cat 212-8174 | cat_linked_candidate; needs_individual_verification
-205-8421 | Cat pump-related part | Frequently bought together with Cat 210-1471 | cat_linked_candidate; needs_individual_verification
-6V-1454 | Cat fitting/connector | Frequently bought together with Cat 210-1471 | cat_linked_candidate; needs_individual_verification
-425-6526 | Harness assembly | Related component shown on Cat 211-3023 page | cat_linked_candidate; needs_individual_verification
+3D-2824 | 2.95 x 23.47mm 90A NBR O-ring | BOM component of Cat 222-5152 water-pump rebuild kit; quantity 1 | cat_item_page_verified; inserted_part_catalog; fitment_not_normalized
+416-0603 | Water-pump face-type seal | BOM component of Cat 222-5152 water-pump rebuild kit; quantity 1 | cat_item_page_verified; inserted_part_catalog; fitment_verified
+4N-5834 | 13mm thick foam water filter | BOM component of Cat 222-5152 water-pump rebuild kit; quantity 2 | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
+7N-4758 | 8.5mm thick bronze thrust washer | BOM component of Cat 222-5152 water-pump rebuild kit; quantity 1 | cat_item_page_verified; inserted_part_catalog; page_description_conflict_flagged
+8C-5236 | 31.75mm shaft-diameter PTFE lip seal | BOM component of Cat 222-5152 water-pump rebuild kit; quantity 1 | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
+9M-1974 | M8 ID steel flat washer | BOM component of Cat 222-5152 water-pump rebuild kit; quantity 2 | cat_item_page_verified; inserted_part_catalog; fitment_not_normalized
+10R-9598 | Cat Reman auxiliary sea-water pump | Official replacement/alternate shown for discontinued Cat 212-8174 | cat_item_page_verified; existing_catalog_row_updated; Cat_Reman_condition_preserved
+205-8421 | 12.58mm ID fuel-injection line tube | Frequently bought together with Cat 210-1471 | cat_item_page_verified; inserted_part_catalog; fitment_verified
+6V-1454 | 72.39mm ID EPDM 70A O-ring | Frequently bought together with Cat 210-1471 | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
+425-6526 | Harness assembly (EUI Integrated Jake) | Related component shown on Cat 211-3023 page | cat_item_page_verified; inserted_part_catalog; fitment_verified
 230-3728 | 32.99mm ID fuel-system seal | Related component shown on Cat 211-3023 page | cat_linked_candidate; needs_individual_verification
 10R-0823 | Cat Reman turbocharger | Official alternative shown for Cat 216-7815 | cat_linked_candidate; needs_individual_verification
 450-9233 | Gear and case group-transfer | Official alternate part shown for Cat 20R-9567 | cat_linked_candidate; needs_individual_verification
@@ -240,7 +240,7 @@ Source pages:
 179-3426 | Track Seal | Cat Parts Store frequently bought together with 311-8150 | cat_linked_candidate; needs_individual_verification
 6Y-2590 | Track Link | Cat Parts Store frequently bought together with 311-8150 | cat_linked_candidate; needs_individual_verification
 6Y-5685 | Track Sprocket | Cat Parts Store frequently bought together with 311-8150 | cat_linked_candidate; needs_individual_verification
-10R-9598 | Cat Reman Auxiliary Sea Water Pump (3500) | Cat Parts Store alternate displayed for discontinued 313-2650 water pump | cat_linked_candidate; needs_individual_verification
+10R-9598 | Cat Reman auxiliary sea-water pump | Official replacement/alternate shown for discontinued Cat 212-8174 | cat_item_page_verified; existing_catalog_row_updated; Cat_Reman_condition_preserved
 
 314-2692 | Piston | Cat Parts Store frequently bought together with 314-2700 piston kit | cat_linked_candidate; needs_individual_verification
 314-2693 | Piston | Cat Parts Store frequently bought together with 314-2700 piston kit | cat_linked_candidate; needs_individual_verification
@@ -418,7 +418,7 @@ Source pages:
 374-3608 | 62mm Inner Diameter Seal Ring Washer | Cat Parts Store frequently bought together with 384-4562 bearing assembly | cat_linked_candidate; needs_individual_verification
 7D-5435 | Steering Cover | Cat Parts Store frequently bought together with 384-4562 bearing assembly | cat_linked_candidate; needs_individual_verification
 336-9373 | M80 x 2 - 6G Thread Steering Linkage Cap | Cat Parts Store frequently bought together with 384-4562 bearing assembly | cat_linked_candidate; needs_individual_verification
-3D-2824 | 2.95 x 23.47mm 90A NBR O-Ring | Cat Parts Store frequently bought together with 384-4562 bearing assembly | cat_linked_candidate; needs_individual_verification
+3D-2824 | 2.95 x 23.47mm 90A NBR O-ring | BOM component of Cat 222-5152 water-pump rebuild kit; quantity 1 | cat_item_page_verified; inserted_part_catalog; fitment_not_normalized
 282-2785 | Bucket Mounting Pin | Cat Parts Store related part for 388-9664 bucket | cat_linked_candidate; needs_individual_verification
 390-3122 | Fuel Injection Pump | Cat Parts Store frequently bought together with 390-2615 fuel rail | cat_linked_candidate; needs_individual_verification
 387-9141 | Fuel Injection Line Assembly | Cat Parts Store frequently bought together with 390-2615 fuel rail | cat_linked_candidate; needs_individual_verification
@@ -452,7 +452,7 @@ Source pages:
 3S-9643 | Rotating Shaft Lip Type Seal | Cat Parts Store frequently bought together with 392-0216 injector group | cat_linked_candidate; needs_individual_verification
 7N-4927 | 1.6mm Water Temperature Regulator Housing Gasket | Cat Parts Store frequently bought together with 392-0216 injector group | cat_linked_candidate; needs_individual_verification
 230-2520 | Steel Backed Aluminum Connecting Rod Bearing | Cat Parts Store frequently bought together with 392-0216 injector group | cat_linked_candidate; needs_individual_verification
-6V-1454 | 72.39mm Inside Diameter Seal-O-Ring | Cat Parts Store frequently bought together with 392-0216 injector group | cat_linked_candidate; needs_individual_verification
+6V-1454 | 72.39mm ID EPDM 70A O-ring | Frequently bought together with Cat 210-1471 | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
 11R-0682 | Cat Reman New with Core (NWC) Fuel Injector | Cat Parts Store alternate for 392-0216 | cat_linked_candidate; needs_individual_verification
 20R-1277 | Cat Reman Fuel Injector | Cat Parts Store alternate for 392-0216 | cat_linked_candidate; needs_individual_verification
 248-5513 | Engine Water Temperature Regulator | Cat Parts Store frequently bought together with 392-0217 injector group | cat_linked_candidate; needs_individual_verification
@@ -523,7 +523,7 @@ Source pages:
 3K-0360 | 2.21 x 16.36mm 90A NBR O-Ring | Cat Parts Store frequently bought together with 3B-8489 grease fitting | cat_linked_candidate; needs_individual_verification
 6V-8398 | 1.78 x 12.47mm 90A NBR O-Ring | Cat Parts Store frequently bought together with 3B-8489 grease fitting | cat_linked_candidate; needs_individual_verification
 6V-8397 | 1.78 x 9.27mm 90A NBR O-Ring | Cat Parts Store frequently bought together with 3B-8489 grease fitting | cat_linked_candidate; needs_individual_verification
-3D-2824 | 2.95 x 23.47mm 90A NBR O-Ring | Cat Parts Store frequently bought together with 3B-8489 grease fitting | cat_linked_candidate; needs_individual_verification
+3D-2824 | 2.95 x 23.47mm 90A NBR O-ring | BOM component of Cat 222-5152 water-pump rebuild kit; quantity 1 | cat_item_page_verified; inserted_part_catalog; fitment_not_normalized
 6F-6673 | Rubber O-Ring Seal | Cat Parts Store frequently bought together with 3N-0759 toric ring | cat_linked_candidate; needs_individual_verification
 8D-4771 | Rubber O-Ring Seal | Cat Parts Store frequently bought together with 3N-0759 toric ring | cat_linked_candidate; needs_individual_verification
 2R-0098 | 5.33 x 456.06mm 75A NBR O-Ring | Cat Parts Store frequently bought together with 3N-0759 toric ring | cat_linked_candidate; needs_individual_verification
@@ -535,7 +535,7 @@ Source pages:
 1R-0749 | Secondary Fuel Filter | Cat Parts Store frequently bought together with 3T-5760 battery | cat_linked_candidate; needs_individual_verification
 326-1644 | Advanced High Efficiency Fuel Water Separator | Cat Parts Store frequently bought together with 3T-5760 battery | cat_linked_candidate; needs_individual_verification
 3K-0360 | 2.21 x 16.36mm 90A NBR O-Ring | Cat Parts Store frequently bought together with 3T-5760 battery | cat_linked_candidate; needs_individual_verification
-10R-9598 | Cat Reman Auxiliary Sea Water Pump (3500) | Cat Parts Store Compare Alternate Parts for 416-0613 water pump | cat_linked_candidate; needs_individual_verification
+10R-9598 | Cat Reman auxiliary sea-water pump | Official replacement/alternate shown for discontinued Cat 212-8174 | cat_item_page_verified; existing_catalog_row_updated; Cat_Reman_condition_preserved
 5H-6734 | 3.53 x 113.89mm 75A NBR O-Ring | Cat Parts Store parts diagram for 416-0613 water pump | cat_linked_candidate; needs_individual_verification
 271-4926 | 196.44mm Inner Diameter O-Ring Seal | Cat Parts Store parts diagram for 416-0613 water pump | cat_linked_candidate; needs_individual_verification
 2H-3928 | 107.54mm Inner Diameter O-Ring Seal | Cat Parts Store parts diagram for 416-0613 water pump | cat_linked_candidate; needs_individual_verification
@@ -631,7 +631,7 @@ Source pages:
 238-5084 | 2.95 x 29.74mm 90A FKM O-Ring | Cat Parts Store component in 453-2315 kit, quantity 6 | cat_linked_candidate; needs_individual_verification
 2P-3760 | 0.8mm Two Bolt Flange Gasket | Cat Parts Store component in 453-2315 kit, quantity 2 | cat_linked_candidate; needs_individual_verification
 2P-4305 | 0.8mm Thick Gasket | Cat Parts Store component in 453-2315 kit, quantity 4 | cat_linked_candidate; needs_individual_verification
-3D-2824 | 2.95 x 23.47mm 90A NBR O-Ring | Cat Parts Store component in 453-2315 kit, quantity 4 | cat_linked_candidate; needs_individual_verification
+3D-2824 | 2.95 x 23.47mm 90A NBR O-ring | BOM component of Cat 222-5152 water-pump rebuild kit; quantity 1 | cat_item_page_verified; inserted_part_catalog; fitment_not_normalized
 3J-1907 | 1.98 x 11.89mm 90A NBR O-Ring | Cat Parts Store component in 453-2315 kit, quantity 2 | cat_linked_candidate; needs_individual_verification
 3J-7354 | 1.83 x 8.92mm 90A NBR O-Ring | Cat Parts Store component in 453-2315 kit, quantity 1 | cat_linked_candidate; needs_individual_verification
 3K-0360 | 2.21 x 16.36mm 90A NBR O-Ring | Cat Parts Store component in 453-2315 kit, quantity 1 | cat_linked_candidate; needs_individual_verification
@@ -696,7 +696,7 @@ Source pages:
 4W-3100 | 0.8mm Thick Governor Cover Gasket | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 1 | cat_linked_candidate; needs_individual_verification
 5D-5957 | 104.37mm Inner Diameter Seal O-Ring | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 3 | cat_linked_candidate; needs_individual_verification
 5P-4892 | 3.53 x 59.92mm 75A FKM O-Ring | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 4 | cat_linked_candidate; needs_individual_verification
-6V-1454 | 72.39mm Inside Diameter Seal-O-Ring | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 6 | cat_linked_candidate; needs_individual_verification
+6V-1454 | 72.39mm ID EPDM 70A O-ring | Frequently bought together with Cat 210-1471 | cat_item_page_verified; inserted_part_catalog; fitment_partially_normalized
 6V-3907 | 3.53 x 183.74mm 75A FKM O-Ring | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 4 | cat_linked_candidate; needs_individual_verification
 6V-5048 | 1.83 x 8.92mm 75A FKM O-Ring | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 5 | cat_linked_candidate; needs_individual_verification
 6V-5066 | 5.33 x 85.09mm 70A EPDM O-Ring | Cat Parts Store component in 494-1279 top-end overhaul kit, quantity 2 | cat_linked_candidate; needs_individual_verification
@@ -1501,3 +1501,5 @@ Source pages:
 355-8662 | Crankshaft Standard Main Bearing | Cat Parts Store frequently bought together with 355-8509 connecting rod bearing | cat_linked_candidate; needs_individual_verification
 7C-6209 | 11.8mm Thick Crankshaft Thrust Plate | Cat Parts Store frequently bought together with 355-8509 connecting rod bearing | cat_linked_candidate; needs_individual_verification
 7N-4932 | 0.8mm Thick Water Lines Gasket | Cat Parts Store frequently bought together with 271-4926 HNBR O-ring | cat_linked_candidate; needs_individual_verification
+
+210-1471 | Fuel Injection Lines Tube Assembly | Frequently bought together with Cat 205-8421 fuel-injection line tube | cat_linked_candidate; needs_individual_verification
