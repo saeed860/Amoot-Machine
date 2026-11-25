@@ -1752,3 +1752,15 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - https://parts.cat.com/en/catcorp/product/258-2841
 
 هر دو قطعه در Master عمومی و CSV مستقل 297C-only ثبت شدند و به فیتمنت 287B تعمیم داده نشدند. برای Seat Kit باید محتویات و configuration صندلی با فروشنده رسمی تأیید شود؛ برای Hose Assembly نیز فشار کاری، نوع اتصال و مسیر نصب باید با PIN دستگاه تطبیق داده شود.
+
+## دور ۵۵ — تکمیل قطعات اتصال و آب‌بندی (25 Nov 2026)
+
+دو شماره جدید از صفحات رسمی Cat Parts Store به Master اضافه شدند:
+- 113-0693 — 3/8in ID Steel Helical Spring Split Washer؛ Compatible Models صریحاً 287B و 297C را شامل می‌شود.
+- 166-0321 — Seal Kit؛ Compatible Models شامل 297C و 287C است، اما 287B را نشان نمی‌دهد؛ فقط در CSV مستقل 297C-only ثبت شد.
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/product/113-0693
+- https://parts.cat.com/en/catcorp/product/166-0321
+
+برای 113-0693، قطر داخلی، نوع واشر و stack-up اتصال باید کنترل شود. برای 166-0321، صفحه Cat اعلام می‌کند قطعات داخل کیت در صفحه نمایش داده نشده‌اند؛ گروه کاربرد و PIN باید قبل از سفارش با فروشنده رسمی تطبیق داده شود. 166-0321 به فیتمنت 287B تعمیم داده نشد.
