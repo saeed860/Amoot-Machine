@@ -2150,3 +2150,21 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 492-4705 | 3.2mm Thick Spiral Wound Gasket | 2 | Cat 393-0415 3516C Marine Society Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
 
 Source page: https://parts.cat.com/en/catcorp/product/393-0415
+
+
+## Additional Cat 3516/3516B genset engine-parts-kit BOM candidates — batch 122
+
+Source: official Cat Parts Store product page 386-9621, Engine Parts Kit. Compatible models explicitly shown: GEN SET ENGINE / 3516 and GENERATOR SET / 3516B. Three other listed items were already in the discovery queue or original seed list and are not duplicated. The nine new entries below are kit BOM references only, not standalone orderability, inventory, price, or serial-specific fitment confirmation.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+1A-2029 | 3/8-16 x 1 1/8 Hex Head Bolt | 8 | Cat 386-9621 3516/3516B Generator Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+214-6050 | 135mm Gauge Diameter V Groove Clamp | 4 | Cat 386-9621 3516/3516B Generator Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+236-1161 | Exhaust Elbow | 2 | Cat 386-9621 3516/3516B Generator Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+236-1637 | 128.66mm Stainless Steel Spiral Wound Gasket | 4 | Cat 386-9621 3516/3516B Generator Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+236-1655 | 1.1mm Thick Exhaust Manifold Gasket | 4 | Cat 386-9621 3516/3516B Generator Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+236-4309 | 162mm Height Bellows | 4 | Cat 386-9621 3516/3516B Generator Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+306-1720 | 148.00mm Minimum Internal Diameter V Band Clamp | 4 | Cat 386-9621 3516/3516B Generator Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+3J-5389 | 1/2-14 NPTF Thread Hex-Drive Plug | 4 | Cat 386-9621 3516/3516B Generator Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+6V-1943 | 3/8-16 x 1 1/8 Hex Head Bolt | 8 | Cat 386-9621 3516/3516B Generator Engine Parts Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+
+Source page: https://parts.cat.com/en/catcorp/product/386-9621
