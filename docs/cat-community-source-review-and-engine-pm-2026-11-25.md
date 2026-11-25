@@ -2785,3 +2785,15 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - این شماره قبلاً در Master و CSV ثبت نشده بود؛ به هر دو افزوده شد. سایر نتایج بررسی‌شده در این جستجو از قبل ثبت بودند.
 - منبع رسمی: https://parts.cat.com/en/catcorp/product/161-0189
 - Master count after batch: 4428; Mirror and workflow counter synchronized.
+
+
+## دور ۷۱ — 25 Nov 2026
+
+- چهار قطعه جدید از صفحات رسمی Cat Parts Store با Compatible Models صریح 287B شناسایی و ثبت شد:
+  - 234-0743 — Internal Retaining Ring، قطر آزاد 3.00in و ضخامت 0.126in؛ فقط 287B در فهرست مدل‌های مرتبط دیده شد.
+  - 064-3843 — External Retaining Ring، قطر داخلی اسمی 55.55mm؛ 287B و 297C در فهرست سازگاری.
+  - 1H-8134 — External Retaining Ring، قطر bore برابر 35.23mm؛ 287B و 297C در فهرست سازگاری.
+  - 212-4483 — Internal Retaining Ring، قطر داخلی 68mm؛ فقط 287B در فهرست مدل‌های مرتبط دیده شد.
+- هر چهار شماره به Master و CSV فیتمنت 287B اضافه شدند. برای سفارش باید قطر شیار، ضخامت و محل نصب با نقشه قطعات/PIN تطبیق داده شود.
+- منابع رسمی: https://parts.cat.com/en/catcorp/product/234-0743 ؛ https://parts.cat.com/en/catcorp/product/064-3843 ؛ https://parts.cat.com/en/catcorp/product/1H-8134 ؛ https://parts.cat.com/en/catcorp/product/212-4483
+- Master هدف پس از این دور: 4432 شماره یکتا؛ Mirror و Workflow با آن همگام شدند.
