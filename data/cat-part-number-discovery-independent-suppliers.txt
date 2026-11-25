@@ -63,3 +63,11 @@ Source URLs:
 - https://www.numeralkod.com/cross/archivemanuals/caterpillar/3116%20industrial%20engine%20parts%20manual%20sebp2462/part%204.pdf
 
 4691989 | Piston Pin (cross-reference only; HHP/Reliable Aftermarket listings identify 469-1989 as an alternate/reference for 180-7350 / 524-5565; not proof of genuine Cat stock or universal fitment) | Highway & Heavy Parts / Reliable Aftermarket Parts | independent_candidate; needs_verification
+
+
+## Independent supplier cross-check and price leads — batch 143 (2026-11-25)
+
+249-5496 | Piston GP; independent marketplace listing associates the exact Cat reference with a 3516C Marine Engine and serial prefix TTH; listing explicitly asks buyer to confirm suitability | ComponentsONLY UK guide: https://www.componentsonly.co.uk/guide/caterpillar/249-5496/piston-gp/ | independent_fitment_lead; not OEM confirmation; serial applicability requires supplier/OEM confirmation
+245-4621 | Aftercooler Core; independent replacement listing explicitly names 245-4621 / 2454621 and 3508C/3516C; brand JIAJUE; condition listed new; origin Guangdong, China; MOQ 1; warranty 3 months; price CN¥6,502.86 per piece on indexed supplier page | JIAJUE / ECER listing: https://www.ecer.com/corp/details-uuu49rk-p1ekhd8-245-4621-2454621-aftercooler-core-for-3508c-3516c-engine-parts.html | independent_aftermarket_quote_lead; price_not_supplier_confirmed; not genuine_Cat; verify stock, currency, shipping, tax, and serial fitment before pricing
+
+Price handling: CN¥6,502.86 is retained as an indicative aftermarket listing only. It is not imported into the OEM price table or treated as an Amoot acquisition cost. No exchange conversion or markup is applied until the supplier confirms the quote and delivery terms.
