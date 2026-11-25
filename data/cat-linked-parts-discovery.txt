@@ -3057,3 +3057,25 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 9X-7371 | 126.59mm Inside Diameter Seal-O-Ring | 1 | Cat 467-8942 D9T/D9R Front Housing Install Gasket Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
 
 Source page: https://parts.cat.com/en/catcorp/product/467-8942
+
+
+## Additional Cat 3406B generator-set fuel-system gasket-kit BOM candidates — batch 181
+
+Source: official Cat Parts Store product page 117-7901, Fuel System Gaskets Kit. Compatible model explicitly shown: GEN SET ENGINE / 3406B. Cat describes the kit as gaskets, seals and washers to rebuild/reinstall engine-mounted fuel-system components; injector seals are not included and must be ordered separately as needed. Nineteen other first-page components were already present in the discovery queue or original seed list and are not duplicated. The thirteen new rows below are official BOM references only; verify engine serial/arrangement before ordering.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+1A-4907 | Fuel Filter Gasket | 1 | Cat 117-7901 3406B Generator Set Fuel System Gaskets Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+4W-0435 | 25mm Internal Diameter Quad Ring Seal | 1 | Cat 117-7901 3406B Generator Set Fuel System Gaskets Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+4W-4616 | 21.89mm Inner Diameter Quad Ring Seal | 1 | Cat 117-7901 3406B Generator Set Fuel System Gaskets Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+5P-0796 | 12.7mm Shaft Diameter Double Lip Seal | 2 | Cat 117-7901 3406B Generator Set Fuel System Gaskets Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+5P-8215 | 2.62 x 39.34mm 75A NBR O-Ring | 1 | Cat 117-7901 3406B Generator Set Fuel System Gaskets Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+6F-6672 | 17.12mm Inner Diameter Seal O-Ring | 1 | Cat 117-7901 3406B Generator Set Fuel System Gaskets Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+6J-2419 | 36.17mm Inside Diameter Seal-O-Ring | 1 | Cat 117-7901 3406B Generator Set Fuel System Gaskets Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+6L-1597 | 0.31mm Thick Governor Gasket | 1 | Cat 117-7901 3406B Generator Set Fuel System Gaskets Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+6L-3528 | 0.4mm Thick Governor Mounting Gasket | 1 | Cat 117-7901 3406B Generator Set Fuel System Gaskets Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+7F-8607 | 18.72mm Inside Diameter Seal-O-Ring | 1 | Cat 117-7901 3406B Generator Set Fuel System Gaskets Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+7S-6798 | 19.13mm Bore Diameter Rubber Lip Seal | 1 | Cat 117-7901 3406B Generator Set Fuel System Gaskets Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+7W-4487 | 3/8in Copper Flat Washer | 6 | Cat 117-7901 3406B Generator Set Fuel System Gaskets Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+8H-9204 | 22mm Outer Diameter Felt Washer | 6 | Cat 117-7901 3406B Generator Set Fuel System Gaskets Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+
+Source page: https://parts.cat.com/en/catcorp/product/117-7901
