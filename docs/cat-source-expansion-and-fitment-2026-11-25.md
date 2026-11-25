@@ -171,3 +171,37 @@ Workflow شماره 45574758840 در صفحه‌های اولیه Cat چند tim
 - منبع: https://s7d2.scene7.com/is/content/Caterpillar/CM20240126-65173-3d80f، صفحات 32 تا 39 کاتالوگ رسمی Cat Motor Grader Rig Out.
 - قطعات drawbar و GET بسته به نوع drawbar، تعداد shoe، عرض moldboard و جنس قطعه متفاوت‌اند؛ فیتمنت عمومی فرض نشده است.
 - تعداد Master و فایل Offroad: 1442 شماره یکتا.
+
+
+## منابع جدید موتورهای C7، C9، C13، C15 و C18
+
+### راهنمای رسمی قطعات موتورهای دریایی Cat
+- Quick Reference Guide: https://s7d2.scene7.com/is/content/Caterpillar/CM20190729-d6d5e-89bd3
+- فهرست قطعات C7، C9 و C18 از جدول‌های موتور دریایی؛ این کاربردها به همه نسخه‌های صنعتی/خودرویی تعمیم داده نشوند.
+
+### صفحات محصول Cat Parts Store
+- C13 PM Kit 642-7645 و محتویات: https://parts.cat.com/en/catcorp/product/642-7645 (DE500GC C13 / C13GENSET / DE450SGC / DE550GC / DE500SGC)
+- 340-9254: https://parts.cat.com/en/catcorp/product/340-9254 (C13B، C13 و CX31-C13I)
+- 286-1867: https://parts.cat.com/en/catcorp/product/286-1867 (شرح کاربرد C13/C15 piston و C15 power systems)
+- 453-1607: https://parts.cat.com/en/catcorp/product/453-1607 (فهرست سازگاری صنعتی C18، C9.3، C13، C15)
+- 237-9310: https://parts.cat.com/en/catcorp/product/237-9310 (C13 truck/industrial در فهرست مدل‌ها)
+- 251-6668: https://parts.cat.com/en/catcorp/product/251-6668 (C11/C13)
+- 237-9314: https://parts.cat.com/en/catcorp/product/237-9314 (C15 generator set و C13 truck/industrial)
+
+### اسناد فنی Cat بازتاب‌یافته در engine.od.ua
+- General Service Information / SELD0080-13: https://engine.od.ua/ufiles/GSI-blocks.pdf
+- داده‌های piston/cylinder pack برای C7، C9، C15 و C18؛ فایل آینه سند Cat است، نه میزبانی رسمی Cat. نسبت تراکم، توان، نوع پیستون و شماره سریال محدودیت دارند.
+- Lubrication Systems / LEBW4957-01: https://engine.od.ua/ufiles/LEBW4957-01-LUBRICATION-SYSTEMS.pdf برای معماری سیستم روغن‌کاری؛ به‌تنهایی شماره قطعه یا فیتمنت مشخص نمی‌دهد.
+
+### منابع انجمنی و غیررسمی ارزیابی‌شده
+- MHH AUTO: تاپیک SIS 01.2018 پیدا شد؛ فایل قدیمی/انجمنی فقط سرنخ است و وارد دیتابیس پارت‌نامبر نشد. نسخه‌های بازنشرشده بدون مجوز مبنای استخراج نیستند.
+- TrackLoaderParts: https://www.trackloaderparts.com/caterpillar-287b-parts-diagrams1.html . صفحه 287B را 3044C-DIT معرفی می‌کند؛ فعلاً شماره قطعه‌ای از این صفحه به Master اضافه نشد.
+- ACMOC Library Index: https://acmoc.org/library-index . فهرست کاتالوگ‌های D4 و مدل‌های قدیمی برای کشف فرم کاتالوگ و محدوده سریال مفید است؛ بدون مشاهده کاتالوگ/ردیف قطعه، شماره‌ای استخراج نشد.
+- Binunlock: بسته SIS آفلاین ادعا شده، اما برای دیتابیس پارت‌نامبر استفاده نشد.
+
+### خروجی این مرحله
+- فایل داده: data/cat-engine-family-parts-c7-c9-c13-c15-c18-2026-11-25.csv
+- تعداد ردیف‌های مشاهده: 110
+- شماره‌های یکتای فایل: 9
+- تعداد Master: 1524
+- فایل Offroad باید mirror دقیق Master باشد؛ رکوردهای محدود به marine/engine arrangement همچنان نیازمند کنترل serial و arrangement هستند.
