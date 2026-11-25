@@ -2442,3 +2442,13 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
   - 278-1969 — CYL GP-BASIC؛ فیتمنت 287B و 297C؛ شماره جدید Master. پیش از سفارش، bore/stroke، شماره گروه سیلندر و PIN دستگاه بررسی شود.
 - منابع رسمی: https://parts.cat.com/en/catcorp/product/233-5698 ؛ https://parts.cat.com/en/catcorp/product/278-1969
 - شمارنده هدف دور: 4336 شماره یکتا؛ Mirror و Workflow با Master همگام شدند.
+
+
+## دور ۸۳ — 25 Nov 2026
+
+- دو شماره جدید از صفحات رسمی Cat Parts Store با فیتمنت صریح 287B ثبت شد:
+  - 230-3757 — 27.8mm Inner Diameter Shaft Seal؛ آب‌بند NBR برای gear pump؛ قطر شفت درج‌شده 27.8mm؛ قطر بیرونی/عرض و group پمپ باید تطبیق داده شود.
+  - 230-4959 — SEAL KIT؛ سازگاری 287B و 297C؛ کاربرد دقیق، group، محدوده PIN و محتویات کیت پیش از سفارش از Parts Diagram کنترل شود.
+- هر دو شماره به Master و CSV رسمی 287B افزوده شدند.
+- منابع رسمی: https://parts.cat.com/en/catcorp/product/230-3757 ؛ https://parts.cat.com/en/catcorp/product/230-4959
+- شمارنده هدف دور: 4338 شماره یکتا؛ Mirror و Workflow با Master همگام شدند.
