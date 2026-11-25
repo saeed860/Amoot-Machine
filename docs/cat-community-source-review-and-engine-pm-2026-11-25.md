@@ -2106,3 +2106,19 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - https://parts.cat.com/en/catcorp/product/218-6645
 
 برای duct و heater، routing، airflow، coolant و electrical option؛ برای control panel، ولتاژ و pinout؛ برای filter، ابعاد و housing؛ و برای elbow، thread M16، hose bead و STOR interface باید با cab configuration و PIN تطبیق داده شود.
+
+## دور ۷۰ — تکمیل seals و louver کابین 297C (25 Nov 2026)
+
+چهار شماره جدید از صفحات رسمی Cat Parts Store با Compatible Models شامل 297C و بدون 287B به Master و CSV مستقل 297C-only اضافه شدند:
+- 258-3794 — 12mm Thick Cab Heater Insulation؛ عایق لاستیک منبسط‌شده، ضخامت 12mm.
+- 258-3795 — 148mm Long Cab Heater Louver Seal؛ ضخامت 10mm و آب‌بندی بین louver و heater.
+- 258-3796 — Rectangular Plastic Inlet Duct Seal؛ فوم سلول‌بسته 10mm در انتهای inlet duct.
+- 258-4248 — 397mm Length Cab Heater Louver Cover؛ پوشش پلی‌الفین خروجی هوای گرم.
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/product/258-3794
+- https://parts.cat.com/en/catcorp/product/258-3795
+- https://parts.cat.com/en/catcorp/product/258-3796
+- https://parts.cat.com/en/catcorp/product/258-4248
+
+این قطعات به فیتمنت 287B تعمیم داده نشدند. برای insulation و sealها، ضخامت، profile، طول و سطح اتصال؛ و برای louver cover، طول 397mm و سازگاری با outlet باید با HVAC group و PIN تطبیق داده شود.
