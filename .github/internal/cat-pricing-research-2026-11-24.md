@@ -5317,3 +5317,35 @@ Post-update verification: all ten SKUs exist with Cat official item-page evidenc
 Nineteen additional kit/BOM leads added: 110-2220, 142-6217, 142-7072, 9L-5854, 106-1792, 106-1793, 143-6642, 214-4150, 243-6718, 247-7133, 248-1394, 281-8261, 2U-1492, 2U-1493, 345-7238, 391-2167, 8S-9191, 20R-4771 and 20R-4767. They remain candidates pending individual verification.
 
 Overall reviewed progress: 98/500 batches = 980/5,000 product target (19.6%). Original Cat seed list 787/787 complete; discovery-derived products individually verified/updated: 213. Remaining target: 4,020 products.
+
+## Batch 99/500 — Cat-linked discovery candidates 191–200 (2026-11-25)
+
+Ten candidates were checked against their own official Cat Parts Store pages. Nine new catalog rows were inserted; existing 243-6718 was upgraded from secondary-catalog-only evidence to official Cat source. All ten were re-queried and model arrays deduplicated.
+
+Verified:
+- 110-2220 — 141mm ID HNBR 78A O-ring/liner seal. Cross-section 0.17in, ID 5.551in, HNBR/PTFE, hardness 78A. 121 Cat model labels across SR500/XQP500/SR4/SR5/SR4B, C-15/C-16/3408/3406, 657 scraper, OEM-PM, MD6250, 375-A/374F/365C excavators, wheel tractors, RM500B, 825 compactor, petroleum engines, wheel dozers/loaders, landfill compactors and articulated trucks.
+- 142-6217 — 140.2mm ID FKM 75A O-ring. Cross-section 0.17in, ID 5.52in, FKM/PTFE, hardness 75A. 122 Cat model labels across the same broad engine, scraper, excavator, drill, wheel tractor, compactor, wheel dozer/loader and articulated-truck families.
+- 142-7072 — 140.2mm ID EPDM 70A Liner Seal. Cross-section 0.17in, ID 5.52in, EPDM/PTFE, hardness 70A. 115 Cat model labels across generator, engine, scraper, excavator, wheel tractor, compactor, wheel dozer/loader and articulated-truck families.
+- 9L-5854 — 130.175mm ID EPDM Rubber Filler Band. ID 5.12in, cross-section width 0.24in, height 0.04in. Cat explicitly says dimensions/material are reference only and color may differ. EPDM is suitable for coolant/urea and air, but not engine oil, diesel, hydraulic oil, ATF or biodiesel. 190 Cat model labels across generators, engines, scrapers, skidders, drills, excavators, wheel tractors, RM500B/RM800, hydraulic controls, track loaders, compactors, petroleum engines, wheel dozers/loaders, landfill compactors and articulated trucks.
+- 106-1792 — 100mm Long Taper Lock Steel Stud. Fully threaded, 3/8-16 UNC, length 3.94in, steel/carbon steel/alloy zinc, zinc phosphate/oil coating, plain finish, high-temperature steel up to 500°C. 153 compatible model labels across generators, truck engines, scrapers, OEM-PM/C18 power pack, MD6310/6200/6250 drills, excavators, 6040 shovel, wheel tractors, RM500B/RM800, compactors, petroleum engines, wheel dozers/loaders, landfill compactors and articulated trucks.
+- 106-1793 — 60mm Length Tapered Stud. Fully threaded, 3/8-16 UNC, length 2.36in, carbon steel, plain finish. 113 Cat fitment labels across SCT673 pumper, SR4/SR5/SR4B, AD45B/AD55/AD30/AD45, 3406/C15/C16/C13/3306 engines, C32 power module, scrapers, R2900 LHD, 777/773/785 trucks, 12H/12G/160H/14H/140H graders, D6/D7/D9/D10 tractors, 528B/530B skidders, 572G pipelayer, 235C/330 excavators, wheel tractors and C32/C18 gensets/marine.
+- 143-6642 — Engine Brake Upper Ring Seal. Cat says materials resist wear/extrusion and oil/fuel/chemicals. Specs height 2.21in, ID 0.9in, OD 8.25in, ductile iron casting, weight 7.6lb. 33 fitment labels across articulated trucks, C-10/C-12/3406/C18/C15/C16/3176/3116/3306 engines, industrial engines, ejector trucks, 834G wheel dozer and 988G loader.
+- 214-4150 — Block & Oil Pan Gaskets Kit, Central and Lower Kit. Cat public page confirms product/brand but displays “No results available” under Parts included and exposes no compatible models or specs. No kit contents or fitment inferred.
+- 243-6718 — Crankshaft Main Bearing Kit. Existing row refreshed. Specs length 10.8in, height 10.0in. Cat Parts Store visibly lists 253-1752 crankshaft thrust plate ×2 and 317-8766 steel-backed copper-lead main bearing ×7. 133 compatible model labels across SPS342/SPT342 pumpers, AD45B/AD55B/AD60/AD55/AD30, SR4/SR4B, C18/C15/C16/3406, C32/C18/PM3412/TR43-C18L power modules, scrapers, R2900G, 777G, graders, D8/D9/D10/D11 tractors, marine, pipelayers, mining excavators, wheel tractors, 825 compactors, wheel dozers/loaders, articulated trucks and cold planers.
+- 247-7133 — Water Temperature Regulator. Cat says regulator restricts coolant flow until engine reaches operating temperature. Specs length 2.8in, height 3.6in, stainless steel and NBR/HNBR/XNBR rubber. 130 compatible labels across SBF214/CPT372/SUF557 pumpers, XQP500/SR4/LC51XX/SR4B, C9/C10/C12/C18/C15/C16/3176/3408/3306/3406, power modules, LHDs, site-prep tractors, graders, shovels, D9R/D10R/D7R II, marine, pipelayers, excavators, MHPUs, petroleum packages and generator sets.
+
+Cat item pages:
+- https://parts.cat.com/en/catcorp/product/110-2220
+- https://parts.cat.com/en/catcorp/product/142-6217
+- https://parts.cat.com/en/catcorp/product/142-7072
+- https://parts.cat.com/en/catcorp/product/9L-5854
+- https://parts.cat.com/en/catcorp/product/106-1792
+- https://parts.cat.com/en/catcorp/product/106-1793
+- https://parts.cat.com/en/catcorp/product/143-6642
+- https://parts.cat.com/en/catcorp/product/214-4150
+- https://parts.cat.com/en/catcorp/product/243-6718
+- https://parts.cat.com/en/catcorp/product/247-7133
+
+Post-update verification: all ten SKUs exist with Cat official item-page evidence and REFERENCE status. Nine inserted, one existing row updated. Fitment counts after de-duplication: 110-2220=121; 142-6217=122; 142-7072=115; 9L-5854=190; 106-1792=153; 106-1793=113; 143-6642=33; 214-4150=0 (not published); 243-6718=133; 247-7133=130. No prices, stock or unsupported fitment/interchange claims added.
+
+Overall reviewed progress: 99/500 batches = 990/5,000 product target (19.8%). Original Cat seed list 787/787 complete; discovery-derived products individually verified/updated: 223. Remaining target: 4,010 products.
