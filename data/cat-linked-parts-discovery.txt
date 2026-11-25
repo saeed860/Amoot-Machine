@@ -1964,3 +1964,15 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 252-9685 | 0.8mm Thick Engine Front Housing Cover Gasket | 1 | Cat 416-9083 Silver Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
 
 Source page: https://parts.cat.com/en/catcorp/product/416-9083
+
+
+## Additional Cat 379-9131 Bronze overhaul-kit BOM candidates — batch 113
+
+Source: official Cat Parts Store product page 379-9131, Engine Overhaul Kit - Bronze. Compatible models explicitly shown: Wheel Tractor 621F/623F/627F; Wheel Scraper 623F/621F/627F/623E; Soil Compactor 825G; Wheel Dozer 824G II/824G; Landfill Compactor 826G/826G II; Wheel Loader 980C/980F/980G/980G II/980F II. Twenty-nine other first-page components were already recorded in the discovery queue or original seed list and are not duplicated. The three new entries below are BOM references only; they do not establish standalone orderability, price, stock, or serial-specific fitment.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+119-5155 | 26.59mm Inside Diameter Seal-O-Ring | 1 | Cat 379-9131 Bronze Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+129-3948 | 0.8mm Thick Engine Oil Filter Gasket | 1 | Cat 379-9131 Bronze Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+175-7896 | 3.53 x 75.79mm 75A NBR O-Ring | 1 | Cat 379-9131 Bronze Engine Overhaul Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+
+Source page: https://parts.cat.com/en/catcorp/product/379-9131
