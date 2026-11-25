@@ -755,3 +755,36 @@ Mirror از Master جاری بازسازی و شمارنده Workflow با تع�
 برای محفظه بخاری، نسخه HVAC و اتصالات کانال؛ برای گرومت، قطر دسته‌سیم و سوراخ پنل؛ برای clip، قطر بیرونی شیلنگ؛ و برای فیلتر، هد و مدیای فیلتر باید تطبیق داده شوند. چهار شماره جدید به Master افزوده شد و یک شماره موجود فقط در CSV فیتمنت ثبت شد.
 
 Mirror از Master جاری بازسازی و شمارنده Workflow با تعداد خطوط Master تنظیم شد.
+
+## دور بیست‌وششم — آب‌بند موتور، فیلتر سوخت و قطعات سیلندر (25 Nov 2026)
+
+نه شماره جدید از صفحات رسمی Cat Parts Store با فیتمنت صریح 287B به Master و CSV اضافه شد:
+- 095-1537 — 3.5 × 37.7mm 75A NBR O-Ring؛ قطر داخلی 1.484in و مقطع 0.138in.
+- 117-5015 — Oil Seal for Engine Flywheel Housing Area؛ ابعاد کلی 4.5 × 4.5 × 0.6in.
+- 207-9717 — 151mm Outer Diameter Square Seal Ring؛ NBR، قطر بیرونی 5.944in و مقطع 0.22in.
+- 284-3743 — 115mm Long Expanded Rubber Seal؛ طول 4.53in، عرض 3.94in و ضخامت 0.25in.
+- 239-8429 — Seal Assembly-Crankshaft؛ ابعاد 3.75 × 3.75 × 0.69in.
+- 4I-9404 — 27.7mm Inside Diameter Seal-O-Ring.
+- 5I-8111 — Engine Air Lines Gasket.
+- 231-8144 — 1mm Thick Cab Heater Baffle Plate.
+- 647-3702 — 50mm Bore Diameter Hydraulic Cylinder؛ رزوه داخلی 3/4-16in و وزن 15.39lb.
+
+سه شماره موجود در Master نیز در این دور از صفحات رسمی Cat برای 287B بررسی شدند: 267-3766، 253-6949 و 177-1958؛ هر سه Hydraulic Cylinder Seal Kit هستند. Cat تصریح می‌کند کاربرد این کیت‌ها به شماره Cylinder Group وابسته است؛ بدون تطبیق گروه سیلندر و شماره سریال، سفارش قطعی توصیه نمی‌شود.
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/product/095-1537
+- https://parts.cat.com/en/catcorp/product/117-5015
+- https://parts.cat.com/en/catcorp/product/207-9717
+- https://parts.cat.com/en/catcorp/product/284-3743
+- https://parts.cat.com/en/catcorp/product/239-8429
+- https://parts.cat.com/en/catcorp/product/4I-9404
+- https://parts.cat.com/en/catcorp/product/5I-8111
+- https://parts.cat.com/en/catcorp/product/231-8144
+- https://parts.cat.com/en/catcorp/product/647-3702
+- https://parts.cat.com/en/catcorp/product/267-3766
+- https://parts.cat.com/en/catcorp/product/253-6949
+- https://parts.cat.com/en/catcorp/product/177-1958
+
+برای تمام O-ringها و sealها، ابعاد شیار، جنس، سیال و محل نصب؛ برای seal crankshaft، موقعیت جلو/عقب؛ و برای سیلندر، bore، stroke، پورت و cylinder group باید بررسی شود. هیچ فیتمنت 297C-only به 287B تعمیم داده نشده است.
+
+Mirror از Master جاری بازسازی و شمارنده Workflow با تعداد خطوط Master تنظیم شد. CSV نه شماره جدید و سه شماره موجود را در این دور پوشش می‌دهد.
