@@ -1610,3 +1610,53 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 قطعات فوق در Master عمومی باقی می‌مانند، اما نباید به فیتمنت 287B تعمیم داده شوند. پیش از سفارش شیلنگ‌ها باید طول، قطر داخلی، نوع تقویت، فشار کاری، اتصالات و مسیر نصب با PIN و آرایش هیدرولیک دستگاه تطبیق داده شود.
 
 همچنین ممیزی Master نشان داد دو شماره تکراری 230-3726 و 230-3686 وجود داشت؛ نسخه یکتا با حفظ ترتیب اولیه نگه داشته شد. Mirror مجدداً byte-exact با Master شد و شمارنده Workflow با تعداد خطوط Master همگام شد.
+
+## دور ۴۹ — قطعات رسمی تکمیلی و جداسازی 297C-only (25 Nov 2026)
+
+از صفحات رسمی Cat Parts Store، شماره‌های جدید زیر با Compatible Models صریح ثبت شدند:
+- 551-4677 — Plate Kit-Clad؛ فیتمنت 287B و 297C. صفحه کیت در حال حاضر اجزای داخل کیت را نمایش نمی‌دهد؛ پیش از فروش باید محتویات و کاربرد دقیق با Cat Dealer تأیید شود.
+- 4B-0418 — 12.70mm Internal Diameter Loop Clip؛ فیتمنت 287B و 297C؛ قطر گیره 12.7mm و انتقال بست M10 یا 3/8in.
+- 105-9411 — Support؛ فیتمنت 297C و فاقد 287B.
+- 258-2448 — Bracket Assembly؛ فیتمنت 297C و فاقد 287B.
+- 6R-3320 — Cover؛ فیتمنت 297C و فاقد 287B.
+- 1B-2705 — Bolt؛ فیتمنت 297C و فاقد 287B.
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/product/551-4677
+- https://parts.cat.com/en/catcorp/product/4B-0418
+- https://parts.cat.com/en/catcorp/product/105-9411
+- https://parts.cat.com/en/catcorp/product/258-2448
+- https://parts.cat.com/en/catcorp/product/6R-3320
+- https://parts.cat.com/en/catcorp/product/1B-2705
+
+در ممیزی طبقه‌بندی، 215-3273 (Cartridge Assembly) در فهرست رسمی Cat، 297C را دارد اما 287B را ندارد؛ بنابراین از CSV فیتمنت 287B خارج و به CSV مستقل 297C-only منتقل شد. همچنین 258-3877 و 258-3851 در CSV 297C-only باقی ماندند و از CSV 287B حذف شدند. هیچ قطعه 297C-only به 287B تعمیم داده نشد.
+
+صفحات مرجع تکمیلی 287B که فیتمنتشان از قبل در CSV ثبت بود و در این دور بازبینی شدند:
+- 216-4725 Harness Assembly
+- 587-4391 Water Pump Group
+- 218-5764 Plate
+- 246-9039 Plate
+- 234-0734 Bogie Wheel End Plate
+- 6E-0725 Piston Pump Rotating Roller
+- 186-3362 Harness Assembly
+- 283-9476 Hydraulic Pump Hose
+- 242-8277 Harness Assembly
+- 287-3922 Engine Oil Pan
+- 103-9747 Water Pump Side Cover
+- 261-6111 Bogie Wheel Plate
+
+منابع رسمی تکمیلی:
+- https://parts.cat.com/en/catcorp/product/216-4725
+- https://parts.cat.com/en/catcorp/product/587-4391
+- https://parts.cat.com/en/catcorp/product/218-5764
+- https://parts.cat.com/en/catcorp/product/246-9039
+- https://parts.cat.com/en/catcorp/product/234-0734
+- https://parts.cat.com/en/catcorp/product/6E-0725
+- https://parts.cat.com/en/catcorp/product/186-3362
+- https://parts.cat.com/en/catcorp/product/283-9476
+- https://parts.cat.com/en/catcorp/product/242-8277
+- https://parts.cat.com/en/catcorp/product/287-3922
+- https://parts.cat.com/en/catcorp/product/103-9747
+- https://parts.cat.com/en/catcorp/product/261-6111
+
+برای 551-4677، محتویات کیت و سری ساخت باید با فروشنده رسمی تأیید شود. برای loop clip، قطر بست و محل نصب؛ برای hose، فشار کاری، coupling و مسیر؛ برای water pump و oil pan، engine arrangement و PIN؛ و برای bogie wheel plate و hydraulic parts، ابعاد، group و شماره سریال دستگاه باید تطبیق داده شوند.
