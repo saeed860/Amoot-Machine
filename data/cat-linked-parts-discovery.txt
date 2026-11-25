@@ -2704,3 +2704,8 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 9M-9989 | 0.79mm Thick Aftercooler Housing Gasket | 8 | Cat 324-8849 Discontinued G399 Engine Overhaul Kit BOM | official_cat_historical_bom_verified; kit_discontinued; standalone_item_page_not_checked; current_fitment_not_inferred
 
 Source page: https://parts.cat.com/en/catcorp/product/324-8849
+
+
+## Cat 324-8854 D399 soft-parts overhaul kit — no BOM rows published (batch 162)
+
+Source: official Cat Parts Store product page https://parts.cat.com/en/catcorp/product/324-8854. Compatible models explicitly shown: GEN SET ENGINE / D399; MARINE ENGINE / D399; INDUSTRIAL ENGINE / D399. The current official page states there are currently no parts associated with this kit and directs users to the dealer for information. Related/frequently-bought items are not treated as kit contents. No component part numbers were inferred or added.
