@@ -4175,3 +4175,46 @@ Additional Cat-linked discovery candidates from official Cat parts diagrams/freq
 Candidate leads are not fitment claims and require individual item-page verification.
 
 Overall reviewed progress: 68/500 batches = 680/5,000 product target (13.6%). Original Cat seed list has 107 SKUs remaining (products 681–787).
+
+## Batch 69/500 — products 681–690 (2026-11-25)
+
+SKUs: 5N-2618, 5N-9021, 5N-9022, 5P-5422, 5P-7665, 5T-5045, 600-3535, 601-8313, 602-0406, 603-1668. All ten Cat pages opened except 601-8313, whose page did not load beyond the basic item shell. Verified fitment/specifications and alternate/related items. Two track-bolt pages contain conflicting title-vs-spec thread dimensions; discrepancies were explicitly stored rather than silently resolving them.
+
+Verified:
+- 5N-2618: Cat Auxiliary Sea Water Pump Impeller. Specs: 7.5in length ×2.2in height, Alloy Copper. 27 compatible labels across generator sets, marine engines, marine auxiliary, engine-industrial and industrial engines. DB matches.
+- 5N-9021: Cat 32-Vane Sea Water Pump Impeller. Specs: 11.5in length ×3.4in height, Alloy Copper. 12 compatible labels across marine engines, marine auxiliary, generator sets and industrial engines. DB matches.
+- 5N-9022: Cat Sea Water Pump Port Plate. Material Alloy Copper, Alloy Aluminum, Brass and Bronze. 12 compatible labels across marine engine, marine auxiliary, generator sets and industrial engines. DB matches.
+- 5P-5422: Cat Hex Head Track Bolt. 24 compatible labels across D10N/D10R/D10T2/D10T/D10, 740/735/745 articulated/ejector trucks, 10-series bulldozers and 59/58L winches. Specs: 2.46in grip, RH, Carbon Steel, Cat/ASTM F2882 170 Ksi. Source discrepancy: Cat product title says 1.000in thread size and 92.08mm length, but Specifications section says 0.039in thread size and 3.641in length (92.48mm). Both are now recorded in DB without choosing one.
+- 5P-7665: Cat Hex Head Track Bolt. 37 compatible labels across D10/D11/D9 tractors, D6/D8 tractors, wheel loaders, motor graders, excavators, forestry and off-highway trucks. Specs: 2.5in length, 1.563in grip, RH, Carbon Steel/Alloy Zinc, Cat/ASTM F2882 170 Ksi. Source discrepancy: Cat product title says 0.750in thread size while Specifications says 0.03in; both recorded explicitly.
+- 5T-5045: Cat Lubrication Injector Assembly for automatic lubrication systems. Specs: 7.06in length ×2in width ×2in height, 1.18in OD, 1/8-27 NPTF thread, Steel. 76 compatible labels across underground trucks, wheel tractors, mining excavators, articulated trucks, quarry trucks, wheel scrapers, LHDs, graders, wheel loaders and other heavy equipment. DB matches.
+- 600-3535: Cat Basic Water Pump Group, cast-iron body/impeller, 41 compatible model labels across C32/C27/C18/C15/C9/C7 engine families and associated generator, marine, petroleum and industrial applications. Cat Reman alternative 20R-9849 added/retained separately.
+- 601-8313: Cat Fuel Injection Pump Rail. Public page did not load technical details in this run; DB retains no inferred compatible models or specifications.
+- 602-0406: Cat Track Segment, D11R/D11T/D11 (3 labels). Specs: 8 bolts, 6 teeth, 317.5mm/12.5in pitch, 20.827in tip radius, 20.659in pitch-circle radius, 2.953in bushing radius, 5.394in tooth width, 20.63in packing-offset radius, 16.535in bolt-circle radius, 0.079in backlash, relieved, offset sprocket mounting, 40° pocket, 1in bolt thread, HD undercarriage, alloy/tough steel. Cat page does not list parts currently associated with this segment.
+- 603-1668: Cat Basic Water Pump Group. Specs: cast iron body and impeller, 50 compatible labels across generator sets, marine/industrial/petroleum engines, wheel tractors, off-highway trucks, gen sets and industrial applications. Cat Reman alternative 20R-9847 retained separately.
+
+Cat pages:
+- https://parts.cat.com/en/catcorp/product/5N-2618
+- https://parts.cat.com/en/catcorp/product/5N-9021
+- https://parts.cat.com/en/catcorp/product/5N-9022
+- https://parts.cat.com/en/catcorp/product/5P-5422
+- https://parts.cat.com/en/catcorp/product/5P-7665
+- https://parts.cat.com/en/catcorp/product/5T-5045
+- https://parts.cat.com/en/catcorp/product/600-3535
+- https://parts.cat.com/en/catcorp/product/601-8313 (inaccessible)
+- https://parts.cat.com/en/catcorp/product/602-0406
+- https://parts.cat.com/en/catcorp/product/603-1668
+
+Post-update DB verification counts: 5N-2618=27; 5N-9021=12; 5N-9022=12; 5P-5422=24; 5P-7665=37; 5T-5045=76; 600-3535=41; 601-8313=0; 602-0406=3; 603-1668=49. No customer prices or stock claims added.
+
+Additional Cat-linked discovery candidates from official Cat related/alternate panels:
+- 5N-2618: 5N-6055, 5N-2902, 3N-8463, 3N-8462, 4M-6107.
+- 5N-9021: 5N-9006, 5N-9013, 5N-2902, 5N-9017, 3N-8463.
+- 5P-5422: 433-6739, 8D-4771, 3K-0360, 9M-5894.
+- 5P-7665: 3K-0360, 2R-0098, 2S-4078, 8D-4771.
+- 5T-5045: 5T-5012, 1R-0755, 3J-1907, 107-0266, 4J-0527.
+- 600-3535: 122-3772, 2N-5243, 197-8006, 125-0434, 341-1429; Cat Reman 20R-9849.
+- 602-0406: 602-0405, 5P-4057, 2S-4078, 3K-0360.
+- 603-1668: 122-3772, 197-8006, 125-0434, 109-0077, 3S-9643; Cat Reman 20R-9847.
+Candidates remain separate from fitment claims and require individual item-page verification before catalog promotion.
+
+Overall reviewed progress: 69/500 batches = 690/5,000 product target (13.8%). Original Cat seed list has 97 SKUs remaining (products 691–787).
