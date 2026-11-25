@@ -2579,3 +2579,17 @@ part_number | displayed_description | kit_quantity | source_context | verificati
 7N-4945 | 0.8mm Thick Water Lines Gasket | 1 | Cat 319-3856 793D Water Lines Group Gaskets Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
 
 Source page: https://parts.cat.com/en/catcorp/product/319-3856
+
+
+## Additional Cat 160H/140H/163H/143H/14H and 972G II/966G II single-cylinder-head kit BOM candidates — batch 154
+
+Source: official Cat Parts Store product page 319-0847, Single Cylinder Head Install Kit. Compatible models explicitly shown: MOTOR GRADER / 160H, 140H, 163H, 143H, 14H; WHEEL LOADER / 972G II, 966G II. Cat describes this kit as gaskets and seals to rebuild and reinstall one cylinder head; turbo gaskets are included, fuel injector seals are not. Twenty-seven other listed components were already present in the queue or seed list and are not duplicated. The five new rows below are official BOM references only; confirm exact engine serial/arrangement and order injector seals separately where required.
+
+part_number | displayed_description | kit_quantity | source_context | verification_status
+190-7634 | 1.98 x 11.89mm 75A FKM O-Ring | 1 | Cat 319-0847 Single Cylinder Head Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+1S-7057 | 0.79mm Thick Flange Gasket | 1 | Cat 319-0847 Single Cylinder Head Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+3E-8017 | M10 x 1.5mm Cone Lock Nut | 4 | Cat 319-0847 Single Cylinder Head Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+4G-4972 | 7.14mm Inner Diameter Seal O-Ring | 6 | Cat 319-0847 Single Cylinder Head Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+7W-2398 | 0.8mm Thick Turbocharger Oil Lines Gasket | 1 | Cat 319-0847 Single Cylinder Head Install Kit BOM | official_cat_kit_bom_verified; standalone_item_page_not_checked; fitment_limited_to_kit_listing
+
+Source page: https://parts.cat.com/en/catcorp/product/319-0847
