@@ -2045,3 +2045,40 @@ Mirror و Workflow پس از بررسی تغییرات هم‌زمان با Mast
 - 258-3662 — Water Separator and Fuel Filter Hose.
 
 این پنج ردیف از CSV فیتمنت 287B حذف شدند و در CSV مستقل 297C-only باقی ماندند. هیچ شماره‌ای از Master عمومی حذف نشد؛ Master فهرست شماره‌های OEM است، در حالی که CSVها مرجع فیتمنت مدل هستند. پس از این اصلاح، اشتراک این پنج شماره با CSV 287B صفر شد.
+
+## دور ۶۶ — پمپ هیدرولیک، فیلتر و قطعات موتور (25 Nov 2026)
+
+بررسی مجدد صفحات رسمی Cat Parts Store و تطبیق با CSVها انجام شد:
+- 283-9476 — 25.4mm Inner Diameter Hydraulic Pump Hose؛ صفحه رسمی Cat صریحاً 287B را در Compatible Models دارد. در CSV رسمی 287B اضافه شد.
+- 258-3621 — Hydraulic Cylinder Seal Kit؛ صفحه رسمی 297C را دارد اما 287B را ندارد. در CSV مستقل 297C-only اضافه شد؛ کاربرد کیت وابسته به Cylinder Group است و بدون شماره گروه سیلندر نباید سفارش نهایی شود.
+
+مواردی که قبلاً در Master/CSV بودند و دوباره تکرار نشدند:
+- 1R-0734 — Advanced Efficiency Engine Oil Filter؛ Compatible Models شامل 287B و 297C.
+- 203-4827 — 7 Blade Oil Cooler Fan؛ Compatible Models شامل 287B و 297C.
+- 234-4826 — Engine Oil Filter Union؛ Compatible Models شامل 287B و 297C.
+- 225-9521 — Cyl Gp Basic؛ Compatible Models شامل 287B و 297C.
+- 267-3766 و 177-1958 — Hydraulic Cylinder Seal Kits؛ Compatible Models شامل 287B و 297C؛ انتخاب نهایی وابسته به Cylinder Group است.
+- 243-0406 — Engine Air Cleaner؛ Compatible Models شامل 287B و 267B، نه 297C.
+- 110-6331 — Secondary Standard Efficiency Engine Air Filter؛ Compatible Models شامل 287B و 297C.
+
+موارد غیرقابل سفارش یا خارج از فیتمنت:
+- 228-9236 — PUMP GP-PS-V؛ صفحه Cat وضعیت Discontinued دارد؛ وارد فهرست سفارش‌پذیر نشد.
+- 258-2552 و 278-8720 در Compatible Models فقط 297C و مدل‌های دیگر C را دارند و 287B را ندارند؛ در CSV 287B ثبت نمی‌شوند.
+- 631-6270 در دور قبل به‌عنوان 297C-only ثبت شده و 287B نیست.
+
+منابع رسمی:
+- https://parts.cat.com/en/catcorp/product/283-9476
+- https://parts.cat.com/en/catcorp/product/258-3621
+- https://parts.cat.com/en/catcorp/product/1R-0734
+- https://parts.cat.com/en/catcorp/product/203-4827
+- https://parts.cat.com/en/catcorp/product/234-4826
+- https://parts.cat.com/en/catcorp/product/225-9521
+- https://parts.cat.com/en/catcorp/product/267-3766
+- https://parts.cat.com/en/catcorp/product/177-1958
+- https://parts.cat.com/en/catcorp/product/243-0406
+- https://parts.cat.com/en/catcorp/product/110-6331
+- https://parts.cat.com/en/catcorp/product/228-9236
+- https://parts.cat.com/en/catcorp/product/258-2552
+- https://parts.cat.com/en/catcorp/product/278-8720
+
+نکته فنی: برای hose قطر داخلی، طول، فشار، اتصالات و مسیر؛ برای oil cooler fan قطر، تعداد پره و جهت چرخش؛ و برای seal kit شماره Cylinder Group باید پیش از سفارش کنترل شود.
