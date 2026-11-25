@@ -44,23 +44,24 @@ function setServerProducts(rows){db.products=(Array.isArray(rows)?rows:[]);db.ca
 window.setApiProducts = function(rows){db.products=Array.isArray(rows)?rows:[];db.catalog_source='server';save();populateModelFilter();};
 window.setServerProducts=setServerProducts;
 function categoryInfo(p){
- const raw=String(p.category||'').trim(), name=String(p.name||'').toLowerCase(), t=(name+' '+raw+' '+(p.description||'')).toLowerCase();
- const hasFilterName=/فیلتر|filter|هواکش|breather|جداکننده آب|suction screen|filter screen|screen assembly|strainer|air cleaner|precleaner|پیش.?تمیزکننده|aftertreatment|dpf|diesel particulate|def filter|diesel exhaust fluid|coolant conditioner|water spray filter/.test(name);
- const hasFilterCategory=/فیلتر|filter|هواکش|breather|جداکننده آب|aftertreatment|dpf|def/.test(raw);
- if(hasFilterName||(hasFilterCategory&&!/قطعات موتور و فیلتر/.test(raw))){
+ const raw=String(p.category||'').trim(),name=String(p.name||'').toLowerCase(),description=String(p.description||'').toLowerCase(),technical=String(p.technicalGroup||p.technical_group||'').toLowerCase();
+ const t=normalizeSearch(name+' '+raw+' '+description+' '+technical);
+ const filterPattern=/فیلتر|filter|هواکش|breather|جداکننده.?آب|water.?separator|suction.?screen|filter.?screen|screen.?assembly|strainer|air.?cleaner|pre.?cleaner|precleaner|after.?treatment|aftertreatment|dpf|diesel.?particulate|def.?filter|diesel.?exhaust.?fluid|coolant.?conditioner|water.?spray.?filter|oil.?filter|fuel.?filter|hydraulic.?filter|cabin.?filter|lube.?filter|separator.?filter|filter.?base|filter.?housing|filter.?element/.test(t);
+ if(filterPattern){
   let sub='سایر فیلترها';
   if(/کابین|cabin/.test(t))sub='فیلتر کابین';
-  else if(/\bdef\b|diesel exhaust fluid|urea|فیلتر def|اگزوز دیزل/.test(t))sub='فیلتر DEF و پس‌پالایش';
-  else if(/\bdpf\b|diesel particulate|soot filter|فیلتر دوده|aftertreatment/.test(t))sub='فیلتر DPF و پس‌پالایش';
-  else if(/water separator|جداکننده آب/.test(t)&&/lube|lubrication|روانکاری|fumes disposal/.test(t))sub='فیلتر روغن و روانکاری';
-  else if(/سوخت|fuel|water separator|جداکننده آب/.test(t))sub='فیلتر سوخت و جداکننده آب';
+  else if(/\\bdef\\b|diesel exhaust fluid|urea|اگزوز دیزل/.test(t))sub='فیلتر DEF و پس‌پالایش';
+  else if(/\\bdpf\\b|diesel particulate|soot filter|فیلتر دوده|aftertreatment/.test(t))sub='فیلتر DPF و پس‌پالایش';
+  else if(/water separator|جداکننده.?آب/.test(t)&&/fuel|سوخت/.test(t))sub='فیلتر سوخت و جداکننده آب';
+  else if(/سوخت|fuel/.test(t))sub='فیلتر سوخت';
   else if(/هیدرولیک|hydraulic|transmission/.test(t))sub='فیلتر هیدرولیک و انتقال قدرت';
-  else if(/روغن|lube|oil/.test(t))sub='فیلتر روغن و روانکاری';
+  else if(/روغن|lube|lubrication|oil/.test(t))sub='فیلتر روغن و روانکاری';
   else if(/water spray|آب.?پاش/.test(t))sub='فیلتر سیستم آب‌پاش';
-  else if(/air conditioner|a\/c|تهویه|کولر/.test(t))sub='فیلتر تهویه و کولر';
-  else if(/خنک.?کاری|coolant|cooling|water pump|فیلتر آب|آب.?پمپ/.test(t))sub='فیلتر آب و سیستم خنک‌کاری';
+  else if(/air conditioner|a\\/c|تهویه|کولر/.test(t))sub='فیلتر تهویه و کولر';
+  else if(/خنک.?کاری|coolant|cooling|فیلتر آب/.test(t))sub='فیلتر آب و سیستم خنک‌کاری';
   else if(/breather|vent filter|case vent|crankcase|fumes disposal|هواکش|تنفسی/.test(t))sub='هواکش و فیلتر تنفسی';
-  else if(/هوا|air cleaner|precleaner|air filter|هوای موتور|two.stage|پیش.?تمیزکننده/.test(t))sub='فیلتر هوا و هواکش ورودی';
+  else if(/هوا|air cleaner|pre.?cleaner|هوای موتور/.test(t))sub='فیلتر هوا و هواکش ورودی';
+  else if(/filter base|filter housing|filter assembly|پایه فیلتر|محفظه فیلتر|مجموعه فیلتر/.test(t))sub='پایه، محفظه و مجموعه فیلتر';
   return {parent:'فیلترها',sub};
  }
  if(/برقی|electrical|alternator|starter|sensor|switch/.test(t))return {parent:'قطعات برقی',sub:/استارت|starter/.test(t)?'استارت':/دینام|alternator/.test(t)?'دینام و شارژ':'سنسورها و کنترل الکترونیکی'};
