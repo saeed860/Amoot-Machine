@@ -3643,3 +3643,41 @@ Additional Cat-linked discovery leads from official Cat frequently-bought-togeth
 All are discovery leads only and require item-level verification before catalog promotion.
 
 Overall reviewed progress: 55/500 batches = 550/5,000 product target (11.0%). Original Cat seed list has 237 SKUs remaining (products 551–787).
+
+## Batch 56/500 — products 551–560 (2026-11-25)
+
+SKUs: 3T-5760, 416-0613, 416-4686, 420-9876, 420-9877, 422-7389, 422-7690, 422-7692, 422-7693, 423-3676. Nine Cat product pages opened; 422-7692 was inaccessible through the storefront in this check, so its existing record was left unchanged. All ten DB records were re-queried.
+
+Verified:
+- 3T-5760: Cat 12V 31 BCI Heavy Duty, maintenance-free accessible wet starting battery. Specs: 750 CCA, 165-minute reserve, 100Ah at 20h, SAE posts, 13 ×6.8 ×9.5in, 55lb, calcium-lead alloy grid, polypropylene case. Cat compatible-model page contains 713 distinct model labels across generator, toolcarrier, skidders, compactors, excavators, tractors, loaders, telehandlers, wheeled excavators, industrial/marine engines and agricultural equipment. DB matches the published specification/fitment set.
+- 416-0613: Cat Water Pump with Impeller used in Engine Front Housing. Specs: 20.8in length ×13.4in height; Cat material field Oil Fluid. Eight compatible labels: Generator Set 3516C/3516C GEN; Marine Engine 3512C/3516/3516B/3516C; Power Module XQC1600; Marine Auxiliary 3516C; Industrial Engine 3516C; Truck 793B/793C; Petroleum Engine 3516C; Locomotive Engine 3516C/3516B. Cat Compare Alternate Parts displays 10R-9598 Cat Reman Auxiliary Sea Water Pump; kept as reman alternate, not a guaranteed interchange.
+- 416-4686: Cat Pump Group. Cat public page says it is still adding description/specifications. Compatible models: Generator Set 3512B; Marine Engine 3508C; Marine Auxiliary 3512B/3508C; Engine 3512PETROL/3508PETROL; Industrial Engine 3512/3508; Petroleum Engine 3512/3512B. Six unique labels. No extra technical specs inferred.
+- 420-9876: Cat General Duty rubber track, 381mm (15in) wide, 100mm pitch, 42 sections, zig-zag tread. Specs: 3.937in pitch, 42 lugs, 74.72in length, 15.24in height, 30.91in overall width, 165.35in circumference, 188.43lb, black reinforced rubber/fiber, Heavy Duty Bar, GD undercarriage. Compatible models: 257D/257D3/257B/247B/247B3/257B3 (6).
+- 420-9877: Cat General Duty rubber track, 457mm (17.99in) wide, 100mm pitch, 51 sections, zig-zag tread. Specs: 3.937in pitch, 51 lugs, 90in length, 19.69in height, 35.43in overall width, 200.79in circumference, 292.99lb, black reinforced rubber/fiber, Heavy Duty Bar, GD undercarriage. Compatible models: 277D/287C/277C/297D2/297D2 XHP/287C2/277C2/297D/297D XHP/287D/297C (11). DB matches.
+- 422-7389: Cat External Engine Oil Pump Kit. Cat's item page lists kit category Gaskets, seals and 11 line items: 109-2332 O-ring ×2; 111-1349 valve-cover gasket ×1; 1H-9696 O-ring ×1; 238-5080 O-ring ×1; 238-5081 O-ring ×1; 259-4600 O-ring ×1; 298-6387 O-ring ×1; 3J-1907 O-ring ×1; 6V-3908 O-ring ×1; 6V-5101 seal O-ring ×1; 7N-5057 engine-oil-pump gasket ×1. Cat fitment spans Gen Set Engine 3512B; Generator Set G3508/3516C GEN/G3516B/3516C/3516B/3512/G3516/G3512/3512C/3512B; Power Module 3516C/PM3516; Marine Engine 3512C/3508B/3516B/3516C/3512B; Marine Auxiliary 3512C/3512B/3516B; Petroleum Engine 3516C/3512C; Locomotive Engine 3516C; Gas Engine G3516B/G3508B/G3512/G3516/G3508. DB contains the same 11 kit lines and 13 distinct compatible labels.
+- 422-7690: Cat Undercarriage Arrangement (Camber Only RH). Cat Compatible Models: D9T/D9/D9R/D9 GC. Cat page says specifications are still being added; DB keeps specs empty.
+- 422-7692: Cat RH Undercarriage Arrangement page not accessible in this check. Existing DB fitment D9T/D9/D9R/D9 GC and no specifications retained without modification.
+- 422-7693: Cat LH Undercarriage Track Frame. Cat Compatible Models: D9T/D9/D9R/D9 GC. Cat page says specifications are still being added; DB keeps specs empty.
+- 423-3676: Cat Lift Arm Hydraulic Quick Coupler. Specs: 45.3in length ×8.8in width ×17.1in height, 176.41lb, Medium Gloss Black, Alloy Steel. Compatible labels: MTL 297D XHP/277D/297D/287D/297D2/297D2 XHP; CTL 299D/289D/279D/289D3/299D3 XE/279D3/299D3/299D2/299D XHP/299D2 XHP; mini excavators 306/304.5E2; skid steers 246D3/246D/262D3/262D/272D/272D XHP/272D2 XHP/272D3 XE/272D3/272D2 (28 labels). Cat's frequently-bought-together panel lists 345-6511 and 142-9091; more related leads captured separately.
+
+Cat pages:
+- https://parts.cat.com/en/catcorp/product/3T-5760
+- https://parts.cat.com/en/catcorp/product/416-0613
+- https://parts.cat.com/en/catcorp/product/416-4686
+- https://parts.cat.com/en/catcorp/product/420-9876
+- https://parts.cat.com/en/catcorp/product/420-9877
+- https://parts.cat.com/en/catcorp/product/422-7389
+- https://parts.cat.com/en/catcorp/product/422-7690
+- https://parts.cat.com/en/catcorp/product/422-7692 (not accessible during this check)
+- https://parts.cat.com/en/catcorp/product/422-7693
+- https://parts.cat.com/en/catcorp/product/423-3676
+
+Post-update DB verification counts: 3T-5760=713; 416-0613=8; 416-4686=6; 420-9876=6; 420-9877=11; 422-7389=13; 422-7690=4; 422-7692=4; 422-7693=4; 423-3676=28. No customer prices or stock claims added.
+
+Additional Cat-linked discovery candidates from official Cat kit-component, reman-alternate and frequently-bought-together panels (candidate leads only):
+- 416-0613: 10R-9598 Cat Reman Auxiliary Sea Water Pump; 5H-6734, 271-4926, 2H-3928, 6V-6809, 2M-9780.
+- 422-7389 kit BOM: 109-2332, 111-1349, 1H-9696, 238-5080, 238-5081, 259-4600, 298-6387, 3J-1907, 6V-3908, 6V-5101, 7N-5057.
+- 423-3676: 345-6511, 142-9091, 5B-0651, 6K-4148, 388-7978.
+Each is a candidate lead or kit component, not proof of fitment with unrelated machines.
+
+Overall reviewed progress: 56/500 batches = 560/5,000 product target (11.2%). Original Cat seed list has 227 SKUs remaining (products 561–787).
