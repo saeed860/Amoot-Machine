@@ -244,7 +244,8 @@ begin
     select 1 from public.part_catalog
     where part_number = '453-2315'
       and engine_models @> array['C18']::text[]
-      and verification_status = 'REFERENCE'
+      and source_name = 'Cat Parts Store (official)'
+      and verification_status in ('REFERENCE','NEEDS_SERIAL_CHECK')
   ) then
     raise exception 'C18 page-5 gasket reference is missing (row=%)', (select json_build_object('part_number',part_number,'engine_models',engine_models,'verification_status',verification_status,'source_name',source_name) from public.part_catalog where part_number='453-2315');
   end if;
