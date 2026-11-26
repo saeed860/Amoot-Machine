@@ -14,7 +14,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="آموت ماشین">
-<link rel="stylesheet" href="./style.css?v=20261125googleoauth1">
+<link rel="stylesheet" href="./style.css?v=20261126adminfilterfix1">
 <link rel="stylesheet" href="./admin-panel.css?v=20261125fullscreen1">
 </head>
 <body>
@@ -42,13 +42,13 @@
   <div class="footer-brand-col"><a class="brand" href="./index.html#home"><span class="brand-mark"><img src="./assets/amoot-logo.png" alt="نشان آموت ماشین"></span><span class="brand-name">آموت ماشین<small>AMOOT MACHINE</small></span></a><p>تأمین تخصصی قطعات یدکی، ماشین‌آلات سنگین و تجهیزات صنعتی؛ جستجوی دقیق، مشاوره فنی و تأمین قطعات موردنیاز پروژه‌ها.</p><a class="footer-contact-cta" href="./search.html">جستجوی قطعات <b>←</b></a></div>
   <nav class="footer-col" aria-label="دسترسی سریع"><h3>دسترسی سریع</h3><a href="./index.html#home">صفحه اصلی</a><a href="./index.html#products">همه محصولات</a><a href="./index.html#catalog">دسته‌بندی محصولات</a><a href="./search.html">جستجوی پارت‌نامبر</a><a href="./sitemap.html">نقشه سایت</a></nav>
   <nav class="footer-col" aria-label="گروه‌های محصول"><h3>گروه‌های محصول</h3><a href="./index.html#catalog">قطعات موتور و ژنراتور</a><a href="./index.html#catalog">فیلتر و قطعات مصرفی</a><a href="./index.html#catalog">قطعات برقی</a><a href="./index.html#catalog">هیدرولیک و پنوماتیک</a><a href="./index.html#catalog">زیربندی و انتقال قدرت</a><a href="./index.html#catalog">تجهیزات دریایی و صنعتی</a></nav>
-  <nav class="footer-col" aria-label="خدمات مشتریان"><h3>خدمات مشتریان</h3><a href="javascript:void(0)" onclick="openQuote()">درخواست استعلام قیمت</a><a href="javascript:void(0)" onclick="openQuote()">درخواست تأمین قطعه کمیاب</a><a href="./search.html">راهنمای جستجوی قطعه</a><a href="javascript:void(0)" onclick="openAuth('login')">ورود / ثبت‌نام</a><a href="javascript:void(0)" onclick="openCart()">سبد خرید</a><a href="./index.html#about">درباره آموت ماشین</a></nav>
+  <nav class="footer-col" aria-label="خدمات مشتریان"><h3>خدمات مشتریان</h3><a href="javascript:void(0)" onclick="openQuote()">درخواست استعلام قیمت</a><a href="javascript:void(0)" onclick="openQuote()">درخواست تأمین قطعه کمیاب</a><a href="./search.html">راهنمای جستجوی قطعه</a><a href="javascript:void(0)" onclick="openAuth('login')">ورود / ثبت‌نام</a><a href="javascript:void(0)" onclick="openAdmin()">ورود مدیریت</a><a href="javascript:void(0)" onclick="openCart()">سبد خرید</a><a href="./index.html#about">درباره آموت ماشین</a></nav>
  </div>
  <div class="footer-contact-row"><span>☎ 021-12345678</span><a href="./index.html#contact">تماس با آموت ماشین</a><a href="./sitemap.html">نمای کلی وب‌سایت</a></div>
  <div class="footer-bottom"><small>© تمامی حقوق برای آموت ماشین محفوظ است.</small><small>AMOOT MACHINE · HEAVY EQUIPMENT & INDUSTRIAL PARTS</small><small class="photo-credits">اعتبار تصاویر بنر: <a href="./assets/BANNER_IMAGE_CREDITS.md" target="_blank" rel="noopener">مشاهده منابع و مجوز استفاده</a></small></div>
 </div></footer>
 <div id="modal" class="modal" onclick="if(event.target===this)closeModal()"><div class="modal-card"><button class="close" onclick="closeModal()">×</button><div id="modalBody"></div></div></div><div id="toast" class="toast"></div>
-<script src="./offroad-catalog.js?v=20261124offroadprice1"></script><script src="./app.js?v=20261125filtertree9"></script><script src="./api-config.js?v=20261122h"></script><script src="./analytics.js?v=20261125analytics1"></script><script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="./api-client.js?v=20261125googleoauth2"></script><script src="./admin-panel.js?v=20261125fullscreen1"></script><script src="./cart.js?v=20261122m"></script>
+<script src="./offroad-catalog.js?v=20261124offroadprice1"></script><script src="./app.js?v=20261126adminfilterfix1"></script><script src="./api-config.js?v=20261122h"></script><script src="./analytics.js?v=20261125analytics1"></script><script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="./api-client.js?v=20261125googleoauth2"></script><script src="./admin-panel.js?v=20261125fullscreen1"></script><script src="./cart.js?v=20261122m"></script>
 <script>(function(){const f=document.getElementById("quickSearchForm");if(!f)return;f.addEventListener("submit",function(e){const input=f.querySelector('input[name="q"]');const q=(input?.value||"").trim();if(!q){e.preventDefault();input?.focus();return;}e.preventDefault();window.location.href="./search.html?q="+encodeURIComponent(q);});})();</script>
 <script>
 (function(){
