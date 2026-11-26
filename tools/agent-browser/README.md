@@ -46,6 +46,15 @@ For the persistent stdio server used by MCP clients, configure the client to lau
 
 It stays in the foreground because it exchanges newline-delimited JSON-RPC over stdin/stdout. Do not run it in a separate terminal when the MCP client is configured to launch it; the client manages that process.
 
+To verify the actual stdio handshake and tool discovery (not just one-shot `mcp call`), download and run the checker:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/saeed860/Amoot-Machine/feat/agent-browser-mcp-setup/tools/agent-browser/verify-mcp-stdio.js -o "$HOME/amoot-agent-browser/verify-mcp-stdio.js"
+node "$HOME/amoot-agent-browser/verify-mcp-stdio.js"
+```
+
+Expected output includes `PASS: MCP stdio initialize`, `PASS: tools/list`, and the open/snapshot/close tools.
+
 ### Connect a local Codex CLI / compatible MCP client
 
 If Codex CLI is installed inside the same Ubuntu environment, register the stdio server once:
