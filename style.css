@@ -577,3 +577,6 @@
 .google-auth-button:hover{background:#f8f9fa;border-color:#b9bec4}
 .google-auth-button:disabled{opacity:.6;cursor:wait}
 .google-auth-button .google-g{font:800 19px Arial,sans-serif;color:#4285f4;background:conic-gradient(from -45deg,#4285f4 0 25%,#34a853 25% 50%,#fbbc05 50% 75%,#ea4335 75%);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+
+/* 2026-11-26: keep management access visible at every responsive breakpoint */
+.top-left button.admin-entry{display:inline-flex!important;align-items:center;justify-content:center;white-space:nowrap;visibility:visible!important;opacity:1!important;position:relative;z-index:8}
