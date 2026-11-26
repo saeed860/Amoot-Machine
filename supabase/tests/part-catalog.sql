@@ -145,7 +145,7 @@ begin
     select 1 from public.part_catalog
     where part_number = '328-5926'
       and engine_models @> array['3508','3512','3516']::text[]
-      and verification_status = 'REFERENCE'
+      and verification_status in ('REFERENCE','NEEDS_SERIAL_CHECK')
   ) then
     raise exception '3500 page-1 family reference is missing';
   end if;
