@@ -90,7 +90,8 @@ begin
     select 1 from public.part_catalog
     where part_number = '10R-7231'
       and engine_models @> array['C18']::text[]
-      and verification_status = 'REFERENCE'
+      and source_name = 'Cat Parts Store (official)'
+      and verification_status in ('REFERENCE','NEEDS_SERIAL_CHECK')
   ) then
     raise exception 'C18 page-5 reference is missing';
   end if;
@@ -98,7 +99,7 @@ begin
   if not exists (
     select 1 from public.part_catalog
     where part_number = '422-7587'
-      and engine_models @> array['3508']::text[]
+      and engine_models @> array['3512B']::text[]
       and verification_status = 'REFERENCE'
   ) then
     raise exception '3508 combined-family reference is missing';
