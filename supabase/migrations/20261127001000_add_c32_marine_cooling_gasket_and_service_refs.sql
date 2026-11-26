@@ -1,0 +1,36 @@
+-- C32 Marine cooling, service, sealing and marine accessory references.
+-- Cat public model listings are not exact serial-prefix/arrangement fitment certification.
+WITH src(part_number,name,description,technical_group,models,source_url,source_note,specifications) AS (
+ VALUES
+ ('300-3952','براکت Cat 300-3952','Cat bracket assembly listed for C32 MARINE under Marine Engine. Public listing has no detailed description; confirm its diagram position and assembly before ordering.','موتورهای دریایی - براکت‌ها و اتصالات موتور',ARRAY['C32 MARINE ENGINE']::text[],'https://parts.cat.com/en/catcorp/product/300-3952','Official Cat Parts Store lists C32 MARINE under MARINE ENGINE. Generic bracket listing; verify diagram position, serial prefix and arrangement in Cat SIS.','{"component":"Bracket Assembly","public_specification":"Limited"}'::jsonb),
+ ('467-6271','مجموعه لوله آب Cat 467-6271','Water tube assembly listed by Cat for C32 MARINE under Marine Engine. The public listing title is abbreviated; confirm exact circuit and routing in the parts diagram.','موتورهای دریایی - سیستم خنک‌کاری - مجموعه لوله آب',ARRAY['C32 MARINE ENGINE']::text[],'https://parts.cat.com/en/catcorp/product/467-6271','Official Cat Parts Store lists C32 MARINE under MARINE ENGINE. Abbreviated title only; verify tube function, routing, serial prefix and arrangement in Cat SIS.','{"component":"Tube Assembly - Water","public_specification":"Abbreviated listing"}'::jsonb),
+ ('616-5845','آب‌بند مستطیلی Cat 616-5845','PTFE rectangular seal with 52.1 mm inside diameter and 55.9 mm outside diameter, listed for C32 MARINE under Marine Engine.','موتورهای دریایی - آب‌بندها - اورینگ مستطیلی',ARRAY['C32 MARINE ENGINE']::text[],'https://parts.cat.com/en/catcorp/product/616-5845','Official Cat Parts Store lists C32 MARINE under MARINE ENGINE and ENGINE. Confirm seal location and media compatibility before use; verify serial prefix and arrangement in Cat SIS.','{"component":"Rectangular Seal","inside_diameter_mm":52.1,"outside_diameter_mm":55.9,"cross_section_width_in":0.079,"cross_section_height_in":0.075,"material":"PTFE"}'::jsonb),
+ ('615-9657','کیت بازسازی یک سرسیلندر Cat 615-9657','Single-cylinder-head service kit containing gaskets and seals for rebuilding and reinstalling one cylinder head; includes turbo gaskets but excludes fuel-injector seals. Cat lists C32 MARINE under Marine Engine.','موتورهای دریایی - سرسیلندر - کیت تعمیر',ARRAY['C32 MARINE ENGINE']::text[],'https://parts.cat.com/en/catcorp/product/615-9657','Official Cat Parts Store lists C32 MARINE under MARINE ENGINE. Confirm head arrangement and kit contents for the exact engine serial/arrangement in Cat SIS.','{"component":"Single Cylinder Head Rebuild Kit","includes":["Gaskets","Seals","Turbo gaskets"],"excludes":["Fuel injector seals"]}'::jsonb),
+ ('420-8979','مجموعه شیلنگ فشار متوسط Cat 420-8979','Medium-pressure one-wire-braid hose assembly for high-temperature petroleum- and water-based hydraulic/lubricating fluids; 0.25 in ID and 13.386 in overall length. Cat lists C32 MARINE under Marine Engine.','موتورهای دریایی - شیلنگ‌ها - مدار سیالات',ARRAY['C32 MARINE ENGINE']::text[],'https://parts.cat.com/en/catcorp/product/420-8979','Official Cat Parts Store lists C32 MARINE under MARINE ENGINE. Confirm circuit, coupling ends, pressure rating and routing before ordering; verify serial prefix and arrangement in Cat SIS.','{"component":"Medium Pressure Hydraulic Hose Assembly","hose_id_in":0.25,"overall_length_in":13.386,"hose_type":"1-Wire Braid Hose"}'::jsonb),
+ ('613-6620','مجموعه لوله مدار خنک‌کننده Cat 613-6620','34.8 mm inner-diameter coolant lines tube assembly routing coolant through the engine cooling circuit. Cat lists C32 MARINE under Marine Engine.','موتورهای دریایی - سیستم خنک‌کاری - لوله مدار آب',ARRAY['C32 MARINE ENGINE']::text[],'https://parts.cat.com/en/catcorp/product/613-6620','Official Cat Parts Store lists C32 MARINE under MARINE ENGINE. Verify coolant circuit, routing, serial prefix and arrangement in Cat SIS.','{"component":"Coolant Lines Tube Assembly","inner_diameter_mm":34.8,"material":"Alloy Copper"}'::jsonb),
+ ('7N-2533','واشر آداپتور محرک پمپ Cat 7N-2533','0.79 mm pump-drive-adapter gasket sealing the joint between the pump drive adapter and its mating component. Cat lists C32 MARINE under Marine Engine.','موتورهای دریایی - محرک پمپ - واشر آداپتور',ARRAY['C32 MARINE ENGINE']::text[],'https://parts.cat.com/en/catcorp/product/7N-2533','Official Cat Parts Store lists C32 MARINE under MARINE ENGINE. Verify exact pump-drive assembly and gasket location in Cat SIS.','{"component":"Pump Drive Adapter Gasket","thickness_mm":0.79,"material":"Rubber & Cork, Rubber & Fiber Gasket"}'::jsonb),
+ ('423-3277','کیت کاور انژکتور سیال اگزوز دیزل Cat 423-3277','Diesel Exhaust Fluid injector cover service kit for the air-inlet and exhaust aftertreatment system. Cat lists C32 MARINE under Marine Engine.','موتورهای دریایی - پس‌پالایش اگزوز - کاور انژکتور DEF',ARRAY['C32 MARINE ENGINE']::text[],'https://parts.cat.com/en/catcorp/product/423-3277','Official Cat Parts Store lists C32 MARINE under MARINE ENGINE. Confirm installed DEF/aftertreatment configuration, serial prefix and arrangement in Cat SIS.','{"component":"Diesel Exhaust Fluid Injector Cover Kit","material":"Plastic"}'::jsonb)
+), upserted AS (
+ INSERT INTO public.part_catalog
+ (brand,part_number,name,description,engine_models,technical_group,source_name,source_url,source_note,verification_status,is_active,source_accessed_at,compatible_models,application_type,application_evidence,application_source_url,specifications)
+ SELECT 'Caterpillar',s.part_number,s.name,s.description,ARRAY['C32']::text[],s.technical_group,'Cat Parts Store',s.source_url,
+ s.source_note || ' Status: NEEDS_SERIAL_CHECK; not approved for sale until Cat SIS serial/arrangement verification.',
+ 'NEEDS_SERIAL_CHECK',false,now(),s.models,'UNVERIFIED',
+ 'Official Cat Parts Store public model listing only; exact serial-prefix and arrangement fitment not verified.',s.source_url,s.specifications
+ FROM src s
+ ON CONFLICT(part_number) DO UPDATE SET
+ name=EXCLUDED.name,description=EXCLUDED.description,engine_models=EXCLUDED.engine_models,
+ technical_group=EXCLUDED.technical_group,source_name=EXCLUDED.source_name,source_url=EXCLUDED.source_url,
+ source_note=EXCLUDED.source_note,verification_status='NEEDS_SERIAL_CHECK',is_active=false,
+ source_accessed_at=now(),compatible_models=EXCLUDED.compatible_models,application_type='UNVERIFIED',
+ application_evidence=EXCLUDED.application_evidence,application_source_url=EXCLUDED.application_source_url,
+ specifications=EXCLUDED.specifications,updated_at=now()
+ RETURNING part_number
+), products_off AS (
+ UPDATE public.products p SET status='INACTIVE',updated_at=now()
+ WHERE p.brand ILIKE '%cat%' AND p.status='ACTIVE'
+ AND upper(regexp_replace(p.sku,'[^A-Za-z0-9]','','g')) IN ('3003952','4676271','6165845','6159657','4208979','6136620','7N2533','4233277')
+ RETURNING p.sku
+)
+SELECT (SELECT count(*) FROM upserted) AS references_upserted,
+ (SELECT count(*) FROM products_off) AS exact_sku_products_deactivated;
