@@ -48,7 +48,7 @@ function categoryInfo(p){
  const raw=String(p.category||'').trim(),name=String(p.name||'').toLowerCase(),description=String(p.description||'').toLowerCase(),technical=String(p.technicalGroup||p.technical_group||'').toLowerCase();
  const extra=[p.group,p.type,p.applicationType,p.application_type,p.sourceName,p.source_name].filter(Boolean).join(' ').toLowerCase();
  const t=(name+' '+raw+' '+description+' '+technical+' '+extra).replace(/[_-]+/g,' ');
- const filterPattern=/فیلتر|filter|هواکش|breather|جداکننده.?آب|water.?separator|suction.?screen|filter.?screen|screen.?assembly|strainer|air.?cleaner|pre.?cleaner|precleaner|after.?treatment|aftertreatment|dpf|diesel.?particulate|def.?filter|diesel.?exhaust.?fluid|coolant.?conditioner|water.?spray.?filter|oil.?filter|fuel.?filter|hydraulic.?filter|cabin.?filter|lube.?filter|separator.?filter|filter.?base|filter.?housing|filter.?element/.test(t);
+ const filterPattern=/فیلتر|قطعات.?فیلتر|filter(?:s|ed|ing)?|هواکش|breather|جداکننده.?آب|water.?separator|suction.?screen|filter.?screen|screen.?assembly|strainer|air.?cleaner|pre.?cleaner|precleaner|after.?treatment|aftertreatment|dpf|diesel.?particulate|def.?filter|diesel.?exhaust.?fluid|coolant.?conditioner|water.?spray.?filter|oil.?filter|fuel.?filter|hydraulic.?filter|cabin.?filter|lube.?filter|separator.?filter|filter.?base|filter.?housing|filter.?element|filter.?cartridge|filter.?kit|filter.?group|filter.?head|filter.?cover|filter.?bowl|filter.?cap|filter.?seal|filter.?gasket|filter.?bracket|filter.?adapter|filter.?retainer|filter.?mounting|filter.?support|filter.?assembly/.test(t);
  if(filterPattern){
   let sub=FILTER_SUBCATEGORIES[7];
   if(/\bcabin\b|کابین|air.?condition|a\/c|تهویه|کولر/.test(t))sub=FILTER_SUBCATEGORIES[5];
@@ -92,7 +92,7 @@ function renderProducts(){
  grid.classList.add('product-category-groups');
  grid.innerHTML=parents.map((parent,index)=>{
   const items=products.filter(p=>categoryInfo(p).parent===parent);
-  const subs=parent==='فیلترها'?FILTER_SUBCATEGORIES:[...new Set(items.map(p=>categoryInfo(p).sub))].sort((a,b)=>a.localeCompare(b,'fa'));
+  const subs=parent==='فیلترها'?FILTER_SUBCATEGORIES.filter(sub=>items.some(p=>categoryInfo(p).sub===sub)):[...new Set(items.map(p=>categoryInfo(p).sub))].sort((a,b)=>a.localeCompare(b,'fa'));
   const subMarkup=subs.map(sub=>{const subItems=items.filter(p=>categoryInfo(p).sub===sub);return '<div class="product-subcategory"><div class="product-subcategory-head"><h4>'+esc(sub)+'</h4><button type="button" class="subcategory-view-all" onclick="showSubcategoryProducts(\''+esc(parent)+'\',\''+esc(sub)+'\')">مشاهده همه ('+subItems.length.toLocaleString('fa-IR')+') ←</button></div><div class="product-grid">'+subItems.slice(0,4).map(productCardHtml).join('')+'</div></div>'}).join('');
   return '<section class="product-category-section"><div class="product-category-heading"><div><span class="category-kicker">AMOOT MACHINE · GROUP '+String(index+1).padStart(2,'0')+'</span><h3>'+esc(parent)+'</h3><small>'+items.length.toLocaleString('fa-IR')+' محصول · '+subs.length.toLocaleString('fa-IR')+' زیردسته</small></div><button type="button" class="category-view-all" onclick="showCategoryProducts(\''+esc(parent)+'\')">مشاهده همه '+esc(parent)+' <b>←</b></button></div>'+subMarkup+'</section>';
  }).join('');
