@@ -38,13 +38,24 @@ agent-browser mcp call agent_browser_snapshot '{}'
 agent-browser mcp call agent_browser_close '{}'
 ```
 
-For the persistent stdio server used by MCP clients or tunnel-client:
+For the persistent stdio server used by MCP clients, configure the client to launch the script as a subprocess. The script validates the saved Chromium path and then starts the MCP server:
 
 ```bash
 "$HOME/amoot-agent-browser/run-mcp.sh"
 ```
 
-This stays in the foreground because it exchanges newline-delimited JSON-RPC over stdin/stdout. Do not close the terminal while a client is using it.
+It stays in the foreground because it exchanges newline-delimited JSON-RPC over stdin/stdout. Do not run it in a separate terminal when the MCP client is configured to launch it; the client manages that process.
+
+### Connect a local Codex CLI / compatible MCP client
+
+If Codex CLI is installed inside the same Ubuntu environment, register the stdio server once:
+
+```bash
+codex mcp add amoot-browser -- bash "$HOME/amoot-agent-browser/run-mcp.sh"
+codex mcp list
+```
+
+Restart Codex, then use `/mcp` to confirm that `amoot-browser` is available. The MCP client must run in the same Ubuntu/proot environment where Node.js, agent-browser, and Chromium were installed. This is a local Codex connection, not a ChatGPT mobile connection.
 
 The browser profile is kept at `~/.agent-browser/amoot-profile`; it can contain login cookies, so do not upload or commit it.
 
