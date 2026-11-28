@@ -53,3 +53,18 @@ The carousel fades between slides and retains its 5.5-second automatic rotation 
 - `assets/hero-cat-3516b.jpg` — Caterpillar 3516B XQ2000 power module, source: [Wikimedia Commons file page](https://commons.wikimedia.org/wiki/File:Caterpillar_3516B_-_XQ2000_Power_Module.JPG), CC BY-SA 3.0, author StcudorPrewoP. Changes: resized for web delivery.
 
 The original first-slide image remains local at `assets/hero-excavator.jpg`. Product-SKU photographs sourced from third-party sellers/manufacturer media remain separately documented above and are not included in this hero-image migration.
+
+
+## Exact-SKU official Caterpillar image additions (2026-11-28)
+
+The following five product image URLs were added to `verifiedPartImages` after fetching the matching official Cat Parts Store product pages. The page heading, part number, and product image were checked together; these are exact-SKU matches, not category placeholders.
+
+| Part number | Cat product description | Official source page | Image asset |
+|---|---|---|---|
+| 193-0980 | 2 Section Basic Gear Pump | https://parts.cat.com/en/catcorp/product/193-0980 | https://caterpillar.scene7.com/is/image/Caterpillar/CM20210817-4cc68-3e267 |
+| 558-2101 | Pinion-Circle Drive | https://parts.cat.com/en/catcorp/product/558-2101 | https://caterpillar.scene7.com/is/image/Caterpillar/CM20201019-c2af1-79b6c |
+| 172-7767 | Water Pump used in Engine | https://parts.cat.com/en/catcorp/product/172-7767 | https://caterpillar.scene7.com/is/image/Caterpillar/C10533255 |
+| 134-0467 | PUMP GP-INJ | https://parts.cat.com/en/catcorp/product/134-0467 | https://caterpillar.scene7.com/is/image/Caterpillar/CM20170508-76204-57647 |
+| 7W-1713 | Oil Cooler Core | https://parts.cat.com/en/catcorp/product/7W-1713 | https://caterpillar.scene7.com/is/image/Caterpillar/CM20201123-2f512-06954 |
+
+These official image URLs identify the part shown on the corresponding Cat product page. They do not establish local stock, sale condition, price, or fitment for a particular machine; equipment compatibility must still be checked by serial number and configuration. Review Caterpillar image-use terms before commercial redistribution.
