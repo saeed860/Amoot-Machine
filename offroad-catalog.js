@@ -525,7 +525,12 @@ const verifiedPartImages={
   '1795922':'https://www.hydraulicbreakerhammer.com/photo/pt204183860-turbocharger_1795922_for_excavator_cat_980c_980g_part_number_179_5922.jpg',
   '2239250':'https://industriemarine.com/images/thumbs/008/0088680_45135_510.jpeg',
   '1253537':'https://caterpillar.scene7.com/is/image/Caterpillar/CM20220428-29938-02375?fmt=WebP&hei=960&iccembed=0&layer=COMP&op_sharpen=0&op_usm=1%2C1%2C6%2C0&printres=72&qlt=88%2C1&resmode=sharp2&wid=960',
-  '2267683':'https://advancedtruckparts.com/cdn/shop/files/10r-9095-cat-24-volts-alternator-advanced-truck-parts-48695_1200x1200.jpg?v=1755233460'
+  '2267683':'https://advancedtruckparts.com/cdn/shop/files/10r-9095-cat-24-volts-alternator-advanced-truck-parts-48695_1200x1200.jpg?v=1755233460',
+  '1930980':'https://caterpillar.scene7.com/is/image/Caterpillar/CM20210817-4cc68-3e267?fmt=WebP&hei=960&wid=960',
+  '5582101':'https://caterpillar.scene7.com/is/image/Caterpillar/CM20201019-c2af1-79b6c?fmt=WebP&hei=960&wid=960',
+  '1727767':'https://caterpillar.scene7.com/is/image/Caterpillar/C10533255?fmt=WebP&hei=960&wid=960',
+  '1340467':'https://caterpillar.scene7.com/is/image/Caterpillar/CM20170508-76204-57647?fmt=WebP&hei=960&wid=960',
+  '7W1713':'https://caterpillar.scene7.com/is/image/Caterpillar/CM20201123-2f512-06954?fmt=WebP&hei=960&wid=960'
 };
 const rows=offRoadCatalogText.trim().split('\n').map(line=>{
     const [sku,...name]=line.split('|');
