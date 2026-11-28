@@ -79,3 +79,15 @@ These official image URLs identify the part shown on the corresponding Cat produ
 | 9R-7710 | Frame Assembly | https://irondt.com/product/9r7710/ | https://pim.irondt.com:8443/ec/images/1/product/2d/32/176168-9r7710.webp | Specialist supplier page title and primary product image explicitly identify 9R7710 |
 
 The Cat Parts Store pages for 9R-7710, 6G-5533 and 8J-6155 returned a generic fallback image while marking the parts discontinued; those fallback images were deliberately rejected. The 8J6155 source found at 777parts is a parts diagram, not a product photograph, and was not mapped. 6G5533 remains without a new image until a product-specific image can be verified. Image presence does not imply availability or fitment.
+
+
+## Exact-SKU official Caterpillar image additions (2026-11-28, batch 3)
+
+| Part number | Cat product description | Official Cat product page | Official image |
+|---|---|---|---|
+| 4W-5405 | Oil Cooler Core | https://parts.cat.com/en/catcorp/product/4W-5405 | https://caterpillar.scene7.com/is/image/Caterpillar/CM20201225-e9ee7-9d746 |
+| 9G-9175 | 670mm OD Final Drive Carrier | https://parts.cat.com/en/catcorp/product/9G-9175 | https://caterpillar.scene7.com/is/image/Caterpillar/CM20200529-ad5b1-079ac |
+| 352-0211 | Pump Group-Water | https://parts.cat.com/en/catcorp/product/352-0211 | https://caterpillar.scene7.com/is/image/Caterpillar/C10539024 |
+| 360-8960 | Engine Fuel Filter Element | https://parts.cat.com/en/catcorp/product/360-8960 | https://caterpillar.scene7.com/is/image/Caterpillar/CM20180403-40211-08659 |
+
+Each page returned HTTP 200 and its exact part-number heading plus the mapped image. These are official Cat-hosted image assets; image presence is not a stock, price, condition, or machine-fitment claim.
