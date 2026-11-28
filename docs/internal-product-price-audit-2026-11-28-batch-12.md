@@ -11,9 +11,9 @@ No freight, customs, taxes or bank charges have been added.
 | 102-8392 | Water Temperature Regulator | CNY 247 | 37.10 | 61.21 | 5 days; China/Rest | Not specified | https://shop.geartechsol.com/en/products/spare-parts/engines/engine-cooling-system/cooling-system-water-pumps-components/ |
 | 102-8802 | Receptacle Connector (2-pin) | CNY 41 | 6.16 | 10.16 | 5 days; Moscow/China/Rest | Not specified | https://shop.geartechsol.com/en/products/upgrade-repair-kits/upgrade-repair-kits-repair-service-kits/repair-service-kits-elect-elec-repair-service-kits/ |
 | 102-8805 | Receptacle Connector (6-pin) | CNY 75 | 11.27 | 18.59 | 5 days; Moscow/China/Rest | Not specified | https://shop.geartechsol.com/en/products/upgrade-repair-kits/upgrade-repair-kits-repair-service-kits/repair-service-kits-elect-elec-repair-service-kits/ |
-| 103-5423 | Seat Rubber Block | CNY 858 | 128.87 | 212.64 | 35 days; Moscow/China/Rest | Cat Reman (official Cat page flags remanufactured) | https://shop.geartechsol.com/en/products/hw-seals-consumables/hw-seals-consumables-hardware/hardware-isolation-mounts/ |
+| 103-5423 | Seat Rubber Block | CNY 858 | 128.87 | WITHHELD (calculated $212.64) | 35 days; Moscow/China/Rest | CONFLICT: GearTech says New original; Cat Parts Store flags Remanufactured | https://shop.geartechsol.com/en/products/hw-seals-consumables/hw-seals-consumables-hardware/hardware-isolation-mounts/ |
 
-## Terms
+## Hold — 103-5423\nGearTech product detail says `Condition: New original part`, while the official Cat Parts Store page flags the same part as `Remanufactured`. The $212.64 Amoot calculation was therefore removed from `public.products.price_usd` pending supplier clarification. Do not republish until the condition is reconciled.\n\n## Terms
 - Supplier listing descriptions do not specify genuine/aftermarket condition. Do not label these as genuine OEM without separate proof.
 - Prices and availability are provisional catalogue snapshots. Confirm supplier quotation, condition and stock before order.
 - GearTech currently displays a notice about its November 2 server/database incident and restoration.
