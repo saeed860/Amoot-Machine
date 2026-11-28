@@ -68,3 +68,14 @@ The following five product image URLs were added to `verifiedPartImages` after f
 | 7W-1713 | Oil Cooler Core | https://parts.cat.com/en/catcorp/product/7W-1713 | https://caterpillar.scene7.com/is/image/Caterpillar/CM20201123-2f512-06954 |
 
 These official image URLs identify the part shown on the corresponding Cat product page. They do not establish local stock, sale condition, price, or fitment for a particular machine; equipment compatibility must still be checked by serial number and configuration. Review Caterpillar image-use terms before commercial redistribution.
+
+
+## Additional exact-SKU product image mappings (2026-11-28, batch 2)
+
+| Part number | Product match | Source page | Image source | Verification |
+|---|---|---|---|---|
+| 4P-2942 | Camshaft Kit | https://parts.cat.com/en/catcorp/product/4P-2942 | https://caterpillar.scene7.com/is/image/Caterpillar/CM20150701-29795-53038 | Official Cat product page title and image match the SKU |
+| 8N-7005 | Fuel Valve Nozzle | https://parts.cat.com/en/catcorp/product/8N-7005 | https://caterpillar.scene7.com/is/image/Caterpillar/C10543220 | Official Cat product page title, description and image match the SKU |
+| 9R-7710 | Frame Assembly | https://irondt.com/product/9r7710/ | https://pim.irondt.com:8443/ec/images/1/product/2d/32/176168-9r7710.webp | Specialist supplier page title and primary product image explicitly identify 9R7710 |
+
+The Cat Parts Store pages for 9R-7710, 6G-5533 and 8J-6155 returned a generic fallback image while marking the parts discontinued; those fallback images were deliberately rejected. The 8J6155 source found at 777parts is a parts diagram, not a product photograph, and was not mapped. 6G5533 remains without a new image until a product-specific image can be verified. Image presence does not imply availability or fitment.
