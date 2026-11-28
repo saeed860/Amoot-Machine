@@ -530,7 +530,10 @@ const verifiedPartImages={
   '5582101':'https://caterpillar.scene7.com/is/image/Caterpillar/CM20201019-c2af1-79b6c?fmt=WebP&hei=960&wid=960',
   '1727767':'https://caterpillar.scene7.com/is/image/Caterpillar/C10533255?fmt=WebP&hei=960&wid=960',
   '1340467':'https://caterpillar.scene7.com/is/image/Caterpillar/CM20170508-76204-57647?fmt=WebP&hei=960&wid=960',
-  '7W1713':'https://caterpillar.scene7.com/is/image/Caterpillar/CM20201123-2f512-06954?fmt=WebP&hei=960&wid=960'
+  '7W1713':'https://caterpillar.scene7.com/is/image/Caterpillar/CM20201123-2f512-06954?fmt=WebP&hei=960&wid=960',
+  '4P2942':'https://caterpillar.scene7.com/is/image/Caterpillar/CM20150701-29795-53038?fmt=WebP&hei=960&wid=960',
+  '8N7005':'https://caterpillar.scene7.com/is/image/Caterpillar/C10543220?fmt=WebP&hei=960&wid=960',
+  '9R7710':'https://pim.irondt.com:8443/ec/images/1/product/2d/32/176168-9r7710.webp'
 };
 const rows=offRoadCatalogText.trim().split('\n').map(line=>{
     const [sku,...name]=line.split('|');
